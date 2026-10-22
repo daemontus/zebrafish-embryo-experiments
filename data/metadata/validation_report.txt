@@ -1,0 +1,17 @@
+OK   Drop-seq: 39,505 unique cell IDs
+OK   Drop-seq: 23,974 unique gene symbols
+OK   Drop-seq: every cell ID encodes stage/batch/barcode
+OK   SMART-seq2: 416 unique UMI cell IDs
+OK   SMART-seq2: 328 unique FPKM cell IDs
+OK   SMART-seq2: FPKM cells are a subset of UMI cells
+OK   SMART-seq2: 88 cells (oep p0) have UMI counts but no FPKM
+OK   10xWT6S: MatrixMarket header
+OK   10xWT6S: 30,585 genes match genes.tsv
+OK   10xWT6S: 3,000 barcodes match barcodes.tsv
+OK   10xWT6S: barcodes are unique
+OK   10xMZoep6S: MatrixMarket header
+OK   10xMZoep6S: 30,585 genes match genes.tsv
+OK   10xMZoep6S: 2,200 barcodes match barcodes.tsv
+OK   10xMZoep6S: barcodes are unique
+
+RESULT: PASS

@@ -1,0 +1,6 @@
+series	description	matrix_type	relative_path	features	observations	notes
+GSE106474	Drop-seq, wild type, 12 stages	UMI counts (genes x cells)	GSE106474/GSE106474_UMICounts.txt.gz	23,974 genes	39,505 cells	Main atlas. Cell names encode stage, batch and replicate.
+GSE106466	SMART-seq2, WT + MZoep, 50% epiboly	UMI counts (genes x cells)	GSE106466/GSE106466_SS2_umi_cnts.txt.gz	19,205 genes	416 cells	Full-length, 5' enriched. 364 MZoep + 52 WT cells.
+GSE106466	SMART-seq2, WT + MZoep, 50% epiboly	FPKM (genes x cells)	GSE106466/GSE106466_SS2_fpkm.txt.gz	25,208 genes	328 cells	FPKM values; MZoep p0 batch is absent (no FPKM for those 88 cells).
+GSE106587	10x Genomics, WT 6-somite	sparse MatrixMarket (genes x barcodes)	GSE106587/GSM3084402_10xWT6S_matrix.mtx.gz	30,585 genes	3,000 barcodes	Genes have Ensembl ID + symbol.
+GSE106587	10x Genomics, MZoep 6-somite	sparse MatrixMarket (genes x barcodes)	GSE106587/GSM3084403_10xMZoep6S_matrix.mtx.gz	30,585 genes	2,200 barcodes	Genes have Ensembl ID + symbol.

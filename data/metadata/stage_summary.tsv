@@ -1,0 +1,15 @@
+dataset	stage	hours_post_fertilization	n_cells_or_barcodes	n_geo_samples
+Drop-seq	high	3.3	311	2
+Drop-seq	oblong	3.8	200	2
+Drop-seq	dome	4.3	1174	1
+Drop-seq	30% epiboly	4.7	1506	2
+Drop-seq	50% epiboly	5.3	5864	4
+Drop-seq	shield	6.0	1046	1
+Drop-seq	60% epiboly	7.0	4201	3
+Drop-seq	75% epiboly	8.0	6324	3
+Drop-seq	90% epiboly	9.0	5626	3
+Drop-seq	bud	10.0	7162	4
+Drop-seq	3-somite	11.0	1631	1
+Drop-seq	6-somite	12.0	4460	2
+SMART-seq2	50% epiboly	5.3	416	416
+10x Genomics	6-somite	12.0	5200	2

@@ -1,0 +1,12 @@
+# Local data (not versioned)
+data/raw/
+data/processed/
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Downloaded archives / temporary files
+*.part
