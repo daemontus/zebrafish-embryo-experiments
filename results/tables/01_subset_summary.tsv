@@ -1,0 +1,14 @@
+metric	value
+source	GSE106474 (Drop-seq, wild type)
+stages	high; oblong; dome; 30% epiboly; 50% epiboly; shield
+hpf_min	3.3
+hpf_max	6.0
+n_cells	10101
+n_genes	23974
+n_nonzero_entries	19489159
+matrix_density	0.08048004798651333
+total_counts	53969493
+median_counts_per_cell	4541.0
+median_genes_per_cell	1829.0
+min_counts_per_cell	838
+max_counts_per_cell	34299

@@ -1,0 +1,9 @@
+metric	value
+n_cells	10101
+n_hvg	2000
+n_pcs	50
+batch_key	sequencing_batch
+harmony_max_iter	20
+n_neighbors	15
+leiden_resolution	0.5
+n_leiden_harmony_clusters	9

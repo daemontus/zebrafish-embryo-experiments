@@ -1,0 +1,5 @@
+embedding	labels	silhouette	n_cells
+X_pca	stage	0.03193008527159691	5000
+X_pca	sequencing_batch	0.015260369516909122	5000
+X_pca_harmony	stage	0.01593295470132945	5000
+X_pca_harmony	sequencing_batch	-0.03161903452002915	5000

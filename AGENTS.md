@@ -17,11 +17,15 @@ Repository root: `/home/xpastva/zebrafish-early`
 - Downloaded GEO SOFT/series-matrix metadata and built cell-level metadata tables.
 - Verified gzip integrity, SHA-256 checksums, matrix dimensions, and ID
   uniqueness (`data/metadata/validation_report.txt`: **PASS**).
-- **No QC, filtering, normalisation, or modelling has been run yet.** The files
-  in `data/raw/` are the original GEO processed matrices.
-- No Python virtual environment was needed for this step; all scripts use only
-  the Python 3.12 standard library.
-- No API keys or authentication were required (GEO is public).
+- Built the **3.3–6.0 hpf Drop-seq subset**: 10,101 cells × 23,974 genes, all
+  six stages from high through shield. Raw and processed AnnData objects are in
+  `data/processed/`.
+- Ran QC summaries and UMAP sanity checks (stages 01–04). QC is clean; the UMAP
+  reveals strong **stage–batch confounding** (see caveats below).
+- **No Boolean model has been fitted yet.**
+- Created a project-local `.venv` with scanpy/anndata and documented exact
+  versions in `requirements.lock.txt`.
+- No API keys or authentication are required (GEO is public).
 
 ## Dataset: GSE106587
 
@@ -99,15 +103,32 @@ data/
     soft/                         # GEO SOFT family files (sample metadata)
     series_matrix/                # GEO series-matrix files
     filelist_GSE106587.txt        # GEO file listing/provenance
-  processed/                      # for derived AnnData etc. (gitignored)
+  processed/                      # derived AnnData objects (gitignored)
+    dropseq_3.3-6.0hpf_raw.h5ad
+    dropseq_3.3-6.0hpf_qc.h5ad
+    dropseq_3.3-6.0hpf_umap.h5ad
+    dropseq_3.3-6.0hpf_umap_harmony.h5ad
+results/
+  figures/                        # 02_*, 03_*, 04_* QC/UMAP figures
+  tables/                         # stage-wise QC, UMAP coords, cluster tables
 scripts/
   download_gse106587.sh           # idempotent download + extract + checksums
   build_metadata.py               # SOFT → cell metadata tables (stdlib)
   validate_data.py                # integrity checks (stdlib)
+  00_setup_env.sh                 # create .venv and install pinned requirements
+  01_build_dropseq_subset.py      # 3.3–6.0 hpf subset → AnnData
+  02_qc_summary.py                # QC metrics, tables, histograms
+  03_umap_sanity.py               # normalise, PCA, UMAP, Leiden (uncorrected)
+  04_umap_harmony.py              # diagnostic Harmony-corrected UMAP
+  run_pipeline.sh                 # run stages 01–04 in order
+  pipeline_utils.py               # shared paths/constants/plot helpers
+README.md                         # human-oriented pipeline instructions
+requirements.txt                  # top-level pins + rationale
+requirements.lock.txt             # exact full environment (pip freeze)
 ```
 
-`data/raw/` is gitignored because of size. Keep derived objects in
-`data/processed/`.
+`data/raw/` and `data/processed/` are gitignored because of size. Keep derived
+objects in `data/processed/`; small QC/UMAP tables and figures in `results/`.
 
 ## Reproduce the download and metadata
 
@@ -131,6 +152,23 @@ python3 scripts/validate_data.py
 The download script is safe to re-run: complete files are skipped. If a file
 was partially downloaded, remove it and re-run.
 
+### Run the analysis pipeline
+
+```bash
+# One-time environment setup (creates .venv, installs exact versions).
+bash scripts/00_setup_env.sh
+
+# Run stages 01-04. Existing stage-01/03/04 outputs are reused.
+bash scripts/run_pipeline.sh
+
+# Recompute everything from the raw matrix (~10 min).
+bash scripts/run_pipeline.sh --force
+```
+
+Stage 01 reads the full 39,505-cell matrix and needs roughly 8–10 GB RAM; the
+compressed TSV is ~1 GB and pandas parsing takes ~6.5 min on this machine.
+Stages 02–04 are much faster. See `README.md` for the stage table and outputs.
+
 Source URLs (public, no auth):
 
 - `https://ftp.ncbi.nlm.nih.gov/geo/series/GSE106nnn/GSE106474/suppl/`
@@ -140,39 +178,73 @@ Source URLs (public, no auth):
 
 ## Environment
 
-This step deliberately uses only system tools:
+System tools used for the download and metadata step:
 
 | Tool | Version | Used for |
 |---|---|---|
-| Python | 3.12.3 (`/usr/bin/python3`) | metadata parsing, validation |
+| Python | 3.12.3 (`/usr/bin/python3`) | metadata parsing, validation, pipeline |
 | curl | 8.5.0 | downloads |
 | gzip | 1.12 | integrity checks |
 | tar | GNU tar 1.35 | unpacking 10x archive |
 | git | 2.43.0 | repository |
 
-No `.venv` exists. No packages were installed by this step. The scripts use only
-`csv`, `gzip`, `collections`, `pathlib`, and `sys`.
-
-The **system** Python already provides some scientific packages (checked
-2026-10-22): `numpy 2.3.5`, `pandas 3.0.5`, `scipy 1.18.0`. They were not used
-for the download/metadata scripts and should not be assumed sufficient for the
-analysis. `anndata`, `scanpy`, and `h5py` are **not installed**.
-
-If later work needs single-cell tooling, create a project-local environment and
-document the exact versions here:
+The analysis pipeline uses a **project-local `.venv`** created with
+`python3 -m venv .venv` (not `--system-site-packages`). Install/reinstall with:
 
 ```bash
-python3 -m venv .venv
-.venv/bin/pip install --upgrade pip
-.venv/bin/pip install scanpy anndata numpy pandas scipy h5py
+bash scripts/00_setup_env.sh
 ```
 
-(That stack is **not installed yet**; do not assume it is available.) The
-machine has 30 CPUs and ~125 GB RAM, and 4.6 TB free on `/home/xpastva`.
+Exact versions are frozen in `requirements.lock.txt`; top-level rationale is in
+`requirements.txt`. Key packages:
+
+| Package | Version | Why |
+|---|---|---|
+| scanpy | 1.12.4 | single-cell QC, PCA, neighbours, UMAP, Leiden |
+| anndata | 0.13.4 | `.h5ad` containers |
+| numpy | 2.5.4 | arrays |
+| pandas | 3.0.6 | metadata tables |
+| scipy | 1.18.1 | sparse matrices |
+| matplotlib | 3.11.2 | QC/UMAP figures |
+| seaborn | 0.13.2 | violin plots |
+| h5py | 3.16.0 | AnnData I/O |
+| scikit-learn | 1.9.1 | PCA/UMAP backends, silhouette scores |
+| numba / llvmlite | 0.68.0 / 0.50.0 | UMAP acceleration |
+| umap-learn / pynndescent | 0.5.12 / 0.6.0 | UMAP |
+| leidenalg / igraph | 0.12.0 / 1.0.0 | Leiden clustering |
+| harmonypy | 2.1.0 | diagnostic batch correction (stage 04) |
+
+**harmonypy compatibility note:** scanpy 1.12's
+`sc.external.pp.harmony_integrate` wrapper assumes harmonypy's old `Z_corr`
+orientation. harmonypy 2.1.0 returns `(n_cells, n_pcs)`, so stage 04 calls
+`harmonypy.run_harmony()` directly and normalises the orientation. Do not
+replace it with the scanpy wrapper without checking this.
+
+The machine has 30 CPUs and ~125 GB RAM, and 4.6 TB free on `/home/xpastva`.
+`requirements.lock.txt` was generated with `pip freeze` on 2026-10-22.
 
 ## How to load the data
 
-### Drop-seq (main atlas)
+### Processed subset (recommended starting point)
+
+```python
+import scanpy as sc
+
+adata = sc.read_h5ad("data/processed/dropseq_3.3-6.0hpf_umap.h5ad")
+print(adata)                    # 10,101 cells x 18,893 genes (post min_cells filter)
+adata.obs.head()                # stage, hpf, batch, QC metrics, Leiden
+adata.obsm["X_umap"]            # UMAP coordinates
+adata.layers["counts"]          # raw UMI counts (sparse)
+adata.layers["lognorm"]         # log1p(CP10k) values
+adata.X                         # log-normalised values (same as lognorm)
+```
+
+For raw, unfiltered counts of the same cells use
+`data/processed/dropseq_3.3-6.0hpf_qc.h5ad` (10,101 × 23,974; `X` is raw
+counts). Stage 03/04 objects store the full log-normalised matrix in `X`, raw
+counts in `layers["counts"]`, and UMAP/PCA in `obsm`.
+
+### Raw Drop-seq atlas
 
 The matrix is **genes in rows, cells in columns**, tab-separated, with the first
 column holding gene symbols:
@@ -253,8 +325,26 @@ exact.
 
 ## Caveats and gotchas
 
-- **Raw counts only.** No cell/gene filtering, doublet removal, normalisation,
-  batch correction, or cell-type labels have been applied.
+- **Strong stage–batch confounding in the 3.3–6.0 hpf subset.** All
+  high/oblong/dome/30%-epiboly/shield cells are DS5; all 50%-epiboly cells are
+  DS2–DS4. At the DS5 vs DS2–DS4 level, stage and batch are perfectly
+  confounded (no stage appears in both groups), so their effects are not
+  separately identifiable from this subset alone. The uncorrected UMAP
+  therefore separates DS5 from DS2–DS4 rather than forming a clean
+  developmental trajectory. Harmony reduces batch structure but also erases
+  stage structure and creates disconnected islands (stage silhouette
+  0.032 → 0.016; batch silhouette 0.015 → −0.032). Treat stage 04 as a
+  diagnostic only; do not use it for biological interpretation.
+- **QC state.** Stage 02 computes metrics but removes no cells. Stage 03 keeps
+  all 10,101 cells (`min_genes=200`, `min_counts=500` are satisfied by every
+  cell) and drops genes detected in <3 cells (18,893 remain). No doublet
+  removal, no cell-type labels, no final Boolean-model preprocessing.
+- **No mitochondrial genes** in the GEO Drop-seq feature list; `pct_counts_mt`
+  cannot be computed. Ribosomal fraction (`RPL*`/`RPS*`, 94 genes) is provided
+  as a technical proxy and is bimodal / stage-dependent.
+- **Raw counts are preserved** in `layers["counts"]` in stage 03/04 objects;
+  `X` and `layers["lognorm"]` are log1p(CP10k). In stage 01/02 objects `X` is
+  raw UMI counts.
 - **Gene identifiers differ by assay.** Drop-seq uses gene symbols only.
   10x uses Ensembl IDs + symbols. SMART-seq2 uses symbols. Check orthology/
   symbol consistency before merging assays.
@@ -272,14 +362,15 @@ exact.
 
 ## Suggested next steps
 
-1. Convert the Drop-seq matrix to a sparse AnnData object in `data/processed/`
-   and record the conversion script.
-2. QC-filter cells/genes, normalise, and inspect stage composition; consider
-   downsampling per stage for a balanced Boolean model.
-3. Restrict to ≤6 hpf for the initial model (high → shield; 60% epiboly is
-   7 hpf) and decide explicitly whether to include 75% epiboly (8 hpf) as a
-   validation/out-of-window time point.
-4. If 1–3 hpf must be modelled, identify and download an additional early
+1. Decide how to handle stage–batch confounding before trajectory/Boolean
+   inference (model stage explicitly, include batch as a covariate, or use a
+   design that acknowledges DS5 vs DS2–DS4).
+2. Define Boolean states from marker/regulator genes and candidate
+   regulator–target links; use `layers["counts"]` for binarisation decisions.
+3. If 1–3 hpf must be modelled, identify and download an additional early
    embryo dataset; GSE106587 cannot cover that interval.
-5. Define binarisation thresholds and candidate regulator–target links before
-   fitting the Boolean network.
+4. Validate inferred networks against held-out stages and published zebrafish
+   developmental annotations.
+5. Keep the numbered pipeline convention: add new stages as
+   `scripts/05_*.py`, document inputs/outputs in `README.md`, and update this
+   file when the environment or data change.

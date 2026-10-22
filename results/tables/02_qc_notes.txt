@@ -1,0 +1,7 @@
+QC notes for dropseq_3.3-6.0hpf_raw.h5ad
+============================================
+cells: 10,101
+genes: 23,974
+ribosomal genes (RPL*/RPS*): 94
+mitochondrial genes: 0 in the GEO feature list; pct_counts_mt was not computed.
+No cells were removed at this stage. Stage 03 applies explicit min_genes/min_counts filters (which currently keep all cells) and a min_cells gene filter.

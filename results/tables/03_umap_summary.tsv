@@ -1,0 +1,16 @@
+metric	value
+n_cells_input	10101.0
+n_genes_input	23974.0
+n_cells_after_qc	10101.0
+n_genes_after_qc	18893.0
+min_genes	200.0
+min_counts	500.0
+min_cells	3.0
+n_highly_variable_genes	2000.0
+n_pcs	50.0
+n_pcs_neighbors	30.0
+n_neighbors	15.0
+leiden_resolution	0.5
+n_leiden_clusters	13.0
+median_counts_per_cell	4541.0
+median_genes_per_cell	1829.0
