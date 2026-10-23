@@ -40,7 +40,7 @@ This creates `.venv/` and installs exact versions from
 `requirements.lock.txt` (top-level pins and rationale are in
 `requirements.txt`). Key versions: Python 3.12.3, scanpy 1.12.4, anndata
 0.13.4, numpy 2.5.4, pandas 3.0.6, scipy 1.18.1, harmonypy 2.1.0,
-matplotlib 3.11.2. No API keys or external services are required after the data
+matplotlib 3.11.2, scvi-tools 1.5.1, torch 2.14.1. No API keys or external services are required after the data
 download.
 
 ## Pipeline
@@ -61,6 +61,7 @@ bash scripts/run_pipeline.sh --force  # recompute all stages
 | 05 | `scripts/05_dataset_structure.py` | GEO Drop-seq TSV (streamed) + metadata + SOFT | stage × batch × library tables/figures for the full atlas | ~4 min (first run), seconds after |
 | 06 | `scripts/06_library_clustering.py` | stage-02 h5ad | per-library Leiden + UMAP, cluster QC tables, `data/processed/libraries/*.h5ad` | ~2 min |
 | 07 | `scripts/07_merged_contexts.py` | stage-02 h5ad + stage-06 labels | joint UMAP/Leiden for DS5 (across time) and 50% epiboly (across batches); local-vs-joint, centroid-correlation and kNN-mapping comparisons | ~40 s |
+| 08 | `scripts/08_batch_correction_50pct.py` | stage-07 50% epiboly object | uncorrected vs Harmony vs scVI (3 seeds), batch-mixing and biology-conservation metrics | ~8 min (scVI on CPU), ~1 min cached |
 
 Individual stages:
 
@@ -72,9 +73,10 @@ Individual stages:
 .venv/bin/python scripts/05_dataset_structure.py
 .venv/bin/python scripts/06_library_clustering.py
 .venv/bin/python scripts/07_merged_contexts.py
+.venv/bin/python scripts/08_batch_correction_50pct.py
 ```
 
-Stages 06 and 07 also accept `--force`. Stage 01 is the expensive step (reading the 1 GB compressed TSV). Stages 01, 03
+Stages 06–08 also accept `--force`. Stage 01 is the expensive step (reading the 1 GB compressed TSV). Stages 01, 03
 and 04 accept `--force`; without it they skip if their output exists. Stage 02
 always regenerates its tables/figures. Stage 01 needs roughly 8–10 GB of RAM.
 
@@ -111,6 +113,12 @@ always regenerates its tables/figures. Stage 01 needs roughly 8–10 GB of RAM.
   The two contexts are DS5 across timepoints (3.3–6.0 hpf) and 50% epiboly
   across batches/replicates. See
   [results/07_merged_contexts.md](results/07_merged_contexts.md).
+- **08 — 50% epiboly batch correction:** compares uncorrected PCA, Harmony
+  and scVI, with batch key = library, on the four 50% epiboly libraries.
+  Scoring uses library mixing (iLISI, cluster evenness) and preservation of
+  the stage-07 cross-library populations (cLISI, silhouette, mutual kNN
+  matches, recall/purity). See
+  [results/08_batch_correction_50pct.md](results/08_batch_correction_50pct.md).
 
 ## Key QC and sanity-check findings
 

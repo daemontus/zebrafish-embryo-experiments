@@ -8,7 +8,9 @@
 # h5py  AnnData .h5ad I/O
 # scikit-learn/numba/umap-learn/pynndescent  PCA/UMAP backends
 # leidenalg/igraph  Leiden clustering (sanity-check clusters)
-# harmonypy  batch-corrected sanity-check embedding (stage 04)
+# harmonypy  batch-corrected embeddings (stage 04 diagnostic, stage 08)
+# scvi-tools/torch  scVI batch correction of the 50% epiboly libraries (stage 08)
+# scikit-misc  seurat_v3 HVG selection on raw counts (stage 08 scVI input)
 scanpy==1.12.4
 anndata==0.13.4
 numpy==2.5.4
@@ -24,3 +26,6 @@ pynndescent==0.6.0
 leidenalg==0.12.0
 igraph==1.0.0
 harmonypy==2.1.0
+scvi-tools==1.5.1
+torch==2.14.1
+scikit-misc==0.5.3

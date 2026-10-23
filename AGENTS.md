@@ -36,6 +36,11 @@ Repository root: `/home/xpastva/zebrafish-early`
   populations merge across batches. The bulk ectoderm separates by library
   (DS2 most). DS5 is organised by time, with EVL and margin bridging stages.
   See `results/07_merged_contexts.md`.
+- Stage 08 batch-corrects **only the 50% epiboly libraries**, with batch key
+  = library. Harmony and scVI both remove the library split of the bulk
+  ectoderm while keeping p53/endoderm/margin/EVL/prechordal intact.
+  Harmony is the recommended default; scVI is sharper but varies by seed.
+  See `results/08_batch_correction_50pct.md`.
 - **No Boolean model has been fitted yet.**
 - Created a project-local `.venv` with scanpy/anndata and documented exact
   versions in `requirements.lock.txt`.
@@ -124,6 +129,7 @@ data/
     dropseq_3.3-6.0hpf_umap_harmony.h5ad
     libraries/<library>.h5ad      # stage 06, one per library (e.g. ZF50_WT_DS4b)
     07_ds5_joint.h5ad, 07_50pct_joint.h5ad  # stage 07 merged contexts
+    08_50pct_corrected.h5ad       # stage 08: X_harmony, X_scvi_s{0,1,2}, joint_* labels
 results/
   figures/                        # 02_*, 03_*, 04_* QC/UMAP figures
   tables/                         # stage-wise QC, UMAP coords, cluster tables
@@ -131,6 +137,7 @@ results/
   06_library_clustering.md        # per-library clustering results + interpretation
   figures/06_libraries/           # one UMAP/QC panel per library
   07_merged_contexts.md           # merged-context results + interpretation
+  08_batch_correction_50pct.md    # batch-correction comparison + verdict
 scripts/
   download_gse106587.sh           # idempotent download + extract + checksums
   build_metadata.py               # SOFT → cell metadata tables (stdlib)
@@ -143,6 +150,8 @@ scripts/
   05_dataset_structure.py         # full-atlas stage x batch x library overview
   06_library_clustering.py        # per-library Leiden/UMAP + cluster QC
   07_merged_contexts.py           # DS5-across-time / 50%-across-batch joint embeddings
+  08_batch_correction_50pct.py    # Harmony vs scVI on the 50% epiboly libraries
+  cluster_compare.py              # shared kNN-mapping/composition helpers (07, 08)
   run_pipeline.sh                 # run stages 01–04 in order
   pipeline_utils.py               # shared paths/constants/plot helpers
 README.md                         # human-oriented pipeline instructions
@@ -181,7 +190,7 @@ was partially downloaded, remove it and re-run.
 # One-time environment setup (creates .venv, installs exact versions).
 bash scripts/00_setup_env.sh
 
-# Run stages 01-07. Existing stage-01/03/04 outputs are reused.
+# Run stages 01-08. Existing stage-01/03/04 outputs are reused.
 bash scripts/run_pipeline.sh
 
 # Recompute everything from the raw matrix (~10 min).
@@ -235,7 +244,9 @@ Exact versions are frozen in `requirements.lock.txt`; top-level rationale is in
 | numba / llvmlite | 0.68.0 / 0.50.0 | UMAP acceleration |
 | umap-learn / pynndescent | 0.5.12 / 0.6.0 | UMAP |
 | leidenalg / igraph | 0.12.0 / 1.0.0 | Leiden clustering |
-| harmonypy | 2.1.0 | diagnostic batch correction (stage 04) |
+| harmonypy | 2.1.0 | batch correction (stage 04 diagnostic, stage 08) |
+| scvi-tools / torch | 1.5.1 / 2.14.1 | scVI batch correction (stage 08, CPU) |
+| scikit-misc | 0.5.3 | `seurat_v3` HVG selection on raw counts |
 
 **harmonypy compatibility note:** scanpy 1.12's
 `sc.external.pp.harmony_integrate` wrapper assumes harmonypy's old `Z_corr`
@@ -380,6 +391,11 @@ exact.
   whichever cluster is closest (hubs), not to the same cell type. Use
   library-centred centroid correlation, or a distance-aware matching, for
   cross-stage links.
+- **Batch correction is only valid within 50% epiboly.** Stage 08's population
+  labels (`POPULATIONS` in the script) are hand-assigned from the stage-07
+  analysis; update them if stage 06 is re-run with different parameters
+  (local cluster IDs would change). scVI is trained on CPU
+  (`accelerator="cpu"`) for reproducibility, even though MPS is available.
 - **Scrublet needs scikit-image only for automatic thresholds.** Stage 06
   passes a fixed `threshold`, uses only the continuous score, and adds no
   dependency.

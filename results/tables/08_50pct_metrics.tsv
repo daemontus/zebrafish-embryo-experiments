@@ -1,0 +1,6 @@
+method	seed	n_dims	n_joint_clusters	ilisi_all	ilisi_bulk	bulk_cluster_evenness	clisi_scored	clisi_p53	clisi_endoderm	clisi_margin	clisi_EVL	clisi_prechordal	clisi_bulk	silhouette_scored	silhouette_p53	silhouette_endoderm	silhouette_margin	silhouette_EVL	silhouette_prechordal	silhouette_bulk	mutual_pairs_confident	mutual_frac_confident	mean_min_match_confident	mean_recall_confident	mean_purity_confident
+uncorrected		30	8	0.134	0.100	0.548	0.941	0.964	0.949	0.930	0.931	0.886	0.986	0.134	0.234	0.073	0.107	-0.141	0.316	0.215	23/25	0.920	0.621	0.851	0.687
+harmony		30	8	0.746	0.701	0.996	0.935	0.970	0.945	0.931	0.928	0.854	0.981	0.151	0.289	0.081	0.118	-0.128	0.298	0.248	24/25	0.960	0.659	0.914	0.687
+scvi	0.000	10	7	0.641	0.593	0.991	0.910	0.897	0.927	0.888	0.929	0.843	0.974	0.170	0.261	0.101	0.144	0.171	0.232	0.114	23/25	0.920	0.562	0.823	0.595
+scvi	1.000	10	8	0.593	0.554	0.939	0.915	0.902	0.919	0.892	0.936	0.862	0.977	0.176	0.234	0.090	0.134	0.165	0.289	0.144	24/25	0.960	0.578	0.842	0.552
+scvi	2.000	10	8	0.660	0.634	0.967	0.905	0.889	0.919	0.891	0.935	0.824	0.975	0.160	0.211	0.070	0.156	0.141	0.251	0.130	23/25	0.920	0.545	0.841	0.709

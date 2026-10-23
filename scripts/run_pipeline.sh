@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Run the analysis pipeline in order (stages 01-07).
+# Run the analysis pipeline in order (stages 01-08).
 # Usage:  bash scripts/run_pipeline.sh [--force]
-#   --force  rebuild stage 01/03/04/06/07 outputs instead of reusing them
+#   --force  rebuild stage 01/03/04/06/07/08 outputs instead of reusing them
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -38,5 +38,8 @@ echo "== stage 06: per-library Leiden clustering =="
 
 echo "== stage 07: merged contexts (DS5 across time, 50% across batches) =="
 "$PY" scripts/07_merged_contexts.py "${ARGS[@]}"
+
+echo "== stage 08: 50% epiboly batch correction (Harmony, scVI) =="
+"$PY" scripts/08_batch_correction_50pct.py "${ARGS[@]}"
 
 echo "== pipeline complete =="

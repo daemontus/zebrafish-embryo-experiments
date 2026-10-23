@@ -1,0 +1,156 @@
+population	cluster_a	cluster_b	frac_a_to_b	frac_b_to_a	mutual	method	seed
+p53	50% DS2:6	50% DS3:6	0.981	0.539	True	uncorrected	
+p53	50% DS2:6	50% DS4:7	0.973	0.829	True	uncorrected	
+p53	50% DS2:6	50% DS4b:8	0.963	0.839	True	uncorrected	
+p53	50% DS3:6	50% DS4:7	0.609	0.961	True	uncorrected	
+p53	50% DS3:6	50% DS4b:8	0.561	0.968	True	uncorrected	
+p53	50% DS4:7	50% DS4b:8	0.899	0.944	True	uncorrected	
+endoderm	50% DS2:3	50% DS3:4	0.665	0.673	True	uncorrected	
+endoderm	50% DS2:3	50% DS4:3	0.669	0.657	True	uncorrected	
+endoderm	50% DS2:3	50% DS4b:5	0.610	0.658	True	uncorrected	
+endoderm	50% DS3:4	50% DS4:3	0.840	0.923	True	uncorrected	
+endoderm	50% DS3:4	50% DS4b:5	0.861	0.907	True	uncorrected	
+endoderm	50% DS4:3	50% DS4b:5	0.891	0.843	True	uncorrected	
+margin	50% DS2:4	50% DS3:3	0.539	0.583	True	uncorrected	
+margin	50% DS2:4	50% DS4:2	0.645	0.700	True	uncorrected	
+margin	50% DS2:4	50% DS4b:0	0.728	0.476	True	uncorrected	
+margin	50% DS3:3	50% DS4:2	0.755	0.632	True	uncorrected	
+margin	50% DS3:3	50% DS4b:0	0.886	0.539	True	uncorrected	
+margin	50% DS4:2	50% DS4b:0	0.838	0.591	True	uncorrected	
+EVL	50% DS2:5	50% DS3:7	0.992	0.981	True	uncorrected	
+EVL	50% DS2:5	50% DS4:6	1.000	0.262	False	uncorrected	
+EVL	50% DS2:5	50% DS4b:6	1.000	0.416	True	uncorrected	
+EVL	50% DS3:7	50% DS4:6	1.000	0.259	False	uncorrected	
+EVL	50% DS3:7	50% DS4b:6	1.000	0.406	True	uncorrected	
+EVL	50% DS4:6	50% DS4b:6	0.531	0.849	True	uncorrected	
+prechordal	50% DS4:8	50% DS4b:7	1.000	0.504	True	uncorrected	
+organizer	50% DS2:2	50% DS3:5	0.184	0.436	False	uncorrected	
+organizer	50% DS2:2	50% DS4:5	0.178	0.562	False	uncorrected	
+organizer	50% DS2:2	50% DS4b:3	0.376	0.478	True	uncorrected	
+organizer	50% DS3:5	50% DS4:5	0.372	0.483	True	uncorrected	
+organizer	50% DS3:5	50% DS4b:3	0.490	0.238	False	uncorrected	
+organizer	50% DS4:5	50% DS4b:3	0.539	0.197	False	uncorrected	
+p53	50% DS2:6	50% DS3:6	0.881	0.821	True	harmony	
+p53	50% DS2:6	50% DS4:7	0.863	0.930	True	harmony	
+p53	50% DS2:6	50% DS4b:8	0.815	0.993	True	harmony	
+p53	50% DS3:6	50% DS4:7	0.830	0.925	True	harmony	
+p53	50% DS3:6	50% DS4b:8	0.725	0.961	True	harmony	
+p53	50% DS4:7	50% DS4b:8	0.870	0.975	True	harmony	
+endoderm	50% DS2:3	50% DS3:4	0.642	0.674	True	harmony	
+endoderm	50% DS2:3	50% DS4:3	0.613	0.743	True	harmony	
+endoderm	50% DS2:3	50% DS4b:5	0.602	0.703	True	harmony	
+endoderm	50% DS3:4	50% DS4:3	0.799	0.966	True	harmony	
+endoderm	50% DS3:4	50% DS4b:5	0.835	0.974	True	harmony	
+endoderm	50% DS4:3	50% DS4b:5	0.906	0.855	True	harmony	
+margin	50% DS2:4	50% DS3:3	0.604	0.597	True	harmony	
+margin	50% DS2:4	50% DS4:2	0.760	0.681	True	harmony	
+margin	50% DS2:4	50% DS4b:0	0.816	0.484	True	harmony	
+margin	50% DS3:3	50% DS4:2	0.739	0.663	True	harmony	
+margin	50% DS3:3	50% DS4b:0	0.899	0.580	True	harmony	
+margin	50% DS4:2	50% DS4b:0	0.864	0.597	True	harmony	
+EVL	50% DS2:5	50% DS3:7	0.980	0.987	True	harmony	
+EVL	50% DS2:5	50% DS4:6	1.000	0.277	False	harmony	
+EVL	50% DS2:5	50% DS4b:6	1.000	0.459	True	harmony	
+EVL	50% DS3:7	50% DS4:6	1.000	0.275	True	harmony	
+EVL	50% DS3:7	50% DS4b:6	1.000	0.430	True	harmony	
+EVL	50% DS4:6	50% DS4b:6	0.609	0.843	True	harmony	
+prechordal	50% DS4:8	50% DS4b:7	1.000	0.566	True	harmony	
+organizer	50% DS2:2	50% DS3:5	0.184	0.444	False	harmony	
+organizer	50% DS2:2	50% DS4:5	0.169	0.592	False	harmony	
+organizer	50% DS2:2	50% DS4b:3	0.452	0.576	True	harmony	
+organizer	50% DS3:5	50% DS4:5	0.401	0.537	True	harmony	
+organizer	50% DS3:5	50% DS4b:3	0.506	0.243	False	harmony	
+organizer	50% DS4:5	50% DS4b:3	0.615	0.213	False	harmony	
+p53	50% DS2:6	50% DS3:6	0.802	0.519	True	scvi	0
+p53	50% DS2:6	50% DS4:7	0.829	0.696	True	scvi	0
+p53	50% DS2:6	50% DS4b:8	0.619	0.646	True	scvi	0
+p53	50% DS3:6	50% DS4:7	0.556	0.708	True	scvi	0
+p53	50% DS3:6	50% DS4b:8	0.386	0.726	True	scvi	0
+p53	50% DS4:7	50% DS4b:8	0.460	0.663	True	scvi	0
+endoderm	50% DS2:3	50% DS3:4	0.664	0.760	True	scvi	0
+endoderm	50% DS2:3	50% DS4:3	0.636	0.751	True	scvi	0
+endoderm	50% DS2:3	50% DS4b:5	0.615	0.762	True	scvi	0
+endoderm	50% DS3:4	50% DS4:3	0.795	0.872	True	scvi	0
+endoderm	50% DS3:4	50% DS4b:5	0.758	0.882	True	scvi	0
+endoderm	50% DS4:3	50% DS4b:5	0.763	0.807	True	scvi	0
+margin	50% DS2:4	50% DS3:3	0.484	0.513	True	scvi	0
+margin	50% DS2:4	50% DS4:2	0.607	0.590	True	scvi	0
+margin	50% DS2:4	50% DS4b:0	0.732	0.445	True	scvi	0
+margin	50% DS3:3	50% DS4:2	0.639	0.572	True	scvi	0
+margin	50% DS3:3	50% DS4b:0	0.816	0.510	True	scvi	0
+margin	50% DS4:2	50% DS4b:0	0.783	0.500	True	scvi	0
+EVL	50% DS2:5	50% DS3:7	0.988	1.000	True	scvi	0
+EVL	50% DS2:5	50% DS4:6	1.000	0.285	False	scvi	0
+EVL	50% DS2:5	50% DS4b:6	1.000	0.505	True	scvi	0
+EVL	50% DS3:7	50% DS4:6	1.000	0.275	False	scvi	0
+EVL	50% DS3:7	50% DS4b:6	1.000	0.492	True	scvi	0
+EVL	50% DS4:6	50% DS4b:6	0.524	0.773	True	scvi	0
+prechordal	50% DS4:8	50% DS4b:7	0.945	0.410	True	scvi	0
+organizer	50% DS2:2	50% DS3:5	0.172	0.412	False	scvi	0
+organizer	50% DS2:2	50% DS4:5	0.163	0.524	False	scvi	0
+organizer	50% DS2:2	50% DS4b:3	0.348	0.505	False	scvi	0
+organizer	50% DS3:5	50% DS4:5	0.380	0.460	True	scvi	0
+organizer	50% DS3:5	50% DS4b:3	0.482	0.220	False	scvi	0
+organizer	50% DS4:5	50% DS4b:3	0.578	0.218	False	scvi	0
+p53	50% DS2:6	50% DS3:6	0.827	0.602	True	scvi	1
+p53	50% DS2:6	50% DS4:7	0.792	0.779	True	scvi	1
+p53	50% DS2:6	50% DS4b:8	0.673	0.642	True	scvi	1
+p53	50% DS3:6	50% DS4:7	0.542	0.733	True	scvi	1
+p53	50% DS3:6	50% DS4b:8	0.444	0.621	True	scvi	1
+p53	50% DS4:7	50% DS4b:8	0.605	0.593	True	scvi	1
+endoderm	50% DS2:3	50% DS3:4	0.665	0.697	True	scvi	1
+endoderm	50% DS2:3	50% DS4:3	0.615	0.692	True	scvi	1
+endoderm	50% DS2:3	50% DS4b:5	0.599	0.689	True	scvi	1
+endoderm	50% DS3:4	50% DS4:3	0.780	0.859	True	scvi	1
+endoderm	50% DS3:4	50% DS4b:5	0.732	0.863	True	scvi	1
+endoderm	50% DS4:3	50% DS4b:5	0.772	0.773	True	scvi	1
+margin	50% DS2:4	50% DS3:3	0.433	0.518	True	scvi	1
+margin	50% DS2:4	50% DS4:2	0.634	0.638	True	scvi	1
+margin	50% DS2:4	50% DS4b:0	0.695	0.462	True	scvi	1
+margin	50% DS3:3	50% DS4:2	0.653	0.541	True	scvi	1
+margin	50% DS3:3	50% DS4b:0	0.790	0.529	True	scvi	1
+margin	50% DS4:2	50% DS4b:0	0.752	0.525	True	scvi	1
+EVL	50% DS2:5	50% DS3:7	0.996	1.000	True	scvi	1
+EVL	50% DS2:5	50% DS4:6	0.998	0.301	False	scvi	1
+EVL	50% DS2:5	50% DS4b:6	1.000	0.514	True	scvi	1
+EVL	50% DS3:7	50% DS4:6	1.000	0.292	True	scvi	1
+EVL	50% DS3:7	50% DS4b:6	1.000	0.487	True	scvi	1
+EVL	50% DS4:6	50% DS4b:6	0.511	0.756	True	scvi	1
+prechordal	50% DS4:8	50% DS4b:7	0.980	0.463	True	scvi	1
+organizer	50% DS2:2	50% DS3:5	0.181	0.432	False	scvi	1
+organizer	50% DS2:2	50% DS4:5	0.182	0.598	False	scvi	1
+organizer	50% DS2:2	50% DS4b:3	0.375	0.478	True	scvi	1
+organizer	50% DS3:5	50% DS4:5	0.389	0.480	True	scvi	1
+organizer	50% DS3:5	50% DS4b:3	0.465	0.203	False	scvi	1
+organizer	50% DS4:5	50% DS4b:3	0.601	0.211	False	scvi	1
+p53	50% DS2:6	50% DS3:6	0.767	0.512	True	scvi	2
+p53	50% DS2:6	50% DS4:7	0.752	0.602	True	scvi	2
+p53	50% DS2:6	50% DS4b:8	0.590	0.635	True	scvi	2
+p53	50% DS3:6	50% DS4:7	0.505	0.641	True	scvi	2
+p53	50% DS3:6	50% DS4b:8	0.377	0.614	True	scvi	2
+p53	50% DS4:7	50% DS4b:8	0.426	0.600	True	scvi	2
+endoderm	50% DS2:3	50% DS3:4	0.663	0.710	True	scvi	2
+endoderm	50% DS2:3	50% DS4:3	0.623	0.708	True	scvi	2
+endoderm	50% DS2:3	50% DS4b:5	0.599	0.684	True	scvi	2
+endoderm	50% DS3:4	50% DS4:3	0.785	0.859	True	scvi	2
+endoderm	50% DS3:4	50% DS4b:5	0.732	0.839	True	scvi	2
+endoderm	50% DS4:3	50% DS4b:5	0.753	0.745	True	scvi	2
+margin	50% DS2:4	50% DS3:3	0.459	0.511	True	scvi	2
+margin	50% DS2:4	50% DS4:2	0.599	0.581	True	scvi	2
+margin	50% DS2:4	50% DS4b:0	0.723	0.460	True	scvi	2
+margin	50% DS3:3	50% DS4:2	0.640	0.534	True	scvi	2
+margin	50% DS3:3	50% DS4b:0	0.814	0.516	True	scvi	2
+margin	50% DS4:2	50% DS4b:0	0.784	0.529	True	scvi	2
+EVL	50% DS2:5	50% DS3:7	0.973	0.997	True	scvi	2
+EVL	50% DS2:5	50% DS4:6	0.980	0.290	False	scvi	2
+EVL	50% DS2:5	50% DS4b:6	0.996	0.500	True	scvi	2
+EVL	50% DS3:7	50% DS4:6	0.995	0.281	False	scvi	2
+EVL	50% DS3:7	50% DS4b:6	1.000	0.478	True	scvi	2
+EVL	50% DS4:6	50% DS4b:6	0.476	0.735	True	scvi	2
+prechordal	50% DS4:8	50% DS4b:7	0.957	0.400	True	scvi	2
+organizer	50% DS2:2	50% DS3:5	0.167	0.447	False	scvi	2
+organizer	50% DS2:2	50% DS4:5	0.183	0.606	False	scvi	2
+organizer	50% DS2:2	50% DS4b:3	0.366	0.465	True	scvi	2
+organizer	50% DS3:5	50% DS4:5	0.371	0.457	True	scvi	2
+organizer	50% DS3:5	50% DS4b:3	0.483	0.205	False	scvi	2
+organizer	50% DS4:5	50% DS4b:3	0.602	0.212	False	scvi	2

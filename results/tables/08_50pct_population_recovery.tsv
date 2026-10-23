@@ -1,0 +1,36 @@
+population	n_cells	best_joint_cluster	recall	purity	n_libraries	libraries_majority_in_best	method	seed
+p53	128	7	0.930	0.937	4	4	uncorrected	
+endoderm	537	4	0.890	0.676	4	4	uncorrected	
+margin	857	3	0.582	0.682	4	3	uncorrected	
+EVL	188	5	0.872	0.820	4	4	uncorrected	
+prechordal	56	6	0.982	0.322	2	2	uncorrected	
+bulk	2867	1	0.427	0.874	4	1	uncorrected	
+organizer	652	2	0.308	0.204	4	1	uncorrected	
+p53	128	6	0.992	0.920	4	4	harmony	
+endoderm	537	3	0.892	0.804	4	4	harmony	
+margin	857	2	0.756	0.800	4	4	harmony	
+EVL	188	5	0.931	0.711	4	4	harmony	
+prechordal	56	4	1.000	0.201	2	2	harmony	
+bulk	2867	0	0.712	0.781	4	4	harmony	
+organizer	652	1	0.566	0.320	4	3	harmony	
+p53	128	5	0.898	0.943	4	4	scvi	0
+endoderm	537	1	0.896	0.320	4	4	scvi	0
+margin	857	1	0.887	0.505	4	4	scvi	0
+EVL	188	6	0.596	0.974	4	3	scvi	0
+prechordal	56	3	0.839	0.235	2	2	scvi	0
+bulk	2867	0	0.608	0.760	4	3	scvi	0
+organizer	652	2	0.686	0.302	4	3	scvi	0
+p53	128	5	0.961	0.939	4	4	scvi	1
+endoderm	537	0	0.952	0.329	4	4	scvi	1
+margin	857	0	0.882	0.487	4	4	scvi	1
+EVL	188	7	0.596	0.974	4	3	scvi	1
+prechordal	56	0	0.821	0.030	2	2	scvi	1
+bulk	2867	1	0.348	0.739	4	0	scvi	1
+organizer	652	3	0.706	0.437	4	4	scvi	1
+p53	128	6	0.938	0.930	4	4	scvi	2
+endoderm	537	4	0.754	0.933	4	4	scvi	2
+margin	857	1	0.914	0.600	4	4	scvi	2
+EVL	188	7	0.601	0.974	4	3	scvi	2
+prechordal	56	3	1.000	0.109	2	2	scvi	2
+bulk	2867	0	0.514	0.765	4	2	scvi	2
+organizer	652	3	0.436	0.553	4	2	scvi	2
