@@ -1,0 +1,9 @@
+library	n_cells	n_local_clusters	n_joint_clusters_used	ari_local_vs_joint	ami_local_vs_joint
+high DS5	263	3	1	0.000	-0.001
+high DS5b	48	2	1	0.004	0.002
+oblong DS5	72	3	1	-0.003	-0.003
+oblong DS5b	128	3	3	0.070	0.131
+dome DS5	1174	6	4	0.188	0.355
+30% DS5	448	5	4	0.413	0.468
+30% DS5b	1058	7	3	0.336	0.421
+shield DS5	1046	5	5	0.254	0.456

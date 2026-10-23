@@ -1,0 +1,5 @@
+library	n_cells	n_local_clusters	n_joint_clusters_used	ari_local_vs_joint	ami_local_vs_joint
+50% DS2	1287	7	8	0.277	0.489
+50% DS3	1430	8	8	0.325	0.521
+50% DS4	1567	9	8	0.570	0.599
+50% DS4b	1580	9	7	0.223	0.485

@@ -1,0 +1,8 @@
+joint_cluster	n_cells	high DS5	high DS5b	oblong DS5	oblong DS5b	dome DS5	30% DS5	30% DS5b	shield DS5	library_evenness	dominant_library	dominant_share
+3	497	261	47	71	116	1	0	1	0	0.668	high DS5	0.257
+1	1011	1	0	0	7	997	5	1	0	0.156	dome DS5	0.923
+6	133	0	0	0	5	61	18	37	12	0.734	dome DS5	0.292
+4	455	1	1	1	0	99	77	232	44	0.702	30% DS5b	0.394
+0	1165	0	0	0	0	16	348	783	18	0.380	30% DS5	0.502
+2	797	0	0	0	0	0	0	4	793	0.015	shield DS5	0.995
+5	179	0	0	0	0	0	0	0	179	-0.000	shield DS5	1.000

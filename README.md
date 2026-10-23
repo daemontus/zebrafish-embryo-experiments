@@ -60,6 +60,7 @@ bash scripts/run_pipeline.sh --force  # recompute all stages
 | 04 | `scripts/04_umap_harmony.py` | stage-03 h5ad | Harmony-corrected diagnostic UMAP | ~2 min |
 | 05 | `scripts/05_dataset_structure.py` | GEO Drop-seq TSV (streamed) + metadata + SOFT | stage × batch × library tables/figures for the full atlas | ~4 min (first run), seconds after |
 | 06 | `scripts/06_library_clustering.py` | stage-02 h5ad | per-library Leiden + UMAP, cluster QC tables, `data/processed/libraries/*.h5ad` | ~2 min |
+| 07 | `scripts/07_merged_contexts.py` | stage-02 h5ad + stage-06 labels | joint UMAP/Leiden for DS5 (across time) and 50% epiboly (across batches); local-vs-joint, centroid-correlation and kNN-mapping comparisons | ~40 s |
 
 Individual stages:
 
@@ -70,9 +71,10 @@ Individual stages:
 .venv/bin/python scripts/04_umap_harmony.py
 .venv/bin/python scripts/05_dataset_structure.py
 .venv/bin/python scripts/06_library_clustering.py
+.venv/bin/python scripts/07_merged_contexts.py
 ```
 
-Stage 06 also accepts `--force`. Stage 01 is the expensive step (reading the 1 GB compressed TSV). Stages 01, 03
+Stages 06 and 07 also accept `--force`. Stage 01 is the expensive step (reading the 1 GB compressed TSV). Stages 01, 03
 and 04 accept `--force`; without it they skip if their output exists. Stage 02
 always regenerates its tables/figures. Stage 01 needs roughly 8–10 GB of RAM.
 
@@ -104,6 +106,11 @@ always regenerates its tables/figures. Stage 01 needs roughly 8–10 GB of RAM.
   score. The interpretation, including which libraries' clusters are
   meaningful, is in
   [results/06_library_clustering.md](results/06_library_clustering.md).
+- **07 — merged contexts:** merges related libraries, with no batch
+  correction, and asks where the stage-06 clusters land in the shared space.
+  The two contexts are DS5 across timepoints (3.3–6.0 hpf) and 50% epiboly
+  across batches/replicates. See
+  [results/07_merged_contexts.md](results/07_merged_contexts.md).
 
 ## Key QC and sanity-check findings
 

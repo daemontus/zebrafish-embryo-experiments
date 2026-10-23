@@ -31,6 +31,11 @@ Repository root: `/home/xpastva/zebrafish-early`
   mass is over-split, and high/oblong libraries have no structure beyond EVL.
   See `results/06_library_clustering.md`. Clusters are not yet matched
   across libraries.
+- Stage 07 merges related libraries without batch correction: DS5 across
+  timepoints, and 50% epiboly across batches/replicates. Discrete
+  populations merge across batches. The bulk ectoderm separates by library
+  (DS2 most). DS5 is organised by time, with EVL and margin bridging stages.
+  See `results/07_merged_contexts.md`.
 - **No Boolean model has been fitted yet.**
 - Created a project-local `.venv` with scanpy/anndata and documented exact
   versions in `requirements.lock.txt`.
@@ -118,12 +123,14 @@ data/
     dropseq_3.3-6.0hpf_umap.h5ad
     dropseq_3.3-6.0hpf_umap_harmony.h5ad
     libraries/<library>.h5ad      # stage 06, one per library (e.g. ZF50_WT_DS4b)
+    07_ds5_joint.h5ad, 07_50pct_joint.h5ad  # stage 07 merged contexts
 results/
   figures/                        # 02_*, 03_*, 04_* QC/UMAP figures
   tables/                         # stage-wise QC, UMAP coords, cluster tables
   05_dataset_structure.md         # human-readable stage/batch/library overview
   06_library_clustering.md        # per-library clustering results + interpretation
   figures/06_libraries/           # one UMAP/QC panel per library
+  07_merged_contexts.md           # merged-context results + interpretation
 scripts/
   download_gse106587.sh           # idempotent download + extract + checksums
   build_metadata.py               # SOFT → cell metadata tables (stdlib)
@@ -135,6 +142,7 @@ scripts/
   04_umap_harmony.py              # diagnostic Harmony-corrected UMAP
   05_dataset_structure.py         # full-atlas stage x batch x library overview
   06_library_clustering.py        # per-library Leiden/UMAP + cluster QC
+  07_merged_contexts.py           # DS5-across-time / 50%-across-batch joint embeddings
   run_pipeline.sh                 # run stages 01–04 in order
   pipeline_utils.py               # shared paths/constants/plot helpers
 README.md                         # human-oriented pipeline instructions
@@ -173,7 +181,7 @@ was partially downloaded, remove it and re-run.
 # One-time environment setup (creates .venv, installs exact versions).
 bash scripts/00_setup_env.sh
 
-# Run stages 01-06. Existing stage-01/03/04 outputs are reused.
+# Run stages 01-07. Existing stage-01/03/04 outputs are reused.
 bash scripts/run_pipeline.sh
 
 # Recompute everything from the raw matrix (~10 min).
@@ -367,6 +375,11 @@ exact.
   `data/processed/libraries/*.h5ad` and `06_cell_clusters.csv` is numbered
   per library; there is no cross-library correspondence yet. Library names
   come from `pipeline_utils.library_of()` (the cell-ID prefix).
+- **kNN mapping across timepoints is hub-dominated.** In stage 07, nearest
+  neighbours always exist, so cross-stage "best matches" often point to
+  whichever cluster is closest (hubs), not to the same cell type. Use
+  library-centred centroid correlation, or a distance-aware matching, for
+  cross-stage links.
 - **Scrublet needs scikit-image only for automatic thresholds.** Stage 06
   passes a fixed `threshold`, uses only the continuous score, and adds no
   dependency.
