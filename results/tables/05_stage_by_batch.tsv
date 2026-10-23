@@ -1,0 +1,13 @@
+stage	DS2	DS3	DS4	DS5
+high	0	0	0	311
+oblong	0	0	0	200
+dome	0	0	0	1174
+30% epiboly	0	0	0	1506
+50% epiboly	1287	1430	3147	0
+shield	0	0	0	1046
+60% epiboly	1458	1275	1468	0
+75% epiboly	1992	2963	1369	0
+90% epiboly	1238	2849	1539	0
+bud	756	4759	1647	0
+3-somite	0	0	0	1631
+6-somite	0	0	0	4460

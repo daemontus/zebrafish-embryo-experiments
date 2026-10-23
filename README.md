@@ -58,6 +58,7 @@ bash scripts/run_pipeline.sh --force  # recompute all stages
 | 02 | `scripts/02_qc_summary.py` | stage-01 h5ad | QC tables + histograms; `..._qc.h5ad` | ~15 s |
 | 03 | `scripts/03_umap_sanity.py` | stage-01 h5ad | normalised/PCA/UMAP object; uncorrected UMAP | ~2 min |
 | 04 | `scripts/04_umap_harmony.py` | stage-03 h5ad | Harmony-corrected diagnostic UMAP | ~2 min |
+| 05 | `scripts/05_dataset_structure.py` | GEO Drop-seq TSV (streamed) + metadata + SOFT | stage × batch × library tables/figures for the full atlas | ~4 min (first run), seconds after |
 
 Individual stages:
 
@@ -66,6 +67,7 @@ Individual stages:
 .venv/bin/python scripts/02_qc_summary.py
 .venv/bin/python scripts/03_umap_sanity.py
 .venv/bin/python scripts/04_umap_harmony.py
+.venv/bin/python scripts/05_dataset_structure.py
 ```
 
 Stage 01 is the expensive step (reading the 1 GB compressed TSV). Stages 01, 03
@@ -87,6 +89,12 @@ always regenerates its tables/figures. Stage 01 needs roughly 8–10 GB of RAM.
 - **04 — diagnostic Harmony:** runs Harmony on the PCA using
   `sequencing_batch`. This is a **diagnostic, not the primary embedding**; see
   the batch caveat below.
+- **05 — dataset structure:** describes the full 39,505-cell atlas (all 12
+  stages) as stage → sequencing batch → library (GEO sample), with per-library
+  cell counts and median UMIs/genes. The per-cell QC is cached in
+  `results/tables/05_cell_qc_full_atlas.csv`; delete it to recompute. The
+  human-readable overview is
+  [results/05_dataset_structure.md](results/05_dataset_structure.md).
 
 ## Key QC and sanity-check findings
 

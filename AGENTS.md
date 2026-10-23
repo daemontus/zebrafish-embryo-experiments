@@ -11,7 +11,7 @@ GSE106587 single-cell atlas.
 
 Repository root: `/home/xpastva/zebrafish-early`
 
-## Current status (2026-10-22)
+## Current status (2026-10-23)
 
 - Downloaded the **complete GEO SuperSeries GSE106587** and its two SubSeries.
 - Downloaded GEO SOFT/series-matrix metadata and built cell-level metadata tables.
@@ -22,6 +22,9 @@ Repository root: `/home/xpastva/zebrafish-early`
   `data/processed/`.
 - Ran QC summaries and UMAP sanity checks (stages 01–04). QC is clean; the UMAP
   reveals strong **stage–batch confounding** (see caveats below).
+- Stage 05 maps the **design structure of the full Drop-seq atlas** (stage →
+  sequencing batch → library/GSM, 28 libraries) with per-library depth; see
+  `results/05_dataset_structure.md`.
 - **No Boolean model has been fitted yet.**
 - Created a project-local `.venv` with scanpy/anndata and documented exact
   versions in `requirements.lock.txt`.
@@ -111,6 +114,7 @@ data/
 results/
   figures/                        # 02_*, 03_*, 04_* QC/UMAP figures
   tables/                         # stage-wise QC, UMAP coords, cluster tables
+  05_dataset_structure.md         # human-readable stage/batch/library overview
 scripts/
   download_gse106587.sh           # idempotent download + extract + checksums
   build_metadata.py               # SOFT → cell metadata tables (stdlib)
@@ -120,6 +124,7 @@ scripts/
   02_qc_summary.py                # QC metrics, tables, histograms
   03_umap_sanity.py               # normalise, PCA, UMAP, Leiden (uncorrected)
   04_umap_harmony.py              # diagnostic Harmony-corrected UMAP
+  05_dataset_structure.py         # full-atlas stage x batch x library overview
   run_pipeline.sh                 # run stages 01–04 in order
   pipeline_utils.py               # shared paths/constants/plot helpers
 README.md                         # human-oriented pipeline instructions
@@ -158,7 +163,7 @@ was partially downloaded, remove it and re-run.
 # One-time environment setup (creates .venv, installs exact versions).
 bash scripts/00_setup_env.sh
 
-# Run stages 01-04. Existing stage-01/03/04 outputs are reused.
+# Run stages 01-05. Existing stage-01/03/04 outputs are reused.
 bash scripts/run_pipeline.sh
 
 # Recompute everything from the raw matrix (~10 min).
@@ -335,6 +340,19 @@ exact.
   stage structure and creates disconnected islands (stage silhouette
   0.032 → 0.016; batch silhouette 0.015 → −0.032). Treat stage 04 as a
   diagnostic only; do not use it for biological interpretation.
+- **The confounding extends to the whole atlas.** DS5 holds high, oblong,
+  dome, 30% epiboly, shield, 3-somite and 6-somite. DS2–DS4 hold 50% epiboly
+  to bud, and each of those stages is in all three batches. No stage is shared
+  between DS5 and DS2–DS4, so adding later stages cannot separate that batch
+  effect from stage. Within DS2–DS4 the design is balanced, so DS2/DS3/DS4
+  effects can be estimated there.
+- **Library is the finest technical unit.** 28 GEO samples = 28 libraries.
+  The `b` replicate means a second library in the same stage and batch (high,
+  oblong, 30% epiboly, 50% epiboly DS4, bud DS2, 6-somite). GEO's "Rep N"
+  title numbering counts libraries across batches, so it is *not* the same
+  as `replicate`. Within-batch libraries can differ more than 3× in median
+  UMIs (oblong a vs b). Dome and shield are single, unreplicated libraries;
+  high DS5b (48 cells) and oblong DS5a (72) are tiny.
 - **QC state.** Stage 02 computes metrics but removes no cells. Stage 03 keeps
   all 10,101 cells (`min_genes=200`, `min_counts=500` are satisfied by every
   cell) and drops genes detected in <3 cells (18,893 remain). No doublet
