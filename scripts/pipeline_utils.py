@@ -45,6 +45,13 @@ STAGE_COLORS = {
 }
 
 
+def library_of(cell_ids) -> "pd.Index":
+    """Library (GEO sample) name from Drop-seq cell IDs, e.g. ZF50_WT_DS4b."""
+    import pandas as pd
+
+    return pd.Index(cell_ids).str.rsplit("_", n=1).str[0]
+
+
 def ensure_dirs() -> None:
     """Create output directories used by all stages."""
     for path in (PROCESSED, FIGURES, TABLES):

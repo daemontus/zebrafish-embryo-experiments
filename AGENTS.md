@@ -25,6 +25,12 @@ Repository root: `/home/xpastva/zebrafish-early`
 - Stage 05 maps the **design structure of the full Drop-seq atlas** (stage →
   sequencing batch → library/GSM, 28 libraries) with per-library depth; see
   `results/05_dataset_structure.md`.
+- Stage 06 clusters **each of the 12 window libraries separately** (Leiden
+  r=0.5) with cluster QC. Recurring discrete populations: EVL, margin,
+  endoderm, dorsal organizer, and a p53/"apoptotic-like" group. The ectoderm
+  mass is over-split, and high/oblong libraries have no structure beyond EVL.
+  See `results/06_library_clustering.md`. Clusters are not yet matched
+  across libraries.
 - **No Boolean model has been fitted yet.**
 - Created a project-local `.venv` with scanpy/anndata and documented exact
   versions in `requirements.lock.txt`.
@@ -111,10 +117,13 @@ data/
     dropseq_3.3-6.0hpf_qc.h5ad
     dropseq_3.3-6.0hpf_umap.h5ad
     dropseq_3.3-6.0hpf_umap_harmony.h5ad
+    libraries/<library>.h5ad      # stage 06, one per library (e.g. ZF50_WT_DS4b)
 results/
   figures/                        # 02_*, 03_*, 04_* QC/UMAP figures
   tables/                         # stage-wise QC, UMAP coords, cluster tables
   05_dataset_structure.md         # human-readable stage/batch/library overview
+  06_library_clustering.md        # per-library clustering results + interpretation
+  figures/06_libraries/           # one UMAP/QC panel per library
 scripts/
   download_gse106587.sh           # idempotent download + extract + checksums
   build_metadata.py               # SOFT → cell metadata tables (stdlib)
@@ -125,6 +134,7 @@ scripts/
   03_umap_sanity.py               # normalise, PCA, UMAP, Leiden (uncorrected)
   04_umap_harmony.py              # diagnostic Harmony-corrected UMAP
   05_dataset_structure.py         # full-atlas stage x batch x library overview
+  06_library_clustering.py        # per-library Leiden/UMAP + cluster QC
   run_pipeline.sh                 # run stages 01–04 in order
   pipeline_utils.py               # shared paths/constants/plot helpers
 README.md                         # human-oriented pipeline instructions
@@ -163,7 +173,7 @@ was partially downloaded, remove it and re-run.
 # One-time environment setup (creates .venv, installs exact versions).
 bash scripts/00_setup_env.sh
 
-# Run stages 01-05. Existing stage-01/03/04 outputs are reused.
+# Run stages 01-06. Existing stage-01/03/04 outputs are reused.
 bash scripts/run_pipeline.sh
 
 # Recompute everything from the raw matrix (~10 min).
@@ -353,6 +363,13 @@ exact.
   as `replicate`. Within-batch libraries can differ more than 3× in median
   UMIs (oblong a vs b). Dome and shield are single, unreplicated libraries;
   high DS5b (48 cells) and oblong DS5a (72) are tiny.
+- **Per-library cluster IDs are local.** `leiden` in
+  `data/processed/libraries/*.h5ad` and `06_cell_clusters.csv` is numbered
+  per library; there is no cross-library correspondence yet. Library names
+  come from `pipeline_utils.library_of()` (the cell-ID prefix).
+- **Scrublet needs scikit-image only for automatic thresholds.** Stage 06
+  passes a fixed `threshold`, uses only the continuous score, and adds no
+  dependency.
 - **QC state.** Stage 02 computes metrics but removes no cells. Stage 03 keeps
   all 10,101 cells (`min_genes=200`, `min_counts=500` are satisfied by every
   cell) and drops genes detected in <3 cells (18,893 remain). No doublet

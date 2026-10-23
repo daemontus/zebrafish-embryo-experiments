@@ -59,6 +59,7 @@ bash scripts/run_pipeline.sh --force  # recompute all stages
 | 03 | `scripts/03_umap_sanity.py` | stage-01 h5ad | normalised/PCA/UMAP object; uncorrected UMAP | ~2 min |
 | 04 | `scripts/04_umap_harmony.py` | stage-03 h5ad | Harmony-corrected diagnostic UMAP | ~2 min |
 | 05 | `scripts/05_dataset_structure.py` | GEO Drop-seq TSV (streamed) + metadata + SOFT | stage × batch × library tables/figures for the full atlas | ~4 min (first run), seconds after |
+| 06 | `scripts/06_library_clustering.py` | stage-02 h5ad | per-library Leiden + UMAP, cluster QC tables, `data/processed/libraries/*.h5ad` | ~2 min |
 
 Individual stages:
 
@@ -68,9 +69,10 @@ Individual stages:
 .venv/bin/python scripts/03_umap_sanity.py
 .venv/bin/python scripts/04_umap_harmony.py
 .venv/bin/python scripts/05_dataset_structure.py
+.venv/bin/python scripts/06_library_clustering.py
 ```
 
-Stage 01 is the expensive step (reading the 1 GB compressed TSV). Stages 01, 03
+Stage 06 also accepts `--force`. Stage 01 is the expensive step (reading the 1 GB compressed TSV). Stages 01, 03
 and 04 accept `--force`; without it they skip if their output exists. Stage 02
 always regenerates its tables/figures. Stage 01 needs roughly 8–10 GB of RAM.
 
@@ -95,6 +97,13 @@ always regenerates its tables/figures. Stage 01 needs roughly 8–10 GB of RAM.
   `results/tables/05_cell_qc_full_atlas.csv`; delete it to recompute. The
   human-readable overview is
   [results/05_dataset_structure.md](results/05_dataset_structure.md).
+- **06 — per-library clustering:** clusters each of the 12 libraries in the
+  3.3–6.0 hpf window on its own, with no batch correction. It runs HVG → PCA
+  → kNN → Leiden (resolution 0.5) → UMAP. Per cluster it reports marker
+  count, bootstrap Jaccard stability, silhouette, depth ratio and Scrublet
+  score. The interpretation, including which libraries' clusters are
+  meaningful, is in
+  [results/06_library_clustering.md](results/06_library_clustering.md).
 
 ## Key QC and sanity-check findings
 

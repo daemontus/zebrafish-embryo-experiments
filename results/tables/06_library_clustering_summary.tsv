@@ -1,0 +1,13 @@
+library	stage	batch	replicate	n_cells	n_genes_kept	n_pcs	n_neighbors	n_clusters_r0.2	n_clusters_r0.5	n_clusters_r1.0	seed_ari	n_stable_clusters	frac_cells_in_stable_clusters	median_cluster_stability
+ZFHIGH_WT_DS5	high	DS5	a	263	11865	20	15	1	3	6	0.638	2	0.951	0.822
+ZFHIGH_WT_DS5b	high	DS5	b	48	10094	20	5	2	2	4	1.000	2	1.000	0.948
+ZFOBLONG_WT_DS5	oblong	DS5	a	72	10663	20	7	1	3	6	0.522	0	0.000	0.628
+ZFOBLONG_WT_DS5b	oblong	DS5	b	128	9789	20	12	1	3	7	0.770	1	0.156	0.614
+ZFDOME_WT_DS5	dome	DS5	a	1174	13462	20	15	4	6	8	0.816	4	0.889	0.880
+ZF30_WT_DS5	30% epiboly	DS5	a	448	11014	20	15	4	5	9	0.815	4	0.817	0.840
+ZF30_WT_DS5b	30% epiboly	DS5	b	1058	12921	20	15	3	7	11	0.450	1	0.162	0.583
+ZF50_WT_DS2	50% epiboly	DS2	a	1287	14451	20	15	4	7	12	0.446	2	0.051	0.652
+ZF50_WT_DS3	50% epiboly	DS3	a	1430	13668	20	15	3	8	10	0.798	5	0.629	0.828
+ZF50_WT_DS4	50% epiboly	DS4	a	1567	14366	20	15	6	9	12	0.808	5	0.802	0.773
+ZF50_WT_DS4b	50% epiboly	DS4	b	1580	14043	20	15	5	9	12	0.659	4	0.153	0.711
+ZFS_WT_DS5	shield	DS5	a	1046	11315	20	15	2	5	10	0.567	1	0.143	0.616

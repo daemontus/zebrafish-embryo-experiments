@@ -10,3 +10,6 @@ __pycache__/
 
 # Downloaded archives / temporary files
 *.part
+
+
+.DS_Store

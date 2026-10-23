@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Run the analysis pipeline in order (stages 01-05).
+# Run the analysis pipeline in order (stages 01-06).
 # Usage:  bash scripts/run_pipeline.sh [--force]
-#   --force  rebuild stage 01/03/04 outputs instead of reusing them
+#   --force  rebuild stage 01/03/04/06 outputs instead of reusing them
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -32,5 +32,8 @@ echo "== stage 04: Harmony-corrected diagnostic UMAP =="
 
 echo "== stage 05: dataset structure (stage x batch x library) =="
 "$PY" scripts/05_dataset_structure.py
+
+echo "== stage 06: per-library Leiden clustering =="
+"$PY" scripts/06_library_clustering.py "${ARGS[@]}"
 
 echo "== pipeline complete =="
