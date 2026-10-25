@@ -6,7 +6,10 @@ add tools, data, or conventions.
 ## Project
 
 Development of a **Boolean model of cell differentiation in zebrafish early
-development (1–6 hpf)**. The first milestone is a clean, reproducible copy of the
+development (up to ~12 hpf)**. The main focus is on the differentiation
+decisions around **6 hpf**, i.e. germ ring and shield formation and the
+associated differentiation processes (hypoblast/epiblast, dorsal–ventral).
+The first milestone is a clean, reproducible copy of the
 GSE106587 single-cell atlas.
 
 Repository root: `/home/xpastva/zebrafish-early`
@@ -67,12 +70,13 @@ Hours post-fertilisation (hpf) are the values supplied by GEO.
 | 3-somite | 11.0 | 1,631 | 1 |
 | 6-somite | 12.0 | 4,460 | 2 |
 
-**Coverage gap for the 1–6 hpf goal:** the earliest stage in GSE106587 is
-**high (3.3 hpf)**. Cleavage/blastula stages from **1–3 hpf are not represented**
-in this atlas. If the Boolean model must start at 1 hpf, an additional dataset
-(or new data) covering 1–3 hpf will be required. Within 1–6 hpf, GSE106587
-covers high, oblong, dome, 30% epiboly, 50% epiboly, and shield (3.3–6.0 hpf);
-60% epiboly (7 hpf) is just outside the requested window.
+**Coverage of the ~12 hpf window:** GSE106587 spans high (3.3 hpf) to
+6-somite (12 hpf), so the whole window from high onward is covered, with the
+germ ring/shield focus (50% epiboly → shield → 60% epiboly, 5.3–7 hpf) well
+sampled. Cleavage/early blastula stages (**<3.3 hpf) are not represented**;
+pre-MBT maternal decisions (EVL/YSL, germ plasm, dorsal determinants) can only
+be observed through their consequences. If those stages must be modelled, an
+additional dataset will be required.
 
 Note that the Drop-seq sampling is uneven across stages (e.g. only 311 high-stage
 cells but 5,864 at 50% epiboly). Account for this in any stage-balanced model.
@@ -284,10 +288,9 @@ exact.
    and record the conversion script.
 2. QC-filter cells/genes, normalise, and inspect stage composition; consider
    downsampling per stage for a balanced Boolean model.
-3. Restrict to ≤6 hpf for the initial model (high → shield; 60% epiboly is
-   7 hpf) and decide explicitly whether to include 75% epiboly (8 hpf) as a
-   validation/out-of-window time point.
-4. If 1–3 hpf must be modelled, identify and download an additional early
-   embryo dataset; GSE106587 cannot cover that interval.
+3. Use the full high → 6-somite range (≤12 hpf), but centre the initial model
+   on the decisions around 6 hpf (50% epiboly → shield → 60% epiboly).
+4. If stages before high (3.3 hpf) must be modelled, identify and download an
+   additional early embryo dataset; GSE106587 cannot cover that interval.
 5. Define binarisation thresholds and candidate regulator–target links before
    fitting the Boolean network.
