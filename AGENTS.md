@@ -104,7 +104,15 @@ scripts/
   download_gse106587.sh           # idempotent download + extract + checksums
   build_metadata.py               # SOFT → cell metadata tables (stdlib)
   validate_data.py                # integrity checks (stdlib)
+report/
+  main.tex                        # LaTeX report on the analysis
+  references.bib                  # BibTeX entries (Farrell et al. 2018 included)
+  figures/                        # figures included by main.tex
+  latexmkrc                       # build config; output goes to report/build/
 ```
+
+Build the report with `cd report && latexmk main.tex` (TeX Live; PDF at
+`report/build/main.pdf`, gitignored).
 
 `data/raw/` is gitignored because of size. Keep derived objects in
 `data/processed/`.

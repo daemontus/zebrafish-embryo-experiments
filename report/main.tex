@@ -1,0 +1,73 @@
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{amsmath,amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{siunitx}
+\usepackage[hidelinks]{hyperref}
+
+\graphicspath{{figures/}}
+
+\title{Early embryo differentiation in zebrafish}
+\author{Samuel Pastva}
+\date{\today}
+
+\newcommand{\citationneeded}{[\emph{citation needed}]}
+
+\begin{document}
+
+\maketitle
+
+\section{Glossary and preliminaries}
+
+Because biology likes to use big, fancy words, we first have to build a glossary of terms that will appear in this report. Most are relatively ``standard'' in the literature, but many have slightly different meaning across subfields, so this section can be also viewed as term definitions.
+
+\begin{itemize}
+	\item A \textbf{transcription factor (TF)} is a protein that directly influences the transcription process, either by participating in it, or by modifying the environment that influences the actual transcription machinery (unlocking chromatin, breaking down phosphorylation, etc.).
+	\item Time points in zebrafish embryo development are usually denoted in \textbf{hours post fertilization (hpf)}. We will shorten this to \textbf{hours (h)} when clear from context. We will be mostly interested in the development processes taking place until approx. \textbf{12hpf}.
+	\item Since zebrafish are simple organisms, the embryo development is also relatively stable and easy to reproduce. The most important environmental factor is \textbf{temperature}, which is typically \textbf{28.5 °C}. Other temperatures within acceptable rates should have roughly linear influence on the development speed \citationneeded. Other factors like pH, medium density or oxygen levels do impact development, but mainly in later stages, not the very first differentiation points \citationneeded.
+	\item An embryo cell can be \textbf{totipotent}, \textbf{pluripotent}, or \textbf{multipotent}. Totipotent means it can differentiate into internal embryo cells, or external cell layers enveloping the embryo (\textbf{extra-embryonic cells}). Pluripotent means it can differentiate into any embryo cell, but not into an extra-embryonic cell. Multipotent means the cell can differentiate within a specific cell line (e.g., endoderm), but not outside of that specific cell line (at least not without a significant intervention).
+	\item We can also distinguish cells by how \emph{robustly} they are differentiated so far:
+	\begin{itemize}
+		\item A cell is \textbf{primed} if its epigenetics admit a particular differentiation event (relevant chromatin is open, important TF is expressed but causing transcription yet, etc.). A cell can be primed towards many lineages at the same time. Importantly, a primed cell will not differentiate without some additional ``signal'' triggering the differentiation.
+		\item A cell is \textbf{specified} if it is actively transcribing RNA of a particular cell type, and will continue this process in a neutral environment. In other words, the transcription has been started and is somewhat self-sustaining, but can be easily disrupted by an unexpected ``signal''.
+		\item A cell is \textbf{determined} if it is specified, but it can maintain its own identity when encountering an opposing, but reasonable ``signal'' (i.e., a signal that would naturally occur somewhere in the organism). Determination can be driven by a stronger self-sustaining GRN feedback loop, as well as by epigenetic changes.
+		\item A cell is \textbf{differentiated} if it is determined, and it has undergone morphological changes associated with its cell type, including additional epigenetic changes to further increase robustness against signaling perturbations.
+		\item The expression profile of a specified / determined / differentiated cell can be different, despite being ``the same cell type''. The cell is (likely) actively producing TFs that will lead to epigenetic changes required for determination / differentiation, but this transcription can eventually turn off once the cell is ``sufficiently committed''.
+		\item The process is hierarchical (cell type A differentiates into B, which turns into C, \dots), and for some intermediate cell types, the cell does not have to pass all stages. For example, pluripotent cells will never be truly differentiated, or even determined. Similarly, stages can interleave across cell types, so a cell can be determined type A, but specified type B, and primed type C, meaning it will maintain identity A on its own, is already developing expression profile of type B, and is able to eventually become type C if a signal is given.
+	\end{itemize}
+
+	\item A zebrafish embryo goes through several ``high-level'' developmental stages: \textbf{zygote (0-0.75hpf)}, \textbf{cleavage (0.75-2.25hpf)}, \textbf{blastula (2.25-5.25hpf)}, and \textbf{gastrula (5.25-10.33hpf)}.
+	\begin{itemize}
+		\item In the zygote and cleavage stage, the embryo is mostly uniform.
+		\item During blastula, the surface layer of extra-embryonic cells is starting to split off. These are the \textbf{enveloping layer} (EVL) and \textbf{yolk syncytial layer} (YSL); one guards the embryo from the environment, and one is an interface with the yolk on which the embryo rests. Remaining cells are also called \textbf{deep cells}.
+		\item A \textbf{midblastula transition (MBT)} also occurs around \textbf{2.75hpf}. Until that point, the cells in the embryo are entirely driven by the maternal transcriptome present in the zygote and importantly, \emph{the overall volume / mass of the embryo is roughly constant}. Until MBT, the whole cell population is essentially synchronous; the only major decisions are the formation of YSL and EVL, which are also driven by the maternal proteins. As such, \emph{the cause of YSL and EVL separation can't really be observed through RNA expression in the embryo} (only the consequences). Once YSL forms (512-1024 cells; Figure~\ref{fig:development}), it allows the embryo to absorb mass from the yolk and actually ``grow''. After MBT, the cells divide asynchronously, hence there is no longer a clear cell doubling pattern.
+		\item During gastrula, the embryo splits along the \emph{radial axis} into \textbf{hypoblast} (develops into \textbf{mesendoderm}) and \textbf{epiblast} (develops into \textbf{ectoderm}). Note that hypoblast and epiblast are purely positional terms: Hypoblast is at the ``bottom'' of the germ ring, while epiblast is at the ``top'' of the germ ring (see also Figure~\ref{fig:development}). In other words, a cell can be a part of hypoblast and of mesendoderm; one is the location, the other is the expression profile. The process of separation into hypoblast/epiblast along the germ ring is called \textbf{internalization}. The germ ring is the \textbf{margin} of the embryo (you can see cells called ``marginal'', meaning they belong to this region).
+		\item Within the gastrula phase, the embryo also splits along the \textbf{dorsal-ventral} axis (dorsal is back / spine, ventral is front / belly). This split is marked by a \textbf{shield} formation on the dorsal side of the embryo. This is again mostly a positional term (i.e., shield is not an expression profile). However, cells in the shield do produce various signaling molecules that reinforce the dorsal-ventral split, and later also the anterior-posterior separation (see below). Sometimes, they are called \textbf{organizer cells}.
+		\item After gastrula, the embryo undergoes \textbf{early segmentation}, where it starts to split along the \textbf{anterior-posterior} axis (anterior and posterior are sometimes called \textbf{animal and vegetal pole}; these are position along the egg (animal = top, vegetal = bottom), but are aligned with the anterior-posterior axis). Segmentation is beyond the scope of this document though.
+	\end{itemize}
+	
+	\item During blastula and gastrula, the embryo also undergoes \textbf{epiboly}, during which it envelops the connected yolk. This is again largely used as a timing / position marker, with Figure~\ref{fig:development} showing the individual stages. Note that the formation a hypoblast and epiblast, as well as of a germ ring and shield are happening relatively quickly between 50\% and 60\% epiboly, but this is a morphological change; transcriptomic and epigenetic changes leading up to the formation are already happening sooner.
+	
+	\item Another note is that in terms of morphology and transcriptome, epiblast is essentially just the continuation of the existing deep cells, without major changes. It is the hypoblast that represents a new cell line that is splitting off of epiblast in the marginal region.
+\end{itemize}
+
+\begin{figure}
+	\includegraphics[width=1.0\linewidth]{figures/development.jpg}
+	\caption{\url{https://www.aups.org.au/Proceedings/38/43-51/}}
+	\label{fig:development}
+\end{figure}
+
+\section{Transcriptomic and epigenetic timeline}
+
+In the previous section, we described the important terms and formations which appear during embryo development. However, these are mostly \emph{morphological} terms dictating what the embryo looks like or what is happening externally. They do not capture how the cells are evolving internally, which typically precedes morphological changes quite a bit. Also, as we discussed, these do not map directly to any meaningful definition of ``cell types'' (i.e., a ``shield cell'' is not a well defined cell type).
+
+% Uncomment once the first \cite is added (BibTeX errors on zero citations).
+% \bibliographystyle{plain}
+% \bibliography{references}
+
+\end{document}
