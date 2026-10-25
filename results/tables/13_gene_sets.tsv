@@ -1,0 +1,30 @@
+pathway	tier	n_genes	genes	scorable
+Nodal	readout	2	LFT1,LFT2	True
+Nodal	secondary	5	EOMESA,FOXH1,GSC,MIXL1,SOX32	True
+Nodal	sender	3	GDF3,NDR1,NDR2	True
+Nodal	receiver	2	ACVR1BA,ACVR2AA	True
+BMP	readout	4	SMAD6A,SMAD7,VED,VENT	True
+BMP	secondary	3	GATA2A,GATA3,MSX1A	True
+BMP	sender	5	BMP2B,BMP4,BMP7A,BMP7B,GDF6A	True
+BMP	receiver	2	BMPR1AA,BMPR1BA	True
+BMP	antagonist	4	CHD,GREM1A,NOG1,SZL	True
+Wnt	readout	2	AXIN2,SP5A	True
+Wnt	secondary	3	CDX4,DHARMA,TCF7L1B	True
+Wnt	sender	1	WNT8A	False
+Wnt	receiver	3	FZD7A,FZD7B,LRP6	True
+FGF	readout	5	DUSP6,IL17RD,SPRY1,SPRY2,SPRY4	True
+FGF	secondary	3	ETV4,ETV5B,FOXG1A	True
+FGF	sender	4	FGF24,FGF3,FGF4,FGF8A	True
+FGF	receiver	2	FGFR1A,FGFR4	True
+Hh	readout	1	GLI1	False
+Hh	secondary	3	FOXA2,GLI2A,NOTO	True
+Hh	sender	0		False
+Hh	receiver	0		False
+Notch	readout	5	HER1,HER11,HER12,HER7,HES6	True
+Notch	secondary	0		False
+Notch	sender	1	JAG1A	False
+Notch	receiver	1	NOTCH1A	False
+VEGF	readout	0		False
+VEGF	secondary	0		False
+VEGF	sender	0		False
+VEGF	receiver	0		False

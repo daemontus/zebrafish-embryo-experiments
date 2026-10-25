@@ -1,0 +1,14 @@
+unit	n_programs	spearman_readout_vs_antagonist
+50% DS2	9	0.15
+50% DS2 K13	13	0.4725
+50% DS3	9	0.1833
+50% DS3 K13	13	0.533
+50% DS4	9	-0.2167
+50% DS4 K13	13	0.03846
+50% DS4b	9	0.5
+50% DS4b K13	13	0.5879
+DS5_30a	13	0.1813
+DS5_30b	13	0.3791
+DS5_dome	13	0.1868
+DS5_highoblong	13	0.8187
+DS5_shield	13	0.3846

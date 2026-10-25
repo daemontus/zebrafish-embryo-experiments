@@ -1,0 +1,30 @@
+pathway	tier	n_pass	n_tested	decision
+Nodal	readout	9	9	coherent
+Nodal	secondary	1	9	not coherent
+Nodal	sender	7	9	coherent
+Nodal	receiver	2	9	not coherent
+BMP	readout	8	9	coherent
+BMP	secondary	3	9	not coherent
+BMP	sender	8	9	coherent
+BMP	receiver	0	8	not coherent
+BMP	antagonist	7	9	coherent
+Wnt	readout	6	8	coherent
+Wnt	secondary	1	9	not coherent
+Wnt	sender	0	0	not scorable (<2 usable genes)
+Wnt	receiver	1	9	not coherent
+FGF	readout	7	9	coherent
+FGF	secondary	6	9	coherent
+FGF	sender	9	9	coherent
+FGF	receiver	1	9	not coherent
+Hh	readout	0	0	not scorable (<2 usable genes)
+Hh	secondary	5	9	coherent
+Hh	sender	0	0	not scorable (<2 usable genes)
+Hh	receiver	0	0	not scorable (<2 usable genes)
+Notch	readout	7	9	coherent
+Notch	secondary	0	0	not scorable (<2 usable genes)
+Notch	sender	0	0	not scorable (<2 usable genes)
+Notch	receiver	0	0	not scorable (<2 usable genes)
+VEGF	readout	0	0	not scorable (<2 usable genes)
+VEGF	secondary	0	0	not scorable (<2 usable genes)
+VEGF	sender	0	0	not scorable (<2 usable genes)
+VEGF	receiver	0	0	not scorable (<2 usable genes)

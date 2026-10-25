@@ -1,6 +1,7 @@
 # Local data (not versioned)
 data/raw/
 data/processed/
+data/reference/
 
 # Python
 .venv/

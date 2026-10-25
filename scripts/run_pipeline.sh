@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
-# Run the analysis pipeline in order (stages 01-08).
+# Run the analysis pipeline in order (stages 01-13).
 # Usage:  bash scripts/run_pipeline.sh [--force]
-#   --force  rebuild stage 01/03/04/06/07/08 outputs instead of reusing them
+#   --force  rebuild stage 01/03/04/06/07/08/09/12 outputs instead of reusing them
 set -euo pipefail
 
 ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
@@ -41,5 +41,23 @@ echo "== stage 07: merged contexts (DS5 across time, 50% across batches) =="
 
 echo "== stage 08: 50% epiboly batch correction (Harmony, scVI) =="
 "$PY" scripts/08_batch_correction_50pct.py "${ARGS[@]}"
+
+echo "== stage 09: cNMF gene programs per 50% epiboly library =="
+"$PY" scripts/09_gene_programs_cnmf.py "${ARGS[@]}"
+
+echo "== stage 10: replicate + annotate programs (needs data/reference) =="
+if [[ ! -s data/reference/zfin_aliases.txt ]]; then
+    bash scripts/download_references.sh
+fi
+"$PY" scripts/10_program_annotation.py
+
+echo "== stage 11: replicated programs across K =5..20 =="
+"$PY" scripts/11_program_k_scan.py
+
+echo "== stage 12: DS5 gene programs and match to 50% epiboly =="
+"$PY" scripts/12_ds5_programs.py "${ARGS[@]}"
+
+echo "== stage 13: signalling-pathway proxies =="
+"$PY" scripts/13_pathway_proxies.py
 
 echo "== pipeline complete =="

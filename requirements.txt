@@ -11,6 +11,7 @@
 # harmonypy  batch-corrected embeddings (stage 04 diagnostic, stage 08)
 # scvi-tools/torch  scVI batch correction of the 50% epiboly libraries (stage 08)
 # scikit-misc  seurat_v3 HVG selection on raw counts (stage 08 scVI input)
+# cnmf  consensus NMF gene programs per library (stage 09)
 scanpy==1.12.4
 anndata==0.13.4
 numpy==2.5.4
@@ -29,3 +30,4 @@ harmonypy==2.1.0
 scvi-tools==1.5.1
 torch==2.14.1
 scikit-misc==0.5.3
+cnmf==1.7.1

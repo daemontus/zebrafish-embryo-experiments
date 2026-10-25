@@ -1,0 +1,66 @@
+ds5_program	pct50_program	pearson_r	top50_overlap	overlap_p	overlap_q	k50	library50	identity	match	ds5_mp	ds5_unit	identity_label	identity_max_libraries_50	identity_replicated_50
+DS5_30b_P6	K6:ZF50_DS4_P3	0.6766	42	3.446e-99	8.959e-95	6	50% DS4	ID3	True	MP3	DS5_30b	presumptive endoderm | GO: gastrulation	4	True
+DS5_shield_P4	K13:ZF50_DS3_P5	0.6269	39	2.053e-88	3.953e-85	13	50% DS3	ID3	True	MP3	DS5_shield	presumptive endoderm | GO: gastrulation	4	True
+DS5_30a_P10	K6:ZF50_DS2_P4	0.8674	37	1.119e-81	1.187e-78	6	50% DS2	ID4	True	MP1	DS5_30a	epithelium | GO: intermediate filament-based process	4	True
+DS5_30a_P3	K6:ZF50_DS2_P2	0.5578	36	1.998e-78	1.732e-75	6	50% DS2	ID3	True	MP3	DS5_30a	presumptive endoderm | GO: gastrulation	4	True
+DS5_30b_P2	K20:ZF50_DS2_P3	0.4253	36	1.998e-78	1.732e-75	20	50% DS2	ID7	True	MP10	DS5_30b	presumptive mesoderm | GO: pattern specification process	4	True
+DS5_dome_P12	K17:ZF50_DS4_P14	0.7656	35	3.024e-75	1.728e-72	17	50% DS4	ID4	True	MP1	DS5_dome	epithelium | GO: intermediate filament-based process	4	True
+DS5_30b_P7	K12:ZF50_DS2_P7	0.5538	34	3.91e-72	1.64e-69	12	50% DS2	ID1	True	MP7	DS5_30b	GO: positive regulation of apoptotic process	4	True
+DS5_shield_P3	K20:ZF50_DS3_P4	0.5243	34	3.91e-72	1.64e-69	20	50% DS3	ID7	True	MP10	DS5_shield	presumptive mesoderm | GO: pattern specification process	4	True
+DS5_30b_P10	K7:ZF50_DS2_P5	0.8614	33	4.351e-69	1.25e-66	7	50% DS2	ID4	True	MP1	DS5_30b	epithelium | GO: intermediate filament-based process	4	True
+DS5_shield_P8	K10:ZF50_DS3_P9	0.5625	33	4.351e-69	1.25e-66	10	50% DS3	ID2	True	MP6	DS5_shield	presumptive shield | GO: regionalization	4	True
+DS5_dome_P5	K6:ZF50_DS2_P2	0.5613	33	4.351e-69	1.25e-66	6	50% DS2	ID3	True	MP3	DS5_dome	presumptive endoderm | GO: gastrulation	4	True
+DS5_dome_P6	K18:ZF50_DS2_P7	0.5082	33	4.351e-69	1.25e-66	18	50% DS2	ID2	True	MP6	DS5_dome	presumptive shield | GO: regionalization	4	True
+DS5_30a_P8	K7:ZF50_DS4_P5	0.4662	33	4.351e-69	1.25e-66	7	50% DS4	ID1	True	MP7	DS5_30a	GO: positive regulation of apoptotic process	4	True
+DS5_shield_P13	K10:ZF50_DS3_P8	0.7979	31	3.512e-63	4.731e-61	10	50% DS3	ID4	True	MP1	DS5_shield	epithelium | GO: intermediate filament-based process	4	True
+DS5_shield_P2	K18:ZF50_DS3_P2	0.5067	30	2.573e-60	2.693e-58	18	50% DS3	ID6	True	MP2	DS5_shield	neural plate | GO: negative regulation of cell differentiation	4	True
+DS5_30b_P13	K8:ZF50_DS4_P4	0.4912	29	1.655e-57	1.461e-55	8	50% DS4	ID2	True	MP6	DS5_30b	presumptive shield | GO: regionalization	4	True
+DS5_shield_P1	K12:ZF50_DS3_P1	0.3856	29	1.655e-57	1.461e-55	12	50% DS3	ID15	True	MP11	DS5_shield	presumptive ectoderm | GO: epithelial tube morphogenesis	1	False
+DS5_30b_P12	K7:ZF50_DS4b_P5	0.8053	28	9.374e-55	6.808e-53	7	50% DS4b	ID4	True	MP32	DS5_30b	epithelium | GO: intermediate filament-based process	4	True
+DS5_shield_P10	K5:ZF50_DS4_P4	0.7574	28	9.374e-55	6.808e-53	5	50% DS4	ID4	True	MP35	DS5_shield	epithelium | GO: intermediate filament-based process	4	True
+DS5_dome_P13	K5:ZF50_DS4b_P4	0.6312	27	4.69e-52	3.095e-50	5	50% DS4b	ID4	True	MP23	DS5_dome	epithelium | GO: intermediate filament-based process	4	True
+DS5_dome_P7	K20:ZF50_DS2_P10	0.621	27	4.69e-52	3.095e-50	20	50% DS2	ID4	True	MP1	DS5_dome	epithelium | GO: intermediate filament-based process	4	True
+DS5_30a_P13	K5:ZF50_DS3_P4	0.7271	26	2.078e-49	1.206e-47	5	50% DS3	ID4	True	MP29	DS5_30a	epithelium | GO: intermediate filament-based process	4	True
+DS5_dome_P8	K6:ZF50_DS2_P5	0.4203	26	2.078e-49	1.206e-47	6	50% DS2	ID1	True	MP7	DS5_dome	GO: positive regulation of apoptotic process	4	True
+DS5_30b_P3	K12:ZF50_DS4b_P5	0.4022	25	8.169e-47	4.092e-45	12	50% DS4b	ID10	True	MP9	DS5_30b	presumptive shield | GO: anterior/posterior pattern specification	4	True
+DS5_shield_P6	K12:ZF50_DS3_P7	0.3739	25	8.169e-47	4.092e-45	12	50% DS3	ID12	True	MP33	DS5_shield	endoderm | GO: endoderm development	2	False
+DS5_30a_P9	K9:ZF50_DS4b_P4	0.37	25	8.169e-47	4.092e-45	9	50% DS4b	ID3	True	MP27	DS5_30a	presumptive endoderm | GO: gastrulation	4	True
+DS5_highoblong_P7	K12:ZF50_DS2_P8	0.4191	23	8.881e-42	3.483e-40	12	50% DS2	ID4	True	MP1	DS5_highoblong	epithelium | GO: intermediate filament-based process	4	True
+DS5_shield_P7	K13:ZF50_DS3_P6	0.4154	23	8.881e-42	3.483e-40	13	50% DS3	ID10	True	MP9	DS5_shield	presumptive shield | GO: anterior/posterior pattern specification	4	True
+DS5_dome_P11	K7:ZF50_DS2_P5	0.5838	21	6.084e-37	1.75e-35	7	50% DS2	ID4	True	MP22	DS5_dome	epithelium | GO: intermediate filament-based process	4	True
+DS5_highoblong_P2	K8:ZF50_DS3_P1	0.07563	21	6.084e-37	1.75e-35	8	50% DS3	ID6	True	MP2	DS5_highoblong	neural plate | GO: negative regulation of cell differentiation	4	True
+DS5_dome_P1	K17:ZF50_DS4_P2	0.5156	20	1.341e-34	3.439e-33	17	50% DS4	ID8	True	MP5	DS5_dome	GO: nucleosome organization	4	True
+DS5_30a_P4	K16:ZF50_DS2_P5	0.2917	20	1.341e-34	3.439e-33	16	50% DS2	ID10	True	MP9	DS5_30a	presumptive shield | GO: anterior/posterior pattern specification	4	True
+DS5_dome_P2	K13:ZF50_DS4_P1	0.5371	19	2.637e-32	5.965e-31	13	50% DS4	ID6	True	MP2	DS5_dome	neural plate | GO: negative regulation of cell differentiation	4	True
+DS5_shield_P5	K17:ZF50_DS2_P4	0.3275	17	7.218e-28	1.287e-26	17	50% DS2	ID9	True	MP8	DS5_shield	GO: chromosome condensation	4	True
+DS5_30b_P11	K7:ZF50_DS4b_P7	0.4775	16	1.003e-25	1.616e-24	7	50% DS4b	ID5	True	MP4	DS5_30b	reproductive system | GO: gamete generation	4	True
+DS5_dome_P3	K13:ZF50_DS2_P4	0.4007	16	1.003e-25	1.616e-24	13	50% DS2	ID9	True	MP8	DS5_dome	GO: chromosome condensation	4	True
+DS5_30b_P1	K9:ZF50_DS4_P2	0.3978	16	1.003e-25	1.616e-24	9	50% DS4	ID8	True	MP5	DS5_30b	GO: nucleosome organization	4	True
+DS5_shield_P9	K5:ZF50_DS4_P5	0.441	15	1.237e-23	1.806e-22	5	50% DS4	ID33	True	MP34	DS5_shield	forerunner cell group | GO: regionalization	1	False
+DS5_30a_P1	K10:ZF50_DS2_P1	0.3697	14	1.353e-21	1.832e-20	10	50% DS2	ID6	True	MP2	DS5_30a	neural plate | GO: negative regulation of cell differentiation	4	True
+DS5_shield_P11	K14:ZF50_DS4b_P10	0.3418	13	1.307e-19	1.641e-18	14	50% DS4b	ID5	True	MP4	DS5_shield	reproductive system | GO: gamete generation	4	True
+DS5_30b_P4	K7:ZF50_DS4b_P1	0.3169	12	1.112e-17	1.305e-16	7	50% DS4b	ID6	True	MP11	DS5_30b	neural plate | GO: negative regulation of cell differentiation	4	True
+DS5_30a_P2	K20:ZF50_DS4_P1	0.3905	11	8.288e-16	9.098e-15	20	50% DS4	ID8	True	MP5	DS5_30a	GO: nucleosome organization	4	True
+DS5_30a_P12	K9:ZF50_DS3_P7	0.3729	11	8.288e-16	9.098e-15	9	50% DS3	ID5	True	MP4	DS5_30a	reproductive system | GO: gamete generation	4	True
+DS5_dome_P10	K8:ZF50_DS3_P6	0.3531	10	5.386e-14	5.564e-13	8	50% DS3	ID5	True	MP4	DS5_dome	reproductive system | GO: gamete generation	4	True
+DS5_30b_P5	K14:ZF50_DS2_P1	0.2937	10	5.386e-14	5.564e-13	14	50% DS2	ID6	True	MP2	DS5_30b	neural plate | GO: negative regulation of cell differentiation	4	True
+DS5_highoblong_P1	K13:ZF50_DS4b_P2	0.2296	9	3.029e-12	2.96e-11	13	50% DS4b	ID27	False	MP8	DS5_highoblong	unannotated	1	False
+DS5_30b_P9	K20:ZF50_DS3_P13	0.2034	8	1.462e-10	1.363e-09	20	50% DS3	ID28	False	MP31	DS5_30b	reproductive system | GO: primordial germ cell migration	1	False
+DS5_highoblong_P12	K20:ZF50_DS2_P10	0.1147	8	1.462e-10	1.363e-09	20	50% DS2	ID4	False	MP18	DS5_highoblong	epithelium | GO: intermediate filament-based process	4	True
+DS5_30a_P11	K9:ZF50_DS3_P3	0.1714	7	5.988e-09	5.309e-08	9	50% DS3	ID7	False	MP28	DS5_30a	presumptive mesoderm | GO: pattern specification process	4	True
+DS5_highoblong_P9	K11:ZF50_DS2_P4	0.1458	7	5.988e-09	5.309e-08	11	50% DS2	ID9	False	MP8	DS5_highoblong	GO: chromosome condensation	4	True
+DS5_dome_P4	K19:ZF50_DS3_P2	0.07515	7	5.988e-09	5.309e-08	19	50% DS3	ID8	False	MP20	DS5_dome	GO: nucleosome organization	4	True
+DS5_shield_P12	K8:ZF50_DS3_P6	0.1772	6	2.051e-07	1.724e-06	8	50% DS3	ID5	False	MP36	DS5_shield	reproductive system | GO: gamete generation	4	True
+DS5_highoblong_P3	K17:ZF50_DS4_P2	0.1011	6	2.051e-07	1.724e-06	17	50% DS4	ID8	False	MP5	DS5_highoblong	GO: nucleosome organization	4	True
+DS5_30a_P6	K12:ZF50_DS2_P4	0.1674	5	5.768e-06	4.523e-05	12	50% DS2	ID9	False	MP25	DS5_30a	GO: chromosome condensation	4	True
+DS5_dome_P9	K16:ZF50_DS2_P4	0.1491	5	5.768e-06	4.523e-05	16	50% DS2	ID9	False	MP21	DS5_dome	GO: chromosome condensation	4	True
+DS5_30a_P7	K12:ZF50_DS2_P4	0.1656	4	0.0001297	0.0009335	12	50% DS2	ID9	False	MP26	DS5_30a	GO: chromosome condensation	4	True
+DS5_highoblong_P13	K16:ZF50_DS4_P2	0.1119	4	0.0001297	0.0009335	16	50% DS4	ID6	False	MP19	DS5_highoblong	neural plate | GO: negative regulation of cell differentiation	4	True
+DS5_30a_P5	K20:ZF50_DS4b_P9	0.0482	4	0.0001297	0.0009335	20	50% DS4b	ID21	False	MP24	DS5_30a	unannotated	1	False
+DS5_highoblong_P4	K14:ZF50_DS4_P9	0.05836	3	0.002245	0.01398	14	50% DS4	ID5	False	MP12	DS5_highoblong	reproductive system | GO: gamete generation	4	True
+DS5_30b_P8	K8:ZF50_DS3_P6	0.04191	3	0.002245	0.01398	8	50% DS3	ID5	False	MP30	DS5_30b	reproductive system | GO: gamete generation	4	True
+DS5_highoblong_P10	K6:ZF50_DS2_P3	0.04005	3	0.002245	0.01398	6	50% DS2	ID2	False	MP16	DS5_highoblong	presumptive shield | GO: regionalization	4	True
+DS5_highoblong_P8	K20:ZF50_DS4b_P17	0.01785	3	0.002245	0.01398	20	50% DS4b	ID4	False	MP15	DS5_highoblong	epithelium | GO: intermediate filament-based process	4	True
+DS5_highoblong_P6	K16:ZF50_DS4b_P14	0.01671	3	0.002245	0.01398	16	50% DS4b	ID4	False	MP14	DS5_highoblong	epithelium | GO: intermediate filament-based process	4	True
+DS5_highoblong_P5	K20:ZF50_DS2_P14	0.07695	2	0.0282	0.1347	20	50% DS2	ID26	False	MP13	DS5_highoblong	GO: regulation of sodium ion transport	1	False
+DS5_highoblong_P11	K20:ZF50_DS3_P7	0.0168	2	0.0282	0.1347	20	50% DS3	ID18	False	MP17	DS5_highoblong	unannotated	1	False

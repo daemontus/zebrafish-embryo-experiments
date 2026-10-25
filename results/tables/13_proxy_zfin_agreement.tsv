@@ -1,0 +1,6 @@
+pathway	n_annotated	mean_jaccard	null_mean	p	shared_terms
+Nodal	2	0.7368	0.1951	0.05129	embryonic structure (2); marginal blastomere (2); margin (2); blastomere (2); germ ring (2)
+BMP	2	0.08333	0.1903	0.698	embryonic structure (2)
+Wnt	1				
+FGF	4	0.2614	0.1936	0.2179	embryonic structure (4); margin (4); portion of tissue (3); blastodisc (3); marginal blastomere (2)
+Notch	5	0.51	0.1932	0.0035	embryonic structure (5); margin (4); presumptive structure (2); presumptive mesoderm (2)

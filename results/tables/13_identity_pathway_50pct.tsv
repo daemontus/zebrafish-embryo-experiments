@@ -1,0 +1,451 @@
+pathway	tier	identity	context	label	n_libraries	n_sig_pos	n_sig_neg	mean_z	call	circularity	n_sig_pos_leave_out	n_sig_neg_leave_out	mean_z_leave_out	final_call
+BMP	antagonist	ID1	50pct	GO: positive regulation of apoptotic process	4	0	0	1.198	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID2	50pct	presumptive shield | GO: regionalization	4	1	0	1.521	no consistent difference	True	0	0		no consistent difference
+BMP	antagonist	ID3	50pct	presumptive endoderm | GO: gastrulation	3	0	0	0.7742	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	1.937	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	0	-2.142	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID5	50pct	reproductive system | GO: gamete generation	3	0	0	0.2815	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	0	-0.8758	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	0	0	1.936	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID8	50pct	GO: nucleosome organization	4	0	0	-1.455	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID9	50pct	GO: chromosome condensation	1	0	0	0.6624	no consistent difference	False	0	0		no consistent difference
+BMP	readout	ID1	50pct	GO: positive regulation of apoptotic process	4	1	0	1.731	no consistent difference	False	1	0		no consistent difference
+BMP	readout	ID2	50pct	presumptive shield | GO: regionalization	4	0	4	-4.732	low	False	0	4		low
+BMP	readout	ID3	50pct	presumptive endoderm | GO: gastrulation	3	3	0	3.369	high	False	3	0		high
+BMP	readout	ID33	50pct	forerunner cell group | GO: regionalization	1	0	1	-2.777	no consistent difference	False	0	1		no consistent difference
+BMP	readout	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	2	-2.053	no consistent difference	False	0	2		no consistent difference
+BMP	readout	ID5	50pct	reproductive system | GO: gamete generation	3	0	0	-1.82	no consistent difference	False	0	0		no consistent difference
+BMP	readout	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	0	-0.8874	no consistent difference	False	0	0		no consistent difference
+BMP	readout	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	4	0	3.816	high	True	4	0	3.267	high
+BMP	readout	ID8	50pct	GO: nucleosome organization	4	0	1	-1.957	no consistent difference	False	0	1		no consistent difference
+BMP	readout	ID9	50pct	GO: chromosome condensation	1	0	0	-1.737	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID1	50pct	GO: positive regulation of apoptotic process	4	0	0	1.113	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID2	50pct	presumptive shield | GO: regionalization	4	0	0	-0.6971	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID3	50pct	presumptive endoderm | GO: gastrulation	3	0	0	0.1907	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	-0.9756	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	0	-1.028	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID5	50pct	reproductive system | GO: gamete generation	3	0	0	-0.4115	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	0	0.6027	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	0	0	-0.8336	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID8	50pct	GO: nucleosome organization	4	0	0	0.6775	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID9	50pct	GO: chromosome condensation	1	0	0	-0.6531	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID1	50pct	GO: positive regulation of apoptotic process	4	2	0	3.58	no consistent difference	False	2	0		no consistent difference
+BMP	secondary	ID2	50pct	presumptive shield | GO: regionalization	4	0	3	-4.364	low	False	0	3		low
+BMP	secondary	ID3	50pct	presumptive endoderm | GO: gastrulation	3	0	0	1.953	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	-0.3099	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	0	1.907	no consistent difference	True	0	0		no consistent difference
+BMP	secondary	ID5	50pct	reproductive system | GO: gamete generation	3	0	0	-2.041	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	0	0.6812	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	0	0	-1.337	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID8	50pct	GO: nucleosome organization	4	0	0	-0.4109	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID9	50pct	GO: chromosome condensation	1	0	0	0.09715	no consistent difference	False	0	0		no consistent difference
+BMP	sender	ID1	50pct	GO: positive regulation of apoptotic process	4	2	0	2.789	no consistent difference	False	2	0		no consistent difference
+BMP	sender	ID2	50pct	presumptive shield | GO: regionalization	4	0	3	-4.603	low	False	0	3		low
+BMP	sender	ID3	50pct	presumptive endoderm | GO: gastrulation	3	3	0	4.67	high	False	3	0		high
+BMP	sender	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	-1.751	no consistent difference	False	0	0		no consistent difference
+BMP	sender	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	2	-2.07	no consistent difference	False	0	2		no consistent difference
+BMP	sender	ID5	50pct	reproductive system | GO: gamete generation	3	0	2	-2.658	no consistent difference	False	0	2		no consistent difference
+BMP	sender	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	0	-0.8071	no consistent difference	False	0	0		no consistent difference
+BMP	sender	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	4	0	3.388	high	True	2	0		high
+BMP	sender	ID8	50pct	GO: nucleosome organization	4	0	1	-1.978	no consistent difference	False	0	1		no consistent difference
+BMP	sender	ID9	50pct	GO: chromosome condensation	1	0	0	-1.761	no consistent difference	False	0	0		no consistent difference
+FGF	readout	ID1	50pct	GO: positive regulation of apoptotic process	4	0	3	-2.905	low	False	0	3		low
+FGF	readout	ID2	50pct	presumptive shield | GO: regionalization	4	2	0	2.363	no consistent difference	False	2	0		no consistent difference
+FGF	readout	ID3	50pct	presumptive endoderm | GO: gastrulation	3	0	0	0.09194	no consistent difference	False	0	0		no consistent difference
+FGF	readout	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	1.442	no consistent difference	False	0	0		no consistent difference
+FGF	readout	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	4	-2.908	low	False	0	4		low
+FGF	readout	ID5	50pct	reproductive system | GO: gamete generation	3	0	1	-0.9238	no consistent difference	False	0	1		no consistent difference
+FGF	readout	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	2	-1.13	no consistent difference	False	0	2		no consistent difference
+FGF	readout	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	4	0	5.126	high	True	4	0	4.77	high
+FGF	readout	ID8	50pct	GO: nucleosome organization	4	0	3	-2.981	low	False	0	3		low
+FGF	readout	ID9	50pct	GO: chromosome condensation	1	0	0	-0.91	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID1	50pct	GO: positive regulation of apoptotic process	4	1	0	1.522	no consistent difference	False	1	0		no consistent difference
+FGF	receiver	ID2	50pct	presumptive shield | GO: regionalization	4	0	0	-0.2115	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID3	50pct	presumptive endoderm | GO: gastrulation	3	0	0	-0.7618	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	-1.402	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	0	0.03632	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID5	50pct	reproductive system | GO: gamete generation	3	0	0	0.1872	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	0	2.209	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	0	4	-3.544	low	False	0	4		low
+FGF	receiver	ID8	50pct	GO: nucleosome organization	4	0	0	1	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID9	50pct	GO: chromosome condensation	1	0	0	2.076	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID1	50pct	GO: positive regulation of apoptotic process	4	0	0	-1.344	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID2	50pct	presumptive shield | GO: regionalization	4	0	0	1.296	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID3	50pct	presumptive endoderm | GO: gastrulation	3	0	2	-2.918	no consistent difference	False	0	2		no consistent difference
+FGF	secondary	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	2.276	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	0	-1.479	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID5	50pct	reproductive system | GO: gamete generation	3	0	0	0.7314	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	0	0.3	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	0	0	2.001	no consistent difference	True	0	0		no consistent difference
+FGF	secondary	ID8	50pct	GO: nucleosome organization	4	0	0	-0.6174	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID9	50pct	GO: chromosome condensation	1	0	0	0.5949	no consistent difference	False	0	0		no consistent difference
+FGF	sender	ID1	50pct	GO: positive regulation of apoptotic process	4	0	3	-2.817	low	False	0	3		low
+FGF	sender	ID2	50pct	presumptive shield | GO: regionalization	4	3	0	2.931	high	False	3	0		high
+FGF	sender	ID3	50pct	presumptive endoderm | GO: gastrulation	3	0	0	1.001	no consistent difference	True	0	0		no consistent difference
+FGF	sender	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	1.386	no consistent difference	False	0	0		no consistent difference
+FGF	sender	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	0	-1.07	no consistent difference	False	0	0		no consistent difference
+FGF	sender	ID5	50pct	reproductive system | GO: gamete generation	3	0	1	-1.58	no consistent difference	False	0	1		no consistent difference
+FGF	sender	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	3	-2.595	low	False	0	3		low
+FGF	sender	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	4	0	3.507	high	True	0	0		high
+FGF	sender	ID8	50pct	GO: nucleosome organization	4	0	4	-2.812	low	False	0	4		low
+FGF	sender	ID9	50pct	GO: chromosome condensation	1	0	0	-1.116	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID1	50pct	GO: positive regulation of apoptotic process	4	0	0	-1.938	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID2	50pct	presumptive shield | GO: regionalization	4	4	0	4.642	high	True	0	0		high
+Hh	secondary	ID3	50pct	presumptive endoderm | GO: gastrulation	3	0	0	-1.384	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	2.811	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	0	-0.1126	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID5	50pct	reproductive system | GO: gamete generation	3	0	0	0.1168	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	0	-0.8601	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	1	0	2.154	no consistent difference	False	1	0		no consistent difference
+Hh	secondary	ID8	50pct	GO: nucleosome organization	4	0	0	-1.48	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID9	50pct	GO: chromosome condensation	1	0	0	-1.468	no consistent difference	False	0	0		no consistent difference
+Nodal	readout	ID1	50pct	GO: positive regulation of apoptotic process	4	0	4	-2.837	low	False	0	4		low
+Nodal	readout	ID2	50pct	presumptive shield | GO: regionalization	4	4	0	3.181	high	True	3	0	2.718	high
+Nodal	readout	ID3	50pct	presumptive endoderm | GO: gastrulation	3	3	0	3.823	high	True	3	0	3.68	high
+Nodal	readout	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	1.27	no consistent difference	False	0	0		no consistent difference
+Nodal	readout	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	1	-1.622	no consistent difference	False	0	1		no consistent difference
+Nodal	readout	ID5	50pct	reproductive system | GO: gamete generation	3	0	1	-2.037	no consistent difference	False	0	1		no consistent difference
+Nodal	readout	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	4	-3.571	low	False	0	4		low
+Nodal	readout	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	4	0	4.889	high	True	3	0	2.404	high
+Nodal	readout	ID8	50pct	GO: nucleosome organization	4	0	4	-3.596	low	False	0	4		low
+Nodal	readout	ID9	50pct	GO: chromosome condensation	1	0	1	-4.202	no consistent difference	False	0	1		no consistent difference
+Nodal	receiver	ID1	50pct	GO: positive regulation of apoptotic process	4	0	0	-1.51	no consistent difference	False	0	0		no consistent difference
+Nodal	receiver	ID2	50pct	presumptive shield | GO: regionalization	4	1	0	2.22	no consistent difference	False	1	0		no consistent difference
+Nodal	receiver	ID3	50pct	presumptive endoderm | GO: gastrulation	3	1	0	2.707	no consistent difference	False	1	0		no consistent difference
+Nodal	receiver	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	0.6453	no consistent difference	False	0	0		no consistent difference
+Nodal	receiver	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	0	-1.23	no consistent difference	False	0	0		no consistent difference
+Nodal	receiver	ID5	50pct	reproductive system | GO: gamete generation	3	0	0	-0.7954	no consistent difference	False	0	0		no consistent difference
+Nodal	receiver	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	3	-3.042	low	False	0	3		low
+Nodal	receiver	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	4	0	3.876	high	True	2	0		high
+Nodal	receiver	ID8	50pct	GO: nucleosome organization	4	0	1	-2.311	no consistent difference	False	0	1		no consistent difference
+Nodal	receiver	ID9	50pct	GO: chromosome condensation	1	0	0	-1.806	no consistent difference	False	0	0		no consistent difference
+Nodal	secondary	ID1	50pct	GO: positive regulation of apoptotic process	4	0	0	-0.1665	no consistent difference	False	0	0		no consistent difference
+Nodal	secondary	ID2	50pct	presumptive shield | GO: regionalization	4	0	0	1.765	no consistent difference	True	0	0		no consistent difference
+Nodal	secondary	ID3	50pct	presumptive endoderm | GO: gastrulation	3	0	0	1.799	no consistent difference	True	0	0		no consistent difference
+Nodal	secondary	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	1.268	no consistent difference	True	0	0		no consistent difference
+Nodal	secondary	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	0	-1.501	no consistent difference	False	0	0		no consistent difference
+Nodal	secondary	ID5	50pct	reproductive system | GO: gamete generation	3	0	0	-0.9643	no consistent difference	False	0	0		no consistent difference
+Nodal	secondary	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	0	-0.6273	no consistent difference	True	0	0		no consistent difference
+Nodal	secondary	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	0	0	0.5994	no consistent difference	True	0	0		no consistent difference
+Nodal	secondary	ID8	50pct	GO: nucleosome organization	4	0	0	-0.7338	no consistent difference	False	0	0		no consistent difference
+Nodal	secondary	ID9	50pct	GO: chromosome condensation	1	0	0	-2.253	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID1	50pct	GO: positive regulation of apoptotic process	4	0	0	-1.362	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID2	50pct	presumptive shield | GO: regionalization	4	1	0	2.025	no consistent difference	True	1	0		no consistent difference
+Nodal	sender	ID3	50pct	presumptive endoderm | GO: gastrulation	3	1	0	2.203	no consistent difference	True	0	0		no consistent difference
+Nodal	sender	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	0.9393	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	0	-0.9777	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID5	50pct	reproductive system | GO: gamete generation	3	0	0	0.9504	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	4	-2.95	low	False	0	4		low
+Nodal	sender	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	0	0	1.512	no consistent difference	True	0	0		no consistent difference
+Nodal	sender	ID8	50pct	GO: nucleosome organization	4	0	0	0.2562	no consistent difference	True	0	0		no consistent difference
+Nodal	sender	ID9	50pct	GO: chromosome condensation	1	0	0	-1.711	no consistent difference	False	0	0		no consistent difference
+Notch	readout	ID1	50pct	GO: positive regulation of apoptotic process	4	0	0	-0.5415	no consistent difference	False	0	0		no consistent difference
+Notch	readout	ID2	50pct	presumptive shield | GO: regionalization	4	0	0	-0.1255	no consistent difference	False	0	0		no consistent difference
+Notch	readout	ID3	50pct	presumptive endoderm | GO: gastrulation	3	0	0	1.187	no consistent difference	False	0	0		no consistent difference
+Notch	readout	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	1.84	no consistent difference	False	0	0		no consistent difference
+Notch	readout	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	2	-2.224	no consistent difference	False	0	2		no consistent difference
+Notch	readout	ID5	50pct	reproductive system | GO: gamete generation	3	0	0	-0.5854	no consistent difference	False	0	0		no consistent difference
+Notch	readout	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	3	-2.776	low	False	0	3		low
+Notch	readout	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	4	0	6.397	high	True	1	0	0.6938	not separable from program genes
+Notch	readout	ID8	50pct	GO: nucleosome organization	4	0	3	-2.166	low	False	0	3		low
+Notch	readout	ID9	50pct	GO: chromosome condensation	1	0	0	-1.276	no consistent difference	False	0	0		no consistent difference
+Wnt	readout	ID1	50pct	GO: positive regulation of apoptotic process	4	0	0	-1.434	no consistent difference	False	0	0		no consistent difference
+Wnt	readout	ID2	50pct	presumptive shield | GO: regionalization	4	0	0	0.6574	no consistent difference	False	0	0		no consistent difference
+Wnt	readout	ID3	50pct	presumptive endoderm | GO: gastrulation	3	3	0	3.156	high	True	1	0	1.561	not separable from program genes
+Wnt	readout	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	-0.7198	no consistent difference	False	0	0		no consistent difference
+Wnt	readout	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	1	-1.482	no consistent difference	False	0	1		no consistent difference
+Wnt	readout	ID5	50pct	reproductive system | GO: gamete generation	3	0	3	-2.64	low	False	0	3		low
+Wnt	readout	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	3	-2.795	low	False	0	3		low
+Wnt	readout	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	4	0	5.011	high	True	4	0	4.58	high
+Wnt	readout	ID8	50pct	GO: nucleosome organization	4	0	3	-3.174	low	False	0	3		low
+Wnt	readout	ID9	50pct	GO: chromosome condensation	1	0	1	-2.577	no consistent difference	False	0	1		no consistent difference
+Wnt	receiver	ID1	50pct	GO: positive regulation of apoptotic process	4	0	0	-1.956	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID2	50pct	presumptive shield | GO: regionalization	4	0	0	1.421	no consistent difference	True	0	0		no consistent difference
+Wnt	receiver	ID3	50pct	presumptive endoderm | GO: gastrulation	3	2	0	3.109	no consistent difference	True	0	0		no consistent difference
+Wnt	receiver	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	0.3124	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	0	1.506	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID5	50pct	reproductive system | GO: gamete generation	3	0	0	-1.848	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	0	0.8722	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	0	1	-2.827	no consistent difference	False	0	1		no consistent difference
+Wnt	receiver	ID8	50pct	GO: nucleosome organization	4	0	0	-1.538	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID9	50pct	GO: chromosome condensation	1	0	0	-1.314	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID1	50pct	GO: positive regulation of apoptotic process	4	0	0	-0.2247	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID2	50pct	presumptive shield | GO: regionalization	4	0	0	-0.485	no consistent difference	True	0	0		no consistent difference
+Wnt	secondary	ID3	50pct	presumptive endoderm | GO: gastrulation	3	0	0	-0.3902	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID33	50pct	forerunner cell group | GO: regionalization	1	0	0	0.92	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID4	50pct	epithelium | GO: intermediate filament-based process	4	0	0	-1.607	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID5	50pct	reproductive system | GO: gamete generation	3	0	0	-0.3303	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID6	50pct	neural plate | GO: negative regulation of cell differentiation	4	0	0	-0.6916	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID7	50pct	presumptive mesoderm | GO: pattern specification process	4	0	0	2.338	no consistent difference	True	0	0		no consistent difference
+Wnt	secondary	ID8	50pct	GO: nucleosome organization	4	0	0	-1.02	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID9	50pct	GO: chromosome condensation	1	0	0	-0.1796	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	0	0	0.4572	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	0	0	1.414	no consistent difference	True	0	0		no consistent difference
+BMP	antagonist	ID12	50pct_k13	endoderm | GO: endoderm development	2	0	0	1.729	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	0	-0.5644	no consistent difference	True	0	0		no consistent difference
+BMP	antagonist	ID2	50pct_k13	presumptive shield | GO: regionalization	4	0	0	1.373	no consistent difference	True	0	0		no consistent difference
+BMP	antagonist	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	-0.6985	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID27	50pct_k13	unannotated	1	0	0	-2.331	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	0	0	0.1873	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	0.497	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	0	-2.282	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	0	-0.3318	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	0	-1.28	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	0	0	1.484	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID8	50pct_k13	GO: nucleosome organization	4	0	0	-1.451	no consistent difference	False	0	0		no consistent difference
+BMP	antagonist	ID9	50pct_k13	GO: chromosome condensation	3	0	0	-0.07152	no consistent difference	False	0	0		no consistent difference
+BMP	readout	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	1	0	1.268	no consistent difference	False	1	0		no consistent difference
+BMP	readout	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	0	4	-4.941	low	False	0	4		low
+BMP	readout	ID12	50pct_k13	endoderm | GO: endoderm development	2	2	0	4.238	no consistent difference	True	2	0	3.402	no consistent difference
+BMP	readout	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	0	1.317	no consistent difference	True	0	0	0.7136	no consistent difference
+BMP	readout	ID2	50pct_k13	presumptive shield | GO: regionalization	4	0	0	-0.8296	no consistent difference	False	0	0		no consistent difference
+BMP	readout	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	-0.9329	no consistent difference	False	0	0		no consistent difference
+BMP	readout	ID27	50pct_k13	unannotated	1	0	0	-0.776	no consistent difference	False	0	0		no consistent difference
+BMP	readout	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	3	0	2.388	high	False	3	0		high
+BMP	readout	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	-0.5618	no consistent difference	False	0	0		no consistent difference
+BMP	readout	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	1	-1.626	no consistent difference	False	0	1		no consistent difference
+BMP	readout	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	0	-1.012	no consistent difference	False	0	0		no consistent difference
+BMP	readout	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	1	-1.423	no consistent difference	False	0	1		no consistent difference
+BMP	readout	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	4	0	5.71	high	True	4	0	4.232	high
+BMP	readout	ID8	50pct_k13	GO: nucleosome organization	4	0	1	-1.974	no consistent difference	False	0	1		no consistent difference
+BMP	readout	ID9	50pct_k13	GO: chromosome condensation	3	0	0	-0.7095	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	0	0	1.086	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	0	0	-1.038	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID12	50pct_k13	endoderm | GO: endoderm development	2	0	0	1.586	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	0	0.3847	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID2	50pct_k13	presumptive shield | GO: regionalization	4	0	0	0.1407	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	0.04436	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID27	50pct_k13	unannotated	1	0	0	0.8847	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	0	0	-0.1933	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	0.02974	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	0	-1.211	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	0	-0.2175	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	0	0.7347	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	0	0	-0.3304	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID8	50pct_k13	GO: nucleosome organization	4	0	0	0.5411	no consistent difference	False	0	0		no consistent difference
+BMP	receiver	ID9	50pct_k13	GO: chromosome condensation	3	0	0	-0.03491	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	2	0	3.101	no consistent difference	False	2	0		no consistent difference
+BMP	secondary	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	0	4	-6.162	low	False	0	4		low
+BMP	secondary	ID12	50pct_k13	endoderm | GO: endoderm development	2	2	0	4.377	no consistent difference	False	2	0		no consistent difference
+BMP	secondary	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	1	0	3.345	no consistent difference	True	0	0		no consistent difference
+BMP	secondary	ID2	50pct_k13	presumptive shield | GO: regionalization	4	0	0	0.2021	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	0.01077	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID27	50pct_k13	unannotated	1	0	0	0.2843	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	0	0	0.4524	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	1	0	3.1	no consistent difference	False	1	0		no consistent difference
+BMP	secondary	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	0	1.599	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	0	-1.129	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	1	0.0001619	no consistent difference	False	0	1		no consistent difference
+BMP	secondary	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	0	0	-0.1764	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID8	50pct_k13	GO: nucleosome organization	4	0	0	-0.6213	no consistent difference	False	0	0		no consistent difference
+BMP	secondary	ID9	50pct_k13	GO: chromosome condensation	3	0	0	0.2431	no consistent difference	False	0	0		no consistent difference
+BMP	sender	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	1	0	2.21	no consistent difference	False	1	0		no consistent difference
+BMP	sender	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	0	4	-5.487	low	False	0	4		low
+BMP	sender	ID12	50pct_k13	endoderm | GO: endoderm development	2	2	0	4.463	no consistent difference	False	2	0		no consistent difference
+BMP	sender	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	0	2.105	no consistent difference	True	0	0		no consistent difference
+BMP	sender	ID2	50pct_k13	presumptive shield | GO: regionalization	4	0	0	0.0445	no consistent difference	False	0	0		no consistent difference
+BMP	sender	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	-1.036	no consistent difference	False	0	0		no consistent difference
+BMP	sender	ID27	50pct_k13	unannotated	1	0	0	-1.168	no consistent difference	False	0	0		no consistent difference
+BMP	sender	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	3	0	3.449	high	False	3	0		high
+BMP	sender	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	0.7839	no consistent difference	False	0	0		no consistent difference
+BMP	sender	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	1	-2.077	no consistent difference	False	0	1		no consistent difference
+BMP	sender	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	0	-1.904	no consistent difference	False	0	0		no consistent difference
+BMP	sender	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	1	-1.412	no consistent difference	False	0	1		no consistent difference
+BMP	sender	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	4	0	5.152	high	True	0	0		high
+BMP	sender	ID8	50pct_k13	GO: nucleosome organization	4	0	1	-1.907	no consistent difference	False	0	1		no consistent difference
+BMP	sender	ID9	50pct_k13	GO: chromosome condensation	3	0	0	-0.6606	no consistent difference	False	0	0		no consistent difference
+FGF	readout	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	0	3	-3.238	low	False	0	3		low
+FGF	readout	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	4	0	4.316	high	False	4	0		high
+FGF	readout	ID12	50pct_k13	endoderm | GO: endoderm development	2	0	1	-2.396	no consistent difference	False	0	1		no consistent difference
+FGF	readout	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	1	-3.014	no consistent difference	False	0	1		no consistent difference
+FGF	readout	ID2	50pct_k13	presumptive shield | GO: regionalization	4	0	0	-0.769	no consistent difference	False	0	0		no consistent difference
+FGF	readout	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	-1.92	no consistent difference	False	0	0		no consistent difference
+FGF	readout	ID27	50pct_k13	unannotated	1	0	1	-3.064	no consistent difference	False	0	1		no consistent difference
+FGF	readout	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	0	0	1.717	no consistent difference	False	0	0		no consistent difference
+FGF	readout	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	-1.474	no consistent difference	False	0	0		no consistent difference
+FGF	readout	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	3	-2.873	low	False	0	3		low
+FGF	readout	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	1	-1.731	no consistent difference	False	0	1		no consistent difference
+FGF	readout	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	0	-1.003	no consistent difference	False	0	0		no consistent difference
+FGF	readout	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	4	0	4.298	high	True	4	0	3.621	high
+FGF	readout	ID8	50pct_k13	GO: nucleosome organization	4	0	3	-2.736	low	False	0	3		low
+FGF	readout	ID9	50pct_k13	GO: chromosome condensation	3	0	0	-1.132	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	0	0	1.579	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	0	0	-1.087	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID12	50pct_k13	endoderm | GO: endoderm development	2	0	0	2.015	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	0	1.873	no consistent difference	True	0	0		no consistent difference
+FGF	receiver	ID2	50pct_k13	presumptive shield | GO: regionalization	4	0	0	0.7948	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	1.941	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID27	50pct_k13	unannotated	1	0	0	1.051	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	0	1	-2.136	no consistent difference	False	0	1		no consistent difference
+FGF	receiver	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	-1.089	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	0	-0.56	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	0	0.5187	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	0	2.132	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	0	3	-3.339	low	False	0	3		low
+FGF	receiver	ID8	50pct_k13	GO: nucleosome organization	4	0	0	0.9326	no consistent difference	False	0	0		no consistent difference
+FGF	receiver	ID9	50pct_k13	GO: chromosome condensation	3	0	0	1.147	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	0	0	-1.513	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	4	0	3.668	high	False	4	0		high
+FGF	secondary	ID12	50pct_k13	endoderm | GO: endoderm development	2	0	0	-2.02	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	0	-1.601	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID2	50pct_k13	presumptive shield | GO: regionalization	4	0	1	-2.456	no consistent difference	False	0	1		no consistent difference
+FGF	secondary	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	0.1053	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID27	50pct_k13	unannotated	1	0	0	-1.09	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	0	0	-1.447	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	0.2094	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	0	-1.429	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	0	-0.01665	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	0	0.5163	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	0	0	1.413	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID8	50pct_k13	GO: nucleosome organization	4	0	0	-0.4761	no consistent difference	False	0	0		no consistent difference
+FGF	secondary	ID9	50pct_k13	GO: chromosome condensation	3	0	0	0.1988	no consistent difference	False	0	0		no consistent difference
+FGF	sender	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	0	4	-3.012	low	False	0	4		low
+FGF	sender	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	4	0	3.396	high	True	2	0		high
+FGF	sender	ID12	50pct_k13	endoderm | GO: endoderm development	2	0	0	-0.6643	no consistent difference	False	0	0		no consistent difference
+FGF	sender	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	1	-3.985	no consistent difference	False	0	1		no consistent difference
+FGF	sender	ID2	50pct_k13	presumptive shield | GO: regionalization	4	0	0	0.3887	no consistent difference	False	0	0		no consistent difference
+FGF	sender	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	-2.379	no consistent difference	False	0	0		no consistent difference
+FGF	sender	ID27	50pct_k13	unannotated	1	0	1	-2.861	no consistent difference	False	0	1		no consistent difference
+FGF	sender	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	0	0	1.768	no consistent difference	True	0	0		no consistent difference
+FGF	sender	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	-0.5788	no consistent difference	False	0	0		no consistent difference
+FGF	sender	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	0	-1.449	no consistent difference	False	0	0		no consistent difference
+FGF	sender	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	1	-2.32	no consistent difference	False	0	1		no consistent difference
+FGF	sender	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	2	-2.452	no consistent difference	False	0	2		no consistent difference
+FGF	sender	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	2	0	2.699	no consistent difference	True	0	0		no consistent difference
+FGF	sender	ID8	50pct_k13	GO: nucleosome organization	4	0	3	-2.709	low	False	0	3		low
+FGF	sender	ID9	50pct_k13	GO: chromosome condensation	3	0	0	-1.408	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	0	1	-2.1	no consistent difference	False	0	1		no consistent difference
+Hh	secondary	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	4	0	6.084	high	True	0	0		high
+Hh	secondary	ID12	50pct_k13	endoderm | GO: endoderm development	2	0	0	-0.0328	no consistent difference	True	0	0		no consistent difference
+Hh	secondary	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	0	-2.488	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID2	50pct_k13	presumptive shield | GO: regionalization	4	0	0	0.2628	no consistent difference	True	0	0		no consistent difference
+Hh	secondary	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	-0.9924	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID27	50pct_k13	unannotated	1	0	0	-1.998	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	0	0	-0.4329	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	-0.3051	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	0	-1.063	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	0	-0.9606	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	0	-0.6229	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	0	0	0.8774	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID8	50pct_k13	GO: nucleosome organization	4	0	0	-1.382	no consistent difference	False	0	0		no consistent difference
+Hh	secondary	ID9	50pct_k13	GO: chromosome condensation	3	0	0	-1.084	no consistent difference	False	0	0		no consistent difference
+Nodal	readout	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	0	4	-3.158	low	False	0	4		low
+Nodal	readout	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	3	0	2.144	high	False	3	0		high
+Nodal	readout	ID12	50pct_k13	endoderm | GO: endoderm development	2	0	0	-0.01553	no consistent difference	False	0	0		no consistent difference
+Nodal	readout	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	1	-4.433	no consistent difference	False	0	1		no consistent difference
+Nodal	readout	ID2	50pct_k13	presumptive shield | GO: regionalization	4	3	0	2.725	high	True	3	0	2.355	high
+Nodal	readout	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	-2.212	no consistent difference	False	0	0		no consistent difference
+Nodal	readout	ID27	50pct_k13	unannotated	1	0	1	-3.639	no consistent difference	False	0	1		no consistent difference
+Nodal	readout	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	4	0	5.042	high	True	3	0	4.548	high
+Nodal	readout	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	0.5263	no consistent difference	False	0	0		no consistent difference
+Nodal	readout	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	2	-2.365	no consistent difference	False	0	2		no consistent difference
+Nodal	readout	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	2	-2.488	no consistent difference	False	0	2		no consistent difference
+Nodal	readout	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	4	-3.417	low	False	0	4		low
+Nodal	readout	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	4	0	3.72	high	True	2	0	1.583	not separable from program genes
+Nodal	readout	ID8	50pct_k13	GO: nucleosome organization	4	0	4	-3.44	low	False	0	4		low
+Nodal	readout	ID9	50pct_k13	GO: chromosome condensation	3	0	1	-2.488	no consistent difference	False	0	1		no consistent difference
+Nodal	receiver	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	0	0	-1.808	no consistent difference	False	0	0		no consistent difference
+Nodal	receiver	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	1	0	2.098	no consistent difference	True	0	0		no consistent difference
+Nodal	receiver	ID12	50pct_k13	endoderm | GO: endoderm development	2	0	0	0.6251	no consistent difference	False	0	0		no consistent difference
+Nodal	receiver	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	0	-2.293	no consistent difference	False	0	0		no consistent difference
+Nodal	receiver	ID2	50pct_k13	presumptive shield | GO: regionalization	4	0	0	1.528	no consistent difference	False	0	0		no consistent difference
+Nodal	receiver	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	1	-3.595	no consistent difference	False	0	1		no consistent difference
+Nodal	receiver	ID27	50pct_k13	unannotated	1	0	0	-2.391	no consistent difference	False	0	0		no consistent difference
+Nodal	receiver	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	3	0	3.311	high	False	3	0		high
+Nodal	receiver	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	-1.692	no consistent difference	False	0	0		no consistent difference
+Nodal	receiver	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	0	-1.59	no consistent difference	False	0	0		no consistent difference
+Nodal	receiver	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	0	-1.373	no consistent difference	False	0	0		no consistent difference
+Nodal	receiver	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	3	-3.047	low	False	0	3		low
+Nodal	receiver	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	2	0	3.015	no consistent difference	True	1	0		no consistent difference
+Nodal	receiver	ID8	50pct_k13	GO: nucleosome organization	4	0	2	-2.24	no consistent difference	False	0	2		no consistent difference
+Nodal	receiver	ID9	50pct_k13	GO: chromosome condensation	3	0	0	-2.111	no consistent difference	False	0	0		no consistent difference
+Nodal	secondary	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	0	0	-0.3351	no consistent difference	False	0	0		no consistent difference
+Nodal	secondary	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	0	0	0.8846	no consistent difference	True	0	0		no consistent difference
+Nodal	secondary	ID12	50pct_k13	endoderm | GO: endoderm development	2	0	0	1.194	no consistent difference	True	0	0		no consistent difference
+Nodal	secondary	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	0	-0.4012	no consistent difference	True	0	0		no consistent difference
+Nodal	secondary	ID2	50pct_k13	presumptive shield | GO: regionalization	4	0	0	2.086	no consistent difference	True	0	0		no consistent difference
+Nodal	secondary	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	0.4175	no consistent difference	False	0	0		no consistent difference
+Nodal	secondary	ID27	50pct_k13	unannotated	1	0	0	-1.413	no consistent difference	False	0	0		no consistent difference
+Nodal	secondary	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	0	0	1.677	no consistent difference	True	0	0		no consistent difference
+Nodal	secondary	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	0.9488	no consistent difference	True	0	0		no consistent difference
+Nodal	secondary	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	0	-1.587	no consistent difference	False	0	0		no consistent difference
+Nodal	secondary	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	0	-1.166	no consistent difference	False	0	0		no consistent difference
+Nodal	secondary	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	0	-0.7542	no consistent difference	True	0	0		no consistent difference
+Nodal	secondary	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	0	0	0.1419	no consistent difference	True	0	0		no consistent difference
+Nodal	secondary	ID8	50pct_k13	GO: nucleosome organization	4	0	0	-0.5992	no consistent difference	False	0	0		no consistent difference
+Nodal	secondary	ID9	50pct_k13	GO: chromosome condensation	3	0	0	-1.135	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	0	0	-1.411	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	0	0	1.485	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID12	50pct_k13	endoderm | GO: endoderm development	2	0	0	-0.1501	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	0	-1.698	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID2	50pct_k13	presumptive shield | GO: regionalization	4	2	0	2.108	no consistent difference	True	2	0		no consistent difference
+Nodal	sender	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	-0.9477	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID27	50pct_k13	unannotated	1	0	0	-0.6102	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	2	0	2.602	no consistent difference	True	0	0		no consistent difference
+Nodal	sender	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	0.2141	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	0	-1.506	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	0	0.699	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	4	-2.995	low	False	0	4		low
+Nodal	sender	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	0	0	0.8584	no consistent difference	False	0	0		no consistent difference
+Nodal	sender	ID8	50pct_k13	GO: nucleosome organization	4	0	0	0.4381	no consistent difference	True	0	0		no consistent difference
+Nodal	sender	ID9	50pct_k13	GO: chromosome condensation	3	0	0	-1.629	no consistent difference	False	0	0		no consistent difference
+Notch	readout	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	0	0	-1.016	no consistent difference	False	0	0		no consistent difference
+Notch	readout	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	0	0	1.136	no consistent difference	False	0	0		no consistent difference
+Notch	readout	ID12	50pct_k13	endoderm | GO: endoderm development	2	0	0	0.9662	no consistent difference	False	0	0		no consistent difference
+Notch	readout	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	1	-2.582	no consistent difference	False	0	1		no consistent difference
+Notch	readout	ID2	50pct_k13	presumptive shield | GO: regionalization	4	0	0	-0.4161	no consistent difference	False	0	0		no consistent difference
+Notch	readout	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	-2.305	no consistent difference	False	0	0		no consistent difference
+Notch	readout	ID27	50pct_k13	unannotated	1	0	0	-1.061	no consistent difference	False	0	0		no consistent difference
+Notch	readout	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	2	0	1.819	no consistent difference	False	2	0		no consistent difference
+Notch	readout	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	0.5176	no consistent difference	False	0	0		no consistent difference
+Notch	readout	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	2	-2.512	no consistent difference	False	0	2		no consistent difference
+Notch	readout	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	0	-1.026	no consistent difference	False	0	0		no consistent difference
+Notch	readout	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	3	-2.898	low	False	0	3		low
+Notch	readout	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	4	0	6.511	high	True	0	0	0.2005	not separable from program genes
+Notch	readout	ID8	50pct_k13	GO: nucleosome organization	4	0	2	-2.131	no consistent difference	True	0	3	-2.646	no consistent difference
+Notch	readout	ID9	50pct_k13	GO: chromosome condensation	3	0	0	-1.013	no consistent difference	False	0	0		no consistent difference
+Wnt	readout	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	0	1	-1.833	no consistent difference	False	0	1		no consistent difference
+Wnt	readout	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	0	0	0.3844	no consistent difference	False	0	0		no consistent difference
+Wnt	readout	ID12	50pct_k13	endoderm | GO: endoderm development	2	1	0	1.458	no consistent difference	True	0	0	0.3998	no consistent difference
+Wnt	readout	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	1	-2.734	no consistent difference	False	0	1		no consistent difference
+Wnt	readout	ID2	50pct_k13	presumptive shield | GO: regionalization	4	0	0	0.6812	no consistent difference	False	0	0		no consistent difference
+Wnt	readout	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	-2.144	no consistent difference	False	0	0		no consistent difference
+Wnt	readout	ID27	50pct_k13	unannotated	1	0	1	-3.14	no consistent difference	False	0	1		no consistent difference
+Wnt	readout	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	4	0	3.658	high	True	1	0	1.817	not separable from program genes
+Wnt	readout	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	-0.4097	no consistent difference	False	0	0		no consistent difference
+Wnt	readout	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	1	-1.981	no consistent difference	False	0	1		no consistent difference
+Wnt	readout	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	3	-2.62	low	False	0	3		low
+Wnt	readout	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	3	-2.736	low	False	0	3		low
+Wnt	readout	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	4	0	4.725	high	True	4	0	5.106	high
+Wnt	readout	ID8	50pct_k13	GO: nucleosome organization	4	0	2	-2.998	no consistent difference	False	0	2		no consistent difference
+Wnt	readout	ID9	50pct_k13	GO: chromosome condensation	3	0	1	-1.403	no consistent difference	False	0	1		no consistent difference
+Wnt	receiver	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	0	0	-1.725	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	0	0	-1.029	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID12	50pct_k13	endoderm | GO: endoderm development	2	0	0	1.451	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	0	-0.3187	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID2	50pct_k13	presumptive shield | GO: regionalization	4	1	0	2.433	no consistent difference	False	1	0		no consistent difference
+Wnt	receiver	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	-2.253	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID27	50pct_k13	unannotated	1	0	0	-1.655	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	0	0	2.233	no consistent difference	True	0	0		no consistent difference
+Wnt	receiver	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	1.277	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	0	1.384	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	0	-1.806	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	0	0.9136	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	0	3	-3.285	low	False	0	3		low
+Wnt	receiver	ID8	50pct_k13	GO: nucleosome organization	4	0	0	-1.208	no consistent difference	False	0	0		no consistent difference
+Wnt	receiver	ID9	50pct_k13	GO: chromosome condensation	3	0	0	-1.104	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID1	50pct_k13	GO: positive regulation of apoptotic process	4	0	0	-0.3661	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID10	50pct_k13	presumptive shield | GO: anterior/posterior pattern specification	4	0	0	0.5445	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID12	50pct_k13	endoderm | GO: endoderm development	2	0	0	-0.535	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID15	50pct_k13	presumptive ectoderm | GO: epithelial tube morphogenesis	1	0	0	-0.3576	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID2	50pct_k13	presumptive shield | GO: regionalization	4	0	0	-0.529	no consistent difference	True	0	0		no consistent difference
+Wnt	secondary	ID26	50pct_k13	GO: regulation of sodium ion transport	1	0	0	-0.3781	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID27	50pct_k13	unannotated	1	0	0	-1.001	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID3	50pct_k13	presumptive endoderm | GO: gastrulation	4	0	0	-0.04074	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID33	50pct_k13	forerunner cell group | GO: regionalization	1	0	0	0.06831	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID4	50pct_k13	epithelium | GO: intermediate filament-based process	4	0	0	-1.53	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID5	50pct_k13	reproductive system | GO: gamete generation	3	0	0	-0.5925	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID6	50pct_k13	neural plate | GO: negative regulation of cell differentiation	4	0	0	-0.7716	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID7	50pct_k13	presumptive mesoderm | GO: pattern specification process	4	0	0	2.603	no consistent difference	True	0	0		no consistent difference
+Wnt	secondary	ID8	50pct_k13	GO: nucleosome organization	4	0	0	-1.145	no consistent difference	False	0	0		no consistent difference
+Wnt	secondary	ID9	50pct_k13	GO: chromosome condensation	3	0	0	-0.0127	no consistent difference	False	0	0		no consistent difference

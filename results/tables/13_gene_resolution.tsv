@@ -1,0 +1,122 @@
+pathway	tier	symbol	uncertain	note	status	zdb	zfin_symbol	matrix_gene	role	suggestions	resolution_note	n_libs_detected	max_detection	used
+Nodal	readout	lefty1	0		gene_name	ZDB-GENE-990630-10	lft1	LFT1	ligand			12	0.1119	True
+Nodal	readout	lefty2	0		gene_name	ZDB-GENE-990630-11	lft2	LFT2	ligand			12	0.125	True
+Nodal	readout	cer1	0		unresolved					cercam,cerk,cerkl,cers1,cers2a,cers2b		0		False
+Nodal	secondary	gsc	0	lineage TF; circularity risk	current	ZDB-GENE-980528-2060	gsc	GSC				12	0.3889	True
+Nodal	secondary	mixl1	0	lineage TF; circularity risk	current	ZDB-GENE-000208-20	mixl1	MIXL1				12	0.2098	True
+Nodal	secondary	sox32	0	lineage TF; circularity risk	current	ZDB-GENE-011026-1	sox32	SOX32				8	0.04755	True
+Nodal	secondary	eomesa	0	lineage TF; circularity risk	current	ZDB-GENE-001228-1	eomesa	EOMESA				11	0.7083	True
+Nodal	secondary	foxh1	0	lineage TF; circularity risk	current	ZDB-GENE-000616-15	foxh1	FOXH1				12	0.7292	True
+Nodal	ligand_receptor	ndr1	0	autoregulated; confounded with activity	current	ZDB-GENE-990415-256	ndr1	NDR1	ligand			12	0.08333	True
+Nodal	ligand_receptor	ndr2	0	autoregulated; confounded with activity	current	ZDB-GENE-990415-181	ndr2	NDR2	ligand			7	0.03686	True
+Nodal	ligand_receptor	gdf3	0		current	ZDB-GENE-980526-389	gdf3	GDF3	ligand			12	1	True
+Nodal	ligand_receptor	tdgf1	0	crypto co-receptor	current	ZDB-GENE-990415-198	tdgf1	TDGF1				12	0.8125	True
+Nodal	ligand_receptor	acvr1b	0		alias	ZDB-GENE-980526-527	acvr1ba	ACVR1BA	receptor			12	0.75	True
+Nodal	ligand_receptor	acvr2a	0		alias	ZDB-GENE-980526-227	acvr2aa	ACVR2AA	receptor			11	0.375	True
+BMP	readout	smad6a	0		current	ZDB-GENE-011015-1	smad6a	SMAD6A				12	0.08333	True
+BMP	readout	smad6b	0		current	ZDB-GENE-050419-198	smad6b	SMAD6B				0	0.007648	False
+BMP	readout	smad7	0		current	ZDB-GENE-030128-3	smad7	SMAD7				12	0.2699	True
+BMP	readout	vox1	0		unresolved					vox		0		False
+BMP	readout	vox2	0		unresolved					vox		0		False
+BMP	readout	vent	0		alias	ZDB-GENE-010108-2	ventx	VENT				12	0.381	True
+BMP	readout	ved	0		current	ZDB-GENE-030813-1	ved	VED				12	0.8571	True
+BMP	secondary	msx1	0		alias	ZDB-GENE-980526-312	msx1a	MSX1A				2	0.01469	True
+BMP	secondary	msx2a	0		current	ZDB-GENE-980526-322	msx2a	MSX2A				0	0.0009452	False
+BMP	secondary	gata2a	0		current	ZDB-GENE-980526-260	gata2a	GATA2A				12	0.221	True
+BMP	secondary	gata3	0		current	ZDB-GENE-990415-82	gata3	GATA3				12	0.1389	True
+BMP	secondary	id-like	1	"family placeholder in source (""id-like?"")"	unresolved							0		False
+BMP	secondary	bmpr1aa	0		current	ZDB-GENE-000502-1	bmpr1aa	BMPR1AA	receptor			12	0.3889	True
+BMP	secondary	bmp2b	0	positive feedback	current	ZDB-GENE-980526-474	bmp2b	BMP2B	ligand			12	0.5417	True
+BMP	secondary	bmp4	0	positive feedback	current	ZDB-GENE-980528-2059	bmp4	BMP4	ligand			11	0.3217	True
+BMP	secondary	bmp7a	0	positive feedback	current	ZDB-GENE-000208-25	bmp7a	BMP7A	ligand			12	0.4421	True
+BMP	ligand_receptor	bmp2b	0	much BMP protein is maternal	current	ZDB-GENE-980526-474	bmp2b	BMP2B	ligand			12	0.5417	True
+BMP	ligand_receptor	bmp4	0		current	ZDB-GENE-980528-2059	bmp4	BMP4	ligand			11	0.3217	True
+BMP	ligand_receptor	bmp7a	0		current	ZDB-GENE-000208-25	bmp7a	BMP7A	ligand			12	0.4421	True
+BMP	ligand_receptor	bmp7b	0		current	ZDB-GENE-060929-328	bmp7b	BMP7B	ligand			3	0.02083	True
+BMP	ligand_receptor	gdf6a	0		current	ZDB-GENE-980526-373	gdf6a	GDF6A	ligand			5	0.08333	True
+BMP	ligand_receptor	gdf6b	0		current	ZDB-GENE-980526-442	gdf6b	GDF6B	ligand			0	0	False
+BMP	ligand_receptor	acvr1a	0		unresolved					acvr1ba,acvr1bb,acvr1c,acvr1l,acvr2aa,acvr2ab		0		False
+BMP	ligand_receptor	bmpr1a	0		alias	ZDB-GENE-000502-1	bmpr1aa	BMPR1AA	receptor			12	0.3889	True
+BMP	ligand_receptor	bmpr1ba	0		current	ZDB-GENE-991208-8	bmpr1ba	BMPR1BA	receptor			11	0.2662	True
+BMP	ligand_receptor	bmpr2	0		paralog_expansion	ZDB-GENE-070618-1	bmpr2a	BMPR2A	receptor			0	0.008604	False
+BMP	ligand_receptor	bmpr2	0		paralog_expansion	ZDB-GENE-070618-2	bmpr2b	BMPR2B	receptor			0	0.002331	False
+BMP	antagonist	chd	0	secreted antagonist	alias	ZDB-GENE-990415-33	chrd	CHD				12	0.1733	True
+BMP	antagonist	nog1	0	secreted antagonist	current	ZDB-GENE-991206-8	nog1	NOG1				12	0.09722	True
+BMP	antagonist	fst	0	secreted antagonist	alias	ZDB-GENE-990714-11	fsta	FSTA				1	0.02083	False
+BMP	antagonist	grem1	0	secreted antagonist	alias	ZDB-GENE-040625-1	grem1a	GREM1A	ligand			4	0.02662	True
+BMP	antagonist	tqn1	0	"secreted antagonist (""tqn1/sizzled"")"	unresolved							0		False
+BMP	antagonist	sizzled	0	"secreted antagonist (""tqn1/sizzled"")"	gene_name	ZDB-GENE-030530-1	szl	SZL				10	0.1127	True
+BMP	antagonist	bmp3b	0	secreted antagonist	alias	ZDB-GENE-120316-1	gdf10b	GDF10B	ligand			1	0.01389	False
+Wnt	readout	axin2	0		current	ZDB-GENE-000403-2	axin2	AXIN2				12	0.2292	True
+Wnt	readout	sp5	0		alias	ZDB-GENE-030430-2	sp5a	SP5A				9	0.1245	True
+Wnt	readout	nkd1	0		current	ZDB-GENE-061108-3	nkd1	NKD1				0	0.006696	False
+Wnt	readout	nkd2a	0		current	ZDB-GENE-071130-1	nkd2a	NKD2A				1	0.0625	False
+Wnt	readout	notum2	0		current	ZDB-GENE-120215-77	notum2	NOTUM2				0	0.000777	False
+Wnt	secondary	lef1a	0		unresolved					lef1		0		False
+Wnt	secondary	tcf7l1b	0		current	ZDB-GENE-991110-10	tcf7l1b	TCF7L1B				12	0.2292	True
+Wnt	secondary	wnt8a	0	autoregulated	current	ZDB-GENE-980526-332	wnt8a	WNT8A	ligand			12	0.25	True
+Wnt	secondary	boz	0	"maternal-dorsal readout (""boz/dharma"")"	alias	ZDB-GENE-990415-22	dharma	DHARMA				5	0.06944	True
+Wnt	secondary	dharma	0	"maternal-dorsal readout (""boz/dharma"")"	current	ZDB-GENE-990415-22	dharma	DHARMA				5	0.06944	True
+Wnt	secondary	cdx1b	0		current	ZDB-GENE-070615-29	cdx1b	CDX1B				0	0.0006382	False
+Wnt	secondary	cdx4	0		current	ZDB-GENE-980526-330	cdx4	CDX4				11	0.414	True
+Wnt	ligand_receptor	wnt8a	0	maternal mRNA vegetally localized	current	ZDB-GENE-980526-332	wnt8a	WNT8A	ligand			12	0.25	True
+Wnt	ligand_receptor	wnt8b	0		current	ZDB-GENE-990415-279	wnt8b	WNT8B	ligand			0	0.000956	False
+Wnt	ligand_receptor	wnt1	0		current	ZDB-GENE-980526-526	wnt1	WNT1	ligand			1	0.02083	False
+Wnt	ligand_receptor	wnt3a	0		current	ZDB-GENE-001106-1	wnt3a	WNT3A	ligand			0	0.005439	False
+Wnt	ligand_receptor	wnt11f2	0		current	ZDB-GENE-990603-12	wnt11f2		ligand		matrix name(s) WNT11 are the current symbol of another ZFIN gene (renamed since 2015); not used	0		False
+Wnt	ligand_receptor	fzd7	0		paralog_expansion	ZDB-GENE-990415-223	fzd7a	FZD7A	receptor			12	0.3356	True
+Wnt	ligand_receptor	fzd7	0		paralog_expansion	ZDB-GENE-990415-229	fzd7b	FZD7B	receptor			12	0.7083	True
+Wnt	ligand_receptor	lrp5	0		current	ZDB-GENE-050518-2	lrp5	LRP5				10	0.1458	True
+Wnt	ligand_receptor	lrp6	0		current	ZDB-GENE-090821-1	lrp6	LRP6	receptor			10	0.1042	True
+Wnt	ligand_receptor	dact1	0		current	ZDB-GENE-040623-3	dact1	DACT1				3	0.01562	True
+Wnt	ligand_receptor	dact2	0		current	ZDB-GENE-030131-9975	dact2	DACT2				12	0.3194	True
+FGF	readout	spry1	0		current	ZDB-GENE-081215-2	spry1	SPRY1				8	0.122	True
+FGF	readout	spry2	0		current	ZDB-GENE-030131-7038	spry2	SPRY2				12	0.3171	True
+FGF	readout	spry4	0		current	ZDB-GENE-010803-2	spry4	SPRY4				12	0.09445	True
+FGF	readout	dusp6	0		current	ZDB-GENE-030613-1	dusp6	DUSP6				12	0.3271	True
+FGF	readout	sef	0	"(""sef (il17rd)"")"	alias	ZDB-GENE-020320-5	il17rd	IL17RD	receptor			12	0.5833	True
+FGF	readout	il17rd	0	"(""sef (il17rd)"")"	current	ZDB-GENE-020320-5	il17rd	IL17RD	receptor			12	0.5833	True
+FGF	secondary	etv4	0		current	ZDB-GENE-990415-71	etv4	ETV4				12	0.7234	True
+FGF	secondary	etv5b	0		current	ZDB-GENE-991228-4	etv5b	ETV5B				12	0.6861	True
+FGF	secondary	pepd1	0		unresolved					pepd		0		False
+FGF	secondary	foxg1a	0		current	ZDB-GENE-990415-267	foxg1a	FOXG1A				3	0.02662	True
+FGF	secondary	ntrk2	1	"marked ""?"" in source"	paralog_expansion	ZDB-GENE-010126-1	ntrk2a	NTRK2A	receptor			0	0.000956	False
+FGF	secondary	ntrk2	1	"marked ""?"" in source"	paralog_expansion	ZDB-GENE-010126-2	ntrk2b	NTRK2B	receptor			0	0.0008518	False
+FGF	ligand_receptor	fgf8a	0	gradient mostly after ~6-7 h	current	ZDB-GENE-990415-72	fgf8a	FGF8A	ligand			12	0.1445	True
+FGF	ligand_receptor	fgf3	0		current	ZDB-GENE-980526-178	fgf3	FGF3	ligand			10	0.09402	True
+FGF	ligand_receptor	fgf4	0		current	ZDB-GENE-001006-1	fgf4	FGF4	ligand			7	0.04167	True
+FGF	ligand_receptor	fgf24	0		current	ZDB-GENE-030708-1	fgf24	FGF24	ligand			9	0.07413	True
+FGF	ligand_receptor	fgfr1	0		alias	ZDB-GENE-980526-255	fgfr1a	FGFR1A	receptor			12	0.4167	True
+FGF	ligand_receptor	fgfr4	0		current	ZDB-GENE-980526-488	fgfr4	FGFR4	receptor			12	0.4063	True
+Hh	readout	ptch1	0	Shh not functional before ~6 h (negative control)	current	ZDB-GENE-980526-196	ptch1	PTCH1	receptor			0	0	False
+Hh	readout	ptch2	0		current	ZDB-GENE-980526-44	ptch2	PTCH2	receptor			0	0.004464	False
+Hh	readout	gli1	0		current	ZDB-GENE-030321-1	gli1	GLI1				3	0.01389	True
+Hh	secondary	gli2a	0	lineage TF; circularity risk	current	ZDB-GENE-990706-8	gli2a	GLI2A				3	0.02778	True
+Hh	secondary	foxa2	0	lineage TF; circularity risk	current	ZDB-GENE-980526-404	foxa2	FOXA2				10	0.05828	True
+Hh	secondary	nkx2.2	0	lineage TF; circularity risk	alias	ZDB-GENE-980526-403	nkx2.2a	NKX2.2A				0	0.000777	False
+Hh	secondary	olig2	0	lineage TF; circularity risk	current	ZDB-GENE-030131-4013	olig2	OLIG2				0	0.007605	False
+Hh	secondary	flh	0	lineage TF; circularity risk	alias	ZDB-GENE-990415-75	noto	NOTO				12	0.6525	True
+Hh	ligand_receptor	shha	0		current	ZDB-GENE-980526-166	shha	SHHA				0	0.008604	False
+Hh	ligand_receptor	shhb	0		current	ZDB-GENE-980526-41	shhb	SHHB				0	0.004726	False
+Hh	ligand_receptor	ihha	0		current	ZDB-GENE-051010-1	ihha	IHHA				0	0.0006993	False
+Hh	ligand_receptor	smoo	0		unresolved							0		False
+Hh	ligand_receptor	ptch1	0		current	ZDB-GENE-980526-196	ptch1	PTCH1	receptor			0	0	False
+Notch	readout	her1	0	oscillatory: population averages only	current	ZDB-GENE-980526-125	her1	HER1				7	0.2278	True
+Notch	readout	her7	0	oscillatory	current	ZDB-GENE-000427-6	her7	HER7				10	0.4962	True
+Notch	readout	her11	0		current	ZDB-GENE-040824-4	her11	HER11				12	0.625	True
+Notch	readout	her12	0		current	ZDB-GENE-040824-5	her12	HER12				3	0.05556	True
+Notch	readout	her15	0		alias_ambiguous	ZDB-GENE-030707-2	her15.1	HER15.1				0	0.00478	False
+Notch	readout	her15	0		alias_ambiguous	ZDB-GENE-070627-1	her15.2	HER15.2				0	0.00478	False
+Notch	readout	hes6	0		current	ZDB-GENE-030828-5	hes6	HES6				12	0.6924	True
+Notch	readout	heyl	0		current	ZDB-GENE-030131-7074	heyl	HEYL				0	0	False
+Notch	secondary	notch1a	0		current	ZDB-GENE-990415-173	notch1a	NOTCH1A	receptor			12	0.5625	True
+Notch	secondary	notch1b	0		current	ZDB-GENE-990415-183	notch1b	NOTCH1B	receptor			0	0.000956	False
+Notch	secondary	dll3	0		unresolved					dll4		0		False
+Notch	secondary	dll4a	0		unresolved					dll4		0		False
+Notch	secondary	jagged1a	0		alias	ZDB-GENE-011128-2	jag1a	JAG1A	ligand			2	0.02342	True
+Notch	secondary	jagged1b	0		alias	ZDB-GENE-011128-4	jag1b	JAG1B				0	0.006993	False
+VEGF	readout	etv2	0	relevant from ~8 h (negative control)	alias	ZDB-GENE-050622-14	etsrp	ETV2				1	0.02083	False
+VEGF	readout	etv3	0		unresolved					etv1,etv4,etv5a,etv5b,etv7		0		False
+VEGF	ligand_receptor	vegba	0		unresolved					vegfaa,vegfab,vegfbb,vegfc		0		False
+VEGF	ligand_receptor	kdr	0		current	ZDB-GENE-041001-112	kdr	KDR	receptor			1	0.01389	False
+VEGF	ligand_receptor	flt1	0		current	ZDB-GENE-050407-1	flt1	FLT1	receptor			0	0	False

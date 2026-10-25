@@ -40,7 +40,7 @@ This creates `.venv/` and installs exact versions from
 `requirements.lock.txt` (top-level pins and rationale are in
 `requirements.txt`). Key versions: Python 3.12.3, scanpy 1.12.4, anndata
 0.13.4, numpy 2.5.4, pandas 3.0.6, scipy 1.18.1, harmonypy 2.1.0,
-matplotlib 3.11.2, scvi-tools 1.5.1, torch 2.14.1. No API keys or external services are required after the data
+matplotlib 3.11.2, scvi-tools 1.5.1, torch 2.14.1, cnmf 1.7.1. No API keys or external services are required after the data
 download.
 
 ## Pipeline
@@ -62,6 +62,11 @@ bash scripts/run_pipeline.sh --force  # recompute all stages
 | 06 | `scripts/06_library_clustering.py` | stage-02 h5ad | per-library Leiden + UMAP, cluster QC tables, `data/processed/libraries/*.h5ad` | ~2 min |
 | 07 | `scripts/07_merged_contexts.py` | stage-02 h5ad + stage-06 labels | joint UMAP/Leiden for DS5 (across time) and 50% epiboly (across batches); local-vs-joint, centroid-correlation and kNN-mapping comparisons | ~40 s |
 | 08 | `scripts/08_batch_correction_50pct.py` | stage-07 50% epiboly object | uncorrected vs Harmony vs scVI (3 seeds), batch-mixing and biology-conservation metrics | ~8 min (scVI on CPU), ~1 min cached |
+| 09 | `scripts/09_gene_programs_cnmf.py` | stage-07 50% epiboly object (raw counts) | cNMF programs per library (K=5–20, 100 runs each), common K; all-K tables in `data/processed/09_programs/` | ~19 min first run (8 workers), ~3 min cached |
+| 10 | `scripts/10_program_annotation.py` | stage-09 programs + `data/reference/` | replicated meta-programs, ZFIN anatomy + GO BP enrichment, DS5 projection | ~10 s |
+| 11 | `scripts/11_program_k_scan.py` | stage-09 programs (all K) + `data/reference/` | replication + annotation at every K=5–20; program identities tracked across K | ~15 s |
+| 12 | `scripts/12_ds5_programs.py` | DS5 merged object + 50% programs (all K) | cNMF per DS5 unit, recurrence within DS5, match to 50% identities | ~10 min first run, ~1 min cached |
+| 13 | `scripts/13_pathway_proxies.py` | `scripts/pathway_proxies.tsv` + per-library objects + programs | ZFIN-resolved pathway proxy sets, validation (coherence, ZFIN, calibration), program associations, DS5 time course, pathway state table | ~1.5 min |
 
 Individual stages:
 
@@ -74,9 +79,15 @@ Individual stages:
 .venv/bin/python scripts/06_library_clustering.py
 .venv/bin/python scripts/07_merged_contexts.py
 .venv/bin/python scripts/08_batch_correction_50pct.py
+.venv/bin/python scripts/09_gene_programs_cnmf.py
+bash scripts/download_references.sh   # once: ZFIN + GO annotation files
+.venv/bin/python scripts/10_program_annotation.py
+.venv/bin/python scripts/11_program_k_scan.py
+.venv/bin/python scripts/12_ds5_programs.py
+.venv/bin/python scripts/13_pathway_proxies.py
 ```
 
-Stages 06–08 also accept `--force`. Stage 01 is the expensive step (reading the 1 GB compressed TSV). Stages 01, 03
+Stages 06–09 and 12 also accept `--force`. Stage 01 is the expensive step (reading the 1 GB compressed TSV). Stages 01, 03
 and 04 accept `--force`; without it they skip if their output exists. Stage 02
 always regenerates its tables/figures. Stage 01 needs roughly 8–10 GB of RAM.
 
@@ -119,6 +130,36 @@ always regenerates its tables/figures. Stage 01 needs roughly 8–10 GB of RAM.
   the stage-07 cross-library populations (cLISI, silhouette, mutual kNN
   matches, recall/purity). See
   [results/08_batch_correction_50pct.md](results/08_batch_correction_50pct.md).
+- **09 — gene programs:** runs consensus NMF on raw counts of each 50%
+  epiboly library separately, with no batch correction. It uses one common
+  K chosen by worst-library stability (K ≥ 7), and writes K ± sensitivity
+  results.
+- **10 — program interpretation:** links programs across libraries (mutual
+  best match plus significant top-50 overlap) and keeps those found in at
+  least 3 libraries. It annotates them *only* from databases: ZFIN in-situ
+  expression at 4.66–6.0 hpf with ZFA propagation, and GO BP from the ZFIN
+  GAF. It then projects them onto DS5. See
+  [results/10_gene_programs.md](results/10_gene_programs.md).
+  Reference files are fetched by `scripts/download_references.sh` into
+  `data/reference/` (gitignored; dates and checksums in `MANIFEST.tsv`).
+- **11 — K scan:** repeats the stage-10 replication and annotation at every
+  K from 5 to 20 and groups programs into identities across K. The
+  replicated set saturates at 10 programs from K = 13. See
+  [results/11_program_k_scan.md](results/11_program_k_scan.md).
+- **12 — DS5 programs:** runs cNMF on five DS5 units (high+oblong pooled,
+  dome, 30% a, 30% b, shield) and finds programs recurring in at least 2
+  units. It matches each DS5 program to the 50% epiboly identities by
+  top-gene overlap, which avoids the batch confounding. All 10 replicated
+  50% programs reappear in DS5, as do the forerunner-like and
+  SOX32/SOX17/GATA endoderm programs. See
+  [results/12_ds5_programs.md](results/12_ds5_programs.md).
+- **13 — signalling proxies:** resolves the readout, secondary, sender,
+  receiver and antagonist genes from `scripts/pathway_proxies.tsv` through
+  ZFIN. Each proxy is validated against matched random gene sets
+  (coherence, with calibration) and ZFIN in-situ data. Readout scores are
+  then associated with the replicated programs within each library, with a
+  leave-out circularity check. Output is a program × pathway state table.
+  See [results/13_pathway_proxies.md](results/13_pathway_proxies.md).
 
 ## Key QC and sanity-check findings
 

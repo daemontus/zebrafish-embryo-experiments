@@ -1,0 +1,14 @@
+	DS5_highoblong	DS5_dome	DS5_30a	DS5_30b	DS5_shield
+ID1 GO: positive regulation of apoptotic process [4 lib]		26.000	33.000	34.000	
+ID2 presumptive shield | GO: regionalization [4 lib]		33.000		29.000	33.000
+ID3 presumptive endoderm | GO: gastrulation [4 lib]		33.000	36.000	42.000	39.000
+ID4 epithelium | GO: intermediate filament-based  [4 lib]	23.000	35.000	37.000	33.000	31.000
+ID5 reproductive system | GO: gamete generation [4 lib]		10.000	11.000	16.000	13.000
+ID6 neural plate | GO: negative regulation of cel [4 lib]	21.000	19.000	14.000	12.000	30.000
+ID7 presumptive mesoderm | GO: pattern specificat [4 lib]				36.000	34.000
+ID8 GO: nucleosome organization [4 lib]		20.000	11.000	16.000	
+ID9 GO: chromosome condensation [4 lib]		16.000			17.000
+ID10 presumptive shield | GO: anterior/posterior p [4 lib]			20.000	25.000	23.000
+ID12 endoderm | GO: endoderm development [2 lib]					25.000
+ID15 presumptive ectoderm | GO: epithelial tube mo [1 lib]					29.000
+ID33 forerunner cell group | GO: regionalization [1 lib]					15.000

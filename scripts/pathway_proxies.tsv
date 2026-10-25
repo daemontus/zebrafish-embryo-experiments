@@ -1,0 +1,118 @@
+pathway	tier	symbol	uncertain	note
+Nodal	readout	lefty1	0
+Nodal	readout	lefty2	0
+Nodal	readout	cer1	0
+Nodal	secondary	gsc	0	lineage TF; circularity risk
+Nodal	secondary	mixl1	0	lineage TF; circularity risk
+Nodal	secondary	sox32	0	lineage TF; circularity risk
+Nodal	secondary	eomesa	0	lineage TF; circularity risk
+Nodal	secondary	foxh1	0	lineage TF; circularity risk
+Nodal	ligand_receptor	ndr1	0	autoregulated; confounded with activity
+Nodal	ligand_receptor	ndr2	0	autoregulated; confounded with activity
+Nodal	ligand_receptor	gdf3	0
+Nodal	ligand_receptor	tdgf1	0	crypto co-receptor
+Nodal	ligand_receptor	acvr1b	0
+Nodal	ligand_receptor	acvr2a	0
+BMP	readout	smad6a	0
+BMP	readout	smad6b	0
+BMP	readout	smad7	0
+BMP	readout	vox1	0
+BMP	readout	vox2	0
+BMP	readout	vent	0
+BMP	readout	ved	0
+BMP	secondary	msx1	0
+BMP	secondary	msx2a	0
+BMP	secondary	gata2a	0
+BMP	secondary	gata3	0
+BMP	secondary	id-like	1	family placeholder in source ("id-like?")
+BMP	secondary	bmpr1aa	0
+BMP	secondary	bmp2b	0	positive feedback
+BMP	secondary	bmp4	0	positive feedback
+BMP	secondary	bmp7a	0	positive feedback
+BMP	ligand_receptor	bmp2b	0	much BMP protein is maternal
+BMP	ligand_receptor	bmp4	0
+BMP	ligand_receptor	bmp7a	0
+BMP	ligand_receptor	bmp7b	0
+BMP	ligand_receptor	gdf6a	0
+BMP	ligand_receptor	gdf6b	0
+BMP	ligand_receptor	acvr1a	0
+BMP	ligand_receptor	bmpr1a	0
+BMP	ligand_receptor	bmpr1ba	0
+BMP	ligand_receptor	bmpr2	0
+BMP	antagonist	chd	0	secreted antagonist
+BMP	antagonist	nog1	0	secreted antagonist
+BMP	antagonist	fst	0	secreted antagonist
+BMP	antagonist	grem1	0	secreted antagonist
+BMP	antagonist	tqn1	0	secreted antagonist ("tqn1/sizzled")
+BMP	antagonist	sizzled	0	secreted antagonist ("tqn1/sizzled")
+BMP	antagonist	bmp3b	0	secreted antagonist
+Wnt	readout	axin2	0
+Wnt	readout	sp5	0
+Wnt	readout	nkd1	0
+Wnt	readout	nkd2a	0
+Wnt	readout	notum2	0
+Wnt	secondary	lef1a	0
+Wnt	secondary	tcf7l1b	0
+Wnt	secondary	wnt8a	0	autoregulated
+Wnt	secondary	boz	0	maternal-dorsal readout ("boz/dharma")
+Wnt	secondary	dharma	0	maternal-dorsal readout ("boz/dharma")
+Wnt	secondary	cdx1b	0
+Wnt	secondary	cdx4	0
+Wnt	ligand_receptor	wnt8a	0	maternal mRNA vegetally localized
+Wnt	ligand_receptor	wnt8b	0
+Wnt	ligand_receptor	wnt1	0
+Wnt	ligand_receptor	wnt3a	0
+Wnt	ligand_receptor	wnt11f2	0
+Wnt	ligand_receptor	fzd7	0
+Wnt	ligand_receptor	lrp5	0
+Wnt	ligand_receptor	lrp6	0
+Wnt	ligand_receptor	dact1	0
+Wnt	ligand_receptor	dact2	0
+FGF	readout	spry1	0
+FGF	readout	spry2	0
+FGF	readout	spry4	0
+FGF	readout	dusp6	0
+FGF	readout	sef	0	("sef (il17rd)")
+FGF	readout	il17rd	0	("sef (il17rd)")
+FGF	secondary	etv4	0
+FGF	secondary	etv5b	0
+FGF	secondary	pepd1	0
+FGF	secondary	foxg1a	0
+FGF	secondary	ntrk2	1	marked "?" in source
+FGF	ligand_receptor	fgf8a	0	gradient mostly after ~6-7 h
+FGF	ligand_receptor	fgf3	0
+FGF	ligand_receptor	fgf4	0
+FGF	ligand_receptor	fgf24	0
+FGF	ligand_receptor	fgfr1	0
+FGF	ligand_receptor	fgfr4	0
+Hh	readout	ptch1	0	Shh not functional before ~6 h (negative control)
+Hh	readout	ptch2	0
+Hh	readout	gli1	0
+Hh	secondary	gli2a	0	lineage TF; circularity risk
+Hh	secondary	foxa2	0	lineage TF; circularity risk
+Hh	secondary	nkx2.2	0	lineage TF; circularity risk
+Hh	secondary	olig2	0	lineage TF; circularity risk
+Hh	secondary	flh	0	lineage TF; circularity risk
+Hh	ligand_receptor	shha	0
+Hh	ligand_receptor	shhb	0
+Hh	ligand_receptor	ihha	0
+Hh	ligand_receptor	smoo	0
+Hh	ligand_receptor	ptch1	0
+Notch	readout	her1	0	oscillatory: population averages only
+Notch	readout	her7	0	oscillatory
+Notch	readout	her11	0
+Notch	readout	her12	0
+Notch	readout	her15	0
+Notch	readout	hes6	0
+Notch	readout	heyl	0
+Notch	secondary	notch1a	0
+Notch	secondary	notch1b	0
+Notch	secondary	dll3	0
+Notch	secondary	dll4a	0
+Notch	secondary	jagged1a	0
+Notch	secondary	jagged1b	0
+VEGF	readout	etv2	0	relevant from ~8 h (negative control)
+VEGF	readout	etv3	0
+VEGF	ligand_receptor	vegba	0
+VEGF	ligand_receptor	kdr	0
+VEGF	ligand_receptor	flt1	0

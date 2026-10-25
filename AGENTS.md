@@ -41,6 +41,31 @@ Repository root: `/home/xpastva/zebrafish-early`
   ectoderm while keeping p53/endoderm/margin/EVL/prechordal intact.
   Harmony is the recommended default; scVI is sharper but varies by seed.
   See `results/08_batch_correction_50pct.md`.
+- Stages 09–10 identify **gene programs** with consensus NMF per 50% epiboly
+  library (K=9), keep those replicated in ≥3 libraries, and annotate them
+  from ZFIN/GO enrichment. There are 8 replicated programs: EVL,
+  ventrolateral margin, dorsal margin/shield, endoderm, p53, presumptive
+  ectoderm, an unnamed early-declining program, and **primordial germ cells**
+  (3–5 cells/library, never found by clustering). See
+  `results/10_gene_programs.md`.
+- Stage 11 scans K = 5–20. The replicated set **saturates at 10 programs**
+  (K ≥ 13): the 8 above plus proliferation (histone/MKI67) and a
+  NOTO/ADMP/CHD dorsal-organizer program. Forerunner-like cells are found
+  only in DS4 at every K (candidate cells exist in all libraries). See
+  `results/11_program_k_scan.md`.
+- Stage 12 runs the program analysis on DS5. There are 11 programs recurrent
+  across DS5 units, and every one matches a 50% identity. All 10 replicated
+  50% programs reappear, appearing in developmental order (EVL/ectoderm
+  first, ventrolateral mesoderm last). The DS4-only forerunner-like program
+  reappears in DS5 shield (FOXJ1A rank 1; 18/50 genes shared), now 2
+  libraries across 2 batches. See `results/12_ds5_programs.md`.
+- Stage 13 scores **signalling-pathway proxies** (readout genes from a
+  user-supplied resource, `scripts/pathway_proxies.tsv`, resolved via ZFIN).
+  Nodal/BMP/Wnt/FGF/Notch readouts are coherent (calibrated false-positive
+  rate 1/50); Hh and VEGF are undetectable (negative controls). The
+  program × pathway state table is in `results/13_pathway_proxies.md`.
+  Notch → ventrolateral mesoderm is not separable from that program's own
+  genes.
 - **No Boolean model has been fitted yet.**
 - Created a project-local `.venv` with scanpy/anndata and documented exact
   versions in `requirements.lock.txt`.
@@ -130,6 +155,10 @@ data/
     libraries/<library>.h5ad      # stage 06, one per library (e.g. ZF50_WT_DS4b)
     07_ds5_joint.h5ad, 07_50pct_joint.h5ad  # stage 07 merged contexts
     08_50pct_corrected.h5ad       # stage 08: X_harmony, X_scvi_s{0,1,2}, joint_* labels
+    09_cnmf/<library>[_ext]/      # cNMF working directories (K 5-15; _ext = K 16-20)
+    09_programs/                  # consensus programs for every K (results/ keeps K=9)
+    12_cnmf/, 12_programs/        # DS5 cNMF runs / programs for every K (results/ keeps K=13)
+  reference/                      # ZFIN/GO downloads (gitignored), MANIFEST.tsv
 results/
   figures/                        # 02_*, 03_*, 04_* QC/UMAP figures
   tables/                         # stage-wise QC, UMAP coords, cluster tables
@@ -138,6 +167,10 @@ results/
   figures/06_libraries/           # one UMAP/QC panel per library
   07_merged_contexts.md           # merged-context results + interpretation
   08_batch_correction_50pct.md    # batch-correction comparison + verdict
+  10_gene_programs.md             # replicated gene programs + interpretation
+  11_program_k_scan.md            # how many replicated programs (K scan)
+  12_ds5_programs.md              # DS5 programs and their 50% counterparts
+  13_pathway_proxies.md           # pathway proxies: validation, calls, limits
 scripts/
   download_gse106587.sh           # idempotent download + extract + checksums
   build_metadata.py               # SOFT → cell metadata tables (stdlib)
@@ -151,6 +184,16 @@ scripts/
   06_library_clustering.py        # per-library Leiden/UMAP + cluster QC
   07_merged_contexts.py           # DS5-across-time / 50%-across-batch joint embeddings
   08_batch_correction_50pct.py    # Harmony vs scVI on the 50% epiboly libraries
+  09_gene_programs_cnmf.py        # cNMF programs per 50% epiboly library
+  10_program_annotation.py        # replication, ZFIN/GO annotation, DS5 projection
+  11_program_k_scan.py            # replication/annotation at every K, identities across K
+  12_ds5_programs.py              # cNMF on DS5 units, recurrence, match to 50% identities
+  13_pathway_proxies.py           # pathway proxy validation, program association, state table
+  pathway_tools.py                # ZFIN symbol/alias resolution + GO roles (13)
+  pathway_proxies.tsv             # resource gene lists (verbatim), the stage-13 input
+  program_tools.py                # shared program matching + enrichment helpers (10-12)
+  cnmf_tools.py                   # shared cNMF driver (09, 12)
+  download_references.sh          # ZFIN expression/stages, GO GAF/obo, ZFA obo
   cluster_compare.py              # shared kNN-mapping/composition helpers (07, 08)
   run_pipeline.sh                 # run stages 01–04 in order
   pipeline_utils.py               # shared paths/constants/plot helpers
@@ -190,7 +233,7 @@ was partially downloaded, remove it and re-run.
 # One-time environment setup (creates .venv, installs exact versions).
 bash scripts/00_setup_env.sh
 
-# Run stages 01-08. Existing stage-01/03/04 outputs are reused.
+# Run stages 01-13. Existing stage-01/03/04 outputs are reused.
 bash scripts/run_pipeline.sh
 
 # Recompute everything from the raw matrix (~10 min).
@@ -247,6 +290,7 @@ Exact versions are frozen in `requirements.lock.txt`; top-level rationale is in
 | harmonypy | 2.1.0 | batch correction (stage 04 diagnostic, stage 08) |
 | scvi-tools / torch | 1.5.1 / 2.14.1 | scVI batch correction (stage 08, CPU) |
 | scikit-misc | 0.5.3 | `seurat_v3` HVG selection on raw counts |
+| cnmf | 1.7.1 | consensus NMF gene programs (stage 09) |
 
 **harmonypy compatibility note:** scanpy 1.12's
 `sc.external.pp.harmony_integrate` wrapper assumes harmonypy's old `Z_corr`
@@ -396,6 +440,35 @@ exact.
   analysis; update them if stage 06 is re-run with different parameters
   (local cluster IDs would change). scVI is trained on CPU
   (`accelerator="cpu"`) for reproducibility, even though MPS is available.
+- **Program interpretation must come from the reference databases.** Stage
+  10 labels are derived from ZFIN/GO enrichment tables. Do not relabel
+  programs from remembered markers. If a label is changed, cite the
+  enrichment row that supports it. ZFIN/GO files change over time; record
+  the `MANIFEST.tsv` date when quoting q-values.
+- **Identity grouping across K can conflate nested programs.** Stage 11
+  groups programs at r ≥ 0.6, so a specific program (e.g. PGC) can be
+  joined with a broad program that contains its genes at low K. Check
+  per-K membership in `11_k_scan_programs.tsv` before quoting "replicated
+  from K = …".
+- **Gene symbols: always resolve through ZFIN.** The Drop-seq matrix uses
+  2015-era ZFIN symbols, with no Ensembl IDs. Use `pathway_tools.resolve()`
+  (current symbol → alias → full gene name → a/b paralogs). Never accept an
+  alias that is another gene's current symbol (e.g. `WNT11` is now a
+  different gene from `wnt11f2`). Unresolved symbols are reported with
+  suggestions, not substituted.
+- **Pathway calls are relative and circularity-checked.** "high"/"low" in
+  stage 13 means relative to other cells of the same library. Readout genes
+  that are a program's own top genes are left out and the call re-tested.
+- **Cross-context program matching uses top-gene overlap, not r.** Between
+  DS5 and 50% epiboly, r over all genes is depressed by batch/stage noise
+  (r ≈ 0.3–0.5 for clearly matching programs). Stage 12 requires >= 10/50
+  shared top genes (q < 0.001) and counts each DS5 program only toward its
+  best partner's identity; counting all pairs credits nested high-K
+  sub-splits.
+- **cNMF K is common across libraries** (worst-library stability, K ≥ 7).
+  A per-library "best K" rule was tried and rejected: stability is flat for
+  some libraries, which made the rule pick K=5 for DS2 and K=15 for
+  DS4/DS4b.
 - **Scrublet needs scikit-image only for automatic thresholds.** Stage 06
   passes a fixed `threshold`, uses only the continuous score, and adds no
   dependency.
