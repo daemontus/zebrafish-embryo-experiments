@@ -7,6 +7,12 @@
 \usepackage{amsmath,amssymb}
 \usepackage{graphicx}
 \usepackage{booktabs}
+\usepackage{array}
+\usepackage[table]{xcolor}
+\usepackage{pdflscape}
+\usepackage{afterpage}
+\usepackage{tikz}
+\usetikzlibrary{arrows.meta,decorations.pathreplacing,patterns}
 \usepackage{siunitx}
 \usepackage[hidelinks]{hyperref}
 
@@ -52,8 +58,9 @@ Because biology likes to use big, fancy words, we first have to build a glossary
 			\item the \textbf{dorsal-ventral} axis (see below), determined by maternal dorsal determinants that are transported to one side of the embryo.
 		\end{itemize}
 		\emph{The causes of these decisions mostly can't be observed through RNA expression} (only the consequences), since they rely on localization of maternal proteins. Also, \emph{the overall mass of the embryo does not change much} during blastula and gastrula (the cells mostly thin out and spread); actual growth comes later. After MBT, the cells divide asynchronously, hence there is no longer a clear cell doubling pattern.
-		\item During gastrula, the embryo splits along the \emph{radial axis} into \textbf{hypoblast} (develops into \textbf{mesendoderm}) and \textbf{epiblast} (develops into \textbf{ectoderm}). Note that hypoblast and epiblast are purely positional terms: Both are part of the \textbf{germ ring}, with hypoblast being the inner layer (adjacent to the yolk), while epiblast is the outer layer (see also Figure~\ref{fig:development}). In other words, a cell can be a part of hypoblast and of mesendoderm; one is the location, the other is the expression profile. The germ ring is the \textbf{margin} of the embryo (you can see cells called ``marginal'', meaning they belong to this region). The process of separation into hypoblast/epiblast along the germ ring is called \textbf{internalization}. During gastrula, the epiblast still contains mesendoderm precursors that internalize later; only once internalization finishes does epiblast fully correspond to ectoderm. 
+		\item During gastrula, the embryo splits along the \emph{radial axis} (the deep--superficial direction, perpendicular to the embryo surface; not to be confused with the radial symmetry of the blastula around the animal-vegetal axis) into \textbf{hypoblast} (develops into \textbf{mesendoderm}) and \textbf{epiblast} (develops into \textbf{ectoderm}). Note that hypoblast and epiblast are purely positional terms: Both are part of the \textbf{germ ring}, with hypoblast being the inner layer (adjacent to the yolk), while epiblast is the outer layer (see also Figure~\ref{fig:development}). In other words, a cell can be a part of hypoblast and of mesendoderm; one is the location, the other is the expression profile. The germ ring is the \textbf{margin} of the embryo (you can see cells called ``marginal'', meaning they belong to this region). The process of separation into hypoblast/epiblast along the germ ring is called \textbf{internalization}. During gastrula, the epiblast still contains mesendoderm precursors that internalize later; only once internalization finishes does epiblast fully correspond to ectoderm. 
 		\item Within the gastrula phase, the embryo also visibly splits along the \textbf{dorsal-ventral} axis (dorsal is back / spine, ventral is front / belly). This split is marked by a \textbf{shield} formation on the dorsal side of the embryo. Note that the dorsal side itself is determined much earlier (maternally, see MBT above); the shield is where it first becomes morphologically visible. This is again mostly a positional term (i.e., shield is not an expression profile). However, cells in the shield do produce various signaling molecules that reinforce the dorsal-ventral split, and later also the anterior-posterior separation (see below). Sometimes, they are called \textbf{organizer cells}.
+		\item The term \textbf{lateral} (and its opposite, \textbf{medial}) is used in two related senses. During gastrula, it refers to position along the margin: viewed from the animal pole, the margin is a circle with the dorsal side (shield) on one end and the ventral side on the opposite end; the \emph{lateral} margin are the two sides in between (left and right). In the body, it refers to the distance from the midline (the future spine): \emph{medial} is close to the midline, \emph{lateral} is far from it. The two are connected, because during gastrula the cells converge towards the dorsal side, which becomes the midline of the body. A related term is \textbf{paraxial}, meaning directly alongside the midline (i.e., the body axis).
 		\item After gastrula, the embryo undergoes \textbf{early segmentation}, where the split along the \textbf{anterior-posterior} (A-P) axis becomes morphologically visible (as with the other axes, A-P patterning, e.g., of the neural plate, already starts during gastrula). The A-P axis is often confused with the \textbf{animal-vegetal} axis, but these are different axes: animal-vegetal is the axis of the egg (animal pole = top, where the blastoderm sits; vegetal pole = bottom of the yolk), while A-P is the body axis, which only forms during gastrula. They are only roughly aligned (the animal region gives rise to anterior head structures, while the tail bud forms near the vegetal pole). In Figure~\ref{fig:development}, AP/VP mark the animal/vegetal pole, while Ant./Pos. mark anterior/posterior. Segmentation is beyond the scope of this document.
 	\end{itemize}
 	
@@ -70,7 +77,88 @@ Because biology likes to use big, fancy words, we first have to build a glossary
 
 \section{Transcriptomic and epigenetic timeline}
 
-In the previous section, we described the important terms and formations which appear during embryo development. However, these are mostly \emph{morphological} terms dictating what the embryo looks like or what is happening externally. They do not capture how the cells are evolving internally, which typically precedes morphological changes quite a bit. Also, as we discussed, these do not map directly to any meaningful definition of ``cell types'' (i.e., a ``shield cell'' is not a well defined cell type).
+In the previous section, we described the important terms and formations which appear during embryo development. However, these are mostly \emph{morphological} terms dictating what the embryo looks like or what is happening externally. They do not capture how the cells are evolving internally, which typically precedes morphological changes quite a bit. Also, as we discussed, these do not map directly to any meaningful definition of ``cell types'' (i.e., a ``shield cell'' is not a well defined cell type). In this section, we thus summarize the \emph{expression programs} that we expect to observe in the transcriptome during the first 12 hours, roughly when they emerge or diminish, what they do, and which earlier program they develop from. A few general remarks:
+
+\begin{itemize}
+	\item All time ranges are approximate. They denote when a program should become \emph{distinguishable in the transcriptome}, which usually precedes the corresponding morphological change by an hour or more. Also, the transitions are gradual: a new program typically first appears as a weak, graded bias within its parent population, and only later becomes a clearly separated cluster.
+	\item Programs rarely ``end''; most of them keep splitting into more specific sub-programs. When we say a program diminishes, we mean it is no longer a meaningful description of the cells, because they have been replaced by its more specific descendants.
+	\item Not everything is equally visible in single-cell data. Some programs are not captured at all (e.g., the YSL, which is a syncytium, not a set of cells), or involve only a handful of cells (e.g., germ cells), and the GSE106587 atlas only starts at 3.3hpf, i.e., after MBT.
+\end{itemize}
+
+Table~\ref{tab:programs} gives an overview, and Figure~\ref{fig:programs} shows the same programs as a timeline, highlighting the branching points and the spatial axis along which each split happens. The individual programs are described in more detail below.
+
+\begin{figure}[p]
+	\centering
+	\input{figures/programs.tex}
+	\caption{Timeline of the expected expression programs (Table~\ref{tab:programs}). Each bar is one program; shaded ends mark the (approximate) intervals in which it emerges or diminishes. The dashed vertical line marks the MBT.}
+	\label{fig:programs}
+\end{figure}
+
+\afterpage{
+\newgeometry{margin=2cm}
+\begin{landscape}
+\begin{table}
+	\centering
+	\small
+	\setlength{\tabcolsep}{5pt}
+	\renewcommand{\arraystretch}{1.25}
+	\rowcolors{2}{gray!10}{white}
+	\begin{tabular}{>{\raggedright\arraybackslash}p{3.9cm}>{\raggedright\arraybackslash}p{1.5cm}>{\raggedright\arraybackslash}p{1.7cm}>{\raggedright\arraybackslash}p{3.4cm}>{\raggedright\arraybackslash}p{6.0cm}>{\raggedright\arraybackslash}p{7.1cm}}
+		\toprule
+		Program & Emerges (hpf) & Diminishes (hpf) & Develops from & Conditions & Note \\
+		\midrule
+		Maternal & 0 & 4-6 & --- & deposited in the egg & actively degraded after MBT \\
+		Blastomeres & 2-3 & 5-8 & maternal & zygotic genome activation (MBT) & replaced by germ layer programs; persists longest in the epiblast \\
+		YSL & 2.75-3 & --- & maternal & marginal blastomeres fusing with the yolk & syncytium; not captured in single-cell data \\
+		EVL & 3-4 & --- & blastomeres & outermost cell layer & becomes periderm \\
+		Primordial germ cells & 3-4 & --- & maternal & inherited germ plasm & rare (a handful of cells) \\
+		Dorsal organizer & 3.5-4.5 & 6.5-8 & blastomeres & dorsal margin; maternal dorsal determinants & morphologically the shield (6hpf); splits into prechordal plate and notochord \\
+		Marginal mesendoderm & 4-5 & 6-7 & blastomeres & margin; signaling from YSL & forms the hypoblast; splits into endoderm and mesoderm programs \\
+		Endoderm & 5.5-6.5 & --- & marginal mesendoderm & closest to the margin; strongest signaling & few cells at this stage; gut, liver, pancreas, pharynx \\
+		Dorsal forerunner cells & 5.5-6.5 & 10-12 & EVL & dorsal margin, ahead of the shield & rare; form the Kupffer's vesicle \\
+		Prechordal plate & 6-7 & --- & dorsal organizer & first internalized cells & anterior part becomes the hatching gland (10-12hpf) \\
+		Notochord & 6-7 & --- & dorsal organizer & later internalized cells &  \\
+		Paraxial mesoderm & 7-8 & 10 & marginal mesendoderm & lateral margin; further from the margin edge & splits into adaxial cells and presomitic mesoderm; segments into somites \\
+		Lateral plate mesoderm & 7-8 & 9-12 & marginal mesendoderm & ventral and lateral margin & splits into heart, blood, endothelial and kidney precursors \\
+		Non-neural ectoderm & 6-7 & --- & blastomeres & ventral epiblast; ventralizing signaling & becomes epidermis \\
+		Neural ectoderm & 6-7 & 8-10 & blastomeres & dorsal epiblast; protected by the dorsal organizer & subdivides along the A-P axis (forebrain, midbrain, hindbrain, spinal cord) \\
+		Neural plate border & 8-10 & 10-12 & neural and non-neural ectoderm & boundary between the two; intermediate signaling & splits into neural crest and placodes \\
+		Tailbud & 9-10 & --- & marginal mesendoderm & ventral margin converging at the vegetal pole & includes overlying epiblast; neuromesodermal progenitors \\
+		\bottomrule
+	\end{tabular}
+	\caption{Overview of expected expression programs. Times are approximate and refer to when the program becomes distinguishable in the transcriptome; --- means the program persists beyond 12hpf. \emph{Develops from} is always a preceding program in the table; \emph{conditions} describe where (location) or how (signaling, inheritance) the new program arises within it.}
+	\label{tab:programs}
+\end{table}
+\end{landscape}
+\restoregeometry
+}
+
+\subsection{Cleavage and blastula (0-5.25hpf)}
+
+\begin{itemize}
+	\item \textbf{Maternal program} (0hpf, cleared by approx. 4-6hpf). Transcripts deposited in the egg by the mother. They drive the cleavage divisions and activate the zygotic genome. After MBT, a large fraction of maternal transcripts is actively degraded; by the start of gastrula, the transcriptome is dominated by zygotic expression \citationneeded. In the atlas, the earliest stages (high, oblong) should show a strong maternal component shared by all cells.
+	\item \textbf{Blastomeres} (approx. 2-3hpf, diminishing 5-8hpf). The ``default'' program of deep cells after zygotic genome activation (ZGA). Cells are pluripotent and largely uniform; the observable differences between them are initially small and graded (distance from the margin, i.e., position along the animal-vegetal axis, and position along the dorsal-ventral axis). This program gradually disappears as the cells commit to germ layers; it persists longest in the epiblast, which is its direct continuation.
+	\item \textbf{Yolk syncytial layer (YSL)} (2.75-3hpf, persists). Forms when marginal blastomeres collapse into the yolk cell. It drives epiboly and, importantly, is a source of signals that induce the marginal mesendoderm and contribute to the dorsal organizer \citationneeded. Because it is a syncytium inside the yolk, \emph{it is not captured in single-cell data}; we only see its effect on neighbouring cells.
+	\item \textbf{Enveloping layer (EVL)} (approx.~3-4hpf, persists as \textbf{periderm}). Develops from the outermost blastomeres, which become lineage-restricted during the blastula \citationneeded. Forms a protective epithelium around the embryo. In single-cell data, it is expected to be the first clearly separate cluster, already at the earliest atlas stages.
+	\item \textbf{Primordial germ cells (PGCs)} (specified during cleavage, own zygotic program from approx. 3-4hpf, persists). Blastomeres that inherited maternal germ plasm. They give rise to gametes and do not participate in somatic differentiation. Only a handful of cells per embryo, so they will form a very small cluster.
+	\item \textbf{Dorsal organizer} (approx. 3.5-4.5hpf, splits at 6.5-8hpf). Dorsal marginal cells (together with the dorsal YSL) that respond to the maternally determined dorsal side of the embryo. They produce signals that dorsalize the surrounding tissue, protect the dorsal ectoderm from ventralizing signals (enabling neural fate), and later contribute to A-P patterning. Morphologically, this becomes the \textbf{shield} at 6hpf; transcriptionally, the program is present well before that. Its cells later give rise to the axial mesoderm (prechordal plate and notochord). From approx. 6hpf, the internalized organizer cells (the inner layer of the shield) are often called the \textbf{axial mesendoderm}, i.e., midline mesendoderm that has not yet split into prechordal plate and notochord. We do not treat it as a separate program, because it is transcriptionally a gradual continuation of the organizer program; the clear split only happens with the prechordal plate and notochord.
+	\item \textbf{Marginal mesendoderm} (approx. 4-5hpf, splits at 6-7hpf). Cells within a few cell tiers of the margin, induced by signals from the YSL and neighbouring marginal cells. The program is graded: the closer to the margin (and the stronger the signal), the more the cells are biased towards endoderm, while cells further away are biased towards mesoderm \citationneeded. These are the cells that internalize to form the hypoblast.
+\end{itemize}
+
+\subsection{Gastrula (5.25-10hpf)}
+
+\begin{itemize}
+	\item \textbf{Endoderm} (approx. 5.5-6.5hpf, persists). Develops from the marginal mesendoderm cells that received the strongest inducing signal (mostly close to the margin, more on the dorsal side). Will form the gut and associated organs (liver, pancreas) and the pharynx. Relatively few cells at this stage.
+	\item \textbf{Dorsal forerunner cells} (approx. 5.5-6.5hpf, forming the \textbf{Kupffer's vesicle} at approx. 10-12hpf). A small group of cells at the dorsal margin, ahead of the shield, partially derived from the EVL \citationneeded. They do not internalize; instead, they migrate ahead of the margin and form the Kupffer's vesicle, which establishes the left-right asymmetry. Only a handful of cells.
+	\item \textbf{Prechordal plate} (approx. 6-7hpf, persists). The anterior part of the axial mesoderm, derived from the leading (first internalized) cells of the dorsal organizer. It migrates towards the animal pole and contributes to head patterning. Its most anterior part becomes the \textbf{hatching gland} (approx. 10-12hpf).
+	\item \textbf{Notochord} (approx. 6-7hpf, persists). The posterior part of the axial mesoderm, derived from the remaining dorsal organizer cells. Forms the midline rod that later supports the body axis, and is an important source of signals that pattern the neighbouring neural tube and paraxial mesoderm.
+	\item \textbf{Paraxial mesoderm} (approx. 7-8hpf, starts to form somites at 10hpf). Mesoderm from the lateral margin that converges on both sides of the notochord. Splits into \textbf{adaxial cells} (directly adjacent to the notochord; slow muscle precursors) and \textbf{presomitic mesoderm}, which will be segmented into somites (muscle, skeleton).
+	\item \textbf{Lateral plate mesoderm} (approx. 7-8hpf, splitting at 9-12hpf). Mesoderm from the ventral and lateral margin. Gives rise to the heart, blood and endothelial precursors, and the pronephros (kidney). Many of these sub-programs only become clearly distinct around the end of gastrula or early segmentation.
+	\item \textbf{Non-neural ectoderm} (approx. 6-7hpf, persists as \textbf{epidermis}). The ventral part of the epiblast, where ventralizing signals are strong. It is the first ectodermal program to diverge from the blastomere program.
+	\item \textbf{Neural ectoderm} (approx. 6-7hpf, subdivided at 8-10hpf). The dorsal part of the epiblast, protected from ventralizing signals by the dorsal organizer. Forms the \textbf{neural plate}. During late gastrula, it is patterned along the A-P axis into forebrain (including eye field), midbrain, hindbrain and spinal cord programs.
+	\item \textbf{Neural plate border} (approx. 8-10hpf, splitting at 10-12hpf). Cells at the boundary between neural and non-neural ectoderm, receiving intermediate levels of signals. Gives rise to the \textbf{neural crest} (very diverse lineage: pigment cells, craniofacial skeleton, peripheral neurons, \dots) and \textbf{placodes} (sensory organs).
+	\item \textbf{Tailbud} (approx. 9-10hpf, persists). Forms from ventral marginal cells converging at the vegetal pole at the end of epiboly. Contains bipotent \textbf{neuromesodermal progenitors} that produce both spinal cord and paraxial mesoderm during body axis elongation. Note that this is one of the few programs which mix ``neural'' and ``mesodermal'' signatures.
+\end{itemize}
 
 % Uncomment once the first \cite is added (BibTeX errors on zero citations).
 % \bibliographystyle{plain}

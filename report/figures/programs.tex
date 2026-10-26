@@ -1,0 +1,178 @@
+% Timeline of expected expression programs (see Table~\ref{tab:programs}).
+% Coordinates: x = hours post fertilization, y = lane index (growing downwards).
+% Requires: tikz with arrows.meta, decorations.pathreplacing and patterns.
+\begin{tikzpicture}[x=1.2cm, y=-0.77cm, font=\footnotesize]
+
+	% Colors: bars are neutral, connectors encode the axis of the split.
+	\definecolor{barc}{HTML}{4A5568}
+	\definecolor{axdv}{HTML}{D55E00}
+	\definecolor{axav}{HTML}{0072B2}
+	\definecolor{axrad}{HTML}{009E73}
+	\definecolor{axap}{HTML}{CC79A7}
+	\definecolor{axns}{HTML}{8A8A8A}
+	\tikzset{
+		dv/.style={axdv, line width=1.2pt},
+		av/.style={axav, line width=1.2pt, dashed},
+		rad/.style={axrad, line width=1.2pt, dash dot},
+		ap/.style={axap, line width=1.4pt, densely dotted},
+		ns/.style={axns, line width=0.8pt},
+		cond/.style={font=\scriptsize\itshape, fill=white, inner sep=1pt, anchor=base east},
+		pname/.style={font=\fontsize{8.5}{10}\selectfont, fill=white, inner sep=1pt, anchor=base west},
+	}
+
+	% Baselines of labels above / below a bar (in lanes, relative to its centre).
+	% Names and condition labels share them, so neighbouring labels align.
+	\def\abovey{-0.36}
+	\def\belowy{0.57}
+
+	% Program names go above the bar by default, or below it after \namebelowtrue
+	% (used where connectors leave the bar upwards, so they don't cross the name).
+	\newif\ifnamebelow
+	\newcommand{\progname}[3]{
+		\ifnamebelow
+			\node[pname] at (#2+0.05,#1+\belowy) {#3};
+		\else
+			\node[pname] at (#2+0.05,#1+\abovey) {#3};
+		\fi
+	}
+	% \progfade{lane}{a}{b}{c}{d}{name}: emerges over [a,b], diminishes over [c,d].
+	\newcommand{\progfade}[6]{
+		\shade[left color=white, right color=barc] (#2,#1-0.15) rectangle (#3,#1+0.15);
+		\fill[barc] (#3,#1-0.15) rectangle (#4,#1+0.15);
+		\shade[left color=barc, right color=white] (#4,#1-0.15) rectangle (#5,#1+0.15);
+		\progname{#1}{#2}{#6}
+	}
+	% \progpersist{lane}{a}{b}{name}: emerges over [a,b], persists beyond 12hpf.
+	\newcommand{\progpersist}[4]{
+		\shade[left color=white, right color=barc] (#2,#1-0.15) rectangle (#3,#1+0.15);
+		\fill[barc] (#3,#1-0.15) rectangle (12.3,#1+0.15);
+		\fill[barc] (12.3,#1-0.35) -- (12.6,#1) -- (12.3,#1+0.35) -- cycle;
+		\progname{#1}{#2}{#4}
+	}
+	% \conn{style}{x}{parent lane}{child lane}{child start}{condition}
+	% The condition label sits on the side from which the connector arrives.
+	% Connectors are drawn on top of the bars: \conn only collects the lines,
+	% condition labels and dots, which are then drawn (in this order) after
+	% all programs. \addlabel collects a manually placed condition label.
+	\def\connlines{}
+	\def\connlabels{}
+	\def\conndots{}
+	\newcommand{\appendto}[2]{\expandafter\def\expandafter#1\expandafter{#1#2}}
+	\newcommand{\addlabel}[1]{\appendto\connlabels{#1}}
+	\newcommand{\conn}[6]{
+		\appendto\connlines{\draw[#1] (#2,#3) -- (#2,#4) -- (#5,#4);}
+		\appendto\conndots{
+			\filldraw[#1, solid, draw=white, line width=0.6pt] (#2,#3) circle (1.9pt);
+			\filldraw[#1, solid, draw=white, line width=0.8pt] (#5,#4) circle (3.2pt);}
+		\pgfmathsetmacro{\condx}{#2-0.04}
+		\pgfmathsetmacro{\condy}{#4 + (#3 > #4 ? \belowy : \abovey)}
+		\edef\condtmp{\noexpand\addlabel{\noexpand\node[cond] at (\condx,\condy) {\unexpanded{#6}};}}
+		\condtmp
+	}
+
+	% --- Background: developmental periods and stages -----------------------
+	% Periods are shaded only in the header; thin dividers run through the plot.
+	\foreach \a/\b/\name/\sh in {0/0.75/Zyg./10, 0.75/2.25/Cleavage/4, 2.25/5.25/Blastula/10, 5.25/10/Gastrula/4, 10/12.7/Segmentation/10} {
+		\fill[gray!\sh] (\a,-2.65) rectangle (\b,-1.65);
+		\node[font=\footnotesize\bfseries, text=black!70] at ({(\a+\b)/2},-2.15) {\name};
+	}
+	\foreach \t in {0.75, 2.25, 5.25, 10} {
+		\draw[black!15] (\t,-1.65) -- (\t,18.1);
+	}
+	\foreach \t/\stage in {0.2/1-cell, 1/4-cell, 2/64-cell, 2.75/512-cell, 3.3/high, 3.7/oblong, 4/sphere, 4.3/dome, 4.7/30\%, 5.3/50\%, 5.7/germ ring, 6/shield, 8/75\%, 9/90\%, 10/bud, 11/3-somite, 12/6-somite} {
+		\node[font=\scriptsize, text=black!70, anchor=west, rotate=60, inner sep=1pt] at (\t,0.1) {\stage};
+	}
+	\draw[black!45, dashed] (2.75,0.35) -- (2.75,18.1);
+
+	% --- Connectors (drawn first, so bars and labels sit on top) ------------
+	% Rows are ordered "middle-out": blastomeres in the middle, ectoderm and
+	% extra-embryonic programs above, mesendoderm and axial programs below.
+	% There is a small extra gap between the marginal mesendoderm and its
+	% mesodermal descendants, to make room for the condition labels.
+	\conn{ns}{2}{3}{9}{2}{}
+	\addlabel{\node[cond] at (1.96,9-0.5) {ZGA};}
+	\conn{av}{2.75}{3}{1}{2.75}{margin}
+	\conn{ns}{3}{3}{2}{3}{germ plasm}
+	\conn{dv}{6}{9}{8}{6}{ventral}
+	\conn{dv}{6}{9}{6}{6}{dorsal}
+	\conn{dv}{8}{8}{7}{8}{}
+	\conn{dv}{8}{6}{7}{8}{}
+	\addlabel{\node[cond] at (7.96,7+\belowy) {border};}
+	\conn{rad}{3}{9}{5}{3}{outer}
+	\conn{dv}{5.5}{5}{4}{5.5}{dorsal}
+	\conn{dv}{3.5}{9}{15.4}{3.5}{dorsal}
+	\conn{ap}{6}{15.4}{16.4}{6}{anterior}
+	\conn{ap}{6}{15.4}{17.4}{6}{posterior}
+	\conn{av}{4}{9}{11}{4}{}
+	% Right of the line, so it does not cover the dorsal organizer connector.
+	\addlabel{\node[cond, anchor=base west] at (4.04,10+\belowy) {margin};}
+	\conn{av}{5.5}{11}{10}{5.5}{}
+	\addlabel{\node[cond, anchor=base west] at (5.54,10+\abovey) {margin edge};}
+	\conn{dv}{7}{11}{12.4}{7}{lateral}
+	\conn{dv}{7}{11}{13.4}{7}{ventro-lateral}
+	\conn{dv}{7}{11}{14.4}{9}{ventral}
+
+	% --- Programs ------------------------------------------------------------
+	\namebelowtrue
+	% YSL: a syncytium, not captured in single-cell data (light, hatched).
+	\fill[gray!25] (2.75,1-0.15) rectangle (12.3,1+0.15);
+	\fill[gray!25] (12.3,1-0.35) -- (12.6,1) -- (12.3,1+0.35) -- cycle;
+	\fill[pattern=north east lines, pattern color=barc!60] (2.75,1-0.15) rectangle (12.3,1+0.15);
+	\progname{1}{2.75}{YSL (not captured)}
+	\progpersist{2}{3}{4}{Primordial germ cells (rare)}
+	% Maternal: present from fertilization, cleared after MBT.
+	\fill[barc] (0,3-0.15) rectangle (4,3+0.15);
+	\shade[left color=barc, right color=white] (4,3-0.15) rectangle (6,3+0.15);
+	\progname{3}{0}{Maternal}
+	\progfade{4}{5.5}{6.5}{10}{12}{Dorsal forerunner cells (rare)}
+	\progpersist{5}{3}{4}{EVL}
+	% Neural ectoderm branches downwards, so its name goes above the bar.
+	\namebelowfalse
+	\progfade{6}{6}{7}{8}{10}{Neural ectoderm}
+	\namebelowtrue
+	\progfade{7}{8}{10}{10}{12}{Neural plate border}
+	\progpersist{8}{6}{7}{Non-neural ectoderm}
+	% Blastomeres have connectors on both sides, so the name goes to the left.
+	\shade[left color=white, right color=barc] (2,9-0.15) rectangle (3,9+0.15);
+	\fill[barc] (3,9-0.15) rectangle (5,9+0.15);
+	\shade[left color=barc, right color=white] (5,9-0.15) rectangle (8,9+0.15);
+	\node[pname, anchor=east] at (1.92,9) {Blastomeres};
+	\progpersist{10}{5.5}{6.5}{Endoderm}
+	\progfade{11}{4}{5}{6}{7}{Marginal mesendoderm}
+	\namebelowfalse
+	\progfade{12.4}{7}{8}{10}{11}{Paraxial mesoderm}
+	\progfade{13.4}{7}{8}{9}{12}{Lateral plate mesoderm}
+	\progpersist{14.4}{9}{10}{Tailbud}
+	\progfade{15.4}{3.5}{4.5}{6.5}{8}{Dorsal organizer / axial mesendoderm}
+	\progpersist{16.4}{6}{7}{Prechordal plate}
+	\progpersist{17.4}{6}{7}{Notochord}
+
+	% Connectors, on top of the bars.
+	\connlines
+	\connlabels
+	\conndots
+
+	% --- Time axis and atlas coverage ----------------------------------------
+	\draw[black!70] (0,18.1) -- (12.7,18.1);
+	\foreach \t in {0,...,12} {
+		\draw[black!70] (\t,18.1) -- (\t,18.3) node[below, font=\scriptsize] {\t};
+	}
+	\node[font=\footnotesize] at (6.35,19.3) {hours post fertilization (hpf)};
+	\draw[decorate, decoration={brace, amplitude=4pt}, black!70] (12,19.85) -- (3.3,19.85)
+		node[midway, below=3pt, font=\scriptsize] {covered by GSE106587 (3.3--12hpf)};
+
+	% --- Legend ----------------------------------------------------------------
+	\begin{scope}[shift={(0,21.6)}]
+		\node[anchor=west, font=\footnotesize\bfseries] at (0,0) {Split along:};
+		\foreach \sty/\lbl/\col/\row in {dv/dorsal--ventral/0/0.9, av/animal--vegetal (distance from margin)/3.2/0.9, ns/non-spatial/8.9/0.9, rad/radial (inner--outer)/0/1.8, ap/anterior--posterior (order of internalization)/3.2/1.8} {
+			\draw[\sty] (\col,\row) -- (\col+0.6,\row);
+			\node[anchor=west, font=\scriptsize] at (\col+0.7,\row) {\lbl};
+		}
+		\node[anchor=west, font=\footnotesize\bfseries] at (0,2.9) {Programs:};
+		\shade[left color=white, right color=barc] (0,3.65) rectangle (0.6,3.95);
+		\node[anchor=west, font=\scriptsize] at (0.7,3.8) {emerging / diminishing (gradual)};
+		\fill[gray!25] (6.2,3.65) rectangle (6.8,3.95);
+		\fill[pattern=north east lines, pattern color=barc!60] (6.2,3.65) rectangle (6.8,3.95);
+		\node[anchor=west, font=\scriptsize] at (6.9,3.8) {not captured in single-cell data};
+	\end{scope}
+\end{tikzpicture}
