@@ -24,6 +24,10 @@ Repository root: `/home/xpastva/zebrafish-early`
   in `data/raw/` are the original GEO processed matrices.
 - No Python virtual environment was needed for this step; all scripts use only
   the Python 3.12 standard library.
+- `scripts/01_dataset_structure.py` describes the Drop-seq design (stage →
+  sequencing batch → library, 28 libraries; two batch blocks sharing no stage)
+  and writes the figures/table of the report's "Dataset overview" section.
+  It removes no cells. It needs pandas/numpy/matplotlib (see Environment).
 - No API keys or authentication were required (GEO is public).
 
 ## Dataset: GSE106587
@@ -108,10 +112,17 @@ scripts/
   download_gse106587.sh           # idempotent download + extract + checksums
   build_metadata.py               # SOFT → cell metadata tables (stdlib)
   validate_data.py                # integrity checks (stdlib)
+  pipeline_utils.py               # shared paths, stage/batch constants, plot style
+  01_dataset_structure.py         # stage x batch x library overview -> report
+results/
+  tables/                         # derived tables (TSV/CSV), versioned
+    cell_qc_full_atlas.csv        # per-cell UMIs/genes, cache for 01 (delete to
+                                  # recompute from the raw matrix)
 report/
   main.tex                        # LaTeX report on the analysis
   references.bib                  # BibTeX entries (Farrell et al. 2018 included)
-  figures/                        # figures included by main.tex
+  figures/                        # figures included by main.tex (some generated)
+  tables/                         # generated LaTeX tables (do not edit by hand)
   latexmkrc                       # build config; output goes to report/build/
 ```
 
@@ -181,6 +192,11 @@ python3 -m venv .venv
 
 (That stack is **not installed yet**; do not assume it is available.) The
 machine has 30 CPUs and ~125 GB RAM, and 4.6 TB free on `/home/xpastva`.
+
+On the local macOS checkout, a `.venv` (Python 3.13) exists with the pinned
+stack from the `initial-exploration` branch (pandas 3.0.6, numpy 2.5.4,
+matplotlib 3.11.2, scanpy 1.12.4, ...). Analysis scripts run as
+`.venv/bin/python scripts/01_dataset_structure.py` from the repository root.
 
 ## How to load the data
 

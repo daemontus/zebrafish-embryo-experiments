@@ -160,6 +160,123 @@ Table~\ref{tab:programs} gives an overview, and Figure~\ref{fig:programs} shows 
 	\item \textbf{Tailbud} (approx. 9-10hpf, persists). Forms from ventral marginal cells converging at the vegetal pole at the end of epiboly. Contains bipotent \textbf{neuromesodermal progenitors} that produce both spinal cord and paraxial mesoderm during body axis elongation. Note that this is one of the few programs which mix ``neural'' and ``mesodermal'' signatures.
 \end{itemize}
 
+\section{Dataset overview}
+
+The analysis is based on the GEO SuperSeries GSE106587 (Farrell et al., 2018). It consists of three single-cell datasets:
+\begin{itemize}
+	\item \textbf{Drop-seq atlas} (SubSeries GSE106474). Wild-type embryos at 12 stages from high (3.3hpf) to 6-somite (12hpf); 39{,}505 cells, 23{,}974 genes. This is the main dataset.
+	\item \textbf{SMART-seq2} (SubSeries GSE106466). 416 cells at 50\% epiboly: 52 wild-type cells and 364 cells of MZ\emph{oep} mutants, which lack Nodal signalling and hence most of the mesendoderm. Fewer cells, but deeper coverage per cell.
+	\item \textbf{10x Genomics} (GSE106587 itself). Wild-type (3{,}000 barcodes) and MZ\emph{oep} (2{,}200 barcodes) embryos at 6-somite (12hpf). The barcode lists are not QC-filtered, so not every barcode is a cell.
+\end{itemize}
+All three are available only as processed count matrices (raw reads were not downloaded). In the rest of this section, we only describe the Drop-seq atlas. \textbf{The GEO matrix has already passed the basic quality filters of the original study, but not its later outlier removal} (Section~\ref{sec:filtering}); here, we use all 39{,}505 cells without any additional filtering. The experimental details below are taken from the supplementary materials of the paper. The numbers, figures and table are produced by \texttt{scripts/01\_dataset\_structure.py}.
+
+\subsection{Stages, batches and libraries}
+
+The Drop-seq atlas has three nested levels (Figure~\ref{fig:dataset-structure} and Table~\ref{tab:libraries}):
+\begin{itemize}
+	\item \textbf{Stage}: the developmental time point (12 stages, each with a single hpf value).
+	\item \textbf{Sequencing batch} (DS2, DS3, DS4 and DS5): the ``sequencing batch'' field of the GEO samples. It is the main expected source of technical variation.
+	\item \textbf{Library}: one sample of pooled embryos, processed in one Drop-seq run; equivalently, one GEO sample (GSM) and one SRA experiment. There are 28 libraries in total. Most (stage, batch) pairs have exactly one library. Six pairs have two, in which case the cell names of the second library carry a \texttt{b} suffix (e.g., \texttt{ZF50\_WT\_DS4b\_...}).
+\end{itemize}
+
+Each library was prepared from a pool of 20--40 embryos of the same stage. The embryos were manually deyolked (\textbf{which also removes the YSL}), mechanically dissociated, and the resulting cell suspension was encapsulated in Drop-seq droplets. Consequently, cells carry no information about which embryo (or which position in the embryo) they came from. Some libraries were sequenced twice to increase depth, but the reads of such re-sequencing are merged into the same library; they do not form a second library.
+
+\paragraph{Second libraries are separate embryo pools.} GEO itself does not say whether the second library of a (stage, batch) pair comes from a separate embryo pool (biological replicate) or is a second run of the same pool (technical replicate). However, the supplementary Table~S1 of the paper lists the total number of embryos used for each stage (Table~\ref{tab:filtering}). For high (56 embryos), oblong (76) and 30\% epiboly (59), this is more than a single pool of at most 40 embryos, so the two libraries of these stages must come from different pools. For the remaining stages with a second library (50\% epiboly, bud and 6-somite), the embryo counts are consistent with separate pools of approx.~20 embryos each, but they do not rule out a shared pool. The paper also treats each library as its own unit: Table~S1 calls the libraries ``batches'' (two for high, four for 50\% epiboly), and the two 6-somite libraries are described as ``acquired in two batches'' and batch-corrected before trajectory reconstruction. We thus treat second libraries as biological replicates sequenced in the same sequencing batch. Note that the paper's ``batch'' corresponds to our library, not to the GEO sequencing batch.
+
+\paragraph{GEO replicate numbering.} The ``Rep~$N$'' in the GEO sample titles numbers the libraries of a stage \emph{across batches}. It does not correspond to our $a$/$b$ label. For example, ``50\% epiboly Rep~2'' is the DS3 library, while ``high Rep~2'' is the second DS5 library of the high stage.
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=\linewidth]{dataset_structure.pdf}
+	\caption{Structure of the Drop-seq atlas (GSE106474). Left: number of cells per stage; each segment is one library, coloured by sequencing batch, and second libraries of the same stage and batch are hatched. Right: the same counts per stage and batch. Stages of batch DS5 and stages of batches DS2--DS4 do not overlap.}
+	\label{fig:dataset-structure}
+\end{figure}
+
+\begin{table}[p]
+	\centering
+	\small
+	\caption{Drop-seq libraries. Lib.~``b'' is the second library of the same stage and batch (a separate embryo pool). Medians are per cell, over all cells in the GEO matrix.}
+	\label{tab:libraries}
+	\input{tables/libraries.tex}
+\end{table}
+
+\subsection{Batch design}
+
+The most important property of the atlas is that the batches split the stages into two blocks that \emph{share no stage}:
+\begin{itemize}
+	\item \textbf{Block A} (batch DS5 only): high, oblong, dome, 30\% epiboly, shield, 3-somite and 6-somite; 11 libraries, 10{,}328 cells.
+	\item \textbf{Block B} (batches DS2, DS3 and DS4): 50\% epiboly, 60\%, 75\% and 90\% epiboly, and bud; 17 libraries, 29{,}177 cells. Every stage of this block was sequenced in all three batches.
+\end{itemize}
+Within block B, the design is balanced, so stage and batch effects can be separated. Within block A, there is only one batch, so stage differences are not confounded with batch, but there is also nothing to estimate the DS5 batch effect from. This is particularly unfortunate for our focus on the decisions around 6hpf. Shield (6hpf, DS5) lies between 50\% epiboly (5.3hpf) and 60\% epiboly (7hpf), which are both in block B. A batch effect will therefore appear as an abrupt developmental change at shield and back again at 60\% epiboly. 
+
+\subsection{Library size and sequencing depth}
+
+The number of cells per stage ranges from 200 (oblong) to 7{,}162 (bud) (Figure~\ref{fig:dataset-structure}). The five block B stages (50\% epiboly to bud) contain 74\% of all cells. The two earliest stages are tiny: high and oblong have 511 cells together, and three of their four libraries have fewer than 150 cells (48, 72 and 128). Sequencing depth (Figure~\ref{fig:library-depth}) is a median of 3{,}798 UMIs and 1{,}444 detected genes per cell over the whole atlas. We can make the following observations:
+\begin{itemize}
+	\item \textbf{Depth decreases with developmental time}, from library medians of 4--13 thousand UMIs per cell at high and oblong to 2--3 thousand at 3- and 6-somite. Part of this is biological (cells get smaller and contain less mRNA with each division, which is also why the original study used stage-specific filtering thresholds).
+	\item \textbf{Libraries of the same stage and batch are not interchangeable.} At oblong, the median depth of the first library is 3.3$\times$ that of the second; at high, the second library is 2$\times$ deeper than the first, and at 6-somite 1.6$\times$.
+	%\item \textbf{Batch DS3 trades depth for cells.} From 75\% epiboly to bud, the DS3 library is the largest of its stage (up to 4{,}759 cells at bud) and has the lowest median depth. This is a typical batch signature (more cells sequenced with a similar number of reads), and block B allows us to measure it.
+\end{itemize}
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=\linewidth]{library_depth.pdf}
+	\caption{Per-library sequencing depth: UMIs (top) and detected genes (bottom) per cell. Boxes show the quartiles, whiskers extend to 1.5$\times$ the interquartile range (outliers not shown). Colour is the sequencing batch; second libraries are hatched. Thin vertical lines separate stages.}
+	\label{fig:library-depth}
+\end{figure}
+
+\subsection{Cell filtering}
+\label{sec:filtering}
+
+The original study filtered the cells in two steps; the dataset includes the first, but not the second filtering.
+
+\paragraph{Basic quality filters (already applied in GEO).} First, cells were filtered by the number of detected genes and UMIs, using a separate range for each stage (Table~\ref{tab:filtering}), because RNA content per cell decreases over early development. Cells below the range are likely low-quality (e.g., broken cells or empty droplets with ambient RNA), while cells above the range are likely doublets. Afterwards, cells with more than 45\% mitochondrial RNA (a sign of stressed or dying cells) were removed. The GEO matrix is consistent with these filters having been applied:
+\begin{itemize}
+	\item Only 51 of the 39{,}505 cells fall outside the gene ranges, all of them just slightly.
+	\item The mean number of detected genes per stage agrees with Table~S1 to within 1.5\%.
+	\item The GEO matrix contains no mitochondrial genes. This explains why the mean UMIs per cell are 20--25\% lower than in Table~S1 (where approx.~20--29\% of UMIs are mitochondrial), and why some cells fall below the UMI ranges.% It also means we cannot check the mitochondrial filter ourselves.
+\end{itemize}
+
+\paragraph{Outlier removal (not applied in GEO).} Before the trajectory reconstruction, the paper removed 618 cells forming a cluster dominated by an ``apoptotic-like'' expression program, which appears in cells of many different types and would therefore create artificial connections between unrelated cell types. It also removed 139 cells that were poorly connected in the nearest-neighbour graph. The paper's full-data visualization uses 39{,}488 cells, and $39{,}488 - 618 - 139 = 38{,}731$, which is the number of cells reported in the paper. The GEO matrix contains 17 cells more than 39{,}488, which the paper does not explain. The identities of the removed cells are not available in GEO. Finally, the per-stage cell counts in Table~S1 sum to 38{,}671, i.e., 60 fewer than 38{,}731, so the paper is not fully consistent here either.
+
+\begin{table}[t]
+	\centering
+	\small
+	\caption{Cell filtering per stage. Gene and UMI ranges are the per-stage thresholds of the original study (UMIs including mitochondrial RNA). Cells (GEO) is the number of cells in the GEO matrix; cells and embryos (Table~S1) are taken from the supplementary Table~S1.}
+	\label{tab:filtering}
+	\begin{tabular}{lrrrrr}
+		\toprule
+		Stage & Genes & UMIs & Cells (GEO) & Cells (Table~S1) & Embryos (Table~S1) \\
+		\midrule
+		high & 1{,}000--7{,}500 & 1{,}500--40{,}000 & 311 & 311 & 56 \\
+		oblong & 625--7{,}500 & 1{,}500--30{,}000 & 200 & 199 & 76 \\
+		dome & 800--3{,}800 & 2{,}000--20{,}000 & 1{,}174 & 1{,}147 & 28 \\
+		30\% epiboly & 625--3{,}000 & 1{,}000--17{,}500 & 1{,}506 & 1{,}454 & 59 \\
+		50\% epiboly & 600--4{,}000 & 1{,}500--25{,}000 & 5{,}864 & 5{,}695 & 91 \\
+		shield & 600--2{,}500 & 1{,}000--15{,}000 & 1{,}046 & 1{,}020 & 22 \\
+		60\% epiboly & 600--3{,}500 & 1{,}500--22{,}500 & 4{,}201 & 4{,}099 & 79 \\
+		75\% epiboly & 600--3{,}200 & 1{,}400--20{,}000 & 6{,}324 & 6{,}170 & 73 \\
+		90\% epiboly & 500--3{,}500 & 1{,}000--20{,}000 & 5{,}626 & 5{,}474 & 66 \\
+		bud & 500--3{,}200 & 1{,}000--17{,}500 & 7{,}162 & 7{,}112 & 85 \\
+		3-somite & 500--3{,}000 & 1{,}000--12{,}500 & 1{,}631 & 1{,}602 & 19 \\
+		6-somite & 500--3{,}000 & 1{,}000--12{,}500 & 4{,}460 & 4{,}388 & 40 \\
+		\midrule
+		total & & & 39{,}505 & 38{,}671 & 694 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\subsection{Consequences for the analysis}
+
+\begin{itemize}
+	\item \textbf{The library is the basic technical unit.} It is the finest grouping available (stage $\times$ batch $\times$ second library, equivalently the GEO sample), and corresponds to one embryo pool. QC thresholds, normalization and binarization should be checked per library, and aggregated to (stage, batch) or stage only where possible.
+	\item \textbf{Block B can calibrate batch effects.} Comparing DS2, DS3 and DS4 at the same stage shows how large batch effects are relative to stage effects. This gives a rough idea of how much of the DS5 vs.\ DS2--DS4 differences is likely technical.
+	\item \textbf{Second libraries can calibrate library effects.} The pairs within DS5 (high, oblong, 30\% epiboly, 6-somite) and within block B (50\% epiboly DS4, bud DS2) show the library-to-library variation within one sequencing batch. Since they are separate embryo pools, this variation includes both technical differences and biological differences between pools (e.g., embryos of a slightly different developmental age).
+	\item \textbf{Outliers must be handled by us.} The GEO matrix still contains the apoptotic-like cells and the poorly connected outliers removed in the paper. We need our own (comparable) outlier step before trajectory or state inference, but no further basic quality filtering is required.
+	\item \textbf{Some stages are fragile.} Dome, shield and 3-somite come from a single library each, so library effects and biology cannot be told apart there. High and oblong have very few cells, so anything cell-type-specific at these stages rests on a few dozen cells.
+	\item \textbf{Cell numbers must be balanced.} Without downsampling or weighting, any model fitted on cell counts will mostly describe the block B stages.
+\end{itemize}
+
 % Uncomment once the first \cite is added (BibTeX errors on zero citations).
 % \bibliographystyle{plain}
 % \bibliography{references}
