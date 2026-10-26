@@ -1,0 +1,7 @@
+pair	library_a	library_b	reference	n_a	n_b	genes_lfc_above_1	on_off	older_genes	younger_genes	marker_a	marker_b	marker_ref	marker_shift	ribo_a	ribo_b	ribo_ref	ribo_shift	timing
+high DS5	ZFHIGH_WT_DS5	ZFHIGH_WT_DS5b	ZFDOME_WT_DS5	263	48	185	2	196	798	-1.77	-2.306	1.847	-0.1379	1.79	2.673	3.747	0.5832	conflicting
+oblong DS5	ZFOBLONG_WT_DS5	ZFOBLONG_WT_DS5b	ZFDOME_WT_DS5	72	128	226	2	152	707	-1.675	-1.805	1.766	-0.03729	2.883	1.961	3.747	-0.696	weak, a older
+30% epiboly DS5	ZF30_WT_DS5	ZF30_WT_DS5b	ZFS_WT_DS5	448	1058	26	0	70	296	-2.292	-2.077	0.9954	0.06756	6.633	6.49	7.977	-0.1012	conflicting
+50% epiboly DS4	ZF50_WT_DS4	ZF50_WT_DS4b	ZF60_WT_DS4	1567	1580	28	3	88	343	-3.626	-3.28	0.1376	0.09653	7.79	9.069	12.35	0.3267	weak, b older
+bud DS2	ZFB_WT_DS2	ZFB_WT_DS2b	ZF90_WT_DS2	250	506	17	0	21	64	-2.095	-2.845	-6.221	-0.2	24.29	21.33	16.72	-0.486	a older
+6-somite DS5	ZF6S_WT_DS5	ZF6S_WT_DS5b	ZF3S_WT_DS5	2375	2085	55	0	7	11	-0.5602	0	-3.417		29.35	25.86	27.44		n/a

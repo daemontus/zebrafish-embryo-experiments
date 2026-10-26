@@ -80,3 +80,38 @@ def save_report_figure(fig, stem: str) -> None:
     """Save a matplotlib figure as PDF into report/figures."""
     REPORT_FIGURES.mkdir(parents=True, exist_ok=True)
     fig.savefig(REPORT_FIGURES / f"{stem}.pdf", bbox_inches="tight")
+
+
+DROPSEQ_H5AD = PROCESSED / "dropseq_counts.h5ad"
+
+
+def load_dropseq_counts() -> "ad.AnnData":
+    """Drop-seq UMI counts as a sparse cells x genes AnnData with cell metadata.
+
+    The first call streams the dense genes x cells TSV and caches the result
+    in data/processed (delete the file to rebuild it). No cells or genes are
+    removed.
+    """
+    import anndata as ad
+    import numpy as np
+    import pandas as pd
+    import scipy.sparse as sp
+
+    if DROPSEQ_H5AD.exists():
+        return ad.read_h5ad(DROPSEQ_H5AD)
+    print(f"streaming {RAW_DROPSEQ.name} into a sparse matrix ...")
+    blocks, genes, cells = [], [], None
+    for chunk in pd.read_csv(RAW_DROPSEQ, sep="\t", index_col=0, chunksize=2000):
+        cells = chunk.columns
+        genes.extend(chunk.index)
+        blocks.append(sp.csr_matrix(chunk.to_numpy(dtype=np.float32)))
+        print(f"  genes processed: {len(genes)}")
+    counts = sp.vstack(blocks).T.tocsr()  # cells x genes
+    meta = pd.read_csv(CELL_METADATA, index_col="cell_id").loc[cells]
+    meta["library"] = library_of(meta.index)
+    adata = ad.AnnData(
+        X=counts, obs=meta, var=pd.DataFrame(index=pd.Index(genes, name="gene"))
+    )
+    PROCESSED.mkdir(parents=True, exist_ok=True)
+    adata.write_h5ad(DROPSEQ_H5AD, compression="gzip")
+    return adata

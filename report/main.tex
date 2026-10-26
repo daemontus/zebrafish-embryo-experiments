@@ -162,7 +162,7 @@ Table~\ref{tab:programs} gives an overview, and Figure~\ref{fig:programs} shows 
 
 \section{Dataset overview}
 
-The analysis is based on the GEO SuperSeries GSE106587 (Farrell et al., 2018). It consists of three single-cell datasets:
+The analysis is based on the GEO SuperSeries GSE106587~\cite{farrell2018}. It consists of three single-cell datasets:
 \begin{itemize}
 	\item \textbf{Drop-seq atlas} (SubSeries GSE106474). Wild-type embryos at 12 stages from high (3.3hpf) to 6-somite (12hpf); 39{,}505 cells, 23{,}974 genes. This is the main dataset.
 	\item \textbf{SMART-seq2} (SubSeries GSE106466). 416 cells at 50\% epiboly: 52 wild-type cells and 364 cells of MZ\emph{oep} mutants, which lack Nodal signalling and hence most of the mesendoderm. Fewer cells, but deeper coverage per cell.
@@ -275,8 +275,90 @@ The original study filtered the cells in two steps; the dataset includes the fir
 	\item \textbf{Outliers must be handled by us.} The GEO matrix still contains the apoptotic-like cells and the poorly connected outliers removed in the paper. We likely need our own (comparable) outlier filtering step. Furthermore, some cell types not relevant for the Boolean model may be also eliminated outright (e.g. the germ cells, or the EVL). However, for operations such as discretization, it may be useful to have the whole expression distribution, even if it is not fully assigned to cell types.
 \end{itemize}
 
-% Uncomment once the first \cite is added (BibTeX errors on zero citations).
-% \bibliographystyle{plain}
-% \bibliography{references}
+\section{Result: \texorpdfstring{$a$/$b$}{a/b} libraries have distinct expression profiles}
+\label{sec:replicates}
+
+Six (stage, batch) pairs have two libraries, $a$ and $b$ (Table~\ref{tab:libraries}). If the two libraries of a pair were interchangeable, we could merge them, which would remove one level of the library hierarchy and, in particular, give larger cell pools for the tiny high and oblong stages. In this section, we test whether the two libraries of a pair contain the same population of expression profiles. \textbf{They do not: in every pair, the libraries can be told apart, often as clearly as two neighbouring stages, and neither depth normalization nor depth matching changes this.} We therefore keep the $a$/$b$ libraries separate. The numbers and figures are produced by \nolinkurl{scripts/02_replicate_mixing.py} (mixing) and \nolinkurl{scripts/03_replicate_differences.py} (gene-level evidence).
+
+\subsection{Experiment}
+
+For each pair, we embed the cells of both libraries together using a standard pipeline: each cell is normalized to 10{,}000 UMIs and log-transformed, the 2{,}000 most variable genes are selected on both libraries jointly, and the cells are projected onto the first 30 principal components using PCA. In this space, we find the 20 nearest neighbours of every cell. If the libraries contain the same population of cells, the neighbourhood of a cell is a random sample of both libraries, i.e., the number of neighbours from library $b$ follows a binomial distribution around the overall share of $b$ cells. If one library contains cells that the other lacks, or if all cells of one library are shifted in expression, the neighbourhoods are dominated by one library. We summarize this with three measures; the first two are standard metrics of batch mixing in single-cell data~\cite{luecken2022benchmarking}:
+\begin{itemize}
+	\item \textbf{Rejection rate} (in the style of kBET~\cite{buttner2019kbet}): the fraction of cells whose neighbourhood composition differs from the overall composition (binomial test, $p<0.05$).
+	\item \textbf{Local inverse Simpson's index} (LISI~\cite{korsunsky2019harmony}): the effective number of libraries in a neighbourhood (between 1 and 2). It is computed as $1/(p_a^2 + p_b^2)$, where $p_a$ and $p_b$ are the fractions of neighbours from each library, so a 50/50 neighbourhood gives 2 and a single-library neighbourhood gives 1. For simplicity, we weight the 20 neighbours uniformly instead of using the original distance-based weights.
+	\item \textbf{Classifier AUC}: a logistic regression predicts the library of a cell from its principal components (5-fold cross-validation). This is a classifier two-sample test~\cite{lopezpaz2017c2st}, a general statistical method rather than an established single-cell metric. A related idea was used by the authors of the atlas, who identified batch-specific gene modules by how well they predict the batch (ROC AUC, via Seurat's \texttt{BatchGene} function)~\cite{farrell2018}. An AUC of 0.5 means the libraries are indistinguishable, 1.0 means they are fully separable.
+\end{itemize}
+None of these has a natural threshold for ``mixed well'', and with thousands of cells, even a negligible difference becomes statistically significant. We therefore calibrate every pair against reference comparisons of the same size:
+\begin{itemize}
+	\item \textbf{Permutation null}: the $a$/$b$ labels are randomly shuffled (200 distinct repetitions) on the same neighbourhood graph. This is what perfect mixing looks like.
+	\item \textbf{Negative control}: a random split of one library into two parts of the same sizes as the pair, analysed with the whole pipeline. This is what two samples of the same embryo pool look like.
+	\item \textbf{Positive control}: library $a$ against an adjacent stage of the same batch (e.g., 50\% epiboly DS4 against 60\% epiboly DS4). This is what a real developmental difference looks like.
+	\item \textbf{Other batch} (where available): library $a$ against the same stage from another batch (50\% epiboly DS3, bud DS3).
+\end{itemize}
+Finally, we know that the libraries of a pair differ in sequencing depth (up to 3.3$\times$ in the median, Figure~\ref{fig:library-depth}). Normalizing each cell to the same total removes differences in the average expression level, but not in sparsity: a shallow cell has more zeros, which can by itself move it in the embedding. We thus run every comparison twice:
+\begin{itemize}
+	\item \textbf{Normalized}: all UMIs, only the per-cell normalization described above.
+	\item \textbf{Thinned}: before normalization, each UMI of the deeper library is kept with probability equal to the ratio of the two median depths (binomial thinning~\cite{gerard2020thinning}). Afterwards, both libraries have the same median depth, as if the deeper one had been sequenced less.
+\end{itemize}
+
+\subsection{Results}
+
+The results are summarized in Figure~\ref{fig:replicate-mixing}. The full per-cell distributions of neighbourhood composition for all comparisons are in \nolinkurl{results/figures/replicate_mixing_hist.pdf}, the UMAPs of all six pairs in \nolinkurl{results/figures/replicate_mixing_umap_normalized.pdf} and \nolinkurl{..._thinned.pdf}, and all numbers in \nolinkurl{results/tables/replicate_mixing.tsv}.
+\begin{itemize}
+	\item \textbf{The pipeline itself does not separate the libraries.} The random splits are indistinguishable from the permutation null (AUC 0.46--0.55, rejection rate at most 4\%).
+	\item \textbf{All six pairs are clearly distinguishable.} The classifier AUC is 0.83--1.00, while the highest AUC in the permutation null is 0.51--0.63. Between 14\% and 81\% of cells have a neighbourhood dominated by one library, compared to at most 4\% under the null.
+	\item \textbf{The difference is often comparable to a stage step.} For high and 6-somite, $a$ against $b$ is about as separable as $a$ against the adjacent stage. At 50\% epiboly, DS4$a$ is as different from DS4$b$ as from DS3 (81\% vs.\ 81\% rejected neighbourhoods). The bud DS2 pair is the most similar (AUC 0.83, 14\% rejected), but there, the libraries of different batches (DS2 against DS3) are also unusually similar.
+	\item \textbf{Depth is not the cause.} In the normalized experiment, depth alone predicts the library with AUC up to 0.76 (high). After thinning, this drops to approx.~0.50 in all pairs, but the libraries remain exactly as separable (AUC 0.85--1.00).
+	\item \textbf{The difference is spread over many genes.} Removing the 1{,}000 genes with the largest $a$/$b$ fold change and repeating the analysis leaves five of the six pairs separable (AUC 0.67--0.92). Only for bud DS2 does this make the libraries indistinguishable (AUC 0.52).
+	\item \textbf{The libraries share their structure, but are shifted within it.} In the UMAPs (Figure~\ref{fig:replicate-mixing}, bottom), both libraries cover the same branches, but within each branch, the cells of $a$ and $b$ occupy neighbouring, mostly non-overlapping regions. This suggests that most of the difference is a shift of the whole library rather than a cell population unique to one of them.
+\end{itemize}
+\textbf{Consequently, merging the $a$/$b$ libraries would mix two distinct expression profiles.} Normalization or thinning does not make them compatible. If we need larger cell pools for some analysis, the two libraries have to be treated like two batches (i.e., with the same care as any other between-library comparison), not as one population. This agrees with the original study, which treated libraries as batches: at 50\% epiboly (four libraries), 7 of the 20 gene modules it identified reflected batch effects and were removed, and the two 6-somite libraries were batch-corrected before trajectory reconstruction~\cite{farrell2018}.
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=\linewidth]{replicate_mixing.pdf}
+	\caption{Mixing of the $a$/$b$ libraries. Top: cross-validated AUC of a classifier predicting the library of a cell from its principal components, for each pair ($a$ vs.\ $b$, black) and its reference comparisons; open markers without, filled markers with binomial thinning of the deeper library. The grey bar extends to the highest AUC obtained with randomly permuted labels. Bottom: UMAP of the thinned 50\% epiboly DS4 pair, with separate panels for the cells of each library, the depth after thinning, and the expression of the heat shock gene \emph{hsp90aa1.2} (Section~\ref{sec:replicate-hypotheses}).}
+	\label{fig:replicate-mixing}
+\end{figure}
+
+\subsection{Hypotheses: why do the libraries differ?}
+\label{sec:replicate-hypotheses}
+
+The analysis above shows \emph{that} the libraries differ, not \emph{why}. Here, we collect the evidence for three plausible explanations. This is not meant to be exhaustive or conclusive. It is based on a pseudobulk comparison of each pair (mean expression per 10{,}000 UMIs, and the fraction of cells in which a gene is detected, computed after thinning the deeper library so that detection rates are comparable). With only one library per side, there is no replicate-level variance, so we do not report $p$-values. Table~\ref{tab:replicate-genes} lists the genes supporting each explanation; all genes with at least a 2-fold difference are in \nolinkurl{results/tables/replicate_de_genes.tsv}.
+
+\paragraph{Different parents (clutch effect).} Each library is a separate pool of embryos, quite possibly from different parents. The supplement of~\cite{farrell2018} only states that the embryos come from wild-type crosses of the Tupfel longfin/AB background, a mix of two laboratory strains, and does not say whether the pools of one stage come from different crosses or days. Wild-type zebrafish lines are genetically heterogeneous, and before and shortly after zygotic genome activation, nearly all mRNA in a cell is inherited from the mother. A genetic difference between parents should show up as \emph{on/off genes}, detected in many cells of one library and almost none of the other, regardless of cell type. Such genes exist in high (e.g., \emph{gbgt1l4}: 6\% vs.\ 71\% of cells) and 50\% epiboly DS4 (e.g., \emph{si:dkey-108k21.10}: 49\% vs.\ 5\%), see Table~\ref{tab:replicate-summary}. At high, library $b$ also contains approx.~2--4$\times$ more of the maternal germ plasm transcripts \emph{nanos3} and \emph{dnd1}, which is consistent with a different maternal contribution. Checking whether the on/off genes lie in genomic regions known for copy-number variation would strengthen this explanation.
+
+\paragraph{Handling stress.} In the 50\% epiboly DS4 pair, library $a$ strongly expresses heat shock genes (\emph{hsp90aa1.2} 16$\times$, \emph{hsp70.3} 9$\times$, \emph{serpinh1b} 7$\times$). \emph{hsp90aa1.2} is detected in 81\% of the cells of library $a$, but only in 14\% of library $b$, and it is high throughout library $a$ in the UMAP (Figure~\ref{fig:replicate-mixing}), i.e., this is a shift of the whole library, not a subpopulation. Heat shock genes respond within minutes to hours, so this most likely reflects the handling of the embryos or cells (temperature, dissociation) rather than development. The protocol leaves room for such differences: dissecting one sample took up to 15 minutes, cells were dissociated mechanically, and droplets were held on ice for up to 1.5 hours to allow several sequential collections before reverse transcription~\cite{farrell2018}, so two libraries of the same stage and batch may have been handled for different lengths of time. Note that this also affects any comparison involving DS4$a$, e.g., heat shock genes appear among the top differences between 50\% and 60\% epiboly in DS4.
+
+\paragraph{Developmental timing.} Embryos of one stage are collected by morphology: each dish was inspected visually, and 20--40 embryos were taken once they reached the desired stage~\cite{farrell2018}. Two pools of the same nominal stage can therefore differ by some minutes of development. We use two independent indicators of developmental time, each expressed in units of one ``stage step'' (the difference between the pair and an adjacent stage of the same batch, so that, e.g., $+0.25$ means that $b$ is a quarter of a stage step older than $a$):
+\begin{itemize}
+	\item \textbf{Ribosomal fraction}: the share of UMIs from the 79 ribosomal protein genes. Across the atlas, it increases monotonically with developmental time, from approx.~2\% at high to 21--24\% at bud, and within a library, it does not correlate with the depth of a cell (median Spearman correlation $-0.05$; \nolinkurl{results/tables/library_ribosomal.tsv}). However, it no longer increases consistently between 3- and 6-somite.
+	\item \textbf{Stage-marker score}: the ratio of UMIs in genes that are more than 2$\times$ higher in the older stage to UMIs in genes that are more than 2$\times$ higher in the younger stage (in both libraries of the pair; ribosomal genes excluded). For high and oblong, the reference stage is dome, so this score measures the progress of zygotic genome activation.
+\end{itemize}
+We consider timing supported only if both indicators agree (Table~\ref{tab:replicate-summary}). This is the case for \textbf{bud DS2, where library $a$ is older} (by 0.5 and 0.2 stage steps). This is consistent with library $a$ containing more cells expressing the muscle genes of the adaxial cells (\emph{myod1}, \emph{myl10}, \emph{actc1a}), which start to express muscle genes during late gastrulation, and fewer cells expressing \emph{sox19b}, an early ectodermal SoxB1 gene. The low detection rates of these genes (at most 21\%) suggest that this is a difference in the number of such cells, as expected if library $a$ is slightly more advanced. It is also the pair where removing the top 1{,}000 genes eliminates the difference, so timing may be the main explanation here. In 50\% epiboly DS4 (library $b$ older) and oblong (library $a$ older), the indicators agree in direction, but the marker score shift is small. At high and 30\% epiboly, they disagree. In particular, at high, the zygotic score suggests that library $b$ is \emph{younger}, while its ribosomal fraction is higher. At the earliest stages, development changes the ribosomal fraction by less than one percentage point, and in both the high and oblong pairs, the library with the higher ribosomal fraction is the much deeper one, so we suspect a technical component and do not trust this indicator before dome. For 6-somite, neither indicator is usable, because neither changes consistently between 3- and 6-somite.
+
+\paragraph{Unexplained differences.} For 30\% epiboly and 6-somite, we found no specific explanation: both are separable (AUC 0.98), but none of the three explanations is clearly supported. Furthermore, this analysis cannot separate a difference in cell type composition from a shift in expression within cell types. For example, the higher expression of EVL keratins (\emph{krt8}, \emph{krt18}, \emph{cldne}) in oblong $b$ comes with higher detection rates (4--7\% vs.\ 12--21\%), so library $b$ probably simply contains more EVL-like cells. We will revisit this distinction once the cell types are identified.
+
+\begin{table}[t]
+	\centering
+	\small
+	\caption{Summary of the $a$/$b$ differences. On/off genes are detected in at least 40\% of the cells of one library and at most 10\% of the other (after depth matching). Ribosomal \% is the median share of UMIs from ribosomal protein genes. Shifts are in stage steps, positive if library $b$ is older; n/a if the indicator does not change between the pair and the reference stage. Timing is ``$a$/$b$ older'' if both shifts agree and are at least 0.1, ``weak'' if they agree but one is smaller, and ``conflicting'' if they disagree. Reference stages: dome (high, oblong), shield (30\% epiboly), 60\% epiboly DS4 (50\% epiboly), 90\% epiboly DS2 (bud) and 3-somite (6-somite).}
+	\label{tab:replicate-summary}
+	\setlength{\tabcolsep}{4pt}
+	\input{tables/replicate_summary.tex}
+\end{table}
+
+\begin{table}[t]
+	\centering
+	\small
+	\caption{Selected genes supporting the explanations of the $a$/$b$ differences. Mean expression is in UMIs per 10{,}000 UMIs; the fold change is $b$ relative to $a$. Detection is the fraction of cells with at least one UMI, after thinning the deeper library to the median depth of the other.}
+	\label{tab:replicate-genes}
+	\setlength{\tabcolsep}{3.5pt}
+	\input{tables/replicate_genes.tex}
+\end{table}
+
+\clearpage
+\bibliographystyle{plain}
+\bibliography{references}
 
 \end{document}

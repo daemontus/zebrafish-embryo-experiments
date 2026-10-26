@@ -28,6 +28,19 @@ Repository root: `/home/xpastva/zebrafish-early`
   sequencing batch → library, 28 libraries; two batch blocks sharing no stage)
   and writes the figures/table of the report's "Dataset overview" section.
   It removes no cells. It needs pandas/numpy/matplotlib (see Environment).
+- `scripts/02_replicate_mixing.py` tests whether the six a/b library pairs
+  (same stage and batch) mix in a joint kNN graph, against a permutation null,
+  a random split of one library (negative control), an adjacent stage
+  (positive control) and, where available, another batch. It runs once with
+  library-size normalisation only and once after binomial thinning of the
+  deeper library, and again after removing the top a/b-differing genes.
+  Outputs: `results/tables/replicate_mixing*.tsv`, `results/figures/`
+  (histograms, UMAPs) and `report/figures/replicate_mixing.pdf`.
+  Result: no pair mixes (AUC 0.83-1.00), so a/b libraries are kept separate.
+- `scripts/03_replicate_differences.py` collects descriptive gene-level
+  evidence for why a/b libraries differ (pseudobulk fold changes, on/off
+  genes with depth-matched detection, ribosomal fraction and stage-marker
+  timing indicators) and writes `report/tables/replicate_{summary,genes}.tex`.
 - No API keys or authentication were required (GEO is public).
 
 ## Dataset: GSE106587
@@ -108,16 +121,21 @@ data/
     series_matrix/                # GEO series-matrix files
     filelist_GSE106587.txt        # GEO file listing/provenance
   processed/                      # for derived AnnData etc. (gitignored)
+    dropseq_counts.h5ad           # sparse Drop-seq counts + metadata, built by
+                                  # pipeline_utils.load_dropseq_counts()
 scripts/
   download_gse106587.sh           # idempotent download + extract + checksums
   build_metadata.py               # SOFT → cell metadata tables (stdlib)
   validate_data.py                # integrity checks (stdlib)
   pipeline_utils.py               # shared paths, stage/batch constants, plot style
   01_dataset_structure.py         # stage x batch x library overview -> report
+  02_replicate_mixing.py          # a/b library mixing (kNN, kBET, LISI, AUC)
+  03_replicate_differences.py     # a/b gene-level differences, timing indicators
 results/
   tables/                         # derived tables (TSV/CSV), versioned
     cell_qc_full_atlas.csv        # per-cell UMIs/genes, cache for 01 (delete to
                                   # recompute from the raw matrix)
+  figures/                        # exploratory figures not (yet) in the report
 report/
   main.tex                        # LaTeX report on the analysis
   references.bib                  # BibTeX entries (Farrell et al. 2018 included)
