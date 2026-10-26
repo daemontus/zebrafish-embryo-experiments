@@ -10,3 +10,6 @@ __pycache__/
 
 # Downloaded archives / temporary files
 *.part
+
+# Text of the original paper (for reference only, don't commit)
+paper
