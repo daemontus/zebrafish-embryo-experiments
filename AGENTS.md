@@ -28,6 +28,38 @@ Repository root: `/home/xpastva/zebrafish-early`
   sequencing batch → library, 28 libraries; two batch blocks sharing no stage)
   and writes the figures/table of the report's "Dataset overview" section.
   It removes no cells. It needs pandas/numpy/matplotlib (see Environment).
+- `scripts/01b_heterogeneous_genes.py` (report section "markers of
+  heterogeneity within libraries") selects heterogeneous genes per library
+  with `pipeline_utils.nb_overdispersion`, a chance level calibrated against
+  simulated homogeneous libraries (99.9% quantile of simulated residuals at
+  the gene's mean; 9 simulations, seed per library from SEED and the name,
+  so results depend on SEED by a few % of calls), and an effect-size floor
+  from an empirical null of the well-expressed genes' residuals: three tiers
+  weak / moderate / strong = estimated FDR 50% / 10% / 1% (calls table 0-3;
+  "heterogeneous" = weak, the default downstream). Per stage: in the tier in
+  >= half of the stage's libraries. It also
+  compares with Seurat HVGs (most HVGs are near-undetected genes).
+  `heterogeneity_calls(counts, rng)` applies the calibration to any cells.
+  ~25 min. Outputs `results/tables/heterogeneous_genes*.tsv*`,
+  `heterogeneity_libraries.tsv`, report figures/table, and
+  `results/figures/heterogeneity_libraries.pdf` (overdispersion per library). Intended to replace
+  HVGs everywhere downstream; 02 uses them, scripts 04-13 still use HVGs.
+- `scripts/01c_heterogeneity_zfin.py` checks the heterogeneous genes against
+  ZFIN in situ records (pre-2018): genes recorded in a localised structure
+  at a stage are heterogeneous 3-12x more often than average, "whole
+  organism" genes are depleted; HVGs recover fewer. ZFIN stage ranges are
+  intervals (record covers start of first stage to start of the stage after
+  the last). Outputs `results/tables/heterogeneity_zfin.tsv`, report table.
+- `nb_overdispersion` (2026-10-28): the typical phi (`typical` column) is a
+  dispersion-mean trend phi_t(m) = a0 + a1 m^-b (DESeq2-like, free exponent),
+  fitted on log10 to the medians of raw phi in bins of 200 genes with >= 100
+  UMIs and extrapolated to rarer genes; parameters in `.attrs["trend"]`.
+  It replaced a running median with isotonic fit and boundary rules (same
+  result within ~0.03 log10). Outputs of 04/09/11/12 were computed with an
+  older version (running median of clipped log10 phi).
+  01b calibrates on the residuals of simulated genes against the typical phi
+  they were simulated with (since 2026-10-27; a running quantile of simulated
+  log10 phi mixed in rarer genes at the upper end and overstated the cutoff).
 - `scripts/02_replicate_mixing.py` tests whether the six a/b library pairs
   (same stage and batch) mix in a joint kNN graph, against a permutation null,
   a random split of one library (negative control), an adjacent stage
@@ -36,11 +68,20 @@ Repository root: `/home/xpastva/zebrafish-early`
   deeper library, and again after removing the top a/b-differing genes.
   Outputs: `results/tables/replicate_mixing*.tsv`, `results/figures/`
   (histograms, UMAPs) and `report/figures/replicate_mixing.pdf`.
-  Result: no pair mixes (AUC 0.83-1.00), so a/b libraries are kept separate.
+  Embeds on the heterogeneous genes of 01b (either library of a comparison),
+  not HVGs (since 2026-10-27; joint HVGs include between-library genes).
+  Result: no pair mixes (AUC 0.86-1.00), so a/b libraries are kept separate.
 - `scripts/03_replicate_differences.py` collects descriptive gene-level
   evidence for why a/b libraries differ (pseudobulk fold changes, on/off
   genes with depth-matched detection, ribosomal fraction and stage-marker
   timing indicators) and writes `report/tables/replicate_{summary,genes}.tex`.
+- ZFIN publication years: `zfinpubs.txt` lists journal articles only, so
+  direct data submissions (Thisse screens, the largest early source) get
+  their year from the publication id (ZDB-PUB-YYMMDD-n); see
+  `zfin_utils.zfin_records(max_year)` (ZFIN loading shared by 01c, 09, 11).
+- `pipeline_utils.nb_overdispersion` estimates per-gene negative-binomial
+  overdispersion within a library (method of moments) relative to genes of
+  similar mean.
 - No API keys or authentication were required (GEO is public).
 
 ## Dataset: GSE106587
@@ -103,6 +144,7 @@ cells but 5,864 at 50% epiboly). Account for this in any stage-balanced model.
 ```
 data/
   raw/GSE106587/                 # original GEO files; gitignored, do not edit
+  raw/zfin/                      # ZFIN downloads (2026-10-26), SHA256SUMS; gitignored
     GSE106474/GSE106474_UMICounts.txt.gz
     GSE106466/GSE106466_SS2_umi_cnts.txt.gz
     GSE106466/GSE106466_SS2_fpkm.txt.gz
@@ -110,6 +152,8 @@ data/
     GSE106587/GSM3084402_10xWT6S_*   # extracted 10x WT 6-somite
     GSE106587/GSM3084403_10xMZoep6S_* # extracted 10x MZoep 6-somite
     SHA256SUMS
+  curated/
+    zfin_anatomy_programs.tsv     # ZFIN anatomy term -> program (scripts 01c, 09, 11)
   metadata/
     dropseq_cell_metadata.csv     # 39,505 cells
     ss2_cell_metadata.csv         # 416 cells
@@ -128,9 +172,13 @@ scripts/
   build_metadata.py               # SOFT → cell metadata tables (stdlib)
   validate_data.py                # integrity checks (stdlib)
   pipeline_utils.py               # shared paths, stage/batch constants, plot style
+  zfin_utils.py                   # ZFIN expression records loader (01c, 09, 11)
   01_dataset_structure.py         # stage x batch x library overview -> report
+  01b_heterogeneous_genes.py      # calibrated heterogeneous genes (replace HVGs)
+  01c_heterogeneity_zfin.py       # heterogeneous genes vs ZFIN in situ records
   02_replicate_mixing.py          # a/b library mixing (kNN, kBET, LISI, AUC)
   03_replicate_differences.py     # a/b gene-level differences, timing indicators
+  download_zfin.sh                # ZFIN expression/publication/alias files
 results/
   tables/                         # derived tables (TSV/CSV), versioned
     cell_qc_full_atlas.csv        # per-cell UMIs/genes, cache for 01 (delete to

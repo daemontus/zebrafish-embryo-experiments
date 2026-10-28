@@ -1,0 +1,152 @@
+term	program	note
+unfertilized egg	maternal	
+fertilized egg	maternal	
+blastomere	blastomere	
+blastodisc	blastomere	
+blastoderm	blastomere	
+blastoderm cell	blastomere	
+deep blastomere	blastomere	
+DEL	blastomere	deep cell layer
+epiblast	blastomere	undifferentiated ectoderm (outer layer of the gastrula)
+presumptive ectoderm	blastomere	
+EVL	EVL	
+periderm	EVL	
+superficial blastomere	EVL	
+primordial germ cell	PGC	
+germ line cell	PGC	
+shield	dorsal_organizer	
+presumptive shield	dorsal_organizer	
+presumptive dorsal mesoderm	dorsal_organizer	
+margin	marginal_mesendoderm	
+germ ring	marginal_mesendoderm	
+marginal blastomere	marginal_mesendoderm	
+hypoblast	marginal_mesendoderm	internalized mesendoderm
+mesoderm	marginal_mesendoderm	
+presumptive mesoderm	marginal_mesendoderm	
+endoderm	endoderm	
+presumptive endoderm	endoderm	
+endodermal cell	endoderm	
+prechordal plate	prechordal_plate	
+polster	prechordal_plate	
+anterior axial hypoblast	prechordal_plate	
+hatching gland	prechordal_plate	
+notochord	notochord	
+notochord posterior region	notochord	
+axial chorda mesoderm	notochord	
+axial mesoderm	notochord	axial mesoderm before the prechordal/notochord split
+axial hypoblast	notochord	
+segmental plate	presomitic_mesoderm	
+presumptive segmental plate	presomitic_mesoderm	
+paraxial mesoderm	presomitic_mesoderm	
+presumptive paraxial mesoderm	presomitic_mesoderm	
+somite	adaxial_somite	
+adaxial cell	adaxial_somite	
+myotome	adaxial_somite	
+fast muscle cell	adaxial_somite	
+lateral plate mesoderm	lateral_plate	
+anterior lateral plate mesoderm	lateral_plate	
+posterior lateral plate mesoderm	lateral_plate	
+lateral mesoderm	lateral_plate	
+anterior lateral mesoderm	lateral_plate	
+posterior lateral mesoderm	lateral_plate	
+ventral mesoderm	ventral_bmp	ventral side of the margin
+angioblastic mesenchymal cell	hemato_vascular	
+endothelial cell	hemato_vascular	
+hematopoietic multipotent progenitor cell	hemato_vascular	
+hematopoietic system	hemato_vascular	
+presumptive blood	hemato_vascular	
+non neural ectoderm	non_neural_ectoderm	
+integument	non_neural_ectoderm	
+neural plate	neural_ectoderm	
+presumptive neural plate	neural_ectoderm	
+anterior presumptive neural plate	neural_ectoderm	
+neuroectoderm	neural_ectoderm	
+neural keel	neural_ectoderm	
+neural rod	neural_ectoderm	
+central nervous system	neural_ectoderm	
+presumptive brain	neural_ectoderm	
+anterior neural plate	forebrain_eye	
+anterior neural keel	forebrain_eye	
+anterior neural rod	forebrain_eye	
+forebrain neural plate	forebrain_eye	
+forebrain neural keel	forebrain_eye	
+forebrain neural rod	forebrain_eye	
+presumptive forebrain	forebrain_eye	
+presumptive diencephalon	forebrain_eye	
+presumptive telencephalon	forebrain_eye	
+optic primordium	forebrain_eye	
+optic vesicle	forebrain_eye	
+immature eye	forebrain_eye	
+midbrain hindbrain boundary neural plate	midbrain_hindbrain_boundary	
+midbrain hindbrain boundary neural keel	midbrain_hindbrain_boundary	
+midbrain hindbrain boundary neural rod	midbrain_hindbrain_boundary	
+presumptive midbrain hindbrain boundary	midbrain_hindbrain_boundary	
+midbrain neural plate	midbrain_hindbrain_boundary	midbrain (no separate program)
+midbrain neural keel	midbrain_hindbrain_boundary	midbrain (no separate program)
+midbrain neural rod	midbrain_hindbrain_boundary	midbrain (no separate program)
+presumptive midbrain	midbrain_hindbrain_boundary	midbrain (no separate program)
+hindbrain neural plate	hindbrain	
+hindbrain neural keel	hindbrain	
+hindbrain neural rod	hindbrain	
+presumptive hindbrain	hindbrain	
+presumptive rhombomere 1	hindbrain	
+presumptive rhombomere 2	hindbrain	
+presumptive rhombomere 3	hindbrain	
+presumptive rhombomere 4	hindbrain	
+presumptive rhombomere 5	hindbrain	
+presumptive rhombomere 6	hindbrain	
+presumptive rhombomere 7	hindbrain	
+presumptive rhombomere 8	hindbrain	
+neural plate border	neural_plate_border	
+neural crest	neural_crest	
+neural crest cell	neural_crest	
+cranial neural crest	neural_crest	
+cranial neural crest cell	neural_crest	
+preplacodal ectoderm	placodes	
+otic placode	placodes	
+trigeminal placode	placodes	
+neurogenic placode	placodes	
+epibranchial field	placodes	
+olfactory field	placodes	
+tail bud	tailbud	
+yolk syncytial layer	YSL	candidate (not captured in single-cell data)
+external yolk syncytial layer	YSL	candidate (not captured in single-cell data)
+internal yolk syncytial layer	YSL	candidate (not captured in single-cell data)
+forerunner cell group	dorsal_forerunner	candidate
+Kupffer's vesicle	dorsal_forerunner	candidate
+head mesenchyme	head_mesoderm	candidate
+presumptive cephalic mesoderm	head_mesoderm	candidate
+primary neuron	primary_neurons	candidate
+primary neuron hindbrain	primary_neurons	candidate
+primary motor neuron	primary_neurons	candidate
+Rohon-Beard neuron	primary_neurons	candidate
+neurogenic field	primary_neurons	candidate
+proneural cluster	primary_neurons	candidate
+neuron	primary_neurons	candidate
+neuroblast	primary_neurons	candidate
+motor neuron	primary_neurons	candidate
+cranial ganglion	primary_neurons	candidate
+floor plate	floor_plate	candidate
+presumptive floor plate	floor_plate	candidate
+spinal cord neural plate	spinal_cord	candidate
+spinal cord neural keel	spinal_cord	candidate
+spinal cord neural rod	spinal_cord	candidate
+pronephric mesoderm	intermediate_mesoderm	candidate (pronephros)
+presumptive pronephric mesoderm	intermediate_mesoderm	candidate (pronephros)
+intermediate mesoderm	intermediate_mesoderm	candidate (pronephros)
+heart primordium	heart	candidate
+whole organism	(broad)	
+unspecified	(broad)	
+axis	(broad)	
+ectoderm	(broad)	
+anatomical structure	(broad)	
+embryonic structure	(broad)	
+cell	(broad)	
+head	(broad)	
+trunk	(broad)	
+yolk	(broad)	
+proliferative region	(broad)	
+nervous system	(broad)	
+neuronal stem cell	(broad)	
+posterior neural plate	(broad)	
+posterior neural keel	(broad)	

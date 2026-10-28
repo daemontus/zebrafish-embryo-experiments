@@ -2,8 +2,8 @@
 
 Six stage/batch combinations have two libraries (a and b), each a separate
 pool of embryos. For each pair, the two libraries are embedded together
-(library-size normalisation, log1p, joint HVGs, PCA) and every cell's k
-nearest neighbours are inspected: if the libraries mix, the fraction of
+(library-size normalisation, log1p, PCA of the genes heterogeneous in either
+library, script 01b) and every cell's k nearest neighbours are inspected: if the libraries mix, the fraction of
 neighbours from library b is binomial around the global fraction of b cells.
 
 Each pair is calibrated against
@@ -26,6 +26,10 @@ from the PCs (plus the AUC of depth alone).
 As a robustness check, the a/b comparisons are repeated after removing the
 genes with the largest pseudobulk a/b fold change (top 50/200/1000), to see
 whether a few genes drive the separation.
+
+Genes: heterogeneous genes rather than HVGs, because HVGs selected on two
+libraries jointly include genes that differ between the libraries as a whole,
+which biases the test towards separation.
 
 Outputs:
   results/tables/replicate_mixing.tsv
@@ -65,7 +69,6 @@ FIGURES = ROOT / "results" / "figures"
 
 K = 20  # neighbours per cell
 N_PCS = 30
-N_HVG = 2000
 N_PERM = 200  # label permutations for the kNN null
 N_PERM_AUC = 20  # label permutations for the classifier null
 SEED = 0
@@ -97,6 +100,11 @@ GENE_REMOVAL = [50, 200, 1000]
 # Pair and gene shown in the report figure.
 FIGURE_PAIR = "50% epiboly DS4"
 FIGURE_GENE = "HSP90AA1.2"
+
+
+def heterogeneous_genes(comp: dict, calls: pd.DataFrame) -> set:
+    """Genes heterogeneous (weak tier) in either library of a comparison (script 01b)."""
+    return set(calls.index[(calls[list(set(comp["libs"]))] > 0).any(axis=1)])
 
 
 def comparisons(adata: sc.AnnData, rng: np.random.Generator) -> list[dict]:
@@ -157,13 +165,13 @@ def build(adata: sc.AnnData, comp: dict, experiment: str,
     return sub
 
 
-def embed(sub: sc.AnnData) -> np.ndarray:
-    """Joint normalisation, HVGs and PCA of a comparison; returns the PCs."""
+def embed(sub: sc.AnnData, genes: set) -> np.ndarray:
+    """Joint normalisation and PCA of a comparison on the given genes;
+    returns the PCs."""
     sc.pp.filter_genes(sub, min_cells=3)
     sc.pp.normalize_total(sub, target_sum=1e4)
     sc.pp.log1p(sub)
-    sc.pp.highly_variable_genes(sub, n_top_genes=N_HVG, flavor="seurat")
-    sub = sub[:, sub.var["highly_variable"]].copy()
+    sub = sub[:, sub.var_names.isin(list(genes))].copy()
     sc.pp.scale(sub, max_value=10)
     n_pcs = min(N_PCS, sub.n_obs - 1)
     sc.tl.pca(sub, n_comps=n_pcs, random_state=SEED)
@@ -304,7 +312,8 @@ def pseudobulk_lfc(adata: sc.AnnData, a: np.ndarray, b: np.ndarray) -> np.ndarra
     return np.log2((profile(b) + 0.1) / (profile(a) + 0.1))
 
 
-def gene_removal(adata: sc.AnnData, comps: list[dict], rng: np.random.Generator) -> pd.DataFrame:
+def gene_removal(adata: sc.AnnData, comps: list[dict], calls: pd.DataFrame,
+                 rng: np.random.Generator) -> pd.DataFrame:
     """Repeat the a/b comparisons without the most differing genes."""
     rows = []
     for comp in comps:
@@ -315,9 +324,10 @@ def gene_removal(adata: sc.AnnData, comps: list[dict], rng: np.random.Generator)
             keep = np.ones(adata.n_vars, dtype=bool)
             keep[order[:n_removed]] = False
             sub = build(adata[:, keep], comp, "normalized", rng)
-            res = analyse(sub, embed(sub), rng)
+            res = analyse(sub, embed(sub, heterogeneous_genes(comp, calls)), rng)
             rows.append({
                 "pair": comp["pair"], "genes_removed": n_removed,
+                "genes": sub.n_vars,
                 **{key: res[key] for key in (
                     "reject", "reject_null", "lisi", "lisi_null", "auc", "auc_null_max")},
             })
@@ -347,10 +357,10 @@ def plot_report_figure(table: pd.DataFrame, umap: sc.AnnData, gene_expr: np.ndar
             )
     null = table[(table["kind"] == "replicate")].groupby("pair")["auc_null_max"].max()
     for pair, value in null.items():
-        ax.plot([0.4, value], [y[pair]] * 2, color="#CCCCCC", lw=3, solid_capstyle="butt",
+        ax.plot([0.3, value], [y[pair]] * 2, color="#CCCCCC", lw=3, solid_capstyle="butt",
                 zorder=1)
     ax.set_yticks(list(y.values()), list(y.keys()))
-    ax.set_xlim(0.4, 1.02)
+    ax.set_xlim(0.3, 1.02)
     ax.set_xlabel("cross-validated AUC of predicting the library (0.5 = indistinguishable)")
     ax.grid(axis="x", color="#EEEEEE", lw=0.6)
     ax.set_axisbelow(True)
@@ -407,14 +417,16 @@ def main() -> None:
     report_style()
     sc.settings.verbosity = 0
     adata = load_dropseq_counts()
+    calls = pd.read_csv(TABLES / "heterogeneous_genes_calls.tsv.gz", sep="\t", index_col=0)
     rng = np.random.default_rng(SEED)
     comps = comparisons(adata, rng)
 
     results, umaps, rows = {}, {}, []
     for exp in EXPERIMENTS:
         for comp in comps:
+            genes = heterogeneous_genes(comp, calls)
             sub = build(adata, comp, exp, rng)
-            pcs = embed(sub)
+            pcs = embed(sub, genes)
             res = analyse(sub, pcs, rng)
             results[(comp["pair"], comp["kind"], exp)] = res
             if comp["kind"] == "replicate":
@@ -426,7 +438,7 @@ def main() -> None:
             rows.append({
                 "experiment": exp, "pair": comp["pair"], "kind": comp["kind"],
                 "library_a": comp["libs"][0], "library_b": comp["libs"][1],
-                "n_a": res["n_a"], "n_b": res["n_b"],
+                "genes": len(genes), "n_a": res["n_a"], "n_b": res["n_b"],
                 "median_umis_a": med_a, "median_umis_b": med_b,
                 **{key: res[key] for key in (
                     "reject", "reject_null", "enriched", "enriched_null_max",
@@ -450,7 +462,7 @@ def main() -> None:
     plot_report_figure(table, fig_umap, gene_expr)
 
     print("gene removal:")
-    removal = gene_removal(adata, comps, rng)
+    removal = gene_removal(adata, comps, calls, rng)
     removal.to_csv(TABLES / "replicate_mixing_gene_removal.tsv", sep="\t", index=False,
                    float_format="%.4g")
 

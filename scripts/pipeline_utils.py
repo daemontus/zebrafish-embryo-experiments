@@ -115,3 +115,69 @@ def load_dropseq_counts() -> "ad.AnnData":
     PROCESSED.mkdir(parents=True, exist_ok=True)
     adata.write_h5ad(DROPSEQ_H5AD, compression="gzip")
     return adata
+
+
+def nb_overdispersion(counts, min_umis: int = 10, reliable_umis: int = 100,
+                      bin_size: int = 200) -> "pd.DataFrame":
+    """Negative-binomial overdispersion of every gene within one library.
+
+    `counts` is a cells x genes sparse UMI matrix of a single library. A gene
+    with the same expression in every cell has counts with mean s_i * m in
+    cell i (s_i: the cell's depth relative to the library average, m: the
+    gene's rate per average cell) and, under a negative binomial, variance
+    s_i m + phi (s_i m)^2. phi = 0 is pure sampling (Poisson); bursting and
+    cell size make phi > 0 even for genes expressed in every cell, while a
+    gene restricted to a sub-population has a much larger phi. phi is the
+    method-of-moments estimate.
+
+    `typical` is log10 of the phi of a typical gene of the same mean, from a
+    dispersion-mean trend phi_t(m) = a0 + a1 * m^-b (as in DESeq2's
+    parametric trend a0 + a1 / m, with a free exponent): a0 is the plateau of
+    well-expressed genes, a1 m^-b the extra variability of rarer ones. It is
+    fitted (least squares on log10) to the medians of the raw estimates in
+    consecutive bins of `bin_size` genes, using only genes with at least
+    `reliable_umis` UMIs (below that, most estimates are dominated by
+    sampling, and about half of them are <= 0); medians make the fit robust
+    to heterogeneous genes. Rarer genes get the extrapolated curve. The fitted
+    parameters are in `.attrs["trend"]` (with the bin medians). `residual` is
+    log10(phi) - typical (phi floored at 1e-3), i.e. how much more variable
+    a gene is than a typical gene of its expression level in this library
+    (0 = typical, 1 = ten times more). Genes with fewer than `min_umis` UMIs
+    in the library get NaN.
+    """
+    import numpy as np
+    import pandas as pd
+    from scipy.optimize import curve_fit
+
+    depth = np.asarray(counts.sum(axis=1)).ravel()
+    s = depth / depth.mean()
+    total = np.asarray(counts.sum(axis=0)).ravel()
+    m = total / s.sum()
+    sum_y2 = np.asarray(counts.multiply(counts).sum(axis=0)).ravel()
+    sum_sy = np.asarray(counts.T @ s).ravel()
+    # sum_i (y_i - s_i m)^2 - s_i m, expanded to stay sparse
+    excess = sum_y2 - 2 * m * sum_sy + m**2 * (s**2).sum() - m * s.sum()
+    with np.errstate(divide="ignore", invalid="ignore"):
+        phi = excess / (m**2 * (s**2).sum())
+    out = pd.DataFrame({"mean": m, "phi": phi, "typical": np.nan, "residual": np.nan})
+    ok = np.flatnonzero(total >= min_umis)
+    reliable = ok[total[ok] >= reliable_umis]
+    reliable = reliable[np.argsort(m[reliable], kind="stable")]
+    n_bins = max(1, len(reliable) // bin_size)
+    bins = np.array_split(reliable, n_bins)
+    bin_m = np.array([np.median(m[b]) for b in bins])
+    bin_phi = np.clip([np.median(phi[b]) for b in bins], 1e-3, None)
+
+    def trend(x, a0, a1, b):
+        return np.log10(a0 + a1 * x ** (-b))
+
+    if n_bins >= 4:
+        (a0, a1, b), _ = curve_fit(trend, bin_m, np.log10(bin_phi), p0=[0.03, 0.05, 0.8],
+                                   bounds=([1e-4, 0, 0], [10, 100, 3]), maxfev=20000)
+    else:  # too few reliable genes for a trend: one typical value
+        a0, a1, b = float(np.median(phi[reliable])) if len(reliable) else 0.1, 0.0, 0.0
+    out.loc[ok, "typical"] = trend(m[ok], a0, a1, b)
+    out.loc[ok, "residual"] = (np.log10(np.clip(phi[ok], 1e-3, None))
+                               - out.loc[ok, "typical"].to_numpy())
+    out.attrs["trend"] = dict(a0=a0, a1=a1, b=b, bin_mean=bin_m, bin_phi=bin_phi)
+    return out
