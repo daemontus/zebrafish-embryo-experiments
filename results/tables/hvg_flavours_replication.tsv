@@ -1,0 +1,126 @@
+stage	a	b	flavour	jaccard
+high	ZFHIGH_WT_DS5	ZFHIGH_WT_DS5b	seurat	0.06101
+high	ZFHIGH_WT_DS5	ZFHIGH_WT_DS5b	seurat_filtered	0.07181
+high	ZFHIGH_WT_DS5	ZFHIGH_WT_DS5b	seurat_v3	0.0846
+high	ZFHIGH_WT_DS5	ZFHIGH_WT_DS5b	pearson	0.0929
+high	ZFHIGH_WT_DS5	ZFHIGH_WT_DS5b	nb_residual	0.09709
+oblong	ZFOBLONG_WT_DS5	ZFOBLONG_WT_DS5b	seurat	0.05597
+oblong	ZFOBLONG_WT_DS5	ZFOBLONG_WT_DS5b	seurat_filtered	0.06553
+oblong	ZFOBLONG_WT_DS5	ZFOBLONG_WT_DS5b	seurat_v3	0.09709
+oblong	ZFOBLONG_WT_DS5	ZFOBLONG_WT_DS5b	pearson	0.08932
+oblong	ZFOBLONG_WT_DS5	ZFOBLONG_WT_DS5b	nb_residual	0.1173
+30% epiboly	ZF30_WT_DS5	ZF30_WT_DS5b	seurat	0.1377
+30% epiboly	ZF30_WT_DS5	ZF30_WT_DS5b	seurat_filtered	0.1567
+30% epiboly	ZF30_WT_DS5	ZF30_WT_DS5b	seurat_v3	0.2928
+30% epiboly	ZF30_WT_DS5	ZF30_WT_DS5b	pearson	0.2384
+30% epiboly	ZF30_WT_DS5	ZF30_WT_DS5b	nb_residual	0.2912
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS3	seurat	0.1884
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS3	seurat_filtered	0.2232
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS3	seurat_v3	0.3908
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS3	pearson	0.3541
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS3	nb_residual	0.4337
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS4	seurat	0.1919
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS4	seurat_filtered	0.2165
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS4	seurat_v3	0.4276
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS4	pearson	0.3559
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS4	nb_residual	0.4493
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS4b	seurat	0.1891
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS4b	seurat_filtered	0.2151
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS4b	seurat_v3	0.4327
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS4b	pearson	0.3615
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS4b	nb_residual	0.4535
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS4	seurat	0.1891
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS4	seurat_filtered	0.2247
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS4	seurat_v3	0.3755
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS4	pearson	0.3596
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS4	nb_residual	0.4114
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS4b	seurat	0.2034
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS4b	seurat_filtered	0.2392
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS4b	seurat_v3	0.3947
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS4b	pearson	0.385
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS4b	nb_residual	0.4503
+50% epiboly	ZF50_WT_DS4	ZF50_WT_DS4b	seurat	0.1891
+50% epiboly	ZF50_WT_DS4	ZF50_WT_DS4b	seurat_filtered	0.2293
+50% epiboly	ZF50_WT_DS4	ZF50_WT_DS4b	seurat_v3	0.4255
+50% epiboly	ZF50_WT_DS4	ZF50_WT_DS4b	pearson	0.3784
+50% epiboly	ZF50_WT_DS4	ZF50_WT_DS4b	nb_residual	0.4524
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS3	seurat	0.1869
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS3	seurat_filtered	0.218
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS3	seurat_v3	0.3141
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS3	pearson	0.3175
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS3	nb_residual	0.3774
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS4	seurat	0.1689
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS4	seurat_filtered	0.2041
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS4	seurat_v3	0.3652
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS4	pearson	0.3378
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS4	nb_residual	0.4055
+60% epiboly	ZF60_WT_DS3	ZF60_WT_DS4	seurat	0.1891
+60% epiboly	ZF60_WT_DS3	ZF60_WT_DS4	seurat_filtered	0.2232
+60% epiboly	ZF60_WT_DS3	ZF60_WT_DS4	seurat_v3	0.3432
+60% epiboly	ZF60_WT_DS3	ZF60_WT_DS4	pearson	0.3624
+60% epiboly	ZF60_WT_DS3	ZF60_WT_DS4	nb_residual	0.4094
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS3	seurat	0.2026
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS3	seurat_filtered	0.2361
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS3	seurat_v3	0.368
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS3	pearson	0.3699
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS3	nb_residual	0.3966
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS4	seurat	0.2107
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS4	seurat_filtered	0.2453
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS4	seurat_v3	0.3899
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS4	pearson	0.3996
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS4	nb_residual	0.442
+75% epiboly	ZF75_WT_DS3	ZF75_WT_DS4	seurat	0.2369
+75% epiboly	ZF75_WT_DS3	ZF75_WT_DS4	seurat_filtered	0.2878
+75% epiboly	ZF75_WT_DS3	ZF75_WT_DS4	seurat_v3	0.4368
+75% epiboly	ZF75_WT_DS3	ZF75_WT_DS4	pearson	0.443
+75% epiboly	ZF75_WT_DS3	ZF75_WT_DS4	nb_residual	0.4782
+90% epiboly	ZF90_WT_DS2	ZF90_WT_DS3	seurat	0.2285
+90% epiboly	ZF90_WT_DS2	ZF90_WT_DS3	seurat_filtered	0.2626
+90% epiboly	ZF90_WT_DS2	ZF90_WT_DS3	seurat_v3	0.444
+90% epiboly	ZF90_WT_DS2	ZF90_WT_DS3	pearson	0.4316
+90% epiboly	ZF90_WT_DS2	ZF90_WT_DS3	nb_residual	0.4695
+90% epiboly	ZF90_WT_DS2	ZF90_WT_DS4	seurat	0.221
+90% epiboly	ZF90_WT_DS2	ZF90_WT_DS4	seurat_filtered	0.269
+90% epiboly	ZF90_WT_DS2	ZF90_WT_DS4	seurat_v3	0.4749
+90% epiboly	ZF90_WT_DS2	ZF90_WT_DS4	pearson	0.4631
+90% epiboly	ZF90_WT_DS2	ZF90_WT_DS4	nb_residual	0.5038
+90% epiboly	ZF90_WT_DS3	ZF90_WT_DS4	seurat	0.2384
+90% epiboly	ZF90_WT_DS3	ZF90_WT_DS4	seurat_filtered	0.2962
+90% epiboly	ZF90_WT_DS3	ZF90_WT_DS4	seurat_v3	0.4567
+90% epiboly	ZF90_WT_DS3	ZF90_WT_DS4	pearson	0.4567
+90% epiboly	ZF90_WT_DS3	ZF90_WT_DS4	nb_residual	0.5049
+bud	ZFB_WT_DS2	ZFB_WT_DS2b	seurat	0.1969
+bud	ZFB_WT_DS2	ZFB_WT_DS2b	seurat_filtered	0.2369
+bud	ZFB_WT_DS2	ZFB_WT_DS2b	seurat_v3	0.336
+bud	ZFB_WT_DS2	ZFB_WT_DS2b	pearson	0.3822
+bud	ZFB_WT_DS2	ZFB_WT_DS2b	nb_residual	0.4134
+bud	ZFB_WT_DS2	ZFB_WT_DS3	seurat	0.1884
+bud	ZFB_WT_DS2	ZFB_WT_DS3	seurat_filtered	0.2165
+bud	ZFB_WT_DS2	ZFB_WT_DS3	seurat_v3	0.2658
+bud	ZFB_WT_DS2	ZFB_WT_DS3	pearson	0.3055
+bud	ZFB_WT_DS2	ZFB_WT_DS3	nb_residual	0.2658
+bud	ZFB_WT_DS2	ZFB_WT_DS4	seurat	0.218
+bud	ZFB_WT_DS2	ZFB_WT_DS4	seurat_filtered	0.2446
+bud	ZFB_WT_DS2	ZFB_WT_DS4	seurat_v3	0.3021
+bud	ZFB_WT_DS2	ZFB_WT_DS4	pearson	0.3541
+bud	ZFB_WT_DS2	ZFB_WT_DS4	nb_residual	0.3324
+bud	ZFB_WT_DS2b	ZFB_WT_DS3	seurat	0.2034
+bud	ZFB_WT_DS2b	ZFB_WT_DS3	seurat_filtered	0.2293
+bud	ZFB_WT_DS2b	ZFB_WT_DS3	seurat_v3	0.2903
+bud	ZFB_WT_DS2b	ZFB_WT_DS3	pearson	0.336
+bud	ZFB_WT_DS2b	ZFB_WT_DS3	nb_residual	0.2887
+bud	ZFB_WT_DS2b	ZFB_WT_DS4	seurat	0.2369
+bud	ZFB_WT_DS2b	ZFB_WT_DS4	seurat_filtered	0.278
+bud	ZFB_WT_DS2b	ZFB_WT_DS4	seurat_v3	0.3342
+bud	ZFB_WT_DS2b	ZFB_WT_DS4	pearson	0.3976
+bud	ZFB_WT_DS2b	ZFB_WT_DS4	nb_residual	0.3736
+bud	ZFB_WT_DS3	ZFB_WT_DS4	seurat	0.2484
+bud	ZFB_WT_DS3	ZFB_WT_DS4	seurat_filtered	0.3055
+bud	ZFB_WT_DS3	ZFB_WT_DS4	seurat_v3	0.4194
+bud	ZFB_WT_DS3	ZFB_WT_DS4	pearson	0.4327
+bud	ZFB_WT_DS3	ZFB_WT_DS4	nb_residual	0.4556
+6-somite	ZF6S_WT_DS5	ZF6S_WT_DS5b	seurat	0.292
+6-somite	ZF6S_WT_DS5	ZF6S_WT_DS5b	seurat_filtered	0.3414
+6-somite	ZF6S_WT_DS5	ZF6S_WT_DS5b	seurat_v3	0.4914
+6-somite	ZF6S_WT_DS5	ZF6S_WT_DS5b	pearson	0.4535
+6-somite	ZF6S_WT_DS5	ZF6S_WT_DS5b	nb_residual	0.5049

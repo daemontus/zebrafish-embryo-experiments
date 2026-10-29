@@ -1,6 +1,6 @@
 """ZFIN expression records: loading, stage hpf and matrix gene symbols.
 
-Shared by 01c_heterogeneity_zfin, 09_variable_programs and 11_program_sets.
+Used by 01c_heterogeneity_zfin (and through it by 14 and 16).
 Needs data/raw/zfin/ (scripts/download_zfin.sh).
 """
 

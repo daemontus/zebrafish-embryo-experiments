@@ -58,7 +58,7 @@ Checks:
                 dispersion (scanpy flavour "seurat", per library), and of the
                 weak-tier genes vs. as many top Seurat genes.
   HVGs          per stage, the 2,000 Seurat HVGs of the pooled libraries (as
-                used by scripts 04-13) against the heterogeneous genes.
+                used by the earlier analyses) against the heterogeneous genes.
 
 Outputs:
   results/tables/heterogeneous_genes_libraries.tsv.gz  (gene x library residual)

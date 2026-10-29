@@ -50,6 +50,19 @@ Repository root: `/home/xpastva/zebrafish-early`
   organism" genes are depleted; HVGs recover fewer. ZFIN stage ranges are
   intervals (record covers start of first stage to start of the stage after
   the last). Outputs `results/tables/heterogeneity_zfin.tsv`, report table.
+- `scripts/01d_hvg_flavours.py` (2026-10-28, report section 4 "newer HVG
+  methods"): repeats 01b/01c's HVG comparisons for scanpy's seurat_v3 (vst)
+  and analytic Pearson residuals (pooled stage and batch_key=library), plus
+  the old "seurat" flavour with and without the usual min-3-cells filter
+  (needed anyway: seurat_v3's loess fails on unfiltered genes; retried with
+  wider spans). Result: most of the advantage over HVGs was the old flavour;
+  newer methods are close to the NB residual ranking (ZFIN restricted genes
+  in top k 25-56% vs 29-59%, replication 0.24-0.49 vs 0.29-0.50), still pick
+  hundreds of unmeasurable genes, and the calibrated heterogeneous set beats
+  every ranking of the same size by 2-9 points. Reads 01b's tables; a few
+  minutes; `plot` redraws. Outputs `results/tables/hvg_flavours*.tsv`,
+  report figure/table `hvg_flavours`. `01c.zfin_groups(records, stage)` is
+  shared with 01c.
 - `nb_overdispersion` (2026-10-28): the typical phi (`typical` column) is a
   dispersion-mean trend phi_t(m) = a0 + a1 m^-b (DESeq2-like, free exponent),
   fitted on log10 to the medians of raw phi in bins of 200 genes with >= 100
@@ -176,6 +189,7 @@ scripts/
   01_dataset_structure.py         # stage x batch x library overview -> report
   01b_heterogeneous_genes.py      # calibrated heterogeneous genes (replace HVGs)
   01c_heterogeneity_zfin.py       # heterogeneous genes vs ZFIN in situ records
+  01d_hvg_flavours.py             # heterogeneous genes vs newer HVG methods
   02_replicate_mixing.py          # a/b library mixing (kNN, kBET, LISI, AUC)
   03_replicate_differences.py     # a/b gene-level differences, timing indicators
   download_zfin.sh                # ZFIN expression/publication/alias files

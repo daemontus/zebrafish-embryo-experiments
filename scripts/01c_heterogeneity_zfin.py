@@ -49,10 +49,10 @@ ATLAS_HPF = {"high": 3.33, "oblong": 3.67, "dome": 4.33, "30% epiboly": 4.67,
 GROUPS = ["restricted", "whole organism"]
 
 
-def zfin_genes(adata) -> tuple[pd.DataFrame, dict]:
+def zfin_genes(adata, max_year: int | None = MAX_YEAR) -> tuple[pd.DataFrame, dict]:
     """In situ records with matrix gene, kind (restricted / broad / yolk) and
     the covered hpf interval [start, stop)."""
-    records, symbols = zfin_records(MAX_YEAR)
+    records, symbols = zfin_records(max_year)
     mapping = pd.read_csv(MAPPING, sep="\t").set_index("term")["program"]
     starts = np.array(sorted(set(ZFIN_STAGE_HPF.values())))
     r = records[records["assay"] == ASSAY].copy()
@@ -70,6 +70,15 @@ def zfin_genes(adata) -> tuple[pd.DataFrame, dict]:
     return r, info
 
 
+def zfin_groups(records: pd.DataFrame, stage: str) -> dict[str, set]:
+    """Restricted and whole-organism genes of the records covering the stage."""
+    hpf = ATLAS_HPF[stage]
+    at = records[(records["start_hpf"] <= hpf) & (records["stop"] > hpf)]
+    kinds = at.groupby("gene")["kind"].agg(set)
+    return {"restricted": set(kinds.index[kinds.map(lambda k: "restricted" in k)]),
+            "whole organism": set(kinds.index[kinds.map(lambda k: k == {"broad"})])}
+
+
 def main() -> None:
     adata = load_dropseq_counts()
     records, info = zfin_genes(adata)
@@ -80,7 +89,6 @@ def main() -> None:
     libs = pd.read_csv(TABLES / "heterogeneity_libraries.tsv", sep="\t", index_col=0)
     rows = []
     for stage in STAGES:
-        hpf = ATLAS_HPF[stage]
         names = list(libs.index[libs["stage"] == stage])
         measured = set(residual.index[residual[names].notna().any(axis=1)])
         g = genes[genes["stage"] == stage]
@@ -90,10 +98,7 @@ def main() -> None:
         sub = adata[adata.obs["stage"].astype(str) == stage]
         order = adata.var_names[np.argsort(-heterogeneity.seurat_dispersion(sub.X))]
         hvg_matched, hvg_2000 = set(order[:len(het)]), set(order[:heterogeneity.N_HVG])
-        at = records[(records["start_hpf"] <= hpf) & (records["stop"] > hpf)]
-        kinds = at.groupby("gene")["kind"].agg(set)
-        group = {"restricted": set(kinds.index[kinds.map(lambda k: "restricted" in k)]),
-                 "whole organism": set(kinds.index[kinds.map(lambda k: k == {"broad"})])}
+        group = zfin_groups(records, stage)
         for name in GROUPS:
             m = group[name] & measured
             n = max(len(m), 1)

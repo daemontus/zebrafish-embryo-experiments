@@ -1,0 +1,181 @@
+stage	size	n	flavour	heterogeneous	unmeasured	median_umis	restricted	whole_organism	restricted_genes
+high	2000	2000	seurat	138	761	26	0.5333	0.09436	15
+high	2000	2000	seurat_filtered	143	527	43	0.5333	0.1147	15
+high	2000	2000	seurat_v3	178	458	60	0.5333	0.1288	15
+high	2000	2000	seurat_v3_batch	178	440	53	0.4667	0.1182	15
+high	2000	2000	pearson	158	552	50.5	0.6	0.1198	15
+high	2000	2000	pearson_batch	160	649	33	0.5333	0.1111	15
+high	2000	2000	nb_residual	159	0	64	0.5333	0.1427	15
+high	matched	182	seurat	65	46	86	0.2667	0.007085	15
+high	matched	182	seurat_filtered	63	39	79.5	0.2667	0.006763	15
+high	matched	182	seurat_v3	109	39	44.5	0.4	0.006119	15
+high	matched	182	seurat_v3_batch	101	15	60.5	0.3333	0.01095	15
+high	matched	182	pearson	85	39	142	0.3333	0.00934	15
+high	matched	182	pearson_batch	72	61	26	0.3333	0.005797	15
+high	matched	182	nb_residual	110	0	34.5	0.4	0.008052	15
+high	matched	182	heterogeneous	182	0	98	0.4667	0.008052	15
+oblong	2000	2000	seurat	76	1001	15	0.5	0.09525	10
+oblong	2000	2000	seurat_filtered	79	745	24	0.5	0.1216	10
+oblong	2000	2000	seurat_v3	95	541	40	0.7	0.1593	10
+oblong	2000	2000	seurat_v3_batch	100	498	37	0.5	0.1552	10
+oblong	2000	2000	pearson	92	866	21	0.6	0.1081	10
+oblong	2000	2000	pearson_batch	90	507	37	0.5	0.1541	10
+oblong	2000	2000	nb_residual	92	0	48	0.5	0.195	10
+oblong	matched	102	seurat	40	9	65	0.1	0.005542	10
+oblong	matched	102	seurat_filtered	40	10	60.5	0.1	0.005888	10
+oblong	matched	102	seurat_v3	59	14	56.5	0.4	0.003117	10
+oblong	matched	102	seurat_v3_batch	67	5	76.5	0.3	0.004849	10
+oblong	matched	102	pearson	46	28	59.5	0.3	0.002771	10
+oblong	matched	102	pearson_batch	52	9	175	0.2	0.003117	10
+oblong	matched	102	nb_residual	55	0	24.5	0.3	0.004157	10
+oblong	matched	102	heterogeneous	102	0	59.5	0.4	0.004503	10
+dome	2000	2000	seurat	347	981	10	0.4808	0.04901	52
+dome	2000	2000	seurat_filtered	372	591	26	0.4808	0.07275	52
+dome	2000	2000	seurat_v3	429	456	35	0.5577	0.08416	52
+dome	2000	2000	seurat_v3_batch	429	456	35	0.5577	0.08385	52
+dome	2000	2000	pearson	417	561	39	0.5769	0.09063	52
+dome	2000	2000	pearson_batch	417	561	39	0.5769	0.09063	52
+dome	2000	2000	nb_residual	429	0	63	0.5577	0.1205	52
+dome	matched	429	seurat	191	195	16	0.3269	0.0111	52
+dome	matched	429	seurat_filtered	209	113	30	0.3462	0.0151	52
+dome	matched	429	seurat_v3	286	110	49	0.4038	0.01326	52
+dome	matched	429	seurat_v3_batch	286	110	49	0.4038	0.01326	52
+dome	matched	429	pearson	266	90	66	0.3846	0.01757	52
+dome	matched	429	pearson_batch	266	90	66	0.3846	0.01757	52
+dome	matched	429	nb_residual	301	0	54	0.4038	0.01726	52
+dome	matched	429	heterogeneous	429	0	207	0.4423	0.02065	52
+30% epiboly	2000	2000	seurat	343	1073	11	0.5725	0.04619	131
+30% epiboly	2000	2000	seurat_filtered	371	749	21	0.6183	0.06929	131
+30% epiboly	2000	2000	seurat_v3	524	500	40	0.7634	0.08146	131
+30% epiboly	2000	2000	seurat_v3_batch	522	484	38	0.7099	0.08708	131
+30% epiboly	2000	2000	pearson	492	792	22	0.7557	0.06866	131
+30% epiboly	2000	2000	pearson_batch	497	525	34	0.7405	0.08708	131
+30% epiboly	2000	2000	nb_residual	518	0	76	0.771	0.1142	131
+30% epiboly	matched	527	seurat	208	294	7	0.3969	0.008739	131
+30% epiboly	matched	527	seurat_filtered	227	239	18	0.4122	0.01186	131
+30% epiboly	matched	527	seurat_v3	379	130	65	0.5496	0.01373	131
+30% epiboly	matched	527	seurat_v3_batch	384	97	65	0.542	0.01342	131
+30% epiboly	matched	527	pearson	322	176	61	0.542	0.01404	131
+30% epiboly	matched	527	pearson_batch	342	84	84	0.5573	0.01904	131
+30% epiboly	matched	527	nb_residual	398	0	81	0.5878	0.01873	131
+30% epiboly	matched	527	heterogeneous	527	0	204	0.6107	0.02216	131
+50% epiboly	2000	2000	seurat	570	1065	18	0.379	0.03012	533
+50% epiboly	2000	2000	seurat_filtered	619	849	37	0.4128	0.03937	533
+50% epiboly	2000	2000	seurat_v3	794	689	64	0.5385	0.04861	533
+50% epiboly	2000	2000	seurat_v3_batch	693	755	40	0.454	0.04201	533
+50% epiboly	2000	2000	pearson	749	714	126.5	0.5159	0.07477	533
+50% epiboly	2000	2000	pearson_batch	780	423	153.5	0.5272	0.08032	533
+50% epiboly	2000	2000	nb_residual	817	0	155	0.5835	0.06737	533
+50% epiboly	matched	823	seurat	378	397	30	0.2589	0.01506	533
+50% epiboly	matched	823	seurat_filtered	416	321	77	0.2795	0.01744	533
+50% epiboly	matched	823	seurat_v3	589	152	228	0.3659	0.02034	533
+50% epiboly	matched	823	seurat_v3_batch	574	87	228	0.3677	0.02246	533
+50% epiboly	matched	823	pearson	544	183	459	0.3621	0.02827	533
+50% epiboly	matched	823	pearson_batch	593	96	463	0.3809	0.03118	533
+50% epiboly	matched	823	nb_residual	591	0	225	0.3771	0.02351	533
+50% epiboly	matched	823	heterogeneous	823	0	753	0.469	0.03223	533
+shield	2000	2000	seurat	339	1074	8	0.3623	0.05554	552
+shield	2000	2000	seurat_filtered	376	662	18	0.4366	0.09256	552
+shield	2000	2000	seurat_v3	420	379	31	0.5634	0.1232	552
+shield	2000	2000	seurat_v3_batch	420	379	31	0.5634	0.1232	552
+shield	2000	2000	pearson	412	623	24	0.5217	0.109	552
+shield	2000	2000	pearson_batch	412	623	24	0.5217	0.109	552
+shield	2000	2000	nb_residual	421	0	44	0.6159	0.1578	552
+shield	matched	421	seurat	181	223	7	0.1793	0.00607	552
+shield	matched	421	seurat_filtered	218	135	23	0.2174	0.01123	552
+shield	matched	421	seurat_v3	317	96	41	0.2826	0.009408	552
+shield	matched	421	seurat_v3_batch	317	96	41	0.2826	0.009408	552
+shield	matched	421	pearson	294	93	59	0.2736	0.01153	552
+shield	matched	421	pearson_batch	294	93	59	0.2736	0.01153	552
+shield	matched	421	nb_residual	350	0	55	0.3188	0.01305	552
+shield	matched	421	heterogeneous	421	0	113	0.3533	0.01396	552
+60% epiboly	2000	2000	seurat	547	944	22	0.4154	0.03911	662
+60% epiboly	2000	2000	seurat_filtered	594	689	43	0.4592	0.0548	662
+60% epiboly	2000	2000	seurat_v3	720	703	46	0.5559	0.04922	662
+60% epiboly	2000	2000	seurat_v3_batch	636	680	38	0.5181	0.04895	662
+60% epiboly	2000	2000	pearson	723	572	95	0.5529	0.08194	662
+60% epiboly	2000	2000	pearson_batch	724	421	98	0.5574	0.08673	662
+60% epiboly	2000	2000	nb_residual	744	0	105	0.5952	0.0838	662
+60% epiboly	matched	744	seurat	332	313	36	0.2704	0.01197	662
+60% epiboly	matched	744	seurat_filtered	372	239	59	0.3021	0.01383	662
+60% epiboly	matched	744	seurat_v3	474	112	149.5	0.3973	0.01703	662
+60% epiboly	matched	744	seurat_v3_batch	456	53	161.5	0.3792	0.02075	662
+60% epiboly	matched	744	pearson	520	93	345	0.4018	0.02501	662
+60% epiboly	matched	744	pearson_batch	546	59	465.5	0.4048	0.02873	662
+60% epiboly	matched	744	nb_residual	470	0	109	0.3882	0.02102	662
+60% epiboly	matched	744	heterogeneous	744	0	845	0.4532	0.03113	662
+75% epiboly	2000	2000	seurat	613	930	22.5	0.4371	0.0354	652
+75% epiboly	2000	2000	seurat_filtered	667	679	47	0.4831	0.04612	652
+75% epiboly	2000	2000	seurat_v3	846	608	67	0.5644	0.05015	652
+75% epiboly	2000	2000	seurat_v3_batch	725	659	43	0.5184	0.04693	652
+75% epiboly	2000	2000	pearson	840	551	115	0.5613	0.07938	652
+75% epiboly	2000	2000	pearson_batch	849	409	109	0.5752	0.08152	652
+75% epiboly	2000	2000	nb_residual	908	0	122	0.6304	0.07455	652
+75% epiboly	matched	908	seurat	400	396	35	0.2853	0.01475	652
+75% epiboly	matched	908	seurat_filtered	455	287	83	0.3252	0.0177	652
+75% epiboly	matched	908	seurat_v3	596	146	162	0.4172	0.02172	652
+75% epiboly	matched	908	seurat_v3_batch	596	71	175.5	0.4187	0.02628	652
+75% epiboly	matched	908	pearson	623	148	299.5	0.4172	0.03191	652
+75% epiboly	matched	908	pearson_batch	654	76	363	0.4264	0.03406	652
+75% epiboly	matched	908	nb_residual	602	0	143	0.4202	0.02655	652
+75% epiboly	matched	908	heterogeneous	908	0	833	0.5107	0.04049	652
+90% epiboly	2000	2000	seurat	688	852	30	0.4507	0.03803	608
+90% epiboly	2000	2000	seurat_filtered	747	633	55	0.4868	0.047	608
+90% epiboly	2000	2000	seurat_v3	942	586	72.5	0.6086	0.04999	608
+90% epiboly	2000	2000	seurat_v3_batch	851	554	57	0.574	0.04971	608
+90% epiboly	2000	2000	pearson	929	487	157	0.6003	0.07661	608
+90% epiboly	2000	2000	pearson_batch	959	215	233	0.6316	0.09074	608
+90% epiboly	2000	2000	nb_residual	1018	0	134.5	0.6612	0.07063	608
+90% epiboly	matched	1031	seurat	486	406	50	0.3388	0.01739	608
+90% epiboly	matched	1031	seurat_filtered	547	282	97	0.3734	0.01983	608
+90% epiboly	matched	1031	seurat_v3	728	133	186	0.4704	0.02907	608
+90% epiboly	matched	1031	seurat_v3_batch	727	73	200	0.4671	0.02961	608
+90% epiboly	matched	1031	pearson	710	171	320	0.4605	0.03287	608
+90% epiboly	matched	1031	pearson_batch	792	40	443	0.5066	0.04102	608
+90% epiboly	matched	1031	nb_residual	716	0	157	0.4753	0.03015	608
+90% epiboly	matched	1031	heterogeneous	1031	0	630	0.574	0.04075	608
+bud	2000	2000	seurat	617	832	27	0.401	0.03307	813
+bud	2000	2000	seurat_filtered	673	574	54	0.4354	0.04219	813
+bud	2000	2000	seurat_v3	856	495	89.5	0.5683	0.04635	813
+bud	2000	2000	seurat_v3_batch	775	282	136	0.5314	0.06198	813
+bud	2000	2000	pearson	868	482	109.5	0.524	0.05885	813
+bud	2000	2000	pearson_batch	846	1	1098	0.5781	0.1357	813
+bud	2000	2000	nb_residual	915	0	137	0.6187	0.06016	813
+bud	matched	953	seurat	419	367	49	0.2718	0.01432	813
+bud	matched	953	seurat_filtered	449	264	79	0.2927	0.01693	813
+bud	matched	953	seurat_v3	624	112	227	0.4022	0.02161	813
+bud	matched	953	seurat_v3_batch	626	28	360	0.4108	0.02682	813
+bud	matched	953	pearson	621	138	276	0.3887	0.02552	813
+bud	matched	953	pearson_batch	744	0	1479	0.4305	0.04714	813
+bud	matched	953	nb_residual	601	0	181	0.3985	0.02526	813
+bud	matched	953	heterogeneous	953	0	979	0.4809	0.03802	813
+3-somite	2000	2000	seurat	612	845	15.5	0.2763	0.04327	1491
+3-somite	2000	2000	seurat_filtered	670	510	29	0.3246	0.0631	1491
+3-somite	2000	2000	seurat_v3	895	497	31	0.4125	0.04868	1491
+3-somite	2000	2000	seurat_v3_batch	895	497	31	0.4125	0.04868	1491
+3-somite	2000	2000	pearson	842	448	39	0.3903	0.0634	1491
+3-somite	2000	2000	pearson_batch	842	448	39	0.3903	0.0634	1491
+3-somite	2000	2000	nb_residual	899	0	57	0.4923	0.07572	1491
+3-somite	matched	899	seurat	412	356	19	0.1643	0.01562	1491
+3-somite	matched	899	seurat_filtered	467	212	35	0.1925	0.02043	1491
+3-somite	matched	899	seurat_v3	684	147	58	0.2622	0.01863	1491
+3-somite	matched	899	seurat_v3_batch	684	147	58	0.2622	0.01863	1491
+3-somite	matched	899	pearson	641	139	74	0.2488	0.02133	1491
+3-somite	matched	899	pearson_batch	641	139	74	0.2488	0.02133	1491
+3-somite	matched	899	nb_residual	733	0	73	0.2911	0.02434	1491
+3-somite	matched	899	heterogeneous	899	0	144	0.3166	0.02734	1491
+6-somite	2000	2000	seurat	917	816	29	0.2745	0.03112	1763
+6-somite	2000	2000	seurat_filtered	1027	546	58	0.3131	0.04149	1763
+6-somite	2000	2000	seurat_v3	1296	453	75.5	0.3562	0.04093	1763
+6-somite	2000	2000	seurat_v3_batch	1255	446	64.5	0.3545	0.04093	1763
+6-somite	2000	2000	pearson	1217	458	116	0.3625	0.05411	1763
+6-somite	2000	2000	pearson_batch	1203	414	91	0.3613	0.05158	1763
+6-somite	2000	2000	nb_residual	1369	0	109	0.4277	0.05579	1763
+6-somite	matched	1527	seurat	784	592	34	0.2326	0.02271	1763
+6-somite	matched	1527	seurat_filtered	892	386	73	0.266	0.02916	1763
+6-somite	matched	1527	seurat_v3	1112	329	97	0.3063	0.02832	1763
+6-somite	matched	1527	seurat_v3_batch	1129	254	94	0.3069	0.03084	1763
+6-somite	matched	1527	pearson	1069	303	148	0.3074	0.04121	1763
+6-somite	matched	1527	pearson_batch	1055	256	126	0.3114	0.03757	1763
+6-somite	matched	1527	nb_residual	1195	0	123	0.3477	0.03616	1763
+6-somite	matched	1527	heterogeneous	1527	0	239	0.3965	0.04401	1763
