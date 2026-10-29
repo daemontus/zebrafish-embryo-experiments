@@ -16,7 +16,7 @@
 \usepackage{siunitx}
 \usepackage[hidelinks]{hyperref}
 
-\graphicspath{{figures/}}
+\graphicspath{{figures/}{../results/figures/}}
 
 \title{Early embryo differentiation in zebrafish}
 \author{Samuel Pastva}
@@ -239,33 +239,6 @@ The original study filtered the cells in two steps; the dataset includes the fir
 
 \paragraph{Outlier removal (not applied in GEO).} Before the trajectory reconstruction, the paper removed 618 cells forming a cluster dominated by an ``apoptotic-like'' expression program, which appears in cells of many different types and would therefore create artificial connections between unrelated cell types. It also removed 139 cells that were poorly connected in the nearest-neighbour graph. The paper's full-data visualization uses 39{,}488 cells, and $39{,}488 - 618 - 139 = 38{,}731$, which is the number of cells reported in the paper. The GEO matrix contains 17 cells more than 39{,}488, which the paper does not explain. The identities of the removed cells are not available in GEO. Finally, the per-stage cell counts in Table~S1 sum to 38{,}671, i.e., 60 fewer than 38{,}731, so the paper is not fully consistent here either.
 
-\begin{table}[t]
-	\centering
-	\small
-	\caption{Cell filtering per stage. Gene and UMI ranges are the per-stage thresholds of the original study (UMIs including mitochondrial RNA). Cells (GEO) is the number of cells in the GEO matrix; cells and embryos (Table~S1) are taken from the supplementary Table~S1.}
-	\label{tab:filtering}
-	\begin{tabular}{lrrrrr}
-		\toprule
-		Stage & Genes & UMIs & Cells (GEO) & Cells (Table~S1) & Embryos (Table~S1) \\
-		\midrule
-		high & 1{,}000--7{,}500 & 1{,}500--40{,}000 & 311 & 311 & 56 \\
-		oblong & 625--7{,}500 & 1{,}500--30{,}000 & 200 & 199 & 76 \\
-		dome & 800--3{,}800 & 2{,}000--20{,}000 & 1{,}174 & 1{,}147 & 28 \\
-		30\% epiboly & 625--3{,}000 & 1{,}000--17{,}500 & 1{,}506 & 1{,}454 & 59 \\
-		50\% epiboly & 600--4{,}000 & 1{,}500--25{,}000 & 5{,}864 & 5{,}695 & 91 \\
-		shield & 600--2{,}500 & 1{,}000--15{,}000 & 1{,}046 & 1{,}020 & 22 \\
-		60\% epiboly & 600--3{,}500 & 1{,}500--22{,}500 & 4{,}201 & 4{,}099 & 79 \\
-		75\% epiboly & 600--3{,}200 & 1{,}400--20{,}000 & 6{,}324 & 6{,}170 & 73 \\
-		90\% epiboly & 500--3{,}500 & 1{,}000--20{,}000 & 5{,}626 & 5{,}474 & 66 \\
-		bud & 500--3{,}200 & 1{,}000--17{,}500 & 7{,}162 & 7{,}112 & 85 \\
-		3-somite & 500--3{,}000 & 1{,}000--12{,}500 & 1{,}631 & 1{,}602 & 19 \\
-		6-somite & 500--3{,}000 & 1{,}000--12{,}500 & 4{,}460 & 4{,}388 & 40 \\
-		\midrule
-		total & & & 39{,}505 & 38{,}671 & 694 \\
-		\bottomrule
-	\end{tabular}
-\end{table}
-
 \subsection{Consequences for the analysis}
 
 \begin{itemize}
@@ -311,7 +284,7 @@ Its shape follows from the mechanism of the noise. Under the telegraph model of 
 
 The trend is fitted only to genes with at least 100 UMIs in the library. Below that, the estimate is dominated by chance: a gene with 10--30 UMIs in a library of 1{,}000 cells is detected in a few dozen cells, typically with one UMI each. For example, at shield, only 33\% of the genes with 10--15 UMIs have a positive estimate, compared with 88\% of the genes with 100--200 UMIs. For genes with fewer than 100 UMIs, $\varphi_t(m)$ is therefore a pure extrapolation. To check that the extrapolation does not depend on this choice, we refitted the trend to genes with at least 50 and 30 UMIs instead of 100: the typical value of the rarer genes changes by a median of at most 0.01 in $\log_{10}$ (at most 0.11, in the smallest library from dome on). At 20 UMIs, the fit breaks in some libraries, because the bins of such genes have medians at or below 0, i.e., the threshold must stay well above the point where most estimates are dominated by sampling.
 
-The genes with at least 100 UMIs are sorted by mean and divided into bins of 200 genes, and $\log_{10}\varphi_t$ is fitted by least squares to the medians of $\hat\varphi$ in the bins (6--35 bins per library). The medians make the fit insensitive to heterogeneous genes, which are a minority of every bin. In the 24 libraries from dome on, the trend describes the bin medians within 0.03 in $\log_{10}$ (root mean square), with very similar exponents $b = 0.72$--$0.85$ (median 0.77), i.e., slightly less steep than $1/m$, as expected if burst sizes grow somewhat with expression. The floor is small ($a_0 = 0$--$0.026$, median 0.008): over the observed range, the trend is mostly the power law, and it levels off only for the most expressed genes. There, it is slightly too high in the late libraries (median residual of the 100 most expressed, non-heterogeneous genes $-0.15$ to $-0.22$ at 3- and 6-somite, $-0.11$ to $+0.07$ elsewhere), which makes the test more conservative for these genes. In the four libraries of high and oblong (48--263 cells), only 6--20 bins are available and their medians are close to the noise of the estimate; the fitted curves are flat or erratic ($b = 0$--$0.66$), the typical value of rare genes is unreliable (supplementary figure), and which of their genes are selected depends mostly on the chance level and on high effect-size floors (see below).
+The genes with at least 100 UMIs are sorted by mean and divided into bins of 200 genes, and $\log_{10}\varphi_t$ is fitted by least squares to the medians of $\hat\varphi$ in the bins (6--35 bins per library). The medians make the fit insensitive to heterogeneous genes, which are a minority of every bin. In the 24 libraries from dome on, the trend describes the bin medians within 0.03 in $\log_{10}$ (root mean square), with very similar exponents $b = 0.72$--$0.85$ (median 0.77), i.e., slightly less steep than $1/m$, as expected if burst sizes grow somewhat with expression. The floor is small ($a_0 = 0$--$0.026$, median 0.008): over the observed range, the trend is mostly the power law, and it levels off only for the most expressed genes. There, it is slightly too high in the late libraries (median residual of the 100 most expressed, non-heterogeneous genes $-0.15$ to $-0.22$ at 3- and 6-somite, $-0.11$ to $+0.07$ elsewhere), which makes the test more conservative for these genes. In the four libraries of high and oblong (48--263 cells), only 6--20 bins are available and their medians are close to the noise of the estimate; the fitted curves are flat or erratic ($b = 0$--$0.66$), the typical value of rare genes is unreliable (Figure~\ref{fig:heterogeneity-libraries}), and which of their genes are selected depends mostly on the chance level and on high effect-size floors (see below).
 
 \paragraph{Relation to DESeq2 and other methods.} The model is the one used for bulk RNA-seq by DESeq2~\cite{love2014deseq2}: NB counts with variance $\mu + \alpha\mu^2$, size factors that play the role of $s_i$, and a dispersion $\alpha$ (our $\varphi$) that is assumed to depend smoothly on the mean, with the parametric trend $\alpha(\mu) = a_0 + a_1/\mu$ (ours has a free exponent). The two methods use the trend in opposite ways. DESeq2 has few samples per condition, so each gene's dispersion is very uncertain; the trend serves as a prior towards which the gene-wise estimates are shrunk, so that the \emph{means} of the conditions can be compared reliably. Deviations from the trend are treated as noise, except for ``dispersion outliers'' (genes far above the trend), which are not shrunk because they plausibly have extra variability. We have hundreds to thousands of cells per library, so the gene-wise estimates are precise for well-expressed genes, and the deviations from the trend are exactly what we look for: our heterogeneous genes are the dispersion outliers of a single library. In single-cell data, sctransform~\cite{hafemeister2019sctransform} also regularizes NB parameters as a smooth function of the mean, but uses them mainly to normalize cells; the variance of its residuals is used to rank genes, without a calibrated cutoff; and Brennecke et al.~\cite{brennecke2013noise} select genes whose CV$^2$ lies above a trend of the same form, $a_0 + a_1/\mu$, in which, unlike in our $\varphi$, the sampling noise is included.
 
@@ -328,24 +301,7 @@ A gene is heterogeneous in a library if its residual reaches the larger of the t
 
 \paragraph{What the tiers mean.} Table~\ref{tab:heterogeneity-tiers} summarizes the tiers and the two kinds of false positives. The sampling-noise false positives are counted in an independent, ninth simulation; the simulation cannot produce intrinsically noisy genes, because all its genes have the typical $\varphi$. The FDR, in turn, refers only to well-expressed genes, where the empirical null can be measured: only 17\% (median) of the weakly heterogeneous genes are well expressed, so the intrinsically noisy ones are at most approx.~9\% of the weak tier. Since the bulk of well-expressed genes also contains genes with mild, real differences between cells (e.g., gradients), its spread, and hence the FDR, is if anything overestimated. For rarer genes, intrinsic noise cannot be measured under the sampling noise; there, the chance level is already 4--13$\times$ typical, at or above two standard deviations of the intrinsic spread among well-expressed genes (approx.~$4\times$), so it also excludes most of them.
 
-\begin{table}[t]
-	\centering
-	\footnotesize
-	\caption{The three tiers of heterogeneous genes, in the libraries of more than 1{,}000 cells (from dome on for the floors). Floor: minimum residual (median over libraries, and as a factor of the typical $\varphi$); the cutoff of a gene is the larger of the floor and the chance level at its mean. Sampling noise: genes selected in an independent simulated library in which no gene is heterogeneous. Well-expressed: genes of the tier with at least 1{,}000 UMIs; intrinsic noise: the estimated share of them that are merely noisier than typical (FDR of the empirical null).}
-	\label{tab:heterogeneity-tiers}
-	\setlength{\tabcolsep}{4pt}
-	\begin{tabular}{lrrrrr}
-		\toprule
-		Tier & Floor & Genes / library & Sampling noise & Well-expressed & Intrinsic noise \\
-		\midrule
-		weak & 0.49 ($3.1\times$) & 421--1{,}277 & 3--15 (median 8) & 44--301 & $\leq 50\%$ \\
-		moderate & 0.78 ($6.0\times$) & 258--920 & 1--9 (median 5) & 20--183 & $\leq 10\%$ \\
-		strong & 1.06 ($11\times$) & 157--667 & 0--5 (median 2) & 11--122 & $\leq 1\%$ \\
-		\bottomrule
-	\end{tabular}
-\end{table}
-
-\paragraph{Defaults.} \textbf{Heterogeneous} without qualification means the weak tier. We use it by default, i.e., we accept that up to half of the well-expressed heterogeneous genes may be merely noisier than typical, in exchange for missing few real markers; the moderate and strong tiers are available where a smaller, more reliable set is needed. Rare genes are selected if their variation is large: at shield, \emph{sox17} (endoderm) has only 26 UMIs, but a residual of 1.20 ($16\times$ typical), and is moderately heterogeneous. A gene is in a tier \textbf{at a stage} if it is in that tier in at least half of the stage's libraries (Table~\ref{tab:heterogeneity}). The overdispersion, typical value and cutoffs of every library are shown in the supplementary figure \nolinkurl{results/figures/heterogeneity_libraries.pdf}.
+\paragraph{Defaults.} \textbf{Heterogeneous} without qualification means the weak tier. We use it by default, i.e., we accept that up to half of the well-expressed heterogeneous genes may be merely noisier than typical, in exchange for missing few real markers; the moderate and strong tiers are available where a smaller, more reliable set is needed. Rare genes are selected if their variation is large: at shield, \emph{sox17} (endoderm) has only 26 UMIs, but a residual of 1.20 ($16\times$ typical), and is moderately heterogeneous. A gene is in a tier \textbf{at a stage} if it is in that tier in at least half of the stage's libraries (Table~\ref{tab:heterogeneity}). The overdispersion, typical value and cutoffs of every library are shown in Figure~\ref{fig:heterogeneity-libraries}.
 
 \begin{figure}[t]
 	\centering
@@ -365,39 +321,9 @@ The original Seurat HVG method~\cite{satija2015seurat} (Seurat v1/v2, still the 
 	\item \textbf{Pooled libraries.} Selected on the pooled cells of a stage, a gene that differs between libraries (e.g., the heat shock genes of 50\% epiboly DS4$a$, Section~\ref{sec:replicates}) is ``variable'' even if it is uniform within each library. Our test runs within each library.
 \end{itemize}
 Conversely, 82--610 heterogeneous genes per stage (from dome on) are not among the HVGs, although they are well expressed (median 120--1{,}578 UMIs in the stage).
-Newer HVG methods fix the first two problems in part; we compare with them below.
+Newer HVG methods fix the first two problems in part; we compare with them in Section~\ref{sec:hvg-flavours}.
 
 \paragraph{Replication.} If a gene ranking reflects the cell types of a stage, it should be similar in two libraries of the same stage. Over all pairs of libraries of the same stage, the 1{,}000 genes with the highest residual overlap approx.~twice as much (Jaccard index 0.27--0.50 from 30\% epiboly on) as the 1{,}000 genes with the highest Seurat dispersion (0.14--0.29; Figure~\ref{fig:heterogeneity-checks}c). The same holds for the sets we actually use: the weakly heterogeneous genes of two libraries overlap 0.38--0.61, against 0.16--0.28 for as many top Seurat genes. At high and oblong, neither replicates (0.06--0.21).
-
-\paragraph{Newer HVG methods.} The test is a variant of an established idea: compare the variance of a gene with that of genes of similar mean under a count model, as do the technical-noise model of Brennecke et al.~\cite{brennecke2013noise}, the current Seurat default (``vst'': the variance of the counts standardized by a fitted mean--variance trend~\cite{stuart2019seurat}) and the analytic Pearson residuals~\cite{lause2021pearson} (the variance of NB Pearson residuals with one fixed dispersion). The comparisons above use the oldest method, so we repeat them for the two newer ones, each on the pooled cells of a stage, and also with the genes ranked within each library and then combined (the recommended use with several batches). As usual, these methods first drop genes detected in fewer than 3 cells; we also show the old method with this filter. Figure~\ref{fig:hvg-flavours} and Table~\ref{tab:hvg-flavours} summarize the stages from dome on (\nolinkurl{scripts/01d_hvg_flavours.py}):
-\begin{itemize}
-	\item \textbf{Most of the gap is the old method.} Of the ZFIN genes with a restricted pattern at a stage (as in Section~\ref{sec:heterogeneity-zfin}), the top $k$ genes of the old method contain 16--40\%, those of both newer methods 25--56\% and our ranking by the NB residual 29--59\% ($k$ = the number of heterogeneous genes of the stage). In replication, the top 1{,}000 genes of two libraries overlap 0.14--0.29 (old), 0.29--0.49 (vst), 0.24--0.46 (Pearson residuals) and 0.29--0.50 (NB residual; median pair per stage). The newer methods are close to our ranking: ours is ahead at most stages by at most 0.05, and behind at a few (e.g., Pearson residuals replicate better at bud). The filter of rare genes explains only a small part of the difference.
-	\item \textbf{Rare genes remain.} Even the newer methods put 380--790 genes with fewer than 10 UMIs in every library of the stage among their top 2{,}000 when selected on the pooled stage (ranked per library, fewer at some stages, e.g., 1 at bud for Pearson residuals); in the top $k$, still 90--330 (pooled) or 0--256 (per library). Our test does not rank such genes at all.
-	\item \textbf{The calibrated set is better than any ranking of the same size.} The heterogeneous genes contain 32--61\% of the restricted genes, 2--9 percentage points more than the best ranking at every stage, also at single-library stages (shield 35\% vs.\ 27--32\%, 3-somite 32\% vs.\ 25--29\%), where it cannot profit from replication. The cutoff that depends on the mean (the chance level of Section~\ref{sec:heterogeneity}) admits genes that a single ranking puts too low. And the calibration gives the number of genes (421--1{,}527 per stage), where an HVG method needs a fixed number such as 2{,}000.
-\end{itemize}
-We therefore keep the heterogeneous genes, but the advantage over modern HVG methods is moderate; most of what Table~\ref{tab:heterogeneity} shows is a weakness of the old method.
-
-\begin{figure}[t]
-	\centering
-	\includegraphics[width=\linewidth]{hvg_flavours.pdf}
-	\caption{Heterogeneous genes vs.\ newer HVG methods, from dome on. (a) Genes with fewer than 10 UMIs in every library of the stage among the top 2{,}000 genes of each method (selected on the pooled stage, or per library and combined; dashed). (b) Share of the ZFIN genes with a restricted pattern at the stage among the top $k$ genes, $k$ = the number of heterogeneous genes. (c) Overlap of the top 1{,}000 genes of two libraries of the same stage (median over pairs; stages with two or more libraries).}
-	\label{fig:hvg-flavours}
-\end{figure}
-
-\begin{table}[t]
-	\centering
-	\small
-	\caption{Heterogeneous genes vs.\ HVG methods, ranges over the stages from dome on. Top 2{,}000: genes also heterogeneous, and genes with fewer than 10 UMIs in every library. ZFIN, top $k$: share of the ZFIN genes with a restricted (Restr.) or whole-organism (Whole) pattern at the stage among the top $k$ genes ($k$ = number of heterogeneous genes). Jaccard: overlap of the top 1{,}000 genes of two libraries of a stage (median pair per stage, from 30\% epiboly on).}
-	\label{tab:hvg-flavours}
-	\input{tables/hvg_flavours.tex}
-\end{table}
-
-\begin{figure}[t]
-	\centering
-	\includegraphics[width=\linewidth]{heterogeneity_checks.pdf}
-	\caption{Heterogeneous genes per library. (a) With a fixed cutoff (residual at least 0.5), in the data (coloured by sequencing batch) and in a simulated library with the same depths and means in which no gene is heterogeneous (black, in front). (b) The same for the three tiers (light to full colour: weak, moderate, strong); the simulation is independent of the ones used for the calibration, and its weak-tier genes (at most 15, too few to be visible as bars) are given as numbers. (c) Overlap (Jaccard index) of the top 1{,}000 genes of two libraries of the same stage, ranked by Seurat's normalized dispersion or by the NB residual; one line per pair of libraries.}
-	\label{fig:heterogeneity-checks}
-\end{figure}
 
 \begin{table}[t]
 	\centering
@@ -445,6 +371,24 @@ The recall is highest during gastrulation (30\% epiboly: 61\%; 90\% epiboly: 57\
 	\input{tables/heterogeneity_zfin.tex}
 \end{table}
 
+\subsection{Comparison with newer HVG methods}
+\label{sec:hvg-flavours}
+
+The test is a variant of an established idea: compare the variance of a gene with that of genes of similar mean under a count model, as do the technical-noise model of Brennecke et al.~\cite{brennecke2013noise}, the current Seurat default (``vst'': the variance of the counts standardized by a fitted mean--variance trend~\cite{stuart2019seurat}) and the analytic Pearson residuals~\cite{lause2021pearson} (the variance of NB Pearson residuals with one fixed dispersion). The comparisons of the previous sections use the oldest method, so we repeat them for the two newer ones, each on the pooled cells of a stage, and also with the genes ranked within each library and then combined (the recommended use with several batches). As usual, these methods first drop genes detected in fewer than 3 cells; we also show the old method with this filter. Figure~\ref{fig:hvg-flavours} summarizes the stages from dome on (ranges in Table~\ref{tab:hvg-flavours}) (\nolinkurl{scripts/01d_hvg_flavours.py}):
+\begin{itemize}
+	\item \textbf{Most of the gap is the old method.} Of the ZFIN genes with a restricted pattern at a stage (Section~\ref{sec:heterogeneity-zfin}), the top $k$ genes of the old method contain 16--40\%, those of both newer methods 25--56\% and our ranking by the NB residual 29--59\% ($k$ = the number of heterogeneous genes of the stage). In replication, the top 1{,}000 genes of two libraries overlap 0.14--0.29 (old), 0.29--0.49 (vst), 0.24--0.46 (Pearson residuals) and 0.29--0.50 (NB residual; median pair per stage). The newer methods are close to our ranking: ours is ahead at most stages by at most 0.05, and behind at a few (e.g., Pearson residuals replicate better at bud). The filter of rare genes explains only a small part of the difference.
+	\item \textbf{Rare genes remain.} Even the newer methods put 380--790 genes with fewer than 10 UMIs in every library of the stage among their top 2{,}000 when selected on the pooled stage (ranked per library, fewer at some stages, e.g., 1 at bud for Pearson residuals); in the top $k$, still 90--330 (pooled) or 0--256 (per library). Our test does not rank such genes at all.
+	\item \textbf{The calibrated set is better than any ranking of the same size.} The heterogeneous genes contain 32--61\% of the restricted genes, 2--9 percentage points more than the best ranking at every stage, also at single-library stages (shield 35\% vs.\ 27--32\%, 3-somite 32\% vs.\ 25--29\%), where it cannot profit from replication. The cutoff that depends on the mean (the chance level of Section~\ref{sec:heterogeneity}) admits genes that a single ranking puts too low. And the calibration gives the number of genes (421--1{,}527 per stage), where an HVG method needs a fixed number such as 2{,}000.
+\end{itemize}
+We therefore keep the heterogeneous genes, but the advantage over modern HVG methods is moderate; most of what Table~\ref{tab:heterogeneity} shows is a weakness of the old method.
+
+\begin{figure}[t]
+	\centering
+	\includegraphics[width=\linewidth]{hvg_flavours.pdf}
+	\caption{Heterogeneous genes vs.\ newer HVG methods, from dome on. (a) Genes with fewer than 10 UMIs in every library of the stage among the top 2{,}000 genes of each method (selected on the pooled stage, or per library and combined; dashed). (b) Share of the ZFIN genes with a restricted pattern at the stage among the top $k$ genes, $k$ = the number of heterogeneous genes. (c) Overlap of the top 1{,}000 genes of two libraries of the same stage (median over pairs; stages with two or more libraries).}
+	\label{fig:hvg-flavours}
+\end{figure}
+
 \subsection{Consequences for the analysis}
 
 \begin{itemize}
@@ -481,7 +425,7 @@ Finally, we know that the libraries of a pair differ in sequencing depth (up to 
 
 \subsection{Results}
 
-The results are summarized in Figure~\ref{fig:replicate-mixing}. The full per-cell distributions of neighbourhood composition for all comparisons are in \nolinkurl{results/figures/replicate_mixing_hist.pdf}, the UMAPs of all six pairs in \nolinkurl{results/figures/replicate_mixing_umap_normalized.pdf} and \nolinkurl{..._thinned.pdf}, and all numbers in \nolinkurl{results/tables/replicate_mixing.tsv}.
+The results are summarized in Figure~\ref{fig:replicate-mixing}. The full per-cell distributions of neighbourhood composition for all comparisons are in Figure~\ref{fig:replicate-mixing-hist}, the UMAPs of all six pairs in Figure~\ref{fig:replicate-mixing-umap} (after thinning: \nolinkurl{results/figures/replicate_mixing_umap_thinned.pdf}), and all numbers in \nolinkurl{results/tables/replicate_mixing.tsv}.
 \begin{itemize}
 	\item \textbf{The pipeline itself does not separate the libraries.} The random splits are indistinguishable from the permutation null (AUC 0.46--0.54, rejection rate at most 4\%). AUCs slightly below 0.5 are not a systematic effect, but the noise of cross-validation, which goes in either direction.
 	\item \textbf{All six pairs are clearly distinguishable.} The classifier AUC is 0.87--1.00, while the highest AUC in the permutation null is 0.52--0.65. Between 12\% and 82\% of cells have a neighbourhood dominated by one library, compared to at most 4\% under the null.
@@ -526,15 +470,6 @@ We consider timing supported only if both indicators agree (Table~\ref{tab:repli
 	\input{tables/replicate_summary.tex}
 \end{table}
 
-\begin{table}[t]
-	\centering
-	\small
-	\caption{Selected genes supporting the explanations of the $a$/$b$ differences. Mean expression is in UMIs per 10{,}000 UMIs; the fold change is $b$ relative to $a$. Detection is the fraction of cells with at least one UMI, after thinning the deeper library to the median depth of the other.}
-	\label{tab:replicate-genes}
-	\setlength{\tabcolsep}{3.5pt}
-	\input{tables/replicate_genes.tex}
-\end{table}
-
 \section{Method: aligning libraries}
 \label{sec:alignment}
 
@@ -568,20 +503,6 @@ By \emph{alignment} we mean both steps together: per-library residuals, then cen
 \end{figure}
 
 \paragraph{Pictures.} Figure~\ref{fig:alignment-stages} shows the aligned libraries of every stage; the libraries overlap. Figure~\ref{fig:alignment-markers} shows, on the same coordinates, the marker-called populations of the cell type check in every library (the marker genes are not among the features, so the islands are not drawn by the markers themselves). Where a population is distinct, it forms the same island in every library of the stage: the EVL from dome to 50\% epiboly, the p53-like cells at 50\% epiboly, the endoderm from 50\% epiboly to bud, the PGCs at 75\% epiboly, the notochord from 75\% epiboly and the hatching gland from bud. Elsewhere, the called cells are partly scattered: part of the EVL at 30\% epiboly and shield, the p53-like cells after 60\% epiboly, and the PGCs at most stages (approx.~10 cells per library), which matches their lower transfer AUROC (Figure~\ref{fig:alignment-checks}d). Figure~\ref{fig:alignment-atlas} shows the whole atlas, aligned and unaligned. Unaligned, the atlas is ordered by stage (the DS5 libraries, which hold the earliest and the latest stages, sit at both ends). Aligned, the batches overlap (panel b), and the stages form a gradient rather than separate regions: centring removes the stage averages, so stages separate only where their cells differ, and adjacent stages partially overlap. The aligned atlas is therefore not a developmental time line, and its picture should not be read as one. The other side of the same effect is shown by the marker populations (panels c and f): aligned, each population forms one island across all the stages where it is called (e.g., the endoderm from 50\% epiboly to bud, the notochord from 75\% epiboly on, and a compact island of p53-like cells), while unaligned, the endoderm is split between early and late stages and the p53-like cells are scattered over the stage gradient. The aligned atlas groups cells by what they are rather than by when they were sampled.
-
-\begin{figure}[t]
-	\centering
-	\includegraphics[width=\linewidth]{alignment_stages.pdf}
-	\caption{UMAPs of the aligned libraries of every stage; colour: library (sequencing batch, $b$ for the second library of a batch).}
-	\label{fig:alignment-stages}
-\end{figure}
-
-\begin{figure}[t]
-	\centering
-	\includegraphics[width=\linewidth]{alignment_markers.pdf}
-	\caption{Marker-called populations (check 4) in every library from dome on, on the aligned UMAP of the stage (Figure~\ref{fig:alignment-stages}). Dark grey: the cells of the library; light grey: the other libraries of the stage. A population is shown only at the stages where its markers are unambiguous; the marker genes are excluded from the features.}
-	\label{fig:alignment-markers}
-\end{figure}
 
 \begin{figure}[t]
 	\centering
@@ -734,7 +655,7 @@ Clustering a single library always yields clusters, whether or not the cells for
 
 \paragraph{Controls.} Arbitrary clusters of the same number, built around random cells (so compact, but meaningless), and matched in the same way, give 19--31\% as many populations as the real clusters (per resolution, summed over stages; most at resolution 4). With another random seed, 95--97\% of the robust populations are found again (Jaccard $\geq$ 0.5), but only 56\% of the populations found at a single resolution.
 
-\paragraph{Result.} We find 131 robust populations: none at high and oblong, 3--6 from dome to 50\% epiboly, 11--17 from shield to 90\% epiboly, 25 at bud, 23 at 3-somite and 17 at 6-somite. Their top genes name known populations without any marker list: e.g., the EVL (dome to shield, and 3- and 6-somite), the p53-like cells, the dorsal organizer, which becomes the prechordal plate (\emph{gsc}, \emph{frzb}) and then the hatching gland (\emph{he1a}, \emph{ctslb}), the notochord (\emph{noto}, \emph{twist2}, \emph{ntd5}), the endoderm (\emph{sox32}, \emph{sox17}), the tailbud and presomitic mesoderm, primordial germ cells (75\% epiboly), and, by 3-somite, the eye field, the midbrain--hindbrain boundary, hindbrain rhombomeres, the neural crest, placodes, somites, adaxial and early muscle cells, primary neurons and blood/endothelial progenitors. From shield on, 47--94\% of the cells (median library) belong to a robust population; from dome to 50\% epiboly, only 13--28\% (none at high and oblong). Populations of consecutive stages are linked when each picks out the other in a joint analysis of the two stages (AUROC $\geq$ 0.9), e.g., the endoderm from 50\% epiboly to 6-somite (\nolinkurl{results/figures/replicated_populations_tracks.pdf}); since the alignment blurs stages approx.~1\,h apart, a link means ``most similar population of the next stage'' rather than proof of descent.
+\paragraph{Result.} We find 131 robust populations: none at high and oblong, 3--6 from dome to 50\% epiboly, 11--17 from shield to 90\% epiboly, 25 at bud, 23 at 3-somite and 17 at 6-somite. Their top genes name known populations without any marker list: e.g., the EVL (dome to shield, and 3- and 6-somite), the p53-like cells, the dorsal organizer, which becomes the prechordal plate (\emph{gsc}, \emph{frzb}) and then the hatching gland (\emph{he1a}, \emph{ctslb}), the notochord (\emph{noto}, \emph{twist2}, \emph{ntd5}), the endoderm (\emph{sox32}, \emph{sox17}), the tailbud and presomitic mesoderm, primordial germ cells (75\% epiboly), and, by 3-somite, the eye field, the midbrain--hindbrain boundary, hindbrain rhombomeres, the neural crest, placodes, somites, adaxial and early muscle cells, primary neurons and blood/endothelial progenitors. From shield on, 47--94\% of the cells (median library) belong to a robust population; from dome to 50\% epiboly, only 13--28\% (none at high and oblong). Populations of consecutive stages are linked when each picks out the other in a joint analysis of the two stages (AUROC $\geq$ 0.9), e.g., the endoderm from 50\% epiboly to 6-somite (Figure~\ref{fig:population-tracks}); since the alignment blurs stages approx.~1\,h apart, a link means ``most similar population of the next stage'' rather than proof of descent.
 
 \subsection{Populations from programs}
 
@@ -755,14 +676,6 @@ Clustering a single library always yields clusters, whether or not the cells for
 	\label{fig:program-populations}
 \end{figure}
 
-\begin{table}[t]
-	\centering
-	\small
-	\input{tables/missing_programs.tex}
-	\caption{Robust gene-based populations that no curated program names: candidates for missing programs.}
-	\label{tab:missing-programs}
-\end{table}
-
 \subsection{Conclusions}
 
 \begin{itemize}
@@ -776,5 +689,134 @@ Clustering a single library always yields clusters, whether or not the cells for
 \clearpage
 \bibliographystyle{plain}
 \bibliography{references}
+
+\clearpage
+\appendix
+\section{Supplementary figures and tables}
+\label{sec:supplementary}
+\setcounter{figure}{0}
+\setcounter{table}{0}
+\renewcommand{\thefigure}{S\arabic{figure}}
+\renewcommand{\thetable}{S\arabic{table}}
+
+\begin{table}[htbp]
+	\centering
+	\small
+	\caption{Cell filtering per stage. Gene and UMI ranges are the per-stage thresholds of the original study (UMIs including mitochondrial RNA). Cells (GEO) is the number of cells in the GEO matrix; cells and embryos (Table~S1) are taken from the supplementary Table~S1.}
+	\label{tab:filtering}
+	\begin{tabular}{lrrrrr}
+		\toprule
+		Stage & Genes & UMIs & Cells (GEO) & Cells (Table~S1) & Embryos (Table~S1) \\
+		\midrule
+		high & 1{,}000--7{,}500 & 1{,}500--40{,}000 & 311 & 311 & 56 \\
+		oblong & 625--7{,}500 & 1{,}500--30{,}000 & 200 & 199 & 76 \\
+		dome & 800--3{,}800 & 2{,}000--20{,}000 & 1{,}174 & 1{,}147 & 28 \\
+		30\% epiboly & 625--3{,}000 & 1{,}000--17{,}500 & 1{,}506 & 1{,}454 & 59 \\
+		50\% epiboly & 600--4{,}000 & 1{,}500--25{,}000 & 5{,}864 & 5{,}695 & 91 \\
+		shield & 600--2{,}500 & 1{,}000--15{,}000 & 1{,}046 & 1{,}020 & 22 \\
+		60\% epiboly & 600--3{,}500 & 1{,}500--22{,}500 & 4{,}201 & 4{,}099 & 79 \\
+		75\% epiboly & 600--3{,}200 & 1{,}400--20{,}000 & 6{,}324 & 6{,}170 & 73 \\
+		90\% epiboly & 500--3{,}500 & 1{,}000--20{,}000 & 5{,}626 & 5{,}474 & 66 \\
+		bud & 500--3{,}200 & 1{,}000--17{,}500 & 7{,}162 & 7{,}112 & 85 \\
+		3-somite & 500--3{,}000 & 1{,}000--12{,}500 & 1{,}631 & 1{,}602 & 19 \\
+		6-somite & 500--3{,}000 & 1{,}000--12{,}500 & 4{,}460 & 4{,}388 & 40 \\
+		\midrule
+		total & & & 39{,}505 & 38{,}671 & 694 \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{heterogeneity_libraries.pdf}
+	\caption{Overdispersion against the mean in every library, as in Figure~\ref{fig:heterogeneity-model}a: estimates, the fitted typical value (blue where extrapolated) and the cutoffs of the three tiers (\nolinkurl{scripts/01b_heterogeneous_genes.py}).}
+	\label{fig:heterogeneity-libraries}
+\end{figure}
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=\linewidth]{heterogeneity_checks.pdf}
+	\caption{Heterogeneous genes per library. (a) With a fixed cutoff (residual at least 0.5), in the data (coloured by sequencing batch) and in a simulated library with the same depths and means in which no gene is heterogeneous (black, in front). (b) The same for the three tiers (light to full colour: weak, moderate, strong); the simulation is independent of the ones used for the calibration, and its weak-tier genes (at most 15, too few to be visible as bars) are given as numbers. (c) Overlap (Jaccard index) of the top 1{,}000 genes of two libraries of the same stage, ranked by Seurat's normalized dispersion or by the NB residual; one line per pair of libraries.}
+	\label{fig:heterogeneity-checks}
+\end{figure}
+
+\begin{table}[htbp]
+	\centering
+	\footnotesize
+	\caption{The three tiers of heterogeneous genes, in the libraries of more than 1{,}000 cells (from dome on for the floors). Floor: minimum residual (median over libraries, and as a factor of the typical $\varphi$); the cutoff of a gene is the larger of the floor and the chance level at its mean. Sampling noise: genes selected in an independent simulated library in which no gene is heterogeneous. Well-expressed: genes of the tier with at least 1{,}000 UMIs; intrinsic noise: the estimated share of them that are merely noisier than typical (FDR of the empirical null).}
+	\label{tab:heterogeneity-tiers}
+	\setlength{\tabcolsep}{4pt}
+	\begin{tabular}{lrrrrr}
+		\toprule
+		Tier & Floor & Genes / library & Sampling noise & Well-expressed & Intrinsic noise \\
+		\midrule
+		weak & 0.49 ($3.1\times$) & 421--1{,}277 & 3--15 (median 8) & 44--301 & $\leq 50\%$ \\
+		moderate & 0.78 ($6.0\times$) & 258--920 & 1--9 (median 5) & 20--183 & $\leq 10\%$ \\
+		strong & 1.06 ($11\times$) & 157--667 & 0--5 (median 2) & 11--122 & $\leq 1\%$ \\
+		\bottomrule
+	\end{tabular}
+\end{table}
+
+\begin{table}[htbp]
+	\centering
+	\small
+	\caption{Heterogeneous genes vs.\ HVG methods, ranges over the stages from dome on. Top 2{,}000: genes also heterogeneous, and genes with fewer than 10 UMIs in every library. ZFIN, top $k$: share of the ZFIN genes with a restricted (Restr.) or whole-organism (Whole) pattern at the stage among the top $k$ genes ($k$ = number of heterogeneous genes). Jaccard: overlap of the top 1{,}000 genes of two libraries of a stage (median pair per stage, from 30\% epiboly on).}
+	\label{tab:hvg-flavours}
+	\input{tables/hvg_flavours.tex}
+\end{table}
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{replicate_mixing_hist.pdf}
+	\caption{Mixing of the $a$/$b$ libraries: per-cell distributions of the neighbourhood composition for every comparison of Figure~\ref{fig:replicate-mixing} (\nolinkurl{scripts/02_replicate_mixing.py}).}
+	\label{fig:replicate-mixing-hist}
+\end{figure}
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=\linewidth,height=0.85\textheight,keepaspectratio]{replicate_mixing_umap_normalized.pdf}
+	\caption{UMAPs of the six $a$/$b$ pairs (library-size normalization only), coloured by library (\nolinkurl{scripts/02_replicate_mixing.py}).}
+	\label{fig:replicate-mixing-umap}
+\end{figure}
+
+\begin{table}[htbp]
+	\centering
+	\small
+	\caption{Selected genes supporting the explanations of the $a$/$b$ differences. Mean expression is in UMIs per 10{,}000 UMIs; the fold change is $b$ relative to $a$. Detection is the fraction of cells with at least one UMI, after thinning the deeper library to the median depth of the other.}
+	\label{tab:replicate-genes}
+	\setlength{\tabcolsep}{3.5pt}
+	\input{tables/replicate_genes.tex}
+\end{table}
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=\linewidth]{alignment_stages.pdf}
+	\caption{UMAPs of the aligned libraries of every stage; colour: library (sequencing batch, $b$ for the second library of a batch).}
+	\label{fig:alignment-stages}
+\end{figure}
+
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=\linewidth]{alignment_markers.pdf}
+	\caption{Marker-called populations (check 4) in every library from dome on, on the aligned UMAP of the stage (Figure~\ref{fig:alignment-stages}). Dark grey: the cells of the library; light grey: the other libraries of the stage. A population is shown only at the stages where its markers are unambiguous; the marker genes are excluded from the features.}
+	\label{fig:alignment-markers}
+\end{figure}
+
+\begin{table}[htbp]
+	\centering
+	\small
+	\input{tables/missing_programs.tex}
+	\caption{Robust gene-based populations that no curated program names: candidates for missing programs.}
+	\label{tab:missing-programs}
+\end{table}
+
+\begin{landscape}
+\begin{figure}[p]
+	\centering
+	\includegraphics[width=\linewidth,height=0.9\textheight,keepaspectratio]{replicated_populations_tracks.pdf}
+	\caption{Robust gene-based populations (labelled by their top two genes) linked across consecutive stages into tracks; node area: share of the stage's cells (\nolinkurl{scripts/14_replicated_populations.py}).}
+	\label{fig:population-tracks}
+\end{figure}
+\end{landscape}
 
 \end{document}
