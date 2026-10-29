@@ -1,0 +1,148 @@
+set	stage	program	gene	weight	pubs	tier	rank	kept
+curated	dome	EVL	SZL		1.0	2.7	29	True
+curated	30% epiboly	EVL	SZL		1.0	2.7	29	True
+curated	50% epiboly	EVL	SZL		1.0	2.7	29	True
+curated	shield	EVL	SZL		1.0	2.7	29	True
+curated	60% epiboly	EVL	SZL		1.0	2.7	29	True
+curated	75% epiboly	EVL	SZL		1.0	2.7	29	True
+curated	90% epiboly	EVL	SZL		1.0	2.7	29	True
+curated	bud	EVL	SZL		1.0	2.7	29	True
+curated	3-somite	EVL	SZL		1.0	2.7	29	True
+curated	6-somite	EVL	SZL		1.0	2.7	29	True
+curated	dome	margin	LFT2		6.0	3.0	2	True
+curated	dome	margin	VED		2.0	3.0	4	True
+curated	dome	margin	LFT1		16.0	2.875	6	True
+curated	dome	margin	VOX		5.0	2.125	18	True
+curated	30% epiboly	margin	LFT2		6.0	3.0	2	True
+curated	30% epiboly	margin	VED		2.0	3.0	4	True
+curated	30% epiboly	margin	LFT1		16.0	2.875	6	True
+curated	30% epiboly	margin	VOX		5.0	2.125	18	True
+curated	30% epiboly	margin	SP5L		4.0	1.875	29	True
+curated	50% epiboly	margin	LFT2		6.0	3.0	2	True
+curated	50% epiboly	margin	VED		2.0	3.0	4	True
+curated	50% epiboly	margin	LFT1		16.0	2.875	6	True
+curated	50% epiboly	margin	VOX		5.0	2.125	18	True
+curated	50% epiboly	margin	DHRS3B		1.0	2.0	25	True
+curated	50% epiboly	margin	SP5L		4.0	1.875	29	True
+curated	shield	margin	LFT2		6.0	3.0	2	True
+curated	shield	margin	VED		2.0	3.0	4	True
+curated	shield	margin	LFT1		16.0	2.875	6	True
+curated	shield	margin	VOX		5.0	2.125	18	True
+curated	shield	margin	DHRS3B		1.0	2.0	25	True
+curated	shield	margin	SP5L		4.0	1.875	29	True
+curated	60% epiboly	margin	LFT2		6.0	3.0	2	True
+curated	60% epiboly	margin	VED		2.0	3.0	4	True
+curated	60% epiboly	margin	LFT1		16.0	2.875	6	True
+curated	60% epiboly	margin	VOX		5.0	2.125	18	True
+curated	60% epiboly	margin	DHRS3B		1.0	2.0	25	True
+curated	60% epiboly	margin	SP5L		4.0	1.875	29	True
+curated	75% epiboly	margin	LFT2		6.0	3.0	2	True
+curated	75% epiboly	margin	VED		2.0	3.0	4	True
+curated	75% epiboly	margin	LFT1		16.0	2.875	6	True
+curated	75% epiboly	margin	VOX		5.0	2.125	18	True
+curated	75% epiboly	margin	DHRS3B		1.0	2.0	25	True
+curated	75% epiboly	margin	SP5L		4.0	1.875	29	True
+curated	90% epiboly	margin	LFT2		6.0	3.0	2	True
+curated	90% epiboly	margin	VED		2.0	3.0	4	True
+curated	90% epiboly	margin	LFT1		16.0	2.875	6	True
+curated	90% epiboly	margin	VOX		5.0	2.125	18	True
+curated	90% epiboly	margin	DHRS3B		1.0	2.0	25	True
+curated	90% epiboly	margin	SP5L		4.0	1.875	29	True
+curated	bud	margin	LFT2		6.0	3.0	2	True
+curated	bud	margin	VED		2.0	3.0	4	True
+curated	bud	margin	LFT1		16.0	2.875	6	True
+curated	bud	margin	VOX		5.0	2.125	18	True
+curated	bud	margin	DHRS3B		1.0	2.0	25	True
+curated	bud	margin	SP5L		4.0	1.875	29	True
+curated	30% epiboly	dorsal_organizer	ID3		1.0	2.75	11	True
+curated	30% epiboly	dorsal_organizer	ID1		2.0	2.0	20	True
+curated	30% epiboly	dorsal_organizer	BAMBIA		1.0	1.5	21	True
+curated	50% epiboly	dorsal_organizer	ID3		1.0	2.75	11	True
+curated	50% epiboly	dorsal_organizer	ID1		2.0	2.0	20	True
+curated	50% epiboly	dorsal_organizer	BAMBIA		1.0	1.5	21	True
+curated	shield	dorsal_organizer	ID3		1.0	2.75	11	True
+curated	shield	dorsal_organizer	ID1		2.0	2.0	20	True
+curated	shield	dorsal_organizer	BAMBIA		1.0	1.5	21	True
+curated	60% epiboly	dorsal_organizer	ID3		1.0	2.75	11	True
+curated	60% epiboly	dorsal_organizer	ID1		2.0	2.0	20	True
+curated	60% epiboly	dorsal_organizer	BAMBIA		1.0	1.5	21	True
+curated	30% epiboly	mesoderm	SZL		1.0	2.778	1	True
+curated	50% epiboly	mesoderm	SZL		1.0	2.778	1	True
+curated	shield	mesoderm	SZL		1.0	2.778	1	True
+curated	60% epiboly	mesoderm	SZL		1.0	2.778	1	True
+curated	75% epiboly	mesoderm	SZL		1.0	2.778	1	True
+curated	75% epiboly	mesoderm	HEY1		1.0	1.444	7	True
+curated	75% epiboly	mesoderm	NRARPA		1.0	0.4444	23	True
+curated	90% epiboly	mesoderm	SZL		1.0	2.778	1	True
+curated	90% epiboly	mesoderm	HEY1		1.0	1.444	7	True
+curated	90% epiboly	mesoderm	NRARPA		1.0	0.4444	23	True
+curated	bud	mesoderm	SZL		1.0	2.778	1	True
+curated	bud	mesoderm	HEY1		1.0	1.444	7	True
+curated	bud	mesoderm	NRARPA		1.0	0.4444	23	True
+curated	3-somite	mesoderm	SZL		1.0	2.778	1	True
+curated	3-somite	mesoderm	HEY1		1.0	1.444	7	True
+curated	3-somite	mesoderm	NRARPA		1.0	0.4444	23	True
+curated	6-somite	mesoderm	SZL		1.0	2.778	1	True
+curated	6-somite	mesoderm	HEY1		1.0	1.444	7	True
+curated	6-somite	mesoderm	NRARPA		1.0	0.4444	23	True
+curated	50% epiboly	neural_plate	MSX1B		5.0	2.625	3	True
+curated	50% epiboly	neural_plate	SP5A		1.0	1.5	26	True
+curated	shield	neural_plate	MSX1B		5.0	2.625	3	True
+curated	shield	neural_plate	SP5A		1.0	1.5	26	True
+curated	60% epiboly	neural_plate	MSX1B		5.0	2.625	3	True
+curated	60% epiboly	neural_plate	SP5A		1.0	1.5	26	True
+curated	75% epiboly	neural_plate	MSX1B		5.0	2.625	3	True
+curated	75% epiboly	neural_plate	SP5A		1.0	1.5	26	True
+curated	90% epiboly	neural_plate	MSX1B		5.0	2.625	3	True
+curated	90% epiboly	neural_plate	SP5A		1.0	1.5	26	True
+curated	bud	neural_plate	MSX1B		5.0	2.625	3	True
+curated	bud	neural_plate	SP5A		1.0	1.5	26	True
+curated	3-somite	neural_plate	MSX1B		5.0	2.625	3	True
+curated	3-somite	neural_plate	SP5A		1.0	1.5	26	True
+curated	6-somite	neural_plate	MSX1B		5.0	2.625	3	True
+curated	6-somite	neural_plate	SP5A		1.0	1.5	26	True
+curated	50% epiboly	prechordal_plate	ID3		2.0	3.0	1	True
+curated	shield	prechordal_plate	ID3		2.0	3.0	1	True
+curated	60% epiboly	prechordal_plate	ID3		2.0	3.0	1	True
+curated	75% epiboly	prechordal_plate	ID3		2.0	3.0	1	True
+curated	90% epiboly	prechordal_plate	ID3		2.0	3.0	1	True
+curated	bud	prechordal_plate	ID3		2.0	3.0	1	True
+curated	3-somite	prechordal_plate	ID3		2.0	3.0	1	True
+curated	6-somite	prechordal_plate	ID3		2.0	3.0	1	True
+curated	50% epiboly	ventral_bmp	DHRS3B		1.0	2.5	1	True
+curated	shield	ventral_bmp	DHRS3B		1.0	2.5	1	True
+curated	60% epiboly	ventral_bmp	DHRS3B		1.0	2.5	1	True
+curated	75% epiboly	ventral_bmp	DHRS3B		1.0	2.5	1	True
+curated	90% epiboly	ventral_bmp	DHRS3B		1.0	2.5	1	True
+curated	bud	ventral_bmp	DHRS3B		1.0	2.5	1	True
+curated	3-somite	ventral_bmp	DHRS3B		1.0	2.5	1	True
+curated	6-somite	ventral_bmp	DHRS3B		1.0	2.5	1	True
+curated	75% epiboly	placodes	SP5A		1.0	1.0	15	True
+curated	90% epiboly	placodes	SP5A		1.0	1.0	15	True
+curated	bud	placodes	SP5A		1.0	1.0	15	True
+curated	3-somite	placodes	SP5A		1.0	1.0	15	True
+curated	6-somite	placodes	SP5A		1.0	1.0	15	True
+curated	bud	adaxial_somite	VED		1.0	3.0	17	True
+curated	3-somite	adaxial_somite	VED		1.0	3.0	17	True
+curated	6-somite	adaxial_somite	VED		1.0	3.0	17	True
+curated	bud	hatching_gland	ID3		2.0	3.0	7	True
+curated	bud	hatching_gland	BAMBIA		2.0	2.333	20	True
+curated	3-somite	hatching_gland	ID3		2.0	3.0	7	True
+curated	3-somite	hatching_gland	BAMBIA		2.0	2.333	20	True
+curated	6-somite	hatching_gland	ID3		2.0	3.0	7	True
+curated	6-somite	hatching_gland	BAMBIA		2.0	2.333	20	True
+curated	bud	lateral_plate	DHRS3A		3.0	2.0	12	True
+curated	3-somite	lateral_plate	DHRS3A		3.0	2.0	12	True
+curated	6-somite	lateral_plate	DHRS3A		3.0	2.0	12	True
+curated	bud	tailbud	VOX		2.0	3.0	2	True
+curated	bud	tailbud	SZL		1.0	3.0	4	True
+curated	bud	tailbud	VENT		1.0	1.0	23	True
+curated	3-somite	tailbud	VOX		2.0	3.0	2	True
+curated	3-somite	tailbud	SZL		1.0	3.0	4	True
+curated	3-somite	tailbud	VENT		1.0	1.0	23	True
+curated	6-somite	tailbud	VOX		2.0	3.0	2	True
+curated	6-somite	tailbud	SZL		1.0	3.0	4	True
+curated	6-somite	tailbud	VENT		1.0	1.0	23	True
+curated	3-somite	floor_plate	LFT2		2.0	1.0	5	True
+curated	3-somite	neural_crest	VED		1.0	3.0	4	True
+curated	6-somite	neural_crest	VED		1.0	3.0	4	True

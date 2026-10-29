@@ -1,0 +1,45 @@
+pathway	gene	role	evidence
+BMP	ID1	target	BMP-responsive Id gene; ventral expression in the gastrula
+BMP	ID3	target	BMP-responsive Id gene
+BMP	BAMBIA	feedback	BMP pseudo-receptor induced by BMP; ventral gastrula
+BMP	SZL	feedback	sizzled; secreted BMP feedback inhibitor induced by BMP; ventral
+BMP	MSX1B	target	msxB; ventral/ventrolateral BMP target
+BMP	SMAD6A	feedback	inhibitory Smad induced by BMP
+BMP	SMAD6B	feedback	inhibitory Smad induced by BMP
+BMP	VED	target	ventral homeobox (vent family); BMP and Wnt8 target
+BMP	VOX	target	ventral homeobox (vent family); BMP and Wnt8 target
+BMP	VENT	target	ventral homeobox (vent family); BMP and Wnt8 target
+Nodal	LFT1	feedback	lefty1; Nodal-induced feedback inhibitor (margin, then midline)
+Nodal	LFT2	feedback	lefty2; Nodal-induced feedback inhibitor (margin, then left LPM)
+Nodal	NDR1	autoregulation	squint; Nodal ligand, auto-induced at the margin
+Nodal	NDR2	autoregulation	cyclops; Nodal ligand, auto-induced at the margin
+Wnt	SP5L	target	sp5-like; direct Wnt/beta-catenin target (margin, tailbud)
+Wnt	SP5A	target	sp5a; Wnt/beta-catenin target
+Wnt	AXIN2	feedback	axin2; generic Wnt/beta-catenin feedback target
+Wnt	NKD1	feedback	naked cuticle 1; Wnt feedback target
+Wnt	NOTUM1A	feedback	notum; secreted Wnt feedback inhibitor
+Wnt	LEF1	target	lef1; Wnt-induced at the margin and tailbud (also an identity marker)
+FGF	SPRY2	feedback	sprouty2; FGF feedback inhibitor
+FGF	SPRY4	feedback	sprouty4; FGF feedback inhibitor (margin, MHB, tailbud)
+FGF	SPRY1	feedback	sprouty1; FGF feedback inhibitor
+FGF	DUSP6	feedback	mkp3; FGF/ERK-induced phosphatase
+FGF	ETV4	target	pea3; ETS factor induced by FGF/ERK
+FGF	ETV5B	target	erm; ETS factor induced by FGF/ERK
+FGF	IL17RD	feedback	sef; FGF feedback inhibitor
+RA	CYP26A1	feedback	RA-degrading enzyme induced by RA
+RA	DHRS3A	feedback	RA-induced retinaldehyde reductase
+RA	DHRS3B	feedback	RA-induced retinaldehyde reductase
+Notch	HER4.1	target	her4 (Hes); direct Notch target in the neural plate
+Notch	HER4.2	target	her4 (Hes); direct Notch target
+Notch	HER4.3	target	her4 (Hes); direct Notch target
+Notch	HER4.4	target	her4 (Hes); direct Notch target
+Notch	HER15.1	target	her15 (Hes); Notch target
+Notch	HER15.2	target	her15 (Hes); Notch target
+Notch	HER12	target	her12 (Hes); Notch target in the neural plate
+Notch	NRARPA	feedback	nrarp; Notch-induced feedback regulator
+Notch	NRARPB	feedback	nrarp; Notch-induced feedback regulator
+Notch	HEY1	target	Hes-related Notch target
+Hedgehog	PTCH1	feedback	patched; Hh receptor induced by Hh (from ~bud, near the midline)
+Hedgehog	PTCH2	feedback	patched; Hh receptor induced by Hh
+Hedgehog	GLI1	target	gli1; Hh-induced transcription factor
+Hedgehog	HHIP	feedback	Hh-interacting protein; induced by Hh

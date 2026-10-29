@@ -1,0 +1,132 @@
+stage	gene_population	cells	top_genes	zfin	best_program_population	jaccard	captured	named_by	status
+dome	c1	99	chd,gsc,xbp1,rasgef1ba,fscn1a,foxa,foxa3,admp		c8	0.075	False	margin	named, not separated
+dome	c2	98	ta,wnt11,mixl1,ved,osr1,lft1,eve1,fgf8a		c9	0.233	False	margin	named, not separated
+dome	c4	55	lye,krt18,tagln2,sult6b1,cabz01059415.2,alox5b.3,mid1ip1a,stard14		c3	0.1064	False	EVL	named, not separated
+dome	c6	39	krt18,mid1ip1a,krt4,krt8,cldne,lye,zgc:193505,stard14		c3	0.7959	True	EVL	captured
+dome	c7	39	zgc:110425,zgc:153405,si:ch211-113a14.12,si:ch211-113a14.18,si:dkey-108k21.10,si:dkey-261m9.12,si:ch211-113a14.24,stm		c1	0.1064	False		unnamed
+30% epiboly	c1	109	chd,noto,admp,foxd3,xbp1,gsc,fscn1a,rasgef1ba		c3	0.07512	False	dorsal_organizer;margin	named, not separated
+30% epiboly	c4	35	sesn3,si:ch211-260e23.9,mdm2,bcl2l14,phlda3,foxo3b,si:ch211-239d6.2,igf2a		c3	0.05442	False	state:p53_response	named, not separated
+30% epiboly	c5	32	krt18,krt4,krt8,mid1ip1a,cldne,lye,zgc:193505,stard14	EVL (6/6)	c11	0.9688	True	EVL	captured
+50% epiboly	c1	425	ta,wnt11,eve1,cdx4,tbx16,hes6,mixl1,ved	margin (14/17)	c17	0.09091	False	margin	named, not separated
+50% epiboly	c2	313	mixl1,fscn1a,msgn1,mespab,dkk1b,apoc1,ta,snai1a	margin (10/13)	c15	0.3492	True	margin;presomitic_mesoderm	captured
+50% epiboly	c5	169	gsc,chd,xbp1,nog1,foxa,fscn1a,ripply1,frzb		c4	0.7406	True	dorsal_organizer;margin	captured
+50% epiboly	c6	165	lye,krt4,krt18,krt8,cldne,krt5,pfn1,sult6b1	EVL (13/13); periderm (10/13)	c19	0.4727	True	EVL	captured
+50% epiboly	c9	123	sesn3,si:ch211-260e23.9,phlda3,mdm2,bcl2l14,cdkn1a,foxo3b,isg15		c16	0.8862	True	state:p53_response	captured
+50% epiboly	c11	86	lye,krt18,tagln2,krt4,sult6b1,krt8,pfn1,zgc:101000	EVL (13/15); periderm (11/15)		0	False	EVL	named, not separated
+shield	c0	214	cdx4,ta,eve1,ved,hes6,tbx16,wnt11,rasgef1ba	margin (14/16)	c13	0.1495	False	margin	named, not separated
+shield	c1	193	her3,aldob,hesx1,hspb1,zic3,si:ch211-152c2.3,foxd3,admp	neural plate (9/16)	c1	0.4298	True	neural_plate;dorsal_organizer	captured
+shield	c2	144	ved,apoeb,id1,foxi1,apoc1,gata2a,bambia,rgcc	epiblast (8/12); presumptive ectoderm (8/12)	c7	0.375	True	signal:BMP;dorsal_organizer	captured
+shield	c3	126	msgn1,fscn1a,tbx16,snai1a,mespaa,mespab,aplnra,efnb2b	margin (15/17)	c3	0.7015	True	margin;presomitic_mesoderm	captured
+shield	c5	54	fosab,atf3,junba,cu019646.2,jun,id1,klf2b,nnr		c5	0.05426	False	dorsal_organizer	named, not separated
+shield	c7	51	foxd3,admp,tdgf1,hspb1,foxb1a,noto,cxcr4a,cxcr4b		c1	0.1829	False	dorsal_organizer	named, not separated
+shield	c8	48	xbp1,chd,gsc,noto,nog1,frzb,foxa,ripply1	shield (14/19)	c9	0.8367	True	dorsal_organizer;margin	captured
+shield	c9	47	her3,zic3,admp,asb11,lratb,hesx1,aldob,foxb1a	neural plate (9/15)	c1	0.131	False	neural_plate	named, not separated
+shield	c10	35	si:ch211-113a14.18,zgc:153405,si:dkey-108k21.10,zgc:110425,si:ch211-113a14.24,si:dkey-261m9.12,si:ch211-113a14.12,si:dkey-108k21.23		c5	0.08333	False		unnamed
+shield	c11	27	sox32,cxcr4a,rnd1l,fscn1a,gata5,id3,snai1a,sox17	endoderm (6/17)	c22	0.2051	False	endoderm;margin	named, not separated
+shield	c14	20	lye,krt18,krt4,krt8,zgc:101000,krt5,pfn1,cldne	EVL (12/12); periderm (10/12)	c28	0.7	True	EVL	captured
+shield	c16	14	si:ch211-260e23.9,sesn3,bcl2l14,gadd45aa,mat2al,zgc:64022,zgc:171699,si:ch211-193l2.5	neural plate (5/8)	c5	0.03226	False		unnamed
+60% epiboly	c1	757	msgn1,tbx16,mespab,cxcl12a,fscn1a,snai1a,aldh1a2,aplnra	margin (12/14)	c0	0.5038	True	margin;presomitic_mesoderm	captured
+60% epiboly	c6	251	her3,tdgf1,foxb1a,foxd3,admp,foxd5,noto,si:ch211-152c2.3		c13	0.01266	False	dorsal_organizer;neural_plate	named, not separated
+60% epiboly	c10	175	sox32,cxcr4a,sox17,ackr3b,cdh6,foxa2,marcksl1b,dhrs3b	endoderm (7/13); presumptive endoderm (5/13)	c4	0.9714	True	endoderm	captured
+60% epiboly	c11	152	dlx3b,foxi1,apoc1,apoeb,tfap2a,ved,tp63,gata2a	presumptive ectoderm (11/14); epiblast (6/14)	c8	0.01639	False		unnamed
+60% epiboly	c12	142	xbp1,noto,admp,chd,shha,foxa2,nog1,cdkn1ca	shield (13/19); presumptive dorsal mesoderm (3/19)	c5	0.9032	True	dorsal_organizer;margin	captured
+60% epiboly	c13	138	cxcl12a,apoc1,si:dkey-261j4.5,fscn1a,tbx16,aplnra,aplnrb,cxcl12b	presumptive mesoderm (5/12)	c3	0.128	False	margin;mesoderm	named, not separated
+60% epiboly	c14	130	cdx4,ta,eve1,hes6,ved,apoc1,serpinh1b,tbx16	margin (15/17); germ ring (7/17); presumptive mesoderm (6/17)	c12	0.02439	False	margin	named, not separated
+60% epiboly	c15	123	cdx4,foxd3,hspb1,ta,wnt8a,rasgef1ba,lmo4a,foxd5	margin (14/17)	c12	0.015	False	dorsal_organizer;margin	named, not separated
+60% epiboly	c16	114	gsc,frzb,fzd8b,xbp1,klf17,nog1,id3,ripply1	anterior axial hypoblast (10/17)	c7	0.8151	True	dorsal_organizer	captured
+60% epiboly	c17	89	ripply1,twist1a,cxcl12a,fscn1a,ism1,aplnra,foxa,cxcl12b		c6	0.5984	True	margin	captured
+60% epiboly	c19	78	sesn3,si:ch211-260e23.9,ccng1,foxo3b,tp53,mdm2,phlda3,lnx1		c12	0.58	True	state:p53_response	captured
+75% epiboly	c2	904	dlx3b,apoc1,apoeb,ved,foxi1,marcksl1b,tfap2a,gata3	presumptive ectoderm (9/16); preplacodal ectoderm (5/16); non neural ectoderm (5/16)	c5	0.0247	False		unnamed
+75% epiboly	c5	403	msgn1,tbx16,rbm38,cdx4,hes6,tbx6l,apoc1,snai1a	margin (15/17); presumptive paraxial mesoderm (6/17)	c6	0.03756	False	margin;presomitic_mesoderm	named, not separated
+75% epiboly	c8	323	msgn1,tbx16,aldh1a2,myf5,foxc1a,rdh10a,im:7138239,cyp27c1	presumptive segmental plate (7/13); presumptive paraxial mesoderm (6/13); paraxial mesoderm (3/13)	c6	0.5423	True	presomitic_mesoderm;margin	captured
+75% epiboly	c9	315	cxcl12a,si:dkey-261j4.5,apoc1,gata5,fscn1a,osr1,aplnrb,cxcl12b	mesoderm (8/14); ventral mesoderm (4/14)	c16	0.006565	False	margin;mesoderm	named, not separated
+75% epiboly	c10	301	hesx1,fezf2,rx3,aldob,pax6b,cyp26a1,shisa2,otx1b	neural plate (14/16); presumptive brain (8/16); anterior neural plate (4/16)	c3	0.003044	False	forebrain_eye;neural_plate	named, not separated
+75% epiboly	c12	251	noto,xbp1,twist2,ntd5,admp,ta,insb,shha	axial chorda mesoderm (9/15); axial mesoderm (7/15); prechordal plate (5/15)	c17	0.5118	True	axial_mesoderm	captured
+75% epiboly	c14	250	her3,chd,hoxb1b,lmo4a,meis2b,mdkb,gbx1,ptgdsb	presumptive neural plate (6/12); neural plate (9/12); neuroectoderm (5/12)	c3	0.272	False	neural_plate	named, not separated
+75% epiboly	c16	236	sox32,sox17,cxcr4a,marcksl1b,cdh6,foxa2,ackr3b,dhrs3b	endoderm (7/11); endodermal cell (4/11)	c9	0.9873	True	endoderm	captured
+75% epiboly	c19	199	ripply1,twist1a,cxcl12b,cxcl12a,dhrs3b,aplnra,fscn1a,ism1		c16	0.6946	True	margin	captured
+75% epiboly	c25	119	frzb,fzd8b,xbp1,calr3b,rrbp1b,gsc,id3,klf17	anterior axial hypoblast (11/15)	c20	0.9225	True	prechordal_plate	captured
+75% epiboly	c31	27	krt4,krt18,krt8,krt5,zgc:193505,krt97,krt92,pfn1	EVL (10/10); periderm (8/10)	c30	0.8519	True	EVL	captured
+75% epiboly	c32	26	h1m,slc16a3,ddx4,dnd1,nanos3,tdrd7a,gra,npc2	primordial germ cell (7/9)	c29	0.9615	True	PGC	captured
+90% epiboly	c0	1016	dlx3b,apoeb,apoc1,marcksl1b,gata3,foxi1,tagln2,tfap2a	presumptive ectoderm (8/12); non neural ectoderm (5/12)	c4	0.2982	False		unnamed
+90% epiboly	c1	740	hoxb1b,sox3,mdkb,sp5l,lmo4a,meis2b,chd,pou5f3		c13	0.007059	False	state:blastomere	named, not separated
+90% epiboly	c2	580	hesx1,aldob,sox2,rx3,fezf2,pax6b,shisa2,six7	neural plate (15/17); anterior neural plate (5/17); presumptive brain (5/17)	c23	0.05128	False	forebrain_eye;neural_plate	named, not separated
+90% epiboly	c3	565	cdx4,hspb1,hes6,ta,eve1,hoxc8a,anp32e,hoxb7a	margin (11/12)	c23	0.01746	False	margin;presomitic_mesoderm	named, not separated
+90% epiboly	c6	443	irx7,her5,si:ch211-152c2.3,her11,mdkb,aldob,cyp26a1,wnt8b	midbrain hindbrain boundary neural plate (4/12); neural plate (9/12)	c3	0.002424	False	midbrain_hindbrain_boundary;neural_plate	named, not separated
+90% epiboly	c7	382	msgn1,tbx16,rbm38,aldh1a2,im:7138239,tbx6l,cdx4,tob1a	margin (12/17); presumptive segmental plate (6/17)	c3	0.5351	True	margin	captured
+90% epiboly	c10	259	aldh1a2,rdh10a,myf5,tbx6,efemp2b,tbx16,foxc1a,pcdh8	presumptive segmental plate (6/12); presumptive paraxial mesoderm (5/12)	c3	0.3828	True	presomitic_mesoderm	captured
+90% epiboly	c11	238	cxcl12a,osr1,id3,si:dkey-261j4.5,gata5,apoc1,pax8,gata6		c14	0.01475	False		unnamed
+90% epiboly	c12	225	cdx4,eve1,hes6,ta,apoc1,ved,hspb1,her7	margin (9/9)	c23	0.0273	False	margin;presomitic_mesoderm	named, not separated
+90% epiboly	c13	209	sox32,marcksl1b,cdh6,sox17,akap12b,gpm6ab,prdx5,cxcr4a	endoderm (6/8); hypoblast (4/8); forerunner cell group (4/8)	c5	0.9762	True	endoderm;neural_plate	captured
+90% epiboly	c14	205	noto,xbp1,twist2,ntd5,ta,insb,shha,foxa	axial mesoderm (5/12); axial chorda mesoderm (6/12)	c8	0.7268	True	axial_mesoderm;margin	captured
+90% epiboly	c15	205	twist1a,cxcl12b,ripply1,cxcl12a,fsta,aplnra,marcksl1b,lsp1		c3	0.01903	False		unnamed
+90% epiboly	c23	127	frzb,fzd8b,rrbp1b,calr3b,xbp1,tram1,zgc:174153,zgc:174855	anterior axial hypoblast (11/14)	c12	0.937	True		captured
+90% epiboly	c27	86	ccng1,si:ch211-260e23.9,sesn3,mdm2,gadd45aa,phlda3,mat2al,foxo3b		c23	0.5	True	state:p53_response	captured
+90% epiboly	c29	75	dbx1a,lft2,nkx2.9,gsc,lft1,foxa2,admp,shhb	axial hypoblast (4/14); presumptive floor plate (3/14); neuroectoderm (4/14)	c13	0.4044	True	margin;signal:Nodal	captured
+90% epiboly	c30	74	tbx16,myf5,myod1,msgn1,ttnb,snai1a,mef2d,rbm38	presumptive segmental plate (5/12)	c3	0.1421	False	presomitic_mesoderm	named, not separated
+90% epiboly	c32	20	krt4,krt18,krt5,krt8,krt92,krt97,zgc:193505,pfn1	EVL (11/11); periderm (10/11)		0	False	EVL	named, not separated
+bud	c2	799	apoeb,apoc1,marcksl1b,tagln2,tp63,gata3,ved,dlx3b	neurogenic field (5/11); non neural ectoderm (4/11); presumptive ectoderm (6/11)	c10	0.2689	False	non_neural_ectoderm	named, not separated
+bud	c3	763	msgn1,tbx16,tob1a,cdx4,hes6,rbm38,tbx6l,cx43.4	margin (10/14); tail bud (8/14); paraxial mesoderm (6/14)	c37	0.02058	False	margin;presomitic_mesoderm;tailbud	named, not separated
+bud	c4	729	cdx4,hspb1,fgf8a,hes6,hoxb7a,foxd5,ta,hoxc8a	margin (9/14)	c47	0.001332	False	margin;presomitic_mesoderm;tailbud	named, not separated
+bud	c5	574	hoxb1b,sox3,olig4,hnf1ba,si:ch211-152c2.3,meis2b,meis3,sox19a	neural plate (14/17)	c5	0.0009533	False	hindbrain;neural_plate;state:blastomere	named, not separated
+bud	c6	570	cxcl12a,id3,twist1a,cxcl12b,osr1,gata5,marcksl1b,hand2	lateral mesoderm (4/9)	c12	0.3236	True	lateral_plate	captured
+bud	c7	500	rx3,aldob,six3b,stm,shisa2,lhx2b,pax6b,six7	neural plate (16/18); neural keel (9/18); anterior neural plate (6/18)	c6	0.4256	True	forebrain_eye	captured
+bud	c8	395	olig3,mdkb,si:ch211-152c2.3,irx7,gbx1,cyp26c1,fgf8a,phox2a	neural plate (11/13); midbrain hindbrain boundary neural keel (4/13); presumptive rhombomere 2 (3/13)	c5	0.01397	False	hindbrain;neural_plate	named, not separated
+bud	c9	389	her5,pax2a,irx7,eng2a,her11,si:ch211-152c2.3,mdkb,cyp26a1	midbrain hindbrain boundary neural keel (5/14); midbrain hindbrain boundary neural plate (5/14); neural plate (11/14)	c5	0.7129	True	midbrain_hindbrain_boundary;neural_plate	captured
+bud	c10	306	hesx1,six3b,six7,dlx3b,shisa2,sox2,pax6b,fezf2	forebrain neural keel (6/15); anterior neural plate (5/15); neural keel (7/15)	c6	0.04305	False	forebrain_eye;neural_plate	named, not separated
+bud	c11	267	dlx3b,foxi1,tfap2a,irx7,kctd15a,si:ch211-152c2.3,irx1b,six4b	neurogenic field (4/14)	c10	0.008197	False	neural_plate;placodes	named, not separated
+bud	c12	255	her3,cdx4,hspb1,chd,ptgdsb,prdm8,fgf8a,hoxc3a			0	False	neural_plate	named, not separated
+bud	c13	238	efemp2b,aldh1a2,myf5,tbx6,rdh10a,tcf15,myl10,unc45b	presumptive segmental plate (6/11); segmental plate (5/11)	c7	0.5169	True	presomitic_mesoderm;adaxial_somite	captured
+bud	c14	234	marcksl1b,apoeb,apoc1,tagln2,gata3,tp63,ved,foxi1	neurogenic field (4/9); presumptive ectoderm (5/9); non neural ectoderm (3/9)	c25	0.4833	True	non_neural_ectoderm	captured
+bud	c15	220	sox32,cdh6,marcksl1b,sox17,pltp,prdx5,gpm6ab,gata5	endoderm (5/6)	c14	0.81	True	endoderm	captured
+bud	c16	204	noto,twist2,ta,ntd5,rcn3,ppp1r14c,pmp22b,serpinh1b	axial chorda mesoderm (7/11); axial mesoderm (5/11)	c44	0.2206	False	notochord;axial_mesoderm	named, not separated
+bud	c18	196	olig2,barhl2,otx1b,aldob,pax6a,stm,pax6b,fezf2	neural keel (9/17); neural plate (14/17); forebrain neural keel (6/17)	c6	0.09015	False	forebrain_eye;neural_plate	named, not separated
+bud	c21	171	dbx1a,gsc,nkx2.4b,nkx2.9,lft1,lft2,shha,fezf2	neural keel (9/18); prechordal plate (6/18)	c6	0.002024	False	neural_plate;margin;signal:Nodal	named, not separated
+bud	c23	162	cxcl12b,fsta,twist1a,cxcl12a,ripply1,lsp1,marcksl1b,aplnra		c15	0.7784	True		captured
+bud	c24	143	apoc1,apoeb,msx1b,cdx4,tfap2a,apela,dlx3b,zgc:92242	neurogenic field (3/13)	c10	0.1254	False	neural_plate	named, not separated
+bud	c26	120	zgc:174153,calr3b,zgc:174855,tram1,ctslb,xbp1,rrbp1b,frzb	polster (4/10); anterior axial hypoblast (6/10)	c27	0.9917	True	hatching_gland;notochord;prechordal_plate	captured
+bud	c28	115	dla,dlb,neurog1,cxcr4b,pnx,myt1a,prdm8,msx1b		c5	0.003396	False	primary_neurons	named, not separated
+bud	c29	110	msgn1,tbx16,myf5,efemp2b,tob1a,rbm38,cdx4,aldh1a2	paraxial mesoderm (8/16); presumptive segmental plate (7/16)	c7	0.1165	False	presomitic_mesoderm;margin	named, not separated
+bud	c30	95	myod1,myf5,msgn1,myl10,unc45b,mef2d,tbx16,actc1a	adaxial cell (6/14); presumptive segmental plate (6/14); paraxial mesoderm (6/14)	c7	0.2643	False	adaxial_somite;presomitic_mesoderm	named, not separated
+bud	c34	63	irx7,pax3a,msx1b,zic2a,foxd3,si:ch211-152c2.3,her11,otx2	neural plate (12/16)	c5	0.01126	False	neural_plate	named, not separated
+bud	c39	23	krt4,krt18,krt5,lye,krt8,zgc:193505,cyt1,krt17	periderm (12/12); EVL (11/12)	c47	0.9167	True	EVL	captured
+3-somite	c0	169	cdx4,hspb1,hes6,ta,eve1,sp5l,ptmab,hoxb7a	tail bud (10/13); segmental plate (7/13)	c5	0.5647	True	presomitic_mesoderm;tailbud	captured
+3-somite	c1	151	msgn1,tbx16,tob1a,cdx4,apoc1,myf5,hes6,si:ch211-101l18.8	segmental plate (10/13); tail bud (9/13)	c4	0.6601	True	presomitic_mesoderm	captured
+3-somite	c2	134	cxcl12a,hand2,cdh11,lmo2,hnf1bb,lbx2,etv2,apoc1	ventral mesoderm (9/14); posterior lateral mesoderm (4/14); anterior lateral plate mesoderm (5/14)	c6	0.6765	True	lateral_plate	captured
+3-somite	c3	117	sox3,hoxd4a,wnt11r,hoxa3a,si:ch211-222l21.1,sox19a,her13,her2	hindbrain neural plate (7/12); neural plate (8/12)	c9	0.4773	True	hindbrain;state:blastomere	captured
+3-somite	c5	112	eng2b,eng2a,sox21a,her5,mdkb,her11,irx7,si:ch211-137a8.4	midbrain hindbrain boundary neural keel (9/17); midbrain hindbrain boundary neural plate (7/17); midbrain neural keel (10/17)	c18	0.3661	True	midbrain_hindbrain_boundary	captured
+3-somite	c6	101	mdkb,cyp26c1,si:ch211-152c2.3,cyp26b1,vgll3,egr2b,sox19a,si:ch211-137a8.4	presumptive rhombomere 3 (5/15); presumptive rhombomere 4 (5/15); presumptive rhombomere 5 (4/15)	c9	0.01705	False	hindbrain;neural_plate	named, not separated
+3-somite	c7	86	marcksl1b,apoeb,tagln2,pfn1,cldni,apoc1,cfl1l,epcam	periderm (9/11)	c3	0.5276	True	EVL;hatching_gland	captured
+3-somite	c8	74	rx3,mab21l2,six3b,cldn5a,six7,stm,shisa2,aldob	optic primordium (11/17); optic vesicle (9/17)	c26	0.36	True	forebrain_eye	captured
+3-somite	c10	70	meox1,efemp2b,tcf15,ripply1,dmrt2a,tbx6,aldh1a2,cpn1	somite (12/17); segmental plate (11/17); paraxial mesoderm (6/17)	c7	0.7931	True	presomitic_mesoderm;adaxial_somite	captured
+3-somite	c11	69	dlx3b,foxi1,gbx2,pax8,cldna,cldnb,cldn7b,eya1	otic placode (5/17); epibranchial field (3/17)	c2	0.5037	True	placodes	captured
+3-somite	c13	62	hand2,cxcl12a,cdh11,gata5,gata6,apoc1,qkia,twist1a	ventral mesoderm (10/15); endoderm (4/15)	c22	0.6032	True	lateral_plate	captured
+3-somite	c14	59	foxd3,sox10,tfap2a,zic2b,sox9b,pax3a,msx3,msx1b	neural crest cell (6/19); cranial neural crest (6/19); neural crest (7/19)	c15	0.7833	True	neural_crest;neural_plate	captured
+3-somite	c15	58	si:ch211-156j16.1,pltp,prdx5,gpm6ab,cdh6,si:ch73-234b20.5,akap12b,cd9b		c11	0.9322	True	neural_plate	captured
+3-somite	c16	54	fezf2,pax6a,emx3,otx1b,hesx1,mdkb,olig2,tdgf1	presumptive telencephalon (10/18); presumptive diencephalon (10/18); midbrain neural keel (8/18)		0	False	neural_plate;forebrain_eye	named, not separated
+3-somite	c18	43	nkx2.4b,nkx2.9,dbx1a,nkx2.1,shha,nkx2.4a,nkx2.2b,lft1	presumptive floor plate (3/13)	c12	0.678	True	neural_plate	captured
+3-somite	c19	42	apoc1,apoeb,ptgs1,cdx4,pfn1,krt8,crabp2a,tp63	periderm (11/14); non neural ectoderm (3/14)	c3	0.2821	False	EVL	named, not separated
+3-somite	c20	42	cxcl12b,fsta,twist1a,aplnra,six1a,lsp1,marcksl1b,tpm4a	head mesenchyme (3/12)	c19	0.9302	True		captured
+3-somite	c21	41	krt5,krt4,krt18,krt17,lye,zgc:193505,krt92,ppl	periderm (8/8)	c45	0.1463	False	EVL	named, not separated
+3-somite	c25	31	dlx3b,six3b,pax6b,pitx3,dlx4b,epcam,shisa2,six1b	prechordal plate (4/19)	c24	1	True	forebrain_eye;placodes	captured
+3-somite	c26	30	neurod4,elavl3,dla,myt1a,cep131,dlb,cxcr4b,neurog1	primary neuron (7/16); trigeminal placode (6/16); cranial ganglion (4/16)	c30	0.7273	True	primary_neurons	captured
+3-somite	c28	27	pmp22b,twist2,ntd5,p4ha1b,serpinh1b,emilin3a,rcn3,plod1a	notochord (10/10)	c29	1	True	notochord;axial_mesoderm	captured
+3-somite	c31	17	myl10,tnni2b.1,actc1a,myod1,nexn,mef2d,acta1a,ttnb	adaxial cell (14/15)	c7	0.1977	False	adaxial_somite	named, not separated
+3-somite	c33	12	ctslb,calr3b,zgc:174153,zgc:174855,tram1,rrbp1b,si:dkey-26g8.5,cd63	polster (11/11)	c42	1	True	hatching_gland;prechordal_plate;notochord	captured
+6-somite	c1	372	si:ch211-222l21.1,hoxd4a,sox3,hoxa3a,dla,tuba1a,wnt11r,myt1a	primary neuron hindbrain (4/13); trigeminal placode (5/13); primary neuron (5/13)	c20	0.1418	False	hindbrain	named, not separated
+6-somite	c2	334	lmo2,cdh11,hand2,cxcl12a,tal1,etv2,gata5,gata6	lateral plate mesoderm (12/16); ventral mesoderm (14/16); lateral mesoderm (8/16)	c3	0.6358	True	lateral_plate	captured
+6-somite	c3	318	rx3,mab21l2,six3b,stm,rx2,cldn5a,lhx9,aldob	optic vesicle (11/15); optic primordium (7/15)	c1	0.8855	True	forebrain_eye	captured
+6-somite	c4	299	mdkb,si:ch211-152c2.3,egr2b,cyp26b1,cyp26c1,sox19a,mafba,si:ch211-137a8.4	presumptive rhombomere 3 (4/14); hindbrain neural rod (4/14); presumptive rhombomere 6 (3/14)	c16	0.3522	True	hindbrain;neural_plate	captured
+6-somite	c5	282	dlx3b,epcam,cldnb,six1b,cldna,foxi1,dlx4b,ptgs2a	olfactory field (3/17); otic placode (4/17)	c20	0.04748	False	placodes;EVL	named, not separated
+6-somite	c6	213	meox1,efemp2b,tcf15,ripply1,cpn1,dmrt2a,kazald2,tgfbi	somite (14/17); myotome (3/17); segmental plate (8/17)	c11	0.5806	True	adaxial_somite;presomitic_mesoderm	captured
+6-somite	c7	209	eng2b,eng2a,sox21a,her5,her11,mdkb,irx7,rgcc	midbrain hindbrain boundary neural keel (6/14); midbrain hindbrain boundary neural rod (6/14); midbrain hindbrain boundary neural plate (4/14)	c11	0.002959	False	midbrain_hindbrain_boundary	named, not separated
+6-somite	c9	164	foxd3,sox10,zic2b,sox9b,twist1b,msx3,tfap2a,pax3a	cranial neural crest (8/19); neural crest (11/19); neural crest cell (5/19)	c9	0.8855	True	neural_crest	captured
+6-somite	c12	154	pltp,si:ch211-156j16.1,cdh6,prdx5,cd9b,si:ch211-152c2.3,si:ch73-234b20.5,mcama		c10	0.006667	False	dorsal_forerunner;neural_plate	named, not separated
+6-somite	c13	153	lmo2,tal1,etv2,gfi1aa,sox7,cdh11,fli1a,gata1a	ventral mesoderm (12/13); posterior lateral mesoderm (6/13); posterior lateral plate mesoderm (7/13)	c18	0.5419	True	lateral_plate	captured
+6-somite	c14	134	apoeb,apoc1,crabp2a,pfn1,cdx4,cldni,alcama,actb1	periderm (12/15)	c0	0.001996	False		unnamed
+6-somite	c15	133	elavl3,myt1a,dla,dlb,neurod4,tuba1a,neurog1,tuba8l3	primary neuron (7/13); trigeminal placode (6/13); primary neuron hindbrain (4/13)	c20	0.3691	True	primary_neurons	captured
+6-somite	c16	122	dbx1a,nkx2.4b,shha,nkx2.4a,shhb,nkx2.1,sst1.2,lft1		c14	0.888	True		captured
+6-somite	c18	88	ntd5,pmp22b,rcn3,ta,twist2,p4ha1b,emilin3a,noto	notochord (13/13); axial mesoderm (5/13)	c17	0.9886	True	notochord;axial_mesoderm	captured
+6-somite	c19	85	cxcl12b,twist1a,marcksl1b,aplnra,lsp1,tpm4a,akap12b,foxl2	head mesenchyme (3/12)		0	False	mesoderm	named, not separated
+6-somite	c22	45	zgc:174153,zgc:174855,he1a,ctslb,he1b,calr3b,tram1,si:dkey-26g8.5	polster (10/10)	c22	1	True	hatching_gland;prechordal_plate	captured
+6-somite	c23	39	krt4,krt5,krt18,krt92,cyt1,krt17,lye,cyt1l	periderm (10/10)	c24	0.9744	True	EVL	captured

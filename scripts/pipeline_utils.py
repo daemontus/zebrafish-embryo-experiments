@@ -181,3 +181,37 @@ def nb_overdispersion(counts, min_umis: int = 10, reliable_umis: int = 100,
                                - out.loc[ok, "typical"].to_numpy())
     out.attrs["trend"] = dict(a0=a0, a1=a1, b=b, bin_mean=bin_m, bin_phi=bin_phi)
     return out
+
+
+RESIDUAL_CLIP = 10.0
+
+
+def pearson_residuals(counts, genes, centre: bool = True) -> "np.ndarray":
+    """Pearson residuals of one library under its own NB model (dense cells x genes).
+
+    residual = (y - s m) / sqrt(s m + phi_t (s m)^2), with s the cell's depth
+    relative to the library average, m the gene's rate and phi_t the
+    library's dispersion-mean trend (`nb_overdispersion`). The trend also
+    covers genes too rare in the library for a typical phi; genes absent from
+    the library get 0. Residuals are clipped at +-RESIDUAL_CLIP, the same
+    limit for every library (a limit of sqrt(cells), as in sctransform,
+    differs between libraries of different size and makes two unequal random
+    halves of one library look different after alignment). With `centre`,
+    every gene is centred within the library (alignment).
+    `genes` is a boolean mask or an index array of columns.
+    """
+    import numpy as np
+
+    disp = nb_overdispersion(counts)
+    s = np.asarray(counts.sum(axis=1)).ravel()
+    s = s / s.mean()
+    m = disp["mean"].to_numpy()[genes]
+    t = disp.attrs["trend"]
+    with np.errstate(divide="ignore"):
+        phi = t["a0"] + t["a1"] * m ** (-t["b"])
+    mu = s[:, None] * m[None, :]
+    with np.errstate(invalid="ignore", divide="ignore"):
+        r = (counts[:, genes].toarray() - mu) / np.sqrt(mu + phi[None, :] * mu**2)
+    r[:, m == 0] = 0
+    r = np.clip(r, -RESIDUAL_CLIP, RESIDUAL_CLIP)
+    return r - r.mean(axis=0) if centre else r

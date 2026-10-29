@@ -1,0 +1,57 @@
+stage	library	space	overlap
+high	ZFHIGH_WT_DS5	aligned	0.7856
+high	ZFHIGH_WT_DS5	joint	0.376
+high	ZFHIGH_WT_DS5b	aligned	0.7917
+high	ZFHIGH_WT_DS5b	joint	0.649
+oblong	ZFOBLONG_WT_DS5	aligned	0.8569
+oblong	ZFOBLONG_WT_DS5	joint	0.5507
+oblong	ZFOBLONG_WT_DS5b	aligned	0.7637
+oblong	ZFOBLONG_WT_DS5b	joint	0.5469
+dome	ZFDOME_WT_DS5	aligned	1
+dome	ZFDOME_WT_DS5	joint	0.3153
+30% epiboly	ZF30_WT_DS5	aligned	0.5833
+30% epiboly	ZF30_WT_DS5	joint	0.3372
+30% epiboly	ZF30_WT_DS5b	aligned	0.6716
+30% epiboly	ZF30_WT_DS5b	joint	0.329
+50% epiboly	ZF50_WT_DS2	aligned	0.5878
+50% epiboly	ZF50_WT_DS2	joint	0.3373
+50% epiboly	ZF50_WT_DS3	aligned	0.6177
+50% epiboly	ZF50_WT_DS3	joint	0.365
+50% epiboly	ZF50_WT_DS4	aligned	0.6053
+50% epiboly	ZF50_WT_DS4	joint	0.3518
+50% epiboly	ZF50_WT_DS4b	aligned	0.6076
+50% epiboly	ZF50_WT_DS4b	joint	0.3407
+shield	ZFS_WT_DS5	aligned	1
+shield	ZFS_WT_DS5	joint	0.3727
+60% epiboly	ZF60_WT_DS2	aligned	0.7386
+60% epiboly	ZF60_WT_DS2	joint	0.4234
+60% epiboly	ZF60_WT_DS3	aligned	0.7396
+60% epiboly	ZF60_WT_DS3	joint	0.4629
+60% epiboly	ZF60_WT_DS4	aligned	0.725
+60% epiboly	ZF60_WT_DS4	joint	0.4472
+75% epiboly	ZF75_WT_DS2	aligned	0.719
+75% epiboly	ZF75_WT_DS2	joint	0.4346
+75% epiboly	ZF75_WT_DS3	aligned	0.7456
+75% epiboly	ZF75_WT_DS3	joint	0.4235
+75% epiboly	ZF75_WT_DS4	aligned	0.7409
+75% epiboly	ZF75_WT_DS4	joint	0.4979
+90% epiboly	ZF90_WT_DS2	aligned	0.805
+90% epiboly	ZF90_WT_DS2	joint	0.547
+90% epiboly	ZF90_WT_DS3	aligned	0.7911
+90% epiboly	ZF90_WT_DS3	joint	0.4883
+90% epiboly	ZF90_WT_DS4	aligned	0.792
+90% epiboly	ZF90_WT_DS4	joint	0.55
+bud	ZFB_WT_DS2	aligned	0.8226
+bud	ZFB_WT_DS2	joint	0.7342
+bud	ZFB_WT_DS2b	aligned	0.8038
+bud	ZFB_WT_DS2b	joint	0.6663
+bud	ZFB_WT_DS3	aligned	0.8351
+bud	ZFB_WT_DS3	joint	0.4841
+bud	ZFB_WT_DS4	aligned	0.827
+bud	ZFB_WT_DS4	joint	0.5933
+3-somite	ZF3S_WT_DS5	aligned	1
+3-somite	ZF3S_WT_DS5	joint	0.6097
+6-somite	ZF6S_WT_DS5	aligned	0.7918
+6-somite	ZF6S_WT_DS5	joint	0.5514
+6-somite	ZF6S_WT_DS5b	aligned	0.8837
+6-somite	ZF6S_WT_DS5b	joint	0.6338

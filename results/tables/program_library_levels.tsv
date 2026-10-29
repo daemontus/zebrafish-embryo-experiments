@@ -1,0 +1,169 @@
+program	library	stage	level
+state:blastomere	ZF30_WT_DS5	30% epiboly	0.6366
+state:blastomere	ZF30_WT_DS5b	30% epiboly	0.883
+state:blastomere	ZF3S_WT_DS5	3-somite	0.1553
+state:blastomere	ZF50_WT_DS2	50% epiboly	0.6719
+state:blastomere	ZF50_WT_DS3	50% epiboly	0.6871
+state:blastomere	ZF50_WT_DS4	50% epiboly	0.7586
+state:blastomere	ZF50_WT_DS4b	50% epiboly	0.7064
+state:blastomere	ZF60_WT_DS2	60% epiboly	0.5092
+state:blastomere	ZF60_WT_DS3	60% epiboly	0.3866
+state:blastomere	ZF60_WT_DS4	60% epiboly	0.4398
+state:blastomere	ZF6S_WT_DS5	6-somite	0.1571
+state:blastomere	ZF6S_WT_DS5b	6-somite	0.1864
+state:blastomere	ZF75_WT_DS2	75% epiboly	0.3461
+state:blastomere	ZF75_WT_DS3	75% epiboly	0.2329
+state:blastomere	ZF75_WT_DS4	75% epiboly	0.2704
+state:blastomere	ZF90_WT_DS2	90% epiboly	0.235
+state:blastomere	ZF90_WT_DS3	90% epiboly	0.1688
+state:blastomere	ZF90_WT_DS4	90% epiboly	0.1823
+state:blastomere	ZFB_WT_DS2	bud	0.1082
+state:blastomere	ZFB_WT_DS2b	bud	0.2027
+state:blastomere	ZFB_WT_DS3	bud	0.1659
+state:blastomere	ZFB_WT_DS4	bud	0.1798
+state:blastomere	ZFDOME_WT_DS5	dome	0.5093
+state:blastomere	ZFHIGH_WT_DS5	high	0.2608
+state:blastomere	ZFHIGH_WT_DS5b	high	0.2943
+state:blastomere	ZFOBLONG_WT_DS5	oblong	0.4322
+state:blastomere	ZFOBLONG_WT_DS5b	oblong	0.4209
+state:blastomere	ZFS_WT_DS5	shield	0.7773
+state:cell_cycle_g2m	ZF30_WT_DS5	30% epiboly	0.4592
+state:cell_cycle_g2m	ZF30_WT_DS5b	30% epiboly	0.4992
+state:cell_cycle_g2m	ZF3S_WT_DS5	3-somite	0.5754
+state:cell_cycle_g2m	ZF50_WT_DS2	50% epiboly	0.4437
+state:cell_cycle_g2m	ZF50_WT_DS3	50% epiboly	0.7184
+state:cell_cycle_g2m	ZF50_WT_DS4	50% epiboly	0.5355
+state:cell_cycle_g2m	ZF50_WT_DS4b	50% epiboly	0.5161
+state:cell_cycle_g2m	ZF60_WT_DS2	60% epiboly	0.6814
+state:cell_cycle_g2m	ZF60_WT_DS3	60% epiboly	0.797
+state:cell_cycle_g2m	ZF60_WT_DS4	60% epiboly	0.727
+state:cell_cycle_g2m	ZF6S_WT_DS5	6-somite	0.42
+state:cell_cycle_g2m	ZF6S_WT_DS5b	6-somite	0.6236
+state:cell_cycle_g2m	ZF75_WT_DS2	75% epiboly	0.7086
+state:cell_cycle_g2m	ZF75_WT_DS3	75% epiboly	0.6207
+state:cell_cycle_g2m	ZF75_WT_DS4	75% epiboly	0.6812
+state:cell_cycle_g2m	ZF90_WT_DS2	90% epiboly	0.6742
+state:cell_cycle_g2m	ZF90_WT_DS3	90% epiboly	0.5841
+state:cell_cycle_g2m	ZF90_WT_DS4	90% epiboly	0.625
+state:cell_cycle_g2m	ZFB_WT_DS2	bud	0.5337
+state:cell_cycle_g2m	ZFB_WT_DS2b	bud	0.4477
+state:cell_cycle_g2m	ZFB_WT_DS3	bud	0.5954
+state:cell_cycle_g2m	ZFB_WT_DS4	bud	0.5068
+state:cell_cycle_g2m	ZFDOME_WT_DS5	dome	0.3393
+state:cell_cycle_g2m	ZFHIGH_WT_DS5	high	0.4074
+state:cell_cycle_g2m	ZFHIGH_WT_DS5b	high	0.4997
+state:cell_cycle_g2m	ZFOBLONG_WT_DS5	oblong	0.4245
+state:cell_cycle_g2m	ZFOBLONG_WT_DS5b	oblong	0.4261
+state:cell_cycle_g2m	ZFS_WT_DS5	shield	0.7883
+state:cell_cycle_s	ZF30_WT_DS5	30% epiboly	0.5673
+state:cell_cycle_s	ZF30_WT_DS5b	30% epiboly	0.58
+state:cell_cycle_s	ZF3S_WT_DS5	3-somite	0.3724
+state:cell_cycle_s	ZF50_WT_DS2	50% epiboly	0.5634
+state:cell_cycle_s	ZF50_WT_DS3	50% epiboly	0.5501
+state:cell_cycle_s	ZF50_WT_DS4	50% epiboly	0.6793
+state:cell_cycle_s	ZF50_WT_DS4b	50% epiboly	0.6621
+state:cell_cycle_s	ZF60_WT_DS2	60% epiboly	0.5199
+state:cell_cycle_s	ZF60_WT_DS3	60% epiboly	0.364
+state:cell_cycle_s	ZF60_WT_DS4	60% epiboly	0.3467
+state:cell_cycle_s	ZF6S_WT_DS5	6-somite	0.2935
+state:cell_cycle_s	ZF6S_WT_DS5b	6-somite	0.4236
+state:cell_cycle_s	ZF75_WT_DS2	75% epiboly	0.446
+state:cell_cycle_s	ZF75_WT_DS3	75% epiboly	0.4363
+state:cell_cycle_s	ZF75_WT_DS4	75% epiboly	0.407
+state:cell_cycle_s	ZF90_WT_DS2	90% epiboly	0.3847
+state:cell_cycle_s	ZF90_WT_DS3	90% epiboly	0.387
+state:cell_cycle_s	ZF90_WT_DS4	90% epiboly	0.345
+state:cell_cycle_s	ZFB_WT_DS2	bud	0.3963
+state:cell_cycle_s	ZFB_WT_DS2b	bud	0.3971
+state:cell_cycle_s	ZFB_WT_DS3	bud	0.3589
+state:cell_cycle_s	ZFB_WT_DS4	bud	0.3724
+state:cell_cycle_s	ZFDOME_WT_DS5	dome	0.5733
+state:cell_cycle_s	ZFHIGH_WT_DS5	high	0.581
+state:cell_cycle_s	ZFHIGH_WT_DS5b	high	0.5395
+state:cell_cycle_s	ZFOBLONG_WT_DS5	oblong	0.4699
+state:cell_cycle_s	ZFOBLONG_WT_DS5b	oblong	0.3967
+state:cell_cycle_s	ZFS_WT_DS5	shield	0.4637
+state:heat_shock	ZF30_WT_DS5	30% epiboly	0.03259
+state:heat_shock	ZF30_WT_DS5b	30% epiboly	0.08687
+state:heat_shock	ZF3S_WT_DS5	3-somite	0.1306
+state:heat_shock	ZF50_WT_DS2	50% epiboly	0.4255
+state:heat_shock	ZF50_WT_DS3	50% epiboly	0.5489
+state:heat_shock	ZF50_WT_DS4	50% epiboly	1
+state:heat_shock	ZF50_WT_DS4b	50% epiboly	0.05849
+state:heat_shock	ZF60_WT_DS2	60% epiboly	0.1754
+state:heat_shock	ZF60_WT_DS3	60% epiboly	0.06313
+state:heat_shock	ZF60_WT_DS4	60% epiboly	0.08223
+state:heat_shock	ZF6S_WT_DS5	6-somite	0.1081
+state:heat_shock	ZF6S_WT_DS5b	6-somite	0.095
+state:heat_shock	ZF75_WT_DS2	75% epiboly	0.1016
+state:heat_shock	ZF75_WT_DS3	75% epiboly	0.07485
+state:heat_shock	ZF75_WT_DS4	75% epiboly	0.03125
+state:heat_shock	ZF90_WT_DS2	90% epiboly	0.235
+state:heat_shock	ZF90_WT_DS3	90% epiboly	0.09116
+state:heat_shock	ZF90_WT_DS4	90% epiboly	0.1268
+state:heat_shock	ZFB_WT_DS2	bud	0.08469
+state:heat_shock	ZFB_WT_DS2b	bud	0.0793
+state:heat_shock	ZFB_WT_DS3	bud	0.1414
+state:heat_shock	ZFB_WT_DS4	bud	0.1701
+state:heat_shock	ZFDOME_WT_DS5	dome	0.05289
+state:heat_shock	ZFHIGH_WT_DS5	high	0.2258
+state:heat_shock	ZFHIGH_WT_DS5b	high	0.0297
+state:heat_shock	ZFOBLONG_WT_DS5	oblong	0.2054
+state:heat_shock	ZFOBLONG_WT_DS5b	oblong	0.3299
+state:heat_shock	ZFS_WT_DS5	shield	0.06537
+state:maternal	ZF30_WT_DS5	30% epiboly	0.08049
+state:maternal	ZF30_WT_DS5b	30% epiboly	0.07367
+state:maternal	ZF3S_WT_DS5	3-somite	0.000468
+state:maternal	ZF50_WT_DS2	50% epiboly	0.063
+state:maternal	ZF50_WT_DS3	50% epiboly	0.0555
+state:maternal	ZF50_WT_DS4	50% epiboly	0.1118
+state:maternal	ZF50_WT_DS4b	50% epiboly	0.06663
+state:maternal	ZF60_WT_DS2	60% epiboly	0.01212
+state:maternal	ZF60_WT_DS3	60% epiboly	0.005665
+state:maternal	ZF60_WT_DS4	60% epiboly	0.007866
+state:maternal	ZF6S_WT_DS5	6-somite	0.000153
+state:maternal	ZF6S_WT_DS5b	6-somite	0.0006338
+state:maternal	ZF75_WT_DS2	75% epiboly	0.005785
+state:maternal	ZF75_WT_DS3	75% epiboly	0.003601
+state:maternal	ZF75_WT_DS4	75% epiboly	0.004504
+state:maternal	ZF90_WT_DS2	90% epiboly	0.003041
+state:maternal	ZF90_WT_DS3	90% epiboly	0.001396
+state:maternal	ZF90_WT_DS4	90% epiboly	0.001426
+state:maternal	ZFB_WT_DS2	bud	0.0005497
+state:maternal	ZFB_WT_DS2b	bud	0.001197
+state:maternal	ZFB_WT_DS3	bud	0.001411
+state:maternal	ZFB_WT_DS4	bud	0.0008527
+state:maternal	ZFDOME_WT_DS5	dome	0.2337
+state:maternal	ZFHIGH_WT_DS5	high	0.7449
+state:maternal	ZFHIGH_WT_DS5b	high	1
+state:maternal	ZFOBLONG_WT_DS5	oblong	0.6413
+state:maternal	ZFOBLONG_WT_DS5b	oblong	0.8334
+state:maternal	ZFS_WT_DS5	shield	0.01851
+state:p53_response	ZF30_WT_DS5	30% epiboly	0.4703
+state:p53_response	ZF30_WT_DS5b	30% epiboly	0.3714
+state:p53_response	ZF3S_WT_DS5	3-somite	0.1982
+state:p53_response	ZF50_WT_DS2	50% epiboly	0.6664
+state:p53_response	ZF50_WT_DS3	50% epiboly	0.337
+state:p53_response	ZF50_WT_DS4	50% epiboly	0.4715
+state:p53_response	ZF50_WT_DS4b	50% epiboly	0.3006
+state:p53_response	ZF60_WT_DS2	60% epiboly	0.269
+state:p53_response	ZF60_WT_DS3	60% epiboly	0.167
+state:p53_response	ZF60_WT_DS4	60% epiboly	0.1864
+state:p53_response	ZF6S_WT_DS5	6-somite	0.2279
+state:p53_response	ZF6S_WT_DS5b	6-somite	0.2188
+state:p53_response	ZF75_WT_DS2	75% epiboly	0.1467
+state:p53_response	ZF75_WT_DS3	75% epiboly	0.1652
+state:p53_response	ZF75_WT_DS4	75% epiboly	0.1825
+state:p53_response	ZF90_WT_DS2	90% epiboly	0.2293
+state:p53_response	ZF90_WT_DS3	90% epiboly	0.181
+state:p53_response	ZF90_WT_DS4	90% epiboly	0.2109
+state:p53_response	ZFB_WT_DS2	bud	0.2298
+state:p53_response	ZFB_WT_DS2b	bud	0.1216
+state:p53_response	ZFB_WT_DS3	bud	0.2125
+state:p53_response	ZFB_WT_DS4	bud	0.1834
+state:p53_response	ZFDOME_WT_DS5	dome	0.2738
+state:p53_response	ZFHIGH_WT_DS5	high	0.7313
+state:p53_response	ZFHIGH_WT_DS5b	high	0.4195
+state:p53_response	ZFOBLONG_WT_DS5	oblong	0.6575
+state:p53_response	ZFOBLONG_WT_DS5b	oblong	0.5669
+state:p53_response	ZFS_WT_DS5	shield	0.2778

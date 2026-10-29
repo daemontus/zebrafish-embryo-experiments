@@ -1,0 +1,101 @@
+stage	library_a	library_b	kind	space	unbalanced	null
+high	ZFHIGH_WT_DS5	ZFHIGH_WT_DS5b	a/b	aligned	0.006431	0.004373
+high	ZFHIGH_WT_DS5	ZFHIGH_WT_DS5b	a/b	joint	0.2862	0.004309
+high	ZFHIGH_WT_DS5	ZFHIGH_WT_DS5	random split	aligned	0.06464	0.005703
+high	ZFHIGH_WT_DS5	ZFHIGH_WT_DS5	random split	joint	0	0.006008
+oblong	ZFOBLONG_WT_DS5	ZFOBLONG_WT_DS5b	a/b	aligned	0.255	0.0201
+oblong	ZFOBLONG_WT_DS5	ZFOBLONG_WT_DS5b	a/b	joint	0.345	0.0285
+oblong	ZFOBLONG_WT_DS5b	ZFOBLONG_WT_DS5b	random split	aligned	0.01562	0.01734
+oblong	ZFOBLONG_WT_DS5b	ZFOBLONG_WT_DS5b	random split	joint	0.0625	0.03125
+30% epiboly	ZF30_WT_DS5	ZF30_WT_DS5b	a/b	aligned	0.1016	0.02162
+30% epiboly	ZF30_WT_DS5	ZF30_WT_DS5b	a/b	joint	0.4801	0.02227
+30% epiboly	ZF30_WT_DS5b	ZF30_WT_DS5b	random split	aligned	0.05104	0.02556
+30% epiboly	ZF30_WT_DS5b	ZF30_WT_DS5b	random split	joint	0.01418	0.02342
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS3	other batch	aligned	0.3541	0.02236
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS3	other batch	joint	0.8778	0.02238
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS3	random split	aligned	0.03706	0.0239
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS3	random split	joint	0.03427	0.0215
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS4	other batch	aligned	0.3644	0.03984
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS4	other batch	joint	0.8938	0.0389
+50% epiboly	ZF50_WT_DS4	ZF50_WT_DS4	random split	aligned	0.0402	0.04073
+50% epiboly	ZF50_WT_DS4	ZF50_WT_DS4	random split	joint	0.04595	0.03886
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS4b	other batch	aligned	0.2986	0.04029
+50% epiboly	ZF50_WT_DS2	ZF50_WT_DS4b	other batch	joint	0.9466	0.04008
+50% epiboly	ZF50_WT_DS4b	ZF50_WT_DS4b	random split	aligned	0.03861	0.03895
+50% epiboly	ZF50_WT_DS4b	ZF50_WT_DS4b	random split	joint	0.05696	0.03728
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS4	other batch	aligned	0.2776	0.0226
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS4	other batch	joint	0.7898	0.02191
+50% epiboly	ZF50_WT_DS4	ZF50_WT_DS4	random split	aligned	0.01978	0.02226
+50% epiboly	ZF50_WT_DS4	ZF50_WT_DS4	random split	joint	0.01276	0.02078
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS4b	other batch	aligned	0.1817	0.02231
+50% epiboly	ZF50_WT_DS3	ZF50_WT_DS4b	other batch	joint	0.909	0.02333
+50% epiboly	ZF50_WT_DS4b	ZF50_WT_DS4b	random split	aligned	0.02532	0.02196
+50% epiboly	ZF50_WT_DS4b	ZF50_WT_DS4b	random split	joint	0.02532	0.02256
+50% epiboly	ZF50_WT_DS4	ZF50_WT_DS4b	a/b	aligned	0.2622	0.04065
+50% epiboly	ZF50_WT_DS4	ZF50_WT_DS4b	a/b	joint	0.8208	0.03954
+50% epiboly	ZF50_WT_DS4b	ZF50_WT_DS4b	random split	aligned	0.03481	0.03959
+50% epiboly	ZF50_WT_DS4b	ZF50_WT_DS4b	random split	joint	0.04684	0.03789
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS3	other batch	aligned	0.3132	0.02233
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS3	other batch	joint	0.835	0.02155
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS2	random split	aligned	0.02195	0.02145
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS2	random split	joint	0.0144	0.02432
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS4	other batch	aligned	0.2539	0.03925
+60% epiboly	ZF60_WT_DS2	ZF60_WT_DS4	other batch	joint	0.8206	0.04246
+60% epiboly	ZF60_WT_DS4	ZF60_WT_DS4	random split	aligned	0.04837	0.04045
+60% epiboly	ZF60_WT_DS4	ZF60_WT_DS4	random split	joint	0.05518	0.0411
+60% epiboly	ZF60_WT_DS3	ZF60_WT_DS4	other batch	aligned	0.1134	0.02149
+60% epiboly	ZF60_WT_DS3	ZF60_WT_DS4	other batch	joint	0.5403	0.02265
+60% epiboly	ZF60_WT_DS4	ZF60_WT_DS4	random split	aligned	0.03951	0.02195
+60% epiboly	ZF60_WT_DS4	ZF60_WT_DS4	random split	joint	0.02452	0.0221
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS3	other batch	aligned	0.2979	0.03631
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS3	other batch	joint	0.8591	0.0366
+75% epiboly	ZF75_WT_DS3	ZF75_WT_DS3	random split	aligned	0.03341	0.03598
+75% epiboly	ZF75_WT_DS3	ZF75_WT_DS3	random split	joint	0.03274	0.036
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS4	other batch	aligned	0.2577	0.0377
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS4	other batch	joint	0.8905	0.03796
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS2	random split	aligned	0.03715	0.03805
+75% epiboly	ZF75_WT_DS2	ZF75_WT_DS2	random split	joint	0.04618	0.03783
+75% epiboly	ZF75_WT_DS3	ZF75_WT_DS4	other batch	aligned	0.1279	0.01295
+75% epiboly	ZF75_WT_DS3	ZF75_WT_DS4	other batch	joint	0.3486	0.01321
+75% epiboly	ZF75_WT_DS3	ZF75_WT_DS3	random split	aligned	0.007762	0.01239
+75% epiboly	ZF75_WT_DS3	ZF75_WT_DS3	random split	joint	0.01012	0.01328
+90% epiboly	ZF90_WT_DS2	ZF90_WT_DS3	other batch	aligned	0.1649	0.02493
+90% epiboly	ZF90_WT_DS2	ZF90_WT_DS3	other batch	joint	0.6137	0.02612
+90% epiboly	ZF90_WT_DS3	ZF90_WT_DS3	random split	aligned	0.02773	0.02583
+90% epiboly	ZF90_WT_DS3	ZF90_WT_DS3	random split	joint	0.03756	0.02497
+90% epiboly	ZF90_WT_DS2	ZF90_WT_DS4	other batch	aligned	0.1959	0.03788
+90% epiboly	ZF90_WT_DS2	ZF90_WT_DS4	other batch	joint	0.6295	0.03809
+90% epiboly	ZF90_WT_DS4	ZF90_WT_DS4	random split	aligned	0.03769	0.03682
+90% epiboly	ZF90_WT_DS4	ZF90_WT_DS4	random split	joint	0.04094	0.03804
+90% epiboly	ZF90_WT_DS3	ZF90_WT_DS4	other batch	aligned	0.05424	0.0308
+90% epiboly	ZF90_WT_DS3	ZF90_WT_DS4	other batch	joint	0.2388	0.03086
+90% epiboly	ZF90_WT_DS3	ZF90_WT_DS3	random split	aligned	0.03335	0.03107
+90% epiboly	ZF90_WT_DS3	ZF90_WT_DS3	random split	joint	0.03264	0.03243
+bud	ZFB_WT_DS2	ZFB_WT_DS2b	a/b	aligned	0.0873	0.02704
+bud	ZFB_WT_DS2	ZFB_WT_DS2b	a/b	joint	0.1204	0.02902
+bud	ZFB_WT_DS2b	ZFB_WT_DS2b	random split	aligned	0.0336	0.02893
+bud	ZFB_WT_DS2b	ZFB_WT_DS2b	random split	joint	0.03953	0.0264
+bud	ZFB_WT_DS2	ZFB_WT_DS3	other batch	aligned	0.006588	0.01464
+bud	ZFB_WT_DS2	ZFB_WT_DS3	other batch	joint	0.03633	0.01416
+bud	ZFB_WT_DS3	ZFB_WT_DS3	random split	aligned	0.01408	0.0169
+bud	ZFB_WT_DS3	ZFB_WT_DS3	random split	joint	0.0145	0.01663
+bud	ZFB_WT_DS2	ZFB_WT_DS4	other batch	aligned	0.01845	0.01071
+bud	ZFB_WT_DS2	ZFB_WT_DS4	other batch	joint	0.04375	0.01095
+bud	ZFB_WT_DS4	ZFB_WT_DS4	random split	aligned	0.007286	0.01094
+bud	ZFB_WT_DS4	ZFB_WT_DS4	random split	joint	0.01275	0.01002
+bud	ZFB_WT_DS2b	ZFB_WT_DS3	other batch	aligned	0.01747	0.008912
+bud	ZFB_WT_DS2b	ZFB_WT_DS3	other batch	joint	0.08129	0.009592
+bud	ZFB_WT_DS3	ZFB_WT_DS3	random split	aligned	0.009666	0.008834
+bud	ZFB_WT_DS3	ZFB_WT_DS3	random split	joint	0.008615	0.009023
+bud	ZFB_WT_DS2b	ZFB_WT_DS4	other batch	aligned	0.04134	0.01325
+bud	ZFB_WT_DS2b	ZFB_WT_DS4	other batch	joint	0.1881	0.01429
+bud	ZFB_WT_DS4	ZFB_WT_DS4	random split	aligned	0.01336	0.0115
+bud	ZFB_WT_DS4	ZFB_WT_DS4	random split	joint	0.01275	0.01394
+bud	ZFB_WT_DS3	ZFB_WT_DS4	other batch	aligned	0.1806	0.03685
+bud	ZFB_WT_DS3	ZFB_WT_DS4	other batch	joint	0.3381	0.03897
+bud	ZFB_WT_DS3	ZFB_WT_DS3	random split	aligned	0.03173	0.03697
+bud	ZFB_WT_DS3	ZFB_WT_DS3	random split	joint	0.04119	0.03635
+6-somite	ZF6S_WT_DS5	ZF6S_WT_DS5b	a/b	aligned	0.2758	0.02335
+6-somite	ZF6S_WT_DS5	ZF6S_WT_DS5b	a/b	joint	0.4368	0.02148
+6-somite	ZF6S_WT_DS5	ZF6S_WT_DS5	random split	aligned	0.01389	0.02377
+6-somite	ZF6S_WT_DS5	ZF6S_WT_DS5	random split	joint	0.01853	0.02247

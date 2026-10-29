@@ -1,0 +1,20 @@
+stage	signal	A	B	A_high	B_low	A_low	B_high
+75% epiboly	BMP	non_neural_ectoderm	neural_plate	568	644	19	42
+90% epiboly	BMP	non_neural_ectoderm	neural_plate	595	691	36	47
+bud	BMP	non_neural_ectoderm	neural_plate	688	1108	102	43
+3-somite	BMP	non_neural_ectoderm	neural_plate	111	153	30	11
+6-somite	BMP	non_neural_ectoderm	neural_plate	328	412	113	67
+shield	Nodal	margin	presumptive_neural	178	14	42	3
+60% epiboly	Nodal	margin	presumptive_neural	765	172	444	21
+75% epiboly	Nodal	margin	presumptive_neural	910	255	911	46
+90% epiboly	Nodal	margin	presumptive_neural	602	295	867	51
+bud	Nodal	margin	presumptive_neural	241	244	1303	61
+bud	Wnt	tailbud	forebrain_eye	994	1137	317	12
+3-somite	Wnt	tailbud	forebrain_eye	196	225	38	3
+6-somite	Wnt	tailbud	forebrain_eye	599	649	51	15
+75% epiboly	FGF	mesoderm	non_neural_ectoderm	580	586	549	1
+90% epiboly	FGF	mesoderm	non_neural_ectoderm	560	629	611	2
+bud	FGF	mesoderm	non_neural_ectoderm	835	796	512	1
+bud	Notch	presomitic_mesoderm	lateral_plate	853	493	398	47
+3-somite	Notch	presomitic_mesoderm	lateral_plate	181	132	57	5
+6-somite	Notch	presomitic_mesoderm	lateral_plate	420	381	339	8

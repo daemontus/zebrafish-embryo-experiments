@@ -1,0 +1,299 @@
+consensus	representative	resolutions	n_resolutions	resolution	libraries	focal_libraries	batches	adjacent_only	clusters	cells	share	top_programs	stage
+c0	r0.5_p0	0.5	1	0.5	2	2	1	False	2	61	0.1961	p53_response,signal:bmp	high
+c1	r2_p0	2,4	2	2	2	2	1	False	2	29	0.09325	p53_response,signal:bmp	high
+c0	r0.5_p2	0.5,2,4	3	0.5	2	2	1	False	2	44	0.22	p53_response	oblong
+c1	r0.5_p1	0.5,1	2	0.5	2	2	1	False	2	35	0.175	p53_response	oblong
+c2	r0.5_p3	0.5,1,4	3	0.5	2	2	1	False	2	32	0.16	p53_response	oblong
+c3	r0.5_p0	0.5,1,2,4	4	0.5	2	2	1	False	2	27	0.135	p53_response	oblong
+c4	r2_p4	2,4	2	2	2	2	1	False	2	21	0.105	p53_response	oblong
+c5	r2_p0	2,4	2	2	2	2	1	False	2	19	0.095	p53_response	oblong
+c6	r2_p2	2,4	2	2	2	2	1	False	2	16	0.08	p53_response	oblong
+c7	r4_p5	4	1	4	2	2	1	False	2	14	0.07	p53_response	oblong
+c0	r1_p4	1	1	1	2	1	1	True	2	82	0.06985	signal:nodal,evl	dome
+c1	r1_p1	0.5,1,2	3	1	3	1	1	True	3	65	0.05537	signal:nodal,evl	dome
+c2	r0.5_p1	0.5,1,2,4	4	0.5	2	1	1	True	2	53	0.04514	signal:nodal,evl	dome
+c3	r0.5_p0	0.5,1,2,4	4	0.5	3	1	1	True	3	49	0.04174	evl,signal:nodal	dome
+c4	r2_p4	2,4	2	2	2	1	1	True	2	44	0.03748	signal:nodal,evl	dome
+c5	r2_p3	2	1	2	2	1	1	True	2	37	0.03152	evl,signal:nodal	dome
+c6	r2_p7	2	1	2	2	1	1	True	2	35	0.02981	evl,signal:nodal	dome
+c7	r4_p0	4	1	4	3	1	1	True	3	34	0.02896	signal:nodal,evl	dome
+c8	r1_p2	1,2	2	1	2	1	1	True	2	30	0.02555	signal:nodal,evl	dome
+c9	r0.5_p3	0.5,2,4	3	0.5	2	1	1	True	2	29	0.0247	signal:nodal,evl	dome
+c10	r4_p4	4	1	4	2	1	1	True	2	28	0.02385	evl,signal:nodal	dome
+c11	r4_p2	2,4	2	4	3	1	1	True	3	24	0.02044	signal:nodal,evl	dome
+c12	r4_p3	4	1	4	2	1	1	True	2	22	0.01874	signal:nodal,evl	dome
+c13	r4_p9	4	1	4	2	1	1	True	2	16	0.01363	signal:nodal,evl	dome
+c14	r4_p5	4	1	4	2	1	1	True	2	15	0.01278	signal:nodal,evl	dome
+c0	r1_p3	1,2	2	1	2	2	1	False	2	139	0.0923	pgc,signal:nodal,evl,margin	30% epiboly
+c1	r0.5_p3	0.5,1,4	3	0.5	2	2	1	False	2	131	0.08699	pgc,evl,signal:nodal,margin	30% epiboly
+c2	r1_p4	1,2,4	3	1	2	2	1	False	2	130	0.08632	margin,signal:nodal,pgc,evl	30% epiboly
+c3	r0.5_p1	0.5,1,4	3	0.5	2	2	1	False	2	120	0.07968	pgc,margin,signal:nodal,evl	30% epiboly
+c4	r0.5_p2	0.5,1	2	0.5	2	2	1	False	2	100	0.0664	signal:nodal,margin,pgc,evl	30% epiboly
+c5	r1_p6	1	1	1	2	2	1	False	2	100	0.0664	pgc,signal:nodal,evl,margin	30% epiboly
+c6	r1_p5	1	1	1	2	2	1	False	2	74	0.04914	pgc,margin,evl,signal:nodal	30% epiboly
+c7	r4_p5	2,4	2	4	2	2	1	False	2	66	0.04382	margin,signal:nodal,pgc,evl	30% epiboly
+c8	r2_p1	2	1	2	2	2	1	False	2	64	0.0425	pgc,evl,signal:nodal,margin	30% epiboly
+c9	r4_p2	4	1	4	2	2	1	False	2	52	0.03453	margin,pgc,signal:nodal,evl	30% epiboly
+c10	r2_p5	2,4	2	2	2	2	1	False	2	45	0.02988	pgc,evl,signal:nodal,margin	30% epiboly
+c11	r0.5_p0	0.5,1,2,4	4	0.5	2	2	1	False	2	31	0.02058	evl,pgc,margin,signal:nodal	30% epiboly
+c12	r4_p6	4	1	4	2	2	1	False	2	30	0.01992	pgc,signal:nodal,evl,margin	30% epiboly
+c0	r0.5_p0	0.5	1	0.5	4	4	3	False	4	535	0.09123	margin,dorsal_organizer,pgc,p53_response,evl	50% epiboly
+c1	r1_p1	1	1	1	4	4	3	False	4	473	0.08066	p53_response,dorsal_organizer,pgc,evl,margin	50% epiboly
+c2	r0.5_p4	0.5	1	0.5	2	2	2	False	2	332	0.05662	p53_response,pgc,dorsal_organizer,evl,margin	50% epiboly
+c3	r1_p11	1	1	1	2	2	1	False	2	310	0.05286	p53_response,dorsal_organizer,evl,pgc,margin	50% epiboly
+c4	r0.5_p1	0.5,1,2,4	4	0.5	4	4	3	False	4	200	0.03411	dorsal_organizer,margin,pgc,p53_response,evl	50% epiboly
+c5	r1_p5	1	1	1	3	3	2	False	3	196	0.03342	margin,p53_response,pgc,evl,dorsal_organizer	50% epiboly
+c6	r1_p4	0.5,1,2,4	4	1	3	3	2	False	3	193	0.03291	dorsal_organizer,pgc,p53_response,margin,evl	50% epiboly
+c7	r1_p9	1	1	1	2	2	2	False	2	188	0.03206	margin,dorsal_organizer,pgc,p53_response,evl	50% epiboly
+c8	r2_p11	2	1	2	2	2	2	False	2	153	0.02609	pgc,p53_response,dorsal_organizer,evl,margin	50% epiboly
+c9	r1_p10	1,2	2	1	2	2	2	False	2	151	0.02575	margin,p53_response,pgc,evl,dorsal_organizer	50% epiboly
+c10	r4_p5	4	1	4	3	3	3	False	3	146	0.0249	p53_response,dorsal_organizer,pgc,evl,margin	50% epiboly
+c11	r1_p7	1	1	1	2	2	2	False	2	143	0.02439	margin,dorsal_organizer,pgc,p53_response,evl	50% epiboly
+c12	r1_p6	1	1	1	2	2	2	False	2	141	0.02405	pgc,p53_response,dorsal_organizer,evl,margin	50% epiboly
+c13	r2_p7	2	1	2	2	2	2	False	2	130	0.02217	p53_response,pgc,dorsal_organizer,evl,margin	50% epiboly
+c14	r4_p2	4	1	4	4	4	3	False	4	118	0.02012	margin,dorsal_organizer,pgc,p53_response,evl	50% epiboly
+c15	r1_p8	1,2	2	1	2	2	2	False	2	112	0.0191	margin,dorsal_organizer,pgc,p53_response,evl	50% epiboly
+c16	r0.5_p2	0.5,1,2,4	4	0.5	4	4	3	False	4	109	0.01859	p53_response,pgc,dorsal_organizer,margin,evl	50% epiboly
+c17	r2_p9	0.5,2,4	3	2	2	2	2	False	2	91	0.01552	margin,p53_response,pgc,evl,dorsal_organizer	50% epiboly
+c18	r2_p5	2,4	2	2	2	2	2	False	2	86	0.01467	margin,pgc,dorsal_organizer,p53_response,evl	50% epiboly
+c19	r4_p3	0.5,1,2,4	4	4	4	4	3	False	4	78	0.0133	evl,p53_response,pgc,dorsal_organizer,margin	50% epiboly
+c20	r2_p3	2	1	2	2	2	2	False	2	73	0.01245	margin,dorsal_organizer,p53_response,pgc,evl	50% epiboly
+c21	r2_p2	2,4	2	2	2	2	2	False	2	69	0.01177	dorsal_organizer,margin,pgc,p53_response,evl	50% epiboly
+c22	r4_p9	4	1	4	2	2	2	False	2	68	0.0116	pgc,p53_response,dorsal_organizer,evl,margin	50% epiboly
+c23	r4_p16	4	1	4	2	2	1	False	2	67	0.01143	evl,pgc,p53_response,dorsal_organizer,margin	50% epiboly
+c24	r4_p15	4	1	4	2	2	1	False	2	62	0.01057	p53_response,pgc,evl,dorsal_organizer,margin	50% epiboly
+c25	r4_p10	4	1	4	2	2	2	False	2	57	0.00972	pgc,margin,p53_response,dorsal_organizer,evl	50% epiboly
+c26	r4_p17	4	1	4	2	2	1	False	2	52	0.008868	margin,pgc,dorsal_organizer,p53_response,evl	50% epiboly
+c27	r4_p13	4	1	4	2	2	2	False	2	48	0.008186	p53_response,pgc,dorsal_organizer,evl,margin	50% epiboly
+c28	r4_p14	4	1	4	2	2	1	False	2	43	0.007333	evl,p53_response,margin,pgc,dorsal_organizer	50% epiboly
+c29	r4_p8	4	1	4	2	2	2	False	2	42	0.007162	pgc,margin,p53_response,dorsal_organizer,evl	50% epiboly
+c30	r4_p11	4	1	4	2	2	2	False	2	28	0.004775	evl,p53_response,margin,dorsal_organizer,pgc	50% epiboly
+c0	r0.5_p2	0.5	1	0.5	4	1	3	True	4	177	0.1692	pgc,evl,dorsal_organizer,presomitic_mesoderm,margin,signal:bmp	shield
+c1	r0.5_p5	0.5,1	2	0.5	2	1	2	True	2	143	0.1367	evl,pgc,dorsal_organizer,presomitic_mesoderm,margin,signal:bmp	shield
+c2	r0.5_p4	0.5	1	0.5	2	1	2	True	2	122	0.1166	signal:bmp,evl,margin,pgc,presomitic_mesoderm,dorsal_organizer	shield
+c3	r0.5_p0	0.5,1	2	0.5	6	1	4	True	6	102	0.09751	margin,presomitic_mesoderm,dorsal_organizer,signal:bmp,pgc,evl	shield
+c4	r0.5_p3	0.5	1	0.5	3	1	3	True	3	88	0.08413	evl,pgc,signal:bmp,dorsal_organizer,presomitic_mesoderm,margin	shield
+c5	r1_p4	1,2	2	1	2	1	2	True	2	82	0.07839	pgc,evl,dorsal_organizer,presomitic_mesoderm,margin,signal:bmp	shield
+c6	r1_p2	1	1	1	3	1	3	True	3	71	0.06788	margin,presomitic_mesoderm,signal:bmp,dorsal_organizer,pgc,evl	shield
+c7	r2_p1	1,2,4	3	2	4	1	4	True	4	54	0.05163	signal:bmp,evl,pgc,dorsal_organizer,presomitic_mesoderm,margin	shield
+c8	r2_p8	2	1	2	2	1	2	True	2	46	0.04398	evl,pgc,dorsal_organizer,presomitic_mesoderm,margin,signal:bmp	shield
+c9	r0.5_p1	0.5,1,4	3	0.5	6	1	4	True	6	42	0.04015	dorsal_organizer,margin,presomitic_mesoderm,pgc,evl,signal:bmp	shield
+c10	r2_p4	2	1	2	2	1	2	True	2	41	0.0392	signal:bmp,evl,pgc,dorsal_organizer,presomitic_mesoderm,margin	shield
+c11	r2_p3	2	1	2	3	1	3	True	3	39	0.03728	evl,pgc,dorsal_organizer,presomitic_mesoderm,signal:bmp,margin	shield
+c12	r2_p11	2	1	2	2	1	2	True	2	33	0.03155	pgc,signal:bmp,evl,dorsal_organizer,presomitic_mesoderm,margin	shield
+c13	r4_p4	0.5,1,2,4	4	4	3	1	3	True	3	32	0.03059	signal:bmp,margin,presomitic_mesoderm,evl,pgc,dorsal_organizer	shield
+c14	r4_p5	4	1	4	3	1	3	True	3	32	0.03059	signal:bmp,margin,presomitic_mesoderm,evl,pgc,dorsal_organizer	shield
+c15	r4_p11	4	1	4	2	1	2	True	2	31	0.02964	presomitic_mesoderm,margin,dorsal_organizer,pgc,evl,signal:bmp	shield
+c16	r2_p6	2	1	2	2	1	2	True	2	31	0.02964	pgc,evl,dorsal_organizer,signal:bmp,presomitic_mesoderm,margin	shield
+c17	r4_p7	4	1	4	3	1	3	True	3	27	0.02581	evl,pgc,presomitic_mesoderm,dorsal_organizer,signal:bmp,margin	shield
+c18	r4_p9	2,4	2	4	3	1	3	True	3	26	0.02486	margin,presomitic_mesoderm,signal:bmp,pgc,dorsal_organizer,evl	shield
+c19	r4_p12	4	1	4	2	1	2	True	2	23	0.02199	margin,signal:bmp,dorsal_organizer,presomitic_mesoderm,pgc,evl	shield
+c20	r4_p8	4	1	4	3	1	3	True	3	22	0.02103	margin,presomitic_mesoderm,pgc,evl,dorsal_organizer,signal:bmp	shield
+c21	r4_p14	4	1	4	2	1	2	True	2	21	0.02008	margin,presomitic_mesoderm,dorsal_organizer,pgc,evl,signal:bmp	shield
+c22	r4_p3	2,4	2	4	3	1	2	True	3	20	0.01912	signal:bmp,margin,presomitic_mesoderm,pgc,evl,dorsal_organizer	shield
+c23	r2_p0	2,4	2	2	8	1	4	True	8	20	0.01912	dorsal_organizer,margin,presomitic_mesoderm,pgc,evl,signal:bmp	shield
+c24	r4_p2	4	1	4	4	1	3	True	4	19	0.01816	margin,presomitic_mesoderm,signal:bmp,pgc,dorsal_organizer,evl	shield
+c25	r4_p13	4	1	4	2	1	2	True	2	18	0.01721	signal:bmp,evl,pgc,dorsal_organizer,presomitic_mesoderm,margin	shield
+c26	r4_p15	4	1	4	2	1	2	True	2	17	0.01625	evl,pgc,dorsal_organizer,presomitic_mesoderm,margin,signal:bmp	shield
+c27	r4_p6	4	1	4	3	1	3	True	3	15	0.01434	dorsal_organizer,pgc,evl,presomitic_mesoderm,margin,signal:bmp	shield
+c28	r4_p10	2,4	2	4	3	1	3	True	3	14	0.01338	evl,dorsal_organizer,presomitic_mesoderm,pgc,margin,signal:bmp	shield
+c29	r4_p16	4	1	4	2	1	2	True	2	10	0.00956	margin,presomitic_mesoderm,dorsal_organizer,pgc,evl,signal:bmp	shield
+c0	r0.5_p0	0.5,1	2	0.5	3	3	3	False	3	422	0.1005	margin,presomitic_mesoderm,signal:wnt,signal:nodal,cell_cycle_g2m,p53_response,pgc,axial_mesoderm	60% epiboly
+c1	r1_p8	1	1	1	2	2	2	False	2	215	0.05118	signal:wnt,margin,cell_cycle_g2m,signal:bmp,presomitic_mesoderm,cell_cycle_s,p53_response,pgc	60% epiboly
+c2	r1_p7	1	1	1	2	2	2	False	2	201	0.04785	signal:bmp,blastomere,cell_cycle_g2m,signal:wnt,cell_cycle_s,evl,pgc,axial_mesoderm	60% epiboly
+c3	r0.5_p3	0.5,1	2	0.5	2	2	2	False	2	188	0.04475	margin,presomitic_mesoderm,dorsal_organizer,prechordal_plate,signal:wnt,signal:bmp,endoderm,axial_mesoderm	60% epiboly
+c4	r0.5_p1	0.5,1,2,4	4	0.5	3	3	3	False	3	170	0.04047	endoderm,signal:wnt,margin,signal:bmp,prechordal_plate,dorsal_organizer,evl,pgc	60% epiboly
+c5	r1_p1	0.5,1,2	3	1	3	3	3	False	3	153	0.03642	dorsal_organizer,signal:nodal,margin,axial_mesoderm,endoderm,prechordal_plate,pgc,signal:wnt	60% epiboly
+c6	r4_p0	2,4	2	4	3	3	3	False	3	114	0.02714	margin,presomitic_mesoderm,dorsal_organizer,prechordal_plate,signal:wnt,axial_mesoderm,endoderm,pgc	60% epiboly
+c7	r2_p0	0.5,1,2,4	4	2	3	3	3	False	3	102	0.02428	dorsal_organizer,signal:nodal,prechordal_plate,endoderm,margin,axial_mesoderm,presomitic_mesoderm,evl	60% epiboly
+c8	r2_p7	2,4	2	2	2	2	2	False	2	96	0.02285	signal:bmp,blastomere,cell_cycle_s,pgc,evl,p53_response,prechordal_plate,axial_mesoderm	60% epiboly
+c9	r4_p6	4	1	4	2	2	2	False	2	93	0.02214	margin,presomitic_mesoderm,signal:wnt,signal:nodal,cell_cycle_g2m,signal:bmp,p53_response,endoderm	60% epiboly
+c10	r4_p7	4	1	4	2	2	2	False	2	84	0.02	margin,presomitic_mesoderm,signal:nodal,signal:wnt,cell_cycle_s,pgc,p53_response,endoderm	60% epiboly
+c11	r2_p3	2,4	2	2	3	3	3	False	3	81	0.01928	presomitic_mesoderm,margin,signal:wnt,dorsal_organizer,cell_cycle_g2m,signal:nodal,prechordal_plate,pgc	60% epiboly
+c12	r2_p2	0.5,1,2,4	4	2	3	3	3	False	3	80	0.01904	p53_response,pgc,signal:bmp,blastomere,axial_mesoderm,cell_cycle_g2m,evl,prechordal_plate	60% epiboly
+c13	r1_p6	1,2,4	3	1	2	2	2	False	2	69	0.01642	cell_cycle_g2m,blastomere,evl,p53_response,axial_mesoderm,cell_cycle_s,pgc,prechordal_plate	60% epiboly
+c14	r4_p8	4	1	4	2	2	2	False	2	53	0.01262	blastomere,cell_cycle_s,p53_response,evl,cell_cycle_g2m,axial_mesoderm,pgc,prechordal_plate	60% epiboly
+c15	r4_p3	4	1	4	2	2	2	False	2	50	0.0119	signal:bmp,cell_cycle_g2m,blastomere,evl,prechordal_plate,pgc,axial_mesoderm,p53_response	60% epiboly
+c16	r4_p11	2,4	2	4	2	2	2	False	2	27	0.006427	evl,blastomere,axial_mesoderm,p53_response,prechordal_plate,pgc,cell_cycle_s,signal:bmp	60% epiboly
+c0	r0.5_p2	0.5	1	0.5	3	3	3	False	3	846	0.1338	blastomere,cell_cycle_s,pgc,evl,axial_mesoderm,endoderm,prechordal_plate,signal:nodal	75% epiboly
+c1	r0.5_p3	0.5	1	0.5	2	2	2	False	2	558	0.08824	cell_cycle_g2m,blastomere,evl,pgc,axial_mesoderm,non_neural_ectoderm,cell_cycle_s,endoderm	75% epiboly
+c2	r0.5_p4	0.5	1	0.5	2	2	2	False	2	551	0.08713	signal:bmp,non_neural_ectoderm,blastomere,evl,cell_cycle_s,pgc,cell_cycle_g2m,prechordal_plate	75% epiboly
+c3	r0.5_p5	0.5,1	2	0.5	2	2	2	False	2	358	0.05661	blastomere,cell_cycle_s,cell_cycle_g2m,axial_mesoderm,pgc,endoderm,evl,prechordal_plate	75% epiboly
+c4	r1_p2	1	1	1	2	2	2	False	2	306	0.04839	margin,presomitic_mesoderm,cell_cycle_g2m,signal:nodal,cell_cycle_s,pgc,axial_mesoderm,evl	75% epiboly
+c5	r0.5_p8	0.5,1	2	0.5	2	2	2	False	2	299	0.04728	signal:bmp,blastomere,cell_cycle_s,margin,pgc,evl,non_neural_ectoderm,axial_mesoderm	75% epiboly
+c6	r2_p3	1,2,4	3	2	3	3	3	False	3	260	0.04111	presomitic_mesoderm,margin,cell_cycle_g2m,axial_mesoderm,pgc,prechordal_plate,signal:nodal,evl	75% epiboly
+c7	r2_p4	2	1	2	3	3	3	False	3	250	0.03953	blastomere,cell_cycle_s,axial_mesoderm,pgc,endoderm,cell_cycle_g2m,evl,prechordal_plate	75% epiboly
+c8	r1_p6	1	1	1	2	2	2	False	2	235	0.03716	blastomere,cell_cycle_s,pgc,evl,axial_mesoderm,endoderm,prechordal_plate,non_neural_ectoderm	75% epiboly
+c9	r0.5_p1	0.5,1,2	3	0.5	3	3	3	False	3	233	0.03684	endoderm,margin,signal:bmp,prechordal_plate,cell_cycle_g2m,cell_cycle_s,evl,axial_mesoderm	75% epiboly
+c10	r1_p4	1	1	1	2	2	2	False	2	159	0.02514	presomitic_mesoderm,margin,prechordal_plate,endoderm,axial_mesoderm,cell_cycle_g2m,pgc,cell_cycle_s	75% epiboly
+c11	r2_p8	2	1	2	2	2	2	False	2	157	0.02483	cell_cycle_g2m,non_neural_ectoderm,evl,pgc,axial_mesoderm,cell_cycle_s,blastomere,prechordal_plate	75% epiboly
+c12	r2_p7	2	1	2	2	2	2	False	2	151	0.02388	signal:bmp,non_neural_ectoderm,blastomere,cell_cycle_s,evl,pgc,prechordal_plate,axial_mesoderm	75% epiboly
+c13	r2_p9	2	1	2	2	2	2	False	2	150	0.02372	cell_cycle_s,non_neural_ectoderm,signal:bmp,blastomere,pgc,evl,axial_mesoderm,prechordal_plate	75% epiboly
+c14	r2_p10	2	1	2	2	2	2	False	2	147	0.02324	blastomere,pgc,evl,cell_cycle_s,axial_mesoderm,endoderm,prechordal_plate,signal:nodal	75% epiboly
+c15	r2_p2	2	1	2	3	3	3	False	3	146	0.02309	non_neural_ectoderm,signal:bmp,blastomere,evl,pgc,prechordal_plate,cell_cycle_g2m,axial_mesoderm	75% epiboly
+c16	r2_p5	2,4	2	2	3	3	3	False	3	145	0.02293	presomitic_mesoderm,margin,prechordal_plate,cell_cycle_g2m,endoderm,axial_mesoderm,pgc,evl	75% epiboly
+c17	r0.5_p6	0.5,1	2	0.5	2	2	2	False	2	133	0.02103	axial_mesoderm,signal:nodal,margin,endoderm,prechordal_plate,pgc,evl,presomitic_mesoderm	75% epiboly
+c18	r2_p11	2	1	2	2	2	2	False	2	132	0.02087	axial_mesoderm,margin,signal:nodal,endoderm,prechordal_plate,pgc,evl,presomitic_mesoderm	75% epiboly
+c19	r4_p4	4	1	4	2	2	2	False	2	129	0.0204	cell_cycle_s,blastomere,evl,pgc,axial_mesoderm,non_neural_ectoderm,prechordal_plate,endoderm	75% epiboly
+c20	r2_p1	0.5,1,2,4	4	2	3	3	3	False	3	129	0.0204	prechordal_plate,signal:nodal,margin,endoderm,axial_mesoderm,evl,presomitic_mesoderm,signal:bmp	75% epiboly
+c21	r4_p9	4	1	4	2	2	2	False	2	107	0.01692	blastomere,cell_cycle_g2m,cell_cycle_s,pgc,axial_mesoderm,endoderm,evl,prechordal_plate	75% epiboly
+c22	r2_p6	2	1	2	2	2	2	False	2	106	0.01676	signal:bmp,blastomere,cell_cycle_s,non_neural_ectoderm,pgc,prechordal_plate,axial_mesoderm,evl	75% epiboly
+c23	r4_p10	4	1	4	2	2	2	False	2	100	0.01581	blastomere,cell_cycle_g2m,axial_mesoderm,pgc,evl,endoderm,cell_cycle_s,prechordal_plate	75% epiboly
+c24	r2_p13	1,2,4	3	2	2	2	2	False	2	70	0.01107	signal:nodal,endoderm,blastomere,cell_cycle_s,axial_mesoderm,cell_cycle_g2m,pgc,prechordal_plate	75% epiboly
+c25	r4_p7	4	1	4	2	2	2	False	2	63	0.009962	signal:bmp,cell_cycle_g2m,blastomere,non_neural_ectoderm,evl,margin,pgc,prechordal_plate	75% epiboly
+c26	r4_p8	4	1	4	2	2	2	False	2	59	0.00933	margin,presomitic_mesoderm,cell_cycle_g2m,signal:bmp,signal:nodal,prechordal_plate,pgc,endoderm	75% epiboly
+c27	r4_p5	4	1	4	2	2	2	False	2	52	0.008223	signal:bmp,endoderm,margin,cell_cycle_s,prechordal_plate,evl,axial_mesoderm,pgc	75% epiboly
+c28	r4_p3	4	1	4	2	2	2	False	2	42	0.006641	signal:bmp,margin,cell_cycle_s,presomitic_mesoderm,evl,pgc,blastomere,cell_cycle_g2m	75% epiboly
+c29	r2_p0	0.5,1,2,4	4	2	3	3	3	False	3	25	0.003953	pgc,cell_cycle_g2m,blastomere,axial_mesoderm,endoderm,prechordal_plate,evl,presomitic_mesoderm	75% epiboly
+c30	r0.5_p7	0.5,1,2,4	4	0.5	2	2	2	False	2	23	0.003637	evl,axial_mesoderm,prechordal_plate,non_neural_ectoderm,presomitic_mesoderm,endoderm,pgc,signal:nodal	75% epiboly
+c0	r0.5_p3	0.5	1	0.5	2	2	2	False	2	522	0.09278	non_neural_ectoderm,signal:bmp,evl,prechordal_plate,pgc,cell_cycle_g2m,cell_cycle_s,p53_response	90% epiboly
+c1	r0.5_p4	0.5	1	0.5	2	2	2	False	2	405	0.07199	blastomere,cell_cycle_s,pgc,cell_cycle_g2m,axial_mesoderm,p53_response,evl,endoderm	90% epiboly
+c2	r1_p6	1	1	1	2	2	2	False	2	388	0.06897	blastomere,cell_cycle_s,pgc,p53_response,evl,axial_mesoderm,endoderm,signal:nodal	90% epiboly
+c3	r0.5_p2	0.5,1	2	0.5	3	3	3	False	3	384	0.06825	presomitic_mesoderm,margin,cell_cycle_g2m,pgc,signal:nodal,p53_response,evl,prechordal_plate	90% epiboly
+c4	r1_p0	1,2	2	1	3	3	3	False	3	303	0.05386	non_neural_ectoderm,signal:bmp,prechordal_plate,cell_cycle_g2m,evl,pgc,axial_mesoderm,p53_response	90% epiboly
+c5	r0.5_p1	0.5,1,2	3	0.5	3	3	3	False	3	206	0.03662	endoderm,margin,signal:bmp,cell_cycle_g2m,p53_response,cell_cycle_s,axial_mesoderm,evl	90% epiboly
+c6	r1_p7	1	1	1	2	2	2	False	2	191	0.03395	presomitic_mesoderm,margin,signal:bmp,signal:nodal,cell_cycle_g2m,pgc,evl,p53_response	90% epiboly
+c7	r4_p3	4	1	4	3	3	3	False	3	169	0.03004	cell_cycle_g2m,blastomere,cell_cycle_s,p53_response,pgc,axial_mesoderm,evl,endoderm	90% epiboly
+c8	r1_p1	0.5,1,2,4	4	1	3	3	3	False	3	149	0.02648	axial_mesoderm,margin,endoderm,signal:nodal,prechordal_plate,p53_response,pgc,presomitic_mesoderm	90% epiboly
+c9	r2_p7	2	1	2	2	2	2	False	2	145	0.02577	cell_cycle_s,pgc,non_neural_ectoderm,evl,p53_response,blastomere,axial_mesoderm,prechordal_plate	90% epiboly
+c10	r1_p8	1	1	1	2	2	2	False	2	141	0.02506	blastomere,cell_cycle_g2m,pgc,p53_response,axial_mesoderm,endoderm,cell_cycle_s,evl	90% epiboly
+c11	r2_p11	2	1	2	2	2	2	False	2	136	0.02417	cell_cycle_g2m,presomitic_mesoderm,prechordal_plate,margin,cell_cycle_s,pgc,axial_mesoderm,endoderm	90% epiboly
+c12	r0.5_p0	0.5,1,2,4	4	0.5	3	3	3	False	3	119	0.02115	prechordal_plate,signal:nodal,evl,endoderm,axial_mesoderm,signal:bmp,p53_response,margin	90% epiboly
+c13	r1_p5	0.5,1	2	1	3	3	3	False	3	116	0.02062	signal:nodal,blastomere,endoderm,axial_mesoderm,cell_cycle_g2m,cell_cycle_s,margin,prechordal_plate	90% epiboly
+c14	r2_p5	2,4	2	2	2	2	2	False	2	106	0.01884	signal:bmp,margin,presomitic_mesoderm,signal:nodal,cell_cycle_g2m,p53_response,evl,pgc	90% epiboly
+c15	r2_p6	2	1	2	2	2	2	False	2	105	0.01866	blastomere,cell_cycle_s,pgc,axial_mesoderm,endoderm,p53_response,evl,prechordal_plate	90% epiboly
+c16	r4_p1	4	1	4	3	3	3	False	3	104	0.01849	signal:bmp,margin,cell_cycle_s,presomitic_mesoderm,cell_cycle_g2m,evl,p53_response,pgc	90% epiboly
+c17	r4_p2	2,4	2	4	3	3	3	False	3	96	0.01706	presomitic_mesoderm,margin,cell_cycle_g2m,pgc,p53_response,evl,axial_mesoderm,prechordal_plate	90% epiboly
+c18	r4_p7	4	1	4	2	2	2	False	2	96	0.01706	non_neural_ectoderm,signal:bmp,cell_cycle_g2m,prechordal_plate,evl,pgc,axial_mesoderm,blastomere	90% epiboly
+c19	r2_p8	2	1	2	2	2	2	False	2	94	0.01671	blastomere,cell_cycle_s,pgc,axial_mesoderm,evl,p53_response,endoderm,prechordal_plate	90% epiboly
+c20	r4_p8	4	1	4	2	2	2	False	2	90	0.016	blastomere,cell_cycle_g2m,cell_cycle_s,pgc,axial_mesoderm,evl,p53_response,endoderm	90% epiboly
+c21	r4_p5	4	1	4	2	2	2	False	2	86	0.01529	blastomere,cell_cycle_s,pgc,axial_mesoderm,evl,p53_response,endoderm,prechordal_plate	90% epiboly
+c22	r4_p15	4	1	4	2	2	2	False	2	80	0.01422	cell_cycle_s,pgc,p53_response,evl,blastomere,endoderm,axial_mesoderm,non_neural_ectoderm	90% epiboly
+c23	r0.5_p6	0.5,4	2	0.5	2	2	2	False	2	76	0.01351	p53_response,blastomere,cell_cycle_g2m,pgc,evl,non_neural_ectoderm,axial_mesoderm,endoderm	90% epiboly
+c24	r4_p14	4	1	4	2	2	2	False	2	76	0.01351	blastomere,cell_cycle_s,p53_response,pgc,evl,axial_mesoderm,endoderm,prechordal_plate	90% epiboly
+c25	r4_p10	4	1	4	2	2	2	False	2	75	0.01333	blastomere,cell_cycle_s,pgc,p53_response,evl,axial_mesoderm,endoderm,prechordal_plate	90% epiboly
+c26	r4_p4	4	1	4	2	2	2	False	2	56	0.009954	signal:bmp,margin,prechordal_plate,cell_cycle_s,presomitic_mesoderm,p53_response,pgc,evl	90% epiboly
+c27	r4_p6	2,4	2	4	2	2	2	False	2	43	0.007643	signal:bmp,endoderm,margin,p53_response,cell_cycle_g2m,cell_cycle_s,axial_mesoderm,evl	90% epiboly
+c28	r2_p9	2,4	2	2	2	2	2	False	2	42	0.007465	signal:nodal,blastomere,endoderm,cell_cycle_s,cell_cycle_g2m,axial_mesoderm,pgc,prechordal_plate	90% epiboly
+c29	r4_p12	4	1	4	2	2	2	False	2	25	0.004444	non_neural_ectoderm,cell_cycle_g2m,signal:bmp,evl,p53_response,pgc,axial_mesoderm,prechordal_plate	90% epiboly
+c30	r2_p12	2	1	2	2	2	2	False	2	23	0.004088	evl,axial_mesoderm,prechordal_plate,non_neural_ectoderm,signal:bmp,presomitic_mesoderm,endoderm,pgc	90% epiboly
+c0	r0.5_p0	0.5	1	0.5	4	4	3	False	4	965	0.1347	blastomere,hindbrain,cell_cycle_s,signal:wnt,forebrain_eye,signal:notch,midbrain_hindbrain_boundary,pgc	bud
+c1	r0.5_p3	0.5	1	0.5	4	4	3	False	4	914	0.1276	forebrain_eye,blastomere,cell_cycle_s,hindbrain,pgc,midbrain_hindbrain_boundary,signal:nodal,axial_mesoderm	bud
+c2	r0.5_p10	0.5	1	0.5	2	2	2	False	2	782	0.1092	non_neural_ectoderm,cell_cycle_s,midbrain_hindbrain_boundary,evl,hindbrain,forebrain_eye,pgc,cell_cycle_g2m	bud
+c3	r0.5_p5	0.5	1	0.5	3	3	2	False	3	508	0.07093	signal:fgf,signal:wnt,tailbud,signal:notch,margin,cell_cycle_s,signal:bmp,blastomere	bud
+c4	r0.5_p7	0.5	1	0.5	2	2	2	False	2	501	0.06995	lateral_plate,mesoderm,signal:bmp,adaxial_somite,prechordal_plate,cell_cycle_g2m,hatching_gland,margin	bud
+c5	r0.5_p1	0.5,1	2	0.5	4	4	3	False	4	476	0.06646	midbrain_hindbrain_boundary,blastomere,hindbrain,cell_cycle_s,forebrain_eye,endoderm,signal:wnt,pgc	bud
+c6	r1_p11	1,2,4	3	1	2	2	2	False	2	324	0.04524	forebrain_eye,blastomere,cell_cycle_g2m,hindbrain,pgc,midbrain_hindbrain_boundary,axial_mesoderm,cell_cycle_s	bud
+c7	r0.5_p2	0.5,1	2	0.5	4	4	3	False	4	302	0.04217	presomitic_mesoderm,adaxial_somite,margin,mesoderm,signal:fgf,cell_cycle_g2m,tailbud,notochord	bud
+c8	r1_p0	1	1	1	4	4	3	False	4	296	0.04133	blastomere,hindbrain,cell_cycle_s,forebrain_eye,midbrain_hindbrain_boundary,signal:notch,pgc,endoderm	bud
+c9	r2_p4	2	1	2	3	3	3	False	3	252	0.03519	signal:fgf,tailbud,signal:bmp,margin,signal:wnt,signal:notch,presomitic_mesoderm,cell_cycle_g2m	bud
+c10	r0.5_p4	0.5,1	2	0.5	3	3	2	False	3	225	0.03142	non_neural_ectoderm,signal:bmp,hatching_gland,tailbud,prechordal_plate,evl,pgc,lateral_plate	bud
+c11	r1_p6	1	1	1	2	2	2	False	2	207	0.0289	presomitic_mesoderm,signal:fgf,margin,tailbud,mesoderm,cell_cycle_s,adaxial_somite,signal:bmp	bud
+c12	r2_p0	1,2	2	2	4	4	3	False	4	199	0.02779	lateral_plate,signal:bmp,cell_cycle_g2m,mesoderm,endoderm,margin,prechordal_plate,hatching_gland	bud
+c13	r2_p13	2	1	2	2	2	2	False	2	189	0.02639	non_neural_ectoderm,signal:bmp,hatching_gland,evl,tailbud,prechordal_plate,pgc,lateral_plate	bud
+c14	r0.5_p8	0.5,1,2,4	4	0.5	2	2	2	False	2	180	0.02513	endoderm,signal:bmp,margin,lateral_plate,signal:wnt,mesoderm,tailbud,adaxial_somite	bud
+c15	r2_p6	2,4	2	2	3	3	3	False	3	167	0.02332	adaxial_somite,lateral_plate,mesoderm,presomitic_mesoderm,hatching_gland,prechordal_plate,cell_cycle_s,notochord	bud
+c16	r2_p9	2	1	2	2	2	2	False	2	165	0.02304	presomitic_mesoderm,margin,signal:fgf,tailbud,cell_cycle_g2m,mesoderm,adaxial_somite,signal:bmp	bud
+c17	r4_p15	4	1	4	2	2	2	False	2	157	0.02192	non_neural_ectoderm,signal:bmp,hatching_gland,prechordal_plate,evl,cell_cycle_g2m,tailbud,lateral_plate	bud
+c18	r0.5_p6	0.5	1	0.5	3	3	3	False	3	154	0.0215	notochord,axial_mesoderm,hatching_gland,margin,endoderm,adaxial_somite,signal:fgf,signal:wnt	bud
+c19	r0.5_p11	0.5	1	0.5	2	2	2	False	2	148	0.02066	signal:nodal,blastomere,endoderm,forebrain_eye,cell_cycle_g2m,prechordal_plate,cell_cycle_s,margin	bud
+c20	r2_p3	2	1	2	3	3	3	False	3	134	0.01871	signal:bmp,signal:wnt,non_neural_ectoderm,tailbud,signal:notch,margin,evl,blastomere	bud
+c21	r2_p11	2	1	2	2	2	2	False	2	133	0.01857	forebrain_eye,non_neural_ectoderm,evl,midbrain_hindbrain_boundary,endoderm,cell_cycle_g2m,hatching_gland,pgc	bud
+c22	r4_p3	4	1	4	3	3	2	False	3	131	0.01829	blastomere,cell_cycle_s,hindbrain,midbrain_hindbrain_boundary,forebrain_eye,pgc,axial_mesoderm,endoderm	bud
+c23	r4_p0	4	1	4	4	4	3	False	4	126	0.01759	midbrain_hindbrain_boundary,blastomere,hindbrain,forebrain_eye,cell_cycle_g2m,endoderm,signal:wnt,cell_cycle_s	bud
+c24	r2_p1	2	1	2	3	3	2	False	3	123	0.01717	midbrain_hindbrain_boundary,blastomere,hindbrain,forebrain_eye,endoderm,cell_cycle_s,signal:wnt,pgc	bud
+c25	r4_p1	2,4	2	4	4	4	3	False	4	122	0.01703	non_neural_ectoderm,signal:bmp,hatching_gland,tailbud,evl,prechordal_plate,cell_cycle_g2m,signal:notch	bud
+c26	r2_p15	2	1	2	2	2	2	False	2	121	0.01689	adaxial_somite,presomitic_mesoderm,mesoderm,margin,signal:notch,cell_cycle_g2m,pgc,notochord	bud
+c27	r1_p10	0.5,1,2	3	1	2	2	2	False	2	121	0.01689	hatching_gland,prechordal_plate,notochord,signal:nodal,evl,signal:bmp,adaxial_somite,endoderm	bud
+c28	r1_p8	1	1	1	2	2	2	False	2	120	0.01676	forebrain_eye,blastomere,cell_cycle_s,signal:nodal,pgc,hindbrain,axial_mesoderm,evl	bud
+c29	r4_p13	4	1	4	2	2	2	False	2	117	0.01634	cell_cycle_g2m,midbrain_hindbrain_boundary,hindbrain,pgc,axial_mesoderm,evl,cell_cycle_s,endoderm	bud
+c30	r2_p8	2	1	2	2	2	2	False	2	115	0.01606	signal:fgf,signal:wnt,signal:notch,tailbud,cell_cycle_s,margin,blastomere,notochord	bud
+c31	r1_p9	1	1	1	2	2	2	False	2	113	0.01578	blastomere,midbrain_hindbrain_boundary,cell_cycle_s,forebrain_eye,hindbrain,pgc,endoderm,axial_mesoderm	bud
+c32	r4_p7	4	1	4	3	3	3	False	3	112	0.01564	signal:bmp,non_neural_ectoderm,signal:wnt,tailbud,margin,evl,signal:notch,pgc	bud
+c33	r4_p5	4	1	4	3	3	3	False	3	102	0.01424	adaxial_somite,presomitic_mesoderm,margin,mesoderm,signal:fgf,tailbud,signal:notch,notochord	bud
+c34	r4_p10	4	1	4	2	2	2	False	2	99	0.01382	signal:fgf,signal:wnt,tailbud,signal:notch,cell_cycle_s,margin,signal:bmp,pgc	bud
+c35	r4_p8	4	1	4	3	3	3	False	3	84	0.01173	signal:nodal,blastomere,forebrain_eye,endoderm,prechordal_plate,cell_cycle_s,cell_cycle_g2m,margin	bud
+c36	r4_p6	4	1	4	3	3	3	False	3	81	0.01131	hatching_gland,notochord,adaxial_somite,prechordal_plate,mesoderm,presomitic_mesoderm,axial_mesoderm,lateral_plate	bud
+c37	r2_p12	2,4	2	2	2	2	2	False	2	80	0.01117	adaxial_somite,presomitic_mesoderm,margin,tailbud,signal:fgf,signal:notch,mesoderm,signal:bmp	bud
+c38	r4_p16	4	1	4	2	2	2	False	2	75	0.01047	endoderm,cell_cycle_g2m,lateral_plate,hindbrain,margin,mesoderm,adaxial_somite,notochord	bud
+c39	r1_p4	1	1	1	3	3	3	False	3	75	0.01047	signal:nodal,blastomere,endoderm,cell_cycle_s,margin,cell_cycle_g2m,forebrain_eye,axial_mesoderm	bud
+c40	r4_p2	4	1	4	3	3	2	False	3	72	0.01005	signal:wnt,blastomere,signal:fgf,cell_cycle_s,signal:notch,hindbrain,margin,pgc	bud
+c41	r4_p4	4	1	4	3	3	3	False	3	70	0.009774	presomitic_mesoderm,signal:fgf,margin,mesoderm,tailbud,cell_cycle_s,signal:bmp,adaxial_somite	bud
+c42	r4_p19	4	1	4	2	2	2	False	2	62	0.008657	presomitic_mesoderm,adaxial_somite,margin,signal:fgf,mesoderm,cell_cycle_g2m,tailbud,notochord	bud
+c43	r2_p7	2	1	2	2	2	1	False	2	47	0.006562	presomitic_mesoderm,adaxial_somite,margin,signal:fgf,mesoderm,cell_cycle_g2m,tailbud,notochord	bud
+c44	r2_p5	2,4	2	2	3	3	3	False	3	45	0.006283	notochord,axial_mesoderm,hatching_gland,margin,endoderm,adaxial_somite,signal:fgf,mesoderm	bud
+c45	r4_p11	4	1	4	2	2	2	False	2	40	0.005585	presomitic_mesoderm,signal:fgf,margin,tailbud,mesoderm,signal:notch,signal:bmp,cell_cycle_s	bud
+c46	r4_p9	4	1	4	2	2	1	False	2	28	0.00391	forebrain_eye,signal:nodal,cell_cycle_s,evl,midbrain_hindbrain_boundary,pgc,hindbrain,endoderm	bud
+c47	r1_p12	1,4	2	1	2	2	2	False	2	23	0.003211	evl,hatching_gland,axial_mesoderm,notochord,prechordal_plate,forebrain_eye,pgc,tailbud	bud
+c0	r0.5_p9	0.5	1	0.5	3	1	2	True	3	222	0.1361	signal:bmp,tailbud,signal:notch,cell_cycle_s,presomitic_mesoderm,cell_cycle_g2m,neural_crest,dorsal_forerunner	3-somite
+c1	r0.5_p13	0.5	1	0.5	2	1	2	True	2	207	0.1269	blastomere,cell_cycle_s,hindbrain,signal:notch,dorsal_forerunner,cell_cycle_g2m,primary_neurons,forebrain_eye	3-somite
+c2	r0.5_p8	0.5,1	2	0.5	4	1	2	True	4	134	0.08216	placodes,non_neural_ectoderm,evl,hatching_gland,prechordal_plate,forebrain_eye,neural_crest,axial_mesoderm	3-somite
+c3	r0.5_p2	0.5,1,2	3	0.5	5	1	4	True	5	108	0.06622	non_neural_ectoderm,signal:bmp,evl,hatching_gland,prechordal_plate,neural_crest,primary_neurons,placodes	3-somite
+c4	r0.5_p6	0.5,1,2	3	0.5	4	1	3	True	4	103	0.06315	presomitic_mesoderm,signal:bmp,adaxial_somite,tailbud,cell_cycle_g2m,signal:notch,lateral_plate,notochord	3-somite
+c5	r1_p10	1,2	2	1	3	1	2	True	3	97	0.05947	tailbud,blastomere,cell_cycle_s,signal:notch,cell_cycle_g2m,dorsal_forerunner,signal:bmp,floor_plate	3-somite
+c6	r1_p14	0.5,1,2,4	4	1	3	1	1	True	3	94	0.05763	lateral_plate,cell_cycle_g2m,signal:bmp,endoderm,tailbud,floor_plate,cell_cycle_s,prechordal_plate	3-somite
+c7	r0.5_p3	0.5,1,2,4	4	0.5	5	1	4	True	5	86	0.05273	adaxial_somite,presomitic_mesoderm,signal:notch,notochord,axial_mesoderm,tailbud,floor_plate,primary_neurons	3-somite
+c8	r2_p19	2	1	2	2	1	1	True	2	84	0.0515	blastomere,cell_cycle_s,hindbrain,dorsal_forerunner,forebrain_eye,signal:notch,midbrain_hindbrain_boundary,primary_neurons	3-somite
+c9	r1_p17	1,2	2	1	2	1	1	True	2	78	0.04782	blastomere,cell_cycle_s,signal:notch,hindbrain,primary_neurons,dorsal_forerunner,placodes,midbrain_hindbrain_boundary	3-somite
+c10	r1_p5	1,2,4	3	1	4	1	3	True	4	62	0.03801	signal:bmp,tailbud,signal:notch,presomitic_mesoderm,cell_cycle_g2m,neural_crest,cell_cycle_s,dorsal_forerunner	3-somite
+c11	r0.5_p1	0.5,1,2,4	4	0.5	6	1	4	True	6	56	0.03433	endoderm,dorsal_forerunner,lateral_plate,cell_cycle_g2m,notochord,neural_crest,hindbrain,hatching_gland	3-somite
+c12	r0.5_p4	0.5,1	2	0.5	5	1	3	True	5	56	0.03433	signal:nodal,floor_plate,blastomere,forebrain_eye,dorsal_forerunner,endoderm,prechordal_plate,neural_crest	3-somite
+c13	r4_p28	4	1	4	2	1	1	True	2	51	0.03127	blastomere,hindbrain,cell_cycle_g2m,cell_cycle_s,signal:notch,forebrain_eye,dorsal_forerunner,midbrain_hindbrain_boundary	3-somite
+c14	r2_p22	2	1	2	2	1	1	True	2	48	0.02943	non_neural_ectoderm,evl,signal:bmp,hatching_gland,neural_crest,primary_neurons,prechordal_plate,placodes	3-somite
+c15	r0.5_p10	0.5,1,2,4	4	0.5	3	1	1	True	3	48	0.02943	neural_crest,hindbrain,signal:bmp,midbrain_hindbrain_boundary,dorsal_forerunner,cell_cycle_s,placodes,primary_neurons	3-somite
+c16	r4_p26	4	1	4	2	1	1	True	2	45	0.02759	forebrain_eye,cell_cycle_s,midbrain_hindbrain_boundary,dorsal_forerunner,axial_mesoderm,signal:nodal,hindbrain,floor_plate	3-somite
+c17	r2_p2	2,4	2	2	4	1	3	True	4	44	0.02698	presomitic_mesoderm,adaxial_somite,signal:notch,tailbud,signal:bmp,lateral_plate,notochord,cell_cycle_s	3-somite
+c18	r4_p0	0.5,1,2,4	4	4	5	1	3	True	5	41	0.02514	midbrain_hindbrain_boundary,cell_cycle_s,blastomere,hindbrain,forebrain_eye,dorsal_forerunner,placodes,endoderm	3-somite
+c19	r1_p12	1,2	2	1	3	1	2	True	3	41	0.02514	lateral_plate,cell_cycle_g2m,floor_plate,adaxial_somite,hatching_gland,notochord,prechordal_plate,placodes	3-somite
+c20	r2_p13	2	1	2	2	1	2	True	2	40	0.02452	adaxial_somite,presomitic_mesoderm,signal:notch,notochord,axial_mesoderm,tailbud,primary_neurons,floor_plate	3-somite
+c21	r4_p19	4	1	4	2	1	2	True	2	40	0.02452	midbrain_hindbrain_boundary,blastomere,cell_cycle_s,hindbrain,forebrain_eye,dorsal_forerunner,endoderm,primary_neurons	3-somite
+c22	r2_p21	2,4	2	2	2	1	1	True	2	39	0.02391	lateral_plate,cell_cycle_g2m,endoderm,signal:bmp,floor_plate,non_neural_ectoderm,tailbud,prechordal_plate	3-somite
+c23	r4_p33	4	1	4	2	1	1	True	2	35	0.02146	non_neural_ectoderm,placodes,evl,hindbrain,dorsal_forerunner,hatching_gland,primary_neurons,prechordal_plate	3-somite
+c24	r4_p13	2,4	2	4	3	1	3	True	3	31	0.01901	forebrain_eye,placodes,non_neural_ectoderm,evl,prechordal_plate,hatching_gland,signal:nodal,cell_cycle_g2m	3-somite
+c25	r4_p20	4	1	4	2	1	2	True	2	30	0.01839	tailbud,cell_cycle_g2m,blastomere,signal:bmp,signal:notch,dorsal_forerunner,presomitic_mesoderm,placodes	3-somite
+c26	r4_p7	1,4	2	4	3	1	2	True	3	28	0.01717	forebrain_eye,midbrain_hindbrain_boundary,dorsal_forerunner,cell_cycle_g2m,cell_cycle_s,axial_mesoderm,floor_plate,signal:nodal	3-somite
+c27	r4_p17	4	1	4	2	1	2	True	2	27	0.01655	tailbud,signal:bmp,signal:notch,cell_cycle_s,presomitic_mesoderm,dorsal_forerunner,neural_crest,floor_plate	3-somite
+c28	r4_p1	4	1	4	5	1	3	True	5	27	0.01655	presomitic_mesoderm,cell_cycle_g2m,adaxial_somite,tailbud,signal:notch,notochord,axial_mesoderm,placodes	3-somite
+c29	r0.5_p0	0.5,1,2,4	4	0.5	6	1	4	True	6	27	0.01655	notochord,axial_mesoderm,hatching_gland,adaxial_somite,endoderm,prechordal_plate,neural_crest,floor_plate	3-somite
+c30	r1_p9	0.5,1,2,4	4	1	3	1	2	True	3	27	0.01655	primary_neurons,placodes,blastomere,signal:notch,hindbrain,prechordal_plate,midbrain_hindbrain_boundary,evl	3-somite
+c31	r4_p21	4	1	4	2	1	2	True	2	26	0.01594	signal:nodal,floor_plate,blastomere,forebrain_eye,cell_cycle_s,cell_cycle_g2m,prechordal_plate,endoderm	3-somite
+c32	r4_p27	4	1	4	2	1	1	True	2	26	0.01594	cell_cycle_g2m,forebrain_eye,midbrain_hindbrain_boundary,dorsal_forerunner,floor_plate,axial_mesoderm,primary_neurons,signal:nodal	3-somite
+c33	r4_p4	4	1	4	4	1	3	True	4	24	0.01471	cell_cycle_g2m,signal:bmp,lateral_plate,tailbud,presomitic_mesoderm,endoderm,placodes,hatching_gland	3-somite
+c34	r1_p13	0.5,1,2,4	4	1	3	1	1	True	3	24	0.01471	lateral_plate,endoderm,presomitic_mesoderm,placodes,notochord,cell_cycle_g2m,signal:notch,tailbud	3-somite
+c35	r4_p31	4	1	4	2	1	1	True	2	23	0.0141	forebrain_eye,blastomere,cell_cycle_s,neural_crest,dorsal_forerunner,hindbrain,axial_mesoderm,midbrain_hindbrain_boundary	3-somite
+c36	r4_p11	4	1	4	3	1	2	True	3	22	0.01349	forebrain_eye,cell_cycle_s,midbrain_hindbrain_boundary,dorsal_forerunner,hindbrain,axial_mesoderm,signal:nodal,primary_neurons	3-somite
+c37	r4_p29	4	1	4	2	1	1	True	2	20	0.01226	placodes,blastomere,primary_neurons,signal:notch,non_neural_ectoderm,midbrain_hindbrain_boundary,cell_cycle_s,evl	3-somite
+c38	r4_p10	4	1	4	3	1	3	True	3	18	0.01104	signal:nodal,floor_plate,forebrain_eye,blastomere,prechordal_plate,cell_cycle_g2m,neural_crest,signal:notch	3-somite
+c39	r4_p24	4	1	4	2	1	2	True	2	15	0.009197	signal:bmp,tailbud,cell_cycle_g2m,neural_crest,lateral_plate,evl,adaxial_somite,floor_plate	3-somite
+c40	r2_p11	2,4	2	2	3	1	2	True	3	13	0.007971	signal:notch,signal:bmp,tailbud,neural_crest,primary_neurons,placodes,floor_plate,dorsal_forerunner	3-somite
+c41	r2_p9	2,4	2	2	3	1	2	True	3	12	0.007357	floor_plate,signal:nodal,dorsal_forerunner,endoderm,blastomere,signal:notch,notochord,primary_neurons	3-somite
+c42	r0.5_p5	0.5,1,2,4	4	0.5	5	1	3	True	5	12	0.007357	hatching_gland,prechordal_plate,notochord,signal:nodal,signal:bmp,evl,primary_neurons,endoderm	3-somite
+c43	r4_p6	4	1	4	4	1	2	True	4	10	0.006131	adaxial_somite,presomitic_mesoderm,axial_mesoderm,notochord,primary_neurons,floor_plate,signal:notch,tailbud	3-somite
+c44	r4_p9	4	1	4	3	1	3	True	3	6	0.003679	signal:bmp,non_neural_ectoderm,evl,tailbud,cell_cycle_g2m,hatching_gland,neural_crest,primary_neurons	3-somite
+c45	r1_p3	0.5,1,2,4	4	1	5	1	3	True	5	6	0.003679	evl,hatching_gland,notochord,prechordal_plate,dorsal_forerunner,primary_neurons,floor_plate,non_neural_ectoderm	3-somite
+c0	r0.5_p2	0.5,1	2	0.5	2	2	1	False	2	368	0.08251	signal:bmp,signal:ra,tailbud,signal:wnt,signal:notch,presomitic_mesoderm,cell_cycle_s,cell_cycle_g2m	6-somite
+c1	r0.5_p0	0.5,1	2	0.5	2	2	1	False	2	308	0.06906	forebrain_eye,midbrain_hindbrain_boundary,cell_cycle_s,pgc,cell_cycle_g2m,intermediate_mesoderm,floor_plate,hindbrain	6-somite
+c2	r0.5_p6	0.5	1	0.5	2	2	1	False	2	243	0.05448	placodes,non_neural_ectoderm,evl,heart,forebrain_eye,hatching_gland,prechordal_plate,endoderm	6-somite
+c3	r0.5_p4	0.5,1	2	0.5	2	2	1	False	2	214	0.04798	lateral_plate,ventral_bmp,intermediate_mesoderm,endoderm,signal:ra,heart,cell_cycle_g2m,pgc	6-somite
+c4	r0.5_p3	0.5	1	0.5	2	2	1	False	2	196	0.04395	heart,lateral_plate,ventral_bmp,cell_cycle_g2m,floor_plate,hatching_gland,notochord,intermediate_mesoderm	6-somite
+c5	r0.5_p8	0.5	1	0.5	2	2	1	False	2	195	0.04372	midbrain_hindbrain_boundary,cell_cycle_s,blastomere,hindbrain,signal:wnt,intermediate_mesoderm,pgc,forebrain_eye	6-somite
+c6	r2_p12	2,4	2	2	2	2	1	False	2	166	0.03722	blastomere,forebrain_eye,cell_cycle_g2m,neural_crest,cell_cycle_s,midbrain_hindbrain_boundary,hindbrain,pgc	6-somite
+c7	r2_p2	1,2	2	2	2	2	1	False	2	163	0.03655	blastomere,cell_cycle_s,signal:wnt,signal:notch,cell_cycle_g2m,tailbud,primary_neurons,floor_plate	6-somite
+c8	r0.5_p7	0.5	1	0.5	2	2	1	False	2	158	0.03543	endoderm,heart,signal:ra,signal:bmp,notochord,hindbrain,lateral_plate,prechordal_plate	6-somite
+c9	r0.5_p12	0.5,1	2	0.5	2	2	1	False	2	149	0.03341	neural_crest,signal:bmp,pgc,hindbrain,axial_mesoderm,cell_cycle_g2m,placodes,primary_neurons	6-somite
+c10	r2_p7	2,4	2	2	2	2	1	False	2	148	0.03318	signal:wnt,signal:notch,tailbud,signal:ra,signal:bmp,blastomere,cell_cycle_s,cell_cycle_g2m	6-somite
+c11	r2_p11	1,2,4	3	2	2	2	1	False	2	130	0.02915	adaxial_somite,presomitic_mesoderm,signal:notch,pgc,notochord,signal:ra,heart,axial_mesoderm	6-somite
+c12	r4_p2	4	1	4	2	2	1	False	2	124	0.0278	forebrain_eye,cell_cycle_s,midbrain_hindbrain_boundary,pgc,floor_plate,intermediate_mesoderm,hindbrain,placodes	6-somite
+c13	r2_p5	2	1	2	2	2	1	False	2	116	0.02601	non_neural_ectoderm,signal:ra,evl,signal:wnt,signal:bmp,hatching_gland,ventral_bmp,intermediate_mesoderm	6-somite
+c14	r0.5_p1	0.5,1,2	3	0.5	2	2	1	False	2	114	0.02556	floor_plate,forebrain_eye,blastomere,prechordal_plate,cell_cycle_s,pgc,signal:notch,endoderm	6-somite
+c15	r2_p1	2	1	2	2	2	1	False	2	114	0.02556	presomitic_mesoderm,adaxial_somite,cell_cycle_g2m,pgc,signal:notch,tailbud,ventral_bmp,notochord	6-somite
+c16	r2_p6	2,4	2	2	2	2	1	False	2	108	0.02422	hindbrain,blastomere,cell_cycle_s,forebrain_eye,cell_cycle_g2m,signal:notch,midbrain_hindbrain_boundary,pgc	6-somite
+c17	r0.5_p5	0.5,1,2	3	0.5	2	2	1	False	2	87	0.01951	notochord,axial_mesoderm,hatching_gland,signal:wnt,endoderm,signal:ra,adaxial_somite,prechordal_plate	6-somite
+c18	r1_p5	1,2,4	3	1	2	2	1	False	2	86	0.01928	lateral_plate,ventral_bmp,intermediate_mesoderm,heart,endoderm,presomitic_mesoderm,pgc,placodes	6-somite
+c19	r4_p4	4	1	4	2	2	1	False	2	82	0.01839	midbrain_hindbrain_boundary,cell_cycle_s,blastomere,signal:wnt,intermediate_mesoderm,hindbrain,cell_cycle_g2m,pgc	6-somite
+c20	r2_p9	0.5,2,4	3	2	2	2	1	False	2	71	0.01592	primary_neurons,placodes,blastomere,signal:notch,hindbrain,signal:wnt,midbrain_hindbrain_boundary,forebrain_eye	6-somite
+c21	r4_p1	4	1	4	2	2	1	False	2	65	0.01457	floor_plate,hatching_gland,heart,adaxial_somite,intermediate_mesoderm,notochord,prechordal_plate,placodes	6-somite
+c22	r0.5_p11	0.5,1,2,4	4	0.5	2	2	1	False	2	45	0.01009	hatching_gland,prechordal_plate,notochord,signal:bmp,primary_neurons,evl,endoderm,axial_mesoderm	6-somite
+c23	r4_p11	4	1	4	2	2	1	False	2	40	0.008969	notochord,axial_mesoderm,hatching_gland,adaxial_somite,endoderm,prechordal_plate,intermediate_mesoderm,ventral_bmp	6-somite
+c24	r0.5_p9	0.5,1,2,4	4	0.5	2	2	1	False	2	38	0.00852	evl,hatching_gland,intermediate_mesoderm,non_neural_ectoderm,notochord,prechordal_plate,axial_mesoderm,floor_plate	6-somite
+c25	r4_p6	4	1	4	2	2	1	False	2	37	0.008296	heart,lateral_plate,ventral_bmp,intermediate_mesoderm,cell_cycle_g2m,signal:bmp,endoderm,floor_plate	6-somite

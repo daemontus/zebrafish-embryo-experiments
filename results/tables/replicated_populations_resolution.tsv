@@ -1,0 +1,480 @@
+stage	resolution	population	libraries	focal_libraries	batches	adjacent_only	clusters	cells	share	evl_precision	evl_recall	top_genes	zfin
+high	1	r1_p0	2	2	1	False	2	41	0.1318	0.3171	0.9286	mid1ip1a,krt18,grhl3,cldne,marcksl1b,si:ch211-125o16.4,gadd45ba,klf2a	
+high	2	r2_p0	2	2	1	False	2	26	0.0836	0.03846	0.07143	hspb1,tbx16,gsc,dharma,noto,si:dkey-228b2.6,ccnd1,sox11a	
+high	2	r2_p1	2	2	1	False	2	31	0.09968	0	0	ca15b,dnd1,ddx4,nanos3,tdrd7a,gra,mxtx2,rgs14a	
+oblong	2	r2_p0	2	2	1	False	2	18	0.09	0	0	zgc:195170,si:dkeyp-86f7.3,vox,mcm6,si:ch73-1a9.3,abcd3a,ripk4,si:ch211-262h13.5	
+oblong	4	r4_p0	2	2	1	False	2	18	0.09	0.7222	0.7222	mid1ip1a,lye,stard14,krt18,cldne,grhl3,cebpb,si:ch211-125o16.4	
+dome	0.5	r0.5_p0	3	1	1	True	3	98	0.08348	0.02041	0.03175	ta,wnt11,mixl1,ved,osr1,lft1,eve1,fgf8a	
+dome	0.5	r0.5_p1	2	1	1	True	2	84	0.07155	0.6786	0.9048	krt18,lye,mid1ip1a,krt4,krt8,cldne,stard14,si:ch211-125o16.4	
+dome	0.5	r0.5_p2	2	1	1	True	2	87	0.07411	0.01149	0.01587	chd,gsc,xbp1,rasgef1ba,fscn1a,foxa,foxa3,admp	
+dome	1	r1_p0	3	1	1	True	3	86	0.07325	0.02326	0.03175	ta,wnt11,mixl1,ved,osr1,eve1,lft1,apoc1	
+dome	1	r1_p1	3	1	1	True	3	99	0.08433	0.0101	0.01587	chd,gsc,xbp1,rasgef1ba,fscn1a,foxa,foxa3,admp	
+dome	1	r1_p2	3	1	1	True	3	39	0.03322	1	0.619	krt18,mid1ip1a,krt4,krt8,cldne,lye,zgc:193505,stard14	
+dome	1	r1_p3	2	1	1	True	2	37	0.03152	0	0	zgc:110425,zgc:153405,si:ch211-113a14.12,si:ch211-113a14.18,si:ch211-113a14.24,si:dkey-108k21.10,si:dkey-261m9.12,stm	
+dome	1	r1_p4	2	1	1	True	2	53	0.04514	0.3396	0.2857	lye,krt18,tagln2,sult6b1,cabz01059415.2,alox5b.3,mid1ip1a,stard14	
+dome	2	r2_p0	3	1	1	True	3	39	0.03322	1	0.619	krt18,mid1ip1a,krt4,krt8,cldne,lye,zgc:193505,stard14	
+dome	2	r2_p1	2	1	1	True	2	39	0.03322	0	0	zgc:110425,zgc:153405,si:ch211-113a14.12,si:ch211-113a14.18,si:dkey-108k21.10,si:dkey-261m9.12,si:ch211-113a14.24,stm	
+dome	2	r2_p2	2	1	1	True	2	111	0.09455	0	0	zgc:158852,zgc:113886,blf,mid1ip1l,rx3,si:dkey-261j4.5,cu570881.1,si:dkey-9c18.3	
+dome	2	r2_p3	2	1	1	True	2	42	0.03578	0	0	histh1l,sult6b1,apoeb,tsc22d2,cdkn1ca,klf17,homeza,cabz01059415.2	
+dome	2	r2_p4	2	1	1	True	2	95	0.08092	0.01053	0.01587	chd,gsc,xbp1,rasgef1ba,foxa,fscn1a,admp,noto	
+dome	2	r2_p5	2	1	1	True	2	55	0.04685	0.3273	0.2857	lye,krt18,tagln2,sult6b1,cabz01059415.2,alox5b.3,mid1ip1a,stard14	
+dome	2	r2_p6	2	1	1	True	2	87	0.07411	0.02299	0.03175	ta,wnt11,mixl1,osr1,ved,lft1,eve1,fgf8a	
+dome	4	r4_p0	3	1	1	True	3	12	0.01022	0	0	sesn3,mdm2,aplnrb,si:ch211-239d6.2,si:ch211-260e23.9,isg15,foxi1,zgc:64022	
+dome	4	r4_p1	3	1	1	True	3	39	0.03322	1	0.619	krt18,mid1ip1a,krt4,krt8,cldne,lye,zgc:193505,stard14	
+dome	4	r4_p2	2	1	1	True	2	52	0.04429	0.3462	0.2857	lye,krt18,tagln2,sult6b1,cabz01059415.2,alox5b.3,mid1ip1a,stard14	
+dome	4	r4_p3	2	1	1	True	2	28	0.02385	0	0	gsc,foxa,foxa3,foxa2,nog1,xbp1,chd,osr1	
+dome	4	r4_p4	2	1	1	True	2	9	0.007666	0	0	nanos3,dnd1,ddx4,ca15b,gra,tdrd7a,krcc1,zgc:158852	
+30% epiboly	0.5	r0.5_p0	2	2	1	False	2	29	0.01926	0.03448	0.01429	sesn3,si:ch211-260e23.9,phlda3,bcl2l14,mdm2,foxo3b,si:ch211-239d6.2,ctsh	
+30% epiboly	0.5	r0.5_p1	2	2	1	False	2	99	0.06574	0.0101	0.01429	chd,admp,noto,foxd3,rasgef1ba,xbp1,fscn1a,higd1a	
+30% epiboly	1	r1_p0	2	2	1	False	2	109	0.07238	0.009174	0.01429	chd,noto,admp,foxd3,xbp1,gsc,fscn1a,rasgef1ba	
+30% epiboly	1	r1_p1	2	2	1	False	2	165	0.1096	0.06061	0.1429	ta,mixl1,wnt11,dkk1b,fgf8a,osr1,mespab,wnt8a	
+30% epiboly	1	r1_p2	2	2	1	False	2	30	0.01992	0.03333	0.01429	sesn3,si:ch211-260e23.9,mdm2,phlda3,bcl2l14,foxo3b,si:ch211-239d6.2,ctsh	
+30% epiboly	2	r2_p0	2	2	1	False	2	32	0.02125	1	0.4571	krt18,krt4,krt8,mid1ip1a,cldne,lye,zgc:193505,stard14	EVL (6/6)
+30% epiboly	2	r2_p1	2	2	1	False	2	33	0.02191	0.0303	0.01429	sesn3,si:ch211-260e23.9,bcl2l14,mdm2,phlda3,foxo3b,si:ch211-239d6.2,igf2a	
+30% epiboly	4	r4_p0	2	2	1	False	2	32	0.02125	1	0.4571	krt18,krt4,krt8,mid1ip1a,cldne,lye,zgc:193505,stard14	EVL (6/6)
+30% epiboly	4	r4_p1	2	2	1	False	2	35	0.02324	0.02857	0.01429	sesn3,si:ch211-260e23.9,mdm2,bcl2l14,phlda3,foxo3b,si:ch211-239d6.2,igf2a	
+30% epiboly	4	r4_p2	2	2	1	False	2	64	0.0425	0	0	eve1,ta,cdx4,ved,wnt11,mixl1,hes6,tbx16	
+30% epiboly	4	r4_p3	2	2	1	False	2	64	0.0425	0.09375	0.08571	dkk1b,mixl1,lft2,cth1,gata5,ta,pitx2,foxa	
+50% epiboly	0.5	r0.5_p0	4	4	3	False	4	120	0.02046	0.008333	0.004673	sesn3,si:ch211-260e23.9,phlda3,mdm2,bcl2l14,cdkn1a,foxo3b,isg15	
+50% epiboly	0.5	r0.5_p1	4	4	3	False	4	165	0.02814	0.9152	0.7056	lye,krt4,krt18,krt8,cldne,krt5,pfn1,sult6b1	EVL (13/13); periderm (10/13)
+50% epiboly	0.5	r0.5_p2	3	3	2	False	3	741	0.1264	0.005398	0.01869	ta,eve1,cdx4,ved,wnt11,hes6,tbx16,apoc1	margin (13/15)
+50% epiboly	0.5	r0.5_p3	2	2	2	False	2	139	0.0237	0.007194	0.004673	chd,gsc,xbp1,nog1,noto,fscn1a,foxa,foxa3	presumptive shield (4/12)
+50% epiboly	0.5	r0.5_p4	2	2	1	False	2	262	0.04468	0.03435	0.04206	fscn1a,foxa,mixl1,dkk1b,snai1a,rnd1l,lhx1a,msgn1	
+50% epiboly	1	r1_p0	4	4	3	False	4	121	0.02063	0.008264	0.004673	sesn3,si:ch211-260e23.9,mdm2,phlda3,bcl2l14,cdkn1a,foxo3b,isg15	
+50% epiboly	1	r1_p1	3	3	3	False	3	172	0.02933	0.01163	0.009346	chd,gsc,xbp1,nog1,fscn1a,foxa,foxa3,noto	presumptive shield (5/13)
+50% epiboly	1	r1_p2	3	3	3	False	3	94	0.01603	1	0.4393	krt4,krt18,krt8,zgc:193505,lye,cldne,mid1ip1a,krt97	EVL (13/13); periderm (10/13)
+50% epiboly	1	r1_p3	3	3	2	False	3	270	0.04604	0.02593	0.03271	fscn1a,msgn1,mixl1,dkk1b,gata5,rnd1l,snai1a,apoc1	
+50% epiboly	1	r1_p4	3	3	2	False	3	425	0.07248	0.01176	0.02336	ta,wnt11,eve1,cdx4,tbx16,hes6,mixl1,ved	margin (14/17)
+50% epiboly	1	r1_p5	2	2	2	False	2	149	0.02541	0.006711	0.004673	hsp90aa1.2,serpinh1b,hsp70.3,ptges3l,hspe1,h3f3a,hmgn2,si:ch211-222l21.1	
+50% epiboly	2	r2_p0	4	4	3	False	4	287	0.04894	0.003484	0.004673	fosab,atf3,junba,cu019646.2,klf2b,sox3,apoeb,cabz01070258.1	presumptive ectoderm (4/8)
+50% epiboly	2	r2_p1	4	4	3	False	4	119	0.02029	0.008403	0.004673	sesn3,si:ch211-260e23.9,phlda3,mdm2,bcl2l14,cdkn1a,foxo3b,isg15	
+50% epiboly	2	r2_p2	4	4	3	False	4	169	0.02882	0.01183	0.009346	gsc,chd,xbp1,nog1,foxa,fscn1a,ripply1,frzb	
+50% epiboly	2	r2_p3	4	4	3	False	4	111	0.01893	1	0.5187	krt4,krt18,krt8,zgc:193505,lye,cldne,mid1ip1a,krt97	EVL (13/13); periderm (10/13)
+50% epiboly	2	r2_p4	3	3	2	False	3	313	0.05338	0.02556	0.03738	mixl1,fscn1a,msgn1,mespab,dkk1b,apoc1,ta,snai1a	margin (10/13)
+50% epiboly	2	r2_p5	3	3	2	False	3	97	0.01654	0.5773	0.2617	lye,tagln2,krt18,sult6b1,krt4,krt8,cabz01059415.2,pfn1	
+50% epiboly	2	r2_p6	2	2	2	False	2	114	0.01944	0	0	noto,chd,foxd3,admp,rasgef1ba,xbp1,serpinh1b,arl4ab	
+50% epiboly	2	r2_p7	2	2	2	False	2	242	0.04127	0.004132	0.004673	ta,eve1,cdx4,wnt11,hes6,tbx16,ved,sebox	margin (14/16); DEL (4/16)
+50% epiboly	4	r4_p0	4	4	3	False	4	123	0.02098	0.00813	0.004673	sesn3,si:ch211-260e23.9,phlda3,mdm2,bcl2l14,cdkn1a,foxo3b,isg15	
+50% epiboly	4	r4_p1	4	4	3	False	4	97	0.01654	0.02062	0.009346	gsc,chd,foxa,nog1,ripply1,fzd8b,id3,xbp1	
+50% epiboly	4	r4_p2	4	4	3	False	4	111	0.01893	1	0.5187	krt4,krt18,krt8,zgc:193505,lye,cldne,mid1ip1a,krt97	EVL (13/13); periderm (10/13)
+50% epiboly	4	r4_p3	4	4	3	False	4	86	0.01467	0.7674	0.3084	lye,krt18,tagln2,krt4,sult6b1,krt8,pfn1,zgc:101000	EVL (13/15); periderm (11/15)
+50% epiboly	4	r4_p4	3	3	3	False	3	173	0.0295	0	0	noto,admp,foxd3,chd,rasgef1ba,xbp1,serpinh1b,foxb1a	
+50% epiboly	4	r4_p5	3	3	3	False	3	83	0.01415	0.01205	0.004673	chd,xbp1,gsc,noto,foxa3,nog1,admp,ta	presumptive shield (5/13)
+50% epiboly	4	r4_p6	3	3	2	False	3	190	0.0324	0.03684	0.03271	fscn1a,gata5,msgn1,rnd1l,snai1a,gata6,apoc1,dkk1b	
+50% epiboly	4	r4_p7	3	3	2	False	3	158	0.02694	0.03165	0.02336	ta,mixl1,mespab,wnt11,tbx16,osr1,apoc1,wnt8a	margin (11/14)
+50% epiboly	4	r4_p8	2	2	2	False	2	86	0.01467	0	0	ved,apoeb,apoc1,gata2a,bambia,id1,sox3,szl	presumptive ectoderm (5/10)
+50% epiboly	4	r4_p9	2	2	2	False	2	11	0.001876	0	0	dnd1,tdrd7a,ddx4,nanos3,gra,ca15b,h1m,hsp70.3	primordial germ cell (6/7)
+shield	0.5	r0.5_p0	6	1	4	True	6	48	0.04589	0.02083	0.05263	xbp1,chd,gsc,noto,nog1,frzb,foxa,ripply1	shield (14/19)
+shield	0.5	r0.5_p1	5	1	4	True	5	193	0.1845	0.005181	0.05263	her3,aldob,hesx1,hspb1,zic3,si:ch211-152c2.3,foxd3,admp	neural plate (9/16)
+shield	0.5	r0.5_p2	5	1	4	True	5	214	0.2046	0	0	cdx4,ta,eve1,ved,hes6,tbx16,wnt11,rasgef1ba	margin (14/16)
+shield	0.5	r0.5_p3	4	1	4	True	4	11	0.01052	0	0	sesn3,si:ch211-260e23.9,bcl2l14,gadd45aa,zgc:64022,mat2al,zgc:171699,si:ch211-193l2.5	neural plate (6/9)
+shield	0.5	r0.5_p4	4	1	4	True	4	126	0.1205	0.007937	0.05263	msgn1,fscn1a,tbx16,snai1a,mespaa,mespab,aplnra,efnb2b	margin (15/17)
+shield	0.5	r0.5_p5	4	1	4	True	4	26	0.02486	0.03846	0.05263	sox32,cxcr4a,rnd1l,fscn1a,gata5,sox17,id3,snai1a	endoderm (7/17); presumptive endoderm (5/17)
+shield	0.5	r0.5_p6	2	1	2	True	2	39	0.03728	0.02564	0.05263	fosab,atf3,junba,id1,jun,klf2b,nnr,si:ch1073-80i24.3	
+shield	1	r1_p0	6	1	4	True	6	48	0.04589	0.02083	0.05263	xbp1,chd,gsc,noto,nog1,frzb,foxa,ripply1	shield (14/19)
+shield	1	r1_p1	5	1	4	True	5	11	0.01052	0	0	sesn3,si:ch211-260e23.9,bcl2l14,gadd45aa,zgc:64022,mat2al,zgc:171699,si:ch211-193l2.5	neural plate (6/9)
+shield	1	r1_p2	5	1	4	True	5	48	0.04589	0.02083	0.05263	fosab,atf3,junba,id1,jun,cu019646.2,sox3,nnr	
+shield	1	r1_p3	5	1	4	True	5	27	0.02581	0.03704	0.05263	sox32,cxcr4a,rnd1l,fscn1a,gata5,id3,snai1a,sox17	endoderm (6/17)
+shield	1	r1_p4	4	1	3	True	4	118	0.1128	0	0	cdx4,ta,ved,eve1,hes6,tbx16,wnt11,znfl2a	margin (17/18); presumptive mesoderm (7/18)
+shield	1	r1_p5	3	1	3	True	3	144	0.1377	0	0	ved,apoeb,id1,foxi1,apoc1,gata2a,bambia,rgcc	epiblast (8/12); presumptive ectoderm (8/12)
+shield	1	r1_p6	3	1	2	True	3	19	0.01816	0.7368	0.7368	lye,krt18,krt4,krt5,krt8,zgc:101000,pfn1,sult6b1	EVL (13/13); periderm (10/13)
+shield	1	r1_p7	2	1	2	True	2	124	0.1185	0.008065	0.05263	msgn1,fscn1a,tbx16,snai1a,mespaa,aplnra,mespab,efnb2b	margin (15/17)
+shield	1	r1_p8	2	1	2	True	2	33	0.03155	0	0	si:ch211-113a14.18,si:dkey-108k21.10,zgc:153405,zgc:110425,si:ch211-113a14.24,si:dkey-261m9.12,si:ch211-113a14.12,si:dkey-108k21.21	
+shield	1	r1_p9	2	1	2	True	2	139	0.1329	0.007194	0.05263	her3,hesx1,aldob,zic3,si:ch211-152c2.3,lratb,asb11,si:ch1073-80i24.3	neural plate (11/15)
+shield	2	r2_p0	7	1	4	True	7	13	0.01243	0	0	si:ch211-260e23.9,sesn3,bcl2l14,gadd45aa,zgc:64022,mat2al,zgc:171699,si:ch211-193l2.5	neural plate (6/8)
+shield	2	r2_p1	6	1	4	True	6	27	0.02581	0.03704	0.05263	sox32,cxcr4a,rnd1l,fscn1a,gata5,id3,snai1a,sox17	endoderm (6/17)
+shield	2	r2_p2	5	1	4	True	5	49	0.04685	0.02041	0.05263	xbp1,chd,gsc,noto,nog1,frzb,foxa,ripply1	shield (15/19)
+shield	2	r2_p3	5	1	4	True	5	54	0.05163	0.01852	0.05263	fosab,atf3,junba,cu019646.2,jun,id1,klf2b,nnr	
+shield	2	r2_p4	4	1	4	True	4	20	0.01912	0.75	0.7895	lye,krt18,krt4,krt8,zgc:101000,krt5,pfn1,cldne	EVL (12/12); periderm (10/12)
+shield	2	r2_p5	3	1	3	True	3	55	0.05258	0	0	cdx4,ved,eve1,ta,hes6,tbx16,bambia,her7	margin (14/15)
+shield	2	r2_p6	3	1	3	True	3	35	0.03346	0	0	si:ch211-113a14.18,zgc:153405,si:dkey-108k21.10,zgc:110425,si:ch211-113a14.24,si:dkey-261m9.12,si:ch211-113a14.12,si:dkey-108k21.23	
+shield	2	r2_p7	3	1	2	True	3	66	0.0631	0.01515	0.05263	her3,zic3,aldob,asb11,rrm2,si:ch211-152c2.3,sox3,cxcr4a	neural plate (9/15)
+shield	2	r2_p8	3	1	2	True	3	53	0.05067	0	0	ved,eve1,cdx4,msx1b,id1,apoc1,rgcc,znfl2a	presumptive ventral mesoderm (3/12)
+shield	2	r2_p9	2	1	2	True	2	87	0.08317	0	0	ved,apoeb,foxi1,id1,gata2a,bambia,tfap2a,rgcc	presumptive ectoderm (10/13); epiblast (7/13)
+shield	2	r2_p10	2	1	2	True	2	51	0.04876	0	0	foxd3,admp,tdgf1,hspb1,foxb1a,noto,cxcr4a,cxcr4b	
+shield	4	r4_p0	8	1	4	True	8	19	0.01816	0	0	ripply1,gsc,frzb,nog1,fzd8b,id3,xbp1,klf17	anterior axial hypoblast (9/18); shield (11/18)
+shield	4	r4_p1	7	1	4	True	7	14	0.01338	0	0	si:ch211-260e23.9,sesn3,bcl2l14,gadd45aa,mat2al,zgc:64022,zgc:171699,si:ch211-193l2.5	neural plate (5/8)
+shield	4	r4_p2	6	1	4	True	6	30	0.02868	0.03333	0.05263	noto,xbp1,chd,admp,gsc,arl4ab,tph1b,ta	shield (13/18); presumptive dorsal mesoderm (3/18)
+shield	4	r4_p3	6	1	3	True	6	47	0.04493	0	0	her3,zic3,admp,asb11,lratb,hesx1,aldob,foxb1a	neural plate (9/15)
+shield	4	r4_p4	6	1	4	True	6	27	0.02581	0.03704	0.05263	sox32,cxcr4a,rnd1l,fscn1a,gata5,id3,snai1a,sox17	endoderm (6/17)
+shield	4	r4_p5	4	1	3	True	4	22	0.02103	0	0	ta,cdx4,eve1,hes6,ved,tbx16,prickle1b,ddit4	margin (15/16)
+shield	4	r4_p6	3	1	3	True	3	37	0.03537	0	0	fosab,atf3,junba,cu019646.2,jun,klf2b,aldob,nnr	
+shield	4	r4_p7	3	1	3	True	3	22	0.02103	0.7273	0.8421	lye,krt18,krt4,krt5,krt8,zgc:101000,cldne,pfn1	EVL (13/13); periderm (11/13)
+shield	4	r4_p8	2	1	2	True	2	62	0.05927	0	0	ved,apoeb,foxi1,id1,bambia,rgcc,apoc1,gata2a	presumptive ectoderm (8/12); epiblast (7/12)
+shield	4	r4_p9	2	1	2	True	2	44	0.04207	0	0	admp,foxd3,tdgf1,foxb1a,hspb1,noto,cxcr4a,aldob	
+shield	4	r4_p10	2	1	2	True	2	22	0.02103	0	0	msgn1,tbx16,snai1a,mespab,aldh1a2,mespaa,fp102169.1,cyp27c1	margin (16/16); presumptive mesoderm (7/16)
+60% epiboly	0.5	r0.5_p0	3	3	3	False	3	175	0.04166	0.07429	0.1413	sox32,cxcr4a,sox17,ackr3b,cdh6,foxa2,marcksl1b,dhrs3b	endoderm (7/13); presumptive endoderm (5/13)
+60% epiboly	0.5	r0.5_p1	3	3	3	False	3	757	0.1802	0.02246	0.1848	msgn1,tbx16,mespab,cxcl12a,fscn1a,snai1a,aldh1a2,aplnra	margin (12/14)
+60% epiboly	0.5	r0.5_p2	2	2	2	False	2	759	0.1807	0.00527	0.04348	her3,aldob,si:ch211-152c2.3,hesx1,asb11,tdgf1,hmgb2a,otx1b	neural plate (9/14)
+60% epiboly	0.5	r0.5_p3	2	2	2	False	2	212	0.05046	0.07547	0.1739	xbp1,chd,nog1,gsc,frzb,noto,foxa,fzd8b	shield (14/18); presumptive dorsal mesoderm (3/18)
+60% epiboly	0.5	r0.5_p4	2	2	2	False	2	257	0.06118	0.003891	0.01087	cdx4,ta,hes6,eve1,wnt8a,serpinh1b,rasgef1ba,wnt11	margin (16/18); germ ring (8/18)
+60% epiboly	1	r1_p0	3	3	3	False	3	369	0.08784	0.02439	0.09783	cxcl12a,fscn1a,ripply1,aplnra,cxcl12b,ism1,foxa,tbx16	
+60% epiboly	1	r1_p1	3	3	3	False	3	427	0.1016	0.01874	0.08696	msgn1,tbx16,mespab,rbm38,snai1a,hes6,aldh1a2,ta	margin (17/17); presumptive mesoderm (6/17)
+60% epiboly	1	r1_p2	3	3	3	False	3	175	0.04166	0.07429	0.1413	sox32,cxcr4a,sox17,ackr3b,cdh6,foxa2,marcksl1b,dhrs3b	endoderm (7/13); presumptive endoderm (5/13)
+60% epiboly	1	r1_p3	2	2	2	False	2	61	0.01452	0.2131	0.1413	fzd8b,gsc,frzb,xbp1,klf17,nog1,id3,rrbp1b	anterior axial hypoblast (11/17)
+60% epiboly	1	r1_p4	2	2	2	False	2	106	0.02523	0.0283	0.03261	xbp1,noto,admp,chd,foxa2,shha,nog1,twist2	shield (13/18); presumptive dorsal mesoderm (3/18)
+60% epiboly	1	r1_p5	2	2	2	False	2	427	0.1016	0	0	hesx1,her3,aldob,cyp26a1,otx1b,si:ch211-152c2.3,otx2,lratb	neural plate (10/14)
+60% epiboly	1	r1_p6	2	2	2	False	2	448	0.1066	0.04464	0.2174	foxi1,apoeb,tfap2a,id1,dlx3b,gata2a,ved,klf2b	presumptive ectoderm (9/13)
+60% epiboly	1	r1_p7	2	2	2	False	2	238	0.05665	0.004202	0.01087	ved,apoc1,eve1,cdx4,msx1b,id1,bambia,cxcr4b	presumptive ventral mesoderm (3/13)
+60% epiboly	1	r1_p8	2	2	2	False	2	235	0.05594	0.004255	0.01087	tdgf1,her3,foxb1a,foxd3,admp,noto,foxd5,si:ch211-152c2.3	
+60% epiboly	1	r1_p9	2	2	2	False	2	244	0.05808	0.004098	0.01087	cdx4,ta,hes6,wnt8a,eve1,wnt11,rasgef1ba,her7	margin (18/19); germ ring (9/19)
+60% epiboly	1	r1_p10	2	2	2	False	2	74	0.01761	0	0	si:ch211-260e23.9,sesn3,ccng1,tp53,foxo3b,mdm2,phlda3,anxa1a	
+60% epiboly	2	r2_p0	3	3	3	False	3	114	0.02714	0.1754	0.2174	gsc,frzb,fzd8b,xbp1,klf17,nog1,id3,ripply1	anterior axial hypoblast (10/17)
+60% epiboly	2	r2_p1	3	3	3	False	3	142	0.0338	0.02113	0.03261	xbp1,noto,admp,chd,shha,foxa2,nog1,cdkn1ca	shield (13/19); presumptive dorsal mesoderm (3/19)
+60% epiboly	2	r2_p2	3	3	3	False	3	171	0.0407	0.05263	0.09783	sox32,cxcr4a,sox17,ackr3b,cdh6,foxa2,marcksl1b,dhrs3b	endoderm (7/13); presumptive endoderm (5/13)
+60% epiboly	2	r2_p3	2	2	2	False	2	251	0.05975	0.003984	0.01087	her3,tdgf1,foxb1a,foxd3,admp,foxd5,noto,si:ch211-152c2.3	
+60% epiboly	2	r2_p4	2	2	2	False	2	68	0.01619	0	0	si:ch211-260e23.9,sesn3,ccng1,mdm2,foxo3b,tp53,phlda3,anxa1a	
+60% epiboly	2	r2_p5	2	2	2	False	2	123	0.02928	0	0	cdx4,ta,eve1,hes6,ved,apoc1,serpinh1b,tbx16	margin (15/16); germ ring (7/16); presumptive mesoderm (6/16)
+60% epiboly	2	r2_p6	2	2	2	False	2	89	0.02119	0.02247	0.02174	ripply1,twist1a,cxcl12a,fscn1a,ism1,aplnra,foxa,cxcl12b	
+60% epiboly	2	r2_p7	2	2	2	False	2	138	0.03285	0.03623	0.05435	cxcl12a,apoc1,si:dkey-261j4.5,fscn1a,tbx16,aplnra,aplnrb,cxcl12b	presumptive mesoderm (5/12)
+60% epiboly	2	r2_p8	2	2	2	False	2	152	0.03618	0.006579	0.01087	dlx3b,foxi1,apoc1,apoeb,tfap2a,ved,tp63,gata2a	presumptive ectoderm (11/14); epiblast (6/14)
+60% epiboly	2	r2_p9	2	2	2	False	2	123	0.02928	0.00813	0.01087	cdx4,foxd3,hspb1,ta,wnt8a,rasgef1ba,lmo4a,foxd5	margin (14/17)
+60% epiboly	4	r4_p0	3	3	3	False	3	101	0.02404	0.198	0.2174	fzd8b,gsc,frzb,xbp1,klf17,nog1,id3,rrbp1b	anterior axial hypoblast (11/17)
+60% epiboly	4	r4_p1	3	3	3	False	3	131	0.03118	0.01527	0.02174	xbp1,noto,chd,shha,admp,foxa2,nog1,insb	shield (13/18); presumptive dorsal mesoderm (4/18)
+60% epiboly	4	r4_p2	3	3	3	False	3	78	0.01857	0	0	sesn3,si:ch211-260e23.9,ccng1,foxo3b,tp53,mdm2,phlda3,lnx1	
+60% epiboly	4	r4_p3	3	3	3	False	3	170	0.04047	0.04706	0.08696	sox32,cxcr4a,sox17,ackr3b,cdh6,foxa2,marcksl1b,dhrs3b	endoderm (7/13); presumptive endoderm (5/13)
+60% epiboly	4	r4_p4	2	2	2	False	2	84	0.02	0	0	msgn1,tbx16,cdx4,ta,hes6,tbx6l,mespab,dld	margin (16/17); presumptive mesoderm (8/17); germ ring (7/17)
+60% epiboly	4	r4_p5	2	2	2	False	2	74	0.01761	0	0	her3,lmo4a,gbx1,foxb1a,foxb1b,sp5l,hoxb1b,tdgf1	presumptive neural plate (4/16)
+60% epiboly	4	r4_p6	2	2	2	False	2	130	0.03095	0	0	cdx4,ta,eve1,hes6,ved,apoc1,serpinh1b,tbx16	margin (15/17); germ ring (7/17); presumptive mesoderm (6/17)
+60% epiboly	4	r4_p7	2	2	2	False	2	89	0.02119	0.02247	0.02174	ripply1,twist1a,cxcl12a,fscn1a,ism1,aplnra,foxa,cxcl12b	
+60% epiboly	4	r4_p8	2	2	2	False	2	120	0.02856	0.04167	0.05435	cxcl12a,fscn1a,apoc1,si:dkey-261j4.5,aplnra,tbx16,aplnrb,cxcl12b	presumptive mesoderm (5/12)
+60% epiboly	4	r4_p9	2	2	2	False	2	137	0.03261	0.007299	0.01087	dlx3b,foxi1,tfap2a,apoc1,apoeb,ved,gata2a,tp63	presumptive ectoderm (11/13); epiblast (6/13)
+60% epiboly	4	r4_p10	2	2	2	False	2	100	0.0238	0	0	cdx4,foxd3,wnt8a,ta,hspb1,rasgef1ba,foxd5,hes6	margin (12/16)
+75% epiboly	0.5	r0.5_p0	3	3	3	False	3	904	0.1429	0.01991	0.1139	dlx3b,apoc1,apoeb,ved,foxi1,marcksl1b,tfap2a,gata3	presumptive ectoderm (9/16); preplacodal ectoderm (5/16); non neural ectoderm (5/16)
+75% epiboly	0.5	r0.5_p1	3	3	3	False	3	1210	0.1913	0.005785	0.0443	her3,hoxb1b,lmo4a,sox3,mdkb,si:ch211-152c2.3,ptgdsb,sp5l	presumptive neural plate (6/12); neural plate (9/12); neuroectoderm (5/12)
+75% epiboly	0.5	r0.5_p2	3	3	3	False	3	1114	0.1762	0.02154	0.1519	tbx16,msgn1,rbm38,cdx4,hes6,im:7138239,snai1a,aldh1a2	margin (14/18); presumptive segmental plate (7/18); mesoderm (10/18)
+75% epiboly	0.5	r0.5_p3	3	3	3	False	3	236	0.03732	0.05508	0.08228	sox32,sox17,cxcr4a,marcksl1b,cdh6,foxa2,ackr3b,dhrs3b	endoderm (7/11); endodermal cell (4/11)
+75% epiboly	0.5	r0.5_p4	2	2	2	False	2	398	0.06293	0	0	cxcl12a,twist1a,cxcl12b,ripply1,fscn1a,aplnra,asph,aplnrb	mesoderm (8/12)
+75% epiboly	0.5	r0.5_p5	2	2	2	False	2	97	0.01534	0.3608	0.2215	frzb,fzd8b,xbp1,calr3b,rrbp1b,zgc:174153,gsc,klf17	anterior axial hypoblast (12/15)
+75% epiboly	0.5	r0.5_p6	2	2	2	False	2	225	0.03558	0.01778	0.02532	xbp1,noto,ntd5,admp,twist2,ta,insb,shha	axial mesoderm (8/14); axial chorda mesoderm (8/14); prechordal plate (5/14)
+75% epiboly	0.5	r0.5_p7	2	2	2	False	2	653	0.1033	0.02757	0.1139	aldob,hesx1,shisa2,fezf2,tdgf1,si:ch211-152c2.3,otx1b,dbx1a	neural plate (14/16); anterior neural plate (4/16); neuroectoderm (6/16)
+75% epiboly	0.5	r0.5_p8	2	2	2	False	2	21	0.003321	0	0	ddx4,dnd1,h1m,nanos3,tdrd7a,gra,slc16a3,npc2	primordial germ cell (7/8)
+75% epiboly	0.5	r0.5_p9	2	2	2	False	2	20	0.003163	1	0.1266	krt4,krt18,krt8,krt5,krt97,krt92,zgc:193505,zgc:101000	EVL (9/9); periderm (7/9)
+75% epiboly	1	r1_p0	3	3	3	False	3	674	0.1066	0.01484	0.06329	dlx3b,apoc1,ved,apoeb,foxi1,tp63,marcksl1b,gata3	presumptive ectoderm (8/15); preplacodal ectoderm (5/15); non neural ectoderm (5/15)
+75% epiboly	1	r1_p1	3	3	3	False	3	315	0.04981	0.003175	0.006329	cxcl12a,si:dkey-261j4.5,apoc1,gata5,fscn1a,osr1,aplnrb,cxcl12b	mesoderm (8/14); ventral mesoderm (4/14)
+75% epiboly	1	r1_p2	3	3	3	False	3	119	0.01882	0.3697	0.2785	frzb,fzd8b,xbp1,calr3b,rrbp1b,gsc,id3,klf17	anterior axial hypoblast (11/15)
+75% epiboly	1	r1_p3	3	3	3	False	3	236	0.03732	0.05508	0.08228	sox32,sox17,cxcr4a,marcksl1b,cdh6,foxa2,ackr3b,dhrs3b	endoderm (7/11); endodermal cell (4/11)
+75% epiboly	1	r1_p4	3	3	3	False	3	199	0.03147	0.005025	0.006329	ripply1,twist1a,cxcl12b,cxcl12a,dhrs3b,aplnra,fscn1a,ism1	
+75% epiboly	1	r1_p5	3	3	3	False	3	251	0.03969	0.01594	0.02532	noto,xbp1,twist2,ntd5,admp,ta,insb,shha	axial chorda mesoderm (9/15); axial mesoderm (7/15); prechordal plate (5/15)
+75% epiboly	1	r1_p6	3	3	3	False	3	26	0.004111	0	0	h1m,slc16a3,ddx4,dnd1,nanos3,tdrd7a,gra,npc2	primordial germ cell (7/9)
+75% epiboly	1	r1_p7	3	3	3	False	3	508	0.08033	0.01378	0.0443	cdx4,apoc1,ved,eve1,msx1b,bambia,ta,sox3	
+75% epiboly	1	r1_p8	2	2	2	False	2	356	0.05629	0.002809	0.006329	hoxb1b,lmo4a,sox3,her3,ptgdsb,chd,meis2b,gbx1	presumptive neural plate (6/12); neural plate (9/12); neuroectoderm (5/12)
+75% epiboly	1	r1_p9	2	2	2	False	2	246	0.0389	0.004065	0.006329	cdx4,ta,hes6,foxd3,hspb1,wnt8a,eve1,fgf8a	margin (13/16)
+75% epiboly	1	r1_p10	2	2	2	False	2	27	0.004269	1	0.1709	krt4,krt18,krt8,krt5,zgc:193505,krt97,krt92,pfn1	EVL (10/10); periderm (8/10)
+75% epiboly	1	r1_p11	2	2	2	False	2	376	0.05946	0.005319	0.01266	msgn1,tbx16,rbm38,hes6,cdx4,tbx6l,snai1a,apoc1	margin (15/18)
+75% epiboly	1	r1_p12	2	2	2	False	2	261	0.04127	0.007663	0.01266	msgn1,tbx16,aldh1a2,myf5,foxc1a,im:7138239,rdh10a,tbx6	presumptive paraxial mesoderm (6/13); presumptive segmental plate (6/13); paraxial mesoderm (3/13)
+75% epiboly	2	r2_p0	3	3	3	False	3	297	0.04696	0.003367	0.006329	cxcl12a,si:dkey-261j4.5,apoc1,gata5,fscn1a,osr1,aplnrb,cxcl12b	ventral mesoderm (4/13)
+75% epiboly	2	r2_p1	3	3	3	False	3	301	0.0476	0.006645	0.01266	hesx1,fezf2,rx3,aldob,pax6b,cyp26a1,shisa2,otx1b	neural plate (14/16); presumptive brain (8/16); anterior neural plate (4/16)
+75% epiboly	2	r2_p2	3	3	3	False	3	483	0.07638	0.008282	0.02532	dlx3b,foxi1,apoeb,ved,tp63,marcksl1b,gata3,tfap2a	presumptive ectoderm (8/15); preplacodal ectoderm (5/15); non neural ectoderm (5/15)
+75% epiboly	2	r2_p3	3	3	3	False	3	119	0.01882	0.3697	0.2785	frzb,fzd8b,xbp1,calr3b,rrbp1b,gsc,id3,klf17	anterior axial hypoblast (11/15)
+75% epiboly	2	r2_p4	3	3	3	False	3	236	0.03732	0.05508	0.08228	sox32,sox17,cxcr4a,marcksl1b,cdh6,foxa2,ackr3b,dhrs3b	endoderm (7/11); endodermal cell (4/11)
+75% epiboly	2	r2_p5	3	3	3	False	3	199	0.03147	0.005025	0.006329	ripply1,twist1a,cxcl12b,cxcl12a,dhrs3b,aplnra,fscn1a,ism1	
+75% epiboly	2	r2_p6	3	3	3	False	3	250	0.03953	0.012	0.01899	cdx4,foxd3,hes6,hspb1,ta,fgf8a,wnt8a,serpinh1b	margin (12/14)
+75% epiboly	2	r2_p7	3	3	3	False	3	323	0.05108	0.003096	0.006329	msgn1,tbx16,aldh1a2,myf5,foxc1a,rdh10a,im:7138239,cyp27c1	presumptive segmental plate (7/13); presumptive paraxial mesoderm (6/13); paraxial mesoderm (3/13)
+75% epiboly	2	r2_p8	3	3	3	False	3	250	0.03953	0.012	0.01899	noto,xbp1,twist2,ntd5,admp,ta,insb,shha	axial chorda mesoderm (9/15); axial mesoderm (7/15); prechordal plate (5/15)
+75% epiboly	2	r2_p9	3	3	3	False	3	403	0.06373	0.002481	0.006329	msgn1,tbx16,rbm38,cdx4,hes6,tbx6l,apoc1,snai1a	margin (15/17); presumptive paraxial mesoderm (6/17)
+75% epiboly	2	r2_p10	2	2	2	False	2	272	0.04301	0.003676	0.006329	hoxb1b,lmo4a,chd,sox3,her3,gbx1,sp5l,meis2b	presumptive neural plate (6/12); neural plate (9/12); neuroectoderm (5/12)
+75% epiboly	2	r2_p11	2	2	2	False	2	267	0.04222	0.003745	0.006329	cdx4,ta,eve1,hes6,ved,tbx16,apoc1,her7	margin (12/14); presumptive paraxial mesoderm (5/14)
+75% epiboly	2	r2_p12	2	2	2	False	2	230	0.03637	0.02174	0.03165	tdgf1,admp,dbx1a,aldob,foxb1a,stm,si:ch211-152c2.3,foxd3	neural plate (12/16); neuroectoderm (5/16)
+75% epiboly	2	r2_p13	2	2	2	False	2	346	0.05471	0.00289	0.006329	apoeb,si:ch1073-80i24.3,si:ch211-152c2.3,aldob,id1,tfap2a,dlx3b,h3f3a	preplacodal ectoderm (4/13)
+75% epiboly	2	r2_p14	2	2	2	False	2	200	0.03163	0.02	0.02532	apoc1,cdx4,ved,eve1,sox3,bambia,msx1b,ta	
+75% epiboly	2	r2_p15	2	2	2	False	2	178	0.02815	0.01124	0.01266	irx7,her3,her5,her11,mycn,si:ch211-152c2.3,mdkb,chd	presumptive neural plate (5/13); neural plate (9/13)
+75% epiboly	2	r2_p16	2	2	2	False	2	21	0.003321	0	0	ddx4,dnd1,h1m,nanos3,tdrd7a,gra,slc16a3,npc2	primordial germ cell (7/8)
+75% epiboly	2	r2_p17	2	2	2	False	2	20	0.003163	1	0.1266	krt4,krt18,krt8,krt5,krt97,krt92,zgc:193505,zgc:101000	EVL (9/9); periderm (7/9)
+75% epiboly	4	r4_p0	3	3	3	False	3	270	0.04269	0.003704	0.006329	cxcl12a,si:dkey-261j4.5,apoc1,gata5,fscn1a,osr1,aplnrb,cxcl12b	ventral mesoderm (4/13)
+75% epiboly	4	r4_p1	3	3	3	False	3	119	0.01882	0.3697	0.2785	frzb,fzd8b,xbp1,calr3b,rrbp1b,gsc,id3,klf17	anterior axial hypoblast (11/15)
+75% epiboly	4	r4_p2	3	3	3	False	3	236	0.03732	0.05508	0.08228	sox32,sox17,cxcr4a,marcksl1b,cdh6,foxa2,ackr3b,dhrs3b	endoderm (7/11); endodermal cell (4/11)
+75% epiboly	4	r4_p3	3	3	3	False	3	250	0.03953	0.004	0.006329	her3,chd,hoxb1b,lmo4a,meis2b,mdkb,gbx1,ptgdsb	presumptive neural plate (6/12); neural plate (9/12); neuroectoderm (5/12)
+75% epiboly	4	r4_p4	3	3	3	False	3	179	0.0283	0.005587	0.006329	ripply1,twist1a,cxcl12b,dhrs3b,cxcl12a,aplnra,fscn1a,marcksl1b	
+75% epiboly	4	r4_p5	3	3	3	False	3	160	0.0253	0.01875	0.01899	dlx3b,ved,tp63,gata3,apoc1,foxi1,apoeb,tfap2a	presumptive ectoderm (8/14); non neural ectoderm (5/14); preplacodal ectoderm (4/14)
+75% epiboly	4	r4_p6	2	2	2	False	2	186	0.02941	0.005376	0.006329	hesx1,fezf2,pax6b,cyp26a1,rx3,aldob,sfrp1a,her9	neural plate (14/16); presumptive brain (8/16); anterior neural plate (4/16)
+75% epiboly	4	r4_p7	2	2	2	False	2	182	0.02878	0	0	msgn1,aldh1a2,rdh10a,tbx16,myf5,foxc1a,tbx6,ism1	presumptive paraxial mesoderm (5/14); presumptive segmental plate (5/14)
+75% epiboly	4	r4_p8	2	2	2	False	2	68	0.01075	0.02941	0.01266	nog1,chd,xbp1,twist2,insb,foxa,ntd5,frzb	axial mesoderm (7/12); axial chorda mesoderm (8/12); axial hypoblast (5/12)
+75% epiboly	4	r4_p9	2	2	2	False	2	67	0.01059	0.02985	0.01266	tbx16,myf5,rbm38,msgn1,im:7138239,hes6,myod1,cdkn1ca	margin (14/17)
+75% epiboly	4	r4_p10	2	2	2	False	2	131	0.02071	0.007634	0.006329	foxd3,cdx4,hes6,ta,fgf8a,hspb1,wnt8a,sp5l	margin (11/13)
+75% epiboly	4	r4_p11	2	2	2	False	2	112	0.01771	0	0	cdx4,ta,eve1,hes6,tbx16,snai1a,her7,rbm38	margin (13/16)
+75% epiboly	4	r4_p12	2	2	2	False	2	120	0.01898	0	0	msgn1,tbx16,rbm38,tbx6l,hes6,cdx4,ved,tob1a	margin (13/15); presumptive paraxial mesoderm (5/15)
+75% epiboly	4	r4_p13	2	2	2	False	2	34	0.005376	0	0	sesn3,ccng1,bcl2l14,mdm2,si:ch211-260e23.9,msgn1,tbx16,tp53inp1	
+75% epiboly	4	r4_p14	2	2	2	False	2	21	0.003321	0	0	ddx4,dnd1,h1m,nanos3,tdrd7a,gra,slc16a3,npc2	primordial germ cell (7/8)
+75% epiboly	4	r4_p15	2	2	2	False	2	20	0.003163	1	0.1266	krt4,krt18,krt8,krt5,krt97,krt92,zgc:193505,zgc:101000	EVL (9/9); periderm (7/9)
+75% epiboly	4	r4_p16	2	2	2	False	2	61	0.009646	0	0	twist2,noto,ntd5,ta,cdkn1ca,insb,xbp1,nog1	axial chorda mesoderm (8/14); axial mesoderm (6/14)
+90% epiboly	0.5	r0.5_p0	3	3	3	False	3	521	0.09261	0.007678	0.02564	cxcl12a,twist1a,cxcl12b,aplnra,ripply1,osr1,fsta,id3	
+90% epiboly	0.5	r0.5_p1	3	3	3	False	3	1016	0.1806	0.02854	0.1859	dlx3b,apoeb,apoc1,marcksl1b,gata3,foxi1,tagln2,tfap2a	presumptive ectoderm (8/12); non neural ectoderm (5/12)
+90% epiboly	0.5	r0.5_p2	3	3	3	False	3	740	0.1315	0.008108	0.03846	hoxb1b,sox3,mdkb,sp5l,lmo4a,meis2b,chd,pou5f3	
+90% epiboly	0.5	r0.5_p3	3	3	3	False	3	206	0.03662	0.03398	0.04487	sox32,marcksl1b,cdh6,sox17,akap12b,gpm6ab,prdx5,cxcr4a	endoderm (6/8); hypoblast (4/8); forerunner cell group (4/8)
+90% epiboly	0.5	r0.5_p4	3	3	3	False	3	565	0.1004	0.01062	0.03846	cdx4,hspb1,hes6,ta,eve1,hoxc8a,anp32e,hoxb7a	margin (11/12)
+90% epiboly	0.5	r0.5_p5	2	2	2	False	2	154	0.02737	0.1688	0.1667	xbp1,rrbp1b,calr3b,ssr2,noto,sec61g,hspa5,twist2	axial mesoderm (4/11)
+90% epiboly	0.5	r0.5_p6	2	2	2	False	2	382	0.0679	0.02094	0.05128	msgn1,tbx16,rbm38,aldh1a2,im:7138239,tbx6l,cdx4,tob1a	margin (12/17); presumptive segmental plate (6/17)
+90% epiboly	0.5	r0.5_p7	2	2	2	False	2	443	0.07874	0.006772	0.01923	irx7,her5,si:ch211-152c2.3,her11,mdkb,aldob,cyp26a1,wnt8b	midbrain hindbrain boundary neural plate (4/12); neural plate (9/12)
+90% epiboly	0.5	r0.5_p8	2	2	2	False	2	580	0.1031	0.005172	0.01923	hesx1,aldob,sox2,rx3,fezf2,pax6b,shisa2,six7	neural plate (15/17); anterior neural plate (5/17); presumptive brain (5/17)
+90% epiboly	0.5	r0.5_p9	2	2	2	False	2	75	0.01333	0	0	dbx1a,lft2,nkx2.9,gsc,lft1,foxa2,admp,shhb	axial hypoblast (4/14); presumptive floor plate (3/14); neuroectoderm (4/14)
+90% epiboly	1	r1_p0	3	3	3	False	3	682	0.1212	0.01906	0.08333	dlx3b,apoc1,apoeb,marcksl1b,ved,gata3,tagln2,tp63	non neural ectoderm (5/11); presumptive ectoderm (7/11)
+90% epiboly	1	r1_p1	3	3	3	False	3	259	0.04604	0.01158	0.01923	aldh1a2,rdh10a,myf5,tbx6,efemp2b,tbx16,foxc1a,pcdh8	presumptive segmental plate (6/12); presumptive paraxial mesoderm (5/12)
+90% epiboly	1	r1_p2	3	3	3	False	3	205	0.03644	0.01951	0.02564	noto,xbp1,twist2,ntd5,ta,insb,shha,foxa	axial mesoderm (5/12); axial chorda mesoderm (6/12)
+90% epiboly	1	r1_p3	3	3	3	False	3	119	0.02115	0.4454	0.3397	fzd8b,calr3b,frzb,rrbp1b,xbp1,zgc:174153,tram1,zgc:174855	anterior axial hypoblast (11/14)
+90% epiboly	1	r1_p4	3	3	3	False	3	208	0.03697	0.03365	0.04487	sox32,marcksl1b,cdh6,sox17,akap12b,gpm6ab,prdx5,cxcr4a	endoderm (6/8); hypoblast (4/8); forerunner cell group (4/8)
+90% epiboly	1	r1_p5	3	3	3	False	3	518	0.09207	0.009653	0.03205	cdx4,hes6,ta,hspb1,eve1,anp32e,hoxb7a,hoxc8a	margin (11/11)
+90% epiboly	1	r1_p6	3	3	3	False	3	494	0.08781	0.01619	0.05128	msgn1,tbx16,rbm38,cdx4,tbx6l,hes6,tob1a,her7	margin (12/15)
+90% epiboly	1	r1_p7	2	2	2	False	2	226	0.04017	0.00885	0.01282	cxcl12a,si:dkey-261j4.5,osr1,apoc1,id3,ved,pax8,gata5	
+90% epiboly	1	r1_p8	2	2	2	False	2	509	0.09047	0.01179	0.03846	hoxb1b,sox3,chd,sp5l,meis2b,mdkb,lmo4a,pou5f3	neural plate (8/12)
+90% epiboly	1	r1_p9	2	2	2	False	2	144	0.0256	0.006944	0.00641	twist1a,ripply1,cxcl12b,cxcl12a,fsta,aplnra,marcksl1b,lsp1	
+90% epiboly	1	r1_p10	2	2	2	False	2	374	0.06648	0.005348	0.01282	irx7,her5,mdkb,si:ch211-152c2.3,her11,her3,aldob,irx1b	neural plate (8/11); midbrain hindbrain boundary neural plate (3/11)
+90% epiboly	1	r1_p11	2	2	2	False	2	514	0.09136	0.003891	0.01282	hesx1,sox2,aldob,rx3,fezf2,pax6b,atp1b1a,tdgf1	neural plate (16/18); anterior neural plate (5/18); presumptive brain (5/18)
+90% epiboly	1	r1_p12	2	2	2	False	2	75	0.01333	0	0	dbx1a,lft2,nkx2.9,gsc,lft1,foxa2,admp,shhb	axial hypoblast (4/14); presumptive floor plate (3/14); neuroectoderm (4/14)
+90% epiboly	2	r2_p0	3	3	3	False	3	238	0.0423	0.004202	0.00641	cxcl12a,osr1,id3,si:dkey-261j4.5,gata5,apoc1,pax8,gata6	
+90% epiboly	2	r2_p1	3	3	3	False	3	205	0.03644	0.009756	0.01282	twist1a,cxcl12b,ripply1,cxcl12a,fsta,aplnra,marcksl1b,lsp1	
+90% epiboly	2	r2_p2	3	3	3	False	3	153	0.0272	0.02614	0.02564	noto,twist2,ntd5,ta,xbp1,insb,shha,foxa	axial mesoderm (5/12); axial chorda mesoderm (6/12)
+90% epiboly	2	r2_p3	3	3	3	False	3	68	0.01209	0.01471	0.00641	ccng1,si:ch211-260e23.9,gadd45aa,mdm2,sesn3,foxo3b,mat2al,phlda3	
+90% epiboly	2	r2_p4	3	3	3	False	3	119	0.02115	0.4454	0.3397	fzd8b,calr3b,frzb,rrbp1b,xbp1,zgc:174153,tram1,zgc:174855	anterior axial hypoblast (11/14)
+90% epiboly	2	r2_p5	3	3	3	False	3	209	0.03715	0.03828	0.05128	sox32,marcksl1b,cdh6,sox17,akap12b,gpm6ab,prdx5,cxcr4a	endoderm (6/8); hypoblast (4/8); forerunner cell group (4/8)
+90% epiboly	2	r2_p6	3	3	3	False	3	347	0.06168	0	0	rx3,hesx1,sox2,pax6b,six7,six3b,fezf2,aldob	neural plate (14/16); anterior neural plate (5/16); forebrain neural plate (4/16)
+90% epiboly	2	r2_p7	3	3	3	False	3	225	0.03999	0.01333	0.01923	cdx4,eve1,hes6,ta,apoc1,ved,hspb1,her7	margin (9/9)
+90% epiboly	2	r2_p8	3	3	3	False	3	189	0.03359	0.01058	0.01282	aldh1a2,rdh10a,tbx6,myf5,efemp2b,tbx16,tcf15,foxc1a	presumptive segmental plate (6/12); presumptive paraxial mesoderm (5/12)
+90% epiboly	2	r2_p9	3	3	3	False	3	328	0.0583	0.01829	0.03846	apoc1,apoeb,dlx3b,ved,marcksl1b,tagln2,gata3,tp63	non neural ectoderm (5/11); presumptive ectoderm (7/11)
+90% epiboly	2	r2_p10	2	2	2	False	2	187	0.03324	0.05882	0.07051	dlx3b,foxi1,marcksl1b,tfap2a,gata3,tagln2,kctd15a,gata2a	presumptive ectoderm (8/15); non neural ectoderm (5/15)
+90% epiboly	2	r2_p11	2	2	2	False	2	234	0.04159	0.02137	0.03205	msgn1,tbx16,cdx4,rbm38,hes6,tbx6l,tob1a,blf	margin (13/15)
+90% epiboly	2	r2_p12	2	2	2	False	2	192	0.03413	0.01042	0.01282	apoc1,apoeb,msx1b,dlx3b,cdx4,ved,bambia,eve1	non neural ectoderm (3/11)
+90% epiboly	2	r2_p13	2	2	2	False	2	68	0.01209	0.01471	0.00641	tbx16,myf5,myod1,msgn1,snai1a,rbm38,ttnb,cdkn1ca	presumptive segmental plate (5/13)
+90% epiboly	2	r2_p14	2	2	2	False	2	20	0.003555	1	0.1282	krt4,krt18,krt5,krt8,krt92,krt97,zgc:193505,pfn1	EVL (11/11); periderm (10/11)
+90% epiboly	4	r4_p0	3	3	3	False	3	105	0.01866	0.009524	0.00641	si:dkey-261j4.5,cxcl12a,ved,pax8,blf,cdx4,si:dkey-261j4.3,tbx16	
+90% epiboly	4	r4_p1	3	3	3	False	3	86	0.01529	0.01163	0.00641	ccng1,si:ch211-260e23.9,sesn3,mdm2,gadd45aa,phlda3,mat2al,foxo3b	
+90% epiboly	4	r4_p2	3	3	3	False	3	127	0.02257	0.4331	0.3526	frzb,fzd8b,rrbp1b,calr3b,xbp1,tram1,zgc:174153,zgc:174855	anterior axial hypoblast (11/14)
+90% epiboly	4	r4_p3	3	3	3	False	3	171	0.03039	0.0117	0.01282	cdx4,eve1,ta,hes6,apoc1,ved,szl,hoxb9a	margin (10/10)
+90% epiboly	4	r4_p4	3	3	3	False	3	162	0.02879	0.006173	0.00641	rdh10a,aldh1a2,tbx6,myf5,efemp2b,tcf15,pcdh8,tbx16	presumptive segmental plate (6/11); presumptive paraxial mesoderm (5/11)
+90% epiboly	4	r4_p5	3	3	3	False	3	128	0.02275	0.007812	0.00641	cdx4,foxd3,hes6,hspb1,fgf8a,ta,hoxb7a,rbm38	margin (10/11)
+90% epiboly	4	r4_p6	3	3	3	False	3	188	0.03342	0.005319	0.00641	irx7,her5,her11,her3,mdkb,cyp26a1,si:ch211-152c2.3,aldob	midbrain hindbrain boundary neural plate (5/12); neural plate (9/12)
+90% epiboly	4	r4_p7	3	3	3	False	3	177	0.03146	0.00565	0.00641	cxcl12a,id3,osr1,gata6,si:dkey-261j4.5,hand2,gata5,apoc1	
+90% epiboly	4	r4_p8	2	2	2	False	2	122	0.02169	0.01639	0.01282	msgn1,tbx16,cdx4,tbx6l,apoc1,ved,hes6,rbm38	margin (10/13)
+90% epiboly	4	r4_p9	2	2	2	False	2	93	0.01653	0	0	noto,twist2,ntd5,ta,xbp1,insb,shha,cdkn1ca	axial mesoderm (5/11)
+90% epiboly	4	r4_p10	2	2	2	False	2	134	0.02382	0.007463	0.00641	apoc1,marcksl1b,apoeb,gata3,tp63,dlx3b,ved,tagln2	non neural ectoderm (5/10); presumptive ectoderm (6/10)
+90% epiboly	4	r4_p11	2	2	2	False	2	82	0.01458	0.0122	0.00641	cdx4,her3,hspb1,sox3,hoxb1b,chd,olig4,sp5l	margin (9/14)
+90% epiboly	4	r4_p12	2	2	2	False	2	164	0.02915	0.0122	0.01282	olig4,hoxb1b,msx1b,sox3,sp5l,pax3a,hnf1ba,lmo4a	
+90% epiboly	4	r4_p13	2	2	2	False	2	111	0.01973	0.01802	0.01282	twist1a,cxcl12b,cxcl12a,aplnra,lsp1,marcksl1b,ripply1,fsta	
+90% epiboly	4	r4_p14	2	2	2	False	2	59	0.01049	0	0	fsta,ripply1,cxcl12a,cxcl12b,meox1,twist1a,rdh10a,mdka	
+90% epiboly	4	r4_p15	2	2	2	False	2	13	0.002311	0	0	h1m,ddx4,zgc:173742,nanos3,tdrd7a,slc16a3,gra,dnd1	primordial germ cell (7/10)
+90% epiboly	4	r4_p16	2	2	2	False	2	136	0.02417	0.03676	0.03205	sox32,marcksl1b,cdh6,sox17,akap12b,gpm6ab,prdx5,si:ch73-234b20.5	endoderm (6/8); hypoblast (4/8)
+90% epiboly	4	r4_p17	2	2	2	False	2	74	0.01315	0.01351	0.00641	tbx16,myf5,myod1,msgn1,ttnb,snai1a,mef2d,rbm38	presumptive segmental plate (5/12)
+90% epiboly	4	r4_p18	2	2	2	False	2	20	0.003555	1	0.1282	krt4,krt18,krt5,krt8,krt92,krt97,zgc:193505,pfn1	EVL (11/11); periderm (10/11)
+bud	0.5	r0.5_p0	4	4	3	False	4	799	0.1116	0.09387	0.3289	apoeb,apoc1,marcksl1b,tagln2,tp63,gata3,ved,dlx3b	neurogenic field (5/11); non neural ectoderm (4/11); presumptive ectoderm (6/11)
+bud	0.5	r0.5_p1	4	4	3	False	4	570	0.07959	0.008772	0.02193	cxcl12a,id3,twist1a,cxcl12b,osr1,gata5,marcksl1b,hand2	lateral mesoderm (4/9)
+bud	0.5	r0.5_p2	4	4	3	False	4	729	0.1018	0.01235	0.03947	cdx4,hspb1,fgf8a,hes6,hoxb7a,foxd5,ta,hoxc8a	margin (9/14)
+bud	0.5	r0.5_p3	3	3	3	False	3	988	0.138	0.005061	0.02193	irx7,mdkb,her5,si:ch211-152c2.3,olig3,pax2a,sox19a,phox2a	midbrain hindbrain boundary neural keel (5/14); neural plate (11/14); midbrain hindbrain boundary neural plate (4/14)
+bud	0.5	r0.5_p4	3	3	3	False	3	574	0.08015	0.008711	0.02193	hoxb1b,sox3,olig4,hnf1ba,si:ch211-152c2.3,meis2b,meis3,sox19a	neural plate (14/17)
+bud	0.5	r0.5_p5	3	3	3	False	3	214	0.02988	0.06075	0.05702	sox32,cdh6,sox17,marcksl1b,prdx5,pltp,gpm6ab,si:ch73-234b20.5	endoderm (6/8)
+bud	0.5	r0.5_p6	3	3	3	False	3	204	0.02848	0.01471	0.01316	noto,twist2,ta,ntd5,rcn3,ppp1r14c,pmp22b,serpinh1b	axial chorda mesoderm (7/11); axial mesoderm (5/11)
+bud	0.5	r0.5_p7	2	2	1	False	2	110	0.01536	0.01818	0.008772	msgn1,tbx16,myf5,efemp2b,tob1a,rbm38,cdx4,aldh1a2	paraxial mesoderm (8/16); presumptive segmental plate (7/16)
+bud	0.5	r0.5_p8	2	2	2	False	2	846	0.1181	0.009456	0.03509	rx3,aldob,shisa2,six3b,fezf2,stm,hesx1,her6	anterior neural plate (6/17); neural plate (14/17); forebrain neural plate (5/17)
+bud	0.5	r0.5_p9	2	2	2	False	2	109	0.01522	0.009174	0.004386	dbx1a,nkx2.4b,lft2,lft1,shhb,gsc,shha,nkx2.9	neural keel (9/16)
+bud	0.5	r0.5_p10	2	2	2	False	2	493	0.06884	0.01826	0.03947	dlx3b,foxi1,shisa2,tfap2a,si:ch211-152c2.3,kctd15a,prdm1a,six7	neurogenic field (4/15); preplacodal ectoderm (3/15)
+bud	0.5	r0.5_p11	2	2	2	False	2	760	0.1061	0.01184	0.03947	msgn1,tbx16,hes6,cdx4,rbm38,tob1a,tbx6l,cx43.4	margin (10/13); tail bud (8/13); paraxial mesoderm (6/13)
+bud	0.5	r0.5_p12	2	2	2	False	2	120	0.01676	0.475	0.25	zgc:174153,calr3b,zgc:174855,tram1,ctslb,xbp1,rrbp1b,frzb	polster (4/10); anterior axial hypoblast (6/10)
+bud	0.5	r0.5_p13	2	2	2	False	2	23	0.003211	1	0.1009	krt4,krt18,krt5,lye,krt8,zgc:193505,cyt1,krt17	periderm (12/12); EVL (11/12)
+bud	1	r1_p0	4	4	3	False	4	728	0.1016	0.103	0.3289	marcksl1b,apoeb,tagln2,apoc1,gata3,tp63,ved,foxi1	neurogenic field (5/11); non neural ectoderm (4/11); presumptive ectoderm (6/11)
+bud	1	r1_p1	4	4	3	False	4	763	0.1065	0.01311	0.04386	msgn1,tbx16,tob1a,cdx4,hes6,rbm38,tbx6l,cx43.4	margin (10/14); tail bud (8/14); paraxial mesoderm (6/14)
+bud	1	r1_p2	4	4	3	False	4	500	0.06981	0.006	0.01316	rx3,aldob,six3b,stm,shisa2,lhx2b,pax6b,six7	neural plate (16/18); neural keel (9/18); anterior neural plate (6/18)
+bud	1	r1_p3	4	4	3	False	4	238	0.03323	0.004202	0.004386	efemp2b,aldh1a2,myf5,tbx6,rdh10a,tcf15,myl10,unc45b	presumptive segmental plate (6/11); segmental plate (5/11)
+bud	1	r1_p4	4	4	3	False	4	696	0.09718	0.01293	0.03947	cdx4,hspb1,hes6,fgf8a,hoxb7a,foxd5,ta,hoxc8a	margin (9/14)
+bud	1	r1_p5	3	3	2	False	3	108	0.01508	0.01852	0.008772	apoc1,apoeb,msx1b,cdx4,tfap2a,apela,dlx3b,neurog1	neurogenic field (3/13)
+bud	1	r1_p6	3	3	3	False	3	496	0.06925	0.004032	0.008772	her5,pax2a,irx7,eng2a,si:ch211-152c2.3,mdkb,her11,irx1a	midbrain hindbrain boundary neural keel (5/13); midbrain hindbrain boundary neural plate (5/13); neural plate (10/13)
+bud	1	r1_p7	3	3	3	False	3	215	0.03002	0.06047	0.05702	sox32,cdh6,sox17,marcksl1b,prdx5,pltp,gpm6ab,si:ch73-234b20.5	endoderm (6/8)
+bud	1	r1_p8	3	3	3	False	3	196	0.02737	0.0102	0.008772	noto,twist2,ta,ntd5,pmp22b,serpinh1b,rcn3,ppp1r14c	axial chorda mesoderm (7/12); axial mesoderm (5/12)
+bud	1	r1_p9	2	2	1	False	2	87	0.01215	0.01149	0.004386	cxcl12a,twist1a,id3,cxcl12b,marcksl1b,osr1,gata5,cdh11	lateral mesoderm (4/10)
+bud	1	r1_p10	2	2	2	False	2	201	0.02806	0.00995	0.008772	hoxb1b,sox3,olig4,si:ch211-152c2.3,meis2b,sox19a,hnf1ba,dhrs3a	neural plate (13/17)
+bud	1	r1_p11	2	2	2	False	2	120	0.01676	0.475	0.25	zgc:174153,calr3b,zgc:174855,tram1,ctslb,xbp1,rrbp1b,frzb	polster (4/10); anterior axial hypoblast (6/10)
+bud	1	r1_p12	2	2	2	False	2	373	0.05208	0	0	olig3,cyp26c1,mdkb,irx7,vgll3,si:ch211-152c2.3,sox19a,fgf8a	neural plate (11/13); midbrain hindbrain boundary neural keel (4/13); presumptive rhombomere 2 (3/13)
+bud	1	r1_p13	2	2	2	False	2	298	0.04161	0.01678	0.02193	dlx3b,foxi1,tfap2a,kctd15a,irx7,irx1b,si:ch211-152c2.3,tfap2c	neurogenic field (4/13)
+bud	1	r1_p14	2	2	2	False	2	426	0.05948	0.007042	0.01316	cxcl12a,id3,pax8,osr1,apoc1,si:dkey-261j4.5,ved,hand2	
+bud	1	r1_p15	2	2	2	False	2	284	0.03965	0.01408	0.01754	dlx3b,hesx1,six3b,shisa2,six7,sox2,pax6b,fezf2	forebrain neural keel (6/15); neural keel (7/15); neural plate (11/15)
+bud	1	r1_p16	2	2	2	False	2	23	0.003211	1	0.1009	krt4,krt18,krt5,lye,krt8,zgc:193505,cyt1,krt17	periderm (12/12); EVL (11/12)
+bud	2	r2_p0	4	4	3	False	4	234	0.03267	0.1752	0.1798	marcksl1b,apoeb,apoc1,tagln2,gata3,tp63,ved,foxi1	neurogenic field (4/9); presumptive ectoderm (5/9); non neural ectoderm (3/9)
+bud	2	r2_p1	4	4	3	False	4	395	0.05515	0	0	olig3,mdkb,si:ch211-152c2.3,irx7,gbx1,cyp26c1,fgf8a,phox2a	neural plate (11/13); midbrain hindbrain boundary neural keel (4/13); presumptive rhombomere 2 (3/13)
+bud	2	r2_p2	4	4	3	False	4	220	0.03072	0.05909	0.05702	sox32,cdh6,marcksl1b,sox17,pltp,prdx5,gpm6ab,gata5	endoderm (5/6)
+bud	2	r2_p3	4	4	3	False	4	452	0.06311	0.006637	0.01316	rx3,aldob,six3b,lhx2b,stm,shisa2,pax6b,nr2f5	neural plate (15/18); anterior neural plate (6/18); neural keel (8/18)
+bud	2	r2_p4	4	4	3	False	4	389	0.05431	0.005141	0.008772	her5,pax2a,irx7,eng2a,her11,si:ch211-152c2.3,mdkb,cyp26a1	midbrain hindbrain boundary neural keel (5/14); midbrain hindbrain boundary neural plate (5/14); neural plate (11/14)
+bud	2	r2_p5	3	3	2	False	3	90	0.01257	0.02222	0.008772	apoc1,apoeb,msx1b,cdx4,tfap2a,dlx3b,apela,zgc:92242	neurogenic field (3/13)
+bud	2	r2_p6	3	3	3	False	3	194	0.02709	0	0	efemp2b,rdh10a,aldh1a2,tcf15,tbx6,meox1,ripply2,myf5	presumptive segmental plate (7/12); segmental plate (5/12)
+bud	2	r2_p7	3	3	3	False	3	423	0.05906	0.007092	0.01316	sox3,hoxb1b,olig4,si:ch211-152c2.3,meis3,hnf1ba,meis2b,sox19a	neural plate (12/15); presumptive rhombomere 7 (3/15); presumptive rhombomere 8 (3/15)
+bud	2	r2_p8	3	3	3	False	3	76	0.01061	0.02632	0.008772	myod1,msgn1,myf5,myl10,mef2d,unc45b,tbx16,actc1a	adaxial cell (6/14); presumptive segmental plate (6/14); paraxial mesoderm (6/14)
+bud	2	r2_p9	3	3	3	False	3	306	0.04273	0.01307	0.01754	hesx1,six3b,six7,dlx3b,shisa2,sox2,pax6b,fezf2	forebrain neural keel (6/15); anterior neural plate (5/15); neural keel (7/15)
+bud	2	r2_p10	3	3	3	False	3	159	0.0222	0.006289	0.004386	noto,twist2,ta,ntd5,pmp22b,serpinh1b,rcn3,ppp1r14c	axial chorda mesoderm (6/11); axial mesoderm (4/11)
+bud	2	r2_p11	3	3	3	False	3	355	0.04957	0.01127	0.01754	aldob,stm,otx1b,olig2,barhl2,fezf2,shisa2,si:ch211-152c2.3	neural plate (15/18); neural keel (8/18); anterior neural plate (5/18)
+bud	2	r2_p12	2	2	1	False	2	70	0.009774	0.01429	0.004386	msgn1,tbx16,rbm38,tob1a,hes6,cdx4,tbx6l,si:ch211-101l18.8	margin (11/14); tail bud (8/14); presumptive segmental plate (6/14)
+bud	2	r2_p13	2	2	2	False	2	124	0.01731	0.008065	0.004386	gsc,nkx2.9,dbx1a,nkx2.4b,fezf2,stm,lft1,nkx2.1	neural keel (9/17)
+bud	2	r2_p14	2	2	2	False	2	63	0.008796	0.03175	0.008772	irx7,pax3a,msx1b,zic2a,foxd3,si:ch211-152c2.3,her11,otx2	neural plate (12/16)
+bud	2	r2_p15	2	2	2	False	2	230	0.03211	0.008696	0.008772	cxcl12b,twist1a,fsta,ripply1,cxcl12a,aplnra,lsp1,marcksl1b	
+bud	2	r2_p16	2	2	2	False	2	263	0.03672	0.02281	0.02632	dlx3b,foxi1,tfap2a,kctd15a,irx7,irx1b,si:ch211-152c2.3,tfap2c	neurogenic field (5/15); presumptive ectoderm (5/15)
+bud	2	r2_p17	2	2	2	False	2	328	0.0458	0.0122	0.01754	cdx4,her3,hspb1,chd,olig4,prdm8,ca9,ptmaa	
+bud	2	r2_p18	2	2	2	False	2	268	0.03742	0.007463	0.008772	pax8,id3,cxcl12a,blf,osr1,lbx2,plk3,znfl2a	
+bud	2	r2_p19	2	2	2	False	2	192	0.02681	0.005208	0.004386	hand2,cxcl12a,gata5,gata6,twist1a,id3,cdh11,osr1	lateral mesoderm (4/8)
+bud	2	r2_p20	2	2	2	False	2	115	0.01606	0.008696	0.004386	dla,dlb,neurog1,cxcr4b,pnx,myt1a,prdm8,msx1b	
+bud	2	r2_p21	2	2	2	False	2	120	0.01676	0.475	0.25	zgc:174153,calr3b,zgc:174855,tram1,ctslb,xbp1,rrbp1b,frzb	polster (4/10); anterior axial hypoblast (6/10)
+bud	2	r2_p22	2	2	2	False	2	23	0.003211	1	0.1009	krt4,krt18,krt5,lye,krt8,zgc:193505,cyt1,krt17	periderm (12/12); EVL (11/12)
+bud	4	r4_p0	4	4	3	False	4	196	0.02737	0.01531	0.01316	olig2,barhl2,otx1b,aldob,pax6a,stm,pax6b,fezf2	neural keel (9/17); neural plate (14/17); forebrain neural keel (6/17)
+bud	4	r4_p1	4	4	3	False	4	320	0.04468	0	0	her5,pax2a,irx7,eng2a,her11,cyp26a1,si:ch211-152c2.3,mdkb	neural plate (12/14); midbrain hindbrain boundary neural plate (5/14); midbrain hindbrain boundary neural keel (4/14)
+bud	4	r4_p2	4	4	3	False	4	143	0.01997	0.01399	0.008772	apoc1,apoeb,msx1b,cdx4,tfap2a,apela,dlx3b,zgc:92242	neurogenic field (3/13)
+bud	4	r4_p3	4	4	3	False	4	267	0.03728	0.02247	0.02632	dlx3b,foxi1,tfap2a,irx7,kctd15a,si:ch211-152c2.3,irx1b,six4b	neurogenic field (4/14)
+bud	4	r4_p4	4	4	3	False	4	275	0.0384	0.007273	0.008772	pax8,id3,blf,cxcl12a,lbx2,plk3,osr1,si:dkey-261j4.3	presumptive pronephric mesoderm (3/12)
+bud	4	r4_p5	4	4	3	False	4	257	0.03588	0	0	olig3,mdkb,irx7,gbx1,si:ch211-152c2.3,cyp26c1,fgf8a,phox2a	neural plate (11/13); midbrain hindbrain boundary neural keel (4/13); presumptive rhombomere 2 (3/13)
+bud	4	r4_p6	4	4	3	False	4	171	0.02388	0.005848	0.004386	dbx1a,gsc,nkx2.4b,nkx2.9,lft1,lft2,shha,fezf2	neural keel (9/18); prechordal plate (6/18)
+bud	4	r4_p7	4	4	3	False	4	295	0.04119	0.00678	0.008772	rx3,six3b,lhx2b,aldob,stm,shisa2,nr2f5,pax6b	neural plate (14/16); forebrain neural keel (5/16)
+bud	4	r4_p8	3	3	2	False	3	147	0.02052	0.2245	0.1447	marcksl1b,apoeb,tagln2,apoc1,gata3,tp63,ved,sdc4	neurogenic field (4/8); non neural ectoderm (3/8); presumptive ectoderm (4/8)
+bud	4	r4_p9	3	3	3	False	3	163	0.02276	0	0	efemp2b,aldh1a2,tcf15,tbx6,rdh10a,ripply2,meox1,myf5	presumptive segmental plate (7/12); segmental plate (5/12)
+bud	4	r4_p10	3	3	3	False	3	95	0.01326	0.02105	0.008772	myod1,myf5,msgn1,myl10,unc45b,mef2d,tbx16,actc1a	adaxial cell (6/14); presumptive segmental plate (6/14); paraxial mesoderm (6/14)
+bud	4	r4_p11	3	3	3	False	3	255	0.0356	0.007843	0.008772	her3,cdx4,hspb1,chd,ptgdsb,prdm8,fgf8a,hoxc3a	
+bud	4	r4_p12	3	3	3	False	3	110	0.01536	0	0	twist2,ta,noto,ntd5,pmp22b,serpinh1b,rcn3,ppp1r14c	axial chorda mesoderm (6/10); axial mesoderm (4/10)
+bud	4	r4_p13	3	3	3	False	3	271	0.03784	0.01107	0.01316	sox3,hoxb1b,her3,sox19a,si:ch211-152c2.3,hnf1ba,foxb1a,meis2b	neural plate (12/16)
+bud	4	r4_p14	3	3	3	False	3	179	0.02499	0.01117	0.008772	tbx16,msgn1,rbm38,hspb1,snai1a,hes6,cdx4,anp32e	margin (13/15); tail bud (10/15)
+bud	4	r4_p15	3	3	3	False	3	162	0.02262	0.01235	0.008772	cxcl12b,fsta,twist1a,cxcl12a,ripply1,lsp1,marcksl1b,aplnra	
+bud	4	r4_p16	2	2	1	False	2	33	0.004608	0	0	hesx1,six7,shisa2,six3b,sox2,dmbx1a,dlx3b,pax6b	forebrain neural keel (6/15); anterior neural plate (5/15); neural keel (7/15)
+bud	4	r4_p17	2	2	1	False	2	35	0.004887	0	0	hes6,hspb1,cdx4,ta,foxd3,fgf8a,hoxb7a,rbm38	tail bud (8/14); margin (9/14)
+bud	4	r4_p18	2	2	2	False	2	60	0.008378	0.03333	0.008772	cdx4,hspb1,eve1,msx1b,apoc1,ube2e2,hoxb10a,sp5l	
+bud	4	r4_p19	2	2	2	False	2	74	0.01033	0	0	cxcl12a,hand2,gata5,gata6,twist1a,osr1,id3,cdh11	lateral mesoderm (4/7)
+bud	4	r4_p20	2	2	2	False	2	63	0.008796	0.03175	0.008772	irx7,pax3a,zic2a,msx1b,foxd3,her11,si:ch211-152c2.3,zic2b	neural plate (13/16)
+bud	4	r4_p21	2	2	2	False	2	46	0.006423	0.08696	0.01754	sox32,sox17,cdh6,marcksl1b,prdx5,pltp,gpm6ab,gata5	endoderm (6/8)
+bud	4	r4_p22	2	2	2	False	2	164	0.0229	0.0122	0.008772	dlx3b,shisa2,pax6b,six7,dmbx1a,pitx3,gsc,pcp4l1	forebrain neural keel (5/13)
+bud	4	r4_p23	2	2	2	False	2	139	0.01941	0.01439	0.008772	hesx1,six3b,fezf2,sox2,six7,emx3,shisa2,sox3	neural plate (16/19); anterior neural plate (6/19); forebrain neural keel (6/19)
+bud	4	r4_p24	2	2	2	False	2	105	0.01466	0.009524	0.004386	dlb,dla,pnx,neurog1,cxcr4b,myt1a,gadd45gb.1,prdm8	neural plate (8/10)
+bud	4	r4_p25	2	2	2	False	2	108	0.01508	0.5093	0.2412	zgc:174153,zgc:174855,calr3b,ctslb,tram1,xbp1,rrbp1b,si:dkey-26g8.5	polster (4/10); anterior axial hypoblast (6/10)
+bud	4	r4_p26	2	2	2	False	2	65	0.009076	0.04615	0.01316	twist1a,cxcl12b,ripply1,calr3b,pnocb,meox1,aplnra,marcksl1b	
+bud	4	r4_p27	2	2	2	False	2	119	0.01662	0.02521	0.01316	msgn1,ved,apoc1,tbx16,cdx4,szl,tbx6l,hes6	margin (10/12); tail bud (7/12)
+bud	4	r4_p28	2	2	2	False	2	23	0.003211	1	0.1009	krt4,krt18,krt5,lye,krt8,zgc:193505,cyt1,krt17	periderm (12/12); EVL (11/12)
+3-somite	0.5	r0.5_p0	6	1	4	True	6	169	0.1036	0	0	cdx4,hspb1,hes6,ta,eve1,sp5l,ptmab,hoxb7a	tail bud (10/13); segmental plate (7/13)
+3-somite	0.5	r0.5_p1	6	1	4	True	6	27	0.01655	0	0	pmp22b,twist2,ntd5,p4ha1b,serpinh1b,emilin3a,rcn3,plod1a	notochord (10/10)
+3-somite	0.5	r0.5_p2	6	1	4	True	6	59	0.03617	0.1186	0.1228	si:ch211-156j16.1,pltp,prdx5,cdh6,gpm6ab,akap12b,si:ch73-234b20.5,cd9b	
+3-somite	0.5	r0.5_p3	5	1	3	True	5	12	0.007357	0	0	ctslb,calr3b,zgc:174153,zgc:174855,tram1,rrbp1b,si:dkey-26g8.5,cd63	polster (11/11)
+3-somite	0.5	r0.5_p4	5	1	3	True	5	109	0.06683	0.009174	0.01754	rx3,mab21l2,cldn5a,six3b,aldob,stm,six7,shisa2	optic primordium (10/17); optic vesicle (8/17)
+3-somite	0.5	r0.5_p5	4	1	3	True	4	151	0.09258	0	0	msgn1,tbx16,tob1a,apoc1,cdx4,myf5,hes6,si:ch211-101l18.8	segmental plate (11/14); tail bud (9/14)
+3-somite	0.5	r0.5_p6	4	1	2	True	4	42	0.02575	0	0	nkx2.4b,nkx2.9,dbx1a,nkx2.1,shha,nkx2.4a,nkx2.2b,lft1	presumptive floor plate (3/13)
+3-somite	0.5	r0.5_p7	4	1	3	True	4	85	0.05212	0	0	meox1,efemp2b,tcf15,ripply1,tbx6,dmrt2a,hsp90aa1.1,unc45b	somite (11/15); paraxial mesoderm (6/15); segmental plate (8/15)
+3-somite	0.5	r0.5_p8	3	1	2	True	3	129	0.07909	0.007752	0.01754	cxcl12a,hand2,cdh11,lmo2,hnf1bb,etv2,lbx2,tal1	ventral mesoderm (9/14); posterior lateral mesoderm (4/14); anterior lateral plate mesoderm (5/14)
+3-somite	0.5	r0.5_p9	3	1	2	True	3	155	0.09503	0	0	eng2b,eng2a,sox21a,her5,mdkb,aldob,si:ch211-137a8.4,sox19a	midbrain neural keel (11/16); midbrain hindbrain boundary neural plate (5/16); midbrain hindbrain boundary neural keel (6/16)
+3-somite	0.5	r0.5_p10	3	1	2	True	3	42	0.02575	0	0	cxcl12b,fsta,twist1a,aplnra,six1a,lsp1,marcksl1b,tpm4a	head mesenchyme (3/12)
+3-somite	0.5	r0.5_p11	3	1	1	True	3	57	0.03495	0	0	foxd3,sox10,tfap2a,sox9b,zic2b,pax3a,msx3,dusp2	neural crest cell (6/19); cranial neural crest (6/19); neural crest (7/19)
+3-somite	0.5	r0.5_p12	2	1	2	True	2	277	0.1698	0.00361	0.01754	mdkb,sox3,si:ch211-152c2.3,sox19a,si:ch211-222l21.1,si:ch211-137a8.4,calm3a,nova2	presumptive rhombomere 3 (3/12); hindbrain neural plate (6/12)
+3-somite	0.5	r0.5_p13	2	1	2	True	2	247	0.1514	0.08097	0.3509	apoeb,tagln2,marcksl1b,apoc1,dlx3b,pfn1,epcam,cldni	periderm (14/15); non neural ectoderm (4/15)
+3-somite	1	r1_p0	6	1	4	True	6	151	0.09258	0	0	msgn1,tbx16,tob1a,cdx4,apoc1,myf5,hes6,si:ch211-101l18.8	segmental plate (10/13); tail bud (9/13)
+3-somite	1	r1_p1	6	1	4	True	6	117	0.07174	0	0	eng2b,eng2a,sox21a,her5,mdkb,her11,irx7,si:ch211-137a8.4	midbrain hindbrain boundary neural keel (9/17); midbrain hindbrain boundary neural plate (7/17); midbrain neural keel (10/17)
+3-somite	1	r1_p2	6	1	4	True	6	27	0.01655	0	0	pmp22b,twist2,ntd5,p4ha1b,serpinh1b,emilin3a,rcn3,plod1a	notochord (10/10)
+3-somite	1	r1_p3	6	1	4	True	6	60	0.03679	0.1167	0.1228	si:ch211-156j16.1,pltp,prdx5,gpm6ab,cdh6,si:ch73-234b20.5,akap12b,cd9b	
+3-somite	1	r1_p4	5	1	3	True	5	12	0.007357	0	0	ctslb,calr3b,zgc:174153,zgc:174855,tram1,rrbp1b,si:dkey-26g8.5,cd63	polster (11/11)
+3-somite	1	r1_p5	5	1	3	True	5	109	0.06683	0.009174	0.01754	rx3,mab21l2,cldn5a,six3b,aldob,stm,six7,shisa2	optic primordium (10/17); optic vesicle (8/17)
+3-somite	1	r1_p6	5	1	3	True	5	42	0.02575	0	0	cxcl12b,fsta,twist1a,aplnra,six1a,lsp1,marcksl1b,tpm4a	head mesenchyme (3/12)
+3-somite	1	r1_p7	4	1	2	True	4	163	0.09994	0	0	cdx4,hspb1,hes6,ta,eve1,sp5l,ptmab,hoxb7a	tail bud (9/12)
+3-somite	1	r1_p8	4	1	2	True	4	133	0.08155	0.03008	0.07018	dlx3b,cldnb,tagln2,foxi1,epcam,pitx3,six1b,dlx4b	otic placode (5/17); epibranchial field (3/17)
+3-somite	1	r1_p9	4	1	3	True	4	101	0.06193	0.009901	0.01754	mdkb,cyp26c1,si:ch211-152c2.3,cyp26b1,vgll3,egr2b,sox19a,si:ch211-137a8.4	presumptive rhombomere 3 (5/15); presumptive rhombomere 4 (5/15); hindbrain neural plate (7/15)
+3-somite	1	r1_p10	4	1	2	True	4	114	0.0699	0.1404	0.2807	apoeb,apoc1,pfn1,marcksl1b,tagln2,cldni,cfl1l,gata3	periderm (12/12); non neural ectoderm (3/12)
+3-somite	1	r1_p11	4	1	3	True	4	134	0.08216	0.007463	0.01754	cxcl12a,hand2,cdh11,lmo2,hnf1bb,lbx2,etv2,apoc1	ventral mesoderm (9/14); posterior lateral mesoderm (4/14); anterior lateral plate mesoderm (5/14)
+3-somite	1	r1_p12	4	1	2	True	4	17	0.01042	0	0	myl10,tnni2b.1,actc1a,myod1,nexn,mef2d,acta1a,ttnb	adaxial cell (14/15)
+3-somite	1	r1_p13	4	1	2	True	4	68	0.04169	0	0	meox1,efemp2b,tcf15,ripply1,dmrt2a,tbx6,aldh1a2,cpn1	somite (12/17); segmental plate (11/17); paraxial mesoderm (6/17)
+3-somite	1	r1_p14	3	1	1	True	3	29	0.01778	0	0	neurod4,elavl3,dla,myt1a,dlb,cep131,cxcr4b,neurog1	primary neuron (7/15); trigeminal placode (6/15); cranial ganglion (4/15)
+3-somite	1	r1_p15	3	1	1	True	3	57	0.03495	0	0	foxd3,sox10,tfap2a,sox9b,zic2b,pax3a,msx3,dusp2	neural crest cell (6/19); cranial neural crest (6/19); neural crest (7/19)
+3-somite	1	r1_p16	2	1	1	True	2	152	0.09319	0	0	sox3,hoxd4a,wnt11r,si:ch211-222l21.1,hoxa3a,sox19a,si:ch211-152c2.3,her13	neural plate (8/12)
+3-somite	2	r2_p0	7	1	4	True	7	58	0.03556	0.1207	0.1228	si:ch211-156j16.1,pltp,prdx5,gpm6ab,cdh6,si:ch73-234b20.5,akap12b,cd9b	
+3-somite	2	r2_p1	7	1	4	True	7	112	0.06867	0	0	eng2b,eng2a,sox21a,her5,mdkb,her11,irx7,si:ch211-137a8.4	midbrain hindbrain boundary neural keel (9/17); midbrain hindbrain boundary neural plate (7/17); midbrain neural keel (10/17)
+3-somite	2	r2_p2	6	1	3	True	6	86	0.05273	0.186	0.2807	marcksl1b,apoeb,tagln2,pfn1,cldni,apoc1,cfl1l,epcam	periderm (9/11)
+3-somite	2	r2_p3	6	1	4	True	6	17	0.01042	0	0	myl10,tnni2b.1,actc1a,myod1,nexn,mef2d,acta1a,ttnb	adaxial cell (14/15)
+3-somite	2	r2_p4	6	1	4	True	6	27	0.01655	0	0	pmp22b,twist2,ntd5,p4ha1b,serpinh1b,emilin3a,rcn3,plod1a	notochord (10/10)
+3-somite	2	r2_p5	6	1	4	True	6	42	0.02575	0	0	cxcl12b,fsta,twist1a,aplnra,six1a,lsp1,marcksl1b,tpm4a	head mesenchyme (3/12)
+3-somite	2	r2_p6	5	1	4	True	5	70	0.04292	0	0	meox1,efemp2b,tcf15,ripply1,dmrt2a,tbx6,aldh1a2,cpn1	somite (12/17); segmental plate (11/17); paraxial mesoderm (6/17)
+3-somite	2	r2_p7	5	1	2	True	5	49	0.03004	0.06122	0.05263	apoc1,apoeb,ptgs1,cdx4,pfn1,krt8,crabp2a,cldni	periderm (12/15); non neural ectoderm (3/15)
+3-somite	2	r2_p8	5	1	4	True	5	101	0.06193	0.009901	0.01754	mdkb,cyp26c1,si:ch211-152c2.3,cyp26b1,vgll3,egr2b,sox19a,si:ch211-137a8.4	presumptive rhombomere 3 (5/15); presumptive rhombomere 4 (5/15); presumptive rhombomere 5 (4/15)
+3-somite	2	r2_p9	5	1	3	True	5	59	0.03617	0	0	foxd3,sox10,tfap2a,zic2b,sox9b,pax3a,msx3,msx1b	neural crest cell (6/19); cranial neural crest (6/19); neural crest (7/19)
+3-somite	2	r2_p10	5	1	3	True	5	12	0.007357	0	0	ctslb,calr3b,zgc:174153,zgc:174855,tram1,rrbp1b,si:dkey-26g8.5,cd63	polster (11/11)
+3-somite	2	r2_p11	5	1	3	True	5	108	0.06622	0.009259	0.01754	rx3,mab21l2,cldn5a,six3b,aldob,six7,stm,shisa2	optic primordium (10/17); optic vesicle (8/17)
+3-somite	2	r2_p12	4	1	3	True	4	79	0.04844	0	0	dlx3b,foxi1,cldna,pax8,gbx2,cldnb,cldn7b,eya1	otic placode (5/16); epibranchial field (3/16)
+3-somite	2	r2_p13	4	1	2	True	4	30	0.01839	0	0	neurod4,elavl3,dla,myt1a,cep131,dlb,cxcr4b,neurog1	primary neuron (7/16); trigeminal placode (6/16); cranial ganglion (4/16)
+3-somite	2	r2_p14	4	1	2	True	4	47	0.02882	0	0	hes6,cdx4,ta,hspb1,tbx16,eve1,vox,ved	tail bud (12/14)
+3-somite	2	r2_p15	4	1	3	True	4	117	0.07174	0	0	sox3,hoxd4a,wnt11r,hoxa3a,si:ch211-222l21.1,sox19a,her13,her2	hindbrain neural plate (7/12); neural plate (8/12)
+3-somite	2	r2_p16	4	1	3	True	4	62	0.03801	0	0	hand2,cxcl12a,cdh11,gata5,gata6,apoc1,qkia,twist1a	ventral mesoderm (10/15); endoderm (4/15)
+3-somite	2	r2_p17	4	1	2	True	4	60	0.03679	0	0	nkx2.9,nkx2.4b,shha,dbx1a,shhb,nkx2.1,nkx2.2b,nkx2.4a	presumptive floor plate (4/11); presumptive diencephalon (5/11)
+3-somite	2	r2_p18	3	1	2	True	3	137	0.084	0	0	msgn1,tbx16,apoc1,tob1a,myf5,cdx4,hes6,si:ch211-101l18.8	segmental plate (11/14); tail bud (9/14)
+3-somite	2	r2_p19	3	1	3	True	3	70	0.04292	0.01429	0.01754	lmo2,hnf1bb,etv2,lbx2,tal1,pax8,cxcl12a,lhx1a	ventral mesoderm (9/17); posterior lateral mesoderm (4/17); lateral plate mesoderm (6/17)
+3-somite	2	r2_p20	3	1	2	True	3	33	0.02023	0.0303	0.01754	dlx3b,six3b,pax6b,pitx3,dlx4b,epcam,shisa2,six1b	
+3-somite	2	r2_p21	3	1	1	True	3	54	0.03311	0	0	fezf2,pax6a,emx3,otx1b,hesx1,mdkb,olig2,tdgf1	presumptive telencephalon (10/18); presumptive diencephalon (10/18); midbrain neural keel (8/18)
+3-somite	2	r2_p22	2	1	2	True	2	41	0.02514	0.6585	0.4737	krt5,krt4,krt18,krt17,lye,zgc:193505,krt92,ppl	periderm (8/8)
+3-somite	4	r4_p0	7	1	4	True	7	74	0.04537	0.01351	0.01754	rx3,mab21l2,six3b,cldn5a,six7,stm,shisa2,aldob	optic primordium (11/17); optic vesicle (9/17)
+3-somite	4	r4_p1	7	1	4	True	7	37	0.02269	0	0	eng2b,eng2a,her5,her11,sox21a,irx7,pax2a,aldob	midbrain hindbrain boundary neural keel (9/17); midbrain hindbrain boundary neural plate (7/17); midbrain neural keel (10/17)
+3-somite	4	r4_p2	6	1	4	True	6	12	0.007357	0	0	ctslb,calr3b,zgc:174153,zgc:174855,tram1,rrbp1b,si:dkey-26g8.5,cd63	polster (11/11)
+3-somite	4	r4_p3	6	1	4	True	6	17	0.01042	0	0	myl10,tnni2b.1,actc1a,myod1,nexn,mef2d,acta1a,ttnb	adaxial cell (14/15)
+3-somite	4	r4_p4	6	1	4	True	6	27	0.01655	0	0	pmp22b,twist2,ntd5,p4ha1b,serpinh1b,emilin3a,rcn3,plod1a	notochord (10/10)
+3-somite	4	r4_p5	6	1	4	True	6	42	0.02575	0.07143	0.05263	apoc1,apoeb,ptgs1,cdx4,pfn1,krt8,crabp2a,tp63	periderm (11/14); non neural ectoderm (3/14)
+3-somite	4	r4_p6	5	1	4	True	5	69	0.04231	0	0	dlx3b,foxi1,gbx2,pax8,cldna,cldnb,cldn7b,eya1	otic placode (5/17); epibranchial field (3/17)
+3-somite	4	r4_p7	5	1	4	True	5	31	0.01901	0.03226	0.01754	dlx3b,six3b,pax6b,pitx3,dlx4b,epcam,shisa2,six1b	prechordal plate (4/19)
+3-somite	4	r4_p8	5	1	2	True	5	42	0.02575	0	0	cxcl12b,fsta,twist1a,aplnra,six1a,lsp1,marcksl1b,tpm4a	head mesenchyme (3/12)
+3-somite	4	r4_p9	5	1	3	True	5	43	0.02636	0	0	nkx2.4b,nkx2.9,dbx1a,nkx2.1,shha,nkx2.4a,nkx2.2b,lft1	presumptive floor plate (3/13)
+3-somite	4	r4_p10	4	1	3	True	4	45	0.02759	0.2444	0.193	marcksl1b,apoeb,pfn1,tagln2,cldni,apoc1,cfl1l,gata3	periderm (9/10)
+3-somite	4	r4_p11	4	1	2	True	4	15	0.009197	0	0	msx1b,cdx4,neurog1,sp5l,wnt8a,nkx1.2la,arl4ab,zic2b	neural plate (11/14)
+3-somite	4	r4_p12	4	1	3	True	4	61	0.0374	0.1148	0.1228	si:ch211-156j16.1,pltp,prdx5,gpm6ab,cdh6,si:ch73-234b20.5,akap12b,cd9b	
+3-somite	4	r4_p13	4	1	2	True	4	29	0.01778	0	0	neurod4,elavl3,dla,myt1a,dlb,cep131,cxcr4b,neurog1	primary neuron (7/15); trigeminal placode (6/15); cranial ganglion (4/15)
+3-somite	4	r4_p14	4	1	3	True	4	49	0.03004	0	0	foxd3,sox10,tfap2a,sox9b,zic2b,msx3,pax3a,dusp2	neural crest cell (6/19); cranial neural crest (6/19); neural crest (7/19)
+3-somite	4	r4_p15	4	1	2	True	4	36	0.02207	0	0	mab21l2,aldob,rx3,cldn5a,six3b,stm,si:dkey-56m19.5,otx2	optic primordium (8/15); optic vesicle (7/15); forebrain neural keel (6/15)
+3-somite	4	r4_p16	3	1	3	True	3	68	0.04169	0	0	meox1,efemp2b,tcf15,ripply1,dmrt2a,tbx6,aldh1a2,cpn1	somite (12/17); segmental plate (11/17); paraxial mesoderm (6/17)
+3-somite	4	r4_p17	3	1	2	True	3	36	0.02207	0.05556	0.03509	apoeb,marcksl1b,apoc1,tagln2,gata3,cldna,pfn1,hpgd	periderm (10/12)
+3-somite	4	r4_p18	3	1	2	True	3	38	0.0233	0	0	fezf2,emx3,pax6a,hesx1,tdgf1,foxg1a,otx1b,aldob	presumptive telencephalon (9/16); presumptive diencephalon (7/16); midbrain neural keel (7/16)
+3-somite	4	r4_p19	3	1	1	True	3	25	0.01533	0	0	lmo2,etv2,tal1,gfi1aa,mnx1,plk3,lbx2,sox7	posterior lateral mesoderm (5/14); anterior lateral plate mesoderm (5/14); angioblastic mesenchymal cell (3/14)
+3-somite	4	r4_p20	3	1	1	True	3	45	0.02759	0.02222	0.01754	hnf1bb,cxcl12a,lhx1a,lbx2,pax8,id3,cdh11,fli1a	pronephric mesoderm (6/13); ventral mesoderm (7/13); intermediate mesoderm (3/13)
+3-somite	4	r4_p21	2	1	2	True	2	41	0.02514	0.6585	0.4737	krt5,krt4,krt18,krt17,lye,zgc:193505,krt92,ppl	periderm (8/8)
+3-somite	4	r4_p22	2	1	2	True	2	70	0.04292	0	0	apoc1,msgn1,tbx16,ved,cdx4,si:ch211-101l18.8,hes6,vox	tail bud (11/15); segmental plate (11/15)
+3-somite	4	r4_p23	2	1	2	True	2	22	0.01349	0.1364	0.05263	tagln2,marcksl1b,pitx3,nkx2.7,epcam,gata2a,myh9a,bmp2b	periderm (10/16)
+3-somite	4	r4_p24	2	1	2	True	2	29	0.01778	0	0	hand2,apoc1,cdx4,apoeb,szl,cxcl12a,msx3,ved	ventral mesoderm (6/10)
+3-somite	4	r4_p25	2	1	2	True	2	33	0.02023	0	0	hand2,cdh11,cxcl12a,gata5,gata6,tmem88a,twist1a,cxcl12b	ventral mesoderm (11/18); lateral plate mesoderm (5/18); endoderm (4/18)
+3-somite	4	r4_p26	2	1	1	True	2	59	0.03617	0.01695	0.01754	mdkb,si:ch211-152c2.3,cyp26c1,vgll3,egr2b,her2,cyp26b1,olig3	presumptive rhombomere 3 (4/14); presumptive rhombomere 6 (3/14); presumptive rhombomere 4 (4/14)
+3-somite	4	r4_p27	2	1	1	True	2	67	0.04108	0	0	cdx4,hes6,hspb1,ta,eve1,vox,cyp26a1,ved	tail bud (11/13); segmental plate (7/13)
+6-somite	0.5	r0.5_p0	2	2	1	False	2	316	0.07085	0	0	rx3,mab21l2,six3b,stm,rx2,cldn5a,lhx9,aldob	optic vesicle (11/15); optic primordium (7/15)
+6-somite	0.5	r0.5_p1	2	2	1	False	2	113	0.02534	0.00885	0.01042	dbx1a,nkx2.4b,shha,nkx2.4a,shhb,nkx2.1,sst1.2,lft1	
+6-somite	0.5	r0.5_p2	2	2	1	False	2	374	0.08386	0.08289	0.3229	apoeb,pfn1,cldni,apoc1,cfl1l,tagln2,actb1,si:dkey-152p16.6	periderm (11/12)
+6-somite	0.5	r0.5_p3	2	2	1	False	2	334	0.07489	0	0	lmo2,cdh11,hand2,cxcl12a,tal1,etv2,gata5,gata6	lateral plate mesoderm (12/16); ventral mesoderm (14/16); lateral mesoderm (8/16)
+6-somite	0.5	r0.5_p4	2	2	1	False	2	85	0.01906	0	0	cxcl12b,twist1a,marcksl1b,aplnra,lsp1,tpm4a,akap12b,foxl2	head mesenchyme (3/12)
+6-somite	0.5	r0.5_p5	2	2	1	False	2	88	0.01973	0	0	ntd5,pmp22b,rcn3,ta,twist2,p4ha1b,emilin3a,noto	notochord (13/13); axial mesoderm (5/13)
+6-somite	0.5	r0.5_p6	2	2	1	False	2	278	0.06233	0.02518	0.07292	dlx3b,cldnb,epcam,six1b,cldna,foxi1,dlx4b,ptgs2a	olfactory field (3/17); otic placode (4/17)
+6-somite	0.5	r0.5_p7	2	2	1	False	2	154	0.03453	0.006494	0.01042	pltp,si:ch211-156j16.1,cdh6,prdx5,cd9b,si:ch211-152c2.3,si:ch73-234b20.5,mcama	
+6-somite	0.5	r0.5_p8	2	2	1	False	2	39	0.008744	1	0.4062	krt4,krt5,krt18,krt92,cyt1,krt17,lye,cyt1l	periderm (10/10)
+6-somite	0.5	r0.5_p9	2	2	1	False	2	45	0.01009	0	0	zgc:174153,zgc:174855,he1a,ctslb,he1b,calr3b,tram1,si:dkey-26g8.5	polster (10/10)
+6-somite	0.5	r0.5_p10	2	2	1	False	2	213	0.04776	0	0	meox1,efemp2b,tcf15,ripply1,cpn1,dmrt2a,kazald2,tgfbi	somite (14/17); myotome (3/17); segmental plate (8/17)
+6-somite	0.5	r0.5_p11	2	2	1	False	2	164	0.03677	0	0	foxd3,sox10,zic2b,sox9b,twist1b,msx3,tfap2a,pax3a	cranial neural crest (8/19); neural crest (11/19); neural crest cell (5/19)
+6-somite	1	r1_p0	2	2	1	False	2	318	0.0713	0	0	rx3,mab21l2,six3b,stm,rx2,cldn5a,lhx9,aldob	optic vesicle (11/15); optic primordium (7/15)
+6-somite	1	r1_p1	2	2	1	False	2	299	0.06704	0.003344	0.01042	mdkb,si:ch211-152c2.3,egr2b,cyp26b1,cyp26c1,sox19a,mafba,si:ch211-137a8.4	presumptive rhombomere 3 (4/14); hindbrain neural rod (4/14); presumptive rhombomere 6 (3/14)
+6-somite	1	r1_p2	2	2	1	False	2	112	0.02511	0.008929	0.01042	nkx2.4b,dbx1a,shha,nkx2.4a,shhb,nkx2.1,sst1.2,lft1	
+6-somite	1	r1_p3	2	2	1	False	2	156	0.03498	0	0	meox1,efemp2b,tcf15,ripply1,cpn1,kazald2,dmrt2a,tgfbi	somite (15/18); myotome (3/18)
+6-somite	1	r1_p4	2	2	1	False	2	282	0.06323	0.02482	0.07292	dlx3b,epcam,cldnb,six1b,cldna,foxi1,dlx4b,ptgs2a	olfactory field (3/17); otic placode (4/17)
+6-somite	1	r1_p5	2	2	1	False	2	195	0.04372	0	0	hand2,cxcl12a,cdh11,gata5,tmem88b,gata6,gdf3,qkia	ventral mesoderm (10/12); lateral plate mesoderm (7/12); heart primordium (3/12)
+6-somite	1	r1_p6	2	2	1	False	2	153	0.0343	0	0	lmo2,tal1,etv2,gfi1aa,sox7,cdh11,fli1a,gata1a	ventral mesoderm (12/13); posterior lateral mesoderm (6/13); posterior lateral plate mesoderm (7/13)
+6-somite	1	r1_p7	2	2	1	False	2	85	0.01906	0	0	cxcl12b,twist1a,marcksl1b,aplnra,lsp1,tpm4a,akap12b,foxl2	head mesenchyme (3/12)
+6-somite	1	r1_p8	2	2	1	False	2	88	0.01973	0	0	ntd5,pmp22b,rcn3,ta,twist2,p4ha1b,emilin3a,noto	notochord (13/13); axial mesoderm (5/13)
+6-somite	1	r1_p9	2	2	1	False	2	372	0.08341	0.005376	0.02083	si:ch211-222l21.1,hoxd4a,sox3,hoxa3a,dla,tuba1a,wnt11r,myt1a	primary neuron hindbrain (4/13); trigeminal placode (5/13); primary neuron (5/13)
+6-somite	1	r1_p10	2	2	1	False	2	154	0.03453	0.006494	0.01042	pltp,si:ch211-156j16.1,cdh6,prdx5,cd9b,si:ch211-152c2.3,si:ch73-234b20.5,mcama	
+6-somite	1	r1_p11	2	2	1	False	2	200	0.04484	0.01	0.02083	eng2b,eng2a,sox21a,her5,her11,mdkb,irx7,rgcc	midbrain hindbrain boundary neural keel (6/14); midbrain hindbrain boundary neural rod (6/14); midbrain hindbrain boundary neural plate (4/14)
+6-somite	1	r1_p12	2	2	1	False	2	39	0.008744	1	0.4062	krt4,krt5,krt18,krt92,cyt1,krt17,lye,cyt1l	periderm (10/10)
+6-somite	1	r1_p13	2	2	1	False	2	45	0.01009	0	0	zgc:174153,zgc:174855,he1a,ctslb,he1b,calr3b,tram1,si:dkey-26g8.5	polster (10/10)
+6-somite	1	r1_p14	2	2	1	False	2	64	0.01435	0	0	myod1,myl10,actc1a,acta1a,mef2d,hsp90aa1.1,alpi.1,unc45b	adaxial cell (14/17); somite (11/17)
+6-somite	1	r1_p15	2	2	1	False	2	163	0.03655	0	0	foxd3,sox10,zic2b,sox9b,twist1b,msx3,tfap2a,pax3a	cranial neural crest (8/19); neural crest (10/19); neural crest cell (6/19)
+6-somite	2	r2_p0	2	2	1	False	2	311	0.06973	0	0	rx3,mab21l2,six3b,stm,rx2,cldn5a,lhx9,aldob	optic vesicle (11/15); optic primordium (8/15)
+6-somite	2	r2_p1	2	2	1	False	2	287	0.06435	0.003484	0.01042	mdkb,si:ch211-152c2.3,egr2b,cyp26b1,cyp26c1,sox19a,mafba,sox3	presumptive rhombomere 3 (5/14); presumptive rhombomere 6 (4/14); presumptive rhombomere 5 (4/14)
+6-somite	2	r2_p2	2	2	1	False	2	122	0.02735	0.008197	0.01042	dbx1a,nkx2.4b,shha,nkx2.4a,shhb,nkx2.1,sst1.2,lft1	
+6-somite	2	r2_p3	2	2	1	False	2	161	0.0361	0	0	meox1,myf5,tcf15,efemp2b,tbx6,hsp90aa1.1,ripply2,dmrt2a	segmental plate (13/16); paraxial mesoderm (9/16); somite (12/16)
+6-somite	2	r2_p4	2	2	1	False	2	134	0.03004	0.07463	0.1042	apoeb,apoc1,crabp2a,pfn1,cdx4,cldni,alcama,actb1	periderm (12/15)
+6-somite	2	r2_p5	2	2	1	False	2	115	0.02578	0	0	lmo2,tal1,etv2,gfi1aa,sox7,cdh11,gata1a,cldng	ventral mesoderm (13/14); posterior lateral mesoderm (6/14); posterior lateral plate mesoderm (7/14)
+6-somite	2	r2_p6	2	2	1	False	2	85	0.01906	0	0	cxcl12b,twist1a,marcksl1b,aplnra,lsp1,tpm4a,akap12b,foxl2	head mesenchyme (3/12)
+6-somite	2	r2_p7	2	2	1	False	2	173	0.03879	0.09249	0.1667	pfn1,apoeb,tagln2,cldni,cfl1l,marcksl1b,actb1,si:dkey-152p16.6	periderm (9/11)
+6-somite	2	r2_p8	2	2	1	False	2	88	0.01973	0	0	ntd5,pmp22b,rcn3,ta,twist2,p4ha1b,emilin3a,noto	notochord (13/13); axial mesoderm (5/13)
+6-somite	2	r2_p9	2	2	1	False	2	217	0.04865	0.01843	0.04167	dlx3b,cldnb,six1b,foxi1,epcam,dlx4b,pitx3,ptgs2a	olfactory field (3/18)
+6-somite	2	r2_p10	2	2	1	False	2	232	0.05202	0.008621	0.02083	hoxd4a,hoxa3a,sox3,si:ch211-222l21.1,wnt11r,irx1b,her2,si:ch211-193l2.3	neuroectoderm (4/12); neural plate (8/12); hindbrain neural keel (4/12)
+6-somite	2	r2_p11	2	2	1	False	2	209	0.04686	0.009569	0.02083	eng2b,eng2a,sox21a,her5,her11,mdkb,irx7,rgcc	midbrain hindbrain boundary neural keel (6/14); midbrain hindbrain boundary neural rod (6/14); midbrain hindbrain boundary neural plate (4/14)
+6-somite	2	r2_p12	2	2	1	False	2	39	0.008744	1	0.4062	krt4,krt5,krt18,krt92,cyt1,krt17,lye,cyt1l	periderm (10/10)
+6-somite	2	r2_p13	2	2	1	False	2	45	0.01009	0	0	zgc:174153,zgc:174855,he1a,ctslb,he1b,calr3b,tram1,si:dkey-26g8.5	polster (10/10)
+6-somite	2	r2_p14	2	2	1	False	2	120	0.02691	0	0	meox1,efemp2b,tcf15,ripply1,cpn1,tgfbi,kazald2,fstl1a	somite (16/18); myotome (3/18)
+6-somite	2	r2_p15	2	2	1	False	2	149	0.03341	0	0	foxd3,sox10,zic2b,twist1b,sox9b,msx3,tfap2a,pax3a	cranial neural crest (8/19); neural crest (11/19); neural crest cell (6/19)
+6-somite	2	r2_p16	2	2	1	False	2	133	0.02982	0	0	elavl3,myt1a,dla,dlb,neurod4,tuba1a,neurog1,tuba8l3	primary neuron (7/13); trigeminal placode (6/13); primary neuron hindbrain (4/13)
+6-somite	4	r4_p0	2	2	1	False	2	158	0.03543	0	0	rx3,mab21l2,six3b,stm,rx2,cldn5a,lhx9,fzd5	optic vesicle (11/16); optic primordium (8/16)
+6-somite	4	r4_p1	2	2	1	False	2	114	0.02556	0.008772	0.01042	dbx1a,nkx2.4b,shha,nkx2.4a,shhb,nkx2.1,sst1.2,lft1	
+6-somite	4	r4_p2	2	2	1	False	2	121	0.02713	0.08264	0.1042	apoeb,apoc1,crabp2a,pfn1,cdx4,cldni,emx2,alcama	periderm (12/16)
+6-somite	4	r4_p3	2	2	1	False	2	107	0.02399	0	0	foxg1a,emx3,fezf2,cdh6,zic4,sox3,sox11a,dlx3b	presumptive telencephalon (13/18); presumptive diencephalon (8/18); midbrain neural keel (7/18)
+6-somite	4	r4_p4	2	2	1	False	2	157	0.0352	0.01911	0.03125	pax6a,olig3,mdka,lhx5,arx,barhl2,si:ch211-222l21.1,nr2f2	presumptive diencephalon (9/16); presumptive telencephalon (7/16); hindbrain neural keel (5/16)
+6-somite	4	r4_p5	2	2	1	False	2	62	0.0139	0	0	hnf1bb,pax2a,lbx2,cdh11,lmo2,si:ch211-119e14.1,lhx1a,id3	intermediate mesoderm (6/12); pronephric mesoderm (5/12); lateral plate mesoderm (5/12)
+6-somite	4	r4_p6	2	2	1	False	2	85	0.01906	0	0	cxcl12b,twist1a,marcksl1b,aplnra,lsp1,tpm4a,akap12b,foxl2	head mesenchyme (3/12)
+6-somite	4	r4_p7	2	2	1	False	2	39	0.008744	1	0.4062	krt4,krt5,krt18,krt92,cyt1,krt17,lye,cyt1l	periderm (10/10)
+6-somite	4	r4_p8	2	2	1	False	2	45	0.01009	0	0	zgc:174153,zgc:174855,he1a,ctslb,he1b,calr3b,tram1,si:dkey-26g8.5	polster (10/10)
+6-somite	4	r4_p9	2	2	1	False	2	120	0.02691	0	0	meox1,efemp2b,tcf15,ripply1,cpn1,tgfbi,kazald2,fstl1a	somite (16/18); myotome (3/18)
+6-somite	4	r4_p10	2	2	1	False	2	61	0.01368	0	0	pmp22b,ntd5,rcn3,emilin3a,p4ha1b,ta,serpinh1b,pak1	notochord (14/14)
+6-somite	4	r4_p11	2	2	1	False	2	150	0.03363	0	0	foxd3,sox10,zic2b,twist1b,sox9b,msx3,tfap2a,pax3a	cranial neural crest (8/19); neural crest (11/19); neural crest cell (6/19)
+6-somite	4	r4_p12	2	2	1	False	2	96	0.02152	0	0	elavl3,dlb,myt1a,dla,neurod4,tuba1a,neurog1,tuba8l3	trigeminal placode (7/14); primary neuron (7/14); Rohon-Beard neuron (5/14)

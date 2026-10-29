@@ -1,0 +1,2257 @@
+set	stage	program	genes	libraries	coherent_libraries	median_coherence	supported
+farrell	high	farrell:high:0	30	2	1	2.947	True
+farrell	high	farrell:high:1	30	2	1	2.338	True
+farrell	high	farrell:high:2	30	2	2	8.587	True
+farrell	high	farrell:high:3	30	2	0	2.083	False
+farrell	high	farrell:high:4	30	2	2	5.298	True
+farrell	high	farrell:high:5	30	2	2	6.049	True
+farrell	high	farrell:high:6	30	2	1	2.916	True
+farrell	high	farrell:high:7	30	2	0	1.754	False
+farrell	high	farrell:high:8	30	2	1	2.315	True
+farrell	high	farrell:high:9	30	2	0	1.674	False
+zfin_pre	high	blastodisc	7	2	1	1.406	True
+zfin_pre	high	blastomere	6	2	0	1.046	False
+zfin_all	high	blastodisc	11	2	0	1.352	False
+zfin_all	high	blastomere	6	2	0	1.046	False
+zfin_pre_het	high	blastodisc	4	2	1	1.528	True
+zfin_pre_het	high	blastomere	3	2	0	0.9075	False
+zfin_all_het	high	blastodisc	4	2	1	1.528	True
+zfin_all_het	high	blastomere	3	2	0	0.9075	False
+signalling	high	signal:BMP	2	2	0	1.22	False
+signalling	high	signal:Nodal	2	2	0	1.068	False
+states	high	state:maternal	10	2	0	1.467	False
+states	high	state:blastomere	6	2	0	1.255	False
+states	high	state:cell_cycle_s	10	2	0	1.044	False
+states	high	state:cell_cycle_g2m	10	2	0	1.146	False
+states	high	state:heat_shock	3	2	0	0.9455	False
+states	high	state:p53_response	10	2	1	1.501	True
+curated_staged	high	signal:BMP	2	2	0	1.22	False
+curated_staged	high	signal:Nodal	2	2	0	1.068	False
+curated_staged	high	state:maternal	10	2	0	1.467	False
+curated_staged	high	state:blastomere	6	2	0	1.255	False
+curated_staged	high	state:cell_cycle_s	10	2	0	1.044	False
+curated_staged	high	state:cell_cycle_g2m	10	2	0	1.146	False
+curated_staged	high	state:heat_shock	3	2	0	0.9455	False
+curated_staged	high	state:p53_response	10	2	1	1.501	True
+curated	high	state:maternal	10	2	0	1.467	False
+curated	high	state:blastomere	6	2	0	1.255	False
+curated	high	state:cell_cycle_s	10	2	0	1.044	False
+curated	high	state:cell_cycle_g2m	10	2	0	1.146	False
+curated	high	state:heat_shock	3	2	0	0.9455	False
+curated	high	state:p53_response	10	2	1	1.501	True
+curated	high	signal:BMP	7	2	1	1.519	True
+curated	high	signal:Nodal	3	2	0	1.184	False
+farrell	oblong	farrell:oblong:0	30	2	0	2.569	False
+farrell	oblong	farrell:oblong:1	30	2	2	12.63	True
+farrell	oblong	farrell:oblong:10	30	2	0	2.477	False
+farrell	oblong	farrell:oblong:2	30	2	0	1.67	False
+farrell	oblong	farrell:oblong:3	30	2	1	5.972	True
+farrell	oblong	farrell:oblong:4	30	2	0	3.437	False
+farrell	oblong	farrell:oblong:5	28	2	0	2.156	False
+farrell	oblong	farrell:oblong:6	29	2	0	2.422	False
+farrell	oblong	farrell:oblong:7	29	2	0	3.989	False
+farrell	oblong	farrell:oblong:8	29	2	0	3.483	False
+farrell	oblong	farrell:oblong:9	30	2	0	1.804	False
+zfin_pre	oblong	blastodisc	7	2	0	1.057	False
+zfin_all	oblong	blastodisc	7	2	0	1.057	False
+signalling	oblong	signal:BMP	2	2	0	1.207	False
+states	oblong	state:maternal	10	2	0	1.558	False
+states	oblong	state:blastomere	6	2	0	1.171	False
+states	oblong	state:cell_cycle_s	10	2	0	0.99	False
+states	oblong	state:cell_cycle_g2m	10	2	0	1.164	False
+states	oblong	state:heat_shock	2	2	0	0.9524	False
+states	oblong	state:p53_response	9	2	1	1.912	True
+curated_staged	oblong	signal:BMP	2	2	0	1.207	False
+curated_staged	oblong	state:maternal	10	2	0	1.558	False
+curated_staged	oblong	state:blastomere	6	2	0	1.171	False
+curated_staged	oblong	state:cell_cycle_s	10	2	0	0.99	False
+curated_staged	oblong	state:cell_cycle_g2m	10	2	0	1.164	False
+curated_staged	oblong	state:heat_shock	2	2	0	0.9524	False
+curated_staged	oblong	state:p53_response	9	2	1	1.912	True
+curated	oblong	state:maternal	10	2	0	1.558	False
+curated	oblong	state:blastomere	6	2	0	1.171	False
+curated	oblong	state:cell_cycle_s	10	2	0	0.99	False
+curated	oblong	state:cell_cycle_g2m	10	2	0	1.164	False
+curated	oblong	state:heat_shock	2	2	0	0.9524	False
+curated	oblong	state:p53_response	9	2	1	1.912	True
+curated	oblong	signal:BMP	5	2	0	1.058	False
+curated	oblong	signal:Nodal	3	2	0	1.273	False
+farrell	dome	farrell:dome:0	30	1	0	2.689	False
+farrell	dome	farrell:dome:1	30	1	1	19.75	True
+farrell	dome	farrell:dome:10	30	1	0	1.389	False
+farrell	dome	farrell:dome:11	30	1	0	1.717	False
+farrell	dome	farrell:dome:12	30	1	0	3.478	False
+farrell	dome	farrell:dome:13	30	1	0	2.837	False
+farrell	dome	farrell:dome:14	30	1	0	2.945	False
+farrell	dome	farrell:dome:15	30	1	0	1.749	False
+farrell	dome	farrell:dome:16	30	1	0	1.443	False
+farrell	dome	farrell:dome:2	30	1	1	8.377	True
+farrell	dome	farrell:dome:3	30	1	0	2.386	False
+farrell	dome	farrell:dome:4	30	1	0	2.416	False
+farrell	dome	farrell:dome:5	30	1	0	2.134	False
+farrell	dome	farrell:dome:6	30	1	0	3.166	False
+farrell	dome	farrell:dome:7	30	1	0	2.422	False
+farrell	dome	farrell:dome:8	30	1	0	1.734	False
+farrell	dome	farrell:dome:9	30	1	1	10.87	True
+zfin_pre	dome	blastodisc	13	1	0	1.307	False
+zfin_pre	dome	blastomere	6	1	0	1.033	False
+zfin_pre	dome	marginal blastomere	19	1	1	4.072	True
+zfin_pre	dome	superficial blastomere	11	1	0	1.534	False
+zfin_all	dome	blastodisc	15	1	0	1.301	False
+zfin_all	dome	blastomere	6	1	0	1.033	False
+zfin_all	dome	deep blastomere	6	1	0	0.9961	False
+zfin_all	dome	marginal blastomere	19	1	1	4.072	True
+zfin_all	dome	superficial blastomere	11	1	0	1.534	False
+zfin_pre_het	dome	margin	8	1	1	2.771	True
+zfin_pre_het	dome	marginal blastomere	12	1	1	4.322	True
+zfin_pre_het	dome	superficial blastomere	6	1	0	1.828	False
+zfin_all_het	dome	blastodisc	4	1	0	1.413	False
+zfin_all_het	dome	deep blastomere	3	1	0	1.046	False
+zfin_all_het	dome	margin	8	1	1	2.771	True
+zfin_all_het	dome	marginal blastomere	12	1	1	4.322	True
+zfin_all_het	dome	superficial blastomere	6	1	0	1.828	False
+signalling	dome	signal:BMP	5	1	0	1.348	False
+signalling	dome	signal:Nodal	3	1	1	1.667	True
+states	dome	state:maternal	10	1	0	1.542	False
+states	dome	state:blastomere	6	1	0	1.003	False
+states	dome	state:cell_cycle_s	10	1	0	1.215	False
+states	dome	state:cell_cycle_g2m	10	1	0	1.234	False
+states	dome	state:heat_shock	3	1	0	1.03	False
+states	dome	state:p53_response	10	1	0	1.762	False
+curated_staged	dome	EVL	6	1	0	1.828	False
+curated_staged	dome	marginal_mesendoderm	14	1	1	4.275	True
+curated_staged	dome	signal:BMP	5	1	0	1.348	False
+curated_staged	dome	signal:Nodal	3	1	1	1.667	True
+curated_staged	dome	state:maternal	10	1	0	1.542	False
+curated_staged	dome	state:blastomere	6	1	0	1.003	False
+curated_staged	dome	state:cell_cycle_s	10	1	0	1.215	False
+curated_staged	dome	state:cell_cycle_g2m	10	1	0	1.234	False
+curated_staged	dome	state:heat_shock	3	1	0	1.03	False
+curated_staged	dome	state:p53_response	10	1	0	1.762	False
+curated	dome	state:maternal	10	1	0	1.542	False
+curated	dome	state:blastomere	6	1	0	1.003	False
+curated	dome	state:cell_cycle_s	10	1	0	1.215	False
+curated	dome	state:cell_cycle_g2m	10	1	0	1.234	False
+curated	dome	state:heat_shock	3	1	0	1.03	False
+curated	dome	state:p53_response	10	1	0	1.762	False
+curated	dome	EVL	28	1	1	15.96	True
+curated	dome	margin	26	1	0	3.647	False
+curated	dome	signal:BMP	8	1	0	1.609	False
+curated	dome	signal:Nodal	3	1	1	1.667	True
+farrell	30% epiboly	farrell:30% epiboly:0	30	2	0	2.874	False
+farrell	30% epiboly	farrell:30% epiboly:1	30	2	2	22.82	True
+farrell	30% epiboly	farrell:30% epiboly:10	30	2	2	10.06	True
+farrell	30% epiboly	farrell:30% epiboly:11	30	2	0	4.791	False
+farrell	30% epiboly	farrell:30% epiboly:12	30	2	0	2.18	False
+farrell	30% epiboly	farrell:30% epiboly:13	30	2	0	2.86	False
+farrell	30% epiboly	farrell:30% epiboly:14	30	2	0	3.15	False
+farrell	30% epiboly	farrell:30% epiboly:2	30	2	2	5.919	True
+farrell	30% epiboly	farrell:30% epiboly:3	30	2	0	1.226	False
+farrell	30% epiboly	farrell:30% epiboly:4	30	2	0	3.874	False
+farrell	30% epiboly	farrell:30% epiboly:5	30	2	0	1.455	False
+farrell	30% epiboly	farrell:30% epiboly:6	30	2	2	10.4	True
+farrell	30% epiboly	farrell:30% epiboly:7	30	2	0	1.906	False
+farrell	30% epiboly	farrell:30% epiboly:8	30	2	0	2.647	False
+farrell	30% epiboly	farrell:30% epiboly:9	30	2	0	2.268	False
+zfin_pre	30% epiboly	DEL	17	2	0	1.978	False
+zfin_pre	30% epiboly	EVL	25	2	2	5.634	True
+zfin_pre	30% epiboly	blastoderm	18	2	0	1.333	False
+zfin_pre	30% epiboly	margin	30	2	2	6.804	True
+zfin_pre	30% epiboly	presumptive dorsal mesoderm	3	2	0	1.322	False
+zfin_pre	30% epiboly	presumptive mesoderm	10	2	0	2.196	False
+zfin_pre	30% epiboly	primordial germ cell	3	2	0	1.174	False
+zfin_all	30% epiboly	DEL	17	2	0	1.978	False
+zfin_all	30% epiboly	EVL	25	2	2	5.634	True
+zfin_all	30% epiboly	blastoderm	19	2	0	1.3	False
+zfin_all	30% epiboly	margin	30	2	2	6.804	True
+zfin_all	30% epiboly	presumptive dorsal mesoderm	3	2	0	1.322	False
+zfin_all	30% epiboly	presumptive mesoderm	10	2	0	2.196	False
+zfin_all	30% epiboly	primordial germ cell	3	2	0	1.174	False
+zfin_pre_het	30% epiboly	DEL	11	2	0	2.28	False
+zfin_pre_het	30% epiboly	EVL	19	2	2	6.73	True
+zfin_pre_het	30% epiboly	blastoderm	7	2	0	1.431	False
+zfin_pre_het	30% epiboly	margin	30	2	2	7.319	True
+zfin_pre_het	30% epiboly	presumptive mesoderm	10	2	0	2.196	False
+zfin_all_het	30% epiboly	DEL	11	2	0	2.28	False
+zfin_all_het	30% epiboly	EVL	19	2	2	6.73	True
+zfin_all_het	30% epiboly	blastoderm	7	2	0	1.431	False
+zfin_all_het	30% epiboly	margin	30	2	2	7.319	True
+zfin_all_het	30% epiboly	presumptive mesoderm	10	2	0	2.196	False
+signalling	30% epiboly	signal:BMP	8	2	0	1.895	False
+signalling	30% epiboly	signal:Nodal	3	2	0	1.633	False
+signalling	30% epiboly	signal:Wnt	2	2	0	0.9958	False
+states	30% epiboly	state:maternal	10	2	0	1.315	False
+states	30% epiboly	state:blastomere	6	2	0	1.095	False
+states	30% epiboly	state:cell_cycle_s	10	2	0	1.144	False
+states	30% epiboly	state:cell_cycle_g2m	10	2	0	1.37	False
+states	30% epiboly	state:heat_shock	4	2	0	1.244	False
+states	30% epiboly	state:p53_response	10	2	0	2.111	False
+curated_staged	30% epiboly	EVL	17	2	2	7.384	True
+curated_staged	30% epiboly	PGC	3	2	1	1.665	True
+curated_staged	30% epiboly	dorsal_organizer	5	2	2	2.204	True
+curated_staged	30% epiboly	endoderm	3	2	0	1.505	False
+curated_staged	30% epiboly	marginal_mesendoderm	30	2	2	7.351	True
+curated_staged	30% epiboly	signal:BMP	8	2	0	1.895	False
+curated_staged	30% epiboly	signal:Nodal	3	2	0	1.633	False
+curated_staged	30% epiboly	signal:Wnt	2	2	0	0.9958	False
+curated_staged	30% epiboly	state:maternal	10	2	0	1.315	False
+curated_staged	30% epiboly	state:blastomere	6	2	0	1.095	False
+curated_staged	30% epiboly	state:cell_cycle_s	10	2	0	1.144	False
+curated_staged	30% epiboly	state:cell_cycle_g2m	10	2	0	1.37	False
+curated_staged	30% epiboly	state:heat_shock	4	2	0	1.244	False
+curated_staged	30% epiboly	state:p53_response	10	2	0	2.111	False
+curated	30% epiboly	state:maternal	10	2	0	1.315	False
+curated	30% epiboly	state:blastomere	6	2	0	1.095	False
+curated	30% epiboly	state:cell_cycle_s	10	2	0	1.144	False
+curated	30% epiboly	state:cell_cycle_g2m	10	2	0	1.37	False
+curated	30% epiboly	state:heat_shock	4	2	0	1.244	False
+curated	30% epiboly	state:p53_response	10	2	0	2.111	False
+curated	30% epiboly	EVL	30	2	2	20.17	True
+curated	30% epiboly	margin	29	2	1	5.585	True
+curated	30% epiboly	PGC	11	2	1	3.216	True
+curated	30% epiboly	dorsal_organizer	25	2	0	3.458	False
+curated	30% epiboly	endoderm	8	2	0	1.861	False
+curated	30% epiboly	mesoderm	20	2	0	1.056	False
+curated	30% epiboly	signal:BMP	8	2	0	1.895	False
+curated	30% epiboly	signal:Nodal	4	2	1	1.778	True
+curated	30% epiboly	signal:Wnt	4	2	0	1.139	False
+farrell	50% epiboly	farrell:50% epiboly:0	30	4	0	2.057	False
+farrell	50% epiboly	farrell:50% epiboly:1	30	4	4	24.12	True
+farrell	50% epiboly	farrell:50% epiboly:10	30	4	0	2.693	False
+farrell	50% epiboly	farrell:50% epiboly:11	30	4	0	3.864	False
+farrell	50% epiboly	farrell:50% epiboly:12	30	4	3	5.45	True
+farrell	50% epiboly	farrell:50% epiboly:13	30	4	0	1.718	False
+farrell	50% epiboly	farrell:50% epiboly:14	30	4	4	9.27	True
+farrell	50% epiboly	farrell:50% epiboly:15	30	4	0	3.035	False
+farrell	50% epiboly	farrell:50% epiboly:16	30	4	0	2.605	False
+farrell	50% epiboly	farrell:50% epiboly:17	30	4	0	2.047	False
+farrell	50% epiboly	farrell:50% epiboly:18	30	4	0	1.622	False
+farrell	50% epiboly	farrell:50% epiboly:19	30	4	0	3.098	False
+farrell	50% epiboly	farrell:50% epiboly:2	30	4	4	12.42	True
+farrell	50% epiboly	farrell:50% epiboly:3	30	4	0	1.42	False
+farrell	50% epiboly	farrell:50% epiboly:4	30	4	0	4.004	False
+farrell	50% epiboly	farrell:50% epiboly:5	30	4	4	9.912	True
+farrell	50% epiboly	farrell:50% epiboly:6	30	4	4	7.009	True
+farrell	50% epiboly	farrell:50% epiboly:7	30	4	0	2.77	False
+farrell	50% epiboly	farrell:50% epiboly:8	30	4	4	8.121	True
+farrell	50% epiboly	farrell:50% epiboly:9	30	4	0	1.566	False
+zfin_pre	50% epiboly	DEL	11	4	0	1.953	False
+zfin_pre	50% epiboly	EVL	30	4	4	9.15	True
+zfin_pre	50% epiboly	anterior axial hypoblast	30	4	0	1.341	False
+zfin_pre	50% epiboly	axial chorda mesoderm	30	4	0	1.131	False
+zfin_pre	50% epiboly	axial mesoderm	15	4	0	1.222	False
+zfin_pre	50% epiboly	blastoderm	22	4	0	1.487	False
+zfin_pre	50% epiboly	endoderm	12	4	0	1.593	False
+zfin_pre	50% epiboly	forerunner cell group	30	4	0	0.9616	False
+zfin_pre	50% epiboly	margin	30	4	4	6.094	True
+zfin_pre	50% epiboly	mesoderm	30	4	0	2.569	False
+zfin_pre	50% epiboly	neural plate	30	4	0	1.043	False
+zfin_pre	50% epiboly	paraxial mesoderm	8	4	0	1.144	False
+zfin_pre	50% epiboly	presumptive ectoderm	24	4	0	1.352	False
+zfin_pre	50% epiboly	presumptive mesoderm	11	4	1	2.637	False
+zfin_pre	50% epiboly	presumptive paraxial mesoderm	5	4	0	1.168	False
+zfin_pre	50% epiboly	presumptive segmental plate	25	4	0	1.514	False
+zfin_pre	50% epiboly	presumptive shield	10	4	2	2.601	True
+zfin_pre	50% epiboly	primordial germ cell	9	4	2	2.532	True
+zfin_pre	50% epiboly	shield	5	4	0	1.148	False
+zfin_pre	50% epiboly	ventral mesoderm	6	4	0	1.679	False
+zfin_all	50% epiboly	DEL	11	4	0	1.953	False
+zfin_all	50% epiboly	EVL	30	4	4	9.15	True
+zfin_all	50% epiboly	anterior axial hypoblast	30	4	0	1.341	False
+zfin_all	50% epiboly	axial chorda mesoderm	30	4	0	1.131	False
+zfin_all	50% epiboly	axial mesoderm	16	4	0	1.445	False
+zfin_all	50% epiboly	blastoderm	30	4	0	2.78	False
+zfin_all	50% epiboly	endoderm	12	4	0	1.593	False
+zfin_all	50% epiboly	forerunner cell group	30	4	0	0.9665	False
+zfin_all	50% epiboly	margin	30	4	4	6.094	True
+zfin_all	50% epiboly	mesoderm	30	4	0	2.569	False
+zfin_all	50% epiboly	neural plate	30	4	0	1.043	False
+zfin_all	50% epiboly	paraxial mesoderm	8	4	0	1.144	False
+zfin_all	50% epiboly	presumptive ectoderm	24	4	0	1.352	False
+zfin_all	50% epiboly	presumptive mesoderm	13	4	0	2.664	False
+zfin_all	50% epiboly	presumptive paraxial mesoderm	5	4	0	1.168	False
+zfin_all	50% epiboly	presumptive segmental plate	25	4	0	1.514	False
+zfin_all	50% epiboly	presumptive shield	10	4	2	2.601	True
+zfin_all	50% epiboly	primordial germ cell	9	4	2	2.532	True
+zfin_all	50% epiboly	shield	5	4	0	1.148	False
+zfin_all	50% epiboly	ventral mesoderm	6	4	0	1.679	False
+zfin_pre_het	50% epiboly	DEL	8	4	0	2.02	False
+zfin_pre_het	50% epiboly	EVL	30	4	4	15.97	True
+zfin_pre_het	50% epiboly	anterior axial hypoblast	30	4	0	3.83	False
+zfin_pre_het	50% epiboly	axial chorda mesoderm	9	4	0	1.146	False
+zfin_pre_het	50% epiboly	axial mesoderm	7	4	0	1.173	False
+zfin_pre_het	50% epiboly	blastoderm	11	4	0	1.642	False
+zfin_pre_het	50% epiboly	endoderm	9	4	0	1.631	False
+zfin_pre_het	50% epiboly	forerunner cell group	17	4	0	1.106	False
+zfin_pre_het	50% epiboly	margin	30	4	4	5.739	True
+zfin_pre_het	50% epiboly	mesoderm	20	4	0	3.195	False
+zfin_pre_het	50% epiboly	neural plate	30	4	0	1.654	False
+zfin_pre_het	50% epiboly	paraxial mesoderm	5	4	0	1.201	False
+zfin_pre_het	50% epiboly	presumptive ectoderm	17	4	0	1.354	False
+zfin_pre_het	50% epiboly	presumptive mesoderm	11	4	1	2.637	False
+zfin_pre_het	50% epiboly	presumptive paraxial mesoderm	4	4	0	1.123	False
+zfin_pre_het	50% epiboly	presumptive segmental plate	10	4	0	1.703	False
+zfin_pre_het	50% epiboly	presumptive shield	7	4	4	2.685	True
+zfin_pre_het	50% epiboly	primordial germ cell	6	4	3	2.405	True
+zfin_pre_het	50% epiboly	shield	4	4	0	1.114	False
+zfin_pre_het	50% epiboly	ventral mesoderm	5	4	0	1.789	False
+zfin_all_het	50% epiboly	DEL	8	4	0	2.02	False
+zfin_all_het	50% epiboly	EVL	30	4	4	15.97	True
+zfin_all_het	50% epiboly	anterior axial hypoblast	30	4	0	3.83	False
+zfin_all_het	50% epiboly	axial chorda mesoderm	9	4	0	1.146	False
+zfin_all_het	50% epiboly	axial mesoderm	8	4	0	1.472	False
+zfin_all_het	50% epiboly	blastoderm	18	4	1	3.298	False
+zfin_all_het	50% epiboly	endoderm	9	4	0	1.631	False
+zfin_all_het	50% epiboly	forerunner cell group	18	4	0	1.191	False
+zfin_all_het	50% epiboly	margin	30	4	4	5.739	True
+zfin_all_het	50% epiboly	mesoderm	20	4	0	3.195	False
+zfin_all_het	50% epiboly	neural plate	30	4	0	1.654	False
+zfin_all_het	50% epiboly	paraxial mesoderm	5	4	0	1.201	False
+zfin_all_het	50% epiboly	presumptive ectoderm	17	4	0	1.354	False
+zfin_all_het	50% epiboly	presumptive mesoderm	13	4	0	2.664	False
+zfin_all_het	50% epiboly	presumptive paraxial mesoderm	4	4	0	1.123	False
+zfin_all_het	50% epiboly	presumptive segmental plate	10	4	0	1.703	False
+zfin_all_het	50% epiboly	presumptive shield	7	4	4	2.685	True
+zfin_all_het	50% epiboly	primordial germ cell	6	4	3	2.405	True
+zfin_all_het	50% epiboly	shield	4	4	0	1.114	False
+zfin_all_het	50% epiboly	ventral mesoderm	5	4	0	1.789	False
+signalling	50% epiboly	signal:BMP	8	4	0	1.873	False
+signalling	50% epiboly	signal:Nodal	3	4	1	1.635	False
+signalling	50% epiboly	signal:Wnt	3	4	0	1.077	False
+signalling	50% epiboly	signal:RA	2	4	0	1.02	False
+states	50% epiboly	state:maternal	10	4	0	1.528	False
+states	50% epiboly	state:blastomere	6	4	0	1.321	False
+states	50% epiboly	state:cell_cycle_s	10	4	0	1.355	False
+states	50% epiboly	state:cell_cycle_g2m	10	4	0	1.454	False
+states	50% epiboly	state:heat_shock	5	4	0	1.33	False
+states	50% epiboly	state:p53_response	10	4	2	2.622	True
+curated_staged	50% epiboly	EVL	30	4	4	15.97	True
+curated_staged	50% epiboly	PGC	6	4	3	2.405	True
+curated_staged	50% epiboly	dorsal_forerunner	15	4	0	1.013	False
+curated_staged	50% epiboly	dorsal_organizer	8	4	2	2.411	True
+curated_staged	50% epiboly	endoderm	9	4	0	1.825	False
+curated_staged	50% epiboly	marginal_mesendoderm	30	4	4	5.782	True
+curated_staged	50% epiboly	neural_ectoderm	27	4	0	1.803	False
+curated_staged	50% epiboly	notochord	15	4	0	1.291	False
+curated_staged	50% epiboly	prechordal_plate	25	4	0	3.085	False
+curated_staged	50% epiboly	presomitic_mesoderm	14	4	0	1.833	False
+curated_staged	50% epiboly	ventral_bmp	4	4	0	1.707	False
+curated_staged	50% epiboly	signal:BMP	8	4	0	1.873	False
+curated_staged	50% epiboly	signal:Nodal	3	4	1	1.635	False
+curated_staged	50% epiboly	signal:Wnt	3	4	0	1.077	False
+curated_staged	50% epiboly	signal:RA	2	4	0	1.02	False
+curated_staged	50% epiboly	state:maternal	10	4	0	1.528	False
+curated_staged	50% epiboly	state:blastomere	6	4	0	1.321	False
+curated_staged	50% epiboly	state:cell_cycle_s	10	4	0	1.355	False
+curated_staged	50% epiboly	state:cell_cycle_g2m	10	4	0	1.454	False
+curated_staged	50% epiboly	state:heat_shock	5	4	0	1.33	False
+curated_staged	50% epiboly	state:p53_response	10	4	2	2.622	True
+curated	50% epiboly	state:maternal	10	4	0	1.528	False
+curated	50% epiboly	state:blastomere	6	4	0	1.321	False
+curated	50% epiboly	state:cell_cycle_s	10	4	0	1.355	False
+curated	50% epiboly	state:cell_cycle_g2m	10	4	0	1.454	False
+curated	50% epiboly	state:heat_shock	5	4	0	1.33	False
+curated	50% epiboly	state:p53_response	10	4	2	2.622	True
+curated	50% epiboly	EVL	30	4	4	21.94	True
+curated	50% epiboly	margin	30	4	4	6.595	True
+curated	50% epiboly	PGC	12	4	2	2.597	True
+curated	50% epiboly	dorsal_organizer	30	4	3	5.024	True
+curated	50% epiboly	endoderm	9	4	0	1.962	False
+curated	50% epiboly	mesoderm	22	4	0	1.141	False
+curated	50% epiboly	axial_mesoderm	20	4	0	1.558	False
+curated	50% epiboly	dorsal_forerunner	26	4	0	1.348	False
+curated	50% epiboly	neural_plate	25	4	0	1.176	False
+curated	50% epiboly	prechordal_plate	26	4	0	1.608	False
+curated	50% epiboly	presomitic_mesoderm	26	4	0	2.6	False
+curated	50% epiboly	ventral_bmp	14	4	0	1.003	False
+curated	50% epiboly	signal:BMP	8	4	0	1.873	False
+curated	50% epiboly	signal:Nodal	4	4	0	1.73	False
+curated	50% epiboly	signal:Wnt	4	4	0	1.199	False
+curated	50% epiboly	signal:RA	2	4	0	1.02	False
+farrell	shield	farrell:shield:0	30	1	0	2.207	False
+farrell	shield	farrell:shield:1	30	1	1	10.26	True
+farrell	shield	farrell:shield:10	30	1	0	2.258	False
+farrell	shield	farrell:shield:11	30	1	0	1.968	False
+farrell	shield	farrell:shield:12	30	1	0	1.857	False
+farrell	shield	farrell:shield:13	30	1	0	1.707	False
+farrell	shield	farrell:shield:14	30	1	1	4.445	True
+farrell	shield	farrell:shield:15	30	1	0	1.362	False
+farrell	shield	farrell:shield:16	30	1	0	1.223	False
+farrell	shield	farrell:shield:17	30	1	0	1.549	False
+farrell	shield	farrell:shield:18	30	1	0	1.622	False
+farrell	shield	farrell:shield:19	30	1	0	1.322	False
+farrell	shield	farrell:shield:2	30	1	1	16.24	True
+farrell	shield	farrell:shield:20	30	1	1	6.326	True
+farrell	shield	farrell:shield:21	30	1	0	1.488	False
+farrell	shield	farrell:shield:22	30	1	0	1.763	False
+farrell	shield	farrell:shield:23	30	1	0	1.779	False
+farrell	shield	farrell:shield:24	30	1	0	1.545	False
+farrell	shield	farrell:shield:3	30	1	1	5.313	True
+farrell	shield	farrell:shield:4	30	1	1	4.375	True
+farrell	shield	farrell:shield:5	30	1	1	3.072	True
+farrell	shield	farrell:shield:6	30	1	1	4.123	True
+farrell	shield	farrell:shield:7	30	1	1	8.585	True
+farrell	shield	farrell:shield:8	30	1	0	2.917	False
+farrell	shield	farrell:shield:9	30	1	1	5.728	True
+zfin_pre	shield	DEL	5	1	0	1.096	False
+zfin_pre	shield	EVL	30	1	1	7.036	True
+zfin_pre	shield	anterior axial hypoblast	30	1	0	1.806	False
+zfin_pre	shield	anterior presumptive neural plate	5	1	0	1.114	False
+zfin_pre	shield	axial chorda mesoderm	30	1	0	1.289	False
+zfin_pre	shield	axial mesoderm	12	1	0	1.241	False
+zfin_pre	shield	blastoderm	30	1	0	1.071	False
+zfin_pre	shield	endoderm	13	1	1	2.398	True
+zfin_pre	shield	epiblast	30	1	0	1.298	False
+zfin_pre	shield	forerunner cell group	30	1	0	1.79	False
+zfin_pre	shield	germ ring	30	1	1	4.066	True
+zfin_pre	shield	hypoblast	30	1	1	3.524	True
+zfin_pre	shield	margin	30	1	1	4.691	True
+zfin_pre	shield	mesoderm	30	1	0	2.644	False
+zfin_pre	shield	neural plate	30	1	0	1.152	False
+zfin_pre	shield	paraxial mesoderm	5	1	0	1.314	False
+zfin_pre	shield	prechordal plate	4	1	1	1.739	True
+zfin_pre	shield	presumptive ectoderm	30	1	0	1.713	False
+zfin_pre	shield	presumptive forebrain	4	1	0	1.086	False
+zfin_pre	shield	presumptive neural plate	14	1	0	0.9563	False
+zfin_pre	shield	presumptive paraxial mesoderm	12	1	1	2.375	True
+zfin_pre	shield	presumptive segmental plate	20	1	0	1.849	False
+zfin_pre	shield	primordial germ cell	8	1	1	2.847	True
+zfin_pre	shield	shield	30	1	1	4.415	True
+zfin_pre	shield	ventral mesoderm	5	1	0	1.23	False
+zfin_all	shield	DEL	5	1	0	1.096	False
+zfin_all	shield	EVL	30	1	1	7.032	True
+zfin_all	shield	anterior axial hypoblast	30	1	0	1.806	False
+zfin_all	shield	anterior presumptive neural plate	5	1	0	1.114	False
+zfin_all	shield	axial chorda mesoderm	30	1	0	1.289	False
+zfin_all	shield	axial mesoderm	13	1	0	1.447	False
+zfin_all	shield	blastoderm	30	1	0	1.124	False
+zfin_all	shield	endoderm	13	1	1	2.398	True
+zfin_all	shield	epiblast	30	1	0	1.298	False
+zfin_all	shield	forerunner cell group	30	1	0	1.986	False
+zfin_all	shield	gastrula cell	6	1	0	1.002	False
+zfin_all	shield	germ ring	30	1	1	4.066	True
+zfin_all	shield	hypoblast	30	1	1	3.507	True
+zfin_all	shield	margin	30	1	1	4.691	True
+zfin_all	shield	mesoderm	30	1	0	2.644	False
+zfin_all	shield	neural plate	30	1	0	1.152	False
+zfin_all	shield	paraxial mesoderm	5	1	0	1.314	False
+zfin_all	shield	prechordal plate	4	1	1	1.739	True
+zfin_all	shield	presumptive ectoderm	30	1	0	1.713	False
+zfin_all	shield	presumptive forebrain	4	1	0	1.086	False
+zfin_all	shield	presumptive neural plate	15	1	0	0.9856	False
+zfin_all	shield	presumptive paraxial mesoderm	12	1	1	2.375	True
+zfin_all	shield	presumptive segmental plate	20	1	0	1.849	False
+zfin_all	shield	primordial germ cell	8	1	1	2.847	True
+zfin_all	shield	shield	30	1	1	4.415	True
+zfin_all	shield	ventral mesoderm	5	1	0	1.23	False
+zfin_pre_het	shield	EVL	30	1	1	8.883	True
+zfin_pre_het	shield	anterior axial hypoblast	23	1	1	3.567	True
+zfin_pre_het	shield	anterior presumptive neural plate	3	1	0	1.027	False
+zfin_pre_het	shield	axial chorda mesoderm	7	1	0	1.47	False
+zfin_pre_het	shield	axial mesoderm	3	1	0	1.311	False
+zfin_pre_het	shield	blastoderm	8	1	0	1.077	False
+zfin_pre_het	shield	endoderm	9	1	1	2.52	True
+zfin_pre_het	shield	epiblast	18	1	0	1.496	False
+zfin_pre_het	shield	forerunner cell group	21	1	0	1.572	False
+zfin_pre_het	shield	hypoblast	27	1	1	4.65	True
+zfin_pre_het	shield	margin	30	1	1	5.887	True
+zfin_pre_het	shield	mesoderm	15	1	1	2.718	True
+zfin_pre_het	shield	neural plate	24	1	0	1.666	False
+zfin_pre_het	shield	prechordal plate	4	1	1	1.739	True
+zfin_pre_het	shield	presumptive ectoderm	19	1	0	1.525	False
+zfin_pre_het	shield	presumptive neural plate	6	1	0	0.8682	False
+zfin_pre_het	shield	presumptive paraxial mesoderm	8	1	1	2.273	True
+zfin_pre_het	shield	presumptive segmental plate	8	1	1	2.124	True
+zfin_pre_het	shield	primordial germ cell	7	1	1	3.043	True
+zfin_pre_het	shield	shield	30	1	1	5.208	True
+zfin_all_het	shield	EVL	30	1	1	8.883	True
+zfin_all_het	shield	anterior axial hypoblast	23	1	1	3.567	True
+zfin_all_het	shield	anterior presumptive neural plate	3	1	0	1.027	False
+zfin_all_het	shield	axial chorda mesoderm	7	1	0	1.47	False
+zfin_all_het	shield	axial mesoderm	4	1	1	1.704	True
+zfin_all_het	shield	blastoderm	8	1	0	1.077	False
+zfin_all_het	shield	endoderm	9	1	1	2.52	True
+zfin_all_het	shield	epiblast	18	1	0	1.496	False
+zfin_all_het	shield	forerunner cell group	22	1	0	1.607	False
+zfin_all_het	shield	gastrula cell	4	1	0	0.9407	False
+zfin_all_het	shield	hypoblast	28	1	1	4.982	True
+zfin_all_het	shield	margin	30	1	1	5.887	True
+zfin_all_het	shield	mesoderm	15	1	1	2.718	True
+zfin_all_het	shield	neural plate	24	1	0	1.666	False
+zfin_all_het	shield	prechordal plate	4	1	1	1.739	True
+zfin_all_het	shield	presumptive ectoderm	19	1	0	1.525	False
+zfin_all_het	shield	presumptive neural plate	7	1	0	0.8764	False
+zfin_all_het	shield	presumptive paraxial mesoderm	8	1	1	2.273	True
+zfin_all_het	shield	presumptive segmental plate	8	1	1	2.124	True
+zfin_all_het	shield	primordial germ cell	7	1	1	3.043	True
+zfin_all_het	shield	shield	30	1	1	5.208	True
+signalling	shield	signal:BMP	7	1	0	1.862	False
+signalling	shield	signal:Nodal	2	1	0	1.168	False
+signalling	shield	signal:Wnt	2	1	0	1.164	False
+states	shield	state:maternal	5	1	0	1.061	False
+states	shield	state:blastomere	6	1	0	1.343	False
+states	shield	state:cell_cycle_s	10	1	0	1.304	False
+states	shield	state:cell_cycle_g2m	10	1	0	1.49	False
+states	shield	state:heat_shock	3	1	0	1.077	False
+states	shield	state:p53_response	9	1	0	1.782	False
+curated_staged	shield	EVL	30	1	1	9.402	True
+curated_staged	shield	PGC	7	1	1	3.043	True
+curated_staged	shield	dorsal_forerunner	13	1	0	1.327	False
+curated_staged	shield	dorsal_organizer	25	1	1	5.236	True
+curated_staged	shield	endoderm	9	1	1	2.365	True
+curated_staged	shield	marginal_mesendoderm	30	1	1	6.845	True
+curated_staged	shield	neural_ectoderm	20	1	0	1.835	False
+curated_staged	shield	notochord	5	1	0	1.164	False
+curated_staged	shield	prechordal_plate	13	1	1	2.405	True
+curated_staged	shield	presomitic_mesoderm	6	1	0	1.57	False
+curated_staged	shield	signal:BMP	7	1	0	1.862	False
+curated_staged	shield	signal:Nodal	2	1	0	1.168	False
+curated_staged	shield	signal:Wnt	2	1	0	1.164	False
+curated_staged	shield	state:maternal	5	1	0	1.061	False
+curated_staged	shield	state:blastomere	6	1	0	1.343	False
+curated_staged	shield	state:cell_cycle_s	10	1	0	1.304	False
+curated_staged	shield	state:cell_cycle_g2m	10	1	0	1.49	False
+curated_staged	shield	state:heat_shock	3	1	0	1.077	False
+curated_staged	shield	state:p53_response	9	1	0	1.782	False
+curated	shield	state:maternal	5	1	0	1.061	False
+curated	shield	state:blastomere	6	1	0	1.343	False
+curated	shield	state:cell_cycle_s	10	1	0	1.304	False
+curated	shield	state:cell_cycle_g2m	10	1	0	1.49	False
+curated	shield	state:heat_shock	3	1	0	1.077	False
+curated	shield	state:p53_response	9	1	0	1.782	False
+curated	shield	EVL	30	1	1	13.67	True
+curated	shield	margin	30	1	1	5.095	True
+curated	shield	PGC	10	1	1	2.463	True
+curated	shield	dorsal_organizer	28	1	1	4.659	True
+curated	shield	endoderm	7	1	0	1.648	False
+curated	shield	mesoderm	19	1	0	1.409	False
+curated	shield	axial_mesoderm	17	1	0	1.311	False
+curated	shield	dorsal_forerunner	21	1	0	1.623	False
+curated	shield	neural_plate	21	1	0	1.131	False
+curated	shield	prechordal_plate	19	1	0	1.673	False
+curated	shield	presomitic_mesoderm	23	1	1	3.204	True
+curated	shield	ventral_bmp	12	1	0	1.022	False
+curated	shield	presumptive_neural	3	1	0	1.065	False
+curated	shield	signal:BMP	8	1	1	1.919	True
+curated	shield	signal:Nodal	4	1	0	1.457	False
+curated	shield	signal:Wnt	4	1	0	1.308	False
+curated	shield	signal:RA	2	1	0	0.9892	False
+farrell	60% epiboly	farrell:60% epiboly:0	30	3	0	1.699	False
+farrell	60% epiboly	farrell:60% epiboly:1	30	3	3	11.23	True
+farrell	60% epiboly	farrell:60% epiboly:10	30	3	2	2.016	True
+farrell	60% epiboly	farrell:60% epiboly:11	30	3	3	3.807	True
+farrell	60% epiboly	farrell:60% epiboly:12	30	3	3	4.147	True
+farrell	60% epiboly	farrell:60% epiboly:13	30	3	0	1.421	False
+farrell	60% epiboly	farrell:60% epiboly:14	30	3	3	4.531	True
+farrell	60% epiboly	farrell:60% epiboly:15	30	3	2	3.083	True
+farrell	60% epiboly	farrell:60% epiboly:16	30	3	3	5.713	True
+farrell	60% epiboly	farrell:60% epiboly:17	30	3	0	1.308	False
+farrell	60% epiboly	farrell:60% epiboly:18	30	3	3	8.556	True
+farrell	60% epiboly	farrell:60% epiboly:19	30	3	3	7.886	True
+farrell	60% epiboly	farrell:60% epiboly:2	30	3	3	11.78	True
+farrell	60% epiboly	farrell:60% epiboly:20	30	3	3	3.584	True
+farrell	60% epiboly	farrell:60% epiboly:21	30	3	1	2.267	False
+farrell	60% epiboly	farrell:60% epiboly:22	30	3	0	1.769	False
+farrell	60% epiboly	farrell:60% epiboly:23	30	3	0	1.22	False
+farrell	60% epiboly	farrell:60% epiboly:24	30	3	3	2.562	True
+farrell	60% epiboly	farrell:60% epiboly:3	30	3	3	4.427	True
+farrell	60% epiboly	farrell:60% epiboly:4	30	3	3	7.666	True
+farrell	60% epiboly	farrell:60% epiboly:5	30	3	0	1.146	False
+farrell	60% epiboly	farrell:60% epiboly:6	30	3	3	6.208	True
+farrell	60% epiboly	farrell:60% epiboly:7	30	3	3	8.235	True
+farrell	60% epiboly	farrell:60% epiboly:8	30	3	3	2.835	True
+farrell	60% epiboly	farrell:60% epiboly:9	30	3	3	6.015	True
+zfin_pre	60% epiboly	DEL	5	3	0	1.084	False
+zfin_pre	60% epiboly	EVL	30	3	3	3.471	True
+zfin_pre	60% epiboly	anterior axial hypoblast	30	3	2	2.543	True
+zfin_pre	60% epiboly	anterior presumptive neural plate	5	3	2	1.312	True
+zfin_pre	60% epiboly	axial chorda mesoderm	30	3	2	1.98	True
+zfin_pre	60% epiboly	axial mesoderm	14	3	0	1.465	False
+zfin_pre	60% epiboly	blastoderm	30	3	0	1.213	False
+zfin_pre	60% epiboly	endoderm	13	3	3	4.064	True
+zfin_pre	60% epiboly	epiblast	30	3	0	1.39	False
+zfin_pre	60% epiboly	forerunner cell group	30	3	1	2.197	False
+zfin_pre	60% epiboly	germ ring	30	3	3	3.885	True
+zfin_pre	60% epiboly	hypoblast	30	3	3	3.324	True
+zfin_pre	60% epiboly	margin	30	3	3	5.065	True
+zfin_pre	60% epiboly	mesoderm	30	3	3	2.6	True
+zfin_pre	60% epiboly	neural plate	30	3	0	1.355	False
+zfin_pre	60% epiboly	paraxial mesoderm	9	3	3	1.852	True
+zfin_pre	60% epiboly	prechordal plate	4	3	3	1.625	True
+zfin_pre	60% epiboly	presumptive ectoderm	30	3	2	2.422	True
+zfin_pre	60% epiboly	presumptive forebrain	4	3	0	1.08	False
+zfin_pre	60% epiboly	presumptive neural plate	17	3	0	1.28	False
+zfin_pre	60% epiboly	presumptive paraxial mesoderm	15	3	3	3.466	True
+zfin_pre	60% epiboly	presumptive segmental plate	26	3	3	2.808	True
+zfin_pre	60% epiboly	primordial germ cell	8	3	3	2.322	True
+zfin_pre	60% epiboly	shield	30	3	3	4.635	True
+zfin_pre	60% epiboly	ventral mesoderm	7	3	2	1.364	True
+zfin_all	60% epiboly	DEL	5	3	0	1.084	False
+zfin_all	60% epiboly	EVL	30	3	3	3.333	True
+zfin_all	60% epiboly	anterior axial hypoblast	30	3	2	2.543	True
+zfin_all	60% epiboly	anterior presumptive neural plate	5	3	2	1.312	True
+zfin_all	60% epiboly	axial chorda mesoderm	30	3	2	1.98	True
+zfin_all	60% epiboly	axial mesoderm	15	3	3	1.789	True
+zfin_all	60% epiboly	blastoderm	30	3	0	1.252	False
+zfin_all	60% epiboly	endoderm	13	3	3	4.064	True
+zfin_all	60% epiboly	epiblast	30	3	0	1.399	False
+zfin_all	60% epiboly	forerunner cell group	30	3	3	2.223	True
+zfin_all	60% epiboly	gastrula cell	6	3	0	0.997	False
+zfin_all	60% epiboly	germ ring	30	3	3	3.837	True
+zfin_all	60% epiboly	hypoblast	30	3	3	3.79	True
+zfin_all	60% epiboly	margin	30	3	3	5.065	True
+zfin_all	60% epiboly	mesoderm	30	3	3	2.6	True
+zfin_all	60% epiboly	neural plate	30	3	0	1.355	False
+zfin_all	60% epiboly	paraxial mesoderm	9	3	3	1.852	True
+zfin_all	60% epiboly	prechordal plate	4	3	3	1.625	True
+zfin_all	60% epiboly	presumptive ectoderm	30	3	2	2.306	True
+zfin_all	60% epiboly	presumptive forebrain	4	3	0	1.08	False
+zfin_all	60% epiboly	presumptive neural plate	18	3	1	1.413	False
+zfin_all	60% epiboly	presumptive paraxial mesoderm	15	3	3	3.466	True
+zfin_all	60% epiboly	presumptive segmental plate	26	3	3	2.808	True
+zfin_all	60% epiboly	primordial germ cell	8	3	3	2.322	True
+zfin_all	60% epiboly	shield	30	3	3	4.635	True
+zfin_all	60% epiboly	ventral mesoderm	7	3	2	1.364	True
+zfin_pre_het	60% epiboly	EVL	30	3	3	3.573	True
+zfin_pre_het	60% epiboly	anterior axial hypoblast	30	3	3	6.125	True
+zfin_pre_het	60% epiboly	anterior presumptive neural plate	4	3	2	1.338	True
+zfin_pre_het	60% epiboly	axial chorda mesoderm	17	3	3	2.553	True
+zfin_pre_het	60% epiboly	axial mesoderm	6	3	2	1.456	True
+zfin_pre_het	60% epiboly	blastoderm	15	3	0	1.496	False
+zfin_pre_het	60% epiboly	endoderm	11	3	3	4.102	True
+zfin_pre_het	60% epiboly	epiblast	26	3	0	1.75	False
+zfin_pre_het	60% epiboly	forerunner cell group	25	3	0	1.703	False
+zfin_pre_het	60% epiboly	hypoblast	30	3	3	4.287	True
+zfin_pre_het	60% epiboly	margin	30	3	3	5.2	True
+zfin_pre_het	60% epiboly	mesoderm	27	3	3	3.328	True
+zfin_pre_het	60% epiboly	neural plate	30	3	0	1.616	False
+zfin_pre_het	60% epiboly	paraxial mesoderm	4	3	3	1.858	True
+zfin_pre_het	60% epiboly	prechordal plate	4	3	3	1.625	True
+zfin_pre_het	60% epiboly	presumptive ectoderm	26	3	2	2.439	True
+zfin_pre_het	60% epiboly	presumptive forebrain	4	3	0	1.08	False
+zfin_pre_het	60% epiboly	presumptive paraxial mesoderm	12	3	3	3.314	True
+zfin_pre_het	60% epiboly	presumptive segmental plate	15	3	3	3.001	True
+zfin_pre_het	60% epiboly	primordial germ cell	8	3	3	2.322	True
+zfin_pre_het	60% epiboly	shield	30	3	3	4.701	True
+zfin_pre_het	60% epiboly	ventral mesoderm	7	3	2	1.364	True
+zfin_all_het	60% epiboly	EVL	30	3	3	3.573	True
+zfin_all_het	60% epiboly	anterior axial hypoblast	30	3	3	6.125	True
+zfin_all_het	60% epiboly	anterior presumptive neural plate	4	3	2	1.338	True
+zfin_all_het	60% epiboly	axial chorda mesoderm	17	3	3	2.553	True
+zfin_all_het	60% epiboly	axial mesoderm	7	3	3	1.795	True
+zfin_all_het	60% epiboly	blastoderm	15	3	0	1.496	False
+zfin_all_het	60% epiboly	endoderm	11	3	3	4.102	True
+zfin_all_het	60% epiboly	epiblast	26	3	0	1.75	False
+zfin_all_het	60% epiboly	forerunner cell group	26	3	0	1.722	False
+zfin_all_het	60% epiboly	hypoblast	30	3	3	4.483	True
+zfin_all_het	60% epiboly	margin	30	3	3	5.2	True
+zfin_all_het	60% epiboly	mesoderm	27	3	3	3.328	True
+zfin_all_het	60% epiboly	neural plate	30	3	0	1.616	False
+zfin_all_het	60% epiboly	paraxial mesoderm	4	3	3	1.858	True
+zfin_all_het	60% epiboly	prechordal plate	4	3	3	1.625	True
+zfin_all_het	60% epiboly	presumptive ectoderm	26	3	2	2.439	True
+zfin_all_het	60% epiboly	presumptive forebrain	4	3	0	1.08	False
+zfin_all_het	60% epiboly	presumptive paraxial mesoderm	12	3	3	3.314	True
+zfin_all_het	60% epiboly	presumptive segmental plate	15	3	3	3.001	True
+zfin_all_het	60% epiboly	primordial germ cell	8	3	3	2.322	True
+zfin_all_het	60% epiboly	shield	30	3	3	4.701	True
+zfin_all_het	60% epiboly	ventral mesoderm	7	3	2	1.364	True
+signalling	60% epiboly	signal:BMP	8	3	3	2.175	True
+signalling	60% epiboly	signal:Nodal	3	3	3	1.495	True
+signalling	60% epiboly	signal:Wnt	3	3	3	1.431	True
+signalling	60% epiboly	signal:FGF	2	3	1	1.169	False
+signalling	60% epiboly	signal:RA	2	3	0	0.9545	False
+states	60% epiboly	state:maternal	10	3	0	1.262	False
+states	60% epiboly	state:blastomere	6	3	3	1.708	True
+states	60% epiboly	state:cell_cycle_s	10	3	3	1.712	True
+states	60% epiboly	state:cell_cycle_g2m	10	3	3	1.86	True
+states	60% epiboly	state:heat_shock	5	3	0	1.099	False
+states	60% epiboly	state:p53_response	10	3	3	1.618	True
+curated_staged	60% epiboly	EVL	30	3	3	4.055	True
+curated_staged	60% epiboly	PGC	8	3	3	2.322	True
+curated_staged	60% epiboly	dorsal_forerunner	16	3	0	1.311	False
+curated_staged	60% epiboly	dorsal_organizer	30	3	3	5.738	True
+curated_staged	60% epiboly	endoderm	11	3	3	3.049	True
+curated_staged	60% epiboly	marginal_mesendoderm	30	3	3	6.387	True
+curated_staged	60% epiboly	neural_ectoderm	30	3	3	2.664	True
+curated_staged	60% epiboly	notochord	16	3	3	1.97	True
+curated_staged	60% epiboly	prechordal_plate	30	3	3	5.176	True
+curated_staged	60% epiboly	presomitic_mesoderm	16	3	3	2.845	True
+curated_staged	60% epiboly	ventral_bmp	3	3	1	1.199	False
+curated_staged	60% epiboly	signal:BMP	8	3	3	2.175	True
+curated_staged	60% epiboly	signal:Nodal	3	3	3	1.495	True
+curated_staged	60% epiboly	signal:Wnt	3	3	3	1.431	True
+curated_staged	60% epiboly	signal:FGF	2	3	1	1.169	False
+curated_staged	60% epiboly	signal:RA	2	3	0	0.9545	False
+curated_staged	60% epiboly	state:maternal	10	3	0	1.262	False
+curated_staged	60% epiboly	state:blastomere	6	3	3	1.708	True
+curated_staged	60% epiboly	state:cell_cycle_s	10	3	3	1.712	True
+curated_staged	60% epiboly	state:cell_cycle_g2m	10	3	3	1.86	True
+curated_staged	60% epiboly	state:heat_shock	5	3	0	1.099	False
+curated_staged	60% epiboly	state:p53_response	10	3	3	1.618	True
+curated	60% epiboly	state:maternal	10	3	0	1.262	False
+curated	60% epiboly	state:blastomere	6	3	3	1.708	True
+curated	60% epiboly	state:cell_cycle_s	10	3	3	1.712	True
+curated	60% epiboly	state:cell_cycle_g2m	10	3	3	1.86	True
+curated	60% epiboly	state:heat_shock	5	3	0	1.099	False
+curated	60% epiboly	state:p53_response	10	3	3	1.618	True
+curated	60% epiboly	EVL	30	3	3	5.33	True
+curated	60% epiboly	margin	30	3	3	5.429	True
+curated	60% epiboly	PGC	11	3	2	2.207	True
+curated	60% epiboly	dorsal_organizer	30	3	3	5.908	True
+curated	60% epiboly	endoderm	12	3	3	2.177	True
+curated	60% epiboly	mesoderm	24	3	1	1.889	False
+curated	60% epiboly	axial_mesoderm	23	3	2	1.795	True
+curated	60% epiboly	dorsal_forerunner	26	3	1	1.408	False
+curated	60% epiboly	neural_plate	28	3	0	1.124	False
+curated	60% epiboly	prechordal_plate	27	3	3	4.119	True
+curated	60% epiboly	presomitic_mesoderm	29	3	3	4.973	True
+curated	60% epiboly	ventral_bmp	13	3	0	1.07	False
+curated	60% epiboly	presumptive_neural	7	3	0	1.093	False
+curated	60% epiboly	signal:BMP	8	3	3	2.175	True
+curated	60% epiboly	signal:Nodal	4	3	3	1.486	True
+curated	60% epiboly	signal:Wnt	4	3	3	1.446	True
+curated	60% epiboly	signal:FGF	2	3	1	1.169	False
+curated	60% epiboly	signal:RA	2	3	0	0.9545	False
+farrell	75% epiboly	farrell:75% epiboly:0	30	3	0	1.666	False
+farrell	75% epiboly	farrell:75% epiboly:1	30	3	3	8.321	True
+farrell	75% epiboly	farrell:75% epiboly:10	30	3	3	2.472	True
+farrell	75% epiboly	farrell:75% epiboly:11	30	3	3	6.592	True
+farrell	75% epiboly	farrell:75% epiboly:12	30	3	3	2.673	True
+farrell	75% epiboly	farrell:75% epiboly:13	30	3	3	4.489	True
+farrell	75% epiboly	farrell:75% epiboly:14	30	3	3	5.056	True
+farrell	75% epiboly	farrell:75% epiboly:15	30	3	3	3.181	True
+farrell	75% epiboly	farrell:75% epiboly:16	30	3	0	1.594	False
+farrell	75% epiboly	farrell:75% epiboly:17	30	3	3	3.667	True
+farrell	75% epiboly	farrell:75% epiboly:18	30	3	3	2.726	True
+farrell	75% epiboly	farrell:75% epiboly:19	30	3	3	5.426	True
+farrell	75% epiboly	farrell:75% epiboly:2	30	3	3	9.081	True
+farrell	75% epiboly	farrell:75% epiboly:20	30	3	3	7.728	True
+farrell	75% epiboly	farrell:75% epiboly:21	30	3	0	1.589	False
+farrell	75% epiboly	farrell:75% epiboly:22	30	3	3	4.714	True
+farrell	75% epiboly	farrell:75% epiboly:23	30	3	0	1.679	False
+farrell	75% epiboly	farrell:75% epiboly:3	30	3	3	6.209	True
+farrell	75% epiboly	farrell:75% epiboly:4	30	3	1	1.821	False
+farrell	75% epiboly	farrell:75% epiboly:5	30	3	3	15.4	True
+farrell	75% epiboly	farrell:75% epiboly:6	30	3	3	6.834	True
+farrell	75% epiboly	farrell:75% epiboly:7	30	3	3	5.631	True
+farrell	75% epiboly	farrell:75% epiboly:8	30	3	3	10.88	True
+farrell	75% epiboly	farrell:75% epiboly:9	30	3	3	3.806	True
+zfin_pre	75% epiboly	DEL	5	3	0	0.9061	False
+zfin_pre	75% epiboly	EVL	30	3	3	6.964	True
+zfin_pre	75% epiboly	anterior axial hypoblast	30	3	3	3.71	True
+zfin_pre	75% epiboly	anterior neural plate	8	3	3	1.538	True
+zfin_pre	75% epiboly	anterior presumptive neural plate	7	3	3	1.663	True
+zfin_pre	75% epiboly	axial chorda mesoderm	30	3	3	3.89	True
+zfin_pre	75% epiboly	axial hypoblast	17	3	3	2.233	True
+zfin_pre	75% epiboly	axial mesoderm	30	3	3	2.483	True
+zfin_pre	75% epiboly	blastoderm	26	3	0	1.2	False
+zfin_pre	75% epiboly	endoderm	15	3	3	3.454	True
+zfin_pre	75% epiboly	endodermal cell	4	3	3	2.316	True
+zfin_pre	75% epiboly	epiblast	21	3	0	1.143	False
+zfin_pre	75% epiboly	forerunner cell group	30	3	1	1.964	False
+zfin_pre	75% epiboly	germ ring	14	3	3	2.298	True
+zfin_pre	75% epiboly	hypoblast	30	3	3	2.952	True
+zfin_pre	75% epiboly	margin	30	3	3	4.352	True
+zfin_pre	75% epiboly	mesoderm	30	3	3	3.496	True
+zfin_pre	75% epiboly	neural plate	30	3	0	1.628	False
+zfin_pre	75% epiboly	neuroectoderm	30	3	0	1.794	False
+zfin_pre	75% epiboly	non neural ectoderm	10	3	3	3.323	True
+zfin_pre	75% epiboly	paraxial mesoderm	10	3	3	1.95	True
+zfin_pre	75% epiboly	prechordal plate	25	3	3	2.485	True
+zfin_pre	75% epiboly	preplacodal ectoderm	5	3	3	3.041	True
+zfin_pre	75% epiboly	presumptive cephalic mesoderm	3	3	0	1.03	False
+zfin_pre	75% epiboly	presumptive ectoderm	22	3	3	3.512	True
+zfin_pre	75% epiboly	presumptive floor plate	3	3	0	1.11	False
+zfin_pre	75% epiboly	presumptive hindbrain	7	3	0	1.276	False
+zfin_pre	75% epiboly	presumptive midbrain hindbrain boundary	7	3	0	1.161	False
+zfin_pre	75% epiboly	presumptive neural plate	17	3	3	1.899	True
+zfin_pre	75% epiboly	presumptive paraxial mesoderm	19	3	3	3.741	True
+zfin_pre	75% epiboly	presumptive segmental plate	30	3	3	3.536	True
+zfin_pre	75% epiboly	primordial germ cell	7	3	3	4.403	True
+zfin_pre	75% epiboly	shield	7	3	0	0.94	False
+zfin_pre	75% epiboly	ventral mesoderm	13	3	3	2.122	True
+zfin_all	75% epiboly	DEL	5	3	0	0.9061	False
+zfin_all	75% epiboly	EVL	30	3	3	6.964	True
+zfin_all	75% epiboly	anterior axial hypoblast	30	3	3	3.71	True
+zfin_all	75% epiboly	anterior neural plate	9	3	3	1.75	True
+zfin_all	75% epiboly	anterior presumptive neural plate	7	3	3	1.663	True
+zfin_all	75% epiboly	axial chorda mesoderm	30	3	3	3.866	True
+zfin_all	75% epiboly	axial hypoblast	17	3	3	2.233	True
+zfin_all	75% epiboly	axial mesoderm	30	3	3	2.612	True
+zfin_all	75% epiboly	blastoderm	29	3	0	1.264	False
+zfin_all	75% epiboly	endoderm	15	3	3	3.454	True
+zfin_all	75% epiboly	endodermal cell	4	3	3	2.316	True
+zfin_all	75% epiboly	epiblast	23	3	0	1.126	False
+zfin_all	75% epiboly	forerunner cell group	30	3	1	1.954	False
+zfin_all	75% epiboly	germ ring	14	3	3	2.298	True
+zfin_all	75% epiboly	hypoblast	30	3	3	2.751	True
+zfin_all	75% epiboly	margin	30	3	3	4.513	True
+zfin_all	75% epiboly	mesoderm	30	3	3	3.634	True
+zfin_all	75% epiboly	neural plate	30	3	0	1.797	False
+zfin_all	75% epiboly	neuroectoderm	30	3	0	1.719	False
+zfin_all	75% epiboly	non neural ectoderm	10	3	3	3.323	True
+zfin_all	75% epiboly	paraxial mesoderm	10	3	3	1.95	True
+zfin_all	75% epiboly	prechordal plate	30	3	3	2.651	True
+zfin_all	75% epiboly	preplacodal ectoderm	5	3	3	3.041	True
+zfin_all	75% epiboly	presumptive cephalic mesoderm	3	3	0	1.03	False
+zfin_all	75% epiboly	presumptive ectoderm	22	3	3	3.512	True
+zfin_all	75% epiboly	presumptive floor plate	3	3	0	1.11	False
+zfin_all	75% epiboly	presumptive hindbrain	7	3	0	1.276	False
+zfin_all	75% epiboly	presumptive mesoderm	7	3	1	1.357	False
+zfin_all	75% epiboly	presumptive midbrain hindbrain boundary	7	3	0	1.161	False
+zfin_all	75% epiboly	presumptive neural plate	17	3	3	1.899	True
+zfin_all	75% epiboly	presumptive paraxial mesoderm	23	3	3	4.258	True
+zfin_all	75% epiboly	presumptive segmental plate	30	3	3	3.536	True
+zfin_all	75% epiboly	primordial germ cell	7	3	3	4.403	True
+zfin_all	75% epiboly	shield	7	3	0	0.94	False
+zfin_all	75% epiboly	ventral mesoderm	13	3	3	2.122	True
+zfin_pre_het	75% epiboly	DEL	3	3	0	0.8542	False
+zfin_pre_het	75% epiboly	EVL	30	3	3	8.489	True
+zfin_pre_het	75% epiboly	anterior axial hypoblast	30	3	3	5.388	True
+zfin_pre_het	75% epiboly	axial chorda mesoderm	30	3	3	4.223	True
+zfin_pre_het	75% epiboly	axial hypoblast	14	3	3	2.127	True
+zfin_pre_het	75% epiboly	axial mesoderm	17	3	3	2.687	True
+zfin_pre_het	75% epiboly	blastoderm	14	3	0	1.123	False
+zfin_pre_het	75% epiboly	endoderm	12	3	3	3.441	True
+zfin_pre_het	75% epiboly	endodermal cell	4	3	3	2.316	True
+zfin_pre_het	75% epiboly	epiblast	12	3	0	1.121	False
+zfin_pre_het	75% epiboly	forerunner cell group	30	3	0	1.643	False
+zfin_pre_het	75% epiboly	germ ring	11	3	3	2.429	True
+zfin_pre_het	75% epiboly	hypoblast	30	3	3	3.176	True
+zfin_pre_het	75% epiboly	margin	30	3	3	4.549	True
+zfin_pre_het	75% epiboly	mesoderm	30	3	3	3.648	True
+zfin_pre_het	75% epiboly	neural plate	30	3	1	1.912	False
+zfin_pre_het	75% epiboly	neuroectoderm	18	3	2	1.878	True
+zfin_pre_het	75% epiboly	non neural ectoderm	8	3	3	3.404	True
+zfin_pre_het	75% epiboly	paraxial mesoderm	6	3	3	2.071	True
+zfin_pre_het	75% epiboly	prechordal plate	16	3	3	2.423	True
+zfin_pre_het	75% epiboly	preplacodal ectoderm	5	3	3	3.041	True
+zfin_pre_het	75% epiboly	presumptive ectoderm	15	3	3	3.504	True
+zfin_pre_het	75% epiboly	presumptive hindbrain	4	3	0	1.188	False
+zfin_pre_het	75% epiboly	presumptive neural plate	11	3	3	1.884	True
+zfin_pre_het	75% epiboly	presumptive paraxial mesoderm	15	3	3	3.748	True
+zfin_pre_het	75% epiboly	presumptive segmental plate	18	3	3	3.599	True
+zfin_pre_het	75% epiboly	primordial germ cell	7	3	3	4.403	True
+zfin_pre_het	75% epiboly	shield	4	3	0	0.9852	False
+zfin_pre_het	75% epiboly	ventral mesoderm	11	3	3	2.075	True
+zfin_all_het	75% epiboly	DEL	3	3	0	0.8542	False
+zfin_all_het	75% epiboly	EVL	30	3	3	8.489	True
+zfin_all_het	75% epiboly	anterior axial hypoblast	30	3	3	5.388	True
+zfin_all_het	75% epiboly	axial chorda mesoderm	30	3	3	4.421	True
+zfin_all_het	75% epiboly	axial hypoblast	14	3	3	2.127	True
+zfin_all_het	75% epiboly	axial mesoderm	18	3	3	2.802	True
+zfin_all_het	75% epiboly	blastoderm	15	3	0	1.089	False
+zfin_all_het	75% epiboly	endoderm	12	3	3	3.441	True
+zfin_all_het	75% epiboly	endodermal cell	4	3	3	2.316	True
+zfin_all_het	75% epiboly	epiblast	13	3	0	1.097	False
+zfin_all_het	75% epiboly	forerunner cell group	30	3	0	1.62	False
+zfin_all_het	75% epiboly	germ ring	11	3	3	2.429	True
+zfin_all_het	75% epiboly	hypoblast	30	3	3	3.053	True
+zfin_all_het	75% epiboly	margin	30	3	3	4.563	True
+zfin_all_het	75% epiboly	mesoderm	30	3	3	4.18	True
+zfin_all_het	75% epiboly	neural plate	30	3	3	2.172	True
+zfin_all_het	75% epiboly	neuroectoderm	19	3	3	2.096	True
+zfin_all_het	75% epiboly	non neural ectoderm	8	3	3	3.404	True
+zfin_all_het	75% epiboly	paraxial mesoderm	6	3	3	2.071	True
+zfin_all_het	75% epiboly	prechordal plate	20	3	3	2.689	True
+zfin_all_het	75% epiboly	preplacodal ectoderm	5	3	3	3.041	True
+zfin_all_het	75% epiboly	presumptive ectoderm	15	3	3	3.504	True
+zfin_all_het	75% epiboly	presumptive hindbrain	4	3	0	1.188	False
+zfin_all_het	75% epiboly	presumptive mesoderm	7	3	1	1.357	False
+zfin_all_het	75% epiboly	presumptive neural plate	11	3	3	1.884	True
+zfin_all_het	75% epiboly	presumptive paraxial mesoderm	19	3	3	4.275	True
+zfin_all_het	75% epiboly	presumptive segmental plate	18	3	3	3.599	True
+zfin_all_het	75% epiboly	primordial germ cell	7	3	3	4.403	True
+zfin_all_het	75% epiboly	shield	4	3	0	0.9852	False
+zfin_all_het	75% epiboly	ventral mesoderm	11	3	3	2.075	True
+signalling	75% epiboly	signal:BMP	8	3	3	2.433	True
+signalling	75% epiboly	signal:Nodal	2	3	2	1.375	True
+signalling	75% epiboly	signal:Wnt	2	3	1	1.286	False
+signalling	75% epiboly	signal:FGF	2	3	0	1.156	False
+signalling	75% epiboly	signal:RA	2	3	0	0.9621	False
+signalling	75% epiboly	signal:Notch	2	3	0	1.14	False
+states	75% epiboly	state:maternal	10	3	1	1.221	False
+states	75% epiboly	state:blastomere	6	3	3	1.649	True
+states	75% epiboly	state:cell_cycle_s	10	3	3	1.782	True
+states	75% epiboly	state:cell_cycle_g2m	10	3	3	2.328	True
+states	75% epiboly	state:heat_shock	5	3	0	1.142	False
+states	75% epiboly	state:p53_response	10	3	1	1.569	False
+curated_staged	75% epiboly	EVL	30	3	3	9.635	True
+curated_staged	75% epiboly	PGC	7	3	3	4.403	True
+curated_staged	75% epiboly	dorsal_forerunner	27	3	1	1.915	False
+curated_staged	75% epiboly	endoderm	11	3	3	3.088	True
+curated_staged	75% epiboly	forebrain_eye	3	3	2	1.331	True
+curated_staged	75% epiboly	marginal_mesendoderm	30	3	3	4.852	True
+curated_staged	75% epiboly	neural_ectoderm	30	3	3	2.501	True
+curated_staged	75% epiboly	non_neural_ectoderm	5	3	3	3.107	True
+curated_staged	75% epiboly	notochord	30	3	3	4.752	True
+curated_staged	75% epiboly	placodes	4	3	3	2.457	True
+curated_staged	75% epiboly	prechordal_plate	30	3	3	5.655	True
+curated_staged	75% epiboly	presomitic_mesoderm	23	3	3	3.774	True
+curated_staged	75% epiboly	ventral_bmp	5	3	3	1.649	True
+curated_staged	75% epiboly	signal:BMP	8	3	3	2.433	True
+curated_staged	75% epiboly	signal:Nodal	2	3	2	1.375	True
+curated_staged	75% epiboly	signal:Wnt	2	3	1	1.286	False
+curated_staged	75% epiboly	signal:FGF	2	3	0	1.156	False
+curated_staged	75% epiboly	signal:RA	2	3	0	0.9621	False
+curated_staged	75% epiboly	signal:Notch	2	3	0	1.14	False
+curated_staged	75% epiboly	state:maternal	10	3	1	1.221	False
+curated_staged	75% epiboly	state:blastomere	6	3	3	1.649	True
+curated_staged	75% epiboly	state:cell_cycle_s	10	3	3	1.782	True
+curated_staged	75% epiboly	state:cell_cycle_g2m	10	3	3	2.328	True
+curated_staged	75% epiboly	state:heat_shock	5	3	0	1.142	False
+curated_staged	75% epiboly	state:p53_response	10	3	1	1.569	False
+curated	75% epiboly	state:maternal	10	3	1	1.221	False
+curated	75% epiboly	state:blastomere	6	3	3	1.649	True
+curated	75% epiboly	state:cell_cycle_s	10	3	3	1.782	True
+curated	75% epiboly	state:cell_cycle_g2m	10	3	3	2.328	True
+curated	75% epiboly	state:heat_shock	5	3	0	1.142	False
+curated	75% epiboly	state:p53_response	10	3	1	1.569	False
+curated	75% epiboly	EVL	30	3	3	13.41	True
+curated	75% epiboly	margin	30	3	3	4.172	True
+curated	75% epiboly	PGC	12	3	3	4.321	True
+curated	75% epiboly	endoderm	14	3	3	2.117	True
+curated	75% epiboly	mesoderm	27	3	1	1.856	False
+curated	75% epiboly	axial_mesoderm	24	3	3	2.575	True
+curated	75% epiboly	dorsal_forerunner	28	3	1	1.779	False
+curated	75% epiboly	neural_plate	30	3	0	1.296	False
+curated	75% epiboly	prechordal_plate	30	3	3	4.947	True
+curated	75% epiboly	presomitic_mesoderm	30	3	3	5.292	True
+curated	75% epiboly	ventral_bmp	14	3	0	1.17	False
+curated	75% epiboly	presumptive_neural	9	3	0	1.109	False
+curated	75% epiboly	forebrain_eye	22	3	0	1.647	False
+curated	75% epiboly	non_neural_ectoderm	7	3	3	1.778	True
+curated	75% epiboly	placodes	19	3	0	1.059	False
+curated	75% epiboly	signal:BMP	8	3	3	2.433	True
+curated	75% epiboly	signal:Nodal	4	3	2	1.474	True
+curated	75% epiboly	signal:Wnt	4	3	1	1.371	False
+curated	75% epiboly	signal:FGF	2	3	0	1.156	False
+curated	75% epiboly	signal:RA	3	3	0	0.9621	False
+curated	75% epiboly	signal:Notch	9	3	0	1.366	False
+farrell	90% epiboly	farrell:90% epiboly:0	30	3	0	1.182	False
+farrell	90% epiboly	farrell:90% epiboly:1	30	3	3	8.014	True
+farrell	90% epiboly	farrell:90% epiboly:10	30	3	3	3.065	True
+farrell	90% epiboly	farrell:90% epiboly:11	30	3	3	10.61	True
+farrell	90% epiboly	farrell:90% epiboly:12	30	3	3	5.179	True
+farrell	90% epiboly	farrell:90% epiboly:13	30	3	3	6.031	True
+farrell	90% epiboly	farrell:90% epiboly:14	30	3	3	4.641	True
+farrell	90% epiboly	farrell:90% epiboly:15	30	3	3	3.523	True
+farrell	90% epiboly	farrell:90% epiboly:16	30	3	3	2.847	True
+farrell	90% epiboly	farrell:90% epiboly:17	30	3	3	5.071	True
+farrell	90% epiboly	farrell:90% epiboly:18	30	3	3	4.741	True
+farrell	90% epiboly	farrell:90% epiboly:19	30	3	2	2.4	True
+farrell	90% epiboly	farrell:90% epiboly:2	30	3	3	12.69	True
+farrell	90% epiboly	farrell:90% epiboly:20	30	3	3	5.159	True
+farrell	90% epiboly	farrell:90% epiboly:21	30	3	3	6.089	True
+farrell	90% epiboly	farrell:90% epiboly:22	30	3	0	1.579	False
+farrell	90% epiboly	farrell:90% epiboly:23	30	3	0	1.278	False
+farrell	90% epiboly	farrell:90% epiboly:24	30	3	0	1.108	False
+farrell	90% epiboly	farrell:90% epiboly:25	30	3	3	6.667	True
+farrell	90% epiboly	farrell:90% epiboly:26	30	3	3	3.917	True
+farrell	90% epiboly	farrell:90% epiboly:27	30	3	3	5.397	True
+farrell	90% epiboly	farrell:90% epiboly:28	30	3	1	2.006	False
+farrell	90% epiboly	farrell:90% epiboly:29	30	3	0	1.077	False
+farrell	90% epiboly	farrell:90% epiboly:3	30	3	3	8.306	True
+farrell	90% epiboly	farrell:90% epiboly:30	30	3	0	1.159	False
+farrell	90% epiboly	farrell:90% epiboly:31	30	3	0	1.127	False
+farrell	90% epiboly	farrell:90% epiboly:32	30	3	3	9.058	True
+farrell	90% epiboly	farrell:90% epiboly:33	30	3	0	1.214	False
+farrell	90% epiboly	farrell:90% epiboly:34	30	3	0	1.517	False
+farrell	90% epiboly	farrell:90% epiboly:35	30	3	0	1.07	False
+farrell	90% epiboly	farrell:90% epiboly:36	30	3	0	1.204	False
+farrell	90% epiboly	farrell:90% epiboly:37	30	3	0	1.34	False
+farrell	90% epiboly	farrell:90% epiboly:38	30	3	0	1.303	False
+farrell	90% epiboly	farrell:90% epiboly:39	30	3	0	1.268	False
+farrell	90% epiboly	farrell:90% epiboly:4	30	3	3	16.16	True
+farrell	90% epiboly	farrell:90% epiboly:40	30	3	0	1.066	False
+farrell	90% epiboly	farrell:90% epiboly:41	30	3	0	1.382	False
+farrell	90% epiboly	farrell:90% epiboly:42	30	3	3	3.2	True
+farrell	90% epiboly	farrell:90% epiboly:43	30	3	0	1.398	False
+farrell	90% epiboly	farrell:90% epiboly:44	30	3	0	1.125	False
+farrell	90% epiboly	farrell:90% epiboly:5	30	3	3	3.901	True
+farrell	90% epiboly	farrell:90% epiboly:6	30	3	0	1.293	False
+farrell	90% epiboly	farrell:90% epiboly:7	30	3	3	4.471	True
+farrell	90% epiboly	farrell:90% epiboly:8	30	3	3	5.137	True
+farrell	90% epiboly	farrell:90% epiboly:9	30	3	0	1.56	False
+zfin_pre	90% epiboly	EVL	30	3	3	5.718	True
+zfin_pre	90% epiboly	anterior axial hypoblast	30	3	3	3.823	True
+zfin_pre	90% epiboly	anterior neural plate	9	3	3	2.068	True
+zfin_pre	90% epiboly	axial chorda mesoderm	30	3	2	2.469	True
+zfin_pre	90% epiboly	axial hypoblast	6	3	3	1.666	True
+zfin_pre	90% epiboly	axial mesoderm	25	3	3	2.644	True
+zfin_pre	90% epiboly	blastoderm	5	3	0	0.9857	False
+zfin_pre	90% epiboly	endoderm	14	3	3	2.985	True
+zfin_pre	90% epiboly	endodermal cell	3	3	1	1.325	False
+zfin_pre	90% epiboly	epiblast	15	3	0	1.119	False
+zfin_pre	90% epiboly	forebrain neural plate	11	3	3	2.24	True
+zfin_pre	90% epiboly	forerunner cell group	30	3	0	1.844	False
+zfin_pre	90% epiboly	germ ring	6	3	3	1.571	True
+zfin_pre	90% epiboly	hypoblast	25	3	1	1.779	False
+zfin_pre	90% epiboly	margin	30	3	3	3.224	True
+zfin_pre	90% epiboly	mesoderm	30	3	1	2.084	False
+zfin_pre	90% epiboly	midbrain hindbrain boundary neural plate	7	3	0	1.439	False
+zfin_pre	90% epiboly	neural plate	30	3	0	2.008	False
+zfin_pre	90% epiboly	neuroectoderm	14	3	0	1.595	False
+zfin_pre	90% epiboly	non neural ectoderm	5	3	3	3.213	True
+zfin_pre	90% epiboly	paraxial mesoderm	12	3	3	2.298	True
+zfin_pre	90% epiboly	prechordal plate	17	3	1	1.882	False
+zfin_pre	90% epiboly	presumptive cephalic mesoderm	4	3	0	1.003	False
+zfin_pre	90% epiboly	presumptive ectoderm	22	3	3	4.404	True
+zfin_pre	90% epiboly	presumptive floor plate	4	3	3	1.661	True
+zfin_pre	90% epiboly	presumptive mesoderm	4	3	0	1.089	False
+zfin_pre	90% epiboly	presumptive neural plate	11	3	0	0.8022	False
+zfin_pre	90% epiboly	presumptive paraxial mesoderm	26	3	3	3.537	True
+zfin_pre	90% epiboly	presumptive segmental plate	27	3	3	3.484	True
+zfin_pre	90% epiboly	primordial germ cell	7	3	3	2.899	True
+zfin_pre	90% epiboly	shield	3	3	0	0.995	False
+zfin_pre	90% epiboly	tail bud	5	3	0	1.22	False
+zfin_pre	90% epiboly	ventral mesoderm	9	3	3	1.679	True
+zfin_all	90% epiboly	EVL	30	3	3	5.718	True
+zfin_all	90% epiboly	anterior axial hypoblast	30	3	3	3.823	True
+zfin_all	90% epiboly	anterior neural plate	13	3	3	3.065	True
+zfin_all	90% epiboly	axial chorda mesoderm	30	3	2	2.469	True
+zfin_all	90% epiboly	axial hypoblast	6	3	3	1.666	True
+zfin_all	90% epiboly	axial mesoderm	25	3	3	2.644	True
+zfin_all	90% epiboly	blastoderm	5	3	0	0.9857	False
+zfin_all	90% epiboly	endoderm	14	3	3	2.985	True
+zfin_all	90% epiboly	endodermal cell	3	3	1	1.325	False
+zfin_all	90% epiboly	epiblast	15	3	0	1.119	False
+zfin_all	90% epiboly	forebrain neural plate	11	3	3	2.24	True
+zfin_all	90% epiboly	forerunner cell group	30	3	0	1.857	False
+zfin_all	90% epiboly	germ ring	6	3	3	1.571	True
+zfin_all	90% epiboly	hypoblast	26	3	1	1.786	False
+zfin_all	90% epiboly	margin	30	3	3	3.317	True
+zfin_all	90% epiboly	mesoderm	30	3	1	2.084	False
+zfin_all	90% epiboly	midbrain hindbrain boundary neural plate	7	3	0	1.439	False
+zfin_all	90% epiboly	neural plate	30	3	0	2.008	False
+zfin_all	90% epiboly	neuroectoderm	15	3	0	1.569	False
+zfin_all	90% epiboly	non neural ectoderm	5	3	3	3.213	True
+zfin_all	90% epiboly	paraxial mesoderm	12	3	3	2.298	True
+zfin_all	90% epiboly	prechordal plate	17	3	1	1.882	False
+zfin_all	90% epiboly	presumptive cephalic mesoderm	4	3	0	1.003	False
+zfin_all	90% epiboly	presumptive ectoderm	22	3	3	4.404	True
+zfin_all	90% epiboly	presumptive floor plate	4	3	3	1.661	True
+zfin_all	90% epiboly	presumptive mesoderm	4	3	0	1.089	False
+zfin_all	90% epiboly	presumptive neural plate	11	3	0	0.8022	False
+zfin_all	90% epiboly	presumptive paraxial mesoderm	27	3	3	4.041	True
+zfin_all	90% epiboly	presumptive segmental plate	27	3	3	3.484	True
+zfin_all	90% epiboly	primordial germ cell	7	3	3	2.899	True
+zfin_all	90% epiboly	shield	3	3	0	0.995	False
+zfin_all	90% epiboly	tail bud	5	3	0	1.22	False
+zfin_all	90% epiboly	ventral mesoderm	9	3	3	1.679	True
+zfin_pre_het	90% epiboly	EVL	30	3	3	7.267	True
+zfin_pre_het	90% epiboly	anterior axial hypoblast	30	3	3	6.405	True
+zfin_pre_het	90% epiboly	axial chorda mesoderm	30	3	3	3.886	True
+zfin_pre_het	90% epiboly	axial mesoderm	16	3	3	2.534	True
+zfin_pre_het	90% epiboly	endoderm	11	3	3	3.008	True
+zfin_pre_het	90% epiboly	endodermal cell	3	3	1	1.325	False
+zfin_pre_het	90% epiboly	epiblast	11	3	0	1.084	False
+zfin_pre_het	90% epiboly	forebrain neural plate	10	3	3	2.23	True
+zfin_pre_het	90% epiboly	forerunner cell group	23	3	0	1.64	False
+zfin_pre_het	90% epiboly	germ ring	4	3	3	1.598	True
+zfin_pre_het	90% epiboly	hypoblast	21	3	1	1.778	False
+zfin_pre_het	90% epiboly	margin	30	3	3	3.426	True
+zfin_pre_het	90% epiboly	mesoderm	30	3	2	2.474	True
+zfin_pre_het	90% epiboly	midbrain hindbrain boundary neural plate	6	3	0	1.403	False
+zfin_pre_het	90% epiboly	neural plate	30	3	0	1.777	False
+zfin_pre_het	90% epiboly	neuroectoderm	11	3	0	1.554	False
+zfin_pre_het	90% epiboly	non neural ectoderm	5	3	3	3.213	True
+zfin_pre_het	90% epiboly	paraxial mesoderm	7	3	3	2.244	True
+zfin_pre_het	90% epiboly	prechordal plate	15	3	2	1.83	True
+zfin_pre_het	90% epiboly	presumptive cephalic mesoderm	4	3	0	1.003	False
+zfin_pre_het	90% epiboly	presumptive ectoderm	18	3	3	4.436	True
+zfin_pre_het	90% epiboly	presumptive floor plate	3	3	3	1.703	True
+zfin_pre_het	90% epiboly	presumptive mesoderm	4	3	0	1.089	False
+zfin_pre_het	90% epiboly	presumptive neural plate	6	3	0	0.7674	False
+zfin_pre_het	90% epiboly	presumptive paraxial mesoderm	20	3	3	3.446	True
+zfin_pre_het	90% epiboly	presumptive segmental plate	19	3	3	3.458	True
+zfin_pre_het	90% epiboly	primordial germ cell	7	3	3	2.899	True
+zfin_pre_het	90% epiboly	tail bud	4	3	0	1.236	False
+zfin_pre_het	90% epiboly	ventral mesoderm	8	3	2	1.61	True
+zfin_all_het	90% epiboly	EVL	30	3	3	7.267	True
+zfin_all_het	90% epiboly	anterior axial hypoblast	30	3	3	6.405	True
+zfin_all_het	90% epiboly	anterior neural plate	11	3	3	3.187	True
+zfin_all_het	90% epiboly	axial chorda mesoderm	30	3	3	3.886	True
+zfin_all_het	90% epiboly	axial mesoderm	16	3	3	2.534	True
+zfin_all_het	90% epiboly	endoderm	11	3	3	3.008	True
+zfin_all_het	90% epiboly	endodermal cell	3	3	1	1.325	False
+zfin_all_het	90% epiboly	epiblast	11	3	0	1.084	False
+zfin_all_het	90% epiboly	forebrain neural plate	10	3	3	2.23	True
+zfin_all_het	90% epiboly	forerunner cell group	24	3	0	1.641	False
+zfin_all_het	90% epiboly	germ ring	4	3	3	1.598	True
+zfin_all_het	90% epiboly	hypoblast	21	3	1	1.778	False
+zfin_all_het	90% epiboly	margin	30	3	3	3.406	True
+zfin_all_het	90% epiboly	mesoderm	30	3	2	2.474	True
+zfin_all_het	90% epiboly	midbrain hindbrain boundary neural plate	6	3	0	1.403	False
+zfin_all_het	90% epiboly	neural plate	30	3	0	1.777	False
+zfin_all_het	90% epiboly	neuroectoderm	11	3	0	1.554	False
+zfin_all_het	90% epiboly	non neural ectoderm	5	3	3	3.213	True
+zfin_all_het	90% epiboly	paraxial mesoderm	7	3	3	2.244	True
+zfin_all_het	90% epiboly	prechordal plate	15	3	2	1.83	True
+zfin_all_het	90% epiboly	presumptive cephalic mesoderm	4	3	0	1.003	False
+zfin_all_het	90% epiboly	presumptive ectoderm	18	3	3	4.436	True
+zfin_all_het	90% epiboly	presumptive floor plate	3	3	3	1.703	True
+zfin_all_het	90% epiboly	presumptive mesoderm	4	3	0	1.089	False
+zfin_all_het	90% epiboly	presumptive neural plate	6	3	0	0.7674	False
+zfin_all_het	90% epiboly	presumptive paraxial mesoderm	21	3	3	3.949	True
+zfin_all_het	90% epiboly	presumptive segmental plate	19	3	3	3.458	True
+zfin_all_het	90% epiboly	primordial germ cell	7	3	3	2.899	True
+zfin_all_het	90% epiboly	tail bud	4	3	0	1.236	False
+zfin_all_het	90% epiboly	ventral mesoderm	8	3	2	1.61	True
+signalling	90% epiboly	signal:BMP	8	3	3	2.349	True
+signalling	90% epiboly	signal:Nodal	2	3	3	1.4	True
+signalling	90% epiboly	signal:Wnt	2	3	1	1.217	False
+signalling	90% epiboly	signal:RA	3	3	0	0.9084	False
+signalling	90% epiboly	signal:Notch	4	3	0	1.201	False
+states	90% epiboly	state:maternal	7	3	1	1.262	False
+states	90% epiboly	state:blastomere	6	3	3	1.728	True
+states	90% epiboly	state:cell_cycle_s	10	3	3	1.899	True
+states	90% epiboly	state:cell_cycle_g2m	10	3	3	2.785	True
+states	90% epiboly	state:heat_shock	5	3	0	1.049	False
+states	90% epiboly	state:p53_response	10	3	2	1.837	True
+curated_staged	90% epiboly	EVL	30	3	3	8.005	True
+curated_staged	90% epiboly	PGC	7	3	3	2.899	True
+curated_staged	90% epiboly	dorsal_forerunner	21	3	0	1.554	False
+curated_staged	90% epiboly	endoderm	10	3	3	2.745	True
+curated_staged	90% epiboly	forebrain_eye	12	3	3	3.326	True
+curated_staged	90% epiboly	hindbrain	3	3	0	1.114	False
+curated_staged	90% epiboly	marginal_mesendoderm	30	3	3	3.255	True
+curated_staged	90% epiboly	midbrain_hindbrain_boundary	6	3	3	1.626	True
+curated_staged	90% epiboly	neural_ectoderm	30	3	2	2.291	True
+curated_staged	90% epiboly	non_neural_ectoderm	4	3	3	2.542	True
+curated_staged	90% epiboly	notochord	30	3	3	4.086	True
+curated_staged	90% epiboly	prechordal_plate	30	3	3	5.698	True
+curated_staged	90% epiboly	presomitic_mesoderm	30	3	3	5.14	True
+curated_staged	90% epiboly	ventral_bmp	5	3	1	1.376	False
+curated_staged	90% epiboly	signal:BMP	8	3	3	2.349	True
+curated_staged	90% epiboly	signal:Nodal	2	3	3	1.4	True
+curated_staged	90% epiboly	signal:Wnt	2	3	1	1.217	False
+curated_staged	90% epiboly	signal:RA	3	3	0	0.9084	False
+curated_staged	90% epiboly	signal:Notch	4	3	0	1.201	False
+curated_staged	90% epiboly	state:maternal	7	3	1	1.262	False
+curated_staged	90% epiboly	state:blastomere	6	3	3	1.728	True
+curated_staged	90% epiboly	state:cell_cycle_s	10	3	3	1.899	True
+curated_staged	90% epiboly	state:cell_cycle_g2m	10	3	3	2.785	True
+curated_staged	90% epiboly	state:heat_shock	5	3	0	1.049	False
+curated_staged	90% epiboly	state:p53_response	10	3	2	1.837	True
+curated	90% epiboly	state:maternal	7	3	1	1.262	False
+curated	90% epiboly	state:blastomere	6	3	3	1.728	True
+curated	90% epiboly	state:cell_cycle_s	10	3	3	1.899	True
+curated	90% epiboly	state:cell_cycle_g2m	10	3	3	2.785	True
+curated	90% epiboly	state:heat_shock	5	3	0	1.049	False
+curated	90% epiboly	state:p53_response	10	3	2	1.837	True
+curated	90% epiboly	EVL	30	3	3	13.76	True
+curated	90% epiboly	margin	30	3	3	2.943	True
+curated	90% epiboly	PGC	11	3	3	2.637	True
+curated	90% epiboly	endoderm	15	3	3	2.293	True
+curated	90% epiboly	mesoderm	28	3	0	1.984	False
+curated	90% epiboly	axial_mesoderm	24	3	3	2.921	True
+curated	90% epiboly	dorsal_forerunner	27	3	0	1.543	False
+curated	90% epiboly	neural_plate	30	3	0	1.334	False
+curated	90% epiboly	prechordal_plate	30	3	3	6.205	True
+curated	90% epiboly	presomitic_mesoderm	30	3	3	5.824	True
+curated	90% epiboly	ventral_bmp	14	3	0	1.259	False
+curated	90% epiboly	presumptive_neural	9	3	0	1.163	False
+curated	90% epiboly	forebrain_eye	25	3	1	2.077	False
+curated	90% epiboly	non_neural_ectoderm	7	3	3	2.328	True
+curated	90% epiboly	placodes	20	3	0	1.118	False
+curated	90% epiboly	hindbrain	27	3	0	1.414	False
+curated	90% epiboly	midbrain_hindbrain_boundary	21	3	0	1.491	False
+curated	90% epiboly	signal:BMP	8	3	3	2.349	True
+curated	90% epiboly	signal:Nodal	3	3	3	1.632	True
+curated	90% epiboly	signal:Wnt	4	3	1	1.279	False
+curated	90% epiboly	signal:FGF	2	3	1	1.182	False
+curated	90% epiboly	signal:RA	3	3	0	0.9084	False
+curated	90% epiboly	signal:Notch	9	3	1	1.509	False
+farrell	bud	farrell:bud:0	30	4	0	1.099	False
+farrell	bud	farrell:bud:1	30	4	4	8.018	True
+farrell	bud	farrell:bud:10	30	4	4	3.372	True
+farrell	bud	farrell:bud:11	30	4	4	5.418	True
+farrell	bud	farrell:bud:12	30	4	4	5.166	True
+farrell	bud	farrell:bud:13	30	4	4	3.321	True
+farrell	bud	farrell:bud:14	30	4	4	4.807	True
+farrell	bud	farrell:bud:15	30	4	0	1.204	False
+farrell	bud	farrell:bud:16	30	4	4	4.818	True
+farrell	bud	farrell:bud:17	30	4	4	8.616	True
+farrell	bud	farrell:bud:18	30	4	3	1.967	True
+farrell	bud	farrell:bud:19	30	4	4	2.196	True
+farrell	bud	farrell:bud:2	30	4	4	9.71	True
+farrell	bud	farrell:bud:20	30	4	0	0.9725	False
+farrell	bud	farrell:bud:21	30	4	4	8.88	True
+farrell	bud	farrell:bud:22	30	4	2	1.842	True
+farrell	bud	farrell:bud:23	30	4	4	4.87	True
+farrell	bud	farrell:bud:24	30	4	4	4.599	True
+farrell	bud	farrell:bud:25	30	4	0	1.487	False
+farrell	bud	farrell:bud:26	30	4	0	1.191	False
+farrell	bud	farrell:bud:27	30	4	0	1.439	False
+farrell	bud	farrell:bud:28	30	4	0	1.302	False
+farrell	bud	farrell:bud:29	30	4	4	3.222	True
+farrell	bud	farrell:bud:3	30	4	4	12.06	True
+farrell	bud	farrell:bud:30	30	4	0	1.209	False
+farrell	bud	farrell:bud:31	30	4	4	4.275	True
+farrell	bud	farrell:bud:32	30	4	0	1.092	False
+farrell	bud	farrell:bud:33	30	4	4	5.128	True
+farrell	bud	farrell:bud:34	30	4	0	1.14	False
+farrell	bud	farrell:bud:35	30	4	0	1.04	False
+farrell	bud	farrell:bud:36	30	4	0	0.9305	False
+farrell	bud	farrell:bud:37	30	4	0	1.094	False
+farrell	bud	farrell:bud:38	30	4	0	1.097	False
+farrell	bud	farrell:bud:39	30	4	0	1.572	False
+farrell	bud	farrell:bud:4	30	4	4	6.943	True
+farrell	bud	farrell:bud:5	30	4	4	12.54	True
+farrell	bud	farrell:bud:6	30	4	4	11.49	True
+farrell	bud	farrell:bud:7	30	4	4	3.503	True
+farrell	bud	farrell:bud:8	30	4	4	5.002	True
+farrell	bud	farrell:bud:9	30	4	4	6.497	True
+zfin_pre	bud	EVL	30	4	4	3.86	True
+zfin_pre	bud	adaxial cell	22	4	4	3.049	True
+zfin_pre	bud	anterior axial hypoblast	30	4	4	2.819	True
+zfin_pre	bud	anterior neural keel	9	4	0	1.007	False
+zfin_pre	bud	anterior neural plate	21	4	4	2.291	True
+zfin_pre	bud	axial chorda mesoderm	30	4	4	3.099	True
+zfin_pre	bud	axial hypoblast	8	4	1	1.362	False
+zfin_pre	bud	axial mesoderm	28	4	4	2.685	True
+zfin_pre	bud	central nervous system	9	4	4	1.603	True
+zfin_pre	bud	dorsolateral placode	3	4	4	1.299	True
+zfin_pre	bud	endoderm	20	4	3	1.709	True
+zfin_pre	bud	endodermal cell	3	4	3	1.282	True
+zfin_pre	bud	forebrain neural keel	21	4	4	2.327	True
+zfin_pre	bud	forebrain neural plate	17	4	4	2.264	True
+zfin_pre	bud	forerunner cell group	30	4	1	1.617	False
+zfin_pre	bud	hindbrain neural keel	19	4	2	1.533	True
+zfin_pre	bud	hypoblast	18	4	4	1.841	True
+zfin_pre	bud	intermediate mesoderm	8	4	0	1.077	False
+zfin_pre	bud	lateral mesoderm	17	4	4	1.79	True
+zfin_pre	bud	margin	30	4	4	3.006	True
+zfin_pre	bud	mesoderm	30	4	4	1.993	True
+zfin_pre	bud	midbrain neural keel	9	4	4	1.652	True
+zfin_pre	bud	midbrain neural plate	5	4	2	1.301	True
+zfin_pre	bud	neural keel	30	4	0	1.308	False
+zfin_pre	bud	neural plate	30	4	3	1.928	True
+zfin_pre	bud	neural plate border	3	4	0	0.9815	False
+zfin_pre	bud	neuroblast	3	4	4	1.464	True
+zfin_pre	bud	neuroectoderm	30	4	0	1.242	False
+zfin_pre	bud	neurogenic field	7	4	4	2.558	True
+zfin_pre	bud	non neural ectoderm	4	4	4	2.311	True
+zfin_pre	bud	notochord	30	4	4	3.302	True
+zfin_pre	bud	optic primordium	10	4	4	1.797	True
+zfin_pre	bud	otic placode	6	4	3	1.388	True
+zfin_pre	bud	paraxial mesoderm	30	4	4	3.178	True
+zfin_pre	bud	polster	21	4	4	3.453	True
+zfin_pre	bud	prechordal plate	30	4	4	2.836	True
+zfin_pre	bud	preplacodal ectoderm	5	4	2	1.298	True
+zfin_pre	bud	presumptive cephalic mesoderm	6	4	0	1.057	False
+zfin_pre	bud	presumptive ectoderm	22	4	4	4.744	True
+zfin_pre	bud	presumptive floor plate	5	4	4	1.474	True
+zfin_pre	bud	presumptive paraxial mesoderm	4	4	2	1.232	True
+zfin_pre	bud	presumptive pronephric mesoderm	7	4	1	1.285	False
+zfin_pre	bud	presumptive rhombomere 1	3	4	1	1.219	False
+zfin_pre	bud	presumptive rhombomere 7	3	4	3	1.31	True
+zfin_pre	bud	presumptive segmental plate	30	4	4	2.918	True
+zfin_pre	bud	primordial germ cell	8	4	2	1.71	True
+zfin_pre	bud	segmental plate	29	4	4	3.232	True
+zfin_pre	bud	shield	3	4	0	1.032	False
+zfin_pre	bud	spinal cord neural keel	4	4	0	1.078	False
+zfin_pre	bud	tail bud	30	4	4	2.353	True
+zfin_pre	bud	ventral mesoderm	9	4	0	1.018	False
+zfin_all	bud	EVL	30	4	4	3.86	True
+zfin_all	bud	adaxial cell	25	4	4	3.234	True
+zfin_all	bud	anterior axial hypoblast	30	4	4	2.819	True
+zfin_all	bud	anterior neural keel	12	4	0	1.209	False
+zfin_all	bud	anterior neural plate	22	4	4	2.159	True
+zfin_all	bud	axial chorda mesoderm	30	4	4	3.099	True
+zfin_all	bud	axial hypoblast	8	4	1	1.362	False
+zfin_all	bud	axial mesoderm	29	4	4	2.801	True
+zfin_all	bud	blastoderm	7	4	0	1.156	False
+zfin_all	bud	central nervous system	11	4	3	1.515	True
+zfin_all	bud	dorsolateral placode	3	4	4	1.299	True
+zfin_all	bud	endoderm	20	4	3	1.709	True
+zfin_all	bud	endodermal cell	3	4	3	1.282	True
+zfin_all	bud	forebrain neural plate	18	4	4	2.278	True
+zfin_all	bud	forerunner cell group	30	4	1	1.625	False
+zfin_all	bud	hindbrain neural keel	22	4	2	1.644	True
+zfin_all	bud	hindbrain neural plate	15	4	0	1.259	False
+zfin_all	bud	hypoblast	20	4	4	1.935	True
+zfin_all	bud	intermediate mesoderm	8	4	0	1.077	False
+zfin_all	bud	lateral mesoderm	18	4	3	1.806	True
+zfin_all	bud	margin	30	4	4	3.006	True
+zfin_all	bud	mesoderm	30	4	4	1.993	True
+zfin_all	bud	midbrain neural plate	6	4	3	1.355	True
+zfin_all	bud	neural keel	30	4	0	1.31	False
+zfin_all	bud	neural plate	30	4	4	2.018	True
+zfin_all	bud	neural plate border	4	4	0	0.9981	False
+zfin_all	bud	neuroectoderm	30	4	0	1.197	False
+zfin_all	bud	neurogenic field	7	4	4	2.558	True
+zfin_all	bud	non neural ectoderm	4	4	4	2.311	True
+zfin_all	bud	notochord	30	4	4	3.531	True
+zfin_all	bud	optic primordium	11	4	4	1.929	True
+zfin_all	bud	otic placode	6	4	3	1.388	True
+zfin_all	bud	paraxial mesoderm	30	4	4	2.965	True
+zfin_all	bud	polster	25	4	4	3.423	True
+zfin_all	bud	prechordal plate	30	4	4	3.265	True
+zfin_all	bud	preplacodal ectoderm	7	4	0	1.029	False
+zfin_all	bud	presumptive cephalic mesoderm	6	4	0	1.057	False
+zfin_all	bud	presumptive ectoderm	22	4	4	4.744	True
+zfin_all	bud	presumptive floor plate	6	4	2	1.324	True
+zfin_all	bud	presumptive intervening zone	3	4	4	1.375	True
+zfin_all	bud	presumptive paraxial mesoderm	4	4	2	1.232	True
+zfin_all	bud	presumptive pronephric mesoderm	7	4	1	1.285	False
+zfin_all	bud	presumptive rhombomere 8	3	4	3	1.31	True
+zfin_all	bud	presumptive segmental plate	30	4	4	2.918	True
+zfin_all	bud	primordial germ cell	8	4	2	1.71	True
+zfin_all	bud	segmental plate	30	4	4	2.939	True
+zfin_all	bud	shield	3	4	0	1.032	False
+zfin_all	bud	tail bud	30	4	4	2.4	True
+zfin_all	bud	ventral mesoderm	9	4	0	1.018	False
+zfin_pre_het	bud	EVL	30	4	4	6.024	True
+zfin_pre_het	bud	adaxial cell	14	4	4	3.006	True
+zfin_pre_het	bud	anterior axial hypoblast	30	4	4	4.636	True
+zfin_pre_het	bud	anterior neural keel	4	4	0	0.9169	False
+zfin_pre_het	bud	anterior neural plate	13	4	4	2.358	True
+zfin_pre_het	bud	axial chorda mesoderm	30	4	4	4.296	True
+zfin_pre_het	bud	axial hypoblast	5	4	2	1.29	True
+zfin_pre_het	bud	axial mesoderm	15	4	4	2.787	True
+zfin_pre_het	bud	dorsolateral placode	3	4	4	1.299	True
+zfin_pre_het	bud	endoderm	15	4	4	1.668	True
+zfin_pre_het	bud	forebrain neural plate	13	4	4	2.153	True
+zfin_pre_het	bud	forerunner cell group	19	4	3	1.67	True
+zfin_pre_het	bud	hypoblast	15	4	4	1.855	True
+zfin_pre_het	bud	intermediate mesoderm	6	4	0	1.072	False
+zfin_pre_het	bud	lateral mesoderm	13	4	4	1.769	True
+zfin_pre_het	bud	margin	30	4	4	3.359	True
+zfin_pre_het	bud	mesoderm	30	4	4	2.054	True
+zfin_pre_het	bud	midbrain hindbrain boundary neural keel	9	4	4	1.728	True
+zfin_pre_het	bud	midbrain neural plate	4	4	4	1.314	True
+zfin_pre_het	bud	neural plate	30	4	4	2.184	True
+zfin_pre_het	bud	neural plate border	3	4	0	0.9815	False
+zfin_pre_het	bud	neuroblast	3	4	4	1.464	True
+zfin_pre_het	bud	neuroectoderm	23	4	0	1.242	False
+zfin_pre_het	bud	neurogenic field	7	4	4	2.558	True
+zfin_pre_het	bud	non neural ectoderm	4	4	4	2.311	True
+zfin_pre_het	bud	notochord	14	4	4	3.277	True
+zfin_pre_het	bud	optic primordium	6	4	4	1.911	True
+zfin_pre_het	bud	otic placode	3	4	4	1.397	True
+zfin_pre_het	bud	paraxial mesoderm	30	4	4	3.448	True
+zfin_pre_het	bud	polster	16	4	4	3.301	True
+zfin_pre_het	bud	prechordal plate	26	4	4	2.55	True
+zfin_pre_het	bud	preplacodal ectoderm	4	4	0	1.176	False
+zfin_pre_het	bud	presumptive cephalic mesoderm	3	4	0	0.9348	False
+zfin_pre_het	bud	presumptive ectoderm	16	4	4	4.439	True
+zfin_pre_het	bud	presumptive floor plate	4	4	4	1.38	True
+zfin_pre_het	bud	presumptive pronephric mesoderm	6	4	2	1.291	True
+zfin_pre_het	bud	presumptive rhombomere 7	3	4	3	1.31	True
+zfin_pre_het	bud	presumptive segmental plate	28	4	4	4.002	True
+zfin_pre_het	bud	primordial germ cell	4	4	2	1.871	True
+zfin_pre_het	bud	segmental plate	25	4	4	3.233	True
+zfin_pre_het	bud	tail bud	30	4	4	3.205	True
+zfin_pre_het	bud	ventral mesoderm	8	4	0	0.9609	False
+zfin_all_het	bud	EVL	30	4	4	6.024	True
+zfin_all_het	bud	adaxial cell	16	4	4	3.244	True
+zfin_all_het	bud	anterior axial hypoblast	30	4	4	4.636	True
+zfin_all_het	bud	anterior neural keel	7	4	0	1.141	False
+zfin_all_het	bud	anterior neural plate	14	4	4	2.183	True
+zfin_all_het	bud	axial chorda mesoderm	30	4	4	4.296	True
+zfin_all_het	bud	axial hypoblast	5	4	2	1.29	True
+zfin_all_het	bud	axial mesoderm	16	4	4	2.884	True
+zfin_all_het	bud	dorsolateral placode	3	4	4	1.299	True
+zfin_all_het	bud	endoderm	15	4	4	1.668	True
+zfin_all_het	bud	forebrain neural plate	13	4	4	2.153	True
+zfin_all_het	bud	forerunner cell group	19	4	3	1.67	True
+zfin_all_het	bud	hypoblast	16	4	4	1.949	True
+zfin_all_het	bud	intermediate mesoderm	6	4	0	1.072	False
+zfin_all_het	bud	lateral mesoderm	13	4	4	1.769	True
+zfin_all_het	bud	margin	30	4	4	3.359	True
+zfin_all_het	bud	mesoderm	30	4	4	2.054	True
+zfin_all_het	bud	midbrain hindbrain boundary neural keel	14	4	4	1.985	True
+zfin_all_het	bud	midbrain neural plate	4	4	4	1.314	True
+zfin_all_het	bud	neural plate	30	4	4	2.184	True
+zfin_all_het	bud	neural plate border	3	4	0	0.9815	False
+zfin_all_het	bud	neuroectoderm	23	4	0	1.242	False
+zfin_all_het	bud	neurogenic field	7	4	4	2.558	True
+zfin_all_het	bud	non neural ectoderm	4	4	4	2.311	True
+zfin_all_het	bud	notochord	15	4	4	3.261	True
+zfin_all_het	bud	optic primordium	7	4	4	2.044	True
+zfin_all_het	bud	otic placode	3	4	4	1.397	True
+zfin_all_het	bud	paraxial mesoderm	30	4	4	3.335	True
+zfin_all_het	bud	polster	18	4	4	3.311	True
+zfin_all_het	bud	prechordal plate	28	4	4	2.84	True
+zfin_all_het	bud	preplacodal ectoderm	6	4	0	0.9265	False
+zfin_all_het	bud	presumptive cephalic mesoderm	3	4	0	0.9348	False
+zfin_all_het	bud	presumptive ectoderm	16	4	4	4.439	True
+zfin_all_het	bud	presumptive floor plate	5	4	1	1.227	False
+zfin_all_het	bud	presumptive pronephric mesoderm	6	4	2	1.291	True
+zfin_all_het	bud	presumptive rhombomere 8	3	4	3	1.31	True
+zfin_all_het	bud	presumptive segmental plate	28	4	4	4.002	True
+zfin_all_het	bud	primordial germ cell	4	4	2	1.871	True
+zfin_all_het	bud	segmental plate	27	4	4	3.161	True
+zfin_all_het	bud	tail bud	30	4	4	3.058	True
+zfin_all_het	bud	ventral mesoderm	8	4	0	0.9609	False
+signalling	bud	signal:BMP	8	4	4	2.448	True
+signalling	bud	signal:Nodal	2	4	4	1.565	True
+signalling	bud	signal:Wnt	2	4	3	1.239	True
+signalling	bud	signal:FGF	2	4	3	1.295	True
+signalling	bud	signal:RA	3	4	0	1.016	False
+signalling	bud	signal:Notch	7	4	3	1.443	True
+states	bud	state:maternal	7	4	0	1.015	False
+states	bud	state:blastomere	6	4	4	1.736	True
+states	bud	state:cell_cycle_s	10	4	4	2.564	True
+states	bud	state:cell_cycle_g2m	10	4	4	3.292	True
+states	bud	state:heat_shock	5	4	0	0.9926	False
+states	bud	state:p53_response	10	4	0	1.204	False
+curated_staged	bud	EVL	30	4	4	6.603	True
+curated_staged	bud	PGC	4	4	2	1.871	True
+curated_staged	bud	adaxial_somite	7	4	4	2.183	True
+curated_staged	bud	dorsal_forerunner	14	4	3	1.637	True
+curated_staged	bud	endoderm	8	4	4	1.99	True
+curated_staged	bud	forebrain_eye	20	4	4	2.984	True
+curated_staged	bud	hindbrain	13	4	3	1.737	True
+curated_staged	bud	intermediate_mesoderm	3	4	0	0.9818	False
+curated_staged	bud	lateral_plate	5	4	0	1.096	False
+curated_staged	bud	marginal_mesendoderm	30	4	4	2.872	True
+curated_staged	bud	midbrain_hindbrain_boundary	7	4	4	2.027	True
+curated_staged	bud	neural_ectoderm	30	4	4	2.563	True
+curated_staged	bud	non_neural_ectoderm	3	4	4	1.741	True
+curated_staged	bud	notochord	30	4	4	5.109	True
+curated_staged	bud	placodes	5	4	0	1.07	False
+curated_staged	bud	prechordal_plate	30	4	4	4.436	True
+curated_staged	bud	presomitic_mesoderm	30	4	4	5.265	True
+curated_staged	bud	primary_neurons	5	4	4	1.754	True
+curated_staged	bud	tailbud	16	4	4	1.843	True
+curated_staged	bud	ventral_bmp	3	4	1	1.169	False
+curated_staged	bud	signal:BMP	8	4	4	2.448	True
+curated_staged	bud	signal:Nodal	2	4	4	1.565	True
+curated_staged	bud	signal:Wnt	2	4	3	1.239	True
+curated_staged	bud	signal:FGF	2	4	3	1.295	True
+curated_staged	bud	signal:RA	3	4	0	1.016	False
+curated_staged	bud	signal:Notch	7	4	3	1.443	True
+curated_staged	bud	state:maternal	7	4	0	1.015	False
+curated_staged	bud	state:blastomere	6	4	4	1.736	True
+curated_staged	bud	state:cell_cycle_s	10	4	4	2.564	True
+curated_staged	bud	state:cell_cycle_g2m	10	4	4	3.292	True
+curated_staged	bud	state:heat_shock	5	4	0	0.9926	False
+curated_staged	bud	state:p53_response	10	4	0	1.204	False
+curated	bud	state:maternal	7	4	0	1.015	False
+curated	bud	state:blastomere	6	4	4	1.736	True
+curated	bud	state:cell_cycle_s	10	4	4	2.564	True
+curated	bud	state:cell_cycle_g2m	10	4	4	3.292	True
+curated	bud	state:heat_shock	5	4	0	0.9926	False
+curated	bud	state:p53_response	10	4	0	1.204	False
+curated	bud	EVL	30	4	4	10.47	True
+curated	bud	margin	30	4	4	2.528	True
+curated	bud	PGC	11	4	2	1.709	True
+curated	bud	endoderm	15	4	4	2.211	True
+curated	bud	mesoderm	29	4	3	1.911	True
+curated	bud	axial_mesoderm	24	4	4	3.773	True
+curated	bud	dorsal_forerunner	30	4	1	1.427	False
+curated	bud	neural_plate	30	4	1	1.563	False
+curated	bud	prechordal_plate	30	4	4	4.601	True
+curated	bud	presomitic_mesoderm	30	4	4	7.001	True
+curated	bud	ventral_bmp	15	4	0	1.31	False
+curated	bud	presumptive_neural	9	4	0	1.152	False
+curated	bud	forebrain_eye	29	4	4	2.492	True
+curated	bud	non_neural_ectoderm	6	4	4	2.853	True
+curated	bud	placodes	23	4	0	1.413	False
+curated	bud	hindbrain	29	4	4	2.222	True
+curated	bud	midbrain_hindbrain_boundary	25	4	4	2.081	True
+curated	bud	adaxial_somite	28	4	4	5.96	True
+curated	bud	hatching_gland	30	4	4	7.096	True
+curated	bud	intermediate_mesoderm	12	4	0	1.136	False
+curated	bud	lateral_plate	24	4	3	1.798	True
+curated	bud	notochord	30	4	4	7.631	True
+curated	bud	primary_neurons	19	4	1	1.518	False
+curated	bud	tailbud	29	4	4	2.908	True
+curated	bud	signal:BMP	8	4	4	2.448	True
+curated	bud	signal:Nodal	3	4	4	1.796	True
+curated	bud	signal:Wnt	4	4	3	1.336	True
+curated	bud	signal:FGF	2	4	3	1.295	True
+curated	bud	signal:RA	3	4	0	1.016	False
+curated	bud	signal:Notch	9	4	4	1.638	True
+farrell	3-somite	farrell:3-somite:0	30	1	0	0.9905	False
+farrell	3-somite	farrell:3-somite:1	30	1	1	10.53	True
+farrell	3-somite	farrell:3-somite:10	30	1	1	11.93	True
+farrell	3-somite	farrell:3-somite:11	30	1	1	5.669	True
+farrell	3-somite	farrell:3-somite:12	30	1	1	4.173	True
+farrell	3-somite	farrell:3-somite:13	30	1	1	2.541	True
+farrell	3-somite	farrell:3-somite:14	30	1	1	5.194	True
+farrell	3-somite	farrell:3-somite:15	30	1	1	5.991	True
+farrell	3-somite	farrell:3-somite:16	30	1	1	4.217	True
+farrell	3-somite	farrell:3-somite:17	30	1	1	2.174	True
+farrell	3-somite	farrell:3-somite:18	30	1	1	7.815	True
+farrell	3-somite	farrell:3-somite:19	30	1	1	2.811	True
+farrell	3-somite	farrell:3-somite:2	30	1	1	7.207	True
+farrell	3-somite	farrell:3-somite:20	30	1	1	3.658	True
+farrell	3-somite	farrell:3-somite:21	30	1	1	3.33	True
+farrell	3-somite	farrell:3-somite:22	30	1	1	3.544	True
+farrell	3-somite	farrell:3-somite:23	30	1	1	3.59	True
+farrell	3-somite	farrell:3-somite:24	30	1	1	6.892	True
+farrell	3-somite	farrell:3-somite:25	30	1	0	1.185	False
+farrell	3-somite	farrell:3-somite:26	30	1	0	1.169	False
+farrell	3-somite	farrell:3-somite:27	30	1	1	2.41	True
+farrell	3-somite	farrell:3-somite:28	30	1	0	1.518	False
+farrell	3-somite	farrell:3-somite:29	30	1	0	1.205	False
+farrell	3-somite	farrell:3-somite:3	30	1	1	11.44	True
+farrell	3-somite	farrell:3-somite:30	30	1	0	1.203	False
+farrell	3-somite	farrell:3-somite:4	30	1	1	4.568	True
+farrell	3-somite	farrell:3-somite:5	30	1	1	4.739	True
+farrell	3-somite	farrell:3-somite:6	30	1	1	11.1	True
+farrell	3-somite	farrell:3-somite:7	30	1	1	3.58	True
+farrell	3-somite	farrell:3-somite:8	30	1	1	4.889	True
+farrell	3-somite	farrell:3-somite:9	30	1	1	3.178	True
+zfin_pre	3-somite	Kupffer's vesicle	30	1	1	1.876	True
+zfin_pre	3-somite	Rohon-Beard neuron	10	1	1	2.089	True
+zfin_pre	3-somite	adaxial cell	30	1	1	3.547	True
+zfin_pre	3-somite	anterior lateral plate mesoderm	11	1	1	2.213	True
+zfin_pre	3-somite	anterior neural keel	20	1	0	1.122	False
+zfin_pre	3-somite	axial mesoderm	23	1	1	2.216	True
+zfin_pre	3-somite	central nervous system	7	1	0	1.013	False
+zfin_pre	3-somite	cranial ganglion	14	1	1	1.755	True
+zfin_pre	3-somite	cranial neural crest	8	1	1	2.444	True
+zfin_pre	3-somite	cranial neural crest cell	4	1	0	1.228	False
+zfin_pre	3-somite	endoderm	17	1	1	1.688	True
+zfin_pre	3-somite	endodermal cell	5	1	0	1.126	False
+zfin_pre	3-somite	floor plate	26	1	0	1.591	False
+zfin_pre	3-somite	forebrain neural keel	30	1	0	1.325	False
+zfin_pre	3-somite	forerunner cell group	5	1	0	1.116	False
+zfin_pre	3-somite	head mesenchyme	12	1	1	1.599	True
+zfin_pre	3-somite	hindbrain neural keel	30	1	0	1.366	False
+zfin_pre	3-somite	hindbrain neural plate	30	1	1	1.745	True
+zfin_pre	3-somite	intermediate mesoderm	11	1	0	1.062	False
+zfin_pre	3-somite	lateral mesoderm	16	1	0	1.141	False
+zfin_pre	3-somite	lateral plate mesoderm	28	1	0	1.655	False
+zfin_pre	3-somite	mesoderm	30	1	0	1.536	False
+zfin_pre	3-somite	midbrain hindbrain boundary neural keel	30	1	1	1.808	True
+zfin_pre	3-somite	midbrain hindbrain boundary neural plate	9	1	1	1.942	True
+zfin_pre	3-somite	midbrain neural keel	30	1	0	1.667	False
+zfin_pre	3-somite	midbrain neural rod	11	1	0	1.106	False
+zfin_pre	3-somite	myotome	4	1	1	1.525	True
+zfin_pre	3-somite	neural crest	30	1	1	1.934	True
+zfin_pre	3-somite	neural crest cell	10	1	1	2.177	True
+zfin_pre	3-somite	neural keel	30	1	0	1.118	False
+zfin_pre	3-somite	neural plate	30	1	0	1.662	False
+zfin_pre	3-somite	neuroblast	4	1	1	1.404	True
+zfin_pre	3-somite	neurogenic field	9	1	1	1.562	True
+zfin_pre	3-somite	neurogenic placode	6	1	1	1.338	True
+zfin_pre	3-somite	non neural ectoderm	6	1	1	2.437	True
+zfin_pre	3-somite	notochord	30	1	1	2.601	True
+zfin_pre	3-somite	optic primordium	30	1	1	2.412	True
+zfin_pre	3-somite	otic placode	25	1	1	1.954	True
+zfin_pre	3-somite	paraxial mesoderm	30	1	1	2.697	True
+zfin_pre	3-somite	periderm	30	1	1	4.267	True
+zfin_pre	3-somite	polster	30	1	1	2.462	True
+zfin_pre	3-somite	prechordal plate	21	1	1	1.829	True
+zfin_pre	3-somite	presumptive cephalic mesoderm	7	1	0	1.155	False
+zfin_pre	3-somite	presumptive diencephalon	30	1	0	1.357	False
+zfin_pre	3-somite	presumptive floor plate	9	1	1	1.786	True
+zfin_pre	3-somite	presumptive rhombomere 1	9	1	0	1.109	False
+zfin_pre	3-somite	presumptive rhombomere 2	17	1	0	1.389	False
+zfin_pre	3-somite	presumptive rhombomere 3	16	1	1	1.661	True
+zfin_pre	3-somite	presumptive rhombomere 4	27	1	1	2.003	True
+zfin_pre	3-somite	presumptive rhombomere 5	17	1	0	1.419	False
+zfin_pre	3-somite	presumptive rhombomere 7	9	1	1	1.384	True
+zfin_pre	3-somite	presumptive telencephalon	30	1	0	1.486	False
+zfin_pre	3-somite	primary motor neuron	8	1	1	2.021	True
+zfin_pre	3-somite	primary neuron	30	1	1	2.804	True
+zfin_pre	3-somite	primary neuron hindbrain	4	1	1	1.306	True
+zfin_pre	3-somite	primordial germ cell	7	1	0	1.088	False
+zfin_pre	3-somite	pronephric mesoderm	28	1	0	1.548	False
+zfin_pre	3-somite	segmental plate	30	1	1	3.796	True
+zfin_pre	3-somite	somite	30	1	1	1.798	True
+zfin_pre	3-somite	spinal cord neural keel	8	1	0	0.9915	False
+zfin_pre	3-somite	spinal cord neural plate	5	1	0	1.115	False
+zfin_pre	3-somite	tail bud	30	1	1	3.281	True
+zfin_pre	3-somite	trigeminal placode	17	1	1	2.388	True
+zfin_pre	3-somite	ventral mesoderm	30	1	0	1.415	False
+zfin_all	3-somite	Kupffer's vesicle	30	1	1	1.812	True
+zfin_all	3-somite	Rohon-Beard neuron	10	1	1	2.089	True
+zfin_all	3-somite	adaxial cell	30	1	1	3.547	True
+zfin_all	3-somite	anterior lateral plate mesoderm	11	1	1	2.213	True
+zfin_all	3-somite	anterior neural keel	29	1	0	1.359	False
+zfin_all	3-somite	axial mesoderm	23	1	1	2.216	True
+zfin_all	3-somite	central nervous system	7	1	0	1.013	False
+zfin_all	3-somite	cranial ganglion	14	1	1	1.755	True
+zfin_all	3-somite	cranial neural crest	9	1	1	2.381	True
+zfin_all	3-somite	cranial neural crest cell	6	1	0	1.272	False
+zfin_all	3-somite	endoderm	17	1	1	1.688	True
+zfin_all	3-somite	endodermal cell	5	1	0	1.126	False
+zfin_all	3-somite	floor plate	26	1	0	1.591	False
+zfin_all	3-somite	forebrain neural keel	30	1	0	1.363	False
+zfin_all	3-somite	forerunner cell group	5	1	0	1.116	False
+zfin_all	3-somite	head mesenchyme	12	1	1	1.599	True
+zfin_all	3-somite	hindbrain neural keel	30	1	0	1.334	False
+zfin_all	3-somite	hindbrain neural plate	30	1	1	1.771	True
+zfin_all	3-somite	intermediate mesoderm	11	1	0	1.062	False
+zfin_all	3-somite	lateral mesoderm	16	1	0	1.141	False
+zfin_all	3-somite	lateral plate mesoderm	29	1	1	1.714	True
+zfin_all	3-somite	mesoderm	30	1	0	1.536	False
+zfin_all	3-somite	midbrain hindbrain boundary neural keel	30	1	1	1.806	True
+zfin_all	3-somite	midbrain hindbrain boundary neural plate	10	1	1	1.839	True
+zfin_all	3-somite	midbrain neural keel	30	1	0	1.649	False
+zfin_all	3-somite	midbrain neural rod	11	1	0	1.106	False
+zfin_all	3-somite	myotome	4	1	1	1.525	True
+zfin_all	3-somite	neural crest	30	1	1	1.951	True
+zfin_all	3-somite	neural crest cell	10	1	1	2.177	True
+zfin_all	3-somite	neural keel	30	1	0	1.118	False
+zfin_all	3-somite	neural plate	30	1	0	1.662	False
+zfin_all	3-somite	neuroblast	4	1	1	1.404	True
+zfin_all	3-somite	neurogenic field	9	1	1	1.562	True
+zfin_all	3-somite	neurogenic placode	6	1	1	1.338	True
+zfin_all	3-somite	non neural ectoderm	6	1	1	2.437	True
+zfin_all	3-somite	notochord	30	1	1	2.6	True
+zfin_all	3-somite	optic primordium	30	1	1	2.412	True
+zfin_all	3-somite	otic placode	26	1	1	1.912	True
+zfin_all	3-somite	paraxial mesoderm	30	1	1	2.412	True
+zfin_all	3-somite	periderm	30	1	1	4.267	True
+zfin_all	3-somite	polster	30	1	1	2.41	True
+zfin_all	3-somite	prechordal plate	22	1	1	1.852	True
+zfin_all	3-somite	presumptive cephalic mesoderm	7	1	0	1.155	False
+zfin_all	3-somite	presumptive diencephalon	30	1	0	1.406	False
+zfin_all	3-somite	presumptive floor plate	9	1	1	1.786	True
+zfin_all	3-somite	presumptive rhombomere 1	10	1	0	1.1	False
+zfin_all	3-somite	presumptive rhombomere 2	18	1	0	1.488	False
+zfin_all	3-somite	presumptive rhombomere 3	17	1	1	1.648	True
+zfin_all	3-somite	presumptive rhombomere 4	28	1	1	2.036	True
+zfin_all	3-somite	presumptive rhombomere 5	18	1	0	1.448	False
+zfin_all	3-somite	presumptive rhombomere 7	9	1	1	1.384	True
+zfin_all	3-somite	presumptive telencephalon	30	1	0	1.486	False
+zfin_all	3-somite	primary motor neuron	8	1	1	2.021	True
+zfin_all	3-somite	primary neuron	30	1	1	2.856	True
+zfin_all	3-somite	primary neuron hindbrain	4	1	1	1.306	True
+zfin_all	3-somite	primordial germ cell	7	1	0	1.088	False
+zfin_all	3-somite	pronephric mesoderm	28	1	0	1.548	False
+zfin_all	3-somite	segmental plate	30	1	1	3.947	True
+zfin_all	3-somite	somite	30	1	1	1.778	True
+zfin_all	3-somite	spinal cord neural keel	8	1	0	0.9915	False
+zfin_all	3-somite	spinal cord neural plate	5	1	0	1.115	False
+zfin_all	3-somite	tail bud	30	1	1	3.435	True
+zfin_all	3-somite	trigeminal placode	17	1	1	2.388	True
+zfin_all	3-somite	ventral mesoderm	30	1	0	1.457	False
+zfin_pre_het	3-somite	Kupffer's vesicle	20	1	0	1.357	False
+zfin_pre_het	3-somite	Rohon-Beard neuron	9	1	1	1.992	True
+zfin_pre_het	3-somite	adaxial cell	30	1	1	3.493	True
+zfin_pre_het	3-somite	anterior lateral plate mesoderm	10	1	1	2.173	True
+zfin_pre_het	3-somite	anterior neural keel	9	1	0	1.028	False
+zfin_pre_het	3-somite	axial mesoderm	13	1	1	2.086	True
+zfin_pre_het	3-somite	cranial neural crest	7	1	1	2.367	True
+zfin_pre_het	3-somite	endoderm	13	1	1	1.565	True
+zfin_pre_het	3-somite	endodermal cell	3	1	0	1.043	False
+zfin_pre_het	3-somite	floor plate	11	1	0	1.286	False
+zfin_pre_het	3-somite	forebrain neural keel	30	1	0	1.626	False
+zfin_pre_het	3-somite	head mesenchyme	6	1	1	1.478	True
+zfin_pre_het	3-somite	hindbrain neural keel	17	1	0	1.294	False
+zfin_pre_het	3-somite	hindbrain neural plate	30	1	1	1.878	True
+zfin_pre_het	3-somite	intermediate mesoderm	5	1	0	1.145	False
+zfin_pre_het	3-somite	lateral mesoderm	9	1	0	0.9984	False
+zfin_pre_het	3-somite	lateral plate mesoderm	17	1	1	1.929	True
+zfin_pre_het	3-somite	mesoderm	30	1	0	1.495	False
+zfin_pre_het	3-somite	midbrain hindbrain boundary neural keel	16	1	1	2.118	True
+zfin_pre_het	3-somite	midbrain hindbrain boundary neural plate	8	1	1	1.988	True
+zfin_pre_het	3-somite	midbrain neural keel	30	1	0	1.697	False
+zfin_pre_het	3-somite	neural crest	15	1	1	1.839	True
+zfin_pre_het	3-somite	neural keel	18	1	0	1.137	False
+zfin_pre_het	3-somite	neural plate	30	1	0	1.725	False
+zfin_pre_het	3-somite	neuroectoderm	13	1	0	1.315	False
+zfin_pre_het	3-somite	neurogenic field	7	1	1	1.434	True
+zfin_pre_het	3-somite	neurogenic placode	6	1	1	1.338	True
+zfin_pre_het	3-somite	non neural ectoderm	6	1	1	2.437	True
+zfin_pre_het	3-somite	notochord	30	1	1	3.632	True
+zfin_pre_het	3-somite	optic primordium	23	1	1	2.623	True
+zfin_pre_het	3-somite	otic placode	12	1	1	1.819	True
+zfin_pre_het	3-somite	paraxial mesoderm	30	1	1	2.758	True
+zfin_pre_het	3-somite	periderm	30	1	1	5.595	True
+zfin_pre_het	3-somite	polster	30	1	1	4.845	True
+zfin_pre_het	3-somite	prechordal plate	11	1	1	1.927	True
+zfin_pre_het	3-somite	presumptive cephalic mesoderm	5	1	0	1.069	False
+zfin_pre_het	3-somite	presumptive diencephalon	30	1	0	1.691	False
+zfin_pre_het	3-somite	presumptive floor plate	8	1	1	1.826	True
+zfin_pre_het	3-somite	presumptive rhombomere 1	4	1	0	1.061	False
+zfin_pre_het	3-somite	presumptive rhombomere 3	8	1	1	1.709	True
+zfin_pre_het	3-somite	presumptive rhombomere 4	15	1	1	2.121	True
+zfin_pre_het	3-somite	presumptive rhombomere 5	9	1	1	1.409	True
+zfin_pre_het	3-somite	presumptive telencephalon	30	1	1	2.052	True
+zfin_pre_het	3-somite	primary motor neuron	7	1	1	1.949	True
+zfin_pre_het	3-somite	primary neuron	15	1	1	2.936	True
+zfin_pre_het	3-somite	pronephric mesoderm	12	1	1	1.667	True
+zfin_pre_het	3-somite	segmental plate	30	1	1	4.388	True
+zfin_pre_het	3-somite	somite	30	1	1	2.794	True
+zfin_pre_het	3-somite	spinal cord neural keel	7	1	0	0.9398	False
+zfin_pre_het	3-somite	tail bud	30	1	1	3.368	True
+zfin_pre_het	3-somite	trigeminal placode	12	1	1	2.368	True
+zfin_pre_het	3-somite	ventral mesoderm	30	1	1	1.968	True
+zfin_all_het	3-somite	Kupffer's vesicle	21	1	0	1.369	False
+zfin_all_het	3-somite	Rohon-Beard neuron	9	1	1	1.992	True
+zfin_all_het	3-somite	adaxial cell	30	1	1	3.493	True
+zfin_all_het	3-somite	anterior lateral plate mesoderm	10	1	1	2.173	True
+zfin_all_het	3-somite	anterior neural keel	16	1	0	1.24	False
+zfin_all_het	3-somite	axial mesoderm	13	1	1	2.086	True
+zfin_all_het	3-somite	cranial neural crest	8	1	1	2.296	True
+zfin_all_het	3-somite	cranial neural crest cell	4	1	0	1.239	False
+zfin_all_het	3-somite	endoderm	13	1	1	1.565	True
+zfin_all_het	3-somite	endodermal cell	3	1	0	1.043	False
+zfin_all_het	3-somite	floor plate	11	1	0	1.286	False
+zfin_all_het	3-somite	forebrain neural keel	30	1	0	1.626	False
+zfin_all_het	3-somite	head mesenchyme	6	1	1	1.478	True
+zfin_all_het	3-somite	hindbrain neural keel	19	1	0	1.233	False
+zfin_all_het	3-somite	hindbrain neural plate	30	1	1	1.887	True
+zfin_all_het	3-somite	intermediate mesoderm	5	1	0	1.145	False
+zfin_all_het	3-somite	lateral mesoderm	9	1	0	0.9984	False
+zfin_all_het	3-somite	lateral plate mesoderm	18	1	1	2.012	True
+zfin_all_het	3-somite	mesoderm	30	1	0	1.495	False
+zfin_all_het	3-somite	midbrain hindbrain boundary neural keel	17	1	1	2.039	True
+zfin_all_het	3-somite	midbrain hindbrain boundary neural plate	9	1	1	1.881	True
+zfin_all_het	3-somite	midbrain neural keel	30	1	0	1.697	False
+zfin_all_het	3-somite	neural crest	16	1	1	1.827	True
+zfin_all_het	3-somite	neural keel	18	1	0	1.137	False
+zfin_all_het	3-somite	neural plate	30	1	0	1.725	False
+zfin_all_het	3-somite	neural plate border	4	1	0	1.229	False
+zfin_all_het	3-somite	neuroectoderm	13	1	0	1.315	False
+zfin_all_het	3-somite	neurogenic field	7	1	1	1.434	True
+zfin_all_het	3-somite	neurogenic placode	6	1	1	1.338	True
+zfin_all_het	3-somite	non neural ectoderm	6	1	1	2.437	True
+zfin_all_het	3-somite	notochord	30	1	1	3.791	True
+zfin_all_het	3-somite	optic primordium	23	1	1	2.623	True
+zfin_all_het	3-somite	otic placode	13	1	1	1.762	True
+zfin_all_het	3-somite	paraxial mesoderm	30	1	1	2.664	True
+zfin_all_het	3-somite	periderm	30	1	1	5.595	True
+zfin_all_het	3-somite	polster	30	1	1	4.584	True
+zfin_all_het	3-somite	prechordal plate	12	1	1	1.931	True
+zfin_all_het	3-somite	presumptive cephalic mesoderm	5	1	0	1.069	False
+zfin_all_het	3-somite	presumptive diencephalon	30	1	0	1.656	False
+zfin_all_het	3-somite	presumptive floor plate	8	1	1	1.826	True
+zfin_all_het	3-somite	presumptive rhombomere 1	4	1	0	1.061	False
+zfin_all_het	3-somite	presumptive rhombomere 3	9	1	1	1.673	True
+zfin_all_het	3-somite	presumptive rhombomere 4	15	1	1	2.121	True
+zfin_all_het	3-somite	presumptive telencephalon	30	1	1	2.052	True
+zfin_all_het	3-somite	primary motor neuron	7	1	1	1.949	True
+zfin_all_het	3-somite	primary neuron	15	1	1	2.936	True
+zfin_all_het	3-somite	pronephric mesoderm	12	1	1	1.667	True
+zfin_all_het	3-somite	segmental plate	30	1	1	4.14	True
+zfin_all_het	3-somite	somite	30	1	1	2.507	True
+zfin_all_het	3-somite	spinal cord neural keel	7	1	0	0.9398	False
+zfin_all_het	3-somite	tail bud	30	1	1	3.444	True
+zfin_all_het	3-somite	trigeminal placode	12	1	1	2.368	True
+zfin_all_het	3-somite	ventral mesoderm	30	1	1	1.915	True
+signalling	3-somite	signal:BMP	8	1	1	2.265	True
+signalling	3-somite	signal:Nodal	2	1	1	1.273	True
+signalling	3-somite	signal:Wnt	2	1	1	1.197	True
+signalling	3-somite	signal:RA	3	1	0	1.195	False
+signalling	3-somite	signal:Notch	4	1	1	1.523	True
+states	3-somite	state:maternal	2	1	0	0.9955	False
+states	3-somite	state:blastomere	5	1	1	1.505	True
+states	3-somite	state:cell_cycle_s	10	1	1	2.494	True
+states	3-somite	state:cell_cycle_g2m	10	1	1	3.516	True
+states	3-somite	state:heat_shock	3	1	0	0.9639	False
+states	3-somite	state:p53_response	10	1	0	1.237	False
+curated_staged	3-somite	EVL	30	1	1	6.528	True
+curated_staged	3-somite	adaxial_somite	30	1	1	4.744	True
+curated_staged	3-somite	dorsal_forerunner	11	1	1	1.487	True
+curated_staged	3-somite	endoderm	9	1	1	1.596	True
+curated_staged	3-somite	floor_plate	8	1	1	2.198	True
+curated_staged	3-somite	forebrain_eye	30	1	1	2.524	True
+curated_staged	3-somite	hindbrain	27	1	1	1.811	True
+curated_staged	3-somite	intermediate_mesoderm	3	1	0	1.227	False
+curated_staged	3-somite	lateral_plate	17	1	1	2.58	True
+curated_staged	3-somite	marginal_mesendoderm	12	1	0	1.4	False
+curated_staged	3-somite	midbrain_hindbrain_boundary	20	1	1	2.542	True
+curated_staged	3-somite	neural_crest	12	1	1	1.948	True
+curated_staged	3-somite	neural_ectoderm	30	1	0	1.56	False
+curated_staged	3-somite	non_neural_ectoderm	5	1	1	1.968	True
+curated_staged	3-somite	notochord	30	1	1	4.715	True
+curated_staged	3-somite	placodes	12	1	1	1.64	True
+curated_staged	3-somite	prechordal_plate	30	1	1	4.432	True
+curated_staged	3-somite	presomitic_mesoderm	30	1	1	4.99	True
+curated_staged	3-somite	primary_neurons	14	1	1	2.398	True
+curated_staged	3-somite	tailbud	23	1	1	3.071	True
+curated_staged	3-somite	ventral_bmp	17	1	1	1.986	True
+curated_staged	3-somite	signal:BMP	8	1	1	2.265	True
+curated_staged	3-somite	signal:Nodal	2	1	1	1.273	True
+curated_staged	3-somite	signal:Wnt	2	1	1	1.197	True
+curated_staged	3-somite	signal:RA	3	1	0	1.195	False
+curated_staged	3-somite	signal:Notch	4	1	1	1.523	True
+curated_staged	3-somite	state:maternal	2	1	0	0.9955	False
+curated_staged	3-somite	state:blastomere	5	1	1	1.505	True
+curated_staged	3-somite	state:cell_cycle_s	10	1	1	2.494	True
+curated_staged	3-somite	state:cell_cycle_g2m	10	1	1	3.516	True
+curated_staged	3-somite	state:heat_shock	3	1	0	0.9639	False
+curated_staged	3-somite	state:p53_response	10	1	0	1.237	False
+curated	3-somite	state:maternal	2	1	0	0.9955	False
+curated	3-somite	state:blastomere	5	1	1	1.505	True
+curated	3-somite	state:cell_cycle_s	10	1	1	2.494	True
+curated	3-somite	state:cell_cycle_g2m	10	1	1	3.516	True
+curated	3-somite	state:heat_shock	3	1	0	0.9639	False
+curated	3-somite	state:p53_response	10	1	0	1.237	False
+curated	3-somite	EVL	29	1	1	8.07	True
+curated	3-somite	PGC	6	1	0	1.101	False
+curated	3-somite	endoderm	10	1	1	1.568	True
+curated	3-somite	mesoderm	29	1	0	1.477	False
+curated	3-somite	axial_mesoderm	24	1	1	3.423	True
+curated	3-somite	dorsal_forerunner	27	1	1	1.873	True
+curated	3-somite	neural_plate	29	1	0	1.345	False
+curated	3-somite	prechordal_plate	27	1	1	3.236	True
+curated	3-somite	presomitic_mesoderm	29	1	1	5.35	True
+curated	3-somite	ventral_bmp	16	1	0	1.465	False
+curated	3-somite	presumptive_neural	9	1	0	1.004	False
+curated	3-somite	forebrain_eye	30	1	1	2.287	True
+curated	3-somite	non_neural_ectoderm	7	1	1	2.49	True
+curated	3-somite	placodes	25	1	1	1.945	True
+curated	3-somite	hindbrain	29	1	1	2.166	True
+curated	3-somite	midbrain_hindbrain_boundary	26	1	1	2.482	True
+curated	3-somite	adaxial_somite	30	1	1	6.424	True
+curated	3-somite	hatching_gland	30	1	1	7.204	True
+curated	3-somite	intermediate_mesoderm	9	1	0	1.349	False
+curated	3-somite	lateral_plate	24	1	1	2.538	True
+curated	3-somite	notochord	30	1	1	8.83	True
+curated	3-somite	primary_neurons	18	1	1	2.388	True
+curated	3-somite	tailbud	30	1	1	3.177	True
+curated	3-somite	floor_plate	8	1	1	1.593	True
+curated	3-somite	neural_crest	16	1	1	1.56	True
+curated	3-somite	signal:BMP	8	1	1	2.265	True
+curated	3-somite	signal:Nodal	2	1	1	1.273	True
+curated	3-somite	signal:Wnt	4	1	0	1.193	False
+curated	3-somite	signal:RA	3	1	0	1.195	False
+curated	3-somite	signal:Notch	9	1	1	1.777	True
+farrell	6-somite	farrell:6-somite:0	30	2	0	1.376	False
+farrell	6-somite	farrell:6-somite:1	30	2	2	12.53	True
+farrell	6-somite	farrell:6-somite:10	30	2	2	9.827	True
+farrell	6-somite	farrell:6-somite:11	30	2	2	2.847	True
+farrell	6-somite	farrell:6-somite:12	30	2	2	2.193	True
+farrell	6-somite	farrell:6-somite:13	30	2	2	3.518	True
+farrell	6-somite	farrell:6-somite:14	30	2	2	2.823	True
+farrell	6-somite	farrell:6-somite:15	30	2	2	3.532	True
+farrell	6-somite	farrell:6-somite:16	30	2	2	2.705	True
+farrell	6-somite	farrell:6-somite:17	30	2	2	9.608	True
+farrell	6-somite	farrell:6-somite:18	30	2	2	5.242	True
+farrell	6-somite	farrell:6-somite:19	30	2	2	3.268	True
+farrell	6-somite	farrell:6-somite:2	30	2	2	7.384	True
+farrell	6-somite	farrell:6-somite:20	30	2	2	6.419	True
+farrell	6-somite	farrell:6-somite:21	30	2	2	3.954	True
+farrell	6-somite	farrell:6-somite:22	30	2	2	3.474	True
+farrell	6-somite	farrell:6-somite:23	30	2	2	3.316	True
+farrell	6-somite	farrell:6-somite:24	30	2	2	2.013	True
+farrell	6-somite	farrell:6-somite:25	30	2	0	1.181	False
+farrell	6-somite	farrell:6-somite:26	30	2	2	4.494	True
+farrell	6-somite	farrell:6-somite:27	30	2	2	8.452	True
+farrell	6-somite	farrell:6-somite:28	30	2	0	1.708	False
+farrell	6-somite	farrell:6-somite:29	30	2	2	3.399	True
+farrell	6-somite	farrell:6-somite:3	30	2	2	13.9	True
+farrell	6-somite	farrell:6-somite:30	30	2	0	1.369	False
+farrell	6-somite	farrell:6-somite:31	30	2	0	1.117	False
+farrell	6-somite	farrell:6-somite:32	30	2	0	1.294	False
+farrell	6-somite	farrell:6-somite:33	30	2	0	1.611	False
+farrell	6-somite	farrell:6-somite:34	30	2	2	4.305	True
+farrell	6-somite	farrell:6-somite:35	30	2	2	5.12	True
+farrell	6-somite	farrell:6-somite:36	30	2	0	1.197	False
+farrell	6-somite	farrell:6-somite:37	30	2	2	2.105	True
+farrell	6-somite	farrell:6-somite:38	30	2	0	1.2	False
+farrell	6-somite	farrell:6-somite:39	30	2	0	1.037	False
+farrell	6-somite	farrell:6-somite:4	30	2	2	15.73	True
+farrell	6-somite	farrell:6-somite:40	30	2	2	5.302	True
+farrell	6-somite	farrell:6-somite:41	30	2	0	1.124	False
+farrell	6-somite	farrell:6-somite:5	30	2	2	6.985	True
+farrell	6-somite	farrell:6-somite:6	30	2	2	4.14	True
+farrell	6-somite	farrell:6-somite:7	30	2	2	3.576	True
+farrell	6-somite	farrell:6-somite:8	30	2	0	1.147	False
+farrell	6-somite	farrell:6-somite:9	30	2	2	3.256	True
+zfin_pre	6-somite	Kupffer's vesicle	30	2	0	1.609	False
+zfin_pre	6-somite	Rohon-Beard neuron	12	2	2	2.495	True
+zfin_pre	6-somite	adaxial cell	30	2	2	3.575	True
+zfin_pre	6-somite	anterior lateral mesoderm	8	2	2	2.454	True
+zfin_pre	6-somite	anterior lateral plate mesoderm	30	2	2	2.576	True
+zfin_pre	6-somite	anterior neural rod	22	2	0	1.068	False
+zfin_pre	6-somite	axial mesoderm	28	2	2	2.349	True
+zfin_pre	6-somite	cardiovascular system	3	2	2	1.534	True
+zfin_pre	6-somite	central nervous system	24	2	0	1.209	False
+zfin_pre	6-somite	cranial ganglion	18	2	2	1.975	True
+zfin_pre	6-somite	cranial neural crest	12	2	2	2.777	True
+zfin_pre	6-somite	endoderm	23	2	0	1.37	False
+zfin_pre	6-somite	endothelial cell	8	2	2	1.563	True
+zfin_pre	6-somite	epibranchial field	4	2	1	1.211	True
+zfin_pre	6-somite	fast muscle myoblast	3	2	2	1.316	True
+zfin_pre	6-somite	floor plate	30	2	1	1.679	True
+zfin_pre	6-somite	forebrain midbrain boundary neural rod	6	2	0	1.154	False
+zfin_pre	6-somite	forebrain neural keel	30	2	0	1.336	False
+zfin_pre	6-somite	forebrain neural rod	30	2	0	1.354	False
+zfin_pre	6-somite	head mesenchyme	17	2	1	1.561	True
+zfin_pre	6-somite	heart primordium	12	2	2	1.714	True
+zfin_pre	6-somite	hindbrain	4	2	0	1.081	False
+zfin_pre	6-somite	hindbrain neural keel	30	2	0	1.222	False
+zfin_pre	6-somite	hindbrain neural plate	30	2	0	1.271	False
+zfin_pre	6-somite	hindbrain neural rod	30	2	0	1.19	False
+zfin_pre	6-somite	immature eye	24	2	0	1.118	False
+zfin_pre	6-somite	integument	5	2	1	1.267	True
+zfin_pre	6-somite	intermediate mesoderm	29	2	0	1.421	False
+zfin_pre	6-somite	lateral mesoderm	30	2	2	2.148	True
+zfin_pre	6-somite	lateral plate mesoderm	30	2	2	2.267	True
+zfin_pre	6-somite	mesoderm	30	2	0	1.486	False
+zfin_pre	6-somite	midbrain	4	2	0	1.031	False
+zfin_pre	6-somite	midbrain hindbrain boundary neural keel	30	2	0	1.543	False
+zfin_pre	6-somite	midbrain hindbrain boundary neural plate	8	2	1	1.384	True
+zfin_pre	6-somite	midbrain hindbrain boundary neural rod	28	2	0	1.643	False
+zfin_pre	6-somite	midbrain neural keel	30	2	0	1.175	False
+zfin_pre	6-somite	midbrain neural rod	30	2	0	1.223	False
+zfin_pre	6-somite	motor neuron	8	2	2	1.928	True
+zfin_pre	6-somite	neural crest	30	2	1	2.097	True
+zfin_pre	6-somite	neural crest cell	11	2	2	2.217	True
+zfin_pre	6-somite	neural keel	30	2	0	1.177	False
+zfin_pre	6-somite	neural plate	30	2	0	1.382	False
+zfin_pre	6-somite	neural rod	30	2	0	1.102	False
+zfin_pre	6-somite	neuroectoderm	23	2	0	1.134	False
+zfin_pre	6-somite	neurogenic field	4	2	2	1.398	True
+zfin_pre	6-somite	neurogenic placode	3	2	0	1.172	False
+zfin_pre	6-somite	non neural ectoderm	4	2	2	1.8	True
+zfin_pre	6-somite	notochord	30	2	2	2.256	True
+zfin_pre	6-somite	notochord posterior region	3	2	0	1.109	False
+zfin_pre	6-somite	olfactory field	8	2	2	1.617	True
+zfin_pre	6-somite	optic vesicle	30	2	2	2.312	True
+zfin_pre	6-somite	otic placode	30	2	1	1.738	True
+zfin_pre	6-somite	otic vesicle	3	2	0	1.035	False
+zfin_pre	6-somite	paraxial mesoderm	30	2	2	2.301	True
+zfin_pre	6-somite	periderm	30	2	2	5.419	True
+zfin_pre	6-somite	polster	30	2	2	4.975	True
+zfin_pre	6-somite	posterior lateral mesoderm	15	2	2	2.748	True
+zfin_pre	6-somite	posterior lateral plate mesoderm	24	2	2	2.804	True
+zfin_pre	6-somite	posterior neural rod	6	2	0	1.09	False
+zfin_pre	6-somite	prechordal plate	20	2	2	1.995	True
+zfin_pre	6-somite	presumptive blood	4	2	1	1.211	True
+zfin_pre	6-somite	presumptive cephalic mesoderm	8	2	0	0.9811	False
+zfin_pre	6-somite	presumptive diencephalon	30	2	0	1.545	False
+zfin_pre	6-somite	presumptive rhombomere 1	15	2	0	1.082	False
+zfin_pre	6-somite	presumptive rhombomere 2	16	2	0	1.127	False
+zfin_pre	6-somite	presumptive rhombomere 3	23	2	1	1.781	True
+zfin_pre	6-somite	presumptive rhombomere 4	28	2	0	1.363	False
+zfin_pre	6-somite	presumptive rhombomere 5	22	2	1	1.561	True
+zfin_pre	6-somite	presumptive rhombomere 6	17	2	1	1.649	True
+zfin_pre	6-somite	presumptive rhombomere 7	10	2	0	1.284	False
+zfin_pre	6-somite	presumptive telencephalon	30	2	2	2.414	True
+zfin_pre	6-somite	primary motor neuron	4	2	1	1.181	True
+zfin_pre	6-somite	primary neuron	30	2	2	2.549	True
+zfin_pre	6-somite	primordial germ cell	11	2	2	1.595	True
+zfin_pre	6-somite	pronephric mesoderm	30	2	0	1.382	False
+zfin_pre	6-somite	proneural cluster	7	2	2	1.439	True
+zfin_pre	6-somite	segmental plate	30	2	2	3.919	True
+zfin_pre	6-somite	somite	30	2	2	2.795	True
+zfin_pre	6-somite	spinal cord neural keel	3	2	0	1.028	False
+zfin_pre	6-somite	spinal cord neural plate	4	2	0	0.9924	False
+zfin_pre	6-somite	spinal cord neural rod	11	2	0	1.037	False
+zfin_pre	6-somite	tail bud	30	2	2	4.127	True
+zfin_pre	6-somite	trigeminal placode	17	2	2	3.045	True
+zfin_pre	6-somite	ventral mesoderm	30	2	1	1.671	True
+zfin_all	6-somite	Kupffer's vesicle	30	2	0	1.695	False
+zfin_all	6-somite	Rohon-Beard neuron	12	2	2	2.495	True
+zfin_all	6-somite	adaxial cell	30	2	2	3.548	True
+zfin_all	6-somite	anterior lateral mesoderm	8	2	2	2.454	True
+zfin_all	6-somite	anterior lateral plate mesoderm	30	2	2	2.598	True
+zfin_all	6-somite	anterior neural rod	30	2	0	1.274	False
+zfin_all	6-somite	axial mesoderm	30	2	2	2.29	True
+zfin_all	6-somite	cardiovascular system	3	2	2	1.534	True
+zfin_all	6-somite	central nervous system	27	2	0	1.197	False
+zfin_all	6-somite	cranial ganglion	19	2	2	1.909	True
+zfin_all	6-somite	cranial neural crest	15	2	2	2.647	True
+zfin_all	6-somite	endoderm	24	2	0	1.365	False
+zfin_all	6-somite	endothelial cell	9	2	1	1.472	True
+zfin_all	6-somite	epibranchial field	4	2	1	1.211	True
+zfin_all	6-somite	fast muscle myoblast	3	2	2	1.316	True
+zfin_all	6-somite	floor plate	30	2	1	1.797	True
+zfin_all	6-somite	forebrain midbrain boundary neural rod	6	2	0	1.154	False
+zfin_all	6-somite	forebrain neural keel	30	2	0	1.336	False
+zfin_all	6-somite	forebrain neural rod	30	2	0	1.369	False
+zfin_all	6-somite	head mesenchyme	18	2	1	1.508	True
+zfin_all	6-somite	heart primordium	13	2	2	1.7	True
+zfin_all	6-somite	hindbrain	4	2	0	1.081	False
+zfin_all	6-somite	hindbrain neural keel	30	2	0	1.198	False
+zfin_all	6-somite	hindbrain neural plate	30	2	0	1.271	False
+zfin_all	6-somite	hindbrain neural rod	30	2	0	1.126	False
+zfin_all	6-somite	immature eye	28	2	0	1.137	False
+zfin_all	6-somite	integument	5	2	1	1.267	True
+zfin_all	6-somite	intermediate mesoderm	30	2	0	1.442	False
+zfin_all	6-somite	lateral mesoderm	30	2	2	2.151	True
+zfin_all	6-somite	lateral plate mesoderm	30	2	2	2.177	True
+zfin_all	6-somite	mesoderm	30	2	0	1.444	False
+zfin_all	6-somite	midbrain	5	2	0	1.039	False
+zfin_all	6-somite	midbrain hindbrain boundary neural keel	30	2	0	1.494	False
+zfin_all	6-somite	midbrain hindbrain boundary neural plate	8	2	1	1.384	True
+zfin_all	6-somite	midbrain hindbrain boundary neural rod	30	2	0	1.567	False
+zfin_all	6-somite	midbrain neural keel	30	2	0	1.175	False
+zfin_all	6-somite	midbrain neural rod	30	2	0	1.202	False
+zfin_all	6-somite	motor neuron	8	2	2	1.928	True
+zfin_all	6-somite	neural crest	30	2	1	1.906	True
+zfin_all	6-somite	neural crest cell	13	2	2	1.866	True
+zfin_all	6-somite	neural keel	30	2	0	1.209	False
+zfin_all	6-somite	neural plate	30	2	0	1.412	False
+zfin_all	6-somite	neural rod	30	2	0	1.117	False
+zfin_all	6-somite	neuroectoderm	23	2	0	1.134	False
+zfin_all	6-somite	neurogenic field	4	2	2	1.398	True
+zfin_all	6-somite	neurogenic placode	3	2	0	1.172	False
+zfin_all	6-somite	non neural ectoderm	4	2	2	1.8	True
+zfin_all	6-somite	notochord	30	2	2	2.61	True
+zfin_all	6-somite	notochord posterior region	4	2	0	1.16	False
+zfin_all	6-somite	olfactory field	8	2	2	1.617	True
+zfin_all	6-somite	optic vesicle	30	2	2	2.312	True
+zfin_all	6-somite	otic placode	30	2	1	1.738	True
+zfin_all	6-somite	otic vesicle	3	2	0	1.035	False
+zfin_all	6-somite	paraxial mesoderm	30	2	2	2.314	True
+zfin_all	6-somite	periderm	30	2	2	5.419	True
+zfin_all	6-somite	polster	30	2	2	5.733	True
+zfin_all	6-somite	posterior lateral mesoderm	17	2	2	2.579	True
+zfin_all	6-somite	posterior lateral plate mesoderm	27	2	2	2.807	True
+zfin_all	6-somite	posterior neural rod	6	2	0	1.09	False
+zfin_all	6-somite	prechordal plate	22	2	2	2.197	True
+zfin_all	6-somite	presumptive blood	4	2	1	1.211	True
+zfin_all	6-somite	presumptive cephalic mesoderm	8	2	0	0.9811	False
+zfin_all	6-somite	presumptive diencephalon	30	2	0	1.51	False
+zfin_all	6-somite	presumptive rhombomere 1	15	2	0	1.082	False
+zfin_all	6-somite	presumptive rhombomere 2	16	2	0	1.127	False
+zfin_all	6-somite	presumptive rhombomere 3	24	2	1	1.788	True
+zfin_all	6-somite	presumptive rhombomere 4	30	2	0	1.509	False
+zfin_all	6-somite	presumptive rhombomere 5	24	2	1	1.508	True
+zfin_all	6-somite	presumptive rhombomere 6	17	2	1	1.649	True
+zfin_all	6-somite	presumptive rhombomere 7	10	2	0	1.284	False
+zfin_all	6-somite	presumptive telencephalon	30	2	2	2.414	True
+zfin_all	6-somite	primary motor neuron	4	2	1	1.181	True
+zfin_all	6-somite	primary neuron	30	2	2	2.549	True
+zfin_all	6-somite	primordial germ cell	11	2	2	1.595	True
+zfin_all	6-somite	pronephric mesoderm	30	2	0	1.368	False
+zfin_all	6-somite	proneural cluster	7	2	2	1.439	True
+zfin_all	6-somite	segmental plate	30	2	2	3.846	True
+zfin_all	6-somite	somite	30	2	2	3.031	True
+zfin_all	6-somite	spinal cord neural keel	4	2	0	1.011	False
+zfin_all	6-somite	spinal cord neural plate	5	2	0	0.9926	False
+zfin_all	6-somite	spinal cord neural rod	11	2	0	1.037	False
+zfin_all	6-somite	tail bud	30	2	2	3.999	True
+zfin_all	6-somite	trigeminal placode	21	2	2	2.595	True
+zfin_all	6-somite	ventral mesoderm	30	2	1	1.735	True
+zfin_pre_het	6-somite	Kupffer's vesicle	30	2	0	1.604	False
+zfin_pre_het	6-somite	Rohon-Beard neuron	10	2	2	2.524	True
+zfin_pre_het	6-somite	adaxial cell	30	2	2	4.269	True
+zfin_pre_het	6-somite	anterior lateral plate mesoderm	27	2	2	2.583	True
+zfin_pre_het	6-somite	anterior neural rod	15	2	0	1.084	False
+zfin_pre_het	6-somite	axial mesoderm	16	2	2	2.465	True
+zfin_pre_het	6-somite	cardiovascular system	3	2	2	1.534	True
+zfin_pre_het	6-somite	central nervous system	10	2	0	1.295	False
+zfin_pre_het	6-somite	cranial ganglion	11	2	2	2.077	True
+zfin_pre_het	6-somite	cranial neural crest	9	2	2	2.751	True
+zfin_pre_het	6-somite	cranial neural crest cell	3	2	2	1.43	True
+zfin_pre_het	6-somite	endoderm	15	2	0	1.367	False
+zfin_pre_het	6-somite	epibranchial field	4	2	1	1.211	True
+zfin_pre_het	6-somite	fast muscle myoblast	3	2	2	1.316	True
+zfin_pre_het	6-somite	floor plate	18	2	1	1.545	True
+zfin_pre_het	6-somite	forebrain midbrain boundary neural rod	6	2	0	1.154	False
+zfin_pre_het	6-somite	forebrain neural keel	30	2	0	1.598	False
+zfin_pre_het	6-somite	forebrain neural rod	27	2	1	1.712	True
+zfin_pre_het	6-somite	head mesenchyme	12	2	1	1.521	True
+zfin_pre_het	6-somite	heart primordium	9	2	2	1.815	True
+zfin_pre_het	6-somite	hindbrain	3	2	0	1.075	False
+zfin_pre_het	6-somite	hindbrain neural keel	29	2	1	1.91	True
+zfin_pre_het	6-somite	hindbrain neural plate	30	2	0	1.366	False
+zfin_pre_het	6-somite	hindbrain neural rod	18	2	0	1.249	False
+zfin_pre_het	6-somite	immature eye	8	2	1	1.379	True
+zfin_pre_het	6-somite	integument	5	2	1	1.267	True
+zfin_pre_het	6-somite	intermediate mesoderm	19	2	0	1.437	False
+zfin_pre_het	6-somite	interneuron	4	2	2	1.348	True
+zfin_pre_het	6-somite	lateral mesoderm	17	2	2	2.356	True
+zfin_pre_het	6-somite	lateral plate mesoderm	30	2	2	2.673	True
+zfin_pre_het	6-somite	mesoderm	30	2	1	1.65	True
+zfin_pre_het	6-somite	midbrain	3	2	0	0.9839	False
+zfin_pre_het	6-somite	midbrain hindbrain boundary neural keel	16	2	1	1.581	True
+zfin_pre_het	6-somite	midbrain hindbrain boundary neural plate	6	2	2	1.443	True
+zfin_pre_het	6-somite	midbrain hindbrain boundary neural rod	17	2	2	1.731	True
+zfin_pre_het	6-somite	midbrain neural keel	30	2	0	1.566	False
+zfin_pre_het	6-somite	midbrain neural rod	30	2	0	1.568	False
+zfin_pre_het	6-somite	neural crest	27	2	2	1.982	True
+zfin_pre_het	6-somite	neural crest cell	7	2	2	2.151	True
+zfin_pre_het	6-somite	neural keel	21	2	0	1.142	False
+zfin_pre_het	6-somite	neural plate	30	2	0	1.667	False
+zfin_pre_het	6-somite	neural rod	30	2	0	1.202	False
+zfin_pre_het	6-somite	neuroectoderm	18	2	0	1.09	False
+zfin_pre_het	6-somite	neurogenic field	3	2	2	1.308	True
+zfin_pre_het	6-somite	neurogenic placode	3	2	0	1.172	False
+zfin_pre_het	6-somite	non neural ectoderm	4	2	2	1.8	True
+zfin_pre_het	6-somite	notochord	30	2	2	3.44	True
+zfin_pre_het	6-somite	notochord posterior region	3	2	0	1.109	False
+zfin_pre_het	6-somite	olfactory field	5	2	2	1.555	True
+zfin_pre_het	6-somite	optic vesicle	30	2	2	2.387	True
+zfin_pre_het	6-somite	otic placode	20	2	1	1.705	True
+zfin_pre_het	6-somite	paraxial mesoderm	30	2	2	2.453	True
+zfin_pre_het	6-somite	periderm	30	2	2	6.762	True
+zfin_pre_het	6-somite	polster	30	2	2	6.555	True
+zfin_pre_het	6-somite	posterior lateral plate mesoderm	17	2	2	2.676	True
+zfin_pre_het	6-somite	posterior neural rod	4	2	0	1.097	False
+zfin_pre_het	6-somite	prechordal plate	14	2	2	2.003	True
+zfin_pre_het	6-somite	presumptive cephalic mesoderm	7	2	0	0.9378	False
+zfin_pre_het	6-somite	presumptive diencephalon	30	2	0	1.529	False
+zfin_pre_het	6-somite	presumptive rhombomere 1	8	2	0	1.061	False
+zfin_pre_het	6-somite	presumptive rhombomere 2	9	2	0	1.1	False
+zfin_pre_het	6-somite	presumptive rhombomere 3	15	2	2	1.931	True
+zfin_pre_het	6-somite	presumptive rhombomere 4	16	2	1	1.434	True
+zfin_pre_het	6-somite	presumptive rhombomere 5	11	2	1	1.605	True
+zfin_pre_het	6-somite	presumptive rhombomere 7	6	2	1	1.238	True
+zfin_pre_het	6-somite	presumptive telencephalon	30	2	2	2.568	True
+zfin_pre_het	6-somite	primary motor neuron	4	2	1	1.181	True
+zfin_pre_het	6-somite	primary neuron	18	2	2	2.654	True
+zfin_pre_het	6-somite	primordial germ cell	5	2	2	1.532	True
+zfin_pre_het	6-somite	pronephric mesoderm	19	2	1	1.411	True
+zfin_pre_het	6-somite	proneural cluster	4	2	2	1.533	True
+zfin_pre_het	6-somite	segmental plate	30	2	2	4.723	True
+zfin_pre_het	6-somite	somite	30	2	2	2.642	True
+zfin_pre_het	6-somite	spinal cord neural plate	3	2	0	0.9911	False
+zfin_pre_het	6-somite	spinal cord neural rod	7	2	0	1.021	False
+zfin_pre_het	6-somite	tail bud	30	2	2	4.679	True
+zfin_pre_het	6-somite	trigeminal placode	13	2	2	3.186	True
+zfin_pre_het	6-somite	ventral mesoderm	30	2	2	2.11	True
+zfin_all_het	6-somite	Kupffer's vesicle	30	2	0	1.704	False
+zfin_all_het	6-somite	Rohon-Beard neuron	10	2	2	2.524	True
+zfin_all_het	6-somite	adaxial cell	30	2	2	4.269	True
+zfin_all_het	6-somite	anterior lateral plate mesoderm	29	2	2	2.584	True
+zfin_all_het	6-somite	anterior neural rod	23	2	0	1.329	False
+zfin_all_het	6-somite	axial mesoderm	17	2	2	2.535	True
+zfin_all_het	6-somite	cardiovascular system	3	2	2	1.534	True
+zfin_all_het	6-somite	central nervous system	10	2	0	1.295	False
+zfin_all_het	6-somite	cranial ganglion	12	2	2	1.977	True
+zfin_all_het	6-somite	cranial neural crest	12	2	2	2.6	True
+zfin_all_het	6-somite	cranial neural crest cell	3	2	2	1.43	True
+zfin_all_het	6-somite	endoderm	16	2	0	1.361	False
+zfin_all_het	6-somite	epibranchial field	4	2	1	1.211	True
+zfin_all_het	6-somite	fast muscle myoblast	3	2	2	1.316	True
+zfin_all_het	6-somite	floor plate	19	2	1	1.612	True
+zfin_all_het	6-somite	forebrain midbrain boundary neural rod	6	2	0	1.154	False
+zfin_all_het	6-somite	forebrain neural keel	30	2	0	1.598	False
+zfin_all_het	6-somite	forebrain neural rod	30	2	1	1.849	True
+zfin_all_het	6-somite	head mesenchyme	13	2	1	1.448	True
+zfin_all_het	6-somite	heart primordium	9	2	2	1.815	True
+zfin_all_het	6-somite	hindbrain	3	2	0	1.075	False
+zfin_all_het	6-somite	hindbrain neural keel	30	2	1	1.884	True
+zfin_all_het	6-somite	hindbrain neural plate	30	2	0	1.366	False
+zfin_all_het	6-somite	hindbrain neural rod	22	2	0	1.355	False
+zfin_all_het	6-somite	immature eye	9	2	1	1.307	True
+zfin_all_het	6-somite	integument	5	2	1	1.267	True
+zfin_all_het	6-somite	intermediate mesoderm	19	2	0	1.437	False
+zfin_all_het	6-somite	interneuron	4	2	2	1.348	True
+zfin_all_het	6-somite	lateral mesoderm	17	2	2	2.356	True
+zfin_all_het	6-somite	lateral plate mesoderm	30	2	2	2.434	True
+zfin_all_het	6-somite	mesoderm	30	2	1	1.65	True
+zfin_all_het	6-somite	midbrain	3	2	0	0.9839	False
+zfin_all_het	6-somite	midbrain hindbrain boundary neural keel	17	2	1	1.526	True
+zfin_all_het	6-somite	midbrain hindbrain boundary neural plate	6	2	2	1.443	True
+zfin_all_het	6-somite	midbrain hindbrain boundary neural rod	19	2	1	1.605	True
+zfin_all_het	6-somite	midbrain neural keel	30	2	0	1.566	False
+zfin_all_het	6-somite	midbrain neural rod	30	2	0	1.497	False
+zfin_all_het	6-somite	neural crest	30	2	2	2.024	True
+zfin_all_het	6-somite	neural crest cell	8	2	2	1.765	True
+zfin_all_het	6-somite	neural keel	21	2	0	1.142	False
+zfin_all_het	6-somite	neural plate	30	2	0	1.667	False
+zfin_all_het	6-somite	neural rod	30	2	0	1.231	False
+zfin_all_het	6-somite	neuroectoderm	18	2	0	1.09	False
+zfin_all_het	6-somite	neurogenic field	3	2	2	1.308	True
+zfin_all_het	6-somite	neurogenic placode	3	2	0	1.172	False
+zfin_all_het	6-somite	non neural ectoderm	4	2	2	1.8	True
+zfin_all_het	6-somite	notochord	30	2	2	3.446	True
+zfin_all_het	6-somite	notochord posterior region	4	2	0	1.16	False
+zfin_all_het	6-somite	olfactory field	5	2	2	1.555	True
+zfin_all_het	6-somite	optic vesicle	30	2	2	2.491	True
+zfin_all_het	6-somite	otic placode	24	2	0	1.54	False
+zfin_all_het	6-somite	paraxial mesoderm	30	2	2	2.631	True
+zfin_all_het	6-somite	periderm	30	2	2	6.762	True
+zfin_all_het	6-somite	polster	30	2	2	5.782	True
+zfin_all_het	6-somite	posterior lateral plate mesoderm	18	2	2	2.775	True
+zfin_all_het	6-somite	posterior neural rod	4	2	0	1.097	False
+zfin_all_het	6-somite	prechordal plate	16	2	2	2.231	True
+zfin_all_het	6-somite	presumptive cephalic mesoderm	7	2	0	0.9378	False
+zfin_all_het	6-somite	presumptive diencephalon	30	2	0	1.506	False
+zfin_all_het	6-somite	presumptive rhombomere 1	8	2	0	1.061	False
+zfin_all_het	6-somite	presumptive rhombomere 2	9	2	0	1.1	False
+zfin_all_het	6-somite	presumptive rhombomere 3	16	2	2	1.93	True
+zfin_all_het	6-somite	presumptive rhombomere 4	18	2	1	1.575	True
+zfin_all_het	6-somite	presumptive rhombomere 5	12	2	1	1.6	True
+zfin_all_het	6-somite	presumptive rhombomere 7	6	2	1	1.238	True
+zfin_all_het	6-somite	presumptive telencephalon	30	2	2	2.568	True
+zfin_all_het	6-somite	primary motor neuron	4	2	1	1.181	True
+zfin_all_het	6-somite	primary neuron	18	2	2	2.654	True
+zfin_all_het	6-somite	primordial germ cell	5	2	2	1.532	True
+zfin_all_het	6-somite	pronephric mesoderm	19	2	1	1.411	True
+zfin_all_het	6-somite	proneural cluster	4	2	2	1.533	True
+zfin_all_het	6-somite	segmental plate	30	2	2	4.405	True
+zfin_all_het	6-somite	somite	30	2	2	2.648	True
+zfin_all_het	6-somite	spinal cord neural plate	3	2	0	0.9911	False
+zfin_all_het	6-somite	spinal cord neural rod	7	2	0	1.021	False
+zfin_all_het	6-somite	tail bud	30	2	2	4.548	True
+zfin_all_het	6-somite	trigeminal placode	17	2	2	2.641	True
+zfin_all_het	6-somite	ventral mesoderm	30	2	2	2.08	True
+signalling	6-somite	signal:BMP	8	2	2	2.147	True
+signalling	6-somite	signal:Wnt	2	2	2	1.177	True
+signalling	6-somite	signal:RA	3	2	2	1.232	True
+signalling	6-somite	signal:Notch	7	2	2	2.109	True
+states	6-somite	state:maternal	4	2	0	1.004	False
+states	6-somite	state:blastomere	6	2	2	1.481	True
+states	6-somite	state:cell_cycle_s	10	2	2	2.615	True
+states	6-somite	state:cell_cycle_g2m	10	2	2	3.466	True
+states	6-somite	state:heat_shock	5	2	0	0.9917	False
+states	6-somite	state:p53_response	10	2	0	1.15	False
+curated_staged	6-somite	EVL	30	2	2	8.004	True
+curated_staged	6-somite	PGC	5	2	2	1.532	True
+curated_staged	6-somite	adaxial_somite	30	2	2	4.163	True
+curated_staged	6-somite	dorsal_forerunner	21	2	1	1.688	True
+curated_staged	6-somite	endoderm	9	2	1	1.271	True
+curated_staged	6-somite	floor_plate	9	2	2	1.476	True
+curated_staged	6-somite	forebrain_eye	30	2	2	2.296	True
+curated_staged	6-somite	heart	5	2	2	1.499	True
+curated_staged	6-somite	hindbrain	30	2	1	1.799	True
+curated_staged	6-somite	intermediate_mesoderm	13	2	0	1.2	False
+curated_staged	6-somite	lateral_plate	30	2	2	3.225	True
+curated_staged	6-somite	marginal_mesendoderm	14	2	0	1.335	False
+curated_staged	6-somite	midbrain_hindbrain_boundary	30	2	2	2.599	True
+curated_staged	6-somite	neural_crest	18	2	2	1.996	True
+curated_staged	6-somite	neural_ectoderm	30	2	0	1.613	False
+curated_staged	6-somite	non_neural_ectoderm	7	2	2	2.155	True
+curated_staged	6-somite	notochord	30	2	2	4.34	True
+curated_staged	6-somite	placodes	25	2	2	2.153	True
+curated_staged	6-somite	prechordal_plate	30	2	2	7.423	True
+curated_staged	6-somite	presomitic_mesoderm	30	2	2	5.103	True
+curated_staged	6-somite	primary_neurons	17	2	2	3.103	True
+curated_staged	6-somite	tailbud	29	2	2	2.86	True
+curated_staged	6-somite	ventral_bmp	20	2	1	1.656	True
+curated_staged	6-somite	signal:BMP	8	2	2	2.147	True
+curated_staged	6-somite	signal:Wnt	2	2	2	1.177	True
+curated_staged	6-somite	signal:RA	3	2	2	1.232	True
+curated_staged	6-somite	signal:Notch	7	2	2	2.109	True
+curated_staged	6-somite	state:maternal	4	2	0	1.004	False
+curated_staged	6-somite	state:blastomere	6	2	2	1.481	True
+curated_staged	6-somite	state:cell_cycle_s	10	2	2	2.615	True
+curated_staged	6-somite	state:cell_cycle_g2m	10	2	2	3.466	True
+curated_staged	6-somite	state:heat_shock	5	2	0	0.9917	False
+curated_staged	6-somite	state:p53_response	10	2	0	1.15	False
+curated	6-somite	state:maternal	4	2	0	1.004	False
+curated	6-somite	state:blastomere	6	2	2	1.481	True
+curated	6-somite	state:cell_cycle_s	10	2	2	2.615	True
+curated	6-somite	state:cell_cycle_g2m	10	2	2	3.466	True
+curated	6-somite	state:heat_shock	5	2	0	0.9917	False
+curated	6-somite	state:p53_response	10	2	0	1.15	False
+curated	6-somite	EVL	30	2	2	11.51	True
+curated	6-somite	PGC	11	2	2	1.662	True
+curated	6-somite	endoderm	12	2	1	1.49	True
+curated	6-somite	mesoderm	30	2	0	1.371	False
+curated	6-somite	axial_mesoderm	24	2	2	2.554	True
+curated	6-somite	dorsal_forerunner	29	2	0	1.574	False
+curated	6-somite	neural_plate	30	2	0	1.499	False
+curated	6-somite	prechordal_plate	30	2	2	3.421	True
+curated	6-somite	presomitic_mesoderm	30	2	2	5.53	True
+curated	6-somite	ventral_bmp	17	2	1	1.557	True
+curated	6-somite	presumptive_neural	9	2	0	1.091	False
+curated	6-somite	forebrain_eye	30	2	2	2.305	True
+curated	6-somite	non_neural_ectoderm	8	2	2	2.325	True
+curated	6-somite	placodes	28	2	2	2.005	True
+curated	6-somite	hindbrain	30	2	1	1.967	True
+curated	6-somite	midbrain_hindbrain_boundary	26	2	2	2.507	True
+curated	6-somite	adaxial_somite	30	2	2	6.568	True
+curated	6-somite	hatching_gland	30	2	2	8.1	True
+curated	6-somite	intermediate_mesoderm	12	2	1	1.48	True
+curated	6-somite	lateral_plate	30	2	2	3.044	True
+curated	6-somite	notochord	30	2	2	7.264	True
+curated	6-somite	primary_neurons	19	2	2	2.92	True
+curated	6-somite	tailbud	30	2	2	3.338	True
+curated	6-somite	floor_plate	9	2	2	1.394	True
+curated	6-somite	neural_crest	17	2	2	1.815	True
+curated	6-somite	heart	5	2	2	1.499	True
+curated	6-somite	signal:BMP	8	2	2	2.147	True
+curated	6-somite	signal:Wnt	4	2	1	1.257	True
+curated	6-somite	signal:RA	3	2	2	1.232	True
+curated	6-somite	signal:Notch	9	2	2	1.97	True

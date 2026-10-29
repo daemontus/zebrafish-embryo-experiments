@@ -1,0 +1,107 @@
+set	stage	programs	genes	median_genes	all_genes
+curated	high	8	59	8.5	562
+curated	oblong	8	55	7.5	562
+curated	dome	10	109	10.0	562
+curated	30% epiboly	15	174	10.0	562
+curated	50% epiboly	22	292	11.0	562
+curated	shield	23	257	10.0	562
+curated	60% epiboly	24	312	10.5	562
+curated	75% epiboly	27	357	10.0	562
+curated	90% epiboly	29	395	11.0	562
+curated	bud	36	505	17.0	562
+curated	3-somite	36	487	16.0	562
+curated	6-somite	36	522	17.0	562
+curated_staged	high	8	53	8.0	688
+curated_staged	oblong	7	49	9.0	688
+curated_staged	dome	10	70	8.0	688
+curated_staged	30% epiboly	14	109	7.0	688
+curated_staged	50% epiboly	21	204	10.0	688
+curated_staged	shield	19	178	9.0	688
+curated_staged	60% epiboly	22	248	10.0	688
+curated_staged	75% epiboly	25	259	8.0	688
+curated_staged	90% epiboly	25	267	8.0	688
+curated_staged	bud	32	296	7.0	688
+curated_staged	3-somite	32	340	11.5	688
+curated_staged	6-somite	33	453	14.0	688
+farrell	high	10	249	30.0	887
+farrell	oblong	11	265	30.0	887
+farrell	dome	17	313	30.0	887
+farrell	30% epiboly	15	300	30.0	887
+farrell	50% epiboly	20	379	30.0	887
+farrell	shield	25	358	30.0	887
+farrell	60% epiboly	25	425	30.0	887
+farrell	75% epiboly	24	395	30.0	887
+farrell	90% epiboly	45	500	30.0	887
+farrell	bud	40	485	30.0	887
+farrell	3-somite	31	441	30.0	887
+farrell	6-somite	42	514	30.0	887
+signalling	high	2	4	2.0	30
+signalling	oblong	1	2	2.0	30
+signalling	dome	2	8	4.0	30
+signalling	30% epiboly	3	13	3.0	30
+signalling	50% epiboly	4	16	3.0	30
+signalling	shield	3	11	2.0	30
+signalling	60% epiboly	5	18	3.0	30
+signalling	75% epiboly	6	18	2.0	30
+signalling	90% epiboly	5	19	3.0	30
+signalling	bud	6	24	2.5	30
+signalling	3-somite	5	19	3.0	30
+signalling	6-somite	4	20	5.0	30
+states	high	6	49	10.0	51
+states	oblong	6	47	9.5	51
+states	dome	6	49	10.0	51
+states	30% epiboly	6	50	10.0	51
+states	50% epiboly	6	51	10.0	51
+states	shield	6	43	7.5	51
+states	60% epiboly	6	51	10.0	51
+states	75% epiboly	6	51	10.0	51
+states	90% epiboly	6	48	8.5	51
+states	bud	6	48	8.5	51
+states	3-somite	6	40	7.5	51
+states	6-somite	6	45	8.0	51
+zfin_all	high	2	16	8.5	1195
+zfin_all	oblong	1	7	7.0	1195
+zfin_all	dome	5	48	11.0	1195
+zfin_all	30% epiboly	7	88	17.0	1195
+zfin_all	50% epiboly	20	291	20.0	1195
+zfin_all	shield	26	302	25.0	1195
+zfin_all	60% epiboly	26	332	28.0	1195
+zfin_all	75% epiboly	35	344	17.0	1195
+zfin_all	90% epiboly	33	314	13.0	1195
+zfin_all	bud	49	457	18.0	1195
+zfin_all	3-somite	64	586	18.0	1195
+zfin_all	6-somite	84	737	24.0	1195
+zfin_all_het	high	2	6	3.5	706
+zfin_all_het	dome	5	20	6.0	706
+zfin_all_het	30% epiboly	5	59	11.0	706
+zfin_all_het	50% epiboly	20	179	9.5	706
+zfin_all_het	shield	21	143	9.0	706
+zfin_all_het	60% epiboly	22	217	16.0	706
+zfin_all_het	75% epiboly	30	228	14.5	706
+zfin_all_het	90% epiboly	30	245	11.0	706
+zfin_all_het	bud	41	300	14.0	706
+zfin_all_het	3-somite	53	341	13.0	706
+zfin_all_het	6-somite	78	481	17.0	706
+zfin_pre	high	2	12	6.5	1148
+zfin_pre	oblong	1	7	7.0	1148
+zfin_pre	dome	4	44	12.0	1148
+zfin_pre	30% epiboly	7	87	17.0	1148
+zfin_pre	50% epiboly	20	286	18.5	1148
+zfin_pre	shield	25	303	30.0	1148
+zfin_pre	60% epiboly	25	331	30.0	1148
+zfin_pre	75% epiboly	34	335	17.0	1148
+zfin_pre	90% epiboly	33	307	12.0	1148
+zfin_pre	bud	51	443	17.0	1148
+zfin_pre	3-somite	64	590	17.0	1148
+zfin_pre	6-somite	84	718	23.0	1148
+zfin_pre_het	high	2	6	3.5	691
+zfin_pre_het	dome	3	17	8.0	691
+zfin_pre_het	30% epiboly	5	59	11.0	691
+zfin_pre_het	50% epiboly	20	174	9.5	691
+zfin_pre_het	shield	20	143	12.0	691
+zfin_pre_het	60% epiboly	22	218	16.0	691
+zfin_pre_het	75% epiboly	29	226	14.0	691
+zfin_pre_het	90% epiboly	29	240	11.0	691
+zfin_pre_het	bud	42	291	13.0	691
+zfin_pre_het	3-somite	52	338	13.0	691
+zfin_pre_het	6-somite	78	473	15.5	691

@@ -43,7 +43,7 @@ Repository root: `/home/xpastva/zebrafish-early`
   ~25 min. Outputs `results/tables/heterogeneous_genes*.tsv*`,
   `heterogeneity_libraries.tsv`, report figures/table, and
   `results/figures/heterogeneity_libraries.pdf` (overdispersion per library). Intended to replace
-  HVGs everywhere downstream; 02 uses them, scripts 04-13 still use HVGs.
+  HVGs everywhere downstream (02, 14-19 use them).
 - `scripts/01c_heterogeneity_zfin.py` checks the heterogeneous genes against
   ZFIN in situ records (pre-2018): genes recorded in a localised structure
   at a stage are heterogeneous 3-12x more often than average, "whole
@@ -68,8 +68,7 @@ Repository root: `/home/xpastva/zebrafish-early`
   fitted on log10 to the medians of raw phi in bins of 200 genes with >= 100
   UMIs and extrapolated to rarer genes; parameters in `.attrs["trend"]`.
   It replaced a running median with isotonic fit and boundary rules (same
-  result within ~0.03 log10). Outputs of 04/09/11/12 were computed with an
-  older version (running median of clipped log10 phi).
+  result within ~0.03 log10).
   01b calibrates on the residuals of simulated genes against the typical phi
   they were simulated with (since 2026-10-27; a running quantile of simulated
   log10 phi mixed in rarer genes at the upper end and overstated the cutoff).
@@ -88,13 +87,150 @@ Repository root: `/home/xpastva/zebrafish-early`
   evidence for why a/b libraries differ (pseudobulk fold changes, on/off
   genes with depth-matched detection, ribosomal fraction and stage-marker
   timing indicators) and writes `report/tables/replicate_{summary,genes}.tex`.
-- ZFIN publication years: `zfinpubs.txt` lists journal articles only, so
-  direct data submissions (Thisse screens, the largest early source) get
-  their year from the publication id (ZDB-PUB-YYMMDD-n); see
-  `zfin_utils.zfin_records(max_year)` (ZFIN loading shared by 01c, 09, 11).
-- `pipeline_utils.nb_overdispersion` estimates per-gene negative-binomial
-  overdispersion within a library (method of moments) relative to genes of
-  similar mean.
+- `scripts/14_replicated_populations.py` (2026-10-28, exploratory) clusters
+  each library on its own (Leiden 0.5/1/2/4) on shared PCs of per-library
+  centred Pearson residuals (clipped at +-10 for every library) of the
+  stage's heterogeneous genes and keeps
+  clusters that match reciprocally in another library (MetaNeighbor-style
+  neighbour voting, one-vs-best AUROC >= 0.8); single-library stages (dome,
+  shield, 3-somite) are matched against the adjacent stages' libraries.
+  Populations of different resolutions sharing >= 50% of cells are merged
+  ("consensus"); "robust" = found at >= 2 resolutions (87-100% reproduce with
+  another seed vs 56% for one resolution). Null: Voronoi clusters around
+  random cells (same number) give 19-31% as many populations as the real
+  clusters (per resolution, summed over stages; most at resolution 4).
+  Centring removes all mean differences between libraries (the classifier
+  AUC of 02 is ~0.4 for any pair, adjacent stages included), but locally
+  stages >= 1.7 h apart stay distinct (80-97% of neighbourhoods unbalanced)
+  while stages ~1 h apart blur to the level of a/b pairs; so adjacent-stage
+  matches and stage links are weaker evidence. A clip of +-sqrt(cells) (used
+  until 2026-10-28) made unequal random halves of one library differ. Robust populations of consecutive stages
+  are linked by joint-PCA neighbour voting (AUROC >= 0.9) into tracks.
+  A few minutes; `--seed`, `--tag`, `--tracks-only` (redraw tracks from tables).
+  Outputs `results/tables/replicated_populations*.tsv*` (summary, matches,
+  per-resolution, consensus, cells, links, tracks) and
+  `results/figures/replicated_populations{,_tracks}.pdf`. A seed-1 run is in
+  `..._seed1*`. Not in the report yet.
+- `pipeline_utils.pearson_residuals(counts, genes, centre)` (2026-10-28):
+  Pearson residuals of one library under its own NB model (trend phi_t),
+  clipped at +-RESIDUAL_CLIP = 10 for every library, optionally centred per
+  library (= alignment). Used by 14, 15, 17, 18.
+- `scripts/15_alignment.py` (report section "aligning libraries") checks the
+  alignment against the unaligned joint embedding of 02: same-stage library
+  pairs vs random splits (unbalanced kNN neighbourhoods), same-batch pairs of
+  different stages, kNN overlap with each library's own PCA, and transfer of
+  marker-defined cell types (EVL, PGC, p53-like, endoderm, notochord,
+  hatching gland) between libraries; per-stage and atlas UMAPs (atlas
+  coordinates cached in `data/processed/atlas_umap.tsv.gz`). ~20 min.
+  Figure `alignment_markers` (2026-10-28): the marker-called populations in
+  every library on the per-stage UMAPs; `15_alignment.py markers` redraws it
+  and `alignment_stages` without the checks (~2 min, same calls).
+  Outputs `results/tables/alignment_*.tsv`, report figures `alignment_*`.
+- `scripts/16_program_sets.py` builds stage-specific program sets
+  (`results/tables/programs.tsv`): farrell (Table S2), zfin_pre / zfin_all
+  (in situ terms covering the stage, via 01c.zfin_genes), *_het (restricted
+  to heterogeneous genes), signalling (`data/curated/signalling_programs.tsv`,
+  pathway readouts: feedback inhibitors and targets; draft, review sources),
+  states (archive literature table), curated_staged (draft: ZFIN all-years
+  terms grouped by `zfin_anatomy_programs.tsv`, genes heterogeneous at the
+  stage, + signalling + states; ZFIN maternal/blastomere groups excluded; cap
+  30 genes by publications at the stage) and curated (since 2026-10-29, the
+  set used by 17-23): the same groups with ONE gene list per program for all
+  stages of its window (first to last stage where the staged version exists):
+  ZFIN records pooled over the window, gene heterogeneous at >= 1 window
+  stage, ranked by mean heterogeneity tier over the window then
+  publications, cap 30; groups that change identity are split via the
+  `fixed_program` column of the mapping (margin / mesoderm, axial mesoderm /
+  notochord, prechordal plate / hatching gland, presumptive neural / neural
+  plate). Staged gene lists shared < half their genes between stages.
+  Side effect: pooling moves dlx3b/foxi1 from the non-neural ectoderm to the
+  placodes. Farrell modules: all 30 listed genes (since 2026-10-29).
+- `scripts/17_program_tests.py`: program score = mean centred Pearson
+  residual of its genes; coherence R = n Var(score)/mean gene variance vs
+  random same-size sets of heterogeneous genes (95% quantile of N_RANDOM =
+  500 sets since 2026-10-29; with 50, ~6% of calls flipped with the seed; the
+  gene-wise permutation null is too weak), supported = coherent in >= half of the
+  stage's libraries; library levels of state programs; prediction test of
+  06/13 on all cells (evaluation genes: random measured and heterogeneous,
+  never in any program); tests curated (fixed genes) and curated_staged
+  side by side. ~30-90 min; `summarise` redraws. Outputs
+  `results/tables/program_{coherence,support,library_levels}.tsv`,
+  `program_tests_prediction*`, report figure `program_tests`.
+- `scripts/18_program_populations.py`: script 14's procedure (via
+  `run_stage(..., embed=...)`) in the space of supported curated program
+  scores; compares with 14's robust populations (captured / named, not
+  separated / unnamed = missing program) and computes coverage (>= 1 active
+  program, population membership). Needs 14 and 17 outputs. Outputs
+  `results/tables/program_populations*`, report figure `program_populations`,
+  `report/tables/missing_programs.tex`.
+- `scripts/19_program_atlas.py` (exploration, not in the report): for every
+  curated program, its smoothed score on the per-stage UMAPs of 14 at every
+  stage, the share of active cells, support and library-level pseudobulk,
+  plus the program on the atlas UMAPs of 15 (aligned / unaligned, scores
+  scaled per stage); overview heatmaps first. `plot` redraws from the cache
+  (`data/processed/program_scores.tsv.gz`). Output
+  `results/figures/program_atlas.pdf`, `results/tables/program_atlas.tsv`.
+- `scripts/20_program_views.py` (exploration): from 19's cached scores and
+  active calls (`data/processed/program_{scores,active}.tsv.gz`) and 14's
+  populations and tracks: programs x robust populations dot plots per stage,
+  program co-activity (score correlations) per stage, active share along
+  each population track (>= 3 stages), and per-gene log2 detection in active
+  vs other cells per program. Outputs `results/figures/program_{populations_dots,
+  coactivity,tracks,genes}.pdf`.
+- `scripts/21_signal_coupling.py` (report subsection "which programs co-occur
+  with which signals"): per stage, correlation of the smoothed signalling
+  readout scores with the other curated programs, after removing the readout
+  genes from those programs (93 shared genes). Literature comparison in the
+  report; bibliography entries for it were checked against Crossref
+  (2026-10-28; author names normalised to NFC, since Crossref returns
+  combining accents that pdflatex rejects). Hedgehog readouts are never heterogeneous; the RA readouts
+  (cyp26a1, dhrs3) do not measure RA activity well. `plot` redraws. Outputs
+  `results/tables/signal_coupling{,_removed}.tsv`, report figure
+  `signal_coupling`.
+- `scripts/22_program_levels.py` (2026-10-28, report subsection "how many
+  activity levels does a program need?"): the prediction test of 17 (same
+  evaluation genes, split, coordinates; floor/ceiling/random merged from
+  17's per-gene table, so `curated` reproduces 17) with the curated scores
+  discretised per stage (pooled aligned scores): k-means k = 2-6, encoded
+  cumulatively (level >= v; one-hot k3/k6 as a check, worse with many
+  levels), the Boolean null call of 18 and 3 states, and supported-only
+  variants; plus per-program variance kept by the levels. Result: 2 levels
+  keep ~0.92 of the continuous explained fraction, 3 levels ~0.98, 4+ ~1.0;
+  the strict null call only ~0.85. ~45 min; `summarise` redraws. Outputs
+  `results/tables/program_levels{,_genes,_fidelity}.tsv*`, report figure
+  `program_levels`. Needs 17's outputs.
+- `scripts/23_signal_atlas.py` (2026-10-29, exploration, not in the report):
+  per pathway, two curated programs expected with high / low readouts
+  (PAIRS: BMP non-neural ectoderm / neural plate, Nodal margin / presumptive
+  neural, Wnt tailbud / forebrain-eye, FGF mesoderm / non-neural ectoderm,
+  Notch presomitic / lateral plate); cells with exactly one of them active,
+  coloured by readout score above / below the library average, on the atlas
+  UMAPs. Readout genes removed from the programs as in 21. A few minutes;
+  `plot` redraws. Outputs `results/figures/signal_atlas.pdf`,
+  `results/tables/signal_atlas.tsv`, cache `data/processed/signal_atlas_*`.
+- `scripts/19_program_atlas.py` also writes (2026-10-29)
+  `results/figures/program_atlas_{aligned,unaligned}.pdf` (one atlas UMAP per
+  program; `atlas` mode) and `program_atlas_combined.pdf` (groups of
+  programs expected to be mutually exclusive, EXCLUSIVE_GROUPS, coloured by
+  the active program, black = several; `combined` mode).
+- `scripts/program_utils.py`: smoothing, the held-out prediction test
+  (floor / feature sets / knn ceiling) and the Farrell et al. Table S2 loader
+  (all 30 listed genes per module; until 2026-10-29
+  the top 25, a leftover of the removed cNMF comparison), moved from the old scripts 04-06.
+- `data/curated/archive/expression_programs.tsv` (+ `expression_program_genes.tsv`,
+  per-gene literature evidence): the earlier hand-curated programs; only the
+  six cell states (maternal, blastomere, cell cycle S/G2M, heat shock, p53)
+  are still used (script 16, `states`).
+- Removed 2026-10-28: scripts 04-13 (curated-program scoring, cNMF, the first
+  prediction tests, combinations, hierarchy, ZFIN variable programs, the
+  first program sets and activity calls), their tables and figures, the
+  report sections built on them, and the caches `data/processed/cnmf`,
+  `program_umap.tsv.gz`, `program_activity/`. They were never committed; a
+  backup of the scripts and outputs (not the 3.3 GB cNMF cache) is in
+  `data/processed/archive/old_program_analyses_2026-10-28.tar.gz` (local,
+  gitignored).
+- Report (2026-10-28): sections 6-8 are alignment (15), programs (16, 17,
+  21, 22) and populations (14, 18).
 - No API keys or authentication were required (GEO is public).
 
 ## Dataset: GSE106587
@@ -166,7 +302,10 @@ data/
     GSE106587/GSM3084403_10xMZoep6S_* # extracted 10x MZoep 6-somite
     SHA256SUMS
   curated/
-    zfin_anatomy_programs.tsv     # ZFIN anatomy term -> program (scripts 01c, 09, 11)
+    archive/expression_programs.tsv      # earlier curated programs (states used by 16)
+    archive/expression_program_genes.tsv # per-gene literature evidence and rejections
+    zfin_anatomy_programs.tsv     # ZFIN anatomy term -> program (scripts 01c, 16)
+    signalling_programs.tsv       # signalling pathway readout genes (script 16; draft)
   metadata/
     dropseq_cell_metadata.csv     # 39,505 cells
     ss2_cell_metadata.csv         # 416 cells
@@ -185,13 +324,24 @@ scripts/
   build_metadata.py               # SOFT → cell metadata tables (stdlib)
   validate_data.py                # integrity checks (stdlib)
   pipeline_utils.py               # shared paths, stage/batch constants, plot style
-  zfin_utils.py                   # ZFIN expression records loader (01c, 09, 11)
+  zfin_utils.py                   # ZFIN expression records loader (01c)
   01_dataset_structure.py         # stage x batch x library overview -> report
   01b_heterogeneous_genes.py      # calibrated heterogeneous genes (replace HVGs)
   01c_heterogeneity_zfin.py       # heterogeneous genes vs ZFIN in situ records
   01d_hvg_flavours.py             # heterogeneous genes vs newer HVG methods
   02_replicate_mixing.py          # a/b library mixing (kNN, kBET, LISI, AUC)
   03_replicate_differences.py     # a/b gene-level differences, timing indicators
+  14_replicated_populations.py    # per-library clusters replicated across libraries
+  15_alignment.py                 # checks of the per-library alignment, UMAPs
+  16_program_sets.py              # stage-specific program sets (ZFIN, Farrell, curated, ...)
+  17_program_tests.py             # program coherence and prediction tests
+  18_program_populations.py       # populations in program space, missing programs
+  19_program_atlas.py             # per-program UMAPs and overview (exploration)
+  20_program_views.py             # dot plots, co-activity, tracks, gene views
+  21_signal_coupling.py           # signalling readouts vs programs over stages
+  22_program_levels.py            # discretised programs: how many levels are needed
+  23_signal_atlas.py              # signalling readouts vs expected programs (atlas UMAPs)
+  program_utils.py                # smoothing, prediction test, Farrell modules
   download_zfin.sh                # ZFIN expression/publication/alias files
 results/
   tables/                         # derived tables (TSV/CSV), versioned
@@ -277,6 +427,8 @@ On the local macOS checkout, a `.venv` (Python 3.13) exists with the pinned
 stack from the `initial-exploration` branch (pandas 3.0.6, numpy 2.5.4,
 matplotlib 3.11.2, scanpy 1.12.4, ...). Analysis scripts run as
 `.venv/bin/python scripts/01_dataset_structure.py` from the repository root.
+Added on 2026-10-26: `cnmf 1.7.1` (consensus NMF, script 05) and
+`openpyxl 3.1.5` (reading Farrell et al. Table S2).
 
 ## How to load the data
 
