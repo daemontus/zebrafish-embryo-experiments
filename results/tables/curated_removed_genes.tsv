@@ -1,0 +1,462 @@
+program	gene	pubs	tier	rank_before	reason
+EVL	FGF8A	1	2.25	37	in signal:FGF
+EVL	SZL	1	2.25	40	in signal:BMP
+EVL	SOX19A	1	1.583	65	in state:blastomere
+EVL	JUNBA	1	1.417	81	in control:dissociation
+EVL	BMP2B	1	0.9167	110	in signal:BMP
+PGC	H1M	2	1.417	7	in state:maternal
+PGC	NANOG	1	0.25	10	in state:blastomere
+adaxial_somite	ALDH1A2	6	2	9	in sending:RA
+adaxial_somite	HSP90AA1.2	2	1.833	15	in state:heat_shock
+adaxial_somite	DLC	15	1.417	27	in sending:Notch
+adaxial_somite	HEY1	2	1.333	31	in receiving:Notch
+adaxial_somite	MDM2	1	1.083	40	in state:p53_response
+adaxial_somite	WNT5B	2	0.8333	57	in sending:Wnt/PCP
+adaxial_somite	SESN1	2	0.6667	65	in state:p53_response
+axial_mesoderm	CHD	9	2.75	3	in blocking:BMP
+axial_mesoderm	DKK1B	3	2.667	4	in blocking:Wnt
+axial_mesoderm	FRZB	1	2.5	5	in blocking:Wnt
+axial_mesoderm	ADMP	3	2.417	6	in sending:BMP_organizer
+axial_mesoderm	NOG1	2	2.333	7	in blocking:BMP
+axial_mesoderm	SHHA	13	1.5	16	in sending:Hedgehog
+axial_mesoderm	ETV4	2	0.4167	48	in signal:FGF
+axial_mesoderm	NDR2	6	0.1667	65	in signal:Nodal
+dorsal_forerunner	ID1	1	1.75	7	in signal:BMP
+dorsal_forerunner	SP5L	2	1.667	8	in signal:Wnt
+dorsal_forerunner	FGF4	2	1.167	14	in signal:FGF
+dorsal_forerunner	BMP2B	1	0.9167	20	in signal:BMP
+dorsal_forerunner	NDR1	4	0.8333	21	in signal:Nodal
+dorsal_forerunner	ETV4	1	0.4167	41	in signal:FGF
+dorsal_forerunner	GDF3	2	0.25	50	in state:maternal
+dorsal_organizer	CHD	48	2.75	3	in blocking:BMP
+dorsal_organizer	DKK1B	5	2.667	4	in blocking:Wnt
+dorsal_organizer	FRZB	3	2.5	5	in blocking:Wnt
+dorsal_organizer	ADMP	4	2.417	8	in sending:BMP_organizer
+dorsal_organizer	ID3	1	2.417	9	in signal:BMP
+dorsal_organizer	NOG1	3	2.333	10	in blocking:BMP
+dorsal_organizer	ID1	2	1.75	19	in signal:BMP
+dorsal_organizer	FGF3	2	1.667	20	in signal:FGF
+dorsal_organizer	BAMBIA	1	1.583	22	in signal:BMP
+dorsal_organizer	SHHA	4	1.5	23	in sending:Hedgehog
+dorsal_organizer	CTH1	1	0.75	40	in state:maternal
+endoderm	BMP7A	1	0.8333	20	in signal:BMP
+endoderm	POU5F3	1	0.5833	24	in state:blastomere
+forebrain_eye	LFT1	3	2.583	2	in signal:Nodal
+forebrain_eye	LFT2	1	2.167	5	in signal:Nodal
+forebrain_eye	SFRP1A	4	1.083	31	in blocking:Wnt
+forebrain_eye	PCNA	2	0.25	92	in state:cell_cycle_s
+forebrain_eye	NDR2	1	0.1667	114	in signal:Nodal
+hatching_gland	FRZB	2	2.5	5	in blocking:Wnt
+hatching_gland	ID3	2	2.417	6	in signal:BMP
+hatching_gland	LFT2	1	2.167	10	in signal:Nodal
+hatching_gland	BAMBIA	2	1.583	14	in signal:BMP
+hatching_gland	FGF24	1	0.9167	42	in signal:FGF
+hatching_gland	BMP7A	1	0.8333	46	in signal:BMP
+hindbrain	DKK1B	1	2.667	1	in blocking:Wnt
+hindbrain	FGF3	12	1.667	4	in signal:FGF
+hindbrain	POU5F3	3	0.5833	36	in state:blastomere
+hindbrain	NOTUM1A	1	0.1667	68	in signal:Wnt
+intermediate_mesoderm	WNT8A	1	2	5	in signal:Wnt
+intermediate_mesoderm	HER12	1	0.5833	12	in receiving:Notch
+lateral_plate	WNT11	1	2.167	4	in sending:Wnt/PCP
+lateral_plate	ALDH1A2	7	2	7	in sending:RA
+lateral_plate	ATF3	1	1.25	16	in control:dissociation
+lateral_plate	DHRS3A	3	0.6667	22	in receiving:RA
+lateral_plate	HER12	1	0.5833	23	in receiving:Notch
+lateral_plate	GDF3	3	0.25	40	in state:maternal
+margin	DKK1B	5	2.667	5	in blocking:Wnt
+margin	LFT1	16	2.583	7	in signal:Nodal
+margin	NOG1	1	2.333	18	in blocking:BMP
+margin	FGF8A	19	2.25	21	in signal:FGF
+margin	LFT2	6	2.167	25	in signal:Nodal
+margin	SOX3	2	2.083	31	in state:blastomere
+margin	WNT8A	18	2	38	in signal:Wnt
+margin	ALDH1A2	4	2	41	in sending:RA
+margin	SP5L	4	1.667	52	in signal:Wnt
+margin	FGF3	3	1.667	53	in signal:FGF
+margin	CYP26A1	10	1.583	57	in blocking:RA
+margin	DLC	4	1.417	67	in sending:Notch
+margin	SP5A	1	1.25	78	in signal:Wnt
+margin	SFRP1A	1	1.083	82	in blocking:Wnt
+margin	BMP4	6	1	84	in signal:BMP
+margin	BMP2B	12	0.9167	89	in signal:BMP
+margin	FGF24	1	0.9167	93	in signal:FGF
+margin	NDR1	18	0.8333	96	in signal:Nodal
+margin	WNT5B	6	0.8333	97	in sending:Wnt/PCP
+margin	BMP7A	3	0.8333	99	in signal:BMP
+margin	CTH1	2	0.75	103	in state:maternal
+margin	DLD	2	0.75	105	in sending:Notch
+margin	HER4.1	1	0.75	110	in receiving:Notch
+margin	HER12	1	0.5833	118	in receiving:Notch
+margin	ETV4	3	0.4167	126	in signal:FGF
+margin	HER15.1	2	0.4167	128	in receiving:Notch
+margin	IL17RD	2	0.25	145	in signal:FGF
+margin	NDR2	13	0.1667	151	in signal:Nodal
+margin	WNT3A	2	0.1667	154	in signal:Wnt
+margin	NOTUM1A	1	0.1667	155	in signal:Wnt
+margin	LEF1	2	0.08333	160	in signal:Wnt
+margin	HER4.2	1	0.08333	165	in receiving:Notch
+mesoderm	CHD	13	2.75	2	in blocking:BMP
+mesoderm	DKK1B	4	2.667	3	in blocking:Wnt
+mesoderm	FOSAB	1	2.583	4	in control:dissociation
+mesoderm	SZL	1	2.25	14	in signal:BMP
+mesoderm	ALDH1A2	8	2	20	in sending:RA
+mesoderm	WNT8A	3	2	21	in signal:Wnt
+mesoderm	MSX1B	1	1.833	30	in signal:BMP
+mesoderm	SHHA	6	1.5	37	in sending:Hedgehog
+mesoderm	FSTA	3	1.5	39	in blocking:BMP
+mesoderm	DLC	2	1.417	42	in sending:Notch
+mesoderm	HEY1	1	1.333	49	in receiving:Notch
+mesoderm	SHHB	1	1.167	54	in sending:Hedgehog
+mesoderm	BMP4	8	1	58	in signal:BMP
+mesoderm	BMP2B	1	0.9167	67	in signal:BMP
+mesoderm	DLD	2	0.75	74	in sending:Notch
+mesoderm	CTH1	1	0.75	76	in state:maternal
+mesoderm	HER4.1	1	0.75	78	in receiving:Notch
+mesoderm	DHRS3A	1	0.6667	84	in receiving:RA
+mesoderm	NDR2	4	0.1667	119	in signal:Nodal
+midbrain_hindbrain_boundary	DKK1B	2	2.667	1	in blocking:Wnt
+midbrain_hindbrain_boundary	FGF8A	23	2.25	3	in signal:FGF
+midbrain_hindbrain_boundary	WNT3A	2	0.1667	35	in signal:Wnt
+neural_crest	MSX1B	3	1.833	5	in signal:BMP
+neural_plate	WNT11	1	2.167	7	in sending:Wnt/PCP
+neural_plate	SOX3	18	2.083	8	in state:blastomere
+neural_plate	MSX1B	6	1.833	13	in signal:BMP
+neural_plate	ID1	2	1.75	15	in signal:BMP
+neural_plate	FGF3	5	1.667	22	in signal:FGF
+neural_plate	CYP26A1	12	1.583	25	in blocking:RA
+neural_plate	SOX19A	5	1.583	27	in state:blastomere
+neural_plate	SHHA	12	1.5	32	in sending:Hedgehog
+neural_plate	DLB	2	1.5	33	in sending:Notch
+neural_plate	SP5A	1	1.25	49	in signal:Wnt
+neural_plate	SHHB	3	1.167	53	in sending:Hedgehog
+neural_plate	DLA	10	1.083	63	in sending:Notch
+neural_plate	SFRP1A	3	1.083	64	in blocking:Wnt
+neural_plate	BMP7A	1	0.8333	85	in signal:BMP
+neural_plate	HER4.1	10	0.75	87	in receiving:Notch
+neural_plate	DLD	3	0.75	91	in sending:Notch
+neural_plate	DHRS3A	1	0.6667	110	in receiving:RA
+neural_plate	HER15.1	2	0.4167	136	in receiving:Notch
+neural_plate	NOTUM1A	1	0.1667	199	in signal:Wnt
+notochord	ADMP	3	2.417	2	in sending:BMP_organizer
+notochord	ID3	1	2.417	3	in signal:BMP
+notochord	NOG1	2	2.333	5	in blocking:BMP
+notochord	SHHA	19	1.5	19	in sending:Hedgehog
+notochord	FGF4	4	1.167	33	in signal:FGF
+notochord	NOG2	2	0.75	52	in blocking:BMP
+placodes	SOX3	7	2.083	4	in state:blastomere
+placodes	SP5A	1	1.25	9	in signal:Wnt
+placodes	FGF24	3	0.9167	12	in signal:FGF
+prechordal_plate	DKK1B	7	2.667	3	in blocking:Wnt
+prechordal_plate	FRZB	2	2.5	6	in blocking:Wnt
+prechordal_plate	ID3	2	2.417	8	in signal:BMP
+prechordal_plate	NOG1	2	2.333	10	in blocking:BMP
+prechordal_plate	LFT2	3	2.167	13	in signal:Nodal
+prechordal_plate	BAMBIA	1	1.583	20	in signal:BMP
+prechordal_plate	BMP4	10	1	37	in signal:BMP
+prechordal_plate	FGF24	1	0.9167	42	in signal:FGF
+prechordal_plate	BMP7A	1	0.8333	45	in signal:BMP
+prechordal_plate	SESN1	1	0.6667	58	in state:p53_response
+presomitic_mesoderm	NOG1	2	2.333	6	in blocking:BMP
+presomitic_mesoderm	ALDH1A2	13	2	15	in sending:RA
+presomitic_mesoderm	WNT8A	1	2	17	in signal:Wnt
+presomitic_mesoderm	FSTA	5	1.5	27	in blocking:BMP
+presomitic_mesoderm	DLC	20	1.417	32	in sending:Notch
+presomitic_mesoderm	WNT5B	3	0.8333	55	in sending:Wnt/PCP
+presomitic_mesoderm	DLD	5	0.75	58	in sending:Notch
+presomitic_mesoderm	NOG2	1	0.75	64	in blocking:BMP
+presomitic_mesoderm	SESN1	1	0.6667	66	in state:p53_response
+presomitic_mesoderm	DHRS3A	1	0.6667	67	in receiving:RA
+presomitic_mesoderm	HER15.1	2	0.4167	77	in receiving:Notch
+presomitic_mesoderm	MCM2	1	0.25	90	in state:cell_cycle_s
+presomitic_mesoderm	WNT3A	1	0.1667	99	in signal:Wnt
+presomitic_mesoderm	HER4.2	1	0.08333	109	in receiving:Notch
+primary_neurons	DLB	3	1.5	5	in sending:Notch
+tailbud	ADMP	2	2.417	3	in sending:BMP_organizer
+tailbud	SZL	1	2.25	5	in signal:BMP
+tailbud	WNT8A	6	2	8	in signal:Wnt
+tailbud	CYP26A1	7	1.583	9	in blocking:RA
+tailbud	SHHB	1	1.167	17	in sending:Hedgehog
+tailbud	BMP4	12	1	19	in signal:BMP
+tailbud	BMP2B	3	0.9167	20	in signal:BMP
+tailbud	BMP7A	1	0.8333	25	in signal:BMP
+tailbud	GDF3	3	0.25	45	in state:maternal
+tailbud	MCM2	1	0.25	46	in state:cell_cycle_s
+tailbud	WNT3A	4	0.1667	52	in signal:Wnt
+EVL	SULT6B1	1	3	6	shared with tailbud (tie)
+EVL	KLF17	2	2.917	8	shared with hatching_gland
+EVL	VED	1	2.917	9	shared with margin
+EVL	GATA3	1	2.833	12	shared with non_neural_ectoderm
+EVL	APLNRA	1	2.667	13	shared with margin
+EVL	FOXI1	1	2.583	14	shared with placodes
+EVL	PFN1	1	2.583	15	shared with hatching_gland (tie)
+EVL	TAGLN2	2	2.5	20	shared with hatching_gland (tie)
+EVL	FTR83	1	2.5	22	shared with intermediate_mesoderm (tie)
+EVL	GADD45BA	1	2.5	23	shared with presomitic_mesoderm
+adaxial_somite	ARL4AB	1	2	10	shared with forebrain_eye (tie)
+adaxial_somite	APLNRB	2	1.917	12	shared with lateral_plate
+adaxial_somite	CNN2	1	1.917	14	shared with notochord (tie)
+adaxial_somite	AKAP12B	1	1.667	19	shared with neural_plate
+adaxial_somite	ASPH	1	1.5	22	shared with notochord (tie)
+adaxial_somite	NTD5	1	1.5	23	shared with axial_mesoderm (tie)
+adaxial_somite	FOXD5	1	1.5	25	shared with tailbud
+adaxial_somite	EFEMP2B	1	1.417	28	shared with hindbrain (tie)
+adaxial_somite	FGF17	1	1.25	34	shared with forebrain_eye (tie)
+axial_mesoderm	XBP1	1	2.333	8	shared with hatching_gland
+axial_mesoderm	FOXD3	1	2.333	9	shared with neural_crest
+axial_mesoderm	FOXA2	8	2.167	10	shared with endoderm
+axial_mesoderm	LHX1A	1	1.917	14	shared with intermediate_mesoderm
+axial_mesoderm	FAM212AA	2	1.417	19	shared with neural_crest (tie)
+axial_mesoderm	GID8B	1	1.083	23	shared with endoderm (tie)
+axial_mesoderm	CDH1	1	1.083	24	shared with prechordal_plate
+axial_mesoderm	FOXA1	1	1	29	shared with endoderm
+dorsal_forerunner	STM	1	2.333	2	shared with forebrain_eye
+dorsal_forerunner	ISM1	1	2.083	3	shared with midbrain_hindbrain_boundary
+dorsal_forerunner	SOX32	18	2	4	shared with endoderm
+dorsal_forerunner	SOX17	44	1.583	9	shared with endoderm
+dorsal_forerunner	CDH1	3	1.083	16	shared with prechordal_plate
+dorsal_forerunner	CNPY1	1	0.9167	19	shared with midbrain_hindbrain_boundary
+dorsal_organizer	GADD45BA	1	2.5	6	shared with presomitic_mesoderm
+dorsal_organizer	OSR1	2	2.333	12	shared with intermediate_mesoderm
+dorsal_organizer	FOXD3	1	2.333	13	shared with neural_crest
+dorsal_organizer	RIPPLY1	1	2.25	15	shared with presomitic_mesoderm
+dorsal_organizer	ISM1	1	2.083	16	shared with midbrain_hindbrain_boundary
+dorsal_organizer	ARL4AB	1	2	17	shared with forebrain_eye (tie)
+dorsal_organizer	LHX1A	1	1.917	18	shared with intermediate_mesoderm
+dorsal_organizer	FOXA3	2	1.583	21	shared with endoderm
+dorsal_organizer	FOXJ1A	2	1.5	24	shared with dorsal_forerunner
+dorsal_organizer	EFNB2A	1	1.5	26	shared with hindbrain
+dorsal_organizer	FOXD5	1	1.5	27	shared with tailbud
+dorsal_organizer	TBX1	1	1.333	29	shared with lateral_plate
+dorsal_organizer	HER9	1	1.167	31	shared with forebrain_eye
+dorsal_organizer	OTX1A	1	1.167	32	shared with midbrain_hindbrain_boundary
+dorsal_organizer	UNCX4.1	1	1.167	33	shared with hindbrain (tie)
+dorsal_organizer	NNR	1	1	36	shared with dorsal_forerunner (tie)
+dorsal_organizer	RASL11B	2	0.9167	37	shared with tailbud
+dorsal_organizer	NKX6.1	1	0.75	41	shared with endoderm (tie)
+endoderm	GRHL3	1	2.417	1	shared with EVL
+endoderm	GATA6	1	2.083	5	shared with lateral_plate
+endoderm	FSCN1A	1	1.917	7	shared with mesoderm
+endoderm	CXCL12B	1	1.917	8	shared with mesoderm
+endoderm	IRX3A	1	1.75	10	shared with neural_plate
+endoderm	IDH1	1	1.667	11	shared with adaxial_somite
+endoderm	TBX1	1	1.333	15	shared with lateral_plate
+endoderm	PTGS2A	1	1.333	16	shared with placodes (tie)
+endoderm	NEUROD1	2	0.5	27	shared with primary_neurons
+forebrain_eye	NOTO	5	2.833	1	shared with dorsal_organizer
+forebrain_eye	ELOVL6	1	2.083	6	shared with prechordal_plate
+forebrain_eye	CXCR4A	4	1.833	10	shared with dorsal_forerunner
+forebrain_eye	EFNB2A	3	1.5	14	shared with hindbrain (tie)
+forebrain_eye	MDKB	3	1.417	15	shared with midbrain_hindbrain_boundary (tie)
+forebrain_eye	DBX1A	2	1.417	17	shared with hindbrain (tie)
+forebrain_eye	RND1L	1	1.333	19	shared with hindbrain (tie)
+forebrain_eye	SHISA2	1	1.333	20	shared with midbrain_hindbrain_boundary (tie)
+forebrain_eye	OTX1B	5	1.25	22	shared with midbrain_hindbrain_boundary (tie)
+forebrain_eye	OTX1A	2	1.167	27	shared with midbrain_hindbrain_boundary (tie)
+forebrain_eye	CDH1	1	1.083	32	shared with prechordal_plate
+hatching_gland	XBP1	3	2.333	8	shared with notochord (tie)
+hatching_gland	ZGC:162964	1	2.333	9	shared with notochord (tie)
+hatching_gland	ELOVL6	1	2.083	11	shared with forebrain_eye (tie)
+hatching_gland	TRAM1	1	1.417	22	shared with axial_mesoderm (tie)
+hatching_gland	SHISA2	1	1.333	26	shared with midbrain_hindbrain_boundary (tie)
+hatching_gland	SI:CH211-153B23.5	1	1.25	28	shared with forebrain_eye (tie)
+hatching_gland	TJP3	1	1.167	31	shared with dorsal_forerunner (tie)
+hatching_gland	FAM46BA	1	1.083	32	shared with neural_crest (tie)
+hindbrain	CXCL12A	1	1.667	5	shared with mesoderm
+hindbrain	EFEMP2B	1	1.417	9	shared with presomitic_mesoderm
+hindbrain	SI:CH211-152C2.3	1	1.333	13	shared with dorsal_forerunner (tie)
+hindbrain	SOX2	7	1.083	17	shared with forebrain_eye
+hindbrain	SOX21A	2	0.75	26	shared with midbrain_hindbrain_boundary
+intermediate_mesoderm	FOXJ1A	3	1.5	7	shared with dorsal_forerunner
+intermediate_mesoderm	MSX3	1	0.75	11	shared with neural_crest
+intermediate_mesoderm	FOXJ1B	2	0.3333	16	shared with placodes
+intermediate_mesoderm	EMILIN1A	1	0.25	18	shared with midbrain_hindbrain_boundary
+lateral_plate	KLF17	2	2.917	1	shared with hatching_gland
+lateral_plate	GATA5	11	2.333	2	shared with endoderm
+lateral_plate	OSR1	1	2.333	3	shared with intermediate_mesoderm
+lateral_plate	FTR82	1	2.083	6	shared with intermediate_mesoderm (tie)
+lateral_plate	CXCL12B	1	1.917	9	shared with adaxial_somite
+lateral_plate	FOXJ1A	2	1.5	11	shared with dorsal_forerunner
+lateral_plate	ZNFL2A	1	1.25	15	shared with tailbud
+lateral_plate	PTGS1	1	0.4167	34	shared with intermediate_mesoderm (tie)
+margin	NOTO	5	2.833	3	shared with forebrain_eye (tie)
+margin	TAGLN2	1	2.5	9	shared with EVL
+margin	GRHL3	1	2.417	13	shared with EVL
+margin	FOXD3	1	2.333	20	shared with neural_crest
+margin	CA15B	1	2.25	24	shared with PGC
+margin	ISM1	1	2.083	32	shared with midbrain_hindbrain_boundary
+margin	CDKN1CA	1	2.083	34	shared with primary_neurons (tie)
+mesoderm	FZD8B	1	2.5	5	shared with neural_plate (tie)
+mesoderm	GADD45BA	1	2.5	6	shared with dorsal_organizer (tie)
+mesoderm	HER6	2	2.417	10	shared with neural_plate
+mesoderm	GATA5	9	2.333	11	shared with endoderm
+mesoderm	FOXD3	1	2.333	12	shared with neural_crest
+mesoderm	OSR1	1	2.333	13	shared with dorsal_organizer
+mesoderm	ISM1	1	2.083	16	shared with midbrain_hindbrain_boundary
+mesoderm	SIX3B	2	1.917	27	shared with forebrain_eye
+mesoderm	LHX1A	1	1.917	28	shared with notochord
+mesoderm	IRX3A	2	1.75	32	shared with neural_plate (tie)
+mesoderm	MIXL1	2	1.75	33	shared with endoderm
+mesoderm	AKAP12B	1	1.667	35	shared with neural_plate
+mesoderm	IDH1	1	1.667	36	shared with endoderm (tie)
+mesoderm	CTSLB	5	1.5	38	shared with prechordal_plate
+midbrain_hindbrain_boundary	IRX7	3	2	5	shared with hindbrain (tie)
+midbrain_hindbrain_boundary	OTX2	14	1.083	12	shared with forebrain_eye
+midbrain_hindbrain_boundary	IRX1A	1	0.3333	28	shared with placodes (tie)
+neural_crest	VED	1	2.917	1	shared with margin
+neural_crest	FOXI1	1	2.583	2	shared with placodes
+neural_crest	CITED4B	1	1.333	9	shared with hatching_gland
+neural_crest	ZBTB10	1	0.25	25	shared with primary_neurons (tie)
+neural_plate	NOTO	3	2.833	1	shared with dorsal_organizer
+neural_plate	TFAP2A	1	2.417	5	shared with non_neural_ectoderm
+neural_plate	STM	1	2.333	6	shared with dorsal_forerunner (tie)
+neural_plate	ARL4AB	1	2	11	shared with adaxial_somite (tie)
+neural_plate	MDKA	1	1.75	19	shared with presomitic_mesoderm
+neural_plate	KLF6A	1	1.583	30	shared with notochord (tie)
+neural_plate	VGLL4L	1	1.583	31	shared with dorsal_forerunner
+neural_plate	CYP26C1	1	1.5	36	shared with presomitic_mesoderm (tie)
+non_neural_ectoderm	GRHL3	1	2.417	4	shared with EVL
+non_neural_ectoderm	DLX3B	4	1.667	5	shared with neural_plate
+non_neural_ectoderm	GATA2A	8	1.333	6	shared with lateral_plate
+non_neural_ectoderm	CDH1	1	1.083	8	shared with prechordal_plate
+notochord	FOXA2	5	2.167	7	shared with endoderm
+notochord	CDKN1CA	2	2.083	8	shared with adaxial_somite (tie)
+notochord	ISM1	1	2.083	10	shared with midbrain_hindbrain_boundary
+notochord	LHX1A	4	1.917	11	shared with intermediate_mesoderm
+notochord	ELL2	1	1.75	13	shared with hatching_gland (tie)
+notochord	RASSF7B	1	1.75	14	shared with dorsal_forerunner
+notochord	AKAP12B	1	1.667	15	shared with neural_plate
+notochord	TDGF1	1	1.583	18	shared with neural_plate
+notochord	CALR3B	1	1.5	22	shared with hatching_gland (tie)
+notochord	NTD5	1	1.5	23	shared with adaxial_somite (tie)
+notochord	RRBP1B	1	1.5	24	shared with hatching_gland (tie)
+notochord	STK10	1	1.5	25	shared with hatching_gland (tie)
+notochord	HSPA5	3	1.417	26	shared with hatching_gland (tie)
+notochord	FAM212AA	1	1.417	27	shared with neural_crest
+notochord	TRAM1	1	1.417	28	shared with hatching_gland (tie)
+notochord	CITED4B	2	1.333	29	shared with hatching_gland (tie)
+notochord	SEC61G	1	1.333	31	shared with hatching_gland (tie)
+notochord	APELA	1	1.083	34	shared with dorsal_forerunner (tie)
+placodes	GATA3	1	2.833	1	shared with primary_neurons
+placodes	TFAP2A	1	2.417	3	shared with neural_crest
+placodes	PNOCB	1	1.667	6	shared with primary_neurons (tie)
+placodes	NEUROD1	2	0.5	18	shared with primary_neurons
+placodes	PRDM12B	1	0.5	19	shared with midbrain_hindbrain_boundary
+placodes	INSM1A	1	0.5	21	shared with primary_neurons (tie)
+placodes	TLX3B	1	0.25	31	shared with primary_neurons (tie)
+prechordal_plate	KLF17	1	2.917	2	shared with lateral_plate
+prechordal_plate	APLNRA	1	2.667	4	shared with presomitic_mesoderm (tie)
+prechordal_plate	FZD8B	1	2.5	7	shared with neural_plate (tie)
+prechordal_plate	OSR1	1	2.333	11	shared with intermediate_mesoderm
+prechordal_plate	STM	1	2.333	12	shared with forebrain_eye
+prechordal_plate	SIX3B	1	1.917	15	shared with forebrain_eye
+prechordal_plate	ELL2	1	1.75	16	shared with notochord (tie)
+prechordal_plate	IDH1	1	1.667	18	shared with adaxial_somite
+prechordal_plate	OVOL1	1	1.667	19	shared with neural_crest (tie)
+prechordal_plate	CALR3B	1	1.5	22	shared with notochord (tie)
+prechordal_plate	DBX1A	2	1.417	24	shared with hindbrain (tie)
+prechordal_plate	TRAM1	1	1.417	25	shared with axial_mesoderm (tie)
+prechordal_plate	PRDM1A	2	1.333	28	shared with adaxial_somite
+prechordal_plate	SHISA2	1	1.333	29	shared with midbrain_hindbrain_boundary (tie)
+prechordal_plate	OTX1B	3	1.25	30	shared with midbrain_hindbrain_boundary
+prechordal_plate	FGF17	1	1.25	32	shared with forebrain_eye (tie)
+presomitic_mesoderm	HER6	1	2.417	5	shared with neural_plate
+presomitic_mesoderm	HES6	3	2.083	11	shared with tailbud (tie)
+presomitic_mesoderm	APLNRB	2	1.917	19	shared with lateral_plate
+presomitic_mesoderm	CXCL12B	1	1.917	20	shared with endoderm (tie)
+presomitic_mesoderm	HER2	1	1.75	24	shared with hindbrain (tie)
+presomitic_mesoderm	SLC2A12	1	1.75	25	shared with neural_plate (tie)
+presomitic_mesoderm	FOXD5	2	1.5	28	shared with tailbud (tie)
+presomitic_mesoderm	CYP26C1	1	1.5	29	shared with hindbrain
+presomitic_mesoderm	BLF	1	1.5	30	shared with lateral_plate (tie)
+primary_neurons	GATA3	2	2.833	1	shared with non_neural_ectoderm
+primary_neurons	TFAP2A	2	2.417	2	shared with neural_crest
+primary_neurons	CDKN1CA	1	2.083	3	shared with adaxial_somite
+primary_neurons	TFAP2C	1	0.8333	8	shared with non_neural_ectoderm
+primary_neurons	PRDM12B	1	0.5	19	shared with midbrain_hindbrain_boundary
+primary_neurons	SCRT2	1	0.4167	21	shared with placodes
+primary_neurons	SIX4B	2	0.25	22	shared with placodes
+primary_neurons	INSM1B	1	0.1667	25	shared with placodes
+primary_neurons	EYA1	1	0.1667	27	shared with placodes
+tailbud	SULT6B1	1	3	1	shared with dorsal_forerunner (tie)
+tailbud	EVE1	7	2.417	2	shared with mesoderm
+tailbud	MSGN1	2	2.25	4	shared with presomitic_mesoderm
+tailbud	FOXJ1A	3	1.5	11	shared with dorsal_forerunner
+tailbud	NKX1.2LA	1	1.5	13	shared with neural_plate
+tailbud	TBX6L	6	1.333	14	shared with presomitic_mesoderm
+tailbud	CITED4B	1	1.333	15	shared with hatching_gland
+tailbud	FAM212AB	1	0.9167	24	shared with hindbrain (tie)
+tailbud	LFNG	1	0.75	28	shared with hindbrain (tie)
+tailbud	TAGLN3B	1	0.6667	34	shared with dorsal_forerunner (tie)
+EVL	TFAP2A	1	2.417	33	shared with neural_crest
+EVL	ZGC:162964	1	2.333	35	shared with notochord (tie)
+adaxial_somite	FAM46BA	1	1.083	39	shared with neural_crest (tie)
+axial_mesoderm	BTG2	1	1	25	shared with presomitic_mesoderm
+axial_mesoderm	ARG2	1	0.5833	41	shared with dorsal_forerunner (tie)
+axial_mesoderm	TSKU	1	0.5833	42	shared with tailbud (tie)
+axial_mesoderm	CDH2	2	0.5	43	shared with dorsal_forerunner
+dorsal_forerunner	DRL	1	0.4167	38	shared with lateral_plate
+dorsal_forerunner	FZD10	1	0.4167	42	shared with tailbud (tie)
+dorsal_organizer	SEBOX	1	0.75	42	shared with endoderm
+dorsal_organizer	TWIST1B	1	0.4167	47	shared with neural_crest
+dorsal_organizer	FOXJ1B	1	0.3333	48	shared with placodes
+forebrain_eye	ARL4AB	1	2	7	shared with margin
+forebrain_eye	FGF17	1	1.25	23	shared with presomitic_mesoderm
+forebrain_eye	OLIG3	1	1	35	shared with hindbrain (tie)
+forebrain_eye	ZIC3	4	0.9167	37	shared with midbrain_hindbrain_boundary (tie)
+forebrain_eye	DMBX1A	3	0.9167	39	shared with midbrain_hindbrain_boundary
+forebrain_eye	FZD8A	2	0.9167	40	shared with prechordal_plate
+forebrain_eye	PITX3	1	0.9167	43	shared with placodes (tie)
+forebrain_eye	CSRP1A	1	0.9167	44	shared with axial_mesoderm
+hatching_gland	CNPY1	2	0.9167	39	shared with midbrain_hindbrain_boundary (tie)
+hatching_gland	CSRP1A	1	0.9167	41	shared with axial_mesoderm
+hatching_gland	PAK1	1	0.9167	43	shared with axial_mesoderm
+hindbrain	UNCX4.1	1	1.167	15	shared with adaxial_somite
+hindbrain	PHOX2A	1	0.6667	33	shared with midbrain_hindbrain_boundary
+hindbrain	GBX2	3	0.5833	34	shared with midbrain_hindbrain_boundary (tie)
+intermediate_mesoderm	SWAP70B	1	0.9167	9	shared with forebrain_eye
+intermediate_mesoderm	FZD8A	1	0.9167	10	shared with prechordal_plate
+lateral_plate	ISL2B	1	0.25	41	shared with placodes (tie)
+lateral_plate	CEBPA	1	0.25	42	shared with intermediate_mesoderm (tie)
+lateral_plate	SIX4B	1	0.25	43	shared with placodes
+margin	IRX7	1	2	45	shared with neural_plate
+mesoderm	SI:DKEY-261H17.1	2	1.333	45	shared with notochord (tie)
+mesoderm	RND1L	1	1.333	46	shared with hindbrain (tie)
+mesoderm	ZNFL2A	1	1.25	51	shared with tailbud
+mesoderm	GID8B	1	1.083	56	shared with endoderm (tie)
+midbrain_hindbrain_boundary	INSM1B	1	0.1667	36	shared with placodes
+neural_crest	ZIC2B	1	0.9167	12	shared with forebrain_eye
+neural_plate	PRDM1A	4	1.333	41	shared with adaxial_somite
+neural_plate	SI:CH211-152C2.3	1	1.333	45	shared with dorsal_forerunner (tie)
+notochord	FOXA1	1	1	37	shared with endoderm
+notochord	CSRP1A	1	0.9167	43	shared with prechordal_plate
+notochord	RASL11B	1	0.9167	45	shared with tailbud
+notochord	GPD1B	1	0.8333	50	shared with hindbrain (tie)
+notochord	FN1A	2	0.75	53	shared with tailbud (tie)
+notochord	SEC61A1L	2	0.75	54	shared with prechordal_plate (tie)
+placodes	CHODL	1	0.1667	34	shared with primary_neurons (tie)
+prechordal_plate	CSRP1A	2	0.9167	41	shared with axial_mesoderm (tie)
+prechordal_plate	SEC61A1L	2	0.75	46	shared with axial_mesoderm (tie)
+prechordal_plate	SMOX	1	0.75	48	shared with primary_neurons (tie)
+prechordal_plate	CMTM6	1	0.6667	53	shared with tailbud (tie)
+presomitic_mesoderm	TBX1	1	1.333	37	shared with lateral_plate
+presomitic_mesoderm	APELA	1	1.083	42	shared with dorsal_forerunner (tie)
+axial_mesoderm	EPHA4A	3	0.6667	38	shared with forebrain_eye
+axial_mesoderm	MNX1	1	0.5	46	shared with endoderm
+dorsal_organizer	EPHA4A	1	0.6667	43	shared with forebrain_eye
+forebrain_eye	LFNG	1	0.75	48	shared with hindbrain (tie)
+forebrain_eye	SOX13	1	0.75	49	shared with hindbrain (tie)
+forebrain_eye	GRHL2B	1	0.6667	52	shared with placodes
+lateral_plate	MNX2B	1	0.1667	46	shared with endoderm (tie)
+mesoderm	APELA	1	1.083	57	shared with dorsal_forerunner (tie)
+mesoderm	DACT2	3	1	59	shared with dorsal_organizer
+neural_crest	CNN3A	1	0.4167	22	shared with axial_mesoderm
+prechordal_plate	COL8A1A	1	0.75	50	shared with notochord
+prechordal_plate	GRHL2B	1	0.6667	56	shared with placodes
+prechordal_plate	ISL1	1	0.6667	57	shared with primary_neurons
+dorsal_organizer	MYCH	1	0.1667	52	shared with lateral_plate (tie)
+forebrain_eye	STOX1	1	0.6667	55	shared with axial_mesoderm (tie)
+prechordal_plate	PRDM14	1	0.5833	61	shared with primary_neurons (tie)
+forebrain_eye	OTPB	3	0.5833	56	shared with hindbrain (tie)
+forebrain_eye	PRDM14	1	0.5833	57	shared with primary_neurons (tie)
+forebrain_eye	CLDN5A	1	0.5833	58	shared with dorsal_forerunner

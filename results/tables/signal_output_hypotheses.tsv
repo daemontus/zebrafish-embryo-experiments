@@ -1,0 +1,25 @@
+output	partner	expected	reason	stages	first	last	best_stage	best_auc	median_auc	consistent_stages	opposite_stages	median_r	verdict
+signal:Nodal	margin	+	Nodal is made and received at the margin	11	high	6-somite	dome	0.958	0.839	high,dome,30% epiboly,50% epiboly,shield,60% epiboly,75% epiboly,90% epiboly		0.399	consistent
+signal:Nodal	endoderm	+	and in the endoderm precursors	10	dome	6-somite	30% epiboly	0.997	0.807	dome,30% epiboly,50% epiboly,shield,60% epiboly,75% epiboly		0.189	consistent
+signal:BMP	non_neural_ectoderm	+	BMP is received ventrally, in the non-neural ectoderm	10	dome	6-somite	90% epiboly	0.921	0.854	shield,60% epiboly,75% epiboly,90% epiboly,bud,3-somite,6-somite	dome,30% epiboly,50% epiboly	0.47	mixed
+sending:BMP_organizer	dorsal_organizer	+	admp is a BMP ligand of the organizer	10	dome	6-somite	75% epiboly	0.779	0.633	shield,60% epiboly,75% epiboly,90% epiboly,bud		0.438	consistent
+sending:BMP_organizer	signal:BMP	-	and the organizer has low BMP	10	dome	6-somite	30% epiboly	0.119	0.163	dome,30% epiboly,50% epiboly,shield,60% epiboly,75% epiboly,90% epiboly,bud,3-somite,6-somite		-0.273	consistent
+blocking:BMP	dorsal_organizer	+	chordin and noggin come from the organizer	10	dome	6-somite	60% epiboly	0.933	0.84	dome,30% epiboly,50% epiboly,shield,60% epiboly,75% epiboly,90% epiboly,bud,3-somite		0.693	consistent
+blocking:BMP	signal:BMP	-	cells that secrete BMP antagonists have low BMP	10	dome	6-somite	30% epiboly	0.138	0.33	dome,30% epiboly,50% epiboly,75% epiboly,90% epiboly,bud		-0.163	consistent
+signal:Wnt	margin	+	Wnt8 is made and received at the ventrolateral margin	11	high	6-somite	shield	0.946	0.801	dome,30% epiboly,50% epiboly,shield,60% epiboly,75% epiboly,90% epiboly,bud,3-somite,6-somite		0.535	consistent
+signal:Wnt	tailbud	+	and later in the tailbud	10	dome	6-somite	50% epiboly	0.969	0.899	dome,30% epiboly,50% epiboly,shield,60% epiboly,75% epiboly,90% epiboly,bud,3-somite,6-somite		0.58	consistent
+blocking:Wnt	dorsal_organizer	+	Dkk1 and Frzb come from the organizer	10	dome	6-somite	50% epiboly	0.856	0.764	dome,30% epiboly,50% epiboly,shield,60% epiboly,75% epiboly,90% epiboly,bud		0.474	consistent
+blocking:Wnt	prechordal_plate	+	and from the prechordal plate	10	dome	6-somite	60% epiboly	0.957	0.729	dome,30% epiboly,50% epiboly,shield,60% epiboly,75% epiboly	6-somite	0.623	mixed
+blocking:Wnt	signal:Wnt	-	cells that secrete Wnt antagonists have low Wnt	10	dome	6-somite	3-somite	0.0684	0.452	90% epiboly,3-somite,6-somite	dome,30% epiboly,50% epiboly,shield	-0.0796	mixed
+signal:FGF	margin	+	Fgf8 and Fgf24 are made and received at the margin	11	high	6-somite	shield	0.961	0.851	high,dome,30% epiboly,50% epiboly,shield,60% epiboly,75% epiboly,90% epiboly,bud,3-somite,6-somite		0.566	consistent
+signal:FGF	tailbud	+	and in the tailbud	10	dome	6-somite	50% epiboly	0.94	0.86	dome,30% epiboly,50% epiboly,shield,60% epiboly,75% epiboly,90% epiboly,bud,3-somite,6-somite		0.518	consistent
+signal:FGF	midbrain_hindbrain_boundary	+	Fgf8 at the MHB organizer	10	dome	6-somite	30% epiboly	0.906	0.44	dome,30% epiboly,50% epiboly	bud	-0.169	mixed
+sending:RA	presomitic_mesoderm	+	aldh1a2 in the paraxial mesoderm	9	30% epiboly	6-somite	shield	0.954	0.878	30% epiboly,50% epiboly,shield,60% epiboly,75% epiboly,90% epiboly,bud,3-somite,6-somite		0.82	consistent
+sending:RA	blocking:RA	-	RA is made and degraded in different tissues	9	30% epiboly	6-somite	bud	0.197	0.574	75% epiboly,90% epiboly,bud	30% epiboly	-0.0415	mixed
+blocking:RA	tailbud	+	cyp26a1 in the tailbud	10	dome	6-somite	3-somite	0.898	0.635	30% epiboly,shield,3-somite,6-somite	dome	0.2	mixed
+blocking:RA	forebrain_eye	+	and in the anterior neural plate	10	dome	6-somite	90% epiboly	0.823	0.602	shield,60% epiboly,75% epiboly,90% epiboly,bud	dome,30% epiboly,50% epiboly,6-somite	0.113	mixed
+sending:Hedgehog	axial_mesoderm	+	shha in the axial mesoderm	8	50% epiboly	6-somite	75% epiboly	0.713	0.61	75% epiboly,90% epiboly		0.442	consistent
+sending:Hedgehog	notochord	+	and the notochord	8	50% epiboly	6-somite	90% epiboly	0.797	0.666	60% epiboly,75% epiboly,90% epiboly,bud		0.372	consistent
+sending:Notch	presomitic_mesoderm	+	deltaC/D in the presomitic mesoderm	10	dome	6-somite	6-somite	0.843	0.686	60% epiboly,75% epiboly,90% epiboly,bud,3-somite,6-somite		0.267	consistent
+sending:Notch	primary_neurons	+	deltaA/B in the primary neurons	8	50% epiboly	6-somite	6-somite	0.766	0.387	3-somite,6-somite	50% epiboly,shield,75% epiboly,90% epiboly	-0.101	mixed
+sending:Notch	receiving:Notch	+	Delta-expressing cells and their neighbours respond	8	30% epiboly	6-somite	6-somite	0.863	0.718	60% epiboly,75% epiboly,90% epiboly,bud,3-somite,6-somite		0.304	consistent

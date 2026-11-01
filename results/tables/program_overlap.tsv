@@ -1,0 +1,50 @@
+stage	module	genes	best	share	second	second_share	named
+shield	farrell:shield:0	30		0.000		0.000	False
+shield	farrell:shield:1	30	mesoderm	0.435	presomitic_mesoderm	0.304	True
+shield	farrell:shield:10	30		0.000		0.000	False
+shield	farrell:shield:11	30		0.000		0.000	False
+shield	farrell:shield:12	30	PGC	0.500		0.000	True
+shield	farrell:shield:13	30	state:cell_cycle_g2m	0.300		0.000	True
+shield	farrell:shield:14	30	midbrain_hindbrain_boundary	0.286	forebrain_eye	0.222	True
+shield	farrell:shield:15	30		0.000		0.000	False
+shield	farrell:shield:16	30	state:cell_cycle_g2m	0.400		0.000	True
+shield	farrell:shield:17	30		0.000		0.000	False
+shield	farrell:shield:18	30		0.000		0.000	False
+shield	farrell:shield:19	30		0.000		0.000	False
+shield	farrell:shield:2	30	EVL	0.500		0.000	True
+shield	farrell:shield:20	30	EVL	0.300		0.000	True
+shield	farrell:shield:21	30	state:cell_cycle_s	0.300		0.000	True
+shield	farrell:shield:22	30	state:cell_cycle_g2m	0.600		0.000	True
+shield	farrell:shield:23	30		0.000		0.000	False
+shield	farrell:shield:24	30		0.000		0.000	False
+shield	farrell:shield:3	30	signal:BMP	0.500	margin	0.300	True
+shield	farrell:shield:4	30	dorsal_organizer	0.214	notochord	0.200	True
+shield	farrell:shield:5	30	state:blastomere	0.500	forebrain_eye	0.167	True
+shield	farrell:shield:6	30		0.000		0.000	False
+shield	farrell:shield:7	30	midbrain_hindbrain_boundary	0.214	dorsal_organizer	0.214	True
+shield	farrell:shield:8	30	signal:BMP	0.500	margin	0.100	True
+shield	farrell:shield:9	30	endoderm	0.308	margin	0.233	True
+75% epiboly	farrell:75% epiboly:0	30		0.000		0.000	False
+75% epiboly	farrell:75% epiboly:1	30	margin	0.267	presomitic_mesoderm	0.200	True
+75% epiboly	farrell:75% epiboly:10	30	state:cell_cycle_g2m	0.800		0.000	True
+75% epiboly	farrell:75% epiboly:11	30	mesoderm	0.233	margin	0.167	True
+75% epiboly	farrell:75% epiboly:12	30		0.000		0.000	False
+75% epiboly	farrell:75% epiboly:13	30	midbrain_hindbrain_boundary	0.292	neural_plate	0.200	True
+75% epiboly	farrell:75% epiboly:14	30	forebrain_eye	0.321	neural_plate	0.200	True
+75% epiboly	farrell:75% epiboly:15	30	forebrain_eye	0.107	neural_plate	0.100	False
+75% epiboly	farrell:75% epiboly:16	30		0.000		0.000	False
+75% epiboly	farrell:75% epiboly:17	30	PGC	0.700		0.000	True
+75% epiboly	farrell:75% epiboly:18	30	state:p53_response	0.500		0.000	True
+75% epiboly	farrell:75% epiboly:19	30	signal:BMP	0.750	margin	0.233	True
+75% epiboly	farrell:75% epiboly:2	30	dorsal_organizer	0.238	axial_mesoderm	0.207	True
+75% epiboly	farrell:75% epiboly:20	30	presomitic_mesoderm	0.367	mesoderm	0.333	True
+75% epiboly	farrell:75% epiboly:21	30		0.000		0.000	False
+75% epiboly	farrell:75% epiboly:22	30	EVL	0.300	dorsal_forerunner	0.100	True
+75% epiboly	farrell:75% epiboly:23	30		0.000		0.000	False
+75% epiboly	farrell:75% epiboly:3	30	non_neural_ectoderm	0.556	signal:BMP	0.375	True
+75% epiboly	farrell:75% epiboly:4	30		0.000		0.000	False
+75% epiboly	farrell:75% epiboly:5	30	EVL	0.500		0.000	True
+75% epiboly	farrell:75% epiboly:6	30	signal:Wnt	0.500	tailbud	0.179	True
+75% epiboly	farrell:75% epiboly:7	30	endoderm	0.286	dorsal_forerunner	0.133	True
+75% epiboly	farrell:75% epiboly:8	30	hatching_gland	0.300	prechordal_plate	0.133	True
+75% epiboly	farrell:75% epiboly:9	30	state:blastomere	0.500	signal:Wnt	0.500	True

@@ -1,20 +1,59 @@
 stage	signal	A	B	A_high	B_low	A_low	B_high
-75% epiboly	BMP	non_neural_ectoderm	neural_plate	568	644	19	42
-90% epiboly	BMP	non_neural_ectoderm	neural_plate	595	691	36	47
-bud	BMP	non_neural_ectoderm	neural_plate	688	1108	102	43
-3-somite	BMP	non_neural_ectoderm	neural_plate	111	153	30	11
-6-somite	BMP	non_neural_ectoderm	neural_plate	328	412	113	67
-shield	Nodal	margin	presumptive_neural	178	14	42	3
-60% epiboly	Nodal	margin	presumptive_neural	765	172	444	21
-75% epiboly	Nodal	margin	presumptive_neural	910	255	911	46
-90% epiboly	Nodal	margin	presumptive_neural	602	295	867	51
-bud	Nodal	margin	presumptive_neural	241	244	1303	61
-bud	Wnt	tailbud	forebrain_eye	994	1137	317	12
-3-somite	Wnt	tailbud	forebrain_eye	196	225	38	3
-6-somite	Wnt	tailbud	forebrain_eye	599	649	51	15
-75% epiboly	FGF	mesoderm	non_neural_ectoderm	580	586	549	1
-90% epiboly	FGF	mesoderm	non_neural_ectoderm	560	629	611	2
-bud	FGF	mesoderm	non_neural_ectoderm	835	796	512	1
-bud	Notch	presomitic_mesoderm	lateral_plate	853	493	398	47
-3-somite	Notch	presomitic_mesoderm	lateral_plate	181	132	57	5
-6-somite	Notch	presomitic_mesoderm	lateral_plate	420	381	339	8
+high	signal:BMP	non_neural_ectoderm	neural_plate	2	0	4	1
+oblong	signal:BMP	non_neural_ectoderm	neural_plate	1	0	8	0
+dome	signal:BMP	non_neural_ectoderm	neural_plate	1	4	28	10
+30% epiboly	signal:BMP	non_neural_ectoderm	neural_plate	2	25	10	28
+50% epiboly	signal:BMP	non_neural_ectoderm	neural_plate	63	202	28	248
+shield	signal:BMP	non_neural_ectoderm	neural_plate	57	84	4	25
+60% epiboly	signal:BMP	non_neural_ectoderm	neural_plate	491	313	11	191
+75% epiboly	signal:BMP	non_neural_ectoderm	neural_plate	796	590	22	72
+90% epiboly	signal:BMP	non_neural_ectoderm	neural_plate	748	682	32	5
+bud	signal:BMP	non_neural_ectoderm	neural_plate	869	920	70	45
+3-somite	signal:BMP	non_neural_ectoderm	neural_plate	144	136	42	20
+6-somite	signal:BMP	non_neural_ectoderm	neural_plate	434	314	118	102
+high	signal:Nodal	margin	neural_plate	8	0	3	0
+oblong	signal:Nodal	margin	neural_plate	3	0	0	0
+dome	signal:Nodal	margin	neural_plate	93	5	12	0
+30% epiboly	signal:Nodal	margin	neural_plate	135	18	45	0
+50% epiboly	signal:Nodal	margin	neural_plate	561	174	288	4
+shield	signal:Nodal	margin	neural_plate	169	69	76	0
+60% epiboly	signal:Nodal	margin	neural_plate	671	250	483	1
+75% epiboly	signal:Nodal	margin	neural_plate	963	474	953	54
+90% epiboly	signal:Nodal	margin	neural_plate	696	546	924	99
+bud	signal:Nodal	margin	neural_plate	319	792	1549	158
+3-somite	signal:Nodal	margin	neural_plate	9	127	345	29
+6-somite	signal:Nodal	margin	neural_plate	70	339	829	50
+high	signal:Wnt	tailbud	forebrain_eye	0	1	0	1
+oblong	signal:Wnt	tailbud	forebrain_eye	0	1	0	1
+dome	signal:Wnt	tailbud	forebrain_eye	10	16	2	20
+30% epiboly	signal:Wnt	tailbud	forebrain_eye	74	30	20	9
+50% epiboly	signal:Wnt	tailbud	forebrain_eye	520	206	21	44
+shield	signal:Wnt	tailbud	forebrain_eye	162	65	1	13
+60% epiboly	signal:Wnt	tailbud	forebrain_eye	801	536	12	24
+75% epiboly	signal:Wnt	tailbud	forebrain_eye	1101	982	80	8
+90% epiboly	signal:Wnt	tailbud	forebrain_eye	923	859	190	1
+bud	signal:Wnt	tailbud	forebrain_eye	1091	1102	288	8
+3-somite	signal:Wnt	tailbud	forebrain_eye	203	216	40	0
+6-somite	signal:Wnt	tailbud	forebrain_eye	543	631	80	7
+high	signal:FGF	mesoderm	non_neural_ectoderm	2	3	8	6
+oblong	signal:FGF	mesoderm	non_neural_ectoderm	2	2	1	6
+dome	signal:FGF	mesoderm	non_neural_ectoderm	66	36	8	14
+30% epiboly	signal:FGF	mesoderm	non_neural_ectoderm	182	24	26	9
+50% epiboly	signal:FGF	mesoderm	non_neural_ectoderm	929	128	113	43
+shield	signal:FGF	mesoderm	non_neural_ectoderm	220	57	28	4
+60% epiboly	signal:FGF	mesoderm	non_neural_ectoderm	799	502	217	0
+75% epiboly	signal:FGF	mesoderm	non_neural_ectoderm	1018	810	501	8
+90% epiboly	signal:FGF	mesoderm	non_neural_ectoderm	762	782	622	0
+bud	signal:FGF	mesoderm	non_neural_ectoderm	847	958	920	1
+3-somite	signal:FGF	mesoderm	non_neural_ectoderm	191	176	149	14
+6-somite	signal:FGF	mesoderm	non_neural_ectoderm	461	514	516	39
+dome	receiving:Notch	presomitic_mesoderm	lateral_plate	45	3	77	0
+30% epiboly	receiving:Notch	presomitic_mesoderm	lateral_plate	18	0	98	0
+50% epiboly	receiving:Notch	presomitic_mesoderm	lateral_plate	108	4	344	13
+shield	receiving:Notch	presomitic_mesoderm	lateral_plate	8	1	147	0
+60% epiboly	receiving:Notch	presomitic_mesoderm	lateral_plate	175	52	438	13
+75% epiboly	receiving:Notch	presomitic_mesoderm	lateral_plate	401	111	635	26
+90% epiboly	receiving:Notch	presomitic_mesoderm	lateral_plate	406	217	550	48
+bud	receiving:Notch	presomitic_mesoderm	lateral_plate	698	331	535	100
+3-somite	receiving:Notch	presomitic_mesoderm	lateral_plate	152	106	82	2
+6-somite	receiving:Notch	presomitic_mesoderm	lateral_plate	386	322	409	5

@@ -1,4 +1,4 @@
-"""Shared helpers of the program analyses (scripts 16-19).
+"""Shared helpers of the program analyses (scripts 16-23).
 
 Smoothing over library neighbourhoods, the held-out prediction test (one
 logistic regression per evaluation gene; floor, feature sets and the knn
@@ -31,7 +31,9 @@ N_JOBS = 11
 # L2 strength per gene and feature set, by 3-fold CV on the training cells,
 # so that uninformative features shrink towards the floor model.
 CS = [0.003, 0.03, 0.3, 3.0]
-TARGETS = ["detection", "neighbourhood"]
+# The target is the neighbourhood detection frequency (single-cell detection
+# was dropped on 2026-10-29: it said the same at twice the cost).
+TARGETS = ["neighbourhood"]
 Y_MIN = -0.2  # lower limit of figures (lower values are drawn at the limit)
 MIN_SHARE = 0.04  # explainable share of the floor loss below which `explained` is NaN
 
@@ -113,38 +115,42 @@ def neighbourhood_target(norm: sc.AnnData, detect_b: np.ndarray, genes_b: np.nda
 _SHARED: dict = {}
 
 
-def init_worker(bases: dict, feature_sets: list[np.ndarray], train: np.ndarray) -> None:
-    _SHARED.update(bases=bases, feature_sets=feature_sets, train=train)
+def init_worker(base: np.ndarray, target: np.ndarray, knn_p: np.ndarray,
+                features: dict[str, np.ndarray], train: np.ndarray) -> None:
+    _SHARED.update(base=base, target=target, knn_p=knn_p, features=features, train=train)
 
 
-def fit_gene(task) -> tuple[np.ndarray, ...]:
-    """Test loss per cell of the floor, every feature set and the ceiling, one gene.
+def fit_models(task) -> list[float]:
+    """Mean test loss of one evaluation gene for the requested models: "floor"
+    (depth and library), "knn" (the ceiling feature) or a feature set.
 
-    A soft target y in [0, 1] is fitted as a positive with weight y and a
+    The soft target y in [0, 1] is fitted as a positive with weight y and a
     negative with weight 1 - y.
     """
-    target, y, knn_p = task
-    base, feature_sets, train = (_SHARED["bases"][target], _SHARED["feature_sets"],
-                                 _SHARED["train"])
+    j, models = task
+    base, train = _SHARED["base"], _SHARED["train"]
+    y = _SHARED["target"][:, j].astype(float)  # stored as float32; 1 - 1e-12 needs float64
     test = ~train
-    soft = target != "detection"
     out = []
-    logit_knn = np.log((knn_p + 0.01) / (1 - knn_p + 0.01))[:, None]
-    for extra in [None] + feature_sets + [logit_knn]:
-        X = base if extra is None else np.hstack([base, extra])
+    for name in models:
+        if name == "floor":
+            X = base
+        elif name == "knn":
+            p = _SHARED["knn_p"][:, j]
+            X = np.hstack([base, np.log((p + 0.01) / (1 - p + 0.01))[:, None]])
+        else:
+            X = np.hstack([base, _SHARED["features"][name]])
         X = StandardScaler().fit(X[train]).transform(X)
-        Xt, yt = X[train], y[train]
-        weight = None
-        if soft:
-            Xt = np.vstack([Xt, Xt])
-            weight = np.concatenate([yt, 1 - yt])
-            yt = np.concatenate([np.ones(len(yt)), np.zeros(len(yt))])
+        Xt, yt = np.vstack([X[train], X[train]]), y[train]
+        weight = np.concatenate([yt, 1 - yt])
+        yt = np.concatenate([np.ones(len(yt)), np.zeros(len(yt))])
         with warnings.catch_warnings():
             warnings.simplefilter("ignore", ConvergenceWarning)
+            warnings.simplefilter("ignore", FutureWarning)
             model = LogisticRegressionCV(Cs=CS, cv=3, scoring="neg_log_loss", max_iter=500)
             model.fit(Xt, yt, sample_weight=weight)
-        out.append(log_loss(y[test], model.predict_proba(X[test])[:, 1]))
-    return tuple(out)
+        out.append(float(log_loss(y[test], model.predict_proba(X[test])[:, 1]).mean()))
+    return out
 
 
 def farrell_modules() -> dict[str, list[pd.Series]]:

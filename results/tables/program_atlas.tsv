@@ -1,275 +1,518 @@
 stage	program	genes	active	level	supported
-3-somite	EVL	29	0.1257	0.2422	True
-3-somite	PGC	6	0.007357	0.007801	False
-3-somite	adaxial_somite	30	0.1208	0.4891	True
-3-somite	axial_mesoderm	24	0.04292	0.4307	True
-3-somite	dorsal_forerunner	27	0.04966	0.3547	True
-3-somite	endoderm	10	0.07112	0.7065	True
-3-somite	floor_plate	8	0.0325	0.5125	True
-3-somite	forebrain_eye	30	0.1343	0.6067	True
-3-somite	hatching_gland	30	0.1294	0.2671	True
-3-somite	hindbrain	29	0.1024	0.637	True
-3-somite	intermediate_mesoderm	9	0.05763	0.2683	False
-3-somite	lateral_plate	24	0.09197	0.6703	True
-3-somite	mesoderm	29	0.1318	0.4503	False
-3-somite	midbrain_hindbrain_boundary	26	0.06683	0.6139	True
-3-somite	neural_crest	16	0.0607	0.4762	True
-3-somite	neural_plate	29	0.1214	0.5545	False
-3-somite	non_neural_ectoderm	7	0.08952	0.4421	True
-3-somite	notochord	30	0.05089	0.6297	True
-3-somite	placodes	25	0.09933	0.4334	True
-3-somite	prechordal_plate	27	0.1036	0.4591	True
-3-somite	presomitic_mesoderm	29	0.1557	0.4493	True
-3-somite	presumptive_neural	9	0.01533	0.5557	False
-3-somite	primary_neurons	18	0.04905	0.4334	True
-3-somite	signal:BMP	8	0.1104	0.3331	True
-3-somite	signal:Nodal	2	0.03066	0.1303	True
-3-somite	signal:Notch	9	0.06928	0.6513	True
-3-somite	signal:RA	3	0.06131	0.4904	False
-3-somite	signal:Wnt	4	0.05947	0.2456	False
-3-somite	state:blastomere	5	0.09503	0.2189	True
-3-somite	state:cell_cycle_g2m	10	0.1606	0.5754	True
-3-somite	state:cell_cycle_s	10	0.2042	0.3724	True
-3-somite	state:heat_shock	3	0.002452	0.1306	False
-3-somite	state:maternal	2	0.01226	0.009588	False
-3-somite	state:p53_response	10	0.00981	0.1982	False
-3-somite	tailbud	30	0.1471	0.2836	True
-3-somite	ventral_bmp	16	0.06806	0.316	False
-30% epiboly	EVL	30	0.035	0.5547	True
-30% epiboly	PGC	11	0.0234	0.1527	True
-30% epiboly	dorsal_organizer	25	0.08529	0.3975	False
-30% epiboly	endoderm	8	0.1048	0.3649	False
-30% epiboly	margin	29	0.1343	0.3574	True
-30% epiboly	mesoderm	20	0.004937	0.3803	False
-30% epiboly	signal:BMP	8	0.1428	0.8371	False
-30% epiboly	signal:Nodal	4	0.07412	0.7012	True
-30% epiboly	signal:Wnt	4	0.01902	0.1406	False
-30% epiboly	state:blastomere	6	0.01409	0.7598	False
-30% epiboly	state:cell_cycle_g2m	10	0.007943	0.4792	False
-30% epiboly	state:cell_cycle_s	10	0.00189	0.5737	False
-30% epiboly	state:heat_shock	4	0.01426	0.0702	False
-30% epiboly	state:maternal	10	0.01847	0.07708	False
-30% epiboly	state:p53_response	10	0.02315	0.4208	False
-50% epiboly	EVL	30	0.02922	0.4769	True
-50% epiboly	PGC	12	0.02277	0.1154	True
-50% epiboly	axial_mesoderm	20	0.05782	0.3381	False
-50% epiboly	dorsal_forerunner	26	0.03022	0.2285	False
-50% epiboly	dorsal_organizer	30	0.1071	0.4224	True
-50% epiboly	endoderm	9	0.1288	0.3979	False
-50% epiboly	margin	30	0.1827	0.3838	True
-50% epiboly	mesoderm	22	0.03114	0.2683	False
-50% epiboly	neural_plate	25	0.05911	0.1428	False
-50% epiboly	prechordal_plate	26	0.09167	0.1669	False
-50% epiboly	presomitic_mesoderm	26	0.1383	0.1082	False
-50% epiboly	signal:BMP	8	0.1519	0.5596	False
-50% epiboly	signal:Nodal	4	0.09527	0.4999	False
-50% epiboly	signal:RA	2	0.007215	0.1612	False
-50% epiboly	signal:Wnt	4	0.06012	0.2213	False
-50% epiboly	state:blastomere	6	0.05883	0.6968	False
-50% epiboly	state:cell_cycle_g2m	10	0.01897	0.5258	False
-50% epiboly	state:cell_cycle_s	10	0.02571	0.6128	False
-50% epiboly	state:heat_shock	5	0.04741	0.4872	False
-50% epiboly	state:maternal	10	0.06471	0.06481	False
-50% epiboly	state:p53_response	10	0.0211	0.4043	True
-50% epiboly	ventral_bmp	14	0.01612	0.1605	False
-6-somite	EVL	30	0.1139	0.4731	True
-6-somite	PGC	11	0.005228	0.007677	True
-6-somite	adaxial_somite	30	0.1372	0.7691	True
-6-somite	axial_mesoderm	24	0.06861	0.3897	True
-6-somite	dorsal_forerunner	29	0.06243	0.3832	False
-6-somite	endoderm	12	0.05529	0.6406	True
-6-somite	floor_plate	9	0.04219	0.6234	True
-6-somite	forebrain_eye	30	0.1471	0.7504	True
-6-somite	hatching_gland	30	0.1383	0.4442	True
-6-somite	heart	5	0.05229	0.9017	True
-6-somite	hindbrain	30	0.1038	0.603	True
-6-somite	intermediate_mesoderm	12	0.04706	0.3414	True
-6-somite	lateral_plate	30	0.09341	0.8342	True
-6-somite	mesoderm	30	0.112	0.5073	False
-6-somite	midbrain_hindbrain_boundary	26	0.06134	0.5986	True
-6-somite	neural_crest	17	0.05134	0.4923	True
-6-somite	neural_plate	30	0.114	0.5097	False
-6-somite	non_neural_ectoderm	8	0.1123	0.7297	True
-6-somite	notochord	30	0.06817	0.5891	True
-6-somite	placodes	28	0.08656	0.6523	True
-6-somite	prechordal_plate	30	0.09416	0.3929	True
-6-somite	presomitic_mesoderm	30	0.1729	0.6123	True
-6-somite	presumptive_neural	9	0.03077	0.6371	False
-6-somite	primary_neurons	19	0.04402	0.5696	True
-6-somite	signal:BMP	8	0.1139	0.3792	True
-6-somite	signal:Notch	9	0.06784	0.9215	True
-6-somite	signal:RA	3	0.05422	0.3777	True
-6-somite	signal:Wnt	4	0.05257	0.2359	True
-6-somite	state:blastomere	6	0.1552	0.1717	True
-6-somite	state:cell_cycle_g2m	10	0.1588	0.5218	True
-6-somite	state:cell_cycle_s	10	0.1955	0.3585	True
-6-somite	state:heat_shock	5	0.005007	0.1015	False
-6-somite	state:maternal	4	0.01879	0.003819	False
-6-somite	state:p53_response	10	0.01576	0.2233	False
-6-somite	tailbud	30	0.1474	0.2823	True
-6-somite	ventral_bmp	17	0.06757	0.3356	True
-60% epiboly	EVL	30	0.02275	0.08875	True
-60% epiboly	PGC	11	0.01158	0.01557	True
-60% epiboly	axial_mesoderm	23	0.05693	0.2061	True
-60% epiboly	dorsal_forerunner	26	0.047	0.2309	False
-60% epiboly	dorsal_organizer	30	0.109	0.6192	True
-60% epiboly	endoderm	12	0.1035	0.1431	True
-60% epiboly	margin	30	0.3263	0.5874	True
-60% epiboly	mesoderm	24	0.1399	0.3461	False
-60% epiboly	neural_plate	28	0.1027	0.2117	False
-60% epiboly	prechordal_plate	27	0.1151	0.2578	True
-60% epiboly	presomitic_mesoderm	29	0.2085	0.2513	True
-60% epiboly	presumptive_neural	7	0.06335	0.1973	False
-60% epiboly	signal:BMP	8	0.1804	0.5371	True
-60% epiboly	signal:FGF	2	0.07451	0.6507	False
-60% epiboly	signal:Nodal	4	0.06948	0.5735	True
-60% epiboly	signal:RA	2	0.07682	0.4784	False
-60% epiboly	signal:Wnt	4	0.1067	0.6126	True
-60% epiboly	state:blastomere	6	0.1152	0.4398	True
-60% epiboly	state:cell_cycle_g2m	10	0.05109	0.727	True
-60% epiboly	state:cell_cycle_s	10	0.04321	0.364	True
-60% epiboly	state:heat_shock	5	0.009602	0.08223	False
-60% epiboly	state:maternal	10	0.01771	0.007866	False
-60% epiboly	state:p53_response	10	0.02044	0.1864	True
-60% epiboly	ventral_bmp	13	0.0631	0.145	False
-75% epiboly	EVL	30	0.03112	0.2486	True
-75% epiboly	PGC	12	0.005113	0.04176	True
-75% epiboly	axial_mesoderm	24	0.04961	0.2453	True
-75% epiboly	dorsal_forerunner	28	0.0431	0.2171	False
-75% epiboly	endoderm	14	0.08167	0.1841	True
-75% epiboly	forebrain_eye	22	0.09686	0.1147	False
-75% epiboly	margin	30	0.3278	0.5738	True
-75% epiboly	mesoderm	27	0.1637	0.239	False
-75% epiboly	neural_plate	30	0.09036	0.299	False
-75% epiboly	non_neural_ectoderm	7	0.09689	0.1709	True
-75% epiboly	placodes	19	0.03715	0.1075	False
-75% epiboly	prechordal_plate	30	0.05478	0.2118	True
-75% epiboly	presomitic_mesoderm	30	0.2001	0.2696	True
-75% epiboly	presumptive_neural	9	0.07524	0.2882	False
-75% epiboly	signal:BMP	8	0.1913	0.5321	True
-75% epiboly	signal:FGF	2	0.06176	0.5562	False
-75% epiboly	signal:Nodal	4	0.05467	0.4707	True
-75% epiboly	signal:Notch	9	0.03514	0.06683	False
-75% epiboly	signal:RA	3	0.05673	0.6377	False
-75% epiboly	signal:Wnt	4	0.08766	0.6717	False
-75% epiboly	state:blastomere	6	0.1185	0.2704	True
-75% epiboly	state:cell_cycle_g2m	10	0.08835	0.6812	True
-75% epiboly	state:cell_cycle_s	10	0.04618	0.4363	True
-75% epiboly	state:heat_shock	5	0.007305	0.07485	False
-75% epiboly	state:maternal	10	0.005522	0.004504	False
-75% epiboly	state:p53_response	10	0.02776	0.1652	False
-75% epiboly	ventral_bmp	14	0.0648	0.1428	False
-90% epiboly	EVL	30	0.02913	0.2746	True
-90% epiboly	PGC	11	0.003899	0.02519	True
-90% epiboly	axial_mesoderm	24	0.04613	0.2356	True
-90% epiboly	dorsal_forerunner	27	0.04483	0.2388	False
-90% epiboly	endoderm	15	0.07732	0.2932	True
-90% epiboly	forebrain_eye	25	0.1235	0.2526	False
-90% epiboly	hindbrain	27	0.08178	0.2458	False
-90% epiboly	margin	30	0.2755	0.4186	True
-90% epiboly	mesoderm	28	0.1963	0.3947	False
-90% epiboly	midbrain_hindbrain_boundary	21	0.06173	0.1498	False
-90% epiboly	neural_plate	30	0.1085	0.495	False
-90% epiboly	non_neural_ectoderm	7	0.1157	0.3377	True
-90% epiboly	placodes	20	0.063	0.2146	False
-90% epiboly	prechordal_plate	30	0.04949	0.2914	True
-90% epiboly	presomitic_mesoderm	30	0.1891	0.2954	True
-90% epiboly	presumptive_neural	9	0.04808	0.4631	False
-90% epiboly	signal:BMP	8	0.1878	0.4645	True
-90% epiboly	signal:FGF	2	0.05654	0.4536	False
-90% epiboly	signal:Nodal	3	0.04037	0.4231	True
-90% epiboly	signal:Notch	9	0.03335	0.1276	False
-90% epiboly	signal:RA	3	0.02859	0.7138	False
-90% epiboly	signal:Wnt	4	0.06423	0.809	False
-90% epiboly	state:blastomere	6	0.1287	0.1823	True
-90% epiboly	state:cell_cycle_g2m	10	0.09451	0.625	True
-90% epiboly	state:cell_cycle_s	10	0.06774	0.3847	True
-90% epiboly	state:heat_shock	5	0.005848	0.1268	False
-90% epiboly	state:maternal	7	0.002808	0.003997	False
-90% epiboly	state:p53_response	10	0.02859	0.2109	True
-90% epiboly	ventral_bmp	14	0.08577	0.1325	False
-bud	EVL	30	0.08247	0.1424	True
-bud	PGC	11	0.002522	0.008636	True
-bud	adaxial_somite	28	0.1088	0.3922	True
-bud	axial_mesoderm	24	0.03111	0.2599	True
-bud	dorsal_forerunner	30	0.03938	0.2752	False
-bud	endoderm	15	0.0641	0.2936	True
-bud	forebrain_eye	29	0.1541	0.3827	True
-bud	hatching_gland	30	0.122	0.2234	True
-bud	hindbrain	29	0.1153	0.4248	True
-bud	intermediate_mesoderm	12	0.04493	0.09142	False
-bud	lateral_plate	24	0.09627	0.2735	True
-bud	margin	30	0.2457	0.3891	True
-bud	mesoderm	29	0.2248	0.4469	True
-bud	midbrain_hindbrain_boundary	25	0.08195	0.2377	True
-bud	neural_plate	30	0.152	0.6446	False
-bud	non_neural_ectoderm	6	0.1224	0.7103	True
-bud	notochord	30	0.05121	0.274	True
-bud	placodes	23	0.0975	0.3459	False
-bud	prechordal_plate	30	0.09641	0.3454	True
-bud	presomitic_mesoderm	30	0.1819	0.503	True
-bud	presumptive_neural	9	0.05363	0.5423	False
-bud	primary_neurons	19	0.05501	0.2777	False
-bud	signal:BMP	8	0.165	0.4063	True
-bud	signal:FGF	2	0.08118	0.5016	True
-bud	signal:Nodal	3	0.03146	0.4508	True
-bud	signal:Notch	9	0.05198	0.3638	True
-bud	signal:RA	3	0.03335	0.6898	False
-bud	signal:Wnt	4	0.07451	0.6693	True
-bud	state:blastomere	6	0.1649	0.1729	True
-bud	state:cell_cycle_g2m	10	0.09623	0.5202	True
-bud	state:cell_cycle_s	10	0.1383	0.3843	True
-bud	state:heat_shock	5	0.003339	0.113	False
-bud	state:maternal	7	0.005696	0.002146	False
-bud	state:p53_response	10	0.01716	0.1979	False
-bud	tailbud	29	0.2434	0.3769	True
-bud	ventral_bmp	15	0.07109	0.1737	False
-dome	EVL	28	0.05281	0.3122	True
-dome	margin	26	0.09625	0.2291	False
-dome	signal:BMP	8	0.07581	0.4124	False
-dome	signal:Nodal	3	0.06559	0.5642	True
-dome	state:blastomere	6	0.005963	0.5093	False
-dome	state:cell_cycle_g2m	10	0.001704	0.3393	False
-dome	state:cell_cycle_s	10	0.023	0.5733	False
-dome	state:heat_shock	3	0	0.04359	False
-dome	state:maternal	10	0.08262	0.2337	False
-dome	state:p53_response	10	0.00937	0.2738	False
-high	signal:BMP	7	0.007605	0.07417	True
-high	signal:Nodal	3	0.009506	0.14	False
-high	state:blastomere	6	0.02753	0.2775	False
-high	state:cell_cycle_g2m	10	0	0.4535	False
-high	state:cell_cycle_s	10	0.005703	0.5603	False
-high	state:heat_shock	3	0	0.04718	False
-high	state:maternal	10	0.07961	0.8725	False
-high	state:p53_response	10	0.009506	0.5754	True
-oblong	signal:BMP	5	0.006944	0.1552	False
-oblong	signal:Nodal	3	0.01389	0.1921	False
-oblong	state:blastomere	6	0.01562	0.4266	False
-oblong	state:cell_cycle_g2m	10	0	0.4253	False
-oblong	state:cell_cycle_s	10	0	0.4333	False
-oblong	state:heat_shock	2	0	0.2156	False
-oblong	state:maternal	10	0.07856	0.7373	False
-oblong	state:p53_response	9	0.006944	0.6921	True
-shield	EVL	30	0.01434	0.2257	True
-shield	PGC	10	0.003824	0.0629	True
-shield	axial_mesoderm	17	0.04876	0.3085	False
-shield	dorsal_forerunner	21	0.01243	0.3051	False
-shield	dorsal_organizer	28	0.07266	0.5047	True
-shield	endoderm	7	0.06979	0.2152	False
-shield	margin	30	0.2572	0.4771	True
-shield	mesoderm	19	0.1071	0.3797	False
-shield	neural_plate	21	0.08222	0.3593	False
-shield	prechordal_plate	19	0.07361	0.392	False
-shield	presomitic_mesoderm	23	0.1424	0.3326	True
-shield	presumptive_neural	3	0.03537	0.7214	False
-shield	signal:BMP	8	0.1511	0.7486	True
-shield	signal:Nodal	4	0.03824	0.3821	False
-shield	signal:RA	2	0.0239	0.2168	False
-shield	signal:Wnt	4	0.03633	0.4759	False
-shield	state:blastomere	6	0.05067	0.7773	False
-shield	state:cell_cycle_g2m	10	0.02103	0.7883	False
-shield	state:cell_cycle_s	10	0.01816	0.4637	False
-shield	state:heat_shock	3	0.01052	0.06537	False
-shield	state:maternal	5	0.02199	0.04159	False
-shield	state:p53_response	9	0.01243	0.2926	False
-shield	ventral_bmp	12	0.03537	0.1723	False
+3-somite	EVL	27	0.141	0.3243	True
+3-somite	PGC	5	0.006131	0.06679	False
+3-somite	adaxial_somite	30	0.1398	0.5612	True
+3-somite	axial_mesoderm	29	0.08584	0.4966	True
+3-somite	blocking:BMP	4	0.07357	0.5995	False
+3-somite	blocking:RA	1	0.04966	0.2857	False
+3-somite	blocking:Wnt	3	0.007971	0.2255	False
+3-somite	dorsal_forerunner	29	0.05395	0.4328	False
+3-somite	dorsal_organizer	21	0.05457	0.4905	True
+3-somite	endoderm	18	0.07603	0.3896	True
+3-somite	forebrain_eye	30	0.1324	0.5948	True
+3-somite	hatching_gland	29	0.1288	0.3816	True
+3-somite	heart	4	0.04353	0.8651	True
+3-somite	hindbrain	30	0.08032	0.6488	True
+3-somite	intermediate_mesoderm	11	0.08584	0.3605	True
+3-somite	lateral_plate	24	0.07541	0.5589	True
+3-somite	margin	29	0.2195	0.3723	True
+3-somite	mesoderm	30	0.2085	0.4456	True
+3-somite	midbrain_hindbrain_boundary	30	0.08829	0.641	True
+3-somite	neural_crest	19	0.03617	0.4237	True
+3-somite	neural_plate	29	0.0981	0.5525	False
+3-somite	non_neural_ectoderm	9	0.1165	0.5593	True
+3-somite	notochord	30	0.06499	0.5671	True
+3-somite	placodes	25	0.1435	0.679	True
+3-somite	prechordal_plate	27	0.09503	0.4459	True
+3-somite	presomitic_mesoderm	30	0.1527	0.5162	True
+3-somite	primary_neurons	21	0.04476	0.5135	True
+3-somite	receiving:Notch	7	0.05886	0.751	True
+3-somite	receiving:RA	1	0.01839	0.7346	False
+3-somite	sending:BMP_organizer	1	0.006744	0.03175	False
+3-somite	sending:Hedgehog	2	0.04169	0.9367	True
+3-somite	sending:Notch	4	0.04108	0.6942	True
+3-somite	sending:RA	1	0.03311	0.176	False
+3-somite	sending:Wnt/PCP	2	0.04108	0.5952	False
+3-somite	signal:BMP	8	0.09687	0.4878	True
+3-somite	signal:FGF	6	0.06131	0.5671	True
+3-somite	signal:Nodal	2	0.03188	0.1001	True
+3-somite	signal:Wnt	6	0.08338	0.4099	True
+3-somite	state:blastomere	5	0.09503	0.2289	True
+3-somite	state:cell_cycle_g2m	10	0.1606	0.5826	True
+3-somite	state:cell_cycle_s	10	0.2042	0.5037	True
+3-somite	state:heat_shock	3	0.002452	0.08405	False
+3-somite	state:maternal	2	0.01226	0.003964	False
+3-somite	state:p53_response	10	0.00981	0.2805	False
+3-somite	tailbud	29	0.149	0.4691	True
+30% epiboly	EVL	30	0.035	0.6663	True
+30% epiboly	PGC	9	0.01447	0.2459	True
+30% epiboly	adaxial_somite	17	0.1128	0.1521	False
+30% epiboly	axial_mesoderm	25	0.1347	0.4844	False
+30% epiboly	blocking:BMP	2	0.03943	0.1115	False
+30% epiboly	blocking:RA	1	0.01116	0.4099	False
+30% epiboly	blocking:Wnt	3	0.04981	0.3095	False
+30% epiboly	dorsal_forerunner	25	0.03779	0.4393	False
+30% epiboly	dorsal_organizer	16	0.0815	0.3564	False
+30% epiboly	endoderm	14	0.09487	0.3159	False
+30% epiboly	forebrain_eye	15	0.02487	0.1831	False
+30% epiboly	hatching_gland	24	0.04304	0.4812	False
+30% epiboly	hindbrain	16	0.04071	0.2404	False
+30% epiboly	intermediate_mesoderm	10	0.08576	0.5159	False
+30% epiboly	lateral_plate	11	0.04428	0.2446	False
+30% epiboly	margin	30	0.1493	0.5026	True
+30% epiboly	mesoderm	21	0.1297	0.3269	False
+30% epiboly	midbrain_hindbrain_boundary	15	0.01027	0.1635	False
+30% epiboly	neural_crest	11	0.02731	0.2345	False
+30% epiboly	neural_plate	18	0.04896	0.2171	False
+30% epiboly	non_neural_ectoderm	7	0.02443	0.1634	False
+30% epiboly	notochord	21	0.08572	0.3907	False
+30% epiboly	placodes	13	0.02585	0.1425	False
+30% epiboly	prechordal_plate	18	0.04604	0.3236	False
+30% epiboly	presomitic_mesoderm	21	0.1248	0.263	False
+30% epiboly	primary_neurons	9	0.002836	0.2806	False
+30% epiboly	receiving:Notch	1	0.01967	0.06743	False
+30% epiboly	sending:BMP_organizer	1	0.04192	0.3275	False
+30% epiboly	sending:Notch	4	0.007602	0.3476	False
+30% epiboly	sending:RA	1	0.0125	0.0729	False
+30% epiboly	sending:Wnt/PCP	2	0.1008	0.5655	False
+30% epiboly	signal:BMP	8	0.1037	0.682	False
+30% epiboly	signal:FGF	6	0.09581	0.684	False
+30% epiboly	signal:Nodal	4	0.06987	0.8331	True
+30% epiboly	signal:Wnt	5	0.05588	0.2807	False
+30% epiboly	state:blastomere	6	0.01078	0.653	False
+30% epiboly	state:cell_cycle_g2m	10	0.009361	0.5398	False
+30% epiboly	state:cell_cycle_s	10	0.00189	0.5848	False
+30% epiboly	state:heat_shock	4	0.01426	0.1037	False
+30% epiboly	state:maternal	10	0.02556	0.1241	False
+30% epiboly	state:p53_response	10	0.02315	0.5493	False
+30% epiboly	tailbud	23	0.06888	0.4087	False
+50% epiboly	EVL	30	0.0289	0.6214	True
+50% epiboly	PGC	10	0.01573	0.2261	True
+50% epiboly	adaxial_somite	23	0.1246	0.1665	False
+50% epiboly	axial_mesoderm	28	0.1389	0.4855	False
+50% epiboly	blocking:BMP	3	0.04973	0.2198	False
+50% epiboly	blocking:RA	1	0.004107	0.2673	False
+50% epiboly	blocking:Wnt	3	0.06114	0.3327	False
+50% epiboly	dorsal_forerunner	28	0.02781	0.4386	False
+50% epiboly	dorsal_organizer	20	0.1007	0.4104	False
+50% epiboly	endoderm	17	0.1273	0.3362	False
+50% epiboly	forebrain_eye	23	0.04466	0.2265	False
+50% epiboly	hatching_gland	26	0.05197	0.4172	False
+50% epiboly	heart	3	0.008663	0.01988	False
+50% epiboly	hindbrain	22	0.07424	0.2784	False
+50% epiboly	intermediate_mesoderm	12	0.09451	0.4991	False
+50% epiboly	lateral_plate	18	0.08035	0.2763	False
+50% epiboly	margin	30	0.1995	0.5183	True
+50% epiboly	mesoderm	25	0.1687	0.3118	False
+50% epiboly	midbrain_hindbrain_boundary	22	0.05135	0.1661	False
+50% epiboly	neural_crest	14	0.023	0.286	False
+50% epiboly	neural_plate	27	0.08838	0.2494	False
+50% epiboly	non_neural_ectoderm	9	0.03162	0.1753	False
+50% epiboly	notochord	27	0.09988	0.3805	False
+50% epiboly	placodes	20	0.0241	0.1383	False
+50% epiboly	prechordal_plate	26	0.0745	0.3175	False
+50% epiboly	presomitic_mesoderm	27	0.1502	0.2395	False
+50% epiboly	primary_neurons	14	0.01437	0.2791	False
+50% epiboly	receiving:Notch	2	0.01404	0.03124	False
+50% epiboly	sending:BMP_organizer	1	0.05011	0.7001	False
+50% epiboly	sending:Hedgehog	2	0.008846	0.0298	False
+50% epiboly	sending:Notch	4	0.009712	0.4142	False
+50% epiboly	sending:RA	1	0.04398	0.2272	False
+50% epiboly	sending:Wnt/PCP	2	0.1088	0.4567	False
+50% epiboly	signal:BMP	8	0.1055	0.5892	False
+50% epiboly	signal:FGF	6	0.1014	0.5055	False
+50% epiboly	signal:Nodal	4	0.09535	0.6274	False
+50% epiboly	signal:Wnt	6	0.09684	0.2795	False
+50% epiboly	state:blastomere	6	0.0563	0.5958	False
+50% epiboly	state:cell_cycle_g2m	10	0.01906	0.6555	False
+50% epiboly	state:cell_cycle_s	10	0.03241	0.6187	False
+50% epiboly	state:heat_shock	5	0.04472	0.7023	False
+50% epiboly	state:maternal	10	0.06787	0.08413	False
+50% epiboly	state:p53_response	10	0.0211	0.5308	True
+50% epiboly	tailbud	26	0.09694	0.4192	False
+6-somite	EVL	30	0.118	0.5787	True
+6-somite	PGC	9	0.006942	0.1088	True
+6-somite	adaxial_somite	30	0.1548	0.7244	True
+6-somite	axial_mesoderm	29	0.09198	0.5071	True
+6-somite	blocking:BMP	4	0.06713	0.602	False
+6-somite	blocking:RA	1	0.04774	0.2485	False
+6-somite	blocking:Wnt	3	0.01571	0.1952	False
+6-somite	dorsal_forerunner	30	0.05729	0.4368	False
+6-somite	dorsal_organizer	21	0.05632	0.4667	True
+6-somite	endoderm	20	0.08122	0.393	True
+6-somite	forebrain_eye	30	0.1432	0.6737	True
+6-somite	hatching_gland	30	0.1341	0.4935	True
+6-somite	heart	5	0.05211	0.8341	True
+6-somite	hindbrain	30	0.08151	0.6145	True
+6-somite	intermediate_mesoderm	14	0.06975	0.3996	True
+6-somite	lateral_plate	30	0.07659	0.6836	True
+6-somite	margin	29	0.2068	0.3967	True
+6-somite	mesoderm	30	0.2194	0.511	True
+6-somite	midbrain_hindbrain_boundary	30	0.08304	0.6162	True
+6-somite	neural_crest	20	0.05501	0.5426	True
+6-somite	neural_plate	30	0.09338	0.5215	False
+6-somite	non_neural_ectoderm	10	0.1243	0.5517	True
+6-somite	notochord	30	0.08532	0.6104	True
+6-somite	placodes	28	0.1201	0.721	True
+6-somite	prechordal_plate	30	0.08259	0.5051	True
+6-somite	presomitic_mesoderm	30	0.1814	0.6593	True
+6-somite	primary_neurons	22	0.03771	0.6426	True
+6-somite	receiving:Notch	7	0.06649	1	True
+6-somite	receiving:RA	1	0.01531	0.6518	False
+6-somite	sending:BMP_organizer	1	0.0112	0.06696	False
+6-somite	sending:Hedgehog	2	0.03738	0.771	True
+6-somite	sending:Notch	4	0.0401	0.7476	True
+6-somite	sending:RA	1	0.03349	0.1797	False
+6-somite	sending:Wnt/PCP	2	0.02305	0.4643	False
+6-somite	signal:BMP	8	0.1028	0.5407	True
+6-somite	signal:FGF	6	0.05599	0.5584	True
+6-somite	signal:Nodal	2	0.01991	0.07105	True
+6-somite	signal:Wnt	6	0.0776	0.3218	True
+6-somite	state:blastomere	6	0.1512	0.2223	True
+6-somite	state:cell_cycle_g2m	10	0.1619	0.566	True
+6-somite	state:cell_cycle_s	10	0.1852	0.4611	True
+6-somite	state:heat_shock	5	0.006446	0.09112	False
+6-somite	state:maternal	4	0.02094	0.003641	False
+6-somite	state:p53_response	10	0.01624	0.3839	False
+6-somite	tailbud	29	0.1397	0.5002	True
+60% epiboly	EVL	30	0.03137	0.1543	True
+60% epiboly	PGC	9	0.008856	0.0847	True
+60% epiboly	adaxial_somite	29	0.1996	0.3514	True
+60% epiboly	axial_mesoderm	28	0.1646	0.4831	True
+60% epiboly	blocking:BMP	3	0.07221	0.5089	True
+60% epiboly	blocking:RA	1	0.05722	0.5897	False
+60% epiboly	blocking:Wnt	3	0.04223	0.6872	True
+60% epiboly	dorsal_forerunner	29	0.05313	0.3815	False
+60% epiboly	dorsal_organizer	20	0.09196	0.53	True
+60% epiboly	endoderm	19	0.1083	0.481	True
+60% epiboly	forebrain_eye	25	0.1331	0.3359	False
+60% epiboly	hatching_gland	28	0.05804	0.2708	True
+60% epiboly	heart	2	0.006812	0.01318	False
+60% epiboly	hindbrain	26	0.02745	0.3532	False
+60% epiboly	intermediate_mesoderm	10	0.06471	0.2597	False
+60% epiboly	lateral_plate	16	0.08787	0.2496	False
+60% epiboly	margin	30	0.3365	0.6814	True
+60% epiboly	mesoderm	29	0.2459	0.5212	True
+60% epiboly	midbrain_hindbrain_boundary	21	0.1757	0.2808	False
+60% epiboly	neural_crest	16	0.04155	0.2467	False
+60% epiboly	neural_plate	29	0.1169	0.391	False
+60% epiboly	non_neural_ectoderm	8	0.1131	0.3904	True
+60% epiboly	notochord	26	0.126	0.3034	True
+60% epiboly	placodes	19	0.08106	0.1623	False
+60% epiboly	prechordal_plate	26	0.05518	0.3659	True
+60% epiboly	presomitic_mesoderm	30	0.2207	0.4446	True
+60% epiboly	primary_neurons	14	0.006131	0.244	False
+60% epiboly	receiving:Notch	4	0.01226	0.03723	True
+60% epiboly	sending:BMP_organizer	1	0.06996	0.7814	False
+60% epiboly	sending:Hedgehog	2	0.03704	0.3286	True
+60% epiboly	sending:Notch	4	0.06608	0.556	False
+60% epiboly	sending:RA	1	0.07221	1	False
+60% epiboly	sending:Wnt/PCP	2	0.1015	0.4776	True
+60% epiboly	signal:BMP	8	0.1499	0.68	True
+60% epiboly	signal:FGF	6	0.1124	0.5831	True
+60% epiboly	signal:Nodal	4	0.06902	0.6033	True
+60% epiboly	signal:Wnt	6	0.1929	0.5958	True
+60% epiboly	state:blastomere	6	0.1152	0.4525	True
+60% epiboly	state:cell_cycle_g2m	10	0.05075	0.7678	True
+60% epiboly	state:cell_cycle_s	10	0.04837	0.5284	True
+60% epiboly	state:heat_shock	5	0.009602	0.108	False
+60% epiboly	state:maternal	10	0.01635	0.01283	False
+60% epiboly	state:p53_response	10	0.02248	0.285	True
+60% epiboly	tailbud	26	0.19	0.4832	False
+75% epiboly	EVL	30	0.02734	0.274	True
+75% epiboly	PGC	10	0.005062	0.07908	True
+75% epiboly	adaxial_somite	29	0.1885	0.3785	True
+75% epiboly	axial_mesoderm	29	0.1531	0.4519	True
+75% epiboly	blocking:BMP	3	0.0753	0.5026	True
+75% epiboly	blocking:RA	1	0.06446	0.8466	False
+75% epiboly	blocking:Wnt	3	0.03949	0.7074	False
+75% epiboly	dorsal_forerunner	30	0.04367	0.3978	False
+75% epiboly	dorsal_organizer	21	0.07729	0.4867	True
+75% epiboly	endoderm	21	0.07931	0.3955	True
+75% epiboly	forebrain_eye	28	0.1556	0.3955	True
+75% epiboly	hatching_gland	30	0.05636	0.2631	True
+75% epiboly	heart	2	0.02261	0.04303	False
+75% epiboly	hindbrain	27	0.04675	0.3786	False
+75% epiboly	intermediate_mesoderm	12	0.07121	0.2392	False
+75% epiboly	lateral_plate	21	0.0738	0.2035	False
+75% epiboly	margin	30	0.3258	0.5606	True
+75% epiboly	mesoderm	30	0.244	0.4808	True
+75% epiboly	midbrain_hindbrain_boundary	24	0.1366	0.2851	True
+75% epiboly	neural_crest	18	0.08471	0.2688	False
+75% epiboly	neural_plate	30	0.1088	0.4736	False
+75% epiboly	non_neural_ectoderm	9	0.126	0.5068	True
+75% epiboly	notochord	30	0.08936	0.3229	True
+75% epiboly	placodes	21	0.117	0.2212	False
+75% epiboly	prechordal_plate	30	0.03949	0.3609	True
+75% epiboly	presomitic_mesoderm	30	0.2169	0.401	True
+75% epiboly	primary_neurons	17	0.0168	0.2549	False
+75% epiboly	receiving:Notch	7	0.0263	0.0819	True
+75% epiboly	receiving:RA	1	0.002922	0.03932	False
+75% epiboly	sending:BMP_organizer	1	0.07882	1	False
+75% epiboly	sending:Hedgehog	2	0.04286	0.4766	True
+75% epiboly	sending:Notch	4	0.04556	0.594	False
+75% epiboly	sending:RA	1	0.07028	0.8971	False
+75% epiboly	sending:Wnt/PCP	2	0.05625	0.4813	False
+75% epiboly	signal:BMP	8	0.2063	0.7027	True
+75% epiboly	signal:FGF	5	0.09337	0.5107	True
+75% epiboly	signal:Nodal	4	0.05096	0.5175	True
+75% epiboly	signal:Wnt	6	0.1534	0.675	True
+75% epiboly	state:blastomere	6	0.1185	0.3735	True
+75% epiboly	state:cell_cycle_g2m	10	0.08692	0.6908	True
+75% epiboly	state:cell_cycle_s	10	0.04618	0.5238	True
+75% epiboly	state:heat_shock	5	0.007087	0.0869	False
+75% epiboly	state:maternal	10	0.005522	0.006574	False
+75% epiboly	state:p53_response	10	0.02776	0.2796	True
+75% epiboly	tailbud	28	0.1836	0.4626	False
+90% epiboly	EVL	30	0.02843	0.3796	True
+90% epiboly	PGC	9	0.007147	0.04214	True
+90% epiboly	adaxial_somite	30	0.1502	0.4781	True
+90% epiboly	axial_mesoderm	29	0.1236	0.4602	True
+90% epiboly	blocking:BMP	4	0.0716	0.6154	False
+90% epiboly	blocking:RA	1	0.06107	1	False
+90% epiboly	blocking:Wnt	3	0.04247	0.8246	False
+90% epiboly	dorsal_forerunner	30	0.04949	0.414	False
+90% epiboly	dorsal_organizer	21	0.07997	0.5332	True
+90% epiboly	endoderm	23	0.07083	0.4176	True
+90% epiboly	forebrain_eye	30	0.147	0.526	True
+90% epiboly	hatching_gland	30	0.05977	0.3431	True
+90% epiboly	heart	3	0.01895	0.1915	False
+90% epiboly	hindbrain	28	0.09688	0.4232	False
+90% epiboly	intermediate_mesoderm	12	0.08187	0.2205	False
+90% epiboly	lateral_plate	21	0.06845	0.26	False
+90% epiboly	margin	30	0.294	0.5326	True
+90% epiboly	mesoderm	30	0.2431	0.5185	True
+90% epiboly	midbrain_hindbrain_boundary	27	0.1123	0.3468	False
+90% epiboly	neural_crest	16	0.1106	0.2742	False
+90% epiboly	neural_plate	30	0.1137	0.5884	False
+90% epiboly	non_neural_ectoderm	9	0.1436	0.6589	True
+90% epiboly	notochord	30	0.09128	0.3992	True
+90% epiboly	placodes	22	0.1462	0.3319	True
+90% epiboly	prechordal_plate	30	0.05265	0.4509	True
+90% epiboly	presomitic_mesoderm	30	0.1983	0.4571	True
+90% epiboly	primary_neurons	17	0.01559	0.339	False
+90% epiboly	receiving:Notch	7	0.02908	0.1363	True
+90% epiboly	receiving:RA	1	0.01819	0.3687	False
+90% epiboly	sending:BMP_organizer	1	0.05653	0.6051	False
+90% epiboly	sending:Hedgehog	2	0.04037	0.5833	True
+90% epiboly	sending:Notch	4	0.04523	0.6437	False
+90% epiboly	sending:RA	1	0.05412	0.7973	False
+90% epiboly	sending:Wnt/PCP	2	0.05335	0.6254	False
+90% epiboly	signal:BMP	8	0.1767	0.6426	True
+90% epiboly	signal:FGF	5	0.08707	0.5005	True
+90% epiboly	signal:Nodal	3	0.04142	0.3819	True
+90% epiboly	signal:Wnt	6	0.09877	0.7909	True
+90% epiboly	state:blastomere	6	0.1319	0.3101	True
+90% epiboly	state:cell_cycle_g2m	10	0.09451	0.6748	True
+90% epiboly	state:cell_cycle_s	10	0.08187	0.4705	True
+90% epiboly	state:heat_shock	5	0.006498	0.1382	False
+90% epiboly	state:maternal	7	0.005198	0.003702	False
+90% epiboly	state:p53_response	10	0.02773	0.4244	True
+90% epiboly	tailbud	29	0.2027	0.482	False
+bud	EVL	30	0.09304	0.227	True
+bud	PGC	9	0.002522	0.03217	True
+bud	adaxial_somite	30	0.1451	0.5958	True
+bud	axial_mesoderm	29	0.1302	0.4759	True
+bud	blocking:BMP	4	0.07382	0.6277	False
+bud	blocking:RA	1	0.06525	0.8897	False
+bud	blocking:Wnt	3	0.04623	0.494	False
+bud	dorsal_forerunner	30	0.05044	0.4073	False
+bud	dorsal_organizer	21	0.06507	0.5436	True
+bud	endoderm	23	0.0699	0.3802	True
+bud	forebrain_eye	30	0.1437	0.6767	True
+bud	hatching_gland	30	0.09557	0.3658	True
+bud	heart	4	0.04276	0.418	True
+bud	hindbrain	30	0.1204	0.5801	True
+bud	intermediate_mesoderm	14	0.08146	0.2297	False
+bud	lateral_plate	25	0.105	0.3085	True
+bud	margin	30	0.2613	0.4927	True
+bud	mesoderm	30	0.2477	0.5534	True
+bud	midbrain_hindbrain_boundary	30	0.141	0.4711	True
+bud	neural_crest	19	0.1246	0.308	False
+bud	neural_plate	30	0.1456	0.6487	False
+bud	non_neural_ectoderm	8	0.1448	0.78	True
+bud	notochord	30	0.06405	0.416	True
+bud	placodes	23	0.1655	0.5289	True
+bud	prechordal_plate	30	0.07415	0.4414	True
+bud	presomitic_mesoderm	30	0.1948	0.6026	True
+bud	primary_neurons	22	0.03562	0.4708	False
+bud	receiving:Notch	7	0.0458	0.3845	True
+bud	receiving:RA	1	0.01788	1	False
+bud	sending:BMP_organizer	1	0.02642	0.2406	False
+bud	sending:Hedgehog	2	0.04666	0.8619	True
+bud	sending:Notch	4	0.05833	0.8843	True
+bud	sending:RA	1	0.05461	0.8395	False
+bud	sending:Wnt/PCP	2	0.0438	0.6479	False
+bud	signal:BMP	8	0.1541	0.5647	True
+bud	signal:FGF	6	0.08492	0.6224	True
+bud	signal:Nodal	3	0.03498	0.3947	True
+bud	signal:Wnt	6	0.112	0.6953	True
+bud	state:blastomere	6	0.1748	0.2742	True
+bud	state:cell_cycle_g2m	10	0.09684	0.5399	True
+bud	state:cell_cycle_s	10	0.1344	0.4657	True
+bud	state:heat_shock	5	0.002837	0.1055	False
+bud	state:maternal	7	0.01093	0.002737	False
+bud	state:p53_response	10	0.02058	0.2691	False
+bud	tailbud	30	0.206	0.5038	True
+dome	EVL	28	0.05281	0.4374	True
+dome	PGC	9	0.02641	0.3313	True
+dome	adaxial_somite	14	0.04089	0.1698	False
+dome	axial_mesoderm	23	0.1124	0.5507	False
+dome	blocking:BMP	2	0.04003	0.1156	False
+dome	blocking:RA	1	0.004259	0.2566	False
+dome	blocking:Wnt	3	0.02726	0.1278	False
+dome	dorsal_forerunner	26	0.04003	0.4607	False
+dome	dorsal_organizer	16	0.06985	0.4518	False
+dome	endoderm	14	0.06048	0.2673	False
+dome	forebrain_eye	16	0.03066	0.1552	False
+dome	hatching_gland	24	0.04259	0.5007	False
+dome	hindbrain	15	0.01789	0.2104	False
+dome	intermediate_mesoderm	9	0.06133	0.3852	False
+dome	lateral_plate	12	0.00937	0.2381	False
+dome	margin	27	0.1158	0.3312	False
+dome	mesoderm	16	0.06388	0.2314	False
+dome	midbrain_hindbrain_boundary	16	0.01533	0.1682	False
+dome	neural_crest	11	0.03492	0.3331	False
+dome	neural_plate	21	0.03066	0.1998	False
+dome	non_neural_ectoderm	7	0.04344	0.09121	False
+dome	notochord	21	0.06729	0.4329	False
+dome	placodes	10	0.02981	0.1295	False
+dome	prechordal_plate	18	0.04429	0.2731	False
+dome	presomitic_mesoderm	14	0.1107	0.1831	False
+dome	primary_neurons	8	0	0.2106	False
+dome	receiving:Notch	1	0.03066	0.0883	False
+dome	sending:BMP_organizer	1	0.01704	0.3778	False
+dome	sending:Notch	4	0.005111	0.05664	False
+dome	sending:Wnt/PCP	1	0.06899	0.281	False
+dome	signal:BMP	8	0.03492	0.4342	False
+dome	signal:FGF	6	0.06474	0.4331	False
+dome	signal:Nodal	3	0.06388	0.6457	True
+dome	signal:Wnt	4	0.02044	0.06422	False
+dome	state:blastomere	6	0.005963	0.5724	False
+dome	state:cell_cycle_g2m	10	0.001704	0.4332	False
+dome	state:cell_cycle_s	10	0.023	0.6399	False
+dome	state:heat_shock	3	0	0.06725	False
+dome	state:maternal	10	0.08262	0.2548	False
+dome	state:p53_response	10	0.00937	0.3839	False
+dome	tailbud	24	0.01022	0.3337	False
+high	EVL	17	0.03513	0.228	True
+high	PGC	9	0.04935	0.9091	True
+high	adaxial_somite	11	0.01521	0.183	False
+high	axial_mesoderm	19	0.02662	0.4042	False
+high	blocking:BMP	2	0.001901	0.04536	False
+high	blocking:RA	1	0	0.2536	False
+high	blocking:Wnt	2	0	0.02391	False
+high	dorsal_forerunner	22	0.007605	0.3635	False
+high	dorsal_organizer	13	0.01711	0.2888	False
+high	endoderm	9	0.001901	0.2775	False
+high	forebrain_eye	10	0.01232	0.1098	False
+high	hatching_gland	22	0.003802	0.4723	False
+high	hindbrain	11	0.1241	0.1618	False
+high	intermediate_mesoderm	7	0.001901	0.2458	False
+high	lateral_plate	8	0.009506	0.1137	False
+high	margin	16	0.02852	0.1756	True
+high	mesoderm	11	0.01901	0.126	False
+high	midbrain_hindbrain_boundary	15	0	0.2548	False
+high	neural_crest	9	0	0.2838	False
+high	neural_plate	18	0.007605	0.1984	False
+high	non_neural_ectoderm	6	0.02563	0.09049	False
+high	notochord	20	0.009506	0.4638	False
+high	placodes	5	0.001901	0.1349	False
+high	prechordal_plate	14	0.005703	0.2754	False
+high	presomitic_mesoderm	9	0.007605	0.1249	False
+high	primary_neurons	6	0.005703	0.2672	False
+high	sending:BMP_organizer	1	0	0.219	False
+high	sending:Wnt/PCP	1	0.003802	0.0572	False
+high	signal:BMP	6	0.001901	0.1314	False
+high	signal:FGF	4	0	0.2017	False
+high	signal:Nodal	3	0.009506	0.1846	False
+high	signal:Wnt	3	0	0.1045	False
+high	state:blastomere	6	0.06919	0.4892	False
+high	state:cell_cycle_g2m	10	0	0.5499	False
+high	state:cell_cycle_s	10	0.005703	0.5965	False
+high	state:heat_shock	3	0	0.3781	False
+high	state:maternal	10	0.1421	0.9649	False
+high	state:p53_response	10	0.009506	0.7373	True
+high	tailbud	21	0	0.3304	False
+oblong	EVL	18	0.04514	0.3127	True
+oblong	PGC	9	0.02951	0.5805	True
+oblong	adaxial_somite	8	0.03038	0.1588	False
+oblong	axial_mesoderm	18	0.01866	0.4303	False
+oblong	blocking:BMP	2	0.006944	0.05549	False
+oblong	blocking:RA	1	0.003906	0.4291	False
+oblong	blocking:Wnt	1	0	0.06261	False
+oblong	dorsal_forerunner	22	0.02648	0.4246	False
+oblong	dorsal_organizer	12	0.01085	0.3735	False
+oblong	endoderm	8	0	0.2757	False
+oblong	forebrain_eye	11	0.01085	0.1457	False
+oblong	hatching_gland	22	0	0.5272	False
+oblong	hindbrain	10	0	0.1911	False
+oblong	intermediate_mesoderm	6	0.007812	0.3344	False
+oblong	lateral_plate	8	0.003906	0.2047	False
+oblong	margin	14	0.01172	0.2368	False
+oblong	mesoderm	11	0.02474	0.1671	False
+oblong	midbrain_hindbrain_boundary	13	0	0.2688	False
+oblong	neural_crest	9	0	0.3189	False
+oblong	neural_plate	17	0	0.2184	False
+oblong	non_neural_ectoderm	3	0.04123	0.1169	True
+oblong	notochord	17	0.006944	0.427	False
+oblong	placodes	3	0.02344	0.1413	False
+oblong	prechordal_plate	14	0	0.2934	False
+oblong	presomitic_mesoderm	8	0.01953	0.1429	False
+oblong	primary_neurons	4	0	0.2534	False
+oblong	sending:BMP_organizer	1	0.01953	0.4509	False
+oblong	sending:Wnt/PCP	1	0.006944	0.08687	False
+oblong	signal:BMP	5	0.0178	0.2489	False
+oblong	signal:FGF	3	0	0.2388	False
+oblong	signal:Nodal	3	0	0.2528	False
+oblong	signal:Wnt	3	0	0.1643	False
+oblong	state:blastomere	6	0.01172	0.5467	False
+oblong	state:cell_cycle_g2m	10	0	0.5008	False
+oblong	state:cell_cycle_s	10	0	0.5344	False
+oblong	state:heat_shock	2	0	0.2449	False
+oblong	state:maternal	10	0.09028	0.8591	False
+oblong	state:p53_response	9	0.01085	0.7002	True
+oblong	tailbud	16	0	0.3128	False
+shield	EVL	30	0.01338	0.331	True
+shield	PGC	8	0.003824	0.1194	True
+shield	adaxial_somite	20	0.1511	0.2974	False
+shield	axial_mesoderm	26	0.09751	0.4483	False
+shield	blocking:BMP	2	0.03728	0.2853	True
+shield	blocking:RA	1	0.02581	0.3292	False
+shield	blocking:Wnt	3	0.03155	0.6119	False
+shield	dorsal_forerunner	26	0.01912	0.4543	False
+shield	dorsal_organizer	14	0.07553	0.4019	True
+shield	endoderm	13	0.109	0.3633	True
+shield	forebrain_eye	18	0.07457	0.2695	False
+shield	hatching_gland	24	0.0392	0.3237	False
+shield	hindbrain	17	0.04207	0.3176	False
+shield	intermediate_mesoderm	8	0.06214	0.4166	False
+shield	lateral_plate	10	0.05736	0.2393	False
+shield	margin	30	0.2725	0.6827	True
+shield	mesoderm	23	0.2371	0.4601	True
+shield	midbrain_hindbrain_boundary	14	0.1033	0.2244	False
+shield	neural_crest	11	0.01338	0.2447	False
+shield	neural_plate	24	0.1042	0.3393	False
+shield	non_neural_ectoderm	6	0.05832	0.2845	False
+shield	notochord	20	0.1052	0.3032	False
+shield	placodes	8	0.04876	0.1266	False
+shield	prechordal_plate	20	0.05258	0.2968	False
+shield	presomitic_mesoderm	23	0.2046	0.3746	True
+shield	primary_neurons	7	0.01052	0.2976	False
+shield	receiving:Notch	1	0.001912	0.04925	False
+shield	sending:BMP_organizer	1	0.03728	0.6542	False
+shield	sending:Hedgehog	1	0.01816	0.06539	False
+shield	sending:Notch	3	0.003824	0.3212	False
+shield	sending:RA	1	0.05449	0.6433	False
+shield	sending:Wnt/PCP	2	0.1004	0.6638	False
+shield	signal:BMP	8	0.1052	0.7568	False
+shield	signal:FGF	5	0.06501	0.5707	False
+shield	signal:Nodal	4	0.04207	0.3964	False
+shield	signal:Wnt	5	0.07553	0.4869	False
+shield	state:blastomere	6	0.05067	0.6462	False
+shield	state:cell_cycle_g2m	10	0.02103	0.8322	False
+shield	state:cell_cycle_s	10	0.01816	0.5681	False
+shield	state:heat_shock	3	0.01052	0.1109	False
+shield	state:maternal	5	0.02199	0.02839	False
+shield	state:p53_response	9	0.01243	0.3648	False
+shield	tailbud	24	0.1558	0.4438	False

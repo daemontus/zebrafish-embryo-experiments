@@ -1,0 +1,27 @@
+program	first	last
+control:YSL	high	6-somite
+EVL	dome	6-somite
+margin	dome	bud
+PGC	30% epiboly	6-somite
+dorsal_organizer	30% epiboly	75% epiboly
+endoderm	30% epiboly	6-somite
+mesoderm	30% epiboly	6-somite
+presomitic_mesoderm	30% epiboly	6-somite
+axial_mesoderm	50% epiboly	6-somite
+dorsal_forerunner	50% epiboly	6-somite
+neural_plate	50% epiboly	6-somite
+prechordal_plate	50% epiboly	6-somite
+forebrain_eye	75% epiboly	6-somite
+hindbrain	75% epiboly	6-somite
+midbrain_hindbrain_boundary	75% epiboly	6-somite
+non_neural_ectoderm	75% epiboly	6-somite
+placodes	75% epiboly	6-somite
+adaxial_somite	bud	6-somite
+hatching_gland	bud	6-somite
+intermediate_mesoderm	bud	6-somite
+lateral_plate	bud	6-somite
+notochord	bud	6-somite
+primary_neurons	bud	6-somite
+tailbud	bud	6-somite
+neural_crest	3-somite	6-somite
+heart	6-somite	6-somite

@@ -5,8 +5,8 @@ of a few discrete levels. The question: how much of what the continuous
 program scores say about the cells is kept when every program is reduced to
 k levels, and which programs need more than two?
 
-Prediction (the test of script 17, same evaluation genes, cells, split and
-smoothing coordinates, read from its per-gene table). The curated programs'
+Prediction (the test of script 17: the same cached setup of every stage, i.e.
+evaluation genes, cells, split, smoothing coordinates and target). The curated programs'
 smoothed scores are discretised per stage, on the pooled (aligned) scores of
 the stage's libraries, i.e. one set of thresholds per program and stage, as
 a model would use. Every level is one-hot encoded (k - 1 columns per
@@ -28,7 +28,9 @@ Feature sets:
 The floor, the ceiling and the random reference are those of script 17 (the
 ceiling is the best of all models of 17 and of this script), so the
 explained fractions are on the same scale as in the report's program
-section, and `curated` reproduces 17's numbers.
+section, and `curated` reproduces 17's numbers. Features and model losses
+are cached per stage (data/processed/cache/22) with a digest of the curated
+programs, so a rerun recomputes only what changed.
 
 Fidelity (descriptive, all cells): per stage and program, the share of the
 variance of the smoothed score kept by its k k-means levels (between-level
@@ -55,7 +57,6 @@ for _var in ("OMP_NUM_THREADS", "OPENBLAS_NUM_THREADS", "MKL_NUM_THREADS",
 
 import importlib
 import sys
-from concurrent.futures import ProcessPoolExecutor
 
 import matplotlib
 
@@ -65,13 +66,13 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from sklearn.cluster import KMeans
-from sklearn.decomposition import PCA
-from sklearn.model_selection import train_test_split
 
 from pipeline_utils import (
     REPORT_WIDTH_IN,
     STAGES,
     TABLES,
+    cached,
+    digest,
     ensure_dirs,
     load_dropseq_counts,
     report_style,
@@ -88,6 +89,8 @@ FEATURE_SETS = (["curated"] + [f"k{k}" for k in LEVELS] + ["k3_onehot", "k6_oneh
 N_PERM = 5
 ACTIVE_QUANTILE = 0.999
 SEED = 0
+CACHE = "22"
+CACHE_VERSION = 1
 
 
 # --- discretisation -----------------------------------------------------------------------
@@ -150,72 +153,53 @@ def fidelity(stage: str, names: list[str], score: np.ndarray, train: np.ndarray)
 # --- prediction --------------------------------------------------------------------------
 
 def evaluate_stage(adata, stage: str, long: pd.DataFrame, support: pd.DataFrame,
-                   het_genes: set, previous: pd.DataFrame, rng):
-    sub = adata[adata.obs["stage"] == stage].copy()
-    library = sub.obs["library"].astype(str).to_numpy()
-    total = np.asarray(sub.X.sum(axis=1)).ravel()
-    sets = tests.stage_programs(long, stage)
-    supported = set(support.loc[(support["stage"] == stage) & (support["set"] == "curated")
-                                & support["supported"], "program"])
+                   het_genes: set):
+    setup = tests.stage_setup(adata, stage, long, het_genes)
+    sets = tests.definitions(long, support, setup)
     curated = sets["curated"]
-    is_supported = curated.index.isin(supported)
+    supported = list(sets["curated_supported"].index)
+    fkey = digest(CACHE_VERSION, setup["key"], tests.definition_key(curated), supported,
+                  N_PERM, ACTIVE_QUANTILE, LEVELS, SEED)
 
-    # Evaluation genes, split and coordinates exactly as in script 17.
-    prev = previous[(previous["stage"] == stage) & (previous["target"] == "detection")]
-    eval_genes, group = list(prev["gene"]), prev["group"].to_numpy()
-    genes_b = sub.var_names.get_indexer(eval_genes)
-    train = np.zeros(sub.n_obs, dtype=bool)
-    tr, _ = train_test_split(np.arange(sub.n_obs), test_size=prediction.TEST_FRACTION,
-                             stratify=library, random_state=tests.SEED)
-    train[tr] = True
-    coord_genes = sub.var_names.get_indexer(sorted(het_genes - set(eval_genes)))
-    coords = PCA(prediction.N_PCS, random_state=tests.SEED).fit_transform(
-        tests.library_residuals(sub, library, coord_genes))
+    def compute() -> dict:
+        sub = adata[adata.obs["stage"] == stage]
+        library, coords, train = setup["library"], setup["coords"], setup["train"]
+        used = sorted({g for genes in curated["genes"] for g in genes})
+        res = tests.library_residuals(sub, library, sub.var_names.get_indexer(used))
+        col = {g: i for i, g in enumerate(used)}
+        score = prediction.smooth(tests.scores(res, col, curated, weighted=False), library,
+                                  coords)
+        rng = np.random.default_rng(tests.seed_of("levels_null", stage))
+        low, high = null_thresholds(res, col, curated, library, coords, rng)
+        active = (score > high).astype(int)
+        three = np.where(score > high, 2, np.where(score < low, 0, 1))
+        levels = {k: np.column_stack([kmeans_levels(score[:, j], score[train, j], k)
+                                      for j in range(score.shape[1])]) for k in LEVELS}
+        is_supported = curated.index.isin(supported)
+        features = {"curated": score, "active": active.astype(float),
+                    "3state": encode(three, 3),
+                    "supported_active": active[:, is_supported].astype(float),
+                    "supported_k3": encode(levels[3][:, is_supported], 3)}
+        features.update({f"k{k}": encode(levels[k], k) for k in LEVELS})
+        features.update({f"k{k}_onehot": encode(levels[k], k, "one-hot") for k in (3, 6)})
+        return dict(features=features, n_programs=score.shape[1],
+                    fidelity=fidelity(stage, list(curated.index), score, train))
 
-    used = sorted({g for genes in curated["genes"] for g in genes})
-    res = tests.library_residuals(sub, library, sub.var_names.get_indexer(used))
-    col = {g: i for i, g in enumerate(used)}
-    score = prediction.smooth(tests.scores(res, col, curated, weighted=False), library, coords)
-    low, high = null_thresholds(res, col, curated, library, coords, rng)
-    active = (score > high).astype(int)
-    three = np.where(score > high, 2, np.where(score < low, 0, 1))
-    levels = {k: np.column_stack([kmeans_levels(score[:, j], score[train, j], k)
-                                  for j in range(score.shape[1])]) for k in LEVELS}
-    features = {"curated": score, "active": active.astype(float), "3state": encode(three, 3),
-                "supported_active": active[:, is_supported].astype(float),
-                "supported_k3": encode(levels[3][:, is_supported], 3)}
-    features.update({f"k{k}": encode(levels[k], k) for k in LEVELS})
-    features.update({f"k{k}_onehot": encode(levels[k], k, "one-hot") for k in (3, 6)})
-    available = [n for n in FEATURE_SETS if features[n].shape[1] > 0]
-
-    norm = prediction.log_normalised(sub)
-    detect_b = (sub.X[:, genes_b] > 0).toarray().astype(float)
-    knn_p = prediction.ceiling_feature(detect_b, coords, train)
-    log_depth = np.log10(total)
-    smooth_b, smooth_depth = prediction.neighbourhood_target(norm, detect_b, genes_b, library,
-                                                             log_depth)
-    libs = pd.get_dummies(library, drop_first=True).to_numpy(dtype=float).reshape(len(library), -1)
-    bases = {"detection": np.column_stack([log_depth, libs]),
-             "neighbourhood": np.column_stack([smooth_depth, libs])}
-    targets = {"detection": detect_b, "neighbourhood": smooth_b}
-    tasks = [(target, y[:, j], knn_p[:, j]) for target, y in targets.items()
-             for j in range(len(genes_b))]
-    with ProcessPoolExecutor(max_workers=prediction.N_JOBS, initializer=prediction.init_worker,
-                             initargs=(bases, [features[n] for n in available], train)) as pool:
-        losses = list(pool.map(prediction.fit_gene, tasks, chunksize=8))
-    per_gene = pd.DataFrame([[l.mean() for l in gene] for gene in losses],
-                            columns=["floor_check"] + available + ["knn_check"])
+    f = cached(CACHE, f"features_{stage}", fkey, compute)
+    specs = {n: ([fkey], lambda n=n: f["features"][n]) for n in FEATURE_SETS
+             if f["features"][n].shape[1] > 0}
+    fitted = tests.fit_losses(adata, setup, specs, group=CACHE)
+    per_gene = pd.DataFrame({n: v["loss"] for n, v in fitted.items()})
     for n in FEATURE_SETS:
         if n not in per_gene:
             per_gene[n] = np.nan
-    n_b = len(genes_b)
     per_gene.insert(0, "stage", stage)
-    per_gene.insert(1, "target", np.repeat(prediction.TARGETS, n_b))
-    per_gene.insert(2, "gene", np.tile(eval_genes, len(prediction.TARGETS)))
-    per_gene.insert(3, "group", np.tile(group, len(prediction.TARGETS)))
-    n_features = {n: features[n].shape[1] for n in FEATURE_SETS}
-    n_features["n_programs"] = score.shape[1]
-    return per_gene, n_features, fidelity(stage, list(curated.index), score, train)
+    per_gene.insert(1, "target", prediction.TARGETS[0])
+    per_gene.insert(2, "gene", setup["eval_genes"])
+    per_gene.insert(3, "group", setup["group"])
+    n_features = {n: f["features"][n].shape[1] for n in FEATURE_SETS}
+    n_features["n_programs"] = f["n_programs"]
+    return per_gene, n_features, f["fidelity"]
 
 
 def summarise(per_gene: pd.DataFrame, previous: pd.DataFrame, n_features: dict) -> pd.DataFrame:
@@ -244,9 +228,7 @@ def summarise(per_gene: pd.DataFrame, previous: pd.DataFrame, n_features: dict) 
                              n_programs=n_features[stage]["n_programs"],
                              explained=explained.get(m, np.nan),
                              curated_17=explained.get("curated", np.nan),
-                             ceiling=ceiling.removeprefix("lv_"), explainable_share=share,
-                             floor_check=(g["floor_check"].sum() - g["floor"].sum())
-                             / g["floor"].sum()))
+                             ceiling=ceiling.removeprefix("lv_"), explainable_share=share))
     out = pd.DataFrame(rows)
     ref = out.set_index(["stage", "target", "genes", "feature_set"])["explained"]
     out["random"] = [ref.get((r.stage, r.target, r.genes, "random_curated"), np.nan)
@@ -328,14 +310,12 @@ def report(summary: pd.DataFrame, fid: pd.DataFrame) -> None:
               .reindex(STAGES).round(3).to_string())
         print(t.pivot(index="stage", columns="feature_set", values="retained")
               .reindex(STAGES).round(3).to_string())
-    print(summary.groupby("stage")["floor_check"].apply(lambda v: v.abs().max()))
     print(fid.groupby("k")["retained"].describe().round(2))
 
 
 def main() -> None:
     ensure_dirs()
     report_style()
-    rng = np.random.default_rng(SEED)
     adata = load_dropseq_counts()
     long = pd.read_csv(TABLES / "programs.tsv", sep="\t")
     het = pd.read_csv(TABLES / "heterogeneous_genes.tsv.gz", sep="\t",
@@ -345,7 +325,7 @@ def main() -> None:
     genes, fid, n_features = [], [], {}
     for stage in STAGES:
         stage_het = set(het.loc[(het["stage"] == stage) & het["heterogeneous"], "gene"])
-        g, n, f = evaluate_stage(adata, stage, long, support, stage_het, previous, rng)
+        g, n, f = evaluate_stage(adata, stage, long, support, stage_het)
         genes.append(g)
         fid += f
         n_features[stage] = n

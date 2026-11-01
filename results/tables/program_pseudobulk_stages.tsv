@@ -1,0 +1,625 @@
+program	stage	strength	share	level	libraries	spread	in_window	kind	leader
+EVL	high	0.228	18.06	0.6021	2	0.02715	False	identity	0
+EVL	oblong	0.3127	30.02	1.001	2	0.1779	False	identity	0
+EVL	dome	0.4374	33.97	1.132	1	0	True	identity	0
+EVL	30% epiboly	0.6663	45.32	1.511	2	0.2888	True	identity	0
+EVL	50% epiboly	0.6214	40.71	1.357	4	0.4922	True	identity	0
+EVL	shield	0.331	21.44	0.7146	1	0	True	identity	0
+EVL	60% epiboly	0.1543	10.09	0.3363	3	0.09566	True	identity	0
+EVL	75% epiboly	0.274	17.95	0.5984	3	0.1987	True	identity	0
+EVL	90% epiboly	0.3796	23.2	0.7732	3	0.1085	True	identity	0
+EVL	bud	0.227	14.18	0.4727	4	0.1272	True	identity	0
+EVL	3-somite	0.3243	21.45	0.7149	1	0	True	identity	0
+EVL	6-somite	0.5787	42.15	1.405	2	0.1537	True	identity	0
+PGC	high	0.9091	29.26	2.926	2	0.4509	False	identity	0
+PGC	oblong	0.5805	18.77	1.877	2	0.05232	False	identity	0
+PGC	dome	0.3313	10.56	1.056	1	0	False	identity	0
+PGC	30% epiboly	0.2459	7.657	0.7657	2	0.01995	True	identity	0
+PGC	50% epiboly	0.2261	6.807	0.6807	4	0.02657	True	identity	0
+PGC	shield	0.1194	3.258	0.3258	1	0	True	identity	0
+PGC	60% epiboly	0.0847	2.449	0.2449	3	0.04195	True	identity	0
+PGC	75% epiboly	0.07908	2.162	0.2162	3	0.01306	True	identity	0
+PGC	90% epiboly	0.04214	0.9447	0.09447	3	0.01818	True	identity	0
+PGC	bud	0.03217	0.5046	0.05046	4	0.03378	True	identity	0
+PGC	3-somite	0.06679	0.1922	0.01922	1	0	True	identity	0
+PGC	6-somite	0.1088	0.3538	0.03538	2	0.04339	True	identity	0
+adaxial_somite	high	0.183	7.541	0.2514	2	0.007053	False	identity	0
+adaxial_somite	oblong	0.1588	8.299	0.2766	2	0.04305	False	identity	0
+adaxial_somite	dome	0.1698	16.14	0.538	1	0	False	identity	0
+adaxial_somite	30% epiboly	0.1521	21.46	0.7154	2	0.007164	False	identity	0
+adaxial_somite	50% epiboly	0.1665	18.81	0.6269	4	0.06553	False	identity	0
+adaxial_somite	shield	0.2974	30.97	1.032	1	0	False	identity	0
+adaxial_somite	60% epiboly	0.3514	23	0.7667	3	0.1165	False	identity	0
+adaxial_somite	75% epiboly	0.3785	20.75	0.6916	3	0.06934	False	identity	0
+adaxial_somite	90% epiboly	0.4781	19.91	0.6637	3	0.02804	False	identity	0
+adaxial_somite	bud	0.5958	21.31	0.7102	4	0.3276	True	identity	0
+adaxial_somite	3-somite	0.5612	18.61	0.6205	1	0	True	identity	0
+adaxial_somite	6-somite	0.7244	22.71	0.7571	2	0.2289	True	identity	0
+axial_mesoderm	high	0.4042	39.26	1.401	2	0.06362	False	identity	0
+axial_mesoderm	oblong	0.4303	41.82	1.493	2	0.06528	False	identity	0
+axial_mesoderm	dome	0.5507	52.91	1.889	1	0	False	identity	0
+axial_mesoderm	30% epiboly	0.4844	47.98	1.713	2	0.04791	False	identity	0
+axial_mesoderm	50% epiboly	0.4855	50.63	1.808	4	0.06188	True	identity	0
+axial_mesoderm	shield	0.4483	47.76	1.705	1	0	True	identity	0
+axial_mesoderm	60% epiboly	0.4831	45.37	1.62	3	0.06139	True	identity	0
+axial_mesoderm	75% epiboly	0.4519	41.19	1.47	3	0.06459	True	identity	0
+axial_mesoderm	90% epiboly	0.4602	36.12	1.287	3	0.0725	True	identity	0
+axial_mesoderm	bud	0.4759	32.53	1.16	4	0.1367	True	identity	0
+axial_mesoderm	3-somite	0.4966	27.61	0.9837	1	0	True	identity	0
+axial_mesoderm	6-somite	0.5071	27.39	0.9757	2	0.07026	True	identity	0
+blocking:BMP	high	0.04536	0.129	0.03226	2	0.0339	True	signalling	0
+blocking:BMP	oblong	0.05549	0.3174	0.07936	2	0.005332	True	signalling	0
+blocking:BMP	dome	0.1156	0.7908	0.1977	1	0	True	signalling	0
+blocking:BMP	30% epiboly	0.1115	0.7549	0.1887	2	0.01519	True	signalling	0
+blocking:BMP	50% epiboly	0.2198	1.401	0.3501	4	0.122	True	signalling	0
+blocking:BMP	shield	0.2853	1.526	0.3814	1	0	True	signalling	0
+blocking:BMP	60% epiboly	0.5089	3.025	0.7563	3	0.1041	True	signalling	0
+blocking:BMP	75% epiboly	0.5026	3.003	0.7507	3	0.2222	True	signalling	0
+blocking:BMP	90% epiboly	0.6154	3.066	0.7666	3	0.08275	True	signalling	0
+blocking:BMP	bud	0.6277	2.539	0.6347	4	0.3614	True	signalling	0
+blocking:BMP	3-somite	0.5995	1.649	0.4123	1	0	True	signalling	0
+blocking:BMP	6-somite	0.602	1.512	0.3779	2	0.1231	True	signalling	0
+blocking:RA	high	0.2536	0.7849	0.7849	2	0.01737	True	signalling	2
+blocking:RA	oblong	0.4291	1.328	1.328	2	0.4311	True	signalling	0
+blocking:RA	dome	0.2566	0.7943	0.7943	1	0	True	signalling	0
+blocking:RA	30% epiboly	0.4099	1.269	1.269	2	0.09299	True	signalling	0
+blocking:RA	50% epiboly	0.2673	0.8276	0.8276	4	0.1076	True	signalling	0
+blocking:RA	shield	0.3292	1.019	1.019	1	0	True	signalling	0
+blocking:RA	60% epiboly	0.5897	1.826	1.826	3	0.09396	True	signalling	0
+blocking:RA	75% epiboly	0.8466	2.621	2.621	3	0.2874	True	signalling	0
+blocking:RA	90% epiboly	1	3.095	3.095	3	0.4533	True	signalling	1
+blocking:RA	bud	0.8897	2.754	2.754	4	0.1687	True	signalling	2
+blocking:RA	3-somite	0.2857	0.8843	0.8843	1	0	True	signalling	0
+blocking:RA	6-somite	0.2485	0.7692	0.7692	2	0.05758	True	signalling	0
+blocking:Wnt	high	0.02391	0.2203	0.07344	2	0.01968	True	signalling	0
+blocking:Wnt	oblong	0.06261	0.6887	0.2296	2	0.006593	True	signalling	0
+blocking:Wnt	dome	0.1278	0.8152	0.2717	1	0	True	signalling	0
+blocking:Wnt	30% epiboly	0.3095	1.685	0.5618	2	0.02145	True	signalling	0
+blocking:Wnt	50% epiboly	0.3327	1.73	0.5765	4	0.04981	True	signalling	0
+blocking:Wnt	shield	0.6119	3.291	1.097	1	0	True	signalling	0
+blocking:Wnt	60% epiboly	0.6872	4.169	1.39	3	0.134	True	signalling	0
+blocking:Wnt	75% epiboly	0.7074	4.644	1.548	3	0.3034	True	signalling	0
+blocking:Wnt	90% epiboly	0.8246	5.622	1.874	3	0.399	True	signalling	0
+blocking:Wnt	bud	0.494	2.736	0.9121	4	0.1517	True	signalling	0
+blocking:Wnt	3-somite	0.2255	1.301	0.4337	1	0	True	signalling	0
+blocking:Wnt	6-somite	0.1952	1.079	0.3595	2	0.008323	True	signalling	0
+control:AhR	high		0.03284		2		True	controls	0
+control:AhR	oblong		0.05716		2		True	controls	0
+control:AhR	dome		0.01916		1		True	controls	0
+control:AhR	30% epiboly		0.003825		2		True	controls	0
+control:AhR	50% epiboly		0.004492		4		True	controls	0
+control:AhR	shield		0.002997		1		True	controls	0
+control:AhR	60% epiboly		0.0007126		3		True	controls	0
+control:AhR	75% epiboly		0.0002799		3		True	controls	0
+control:AhR	90% epiboly		0.001553		3		True	controls	0
+control:AhR	bud		0.003321		4		True	controls	0
+control:AhR	3-somite		0.03035		1		True	controls	0
+control:AhR	6-somite		0.05718		2		True	controls	0
+control:GR	high	0.9983	0.3127	0.1905	2	0.2421	True	controls	0
+control:GR	oblong	1	0.2765	0.1908	2	0.686	True	controls	0
+control:GR	dome	0.9766	0.2317	0.1864	1	0	True	controls	0
+control:GR	30% epiboly	0.5408	0.1327	0.1032	2	0.1193	True	controls	0
+control:GR	50% epiboly	0.3555	0.1349	0.06783	4	0.2734	True	controls	0
+control:GR	shield	0.3927	0.1109	0.07493	1	0	True	controls	0
+control:GR	60% epiboly	0.4266	0.1132	0.0814	3	0.3181	True	controls	0
+control:GR	75% epiboly	0.5293	0.1489	0.101	3	0.3126	True	controls	0
+control:GR	90% epiboly	0.4025	0.1431	0.07681	3	0.2202	True	controls	0
+control:GR	bud	0.4136	0.1453	0.07893	4	0.06746	True	controls	0
+control:GR	3-somite	0.2651	0.1396	0.05059	1	0	True	controls	0
+control:GR	6-somite	0.2555	0.1144	0.04876	2	0.07684	True	controls	0
+control:IFN	high	0.2971	0.04897	0.04897	2	0.4214	True	controls	0
+control:IFN	oblong	0.4641	0.07651	0.07651	2	0.03979	True	controls	0
+control:IFN	dome	0.169	0.02787	0.02787	1	0	True	controls	0
+control:IFN	30% epiboly	1	0.1675	0.1649	2	1.412	True	controls	0
+control:IFN	50% epiboly	0.5594	0.1001	0.09223	4	0.4551	True	controls	0
+control:IFN	shield	0.1091	0.02398	0.01798	1	0	True	controls	0
+control:IFN	60% epiboly	0.2275	0.04109	0.0375	3	0.1931	True	controls	0
+control:IFN	75% epiboly	0.199	0.03702	0.03281	3	0.1329	True	controls	0
+control:IFN	90% epiboly	0.4658	0.08424	0.07679	3	0.5752	True	controls	0
+control:IFN	bud	0.02451	0.01084	0.00404	4	0.07768	True	controls	0
+control:IFN	3-somite	0.07365	0.02428	0.01214	1	0	True	controls	0
+control:IFN	6-somite	0.04852	0.0132	0.007998	2	0.04956	True	controls	0
+control:YSL	high	0.3879	43.76	1.683	2	0.04241	True	controls	2
+control:YSL	oblong	0.361	35.86	1.379	2	0.02895	True	controls	1
+control:YSL	dome	0.3833	27.67	1.064	1	0	True	controls	0
+control:YSL	30% epiboly	0.3029	31.89	1.226	2	0.05584	True	controls	1
+control:YSL	50% epiboly	0.3093	34.01	1.308	4	0.1024	True	controls	2
+control:YSL	shield	0.2213	57.03	2.193	1	0	True	controls	1
+control:YSL	60% epiboly	0.2812	50.25	1.932	3	0.06856	True	controls	3
+control:YSL	75% epiboly	0.2845	48.44	1.863	3	0.09504	True	controls	3
+control:YSL	90% epiboly	0.3139	36.1	1.388	3	0.08176	True	controls	3
+control:YSL	bud	0.23	34.25	1.316	4	0.07374	True	controls	2
+control:YSL	3-somite	0.3489	23.1	0.8821	1	0	True	controls	1
+control:YSL	6-somite	0.4441	26.62	1.019	2	0.1849	True	controls	0
+control:circadian	high	0.4024	0.3854	0.148	2	0.01046	True	controls	0
+control:circadian	oblong	0.2194	0.2364	0.09706	2	0.03785	True	controls	0
+control:circadian	dome	0.6855	0.472	0.2186	1	0	True	controls	0
+control:circadian	30% epiboly	0.5138	0.443	0.2151	2	0.3948	True	controls	0
+control:circadian	50% epiboly	0.5946	0.5792	0.2749	4	0.1791	True	controls	0
+control:circadian	shield	0.4685	0.4736	0.2278	1	0	True	controls	0
+control:circadian	60% epiboly	0.353	0.3787	0.1724	3	0.2871	True	controls	0
+control:circadian	75% epiboly	0.2715	0.2981	0.1348	3	0.2073	True	controls	0
+control:circadian	90% epiboly	0.2629	0.2807	0.1281	3	0.2348	True	controls	0
+control:circadian	bud	0.3959	0.4234	0.1831	4	0.3577	True	controls	0
+control:circadian	3-somite	0.2397	0.2813	0.1184	1	0	True	controls	0
+control:circadian	6-somite	0.2636	0.2958	0.1282	2	0.187	True	controls	0
+control:dissociation	high	0.2296	1.282	0.3206	2	0.2384	True	controls	0
+control:dissociation	oblong	0.2063	1.011	0.2528	2	0.1018	True	controls	0
+control:dissociation	dome	0.3974	2.883	0.7198	1	0	True	controls	0
+control:dissociation	30% epiboly	0.1822	1.34	0.3344	2	0.009406	True	controls	0
+control:dissociation	50% epiboly	0.4925	3.744	0.936	4	0.4031	True	controls	0
+control:dissociation	shield	0.4391	3.78	0.9441	1	0	True	controls	0
+control:dissociation	60% epiboly	0.1861	1.624	0.4052	3	0.1737	True	controls	0
+control:dissociation	75% epiboly	0.2209	1.921	0.4799	3	0.06398	True	controls	0
+control:dissociation	90% epiboly	0.3036	2.678	0.6678	3	0.1819	True	controls	0
+control:dissociation	bud	0.5921	5.443	1.353	4	0.581	True	controls	2
+control:dissociation	3-somite	0.3243	2.906	0.7209	1	0	True	controls	0
+control:dissociation	6-somite	0.8829	8.7	2.151	2	0.677	True	controls	2
+control:whole_organism	high	0.8027	32.93	1.265	2	0.0746	True	controls	0
+control:whole_organism	oblong	0.7674	33.09	1.269	2	0.07414	True	controls	1
+control:whole_organism	dome	0.5579	33.82	1.301	1	0	True	controls	1
+control:whole_organism	30% epiboly	0.4921	33.22	1.277	2	0.09374	True	controls	1
+control:whole_organism	50% epiboly	0.487	33.21	1.277	4	0.1292	True	controls	2
+control:whole_organism	shield	0.3315	32.05	1.232	1	0	True	controls	0
+control:whole_organism	60% epiboly	0.3951	30.39	1.169	3	0.04633	True	controls	0
+control:whole_organism	75% epiboly	0.3718	26.57	1.022	3	0.1227	True	controls	0
+control:whole_organism	90% epiboly	0.3897	23.71	0.9117	3	0.07244	True	controls	0
+control:whole_organism	bud	0.4029	22.8	0.8767	4	0.03981	True	controls	0
+control:whole_organism	3-somite	0.3715	19.6	0.7537	1	0	True	controls	0
+control:whole_organism	6-somite	0.3443	19.06	0.7326	2	0.0769	True	controls	0
+dorsal_forerunner	high	0.3635	16.82	0.6005	2	0.05181	False	identity	0
+dorsal_forerunner	oblong	0.4246	28.78	1.028	2	0.09781	False	identity	0
+dorsal_forerunner	dome	0.4607	49.13	1.754	1	0	False	identity	0
+dorsal_forerunner	30% epiboly	0.4393	54.06	1.931	2	0.0245	False	identity	0
+dorsal_forerunner	50% epiboly	0.4386	60.22	2.15	4	0.04098	True	identity	0
+dorsal_forerunner	shield	0.4543	71.89	2.565	1	0	True	identity	0
+dorsal_forerunner	60% epiboly	0.3815	57.99	2.07	3	0.02598	True	identity	0
+dorsal_forerunner	75% epiboly	0.3978	58.09	2.074	3	0.02302	True	identity	0
+dorsal_forerunner	90% epiboly	0.414	48.68	1.738	3	0.02024	True	identity	0
+dorsal_forerunner	bud	0.4073	40.95	1.46	4	0.02175	True	identity	0
+dorsal_forerunner	3-somite	0.4328	22.2	0.7881	1	0	True	identity	0
+dorsal_forerunner	6-somite	0.4368	16.59	0.589	2	0.03567	True	identity	0
+dorsal_organizer	high	0.2888	12.79	0.7099	2	0.1159	False	identity	0
+dorsal_organizer	oblong	0.3735	15.22	0.8457	2	0.0708	False	identity	0
+dorsal_organizer	dome	0.4518	19.38	1.076	1	0	False	identity	0
+dorsal_organizer	30% epiboly	0.3564	13.86	0.7698	2	0.05954	True	identity	0
+dorsal_organizer	50% epiboly	0.4104	13.64	0.7554	4	0.07228	True	identity	0
+dorsal_organizer	shield	0.4019	12.39	0.6867	1	0	True	identity	0
+dorsal_organizer	60% epiboly	0.53	15.71	0.8687	3	0.07213	True	identity	0
+dorsal_organizer	75% epiboly	0.4867	13.53	0.7482	3	0.06441	True	identity	0
+dorsal_organizer	90% epiboly	0.5332	14.33	0.7907	3	0.08014	False	identity	0
+dorsal_organizer	bud	0.5436	12.99	0.7148	4	0.1114	False	identity	0
+dorsal_organizer	3-somite	0.4905	11.05	0.6036	1	0	False	identity	0
+dorsal_organizer	6-somite	0.4667	10.58	0.5746	2	0.07551	False	identity	0
+endoderm	high	0.2775	5.444	0.2974	2	0.02885	False	identity	0
+endoderm	oblong	0.2757	4.997	0.2763	2	0.06977	False	identity	0
+endoderm	dome	0.2673	4.724	0.2613	1	0	False	identity	0
+endoderm	30% epiboly	0.3159	6.374	0.3529	2	0.05579	True	identity	0
+endoderm	50% epiboly	0.3362	5.881	0.3259	4	0.05792	True	identity	0
+endoderm	shield	0.3633	6.3	0.3499	1	0	True	identity	0
+endoderm	60% epiboly	0.481	7.339	0.4061	3	0.1924	True	identity	0
+endoderm	75% epiboly	0.3955	5.62	0.3096	3	0.06608	True	identity	0
+endoderm	90% epiboly	0.4176	5.619	0.3052	3	0.1228	True	identity	0
+endoderm	bud	0.3802	4.675	0.2489	4	0.1313	True	identity	0
+endoderm	3-somite	0.3896	4.498	0.2335	1	0	True	identity	0
+endoderm	6-somite	0.393	4.471	0.2296	2	0.1629	True	identity	0
+forebrain_eye	high	0.1098	5.048	0.1858	2	0.01393	False	identity	0
+forebrain_eye	oblong	0.1457	7.891	0.2919	2	0.01484	False	identity	0
+forebrain_eye	dome	0.1552	34.17	1.265	1	0	False	identity	0
+forebrain_eye	30% epiboly	0.1831	38.57	1.428	2	0.006037	False	identity	0
+forebrain_eye	50% epiboly	0.2265	46.58	1.725	4	0.05765	False	identity	0
+forebrain_eye	shield	0.2695	42.29	1.566	1	0	False	identity	0
+forebrain_eye	60% epiboly	0.3359	43.75	1.62	3	0.06408	False	identity	0
+forebrain_eye	75% epiboly	0.3955	38.27	1.417	3	0.06592	True	identity	0
+forebrain_eye	90% epiboly	0.526	38.23	1.414	3	0.1988	True	identity	0
+forebrain_eye	bud	0.6767	32.04	1.183	4	0.249	True	identity	0
+forebrain_eye	3-somite	0.5948	23.18	0.8501	1	0	True	identity	0
+forebrain_eye	6-somite	0.6737	24.19	0.8862	2	0.1083	True	identity	0
+hatching_gland	high	0.4723	44.31	1.582	2	0.08695	False	identity	0
+hatching_gland	oblong	0.5272	53.83	1.922	2	0.0352	False	identity	0
+hatching_gland	dome	0.5007	60.21	2.15	1	0	False	identity	0
+hatching_gland	30% epiboly	0.4812	55.15	1.969	2	0.09111	False	identity	0
+hatching_gland	50% epiboly	0.4172	47.88	1.71	4	0.08943	False	identity	0
+hatching_gland	shield	0.3237	37.33	1.333	1	0	False	identity	0
+hatching_gland	60% epiboly	0.2708	28.68	1.023	3	0.02773	False	identity	0
+hatching_gland	75% epiboly	0.2631	26.65	0.9499	3	0.0552	False	identity	0
+hatching_gland	90% epiboly	0.3431	28.92	1.029	3	0.0581	False	identity	0
+hatching_gland	bud	0.3658	29.03	1.034	4	0.2141	True	identity	0
+hatching_gland	3-somite	0.3816	30.52	1.088	1	0	True	identity	0
+hatching_gland	6-somite	0.4935	41.17	1.468	2	0.03434	True	identity	0
+heart	high	0.03047	0.04679	0.008138	2	0.06093	False	identity	0
+heart	oblong	0.01632	0.0228	0.005699	2	0.03264	False	identity	0
+heart	dome	0.02608	0.02264	0.006967	1	0	False	identity	0
+heart	30% epiboly	0.02407	0.01668	0.00643	2	0.009144	False	identity	0
+heart	50% epiboly	0.01988	0.02448	0.007878	4	0.01994	False	identity	0
+heart	shield	0.008582	0.01499	0.002997	1	0	False	identity	0
+heart	60% epiboly	0.01318	0.01158	0.004928	3	0.008104	False	identity	0
+heart	75% epiboly	0.04303	0.03375	0.01587	3	0.03559	False	identity	0
+heart	90% epiboly	0.1915	0.1552	0.07298	3	0.1014	False	identity	0
+heart	bud	0.418	0.354	0.1571	4	0.289	False	identity	0
+heart	3-somite	0.8651	0.769	0.3177	1	0	False	identity	0
+heart	6-somite	0.8341	0.8457	0.3414	2	0.05137	True	identity	0
+hindbrain	high	0.1618	15.08	0.5573	2	0.04869	False	identity	0
+hindbrain	oblong	0.1911	18.6	0.6877	2	0.02852	False	identity	0
+hindbrain	dome	0.2104	19.96	0.7381	1	0	False	identity	0
+hindbrain	30% epiboly	0.2404	21.63	0.8002	2	0.01573	False	identity	0
+hindbrain	50% epiboly	0.2784	19.95	0.7375	4	0.02013	False	identity	0
+hindbrain	shield	0.3176	21.31	0.7885	1	0	False	identity	0
+hindbrain	60% epiboly	0.3532	23.31	0.8619	3	0.02382	False	identity	0
+hindbrain	75% epiboly	0.3786	22.3	0.824	3	0.1005	True	identity	0
+hindbrain	90% epiboly	0.4232	23.82	0.8789	3	0.05372	True	identity	0
+hindbrain	bud	0.5801	24.18	0.8911	4	0.1436	True	identity	0
+hindbrain	3-somite	0.6488	21.46	0.7895	1	0	True	identity	0
+hindbrain	6-somite	0.6145	19.66	0.7225	2	0.3072	True	identity	0
+intermediate_mesoderm	high	0.2458	16.34	1.359	2	0.005421	False	identity	0
+intermediate_mesoderm	oblong	0.3344	20.2	1.681	2	0.02122	False	identity	0
+intermediate_mesoderm	dome	0.3852	20.02	1.664	1	0	False	identity	0
+intermediate_mesoderm	30% epiboly	0.5159	19.13	1.59	2	0.104	False	identity	0
+intermediate_mesoderm	50% epiboly	0.4991	16.24	1.352	4	0.1363	False	identity	0
+intermediate_mesoderm	shield	0.4166	16.74	1.391	1	0	False	identity	0
+intermediate_mesoderm	60% epiboly	0.2597	10.26	0.8539	3	0.05213	False	identity	0
+intermediate_mesoderm	75% epiboly	0.2392	6.905	0.5747	3	0.0799	False	identity	0
+intermediate_mesoderm	90% epiboly	0.2205	5.192	0.432	3	0.008443	False	identity	0
+intermediate_mesoderm	bud	0.2297	3.509	0.2913	4	0.03991	True	identity	0
+intermediate_mesoderm	3-somite	0.3605	3.659	0.3018	1	0	True	identity	0
+intermediate_mesoderm	6-somite	0.3996	3.608	0.2915	2	0.03604	True	identity	0
+lateral_plate	high	0.1137	7.345	0.3323	2	0.03519	False	identity	0
+lateral_plate	oblong	0.2047	14.11	0.6394	2	0.02117	False	identity	0
+lateral_plate	dome	0.2381	19.59	0.8892	1	0	False	identity	0
+lateral_plate	30% epiboly	0.2446	14.51	0.6592	2	0.02348	False	identity	0
+lateral_plate	50% epiboly	0.2763	10.26	0.4657	4	0.06531	False	identity	0
+lateral_plate	shield	0.2393	7.514	0.341	1	0	False	identity	0
+lateral_plate	60% epiboly	0.2496	6.377	0.2896	3	0.03735	False	identity	0
+lateral_plate	75% epiboly	0.2035	5.51	0.2501	3	0.04742	False	identity	0
+lateral_plate	90% epiboly	0.26	5.8	0.2628	3	0.06927	False	identity	0
+lateral_plate	bud	0.3085	5.829	0.2624	4	0.09636	True	identity	0
+lateral_plate	3-somite	0.5589	8.09	0.3543	1	0	True	identity	0
+lateral_plate	6-somite	0.6836	10.29	0.4473	2	0.1448	True	identity	0
+margin	high	0.1756	21.79	0.7264	2	0.03296	False	identity	0
+margin	oblong	0.2368	28.59	0.9528	2	0.03664	False	identity	0
+margin	dome	0.3312	60.97	2.032	1	0	True	identity	0
+margin	30% epiboly	0.5026	78.86	2.629	2	0.104	True	identity	0
+margin	50% epiboly	0.5183	71.1	2.37	4	0.08371	True	identity	0
+margin	shield	0.6827	88.59	2.953	1	0	True	identity	0
+margin	60% epiboly	0.6814	77.71	2.59	3	0.1076	True	identity	0
+margin	75% epiboly	0.5606	71.66	2.389	3	0.06124	True	identity	0
+margin	90% epiboly	0.5326	71.27	2.376	3	0.1279	True	identity	0
+margin	bud	0.4927	61.39	2.046	4	0.07951	True	identity	0
+margin	3-somite	0.3723	48.51	1.617	1	0	False	identity	0
+margin	6-somite	0.3967	48.34	1.611	2	0.07008	False	identity	0
+mesoderm	high	0.126	22.3	0.7432	2	0.03516	False	identity	0
+mesoderm	oblong	0.1671	31.8	1.06	2	0.02642	False	identity	0
+mesoderm	dome	0.2314	58.64	1.955	1	0	False	identity	0
+mesoderm	30% epiboly	0.3269	64.48	2.149	2	0.06331	True	identity	0
+mesoderm	50% epiboly	0.3118	55.3	1.843	4	0.04321	True	identity	0
+mesoderm	shield	0.4601	61.21	2.04	1	0	True	identity	0
+mesoderm	60% epiboly	0.5212	49.59	1.653	3	0.03129	True	identity	0
+mesoderm	75% epiboly	0.4808	39.28	1.309	3	0.04692	True	identity	0
+mesoderm	90% epiboly	0.5185	34.43	1.148	3	0.06126	True	identity	0
+mesoderm	bud	0.5534	29.24	0.9746	4	0.2214	True	identity	0
+mesoderm	3-somite	0.4456	21.72	0.724	1	0	True	identity	0
+mesoderm	6-somite	0.511	23.6	0.7868	2	0.1964	True	identity	0
+midbrain_hindbrain_boundary	high	0.2548	13.65	0.4708	2	0.02011	False	identity	0
+midbrain_hindbrain_boundary	oblong	0.2688	17.43	0.6009	2	0.03971	False	identity	0
+midbrain_hindbrain_boundary	dome	0.1682	10.66	0.3675	1	0	False	identity	0
+midbrain_hindbrain_boundary	30% epiboly	0.1635	9.968	0.3437	2	0.03354	False	identity	0
+midbrain_hindbrain_boundary	50% epiboly	0.1661	9.098	0.3137	4	0.04926	False	identity	0
+midbrain_hindbrain_boundary	shield	0.2244	13	0.4484	1	0	False	identity	0
+midbrain_hindbrain_boundary	60% epiboly	0.2808	14.62	0.5042	3	0.04864	False	identity	0
+midbrain_hindbrain_boundary	75% epiboly	0.2851	15.43	0.5319	3	0.00378	True	identity	0
+midbrain_hindbrain_boundary	90% epiboly	0.3468	17.46	0.6017	3	0.05931	True	identity	0
+midbrain_hindbrain_boundary	bud	0.4711	19.98	0.6886	4	0.1404	True	identity	0
+midbrain_hindbrain_boundary	3-somite	0.641	21.05	0.7244	1	0	True	identity	0
+midbrain_hindbrain_boundary	6-somite	0.6162	19.85	0.6825	2	0.09439	True	identity	0
+neural_crest	high	0.2838	8.103	0.4762	2	0.0007946	False	identity	0
+neural_crest	oblong	0.3189	11.6	0.6818	2	0.0445	False	identity	0
+neural_crest	dome	0.3331	12.67	0.7434	1	0	False	identity	0
+neural_crest	30% epiboly	0.2345	9.059	0.5314	2	0.02075	False	identity	0
+neural_crest	50% epiboly	0.286	9.975	0.5852	4	0.03642	False	identity	0
+neural_crest	shield	0.2447	5.56	0.3237	1	0	False	identity	0
+neural_crest	60% epiboly	0.2467	4.951	0.2896	3	0.009772	False	identity	0
+neural_crest	75% epiboly	0.2688	5.053	0.2952	3	0.02472	False	identity	0
+neural_crest	90% epiboly	0.2742	5.224	0.3053	3	0.01495	False	identity	0
+neural_crest	bud	0.308	5.321	0.3098	4	0.09373	False	identity	0
+neural_crest	3-somite	0.4237	5.373	0.3106	1	0	True	identity	0
+neural_crest	6-somite	0.5426	5.851	0.3347	2	0.1942	True	identity	0
+neural_plate	high	0.1984	21.17	0.7057	2	0.03522	False	identity	0
+neural_plate	oblong	0.2184	35.29	1.176	2	0.05763	False	identity	0
+neural_plate	dome	0.1998	71.59	2.386	1	0	False	identity	0
+neural_plate	30% epiboly	0.2171	97.92	3.264	2	0.007635	False	identity	0
+neural_plate	50% epiboly	0.2494	116.4	3.878	4	0.07202	True	identity	0
+neural_plate	shield	0.3393	193.3	6.442	1	0	True	identity	0
+neural_plate	60% epiboly	0.391	157.5	5.25	3	0.02109	True	identity	2
+neural_plate	75% epiboly	0.4736	177.5	5.916	3	0.0781	True	identity	3
+neural_plate	90% epiboly	0.5884	178.5	5.948	3	0.05668	True	identity	3
+neural_plate	bud	0.6487	153	5.1	4	0.1888	True	identity	4
+neural_plate	3-somite	0.5525	113.7	3.79	1	0	True	identity	1
+neural_plate	6-somite	0.5215	98.72	3.291	2	0.09741	True	identity	1
+non_neural_ectoderm	high	0.09049	0.6775	0.09612	2	0.0001747	False	identity	0
+non_neural_ectoderm	oblong	0.1169	1.155	0.1611	2	0.06544	False	identity	0
+non_neural_ectoderm	dome	0.09121	0.8082	0.1117	1	0	False	identity	0
+non_neural_ectoderm	30% epiboly	0.1634	1.318	0.1827	2	0.03527	False	identity	0
+non_neural_ectoderm	50% epiboly	0.1753	1.287	0.1795	4	0.09624	False	identity	0
+non_neural_ectoderm	shield	0.2845	2.296	0.3271	1	0	False	identity	0
+non_neural_ectoderm	60% epiboly	0.3904	3.093	0.4405	3	0.02762	False	identity	0
+non_neural_ectoderm	75% epiboly	0.5068	4.285	0.609	3	0.1839	True	identity	0
+non_neural_ectoderm	90% epiboly	0.6589	5.593	0.794	3	0.152	True	identity	0
+non_neural_ectoderm	bud	0.78	6.529	0.9216	4	0.1209	True	identity	0
+non_neural_ectoderm	3-somite	0.5593	3.897	0.5429	1	0	True	identity	0
+non_neural_ectoderm	6-somite	0.5517	3.896	0.5347	2	0.09589	True	identity	0
+notochord	high	0.4638	51.18	1.827	2	0.04987	False	identity	0
+notochord	oblong	0.427	51.7	1.846	2	0.02984	False	identity	0
+notochord	dome	0.4329	67.92	2.425	1	0	False	identity	0
+notochord	30% epiboly	0.3907	66.92	2.388	2	0.003687	False	identity	0
+notochord	50% epiboly	0.3805	64.83	2.314	4	0.07187	False	identity	0
+notochord	shield	0.3032	63.45	2.265	1	0	False	identity	0
+notochord	60% epiboly	0.3034	62.68	2.238	3	0.008002	False	identity	0
+notochord	75% epiboly	0.3229	57.18	2.04	3	0.05322	False	identity	0
+notochord	90% epiboly	0.3992	58.12	2.073	3	0.04736	False	identity	0
+notochord	bud	0.416	48.3	1.723	4	0.1385	True	identity	0
+notochord	3-somite	0.5671	49.36	1.76	1	0	True	identity	0
+notochord	6-somite	0.6104	46.07	1.64	2	0.0415	True	identity	0
+placodes	high	0.1349	1.057	0.04761	2	0.0146	False	identity	0
+placodes	oblong	0.1413	1.317	0.05826	2	0.03308	False	identity	0
+placodes	dome	0.1295	1.022	0.04616	1	0	False	identity	0
+placodes	30% epiboly	0.1425	1.461	0.06524	2	0.02243	False	identity	0
+placodes	50% epiboly	0.1383	1.481	0.06657	4	0.03074	False	identity	0
+placodes	shield	0.1266	1.987	0.08978	1	0	False	identity	0
+placodes	60% epiboly	0.1623	3.236	0.1456	3	0.01785	False	identity	0
+placodes	75% epiboly	0.2212	5.896	0.2661	3	0.06541	True	identity	0
+placodes	90% epiboly	0.3319	7.677	0.3474	3	0.06182	True	identity	0
+placodes	bud	0.5289	8.723	0.394	4	0.222	True	identity	0
+placodes	3-somite	0.679	6.929	0.3062	1	0	True	identity	0
+placodes	6-somite	0.721	6.696	0.2914	2	0.02155	True	identity	0
+prechordal_plate	high	0.2754	19.92	0.7649	2	0.01177	False	identity	0
+prechordal_plate	oblong	0.2934	25.02	0.9619	2	0.03537	False	identity	0
+prechordal_plate	dome	0.2731	23.04	0.8856	1	0	False	identity	0
+prechordal_plate	30% epiboly	0.3236	29.13	1.12	2	0.06486	False	identity	0
+prechordal_plate	50% epiboly	0.3175	27.48	1.056	4	0.04757	True	identity	0
+prechordal_plate	shield	0.2968	17.52	0.672	1	0	True	identity	0
+prechordal_plate	60% epiboly	0.3659	14.14	0.5405	3	0.08404	True	identity	0
+prechordal_plate	75% epiboly	0.3609	12.34	0.4704	3	0.04274	True	identity	0
+prechordal_plate	90% epiboly	0.4509	13.97	0.5318	3	0.07601	True	identity	0
+prechordal_plate	bud	0.4414	14.48	0.5528	4	0.2196	True	identity	0
+prechordal_plate	3-somite	0.4459	14.93	0.5709	1	0	True	identity	0
+prechordal_plate	6-somite	0.5051	16.9	0.6451	2	0.05382	True	identity	0
+presomitic_mesoderm	high	0.1249	15.15	0.505	2	0.001444	False	identity	0
+presomitic_mesoderm	oblong	0.1429	18.36	0.6119	2	0.02737	False	identity	0
+presomitic_mesoderm	dome	0.1831	30.32	1.011	1	0	False	identity	0
+presomitic_mesoderm	30% epiboly	0.263	33.61	1.12	2	0.06003	True	identity	0
+presomitic_mesoderm	50% epiboly	0.2395	30.56	1.019	4	0.05409	True	identity	0
+presomitic_mesoderm	shield	0.3746	30.38	1.013	1	0	True	identity	0
+presomitic_mesoderm	60% epiboly	0.4446	31.65	1.055	3	0.02002	True	identity	0
+presomitic_mesoderm	75% epiboly	0.401	25.75	0.8584	3	0.03866	True	identity	0
+presomitic_mesoderm	90% epiboly	0.4571	25.79	0.8595	3	0.02955	True	identity	0
+presomitic_mesoderm	bud	0.6026	28	0.9334	4	0.4286	True	identity	0
+presomitic_mesoderm	3-somite	0.5162	24.34	0.8112	1	0	True	identity	0
+presomitic_mesoderm	6-somite	0.6593	32.15	1.072	2	0.2732	True	identity	0
+primary_neurons	high	0.2672	1.942	0.1298	2	0.07631	False	identity	0
+primary_neurons	oblong	0.2534	1.923	0.1342	2	0.004595	False	identity	0
+primary_neurons	dome	0.2106	1.676	0.1151	1	0	False	identity	0
+primary_neurons	30% epiboly	0.2806	1.894	0.1325	2	0.01597	False	identity	0
+primary_neurons	50% epiboly	0.2791	1.818	0.1276	4	0.1165	False	identity	0
+primary_neurons	shield	0.2976	2.005	0.1383	1	0	False	identity	0
+primary_neurons	60% epiboly	0.244	1.599	0.111	3	0.009848	False	identity	0
+primary_neurons	75% epiboly	0.2549	1.652	0.1093	3	0.072	False	identity	0
+primary_neurons	90% epiboly	0.339	1.958	0.126	3	0.09544	False	identity	0
+primary_neurons	bud	0.4708	2.426	0.152	4	0.2474	True	identity	0
+primary_neurons	3-somite	0.5135	2.594	0.1593	1	0	True	identity	0
+primary_neurons	6-somite	0.6426	3.336	0.2048	2	0.09376	True	identity	0
+receiving:Notch	high	0.02314	0.0279	0.003986	2	0.04628	True	signalling	0
+receiving:Notch	oblong	0.04446	0.06511	0.009301	2	0.05613	True	signalling	0
+receiving:Notch	dome	0.0883	0.09231	0.01319	1	0	True	signalling	0
+receiving:Notch	30% epiboly	0.06743	0.08258	0.0118	2	0.01492	True	signalling	0
+receiving:Notch	50% epiboly	0.03124	0.04435	0.006336	4	0.02344	True	signalling	0
+receiving:Notch	shield	0.04925	0.1199	0.01713	1	0	True	signalling	0
+receiving:Notch	60% epiboly	0.03723	0.08837	0.01262	3	0.01793	True	signalling	0
+receiving:Notch	75% epiboly	0.0819	0.1977	0.02824	3	0.05302	True	signalling	0
+receiving:Notch	90% epiboly	0.1363	0.3192	0.0456	3	0.0734	True	signalling	0
+receiving:Notch	bud	0.3845	0.8974	0.1282	4	0.3014	True	signalling	0
+receiving:Notch	3-somite	0.751	1.68	0.2399	1	0	True	signalling	0
+receiving:Notch	6-somite	1	2.134	0.3048	2	0.1741	True	signalling	0
+receiving:RA	high	0	0	0	2	0	True	signalling	0
+receiving:RA	oblong	0	0	0	2	0	True	signalling	0
+receiving:RA	dome	0	0	0	1	0	True	signalling	0
+receiving:RA	30% epiboly	0.007981	0.001275	0.001275	2	0.01596	True	signalling	0
+receiving:RA	50% epiboly	0.005202	0.0008312	0.0008312	4	0.007618	True	signalling	0
+receiving:RA	shield	0	0	0	1	0	True	signalling	0
+receiving:RA	60% epiboly	0	0	0	3	0	True	signalling	0
+receiving:RA	75% epiboly	0.03932	0.006283	0.006283	3	0.08777	True	signalling	0
+receiving:RA	90% epiboly	0.3687	0.0589	0.0589	3	0.4369	True	signalling	0
+receiving:RA	bud	1	0.1598	0.1598	4	0.7298	True	signalling	0
+receiving:RA	3-somite	0.7346	0.1174	0.1174	1	0	True	signalling	0
+receiving:RA	6-somite	0.6518	0.1041	0.1041	2	0.1442	True	signalling	0
+sending:BMP_organizer	high	0.219	0.321	0.321	2	0.1076	True	signalling	0
+sending:BMP_organizer	oblong	0.4509	0.6611	0.6611	2	0.07773	True	signalling	0
+sending:BMP_organizer	dome	0.3778	0.5539	0.5539	1	0	True	signalling	0
+sending:BMP_organizer	30% epiboly	0.3275	0.4801	0.4801	2	0.06521	True	signalling	0
+sending:BMP_organizer	50% epiboly	0.7001	1.026	1.026	4	0.1305	True	signalling	0
+sending:BMP_organizer	shield	0.6542	0.9591	0.9591	1	0	True	signalling	0
+sending:BMP_organizer	60% epiboly	0.7814	1.146	1.146	3	0.1167	True	signalling	0
+sending:BMP_organizer	75% epiboly	1	1.466	1.466	3	0.332	True	signalling	0
+sending:BMP_organizer	90% epiboly	0.6051	0.8872	0.8872	3	0.1703	True	signalling	0
+sending:BMP_organizer	bud	0.2406	0.3527	0.3527	4	0.06076	True	signalling	0
+sending:BMP_organizer	3-somite	0.03175	0.04654	0.04654	1	0	True	signalling	0
+sending:BMP_organizer	6-somite	0.06696	0.09817	0.09817	2	0.02089	True	signalling	0
+sending:Hedgehog	high	0.003431	0.002325	0.001163	2	0.006862	True	signalling	0
+sending:Hedgehog	oblong	0	0	0	2	0	True	signalling	0
+sending:Hedgehog	dome	0.007157	0.003484	0.001742	1	0	True	signalling	0
+sending:Hedgehog	30% epiboly	0.01679	0.006376	0.003188	2	0.03358	True	signalling	0
+sending:Hedgehog	50% epiboly	0.0298	0.01604	0.008022	4	0.03945	True	signalling	0
+sending:Hedgehog	shield	0.06539	0.04196	0.02098	1	0	True	signalling	0
+sending:Hedgehog	60% epiboly	0.3286	0.1961	0.09804	3	0.06015	True	signalling	0
+sending:Hedgehog	75% epiboly	0.4766	0.2585	0.1292	3	0.1186	True	signalling	0
+sending:Hedgehog	90% epiboly	0.5833	0.2976	0.1488	3	0.2438	True	signalling	0
+sending:Hedgehog	bud	0.8619	0.4351	0.2176	4	0.3821	True	signalling	0
+sending:Hedgehog	3-somite	0.9367	0.4998	0.2499	1	0	True	signalling	0
+sending:Hedgehog	6-somite	0.771	0.4418	0.2209	2	0.2811	True	signalling	0
+sending:Notch	high	0.0145	0.04679	0.0117	2	0.01193	True	signalling	0
+sending:Notch	oblong	0.03082	0.06286	0.01572	2	0.02231	True	signalling	0
+sending:Notch	dome	0.05664	0.1393	0.03484	1	0	True	signalling	0
+sending:Notch	30% epiboly	0.3476	0.7526	0.1882	2	0.2181	True	signalling	0
+sending:Notch	50% epiboly	0.4142	0.9848	0.2462	4	0.1726	True	signalling	0
+sending:Notch	shield	0.3212	0.8033	0.2008	1	0	True	signalling	0
+sending:Notch	60% epiboly	0.556	1.593	0.3983	3	0.1242	True	signalling	0
+sending:Notch	75% epiboly	0.594	1.887	0.4717	3	0.1333	True	signalling	0
+sending:Notch	90% epiboly	0.6437	2.12	0.5299	3	0.098	True	signalling	0
+sending:Notch	bud	0.8843	3.015	0.7538	4	0.1695	True	signalling	0
+sending:Notch	3-somite	0.6942	2.323	0.5808	1	0	True	signalling	0
+sending:Notch	6-somite	0.7476	2.427	0.6067	2	0.3957	True	signalling	0
+sending:RA	high	0	0	0	2	0	True	signalling	0
+sending:RA	oblong	0	0	0	2	0	True	signalling	0
+sending:RA	dome	0.003294	0.003484	0.003484	1	0	True	signalling	0
+sending:RA	30% epiboly	0.0729	0.0771	0.0771	2	0.03746	True	signalling	0
+sending:RA	50% epiboly	0.2272	0.2403	0.2403	4	0.2128	True	signalling	0
+sending:RA	shield	0.6433	0.6804	0.6804	1	0	True	signalling	0
+sending:RA	60% epiboly	1	1.058	1.058	3	0.4241	True	signalling	0
+sending:RA	75% epiboly	0.8971	0.9488	0.9488	3	0.4143	True	signalling	0
+sending:RA	90% epiboly	0.7973	0.8432	0.8432	3	0.1893	True	signalling	0
+sending:RA	bud	0.8395	0.8878	0.8878	4	0.5963	True	signalling	0
+sending:RA	3-somite	0.176	0.1862	0.1862	1	0	True	signalling	0
+sending:RA	6-somite	0.1797	0.19	0.19	2	0.1439	True	signalling	0
+sending:Wnt/PCP	high	0.0572	0.2918	0.1459	2	0.06974	True	signalling	0
+sending:Wnt/PCP	oblong	0.08687	0.4432	0.2216	2	0.01287	True	signalling	0
+sending:Wnt/PCP	dome	0.281	1.42	0.7098	1	0	True	signalling	0
+sending:Wnt/PCP	30% epiboly	0.5655	2.601	1.3	2	0.2498	True	signalling	0
+sending:Wnt/PCP	50% epiboly	0.4567	2.061	1.03	4	0.1511	True	signalling	0
+sending:Wnt/PCP	shield	0.6638	2.826	1.413	1	0	True	signalling	0
+sending:Wnt/PCP	60% epiboly	0.4776	1.783	0.8913	3	0.1445	True	signalling	0
+sending:Wnt/PCP	75% epiboly	0.4813	1.476	0.7381	3	0.1766	True	signalling	0
+sending:Wnt/PCP	90% epiboly	0.6254	1.641	0.8206	3	0.1908	True	signalling	0
+sending:Wnt/PCP	bud	0.6479	1.62	0.8099	4	0.1777	True	signalling	0
+sending:Wnt/PCP	3-somite	0.5952	1.327	0.6637	1	0	True	signalling	0
+sending:Wnt/PCP	6-somite	0.4643	0.9763	0.4881	2	0.09092	True	signalling	0
+signal:BMP	high	0.1314	5.761	0.7201	2	0.05812	True	signalling	0
+signal:BMP	oblong	0.2489	16.27	2.034	2	0.06641	True	signalling	2
+signal:BMP	dome	0.4342	17.3	2.162	1	0	True	signalling	1
+signal:BMP	30% epiboly	0.682	39.56	4.945	2	0.1145	True	signalling	2
+signal:BMP	50% epiboly	0.5892	29.85	3.731	4	0.1161	True	signalling	4
+signal:BMP	shield	0.7568	33.95	4.244	1	0	True	signalling	1
+signal:BMP	60% epiboly	0.68	25.93	3.241	3	0.1239	True	signalling	3
+signal:BMP	75% epiboly	0.7027	27.32	3.415	3	0.03205	True	signalling	3
+signal:BMP	90% epiboly	0.6426	24.5	3.062	3	0.05688	True	signalling	2
+signal:BMP	bud	0.5647	22.54	2.818	4	0.1449	True	signalling	2
+signal:BMP	3-somite	0.4878	19.74	2.467	1	0	True	signalling	1
+signal:BMP	6-somite	0.5407	25.24	3.155	2	0.1088	True	signalling	2
+signal:FGF	high	0.2017	0.952	0.1587	2	0.001591	True	signalling	0
+signal:FGF	oblong	0.2388	1.064	0.1774	2	0.05726	True	signalling	0
+signal:FGF	dome	0.4331	2.533	0.4221	1	0	True	signalling	0
+signal:FGF	30% epiboly	0.684	3.515	0.5859	2	0.04328	True	signalling	0
+signal:FGF	50% epiboly	0.5055	3.211	0.5352	4	0.1425	True	signalling	0
+signal:FGF	shield	0.5707	3.669	0.6114	1	0	True	signalling	0
+signal:FGF	60% epiboly	0.5831	3.494	0.5824	3	0.2093	True	signalling	0
+signal:FGF	75% epiboly	0.5107	3.07	0.5117	3	0.01698	True	signalling	0
+signal:FGF	90% epiboly	0.5005	2.654	0.4424	3	0.07488	True	signalling	0
+signal:FGF	bud	0.6224	3.173	0.5288	4	0.06377	True	signalling	0
+signal:FGF	3-somite	0.5671	2.637	0.4395	1	0	True	signalling	0
+signal:FGF	6-somite	0.5584	2.65	0.4416	2	0.1207	True	signalling	0
+signal:Nodal	high	0.1846	0.1661	0.05537	2	0.1641	True	signalling	0
+signal:Nodal	oblong	0.2528	0.2489	0.08295	2	0.07536	True	signalling	0
+signal:Nodal	dome	0.6457	0.7734	0.2549	1	0	True	signalling	0
+signal:Nodal	30% epiboly	0.8331	1	0.306	2	0.3235	True	signalling	0
+signal:Nodal	50% epiboly	0.6274	0.7669	0.2411	4	0.1079	True	signalling	0
+signal:Nodal	shield	0.3964	0.5695	0.1678	1	0	True	signalling	0
+signal:Nodal	60% epiboly	0.6033	1.003	0.3075	3	0.2395	True	signalling	0
+signal:Nodal	75% epiboly	0.5175	0.8421	0.2605	3	0.248	True	signalling	0
+signal:Nodal	90% epiboly	0.3819	0.611	0.1904	3	0.0706	True	signalling	0
+signal:Nodal	bud	0.3947	0.6298	0.1976	4	0.1606	True	signalling	0
+signal:Nodal	3-somite	0.1001	0.1659	0.05329	1	0	True	signalling	0
+signal:Nodal	6-somite	0.07105	0.1172	0.03879	2	0.01614	True	signalling	0
+signal:Wnt	high	0.1045	0.511	0.08516	2	0.02459	True	signalling	0
+signal:Wnt	oblong	0.1643	0.5171	0.08618	2	0.1376	True	signalling	0
+signal:Wnt	dome	0.06422	0.8726	0.1454	1	0	True	signalling	0
+signal:Wnt	30% epiboly	0.2807	2.253	0.3754	2	0.2239	True	signalling	0
+signal:Wnt	50% epiboly	0.2795	3.967	0.6612	4	0.1188	True	signalling	0
+signal:Wnt	shield	0.4869	6.669	1.111	1	0	True	signalling	0
+signal:Wnt	60% epiboly	0.5958	9.6	1.6	3	0.143	True	signalling	0
+signal:Wnt	75% epiboly	0.675	10.5	1.749	3	0.07469	True	signalling	0
+signal:Wnt	90% epiboly	0.7909	9.462	1.577	3	0.056	True	signalling	0
+signal:Wnt	bud	0.6953	6.836	1.139	4	0.1908	True	signalling	0
+signal:Wnt	3-somite	0.4099	2.475	0.4125	1	0	True	signalling	0
+signal:Wnt	6-somite	0.3218	2.193	0.3655	2	0.1345	True	signalling	0
+state:blastomere	high	0.4892	30.14	5.023	2	0.02611	True	identity	0
+state:blastomere	oblong	0.5467	33.78	5.631	2	0.06209	True	identity	0
+state:blastomere	dome	0.5724	40.16	6.693	1	0	True	identity	1
+state:blastomere	30% epiboly	0.653	44.41	7.401	2	0.1527	True	identity	2
+state:blastomere	50% epiboly	0.5958	38.71	6.452	4	0.06264	True	identity	4
+state:blastomere	shield	0.6462	40.37	6.728	1	0	True	identity	1
+state:blastomere	60% epiboly	0.4525	24.13	4.021	3	0.02469	True	identity	1
+state:blastomere	75% epiboly	0.3735	17.33	2.888	3	0.09757	True	identity	0
+state:blastomere	90% epiboly	0.3101	13.19	2.199	3	0.04091	True	identity	0
+state:blastomere	bud	0.2742	10.88	1.813	4	0.1137	True	identity	0
+state:blastomere	3-somite	0.2289	9.209	1.535	1	0	True	identity	0
+state:blastomere	6-somite	0.2223	9.355	1.559	2	0.03287	True	identity	0
+state:cell_cycle_g2m	high	0.5499	29.09	2.909	2	0.07503	True	cell states	0
+state:cell_cycle_g2m	oblong	0.5008	25.77	2.577	2	0.02161	True	cell states	0
+state:cell_cycle_g2m	dome	0.4332	21.94	2.194	1	0	True	cell states	0
+state:cell_cycle_g2m	30% epiboly	0.5398	22.22	2.222	2	0.02433	True	cell states	0
+state:cell_cycle_g2m	50% epiboly	0.6555	27.87	2.787	4	0.2829	True	cell states	0
+state:cell_cycle_g2m	shield	0.8322	34.02	3.402	1	0	True	cell states	0
+state:cell_cycle_g2m	60% epiboly	0.7678	31.15	3.115	3	0.07534	True	cell states	0
+state:cell_cycle_g2m	75% epiboly	0.6908	28.32	2.832	3	0.1607	True	cell states	0
+state:cell_cycle_g2m	90% epiboly	0.6748	26.04	2.604	3	0.06502	True	cell states	0
+state:cell_cycle_g2m	bud	0.5399	20.7	2.07	4	0.1192	True	cell states	0
+state:cell_cycle_g2m	3-somite	0.5826	20.8	2.08	1	0	True	cell states	0
+state:cell_cycle_g2m	6-somite	0.566	20.39	2.039	2	0.1131	True	cell states	0
+state:cell_cycle_s	high	0.5965	37.29	3.729	2	0.02263	True	cell states	2
+state:cell_cycle_s	oblong	0.5344	37.89	3.789	2	0.1114	True	cell states	2
+state:cell_cycle_s	dome	0.6399	44.48	4.448	1	0	True	cell states	1
+state:cell_cycle_s	30% epiboly	0.5848	40.41	4.041	2	0.006845	True	cell states	2
+state:cell_cycle_s	50% epiboly	0.6187	42.23	4.223	4	0.09724	True	cell states	4
+state:cell_cycle_s	shield	0.5681	41.91	4.191	1	0	True	cell states	1
+state:cell_cycle_s	60% epiboly	0.5284	37.11	3.711	3	0.06295	True	cell states	3
+state:cell_cycle_s	75% epiboly	0.5238	34.92	3.492	3	0.05672	True	cell states	3
+state:cell_cycle_s	90% epiboly	0.4705	29.52	2.952	3	0.05883	True	cell states	3
+state:cell_cycle_s	bud	0.4657	27.21	2.721	4	0.05831	True	cell states	4
+state:cell_cycle_s	3-somite	0.5037	28.5	2.85	1	0	True	cell states	1
+state:cell_cycle_s	6-somite	0.4611	26.6	2.66	2	0.07623	True	cell states	2
+state:heat_shock	high	0.3781	0.5227	0.1633	2	0.2921	True	cell states	0
+state:heat_shock	oblong	0.2449	0.4088	0.1264	2	0.03276	True	cell states	0
+state:heat_shock	dome	0.06725	0.1655	0.04935	1	0	True	cell states	0
+state:heat_shock	30% epiboly	0.1037	0.3336	0.1031	2	0.06018	True	cell states	0
+state:heat_shock	50% epiboly	0.7023	5.207	1.718	4	1.382	True	cell states	0
+state:heat_shock	shield	0.1109	0.6834	0.2158	1	0	True	cell states	0
+state:heat_shock	60% epiboly	0.108	0.916	0.2975	3	0.07133	True	cell states	0
+state:heat_shock	75% epiboly	0.0869	0.5148	0.1622	3	0.06727	True	cell states	0
+state:heat_shock	90% epiboly	0.1382	0.8743	0.2783	3	0.2241	True	cell states	0
+state:heat_shock	bud	0.1055	0.6336	0.1979	4	0.05353	True	cell states	0
+state:heat_shock	3-somite	0.08405	0.2327	0.06813	1	0	True	cell states	0
+state:heat_shock	6-somite	0.09112	0.2693	0.08278	2	0.01703	True	cell states	0
+state:maternal	high	0.9649	121	12.1	2	0.1938	True	identity	2
+state:maternal	oblong	0.8591	121.7	12.17	2	0.1294	True	identity	2
+state:maternal	dome	0.2548	41.76	4.176	1	0	True	identity	0
+state:maternal	30% epiboly	0.1241	22.69	2.269	2	0.002203	True	identity	0
+state:maternal	50% epiboly	0.08413	14.57	1.457	4	0.05093	True	identity	0
+state:maternal	shield	0.02839	5.575	0.5575	1	0	True	identity	0
+state:maternal	60% epiboly	0.01283	1.91	0.191	3	0.005109	True	identity	0
+state:maternal	75% epiboly	0.006574	0.8378	0.08378	3	0.002225	True	identity	0
+state:maternal	90% epiboly	0.003702	0.419	0.0419	3	0.002415	True	identity	0
+state:maternal	bud	0.002737	0.2692	0.02692	4	0.001134	True	identity	0
+state:maternal	3-somite	0.003964	0.2691	0.02691	1	0	True	identity	0
+state:maternal	6-somite	0.003641	0.2932	0.02932	2	0.001293	True	identity	0
+state:p53_response	high	0.7373	4.981	0.4981	2	0.3442	True	cell states	0
+state:p53_response	oblong	0.7002	4.441	0.4441	2	0.156	True	cell states	0
+state:p53_response	dome	0.3839	2.02	0.202	1	0	True	cell states	0
+state:p53_response	30% epiboly	0.5493	2.145	0.2145	2	0.07736	True	cell states	0
+state:p53_response	50% epiboly	0.5308	1.996	0.1996	4	0.3216	True	cell states	0
+state:p53_response	shield	0.3648	1.532	0.1532	1	0	True	cell states	0
+state:p53_response	60% epiboly	0.285	1.224	0.1224	3	0.1003	True	cell states	0
+state:p53_response	75% epiboly	0.2796	1.131	0.1131	3	0.1186	True	cell states	0
+state:p53_response	90% epiboly	0.4244	1.508	0.1508	3	0.08424	True	cell states	0
+state:p53_response	bud	0.2691	1.328	0.1328	4	0.08613	True	cell states	0
+state:p53_response	3-somite	0.2805	1.483	0.1483	1	0	True	cell states	0
+state:p53_response	6-somite	0.3839	1.732	0.1732	2	0.08444	True	cell states	0
+tailbud	high	0.3304	69.46	2.48	2	0.03883	False	identity	0
+tailbud	oblong	0.3128	68.54	2.448	2	0.07219	False	identity	0
+tailbud	dome	0.3337	71.41	2.55	1	0	False	identity	0
+tailbud	30% epiboly	0.4087	90.33	3.226	2	0.03004	False	identity	0
+tailbud	50% epiboly	0.4192	85.22	3.044	4	0.06537	False	identity	0
+tailbud	shield	0.4438	94.03	3.358	1	0	False	identity	0
+tailbud	60% epiboly	0.4832	106.4	3.802	3	0.02054	False	identity	0
+tailbud	75% epiboly	0.4626	106.7	3.812	3	0.02551	False	identity	0
+tailbud	90% epiboly	0.482	113.3	4.044	3	0.0181	False	identity	0
+tailbud	bud	0.5038	111.2	3.971	4	0.08652	True	identity	0
+tailbud	3-somite	0.4691	96.13	3.43	1	0	True	identity	0
+tailbud	6-somite	0.5002	87.77	3.131	2	0.08856	True	identity	1

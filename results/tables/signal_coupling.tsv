@@ -1,1047 +1,1931 @@
 stage	signal	program	r
-high	BMP	maternal	-0.476
-high	BMP	blastomere	0.372
-high	BMP	cell_cycle_s	0.328
-high	BMP	cell_cycle_g2m	-0.46
-high	BMP	heat_shock	-0.0251
-high	BMP	p53_response	-0.143
-high	Nodal	maternal	-0.0623
-high	Nodal	blastomere	-0.0483
-high	Nodal	cell_cycle_s	0.0852
-high	Nodal	cell_cycle_g2m	-0.0938
-high	Nodal	heat_shock	-0.0941
-high	Nodal	p53_response	-0.0321
-oblong	BMP	maternal	-0.578
-oblong	BMP	blastomere	0.181
-oblong	BMP	cell_cycle_s	-0.0136
-oblong	BMP	cell_cycle_g2m	-0.159
-oblong	BMP	heat_shock	0.356
-oblong	BMP	p53_response	-0.196
-oblong	Nodal	maternal	-0.183
-oblong	Nodal	blastomere	-0.104
-oblong	Nodal	cell_cycle_s	0.116
-oblong	Nodal	cell_cycle_g2m	-0.00377
-oblong	Nodal	heat_shock	0.132
-oblong	Nodal	p53_response	0.0831
-dome	BMP	maternal	-0.441
-dome	BMP	blastomere	0.00467
-dome	BMP	cell_cycle_s	0.335
-dome	BMP	cell_cycle_g2m	0.216
-dome	BMP	heat_shock	0.0812
-dome	BMP	p53_response	-0.0785
-dome	BMP	EVL	-0.187
-dome	BMP	margin	0.197
-dome	Nodal	maternal	0.147
-dome	Nodal	blastomere	-0.588
-dome	Nodal	cell_cycle_s	-0.0726
-dome	Nodal	cell_cycle_g2m	-0.198
-dome	Nodal	heat_shock	0.172
-dome	Nodal	p53_response	0.0246
-dome	Nodal	EVL	0.0823
-dome	Nodal	margin	0.891
-30% epiboly	BMP	maternal	-0.212
-30% epiboly	BMP	blastomere	-0.0238
-30% epiboly	BMP	cell_cycle_s	0.107
-30% epiboly	BMP	cell_cycle_g2m	0.33
-30% epiboly	BMP	heat_shock	-0.131
-30% epiboly	BMP	p53_response	0.0159
-30% epiboly	BMP	EVL	-0.257
-30% epiboly	BMP	margin	0.122
-30% epiboly	BMP	PGC	-0.0604
-30% epiboly	BMP	dorsal_organizer	-0.217
-30% epiboly	BMP	endoderm	0.0328
-30% epiboly	BMP	mesoderm	0.134
-30% epiboly	Nodal	maternal	0.528
-30% epiboly	Nodal	blastomere	-0.675
-30% epiboly	Nodal	cell_cycle_s	-0.219
-30% epiboly	Nodal	cell_cycle_g2m	-0.0548
-30% epiboly	Nodal	heat_shock	0.0165
-30% epiboly	Nodal	p53_response	-0.023
-30% epiboly	Nodal	EVL	-0.0217
-30% epiboly	Nodal	margin	0.93
-30% epiboly	Nodal	PGC	0.154
-30% epiboly	Nodal	dorsal_organizer	0.763
-30% epiboly	Nodal	endoderm	0.926
-30% epiboly	Nodal	mesoderm	0.37
-30% epiboly	Wnt	maternal	0.277
-30% epiboly	Wnt	blastomere	-0.502
-30% epiboly	Wnt	cell_cycle_s	-0.0288
-30% epiboly	Wnt	cell_cycle_g2m	0.0878
-30% epiboly	Wnt	heat_shock	-0.00188
-30% epiboly	Wnt	p53_response	0.0156
-30% epiboly	Wnt	EVL	-0.152
-30% epiboly	Wnt	margin	0.732
-30% epiboly	Wnt	PGC	0.0538
-30% epiboly	Wnt	dorsal_organizer	0.521
-30% epiboly	Wnt	endoderm	0.671
-30% epiboly	Wnt	mesoderm	0.258
-50% epiboly	BMP	maternal	-0.092
-50% epiboly	BMP	blastomere	-0.148
-50% epiboly	BMP	cell_cycle_s	0.133
-50% epiboly	BMP	cell_cycle_g2m	0.127
-50% epiboly	BMP	heat_shock	-0.139
-50% epiboly	BMP	p53_response	0.0284
-50% epiboly	BMP	EVL	-0.257
-50% epiboly	BMP	margin	0.178
-50% epiboly	BMP	PGC	0.011
-50% epiboly	BMP	dorsal_organizer	-0.169
-50% epiboly	BMP	endoderm	0.0527
-50% epiboly	BMP	mesoderm	0.231
-50% epiboly	BMP	axial_mesoderm	-0.25
-50% epiboly	BMP	dorsal_forerunner	-0.213
-50% epiboly	BMP	neural_plate	-0.529
-50% epiboly	BMP	prechordal_plate	-0.0958
-50% epiboly	BMP	presomitic_mesoderm	0.134
-50% epiboly	BMP	ventral_bmp	-0.0734
-50% epiboly	Nodal	maternal	0.453
-50% epiboly	Nodal	blastomere	-0.676
-50% epiboly	Nodal	cell_cycle_s	-0.233
-50% epiboly	Nodal	cell_cycle_g2m	0.0126
-50% epiboly	Nodal	heat_shock	0.0519
-50% epiboly	Nodal	p53_response	-0.00498
-50% epiboly	Nodal	EVL	-0.051
-50% epiboly	Nodal	margin	0.892
-50% epiboly	Nodal	PGC	0.218
-50% epiboly	Nodal	dorsal_organizer	0.737
-50% epiboly	Nodal	endoderm	0.89
-50% epiboly	Nodal	mesoderm	0.644
-50% epiboly	Nodal	axial_mesoderm	0.42
-50% epiboly	Nodal	dorsal_forerunner	-0.117
-50% epiboly	Nodal	neural_plate	-0.372
-50% epiboly	Nodal	prechordal_plate	0.629
-50% epiboly	Nodal	presomitic_mesoderm	0.806
-50% epiboly	Nodal	ventral_bmp	0.167
-50% epiboly	Wnt	maternal	0.119
-50% epiboly	Wnt	blastomere	-0.581
-50% epiboly	Wnt	cell_cycle_s	0.00311
-50% epiboly	Wnt	cell_cycle_g2m	0.17
-50% epiboly	Wnt	heat_shock	-0.0487
-50% epiboly	Wnt	p53_response	-0.0471
-50% epiboly	Wnt	EVL	-0.164
-50% epiboly	Wnt	margin	0.782
-50% epiboly	Wnt	PGC	0.0357
-50% epiboly	Wnt	dorsal_organizer	0.332
-50% epiboly	Wnt	endoderm	0.612
-50% epiboly	Wnt	mesoderm	0.617
-50% epiboly	Wnt	axial_mesoderm	0.174
-50% epiboly	Wnt	dorsal_forerunner	-0.217
-50% epiboly	Wnt	neural_plate	-0.313
-50% epiboly	Wnt	prechordal_plate	0.364
-50% epiboly	Wnt	presomitic_mesoderm	0.727
-50% epiboly	Wnt	ventral_bmp	0.0881
-50% epiboly	RA	maternal	-0.1
-50% epiboly	RA	blastomere	0.077
-50% epiboly	RA	cell_cycle_s	0.176
-50% epiboly	RA	cell_cycle_g2m	0.168
-50% epiboly	RA	heat_shock	-0.19
-50% epiboly	RA	p53_response	-0.138
-50% epiboly	RA	EVL	-0.204
-50% epiboly	RA	margin	-0.0318
-50% epiboly	RA	PGC	-0.0823
-50% epiboly	RA	dorsal_organizer	0.000833
-50% epiboly	RA	endoderm	0.00141
-50% epiboly	RA	mesoderm	-0.0244
-50% epiboly	RA	axial_mesoderm	-0.188
-50% epiboly	RA	dorsal_forerunner	-0.129
-50% epiboly	RA	neural_plate	0.117
-50% epiboly	RA	prechordal_plate	-0.116
-50% epiboly	RA	presomitic_mesoderm	-0.0905
-50% epiboly	RA	ventral_bmp	-0.137
-shield	BMP	maternal	-0.0478
-shield	BMP	blastomere	-0.145
-shield	BMP	cell_cycle_s	0.104
-shield	BMP	cell_cycle_g2m	-0.0842
-shield	BMP	heat_shock	-0.118
-shield	BMP	p53_response	0.00948
-shield	BMP	EVL	-0.0234
-shield	BMP	margin	0.234
-shield	BMP	PGC	0.0137
-shield	BMP	dorsal_organizer	-0.165
-shield	BMP	endoderm	0.113
-shield	BMP	mesoderm	0.281
-shield	BMP	axial_mesoderm	-0.078
-shield	BMP	dorsal_forerunner	-0.167
-shield	BMP	neural_plate	-0.575
-shield	BMP	prechordal_plate	0.108
-shield	BMP	presomitic_mesoderm	0.201
-shield	BMP	ventral_bmp	0.299
-shield	BMP	presumptive_neural	-0.206
-shield	Nodal	maternal	0.594
-shield	Nodal	blastomere	-0.645
-shield	Nodal	cell_cycle_s	-0.374
-shield	Nodal	cell_cycle_g2m	0.146
-shield	Nodal	heat_shock	0.364
-shield	Nodal	p53_response	-0.0151
-shield	Nodal	EVL	0.0201
-shield	Nodal	margin	0.647
-shield	Nodal	PGC	0.179
-shield	Nodal	dorsal_organizer	0.869
-shield	Nodal	endoderm	0.586
-shield	Nodal	mesoderm	0.228
-shield	Nodal	axial_mesoderm	0.617
-shield	Nodal	dorsal_forerunner	-0.281
-shield	Nodal	neural_plate	-0.335
-shield	Nodal	prechordal_plate	0.576
-shield	Nodal	presomitic_mesoderm	0.578
-shield	Nodal	ventral_bmp	0.25
-shield	Nodal	presumptive_neural	0.179
-shield	Wnt	maternal	0.388
-shield	Wnt	blastomere	-0.669
-shield	Wnt	cell_cycle_s	0.00216
-shield	Wnt	cell_cycle_g2m	0.116
-shield	Wnt	heat_shock	-0.0193
-shield	Wnt	p53_response	0.0483
-shield	Wnt	EVL	-0.119
-shield	Wnt	margin	0.82
-shield	Wnt	PGC	0.165
-shield	Wnt	dorsal_organizer	0.303
-shield	Wnt	endoderm	0.515
-shield	Wnt	mesoderm	0.6
-shield	Wnt	axial_mesoderm	0.395
-shield	Wnt	dorsal_forerunner	-0.452
-shield	Wnt	neural_plate	-0.457
-shield	Wnt	prechordal_plate	0.322
-shield	Wnt	presomitic_mesoderm	0.739
-shield	Wnt	ventral_bmp	0.407
-shield	Wnt	presumptive_neural	0.558
-shield	RA	maternal	0.324
-shield	RA	blastomere	-0.443
-shield	RA	cell_cycle_s	-0.0738
-shield	RA	cell_cycle_g2m	0.101
-shield	RA	heat_shock	0.124
-shield	RA	p53_response	-0.0404
-shield	RA	EVL	-0.0533
-shield	RA	margin	0.415
-shield	RA	PGC	0.142
-shield	RA	dorsal_organizer	0.511
-shield	RA	endoderm	0.567
-shield	RA	mesoderm	0.126
-shield	RA	axial_mesoderm	0.367
-shield	RA	dorsal_forerunner	-0.126
-shield	RA	neural_plate	0.00551
-shield	RA	prechordal_plate	0.437
-shield	RA	presomitic_mesoderm	0.313
-shield	RA	ventral_bmp	0.177
-shield	RA	presumptive_neural	0.24
-60% epiboly	BMP	maternal	-0.0317
-60% epiboly	BMP	blastomere	-0.067
-60% epiboly	BMP	cell_cycle_s	0.119
-60% epiboly	BMP	cell_cycle_g2m	0.101
-60% epiboly	BMP	heat_shock	-0.00103
-60% epiboly	BMP	p53_response	0.0495
-60% epiboly	BMP	EVL	-0.0161
-60% epiboly	BMP	margin	0.132
-60% epiboly	BMP	PGC	0.0982
-60% epiboly	BMP	dorsal_organizer	-0.239
-60% epiboly	BMP	endoderm	0.0617
-60% epiboly	BMP	mesoderm	0.217
-60% epiboly	BMP	axial_mesoderm	-0.155
-60% epiboly	BMP	dorsal_forerunner	0.0351
-60% epiboly	BMP	neural_plate	-0.461
-60% epiboly	BMP	prechordal_plate	0.0777
-60% epiboly	BMP	presomitic_mesoderm	0.0513
-60% epiboly	BMP	ventral_bmp	0.433
-60% epiboly	BMP	presumptive_neural	-0.452
-60% epiboly	Nodal	maternal	0.277
-60% epiboly	Nodal	blastomere	-0.551
-60% epiboly	Nodal	cell_cycle_s	-0.497
-60% epiboly	Nodal	cell_cycle_g2m	-0.0167
-60% epiboly	Nodal	heat_shock	0.457
-60% epiboly	Nodal	p53_response	0.0626
-60% epiboly	Nodal	EVL	0.125
-60% epiboly	Nodal	margin	0.584
-60% epiboly	Nodal	PGC	0.202
-60% epiboly	Nodal	dorsal_organizer	0.806
-60% epiboly	Nodal	endoderm	0.451
-60% epiboly	Nodal	mesoderm	0.346
-60% epiboly	Nodal	axial_mesoderm	0.694
-60% epiboly	Nodal	dorsal_forerunner	-0.313
-60% epiboly	Nodal	neural_plate	-0.339
-60% epiboly	Nodal	prechordal_plate	0.693
-60% epiboly	Nodal	presomitic_mesoderm	0.41
-60% epiboly	Nodal	ventral_bmp	0.133
-60% epiboly	Nodal	presumptive_neural	0.125
-60% epiboly	Wnt	maternal	0.119
-60% epiboly	Wnt	blastomere	-0.474
-60% epiboly	Wnt	cell_cycle_s	-0.0559
-60% epiboly	Wnt	cell_cycle_g2m	0.339
-60% epiboly	Wnt	heat_shock	0.111
-60% epiboly	Wnt	p53_response	0.0774
-60% epiboly	Wnt	EVL	-0.0839
-60% epiboly	Wnt	margin	0.717
-60% epiboly	Wnt	PGC	0.122
-60% epiboly	Wnt	dorsal_organizer	0.121
-60% epiboly	Wnt	endoderm	0.386
-60% epiboly	Wnt	mesoderm	0.602
-60% epiboly	Wnt	axial_mesoderm	0.199
-60% epiboly	Wnt	dorsal_forerunner	-0.119
-60% epiboly	Wnt	neural_plate	-0.294
-60% epiboly	Wnt	prechordal_plate	0.0746
-60% epiboly	Wnt	presomitic_mesoderm	0.643
-60% epiboly	Wnt	ventral_bmp	0.385
-60% epiboly	Wnt	presumptive_neural	0.415
-60% epiboly	FGF	maternal	0.136
-60% epiboly	FGF	blastomere	-0.18
-60% epiboly	FGF	cell_cycle_s	0.0199
-60% epiboly	FGF	cell_cycle_g2m	0.384
-60% epiboly	FGF	heat_shock	0.0411
-60% epiboly	FGF	p53_response	0.0763
-60% epiboly	FGF	EVL	-0.105
-60% epiboly	FGF	margin	0.503
-60% epiboly	FGF	PGC	0.0396
-60% epiboly	FGF	dorsal_organizer	0.116
-60% epiboly	FGF	endoderm	0.0204
-60% epiboly	FGF	mesoderm	0.255
-60% epiboly	FGF	axial_mesoderm	0.186
-60% epiboly	FGF	dorsal_forerunner	-0.328
-60% epiboly	FGF	neural_plate	-0.268
-60% epiboly	FGF	prechordal_plate	-0.0823
-60% epiboly	FGF	presomitic_mesoderm	0.427
-60% epiboly	FGF	ventral_bmp	0.091
-60% epiboly	FGF	presumptive_neural	0.537
-60% epiboly	RA	maternal	-0.0832
-60% epiboly	RA	blastomere	-0.425
-60% epiboly	RA	cell_cycle_s	-0.32
-60% epiboly	RA	cell_cycle_g2m	-0.0293
-60% epiboly	RA	heat_shock	0.215
-60% epiboly	RA	p53_response	0.0133
-60% epiboly	RA	EVL	0.0269
-60% epiboly	RA	margin	0.189
-60% epiboly	RA	PGC	0.038
-60% epiboly	RA	dorsal_organizer	0.449
-60% epiboly	RA	endoderm	0.637
-60% epiboly	RA	mesoderm	0.131
-60% epiboly	RA	axial_mesoderm	0.236
-60% epiboly	RA	dorsal_forerunner	0.269
-60% epiboly	RA	neural_plate	0.222
-60% epiboly	RA	prechordal_plate	0.46
-60% epiboly	RA	presomitic_mesoderm	0.0511
-60% epiboly	RA	ventral_bmp	-0.00608
-60% epiboly	RA	presumptive_neural	0.137
-75% epiboly	BMP	maternal	-0.0406
-75% epiboly	BMP	blastomere	-0.125
-75% epiboly	BMP	cell_cycle_s	0.0343
-75% epiboly	BMP	cell_cycle_g2m	0.0327
-75% epiboly	BMP	heat_shock	-0.00109
-75% epiboly	BMP	p53_response	0.0283
-75% epiboly	BMP	EVL	-0.0252
-75% epiboly	BMP	margin	0.12
-75% epiboly	BMP	PGC	-0.0106
-75% epiboly	BMP	endoderm	-0.0272
-75% epiboly	BMP	mesoderm	0.201
-75% epiboly	BMP	axial_mesoderm	-0.189
-75% epiboly	BMP	dorsal_forerunner	-0.0552
-75% epiboly	BMP	neural_plate	-0.406
-75% epiboly	BMP	prechordal_plate	0.0804
-75% epiboly	BMP	presomitic_mesoderm	-0.0012
-75% epiboly	BMP	ventral_bmp	0.441
-75% epiboly	BMP	presumptive_neural	-0.437
-75% epiboly	BMP	forebrain_eye	-0.449
-75% epiboly	BMP	non_neural_ectoderm	0.576
-75% epiboly	BMP	placodes	0.516
-75% epiboly	Nodal	maternal	0.122
-75% epiboly	Nodal	blastomere	-0.324
-75% epiboly	Nodal	cell_cycle_s	-0.405
-75% epiboly	Nodal	cell_cycle_g2m	-0.066
-75% epiboly	Nodal	heat_shock	0.356
-75% epiboly	Nodal	p53_response	0.0502
-75% epiboly	Nodal	EVL	0.0347
-75% epiboly	Nodal	margin	0.352
-75% epiboly	Nodal	PGC	0.0124
-75% epiboly	Nodal	endoderm	0.332
-75% epiboly	Nodal	mesoderm	0.168
-75% epiboly	Nodal	axial_mesoderm	0.488
-75% epiboly	Nodal	dorsal_forerunner	-0.196
-75% epiboly	Nodal	neural_plate	-0.209
-75% epiboly	Nodal	prechordal_plate	0.643
-75% epiboly	Nodal	presomitic_mesoderm	0.166
-75% epiboly	Nodal	ventral_bmp	-0.0688
-75% epiboly	Nodal	presumptive_neural	0.194
-75% epiboly	Nodal	forebrain_eye	0.0966
-75% epiboly	Nodal	non_neural_ectoderm	-0.161
-75% epiboly	Nodal	placodes	0.0315
-75% epiboly	Wnt	maternal	0.0397
-75% epiboly	Wnt	blastomere	-0.0265
-75% epiboly	Wnt	cell_cycle_s	0.0247
-75% epiboly	Wnt	cell_cycle_g2m	0.231
-75% epiboly	Wnt	heat_shock	0.0221
-75% epiboly	Wnt	p53_response	0.023
-75% epiboly	Wnt	EVL	-0.0849
-75% epiboly	Wnt	margin	0.569
-75% epiboly	Wnt	PGC	0.00335
-75% epiboly	Wnt	endoderm	0.223
-75% epiboly	Wnt	mesoderm	0.32
-75% epiboly	Wnt	axial_mesoderm	0.0932
-75% epiboly	Wnt	dorsal_forerunner	-0.0867
-75% epiboly	Wnt	neural_plate	-0.181
-75% epiboly	Wnt	prechordal_plate	-0.126
-75% epiboly	Wnt	presomitic_mesoderm	0.439
-75% epiboly	Wnt	ventral_bmp	0.145
-75% epiboly	Wnt	presumptive_neural	0.393
-75% epiboly	Wnt	forebrain_eye	-0.447
-75% epiboly	Wnt	non_neural_ectoderm	-0.32
-75% epiboly	Wnt	placodes	-0.254
-75% epiboly	FGF	maternal	0.127
-75% epiboly	FGF	blastomere	-0.0835
-75% epiboly	FGF	cell_cycle_s	-0.103
-75% epiboly	FGF	cell_cycle_g2m	0.275
-75% epiboly	FGF	heat_shock	0.0242
-75% epiboly	FGF	p53_response	0.0529
-75% epiboly	FGF	EVL	-0.0553
-75% epiboly	FGF	margin	0.575
-75% epiboly	FGF	PGC	0.0406
-75% epiboly	FGF	endoderm	0.0513
-75% epiboly	FGF	mesoderm	0.2
-75% epiboly	FGF	axial_mesoderm	0.239
-75% epiboly	FGF	dorsal_forerunner	-0.242
-75% epiboly	FGF	neural_plate	-0.235
-75% epiboly	FGF	prechordal_plate	-0.0994
-75% epiboly	FGF	presomitic_mesoderm	0.387
-75% epiboly	FGF	ventral_bmp	0.0593
-75% epiboly	FGF	presumptive_neural	0.305
-75% epiboly	FGF	forebrain_eye	-0.291
-75% epiboly	FGF	non_neural_ectoderm	-0.369
-75% epiboly	FGF	placodes	-0.255
-75% epiboly	RA	maternal	-0.0332
-75% epiboly	RA	blastomere	-0.312
-75% epiboly	RA	cell_cycle_s	-0.158
-75% epiboly	RA	cell_cycle_g2m	0.101
-75% epiboly	RA	heat_shock	0.15
-75% epiboly	RA	p53_response	0.0682
-75% epiboly	RA	EVL	-0.0545
-75% epiboly	RA	margin	0.182
-75% epiboly	RA	PGC	-0.0412
-75% epiboly	RA	endoderm	0.483
-75% epiboly	RA	mesoderm	0.139
-75% epiboly	RA	axial_mesoderm	0.108
-75% epiboly	RA	dorsal_forerunner	0.138
-75% epiboly	RA	neural_plate	0.076
-75% epiboly	RA	prechordal_plate	0.167
-75% epiboly	RA	presomitic_mesoderm	0.0899
-75% epiboly	RA	ventral_bmp	-0.0338
-75% epiboly	RA	presumptive_neural	0.187
-75% epiboly	RA	forebrain_eye	0.372
-75% epiboly	RA	non_neural_ectoderm	-0.326
-75% epiboly	RA	placodes	-0.24
-75% epiboly	Notch	maternal	0.115
-75% epiboly	Notch	blastomere	0.178
-75% epiboly	Notch	cell_cycle_s	0.117
-75% epiboly	Notch	cell_cycle_g2m	0.185
-75% epiboly	Notch	heat_shock	-0.0321
-75% epiboly	Notch	p53_response	0.0449
-75% epiboly	Notch	EVL	-0.0561
-75% epiboly	Notch	margin	0.244
-75% epiboly	Notch	PGC	0.109
-75% epiboly	Notch	endoderm	-0.126
-75% epiboly	Notch	mesoderm	-0.0462
-75% epiboly	Notch	axial_mesoderm	-0.0597
-75% epiboly	Notch	dorsal_forerunner	-0.0938
-75% epiboly	Notch	neural_plate	-0.176
-75% epiboly	Notch	prechordal_plate	-0.175
-75% epiboly	Notch	presomitic_mesoderm	0.137
-75% epiboly	Notch	ventral_bmp	0.048
-75% epiboly	Notch	presumptive_neural	0.196
-75% epiboly	Notch	forebrain_eye	-0.364
-75% epiboly	Notch	non_neural_ectoderm	-0.122
-75% epiboly	Notch	placodes	-0.0979
-90% epiboly	BMP	maternal	0.00657
-90% epiboly	BMP	blastomere	-0.335
-90% epiboly	BMP	cell_cycle_s	-0.105
-90% epiboly	BMP	cell_cycle_g2m	0.108
-90% epiboly	BMP	heat_shock	0.0711
-90% epiboly	BMP	p53_response	0.043
-90% epiboly	BMP	EVL	0.0405
-90% epiboly	BMP	margin	0.208
-90% epiboly	BMP	PGC	0.025
-90% epiboly	BMP	endoderm	-0.0187
-90% epiboly	BMP	mesoderm	0.209
-90% epiboly	BMP	axial_mesoderm	-0.132
-90% epiboly	BMP	dorsal_forerunner	-0.0386
-90% epiboly	BMP	neural_plate	-0.38
-90% epiboly	BMP	prechordal_plate	0.119
-90% epiboly	BMP	presomitic_mesoderm	0.00703
-90% epiboly	BMP	ventral_bmp	0.576
-90% epiboly	BMP	presumptive_neural	-0.412
-90% epiboly	BMP	forebrain_eye	-0.424
-90% epiboly	BMP	non_neural_ectoderm	0.569
-90% epiboly	BMP	placodes	0.486
-90% epiboly	BMP	hindbrain	-0.35
-90% epiboly	BMP	midbrain_hindbrain_boundary	-0.248
-90% epiboly	Nodal	maternal	-0.032
-90% epiboly	Nodal	blastomere	-0.1
-90% epiboly	Nodal	cell_cycle_s	-0.128
-90% epiboly	Nodal	cell_cycle_g2m	0.0451
-90% epiboly	Nodal	heat_shock	0.0672
-90% epiboly	Nodal	p53_response	0.00693
-90% epiboly	Nodal	EVL	0.00594
-90% epiboly	Nodal	margin	0.127
-90% epiboly	Nodal	PGC	-0.00944
-90% epiboly	Nodal	endoderm	0.207
-90% epiboly	Nodal	mesoderm	0.0244
-90% epiboly	Nodal	axial_mesoderm	0.176
-90% epiboly	Nodal	dorsal_forerunner	-0.0873
-90% epiboly	Nodal	neural_plate	-0.0211
-90% epiboly	Nodal	prechordal_plate	0.385
-90% epiboly	Nodal	presomitic_mesoderm	0.0228
-90% epiboly	Nodal	ventral_bmp	-0.0917
-90% epiboly	Nodal	presumptive_neural	0.124
-90% epiboly	Nodal	forebrain_eye	0.117
-90% epiboly	Nodal	non_neural_ectoderm	-0.127
-90% epiboly	Nodal	placodes	0.0575
-90% epiboly	Nodal	hindbrain	-0.0676
-90% epiboly	Nodal	midbrain_hindbrain_boundary	-0.123
-90% epiboly	Wnt	maternal	0.0578
-90% epiboly	Wnt	blastomere	0.172
-90% epiboly	Wnt	cell_cycle_s	0.0194
-90% epiboly	Wnt	cell_cycle_g2m	0.0615
-90% epiboly	Wnt	heat_shock	0.0328
-90% epiboly	Wnt	p53_response	-0.0679
-90% epiboly	Wnt	EVL	-0.116
-90% epiboly	Wnt	margin	0.448
-90% epiboly	Wnt	PGC	0.0383
-90% epiboly	Wnt	endoderm	0.161
-90% epiboly	Wnt	mesoderm	0.175
-90% epiboly	Wnt	axial_mesoderm	0.0959
-90% epiboly	Wnt	dorsal_forerunner	0.0118
-90% epiboly	Wnt	neural_plate	-0.0471
-90% epiboly	Wnt	prechordal_plate	-0.212
-90% epiboly	Wnt	presomitic_mesoderm	0.227
-90% epiboly	Wnt	ventral_bmp	-0.022
-90% epiboly	Wnt	presumptive_neural	0.263
-90% epiboly	Wnt	forebrain_eye	-0.504
-90% epiboly	Wnt	non_neural_ectoderm	-0.274
-90% epiboly	Wnt	placodes	-0.238
-90% epiboly	Wnt	hindbrain	0.0725
-90% epiboly	Wnt	midbrain_hindbrain_boundary	-0.0567
-90% epiboly	FGF	maternal	0.0965
-90% epiboly	FGF	blastomere	-0.122
-90% epiboly	FGF	cell_cycle_s	-0.0932
-90% epiboly	FGF	cell_cycle_g2m	0.104
-90% epiboly	FGF	heat_shock	0.0144
-90% epiboly	FGF	p53_response	0.00617
-90% epiboly	FGF	EVL	-0.0544
-90% epiboly	FGF	margin	0.621
-90% epiboly	FGF	PGC	0.00489
-90% epiboly	FGF	endoderm	0.079
-90% epiboly	FGF	mesoderm	0.226
-90% epiboly	FGF	axial_mesoderm	0.171
-90% epiboly	FGF	dorsal_forerunner	-0.0844
-90% epiboly	FGF	neural_plate	-0.214
-90% epiboly	FGF	prechordal_plate	-0.128
-90% epiboly	FGF	presomitic_mesoderm	0.368
-90% epiboly	FGF	ventral_bmp	-0.0443
-90% epiboly	FGF	presumptive_neural	-0.0125
-90% epiboly	FGF	forebrain_eye	-0.323
-90% epiboly	FGF	non_neural_ectoderm	-0.315
-90% epiboly	FGF	placodes	-0.213
-90% epiboly	FGF	hindbrain	-0.321
-90% epiboly	FGF	midbrain_hindbrain_boundary	-0.292
-90% epiboly	RA	maternal	0.00836
-90% epiboly	RA	blastomere	0.0629
-90% epiboly	RA	cell_cycle_s	0.0708
-90% epiboly	RA	cell_cycle_g2m	0.0757
-90% epiboly	RA	heat_shock	-0.115
-90% epiboly	RA	p53_response	0.00554
-90% epiboly	RA	EVL	-0.126
-90% epiboly	RA	margin	0.127
-90% epiboly	RA	PGC	-0.0581
-90% epiboly	RA	endoderm	0.376
-90% epiboly	RA	mesoderm	-0.012
-90% epiboly	RA	axial_mesoderm	0.1
-90% epiboly	RA	dorsal_forerunner	0.223
-90% epiboly	RA	neural_plate	0.195
-90% epiboly	RA	prechordal_plate	-0.189
-90% epiboly	RA	presomitic_mesoderm	-0.0991
-90% epiboly	RA	ventral_bmp	-0.117
-90% epiboly	RA	presumptive_neural	0.276
-90% epiboly	RA	forebrain_eye	0.197
-90% epiboly	RA	non_neural_ectoderm	-0.429
-90% epiboly	RA	placodes	-0.403
-90% epiboly	RA	hindbrain	0.0132
-90% epiboly	RA	midbrain_hindbrain_boundary	0.12
-90% epiboly	Notch	maternal	0.00838
-90% epiboly	Notch	blastomere	0.094
-90% epiboly	Notch	cell_cycle_s	0.043
-90% epiboly	Notch	cell_cycle_g2m	0.0065
-90% epiboly	Notch	heat_shock	-0.00447
-90% epiboly	Notch	p53_response	-0.0455
-90% epiboly	Notch	EVL	-0.0904
-90% epiboly	Notch	margin	0.319
-90% epiboly	Notch	PGC	0.00439
-90% epiboly	Notch	endoderm	-0.0975
-90% epiboly	Notch	mesoderm	-0.0453
-90% epiboly	Notch	axial_mesoderm	-0.00136
-90% epiboly	Notch	dorsal_forerunner	-0.0473
-90% epiboly	Notch	neural_plate	-0.119
-90% epiboly	Notch	prechordal_plate	-0.184
-90% epiboly	Notch	presomitic_mesoderm	0.134
-90% epiboly	Notch	ventral_bmp	-0.0365
-90% epiboly	Notch	presumptive_neural	-0.0199
-90% epiboly	Notch	forebrain_eye	-0.345
-90% epiboly	Notch	non_neural_ectoderm	-7.3e-05
-90% epiboly	Notch	placodes	-0.0807
-90% epiboly	Notch	hindbrain	-0.113
-90% epiboly	Notch	midbrain_hindbrain_boundary	-0.205
-bud	BMP	maternal	0.197
-bud	BMP	blastomere	-0.414
-bud	BMP	cell_cycle_s	-0.174
-bud	BMP	cell_cycle_g2m	0.148
-bud	BMP	heat_shock	-0.0325
-bud	BMP	p53_response	0.176
-bud	BMP	EVL	0.0961
-bud	BMP	margin	0.25
-bud	BMP	PGC	0.00938
-bud	BMP	endoderm	-0.0291
-bud	BMP	mesoderm	0.176
-bud	BMP	axial_mesoderm	-0.108
-bud	BMP	dorsal_forerunner	-0.0472
-bud	BMP	neural_plate	-0.369
-bud	BMP	prechordal_plate	0.166
-bud	BMP	presomitic_mesoderm	0.00462
-bud	BMP	ventral_bmp	0.483
-bud	BMP	presumptive_neural	-0.316
-bud	BMP	forebrain_eye	-0.43
-bud	BMP	non_neural_ectoderm	0.521
-bud	BMP	placodes	0.339
-bud	BMP	hindbrain	-0.359
-bud	BMP	midbrain_hindbrain_boundary	-0.266
-bud	BMP	adaxial_somite	-0.127
-bud	BMP	hatching_gland	0.111
-bud	BMP	intermediate_mesoderm	0.0856
-bud	BMP	lateral_plate	0.384
-bud	BMP	notochord	-0.0386
-bud	BMP	primary_neurons	0.183
-bud	BMP	tailbud	0.641
-bud	Nodal	maternal	-0.0458
-bud	Nodal	blastomere	0.0451
-bud	Nodal	cell_cycle_s	-0.0118
-bud	Nodal	cell_cycle_g2m	0.0367
-bud	Nodal	heat_shock	-0.0266
-bud	Nodal	p53_response	0.112
-bud	Nodal	EVL	-0.00349
-bud	Nodal	margin	-0.0302
-bud	Nodal	PGC	-0.0114
-bud	Nodal	endoderm	0.179
-bud	Nodal	mesoderm	-0.0465
-bud	Nodal	axial_mesoderm	0.0771
-bud	Nodal	dorsal_forerunner	0.0485
-bud	Nodal	neural_plate	0.186
-bud	Nodal	prechordal_plate	0.248
-bud	Nodal	presomitic_mesoderm	-0.064
-bud	Nodal	ventral_bmp	-0.112
-bud	Nodal	presumptive_neural	0.0729
-bud	Nodal	forebrain_eye	0.137
-bud	Nodal	non_neural_ectoderm	-0.0778
-bud	Nodal	placodes	-0.0383
-bud	Nodal	hindbrain	-0.0198
-bud	Nodal	midbrain_hindbrain_boundary	-0.0565
-bud	Nodal	adaxial_somite	-0.0342
-bud	Nodal	hatching_gland	0.184
-bud	Nodal	intermediate_mesoderm	0.0269
-bud	Nodal	lateral_plate	-0.103
-bud	Nodal	notochord	0.122
-bud	Nodal	primary_neurons	0.0451
-bud	Nodal	tailbud	-0.0722
-bud	Wnt	maternal	0.0856
-bud	Wnt	blastomere	0.0403
-bud	Wnt	cell_cycle_s	0.0669
-bud	Wnt	cell_cycle_g2m	-0.00409
-bud	Wnt	heat_shock	0.0245
-bud	Wnt	p53_response	0.0195
-bud	Wnt	EVL	-0.117
-bud	Wnt	margin	0.432
-bud	Wnt	PGC	-0.0128
-bud	Wnt	endoderm	0.164
-bud	Wnt	mesoderm	0.173
-bud	Wnt	axial_mesoderm	0.12
-bud	Wnt	dorsal_forerunner	0.0958
-bud	Wnt	neural_plate	-0.094
-bud	Wnt	prechordal_plate	-0.208
-bud	Wnt	presomitic_mesoderm	0.0782
-bud	Wnt	ventral_bmp	0.0805
-bud	Wnt	presumptive_neural	0.0715
-bud	Wnt	forebrain_eye	-0.501
-bud	Wnt	non_neural_ectoderm	-0.178
-bud	Wnt	placodes	-0.17
-bud	Wnt	hindbrain	-0.0602
-bud	Wnt	midbrain_hindbrain_boundary	-0.0887
-bud	Wnt	adaxial_somite	-0.0357
-bud	Wnt	hatching_gland	-0.148
-bud	Wnt	intermediate_mesoderm	0.0462
-bud	Wnt	lateral_plate	0.119
-bud	Wnt	notochord	0.0888
-bud	Wnt	primary_neurons	-0.023
-bud	Wnt	tailbud	0.398
-bud	FGF	maternal	0.123
-bud	FGF	blastomere	-0.194
-bud	FGF	cell_cycle_s	-0.0157
-bud	FGF	cell_cycle_g2m	0.111
-bud	FGF	heat_shock	0.0471
-bud	FGF	p53_response	0.116
-bud	FGF	EVL	-0.117
-bud	FGF	margin	0.636
-bud	FGF	PGC	-0.0168
-bud	FGF	endoderm	0.0696
-bud	FGF	mesoderm	0.33
-bud	FGF	axial_mesoderm	0.0604
-bud	FGF	dorsal_forerunner	-0.0422
-bud	FGF	neural_plate	-0.289
-bud	FGF	prechordal_plate	-0.163
-bud	FGF	presomitic_mesoderm	0.42
-bud	FGF	ventral_bmp	-0.07
-bud	FGF	presumptive_neural	-0.18
-bud	FGF	forebrain_eye	-0.315
-bud	FGF	non_neural_ectoderm	-0.291
-bud	FGF	placodes	-0.277
-bud	FGF	hindbrain	-0.316
-bud	FGF	midbrain_hindbrain_boundary	-0.282
-bud	FGF	adaxial_somite	0.132
-bud	FGF	hatching_gland	-0.14
-bud	FGF	intermediate_mesoderm	-0.0966
-bud	FGF	lateral_plate	-0.0151
-bud	FGF	notochord	0.116
-bud	FGF	primary_neurons	-0.299
-bud	FGF	tailbud	0.648
-bud	RA	maternal	0.00249
-bud	RA	blastomere	0.231
-bud	RA	cell_cycle_s	0.136
-bud	RA	cell_cycle_g2m	-0.0774
-bud	RA	heat_shock	-0.087
-bud	RA	p53_response	0.0497
-bud	RA	EVL	-0.112
-bud	RA	margin	0.193
-bud	RA	PGC	-0.0506
-bud	RA	endoderm	0.303
-bud	RA	mesoderm	0.0222
-bud	RA	axial_mesoderm	0.175
-bud	RA	dorsal_forerunner	0.237
-bud	RA	neural_plate	0.122
-bud	RA	prechordal_plate	-0.247
-bud	RA	presomitic_mesoderm	-0.0727
-bud	RA	ventral_bmp	-0.0929
-bud	RA	presumptive_neural	0.366
-bud	RA	forebrain_eye	-0.0462
-bud	RA	non_neural_ectoderm	-0.322
-bud	RA	placodes	-0.31
-bud	RA	hindbrain	-0.00962
-bud	RA	midbrain_hindbrain_boundary	0.0899
-bud	RA	adaxial_somite	-0.103
-bud	RA	hatching_gland	-0.173
-bud	RA	intermediate_mesoderm	0.0689
-bud	RA	lateral_plate	-0.024
-bud	RA	notochord	0.115
-bud	RA	primary_neurons	-0.157
-bud	RA	tailbud	0.126
-bud	Notch	maternal	0.0635
-bud	Notch	blastomere	0.044
-bud	Notch	cell_cycle_s	-0.00904
-bud	Notch	cell_cycle_g2m	0.0417
-bud	Notch	heat_shock	0.0765
-bud	Notch	p53_response	0.0599
-bud	Notch	EVL	-0.0703
-bud	Notch	margin	0.42
-bud	Notch	PGC	0.00745
-bud	Notch	endoderm	-0.0808
-bud	Notch	mesoderm	0.106
-bud	Notch	axial_mesoderm	-0.0473
-bud	Notch	dorsal_forerunner	-0.0123
-bud	Notch	neural_plate	-0.102
-bud	Notch	prechordal_plate	-0.158
-bud	Notch	presomitic_mesoderm	0.272
-bud	Notch	ventral_bmp	-0.0585
-bud	Notch	presumptive_neural	-0.0533
-bud	Notch	forebrain_eye	-0.358
-bud	Notch	non_neural_ectoderm	0.000901
-bud	Notch	placodes	-0.0614
-bud	Notch	hindbrain	-0.0436
-bud	Notch	midbrain_hindbrain_boundary	-0.214
-bud	Notch	adaxial_somite	0.122
-bud	Notch	hatching_gland	-0.174
-bud	Notch	intermediate_mesoderm	-0.157
-bud	Notch	lateral_plate	-0.0956
-bud	Notch	notochord	-0.0572
-bud	Notch	primary_neurons	0.0684
-bud	Notch	tailbud	0.49
-3-somite	BMP	maternal	0.319
-3-somite	BMP	blastomere	-0.392
-3-somite	BMP	cell_cycle_s	-0.246
-3-somite	BMP	cell_cycle_g2m	0.218
-3-somite	BMP	heat_shock	-0.0431
-3-somite	BMP	p53_response	0.0643
-3-somite	BMP	EVL	0.179
-3-somite	BMP	PGC	-0.103
-3-somite	BMP	endoderm	-0.0134
-3-somite	BMP	mesoderm	0.242
-3-somite	BMP	axial_mesoderm	0.00826
-3-somite	BMP	dorsal_forerunner	-0.0311
-3-somite	BMP	neural_plate	-0.28
-3-somite	BMP	prechordal_plate	0.189
-3-somite	BMP	presomitic_mesoderm	0.0445
-3-somite	BMP	ventral_bmp	0.28
-3-somite	BMP	presumptive_neural	-0.152
-3-somite	BMP	forebrain_eye	-0.338
-3-somite	BMP	non_neural_ectoderm	0.331
-3-somite	BMP	placodes	0.0682
-3-somite	BMP	hindbrain	-0.313
-3-somite	BMP	midbrain_hindbrain_boundary	-0.219
-3-somite	BMP	adaxial_somite	-0.125
-3-somite	BMP	hatching_gland	0.181
-3-somite	BMP	intermediate_mesoderm	0.0859
-3-somite	BMP	lateral_plate	0.148
-3-somite	BMP	notochord	0.0414
-3-somite	BMP	primary_neurons	0.0275
-3-somite	BMP	tailbud	0.708
-3-somite	BMP	floor_plate	-0.0282
-3-somite	BMP	neural_crest	0.0955
-3-somite	Nodal	maternal	-0.0122
-3-somite	Nodal	blastomere	0.0645
-3-somite	Nodal	cell_cycle_s	-0.0281
-3-somite	Nodal	cell_cycle_g2m	0.0177
-3-somite	Nodal	heat_shock	0.01
-3-somite	Nodal	p53_response	-0.034
-3-somite	Nodal	EVL	-0.0144
-3-somite	Nodal	PGC	-0.000466
-3-somite	Nodal	endoderm	0.0934
-3-somite	Nodal	mesoderm	-0.13
-3-somite	Nodal	axial_mesoderm	0.000487
-3-somite	Nodal	dorsal_forerunner	0.0942
-3-somite	Nodal	neural_plate	0.257
-3-somite	Nodal	prechordal_plate	0.267
-3-somite	Nodal	presomitic_mesoderm	-0.0766
-3-somite	Nodal	ventral_bmp	-0.0595
-3-somite	Nodal	presumptive_neural	0.138
-3-somite	Nodal	forebrain_eye	0.197
-3-somite	Nodal	non_neural_ectoderm	-0.0445
-3-somite	Nodal	placodes	-0.0136
-3-somite	Nodal	hindbrain	-0.075
-3-somite	Nodal	midbrain_hindbrain_boundary	-0.0104
-3-somite	Nodal	adaxial_somite	-0.033
-3-somite	Nodal	hatching_gland	0.159
-3-somite	Nodal	intermediate_mesoderm	-0.0405
-3-somite	Nodal	lateral_plate	-0.0632
-3-somite	Nodal	notochord	0.0396
-3-somite	Nodal	primary_neurons	0.0362
-3-somite	Nodal	tailbud	-0.062
-3-somite	Nodal	floor_plate	0.667
-3-somite	Nodal	neural_crest	0.0662
-3-somite	Wnt	maternal	0.295
-3-somite	Wnt	blastomere	-0.178
-3-somite	Wnt	cell_cycle_s	-0.0185
-3-somite	Wnt	cell_cycle_g2m	0.102
-3-somite	Wnt	heat_shock	-0.000711
-3-somite	Wnt	p53_response	-0.0314
-3-somite	Wnt	EVL	-0.0968
-3-somite	Wnt	PGC	0.108
-3-somite	Wnt	endoderm	-0.0748
-3-somite	Wnt	mesoderm	0.231
-3-somite	Wnt	axial_mesoderm	-0.0567
-3-somite	Wnt	dorsal_forerunner	0.0233
-3-somite	Wnt	neural_plate	-0.12
-3-somite	Wnt	prechordal_plate	-0.165
-3-somite	Wnt	presomitic_mesoderm	0.215
-3-somite	Wnt	ventral_bmp	0.139
-3-somite	Wnt	presumptive_neural	-0.143
-3-somite	Wnt	forebrain_eye	-0.389
-3-somite	Wnt	non_neural_ectoderm	-0.124
-3-somite	Wnt	placodes	-0.142
-3-somite	Wnt	hindbrain	-0.347
-3-somite	Wnt	midbrain_hindbrain_boundary	-0.127
-3-somite	Wnt	adaxial_somite	0.00201
-3-somite	Wnt	hatching_gland	-0.132
-3-somite	Wnt	intermediate_mesoderm	-0.0314
-3-somite	Wnt	lateral_plate	-0.00793
-3-somite	Wnt	notochord	-0.00569
-3-somite	Wnt	primary_neurons	-0.0568
-3-somite	Wnt	tailbud	0.731
-3-somite	Wnt	floor_plate	-0.0104
-3-somite	Wnt	neural_crest	-0.0344
-3-somite	RA	maternal	0.279
-3-somite	RA	blastomere	-0.248
-3-somite	RA	cell_cycle_s	-0.0443
-3-somite	RA	cell_cycle_g2m	0.0236
-3-somite	RA	heat_shock	-0.0385
-3-somite	RA	p53_response	0.0799
-3-somite	RA	EVL	-0.00444
-3-somite	RA	PGC	-0.00463
-3-somite	RA	endoderm	0.195
-3-somite	RA	mesoderm	0.302
-3-somite	RA	axial_mesoderm	0.0816
-3-somite	RA	dorsal_forerunner	0.205
-3-somite	RA	neural_plate	-0.192
-3-somite	RA	prechordal_plate	-0.0533
-3-somite	RA	presomitic_mesoderm	0.124
-3-somite	RA	ventral_bmp	0.226
-3-somite	RA	presumptive_neural	0.0676
-3-somite	RA	forebrain_eye	-0.333
-3-somite	RA	non_neural_ectoderm	0.0501
-3-somite	RA	placodes	-0.033
-3-somite	RA	hindbrain	-0.253
-3-somite	RA	midbrain_hindbrain_boundary	-0.298
-3-somite	RA	adaxial_somite	0.043
-3-somite	RA	hatching_gland	-0.0294
-3-somite	RA	intermediate_mesoderm	0.0586
-3-somite	RA	lateral_plate	0.137
-3-somite	RA	notochord	0.116
-3-somite	RA	primary_neurons	-0.053
-3-somite	RA	tailbud	0.643
-3-somite	RA	floor_plate	0.0141
-3-somite	RA	neural_crest	-0.0201
-3-somite	Notch	maternal	0.0466
-3-somite	Notch	blastomere	0.152
-3-somite	Notch	cell_cycle_s	0.11
-3-somite	Notch	cell_cycle_g2m	-0.0637
-3-somite	Notch	heat_shock	0.107
-3-somite	Notch	p53_response	-0.0242
-3-somite	Notch	EVL	-0.101
-3-somite	Notch	PGC	0.109
-3-somite	Notch	endoderm	-0.133
-3-somite	Notch	mesoderm	0.031
-3-somite	Notch	axial_mesoderm	-0.139
-3-somite	Notch	dorsal_forerunner	0.046
-3-somite	Notch	neural_plate	-0.0184
-3-somite	Notch	prechordal_plate	-0.167
-3-somite	Notch	presomitic_mesoderm	0.269
-3-somite	Notch	ventral_bmp	-0.0742
-3-somite	Notch	presumptive_neural	0.159
-3-somite	Notch	forebrain_eye	-0.258
-3-somite	Notch	non_neural_ectoderm	-0.147
-3-somite	Notch	placodes	0.0397
-3-somite	Notch	hindbrain	-0.022
-3-somite	Notch	midbrain_hindbrain_boundary	-0.307
-3-somite	Notch	adaxial_somite	0.08
-3-somite	Notch	hatching_gland	-0.202
-3-somite	Notch	intermediate_mesoderm	-0.258
-3-somite	Notch	lateral_plate	-0.126
-3-somite	Notch	notochord	-0.115
-3-somite	Notch	primary_neurons	0.187
-3-somite	Notch	tailbud	0.444
-3-somite	Notch	floor_plate	0.0416
-3-somite	Notch	neural_crest	-0.175
-6-somite	BMP	maternal	0.236
-6-somite	BMP	blastomere	-0.326
-6-somite	BMP	cell_cycle_s	-0.115
-6-somite	BMP	cell_cycle_g2m	0.0428
-6-somite	BMP	heat_shock	0.00618
-6-somite	BMP	p53_response	0.132
-6-somite	BMP	EVL	0.126
-6-somite	BMP	PGC	-0.0877
-6-somite	BMP	endoderm	-0.00593
-6-somite	BMP	mesoderm	0.188
-6-somite	BMP	axial_mesoderm	0.0597
-6-somite	BMP	dorsal_forerunner	0.0829
-6-somite	BMP	neural_plate	-0.191
-6-somite	BMP	prechordal_plate	0.2
-6-somite	BMP	presomitic_mesoderm	0.00841
-6-somite	BMP	ventral_bmp	0.0538
-6-somite	BMP	presumptive_neural	-0.0772
-6-somite	BMP	forebrain_eye	-0.308
-6-somite	BMP	non_neural_ectoderm	0.278
-6-somite	BMP	placodes	0.00196
-6-somite	BMP	hindbrain	-0.195
-6-somite	BMP	midbrain_hindbrain_boundary	-0.227
-6-somite	BMP	adaxial_somite	-0.12
-6-somite	BMP	hatching_gland	0.202
-6-somite	BMP	intermediate_mesoderm	-0.00111
-6-somite	BMP	lateral_plate	0.0905
-6-somite	BMP	notochord	0.107
-6-somite	BMP	primary_neurons	-0.00779
-6-somite	BMP	tailbud	0.721
-6-somite	BMP	floor_plate	0.00083
-6-somite	BMP	neural_crest	0.0757
-6-somite	BMP	heart	0.0553
-6-somite	Wnt	maternal	0.106
-6-somite	Wnt	blastomere	-0.0603
-6-somite	Wnt	cell_cycle_s	0.0283
-6-somite	Wnt	cell_cycle_g2m	-0.000696
-6-somite	Wnt	heat_shock	-0.0552
-6-somite	Wnt	p53_response	0.0446
-6-somite	Wnt	EVL	-0.0934
-6-somite	Wnt	PGC	-0.0562
-6-somite	Wnt	endoderm	0.0205
-6-somite	Wnt	mesoderm	0.168
-6-somite	Wnt	axial_mesoderm	0.0685
-6-somite	Wnt	dorsal_forerunner	0.0207
-6-somite	Wnt	neural_plate	-0.029
-6-somite	Wnt	prechordal_plate	-0.13
-6-somite	Wnt	presomitic_mesoderm	0.0978
-6-somite	Wnt	ventral_bmp	0.000202
-6-somite	Wnt	presumptive_neural	-0.00893
-6-somite	Wnt	forebrain_eye	-0.347
-6-somite	Wnt	non_neural_ectoderm	-0.112
-6-somite	Wnt	placodes	-0.0297
-6-somite	Wnt	hindbrain	-0.204
-6-somite	Wnt	midbrain_hindbrain_boundary	-0.112
-6-somite	Wnt	adaxial_somite	-0.0307
-6-somite	Wnt	hatching_gland	-0.0902
-6-somite	Wnt	intermediate_mesoderm	-0.0443
-6-somite	Wnt	lateral_plate	-0.0984
-6-somite	Wnt	notochord	0.0886
-6-somite	Wnt	primary_neurons	0.0436
-6-somite	Wnt	tailbud	0.622
-6-somite	Wnt	floor_plate	-0.0344
-6-somite	Wnt	neural_crest	-0.0292
-6-somite	Wnt	heart	-0.14
-6-somite	RA	maternal	0.323
-6-somite	RA	blastomere	-0.22
-6-somite	RA	cell_cycle_s	-0.0329
-6-somite	RA	cell_cycle_g2m	0.0229
-6-somite	RA	heat_shock	-0.0599
-6-somite	RA	p53_response	0.102
-6-somite	RA	EVL	0.0204
-6-somite	RA	PGC	-0.0253
-6-somite	RA	endoderm	0.165
-6-somite	RA	mesoderm	0.267
-6-somite	RA	axial_mesoderm	0.0706
-6-somite	RA	dorsal_forerunner	0.132
-6-somite	RA	neural_plate	-0.161
-6-somite	RA	prechordal_plate	-0.0579
-6-somite	RA	presomitic_mesoderm	0.0563
-6-somite	RA	ventral_bmp	0.122
-6-somite	RA	presumptive_neural	0.111
-6-somite	RA	forebrain_eye	-0.324
-6-somite	RA	non_neural_ectoderm	0.114
-6-somite	RA	placodes	0.0433
-6-somite	RA	hindbrain	-0.106
-6-somite	RA	midbrain_hindbrain_boundary	-0.251
-6-somite	RA	adaxial_somite	-0.0307
-6-somite	RA	hatching_gland	-0.0263
-6-somite	RA	intermediate_mesoderm	0.0228
-6-somite	RA	lateral_plate	0.0642
-6-somite	RA	notochord	0.0991
-6-somite	RA	primary_neurons	-0.0341
-6-somite	RA	tailbud	0.658
-6-somite	RA	floor_plate	-0.0234
-6-somite	RA	neural_crest	-0.0164
-6-somite	RA	heart	-0.0314
-6-somite	Notch	maternal	0.0226
-6-somite	Notch	blastomere	0.248
-6-somite	Notch	cell_cycle_s	0.211
-6-somite	Notch	cell_cycle_g2m	0.00988
-6-somite	Notch	heat_shock	-0.0336
-6-somite	Notch	p53_response	-0.0452
-6-somite	Notch	EVL	-0.138
-6-somite	Notch	PGC	-0.0319
-6-somite	Notch	endoderm	-0.109
-6-somite	Notch	mesoderm	0.0104
-6-somite	Notch	axial_mesoderm	-0.132
-6-somite	Notch	dorsal_forerunner	-0.00645
-6-somite	Notch	neural_plate	0.139
-6-somite	Notch	prechordal_plate	-0.176
-6-somite	Notch	presomitic_mesoderm	0.163
-6-somite	Notch	ventral_bmp	-0.11
-6-somite	Notch	presumptive_neural	0.162
-6-somite	Notch	forebrain_eye	-0.144
-6-somite	Notch	non_neural_ectoderm	-0.17
-6-somite	Notch	placodes	0.0644
-6-somite	Notch	hindbrain	0.0447
-6-somite	Notch	midbrain_hindbrain_boundary	-0.194
-6-somite	Notch	adaxial_somite	0.0326
-6-somite	Notch	hatching_gland	-0.203
-6-somite	Notch	intermediate_mesoderm	-0.233
-6-somite	Notch	lateral_plate	-0.177
-6-somite	Notch	notochord	-0.113
-6-somite	Notch	primary_neurons	0.127
-6-somite	Notch	tailbud	0.403
-6-somite	Notch	floor_plate	-0.0255
-6-somite	Notch	neural_crest	-0.11
-6-somite	Notch	heart	-0.18
+high	signal:BMP	maternal	-0.453
+high	signal:BMP	blastomere	0.356
+high	signal:BMP	cell_cycle_s	0.342
+high	signal:BMP	cell_cycle_g2m	-0.376
+high	signal:BMP	heat_shock	-0.00926
+high	signal:BMP	p53_response	-0.191
+high	signal:BMP	EVL	0.0727
+high	signal:BMP	PGC	0.108
+high	signal:BMP	adaxial_somite	0.207
+high	signal:BMP	axial_mesoderm	0.344
+high	signal:BMP	dorsal_forerunner	0.718
+high	signal:BMP	dorsal_organizer	0.485
+high	signal:BMP	endoderm	-0.207
+high	signal:BMP	forebrain_eye	0.585
+high	signal:BMP	hatching_gland	0.431
+high	signal:BMP	hindbrain	0.316
+high	signal:BMP	intermediate_mesoderm	0.199
+high	signal:BMP	lateral_plate	0.535
+high	signal:BMP	margin	0.527
+high	signal:BMP	mesoderm	0.71
+high	signal:BMP	midbrain_hindbrain_boundary	0.324
+high	signal:BMP	neural_crest	0.505
+high	signal:BMP	neural_plate	0.608
+high	signal:BMP	non_neural_ectoderm	0.0215
+high	signal:BMP	notochord	0.133
+high	signal:BMP	placodes	-0.0816
+high	signal:BMP	prechordal_plate	0.296
+high	signal:BMP	presomitic_mesoderm	0.299
+high	signal:BMP	primary_neurons	0.362
+high	signal:BMP	tailbud	0.28
+high	signal:Nodal	maternal	-0.0623
+high	signal:Nodal	blastomere	-0.0483
+high	signal:Nodal	cell_cycle_s	0.0852
+high	signal:Nodal	cell_cycle_g2m	-0.0938
+high	signal:Nodal	heat_shock	-0.0941
+high	signal:Nodal	p53_response	-0.0321
+high	signal:Nodal	EVL	0.219
+high	signal:Nodal	PGC	0.136
+high	signal:Nodal	adaxial_somite	0.104
+high	signal:Nodal	axial_mesoderm	0.336
+high	signal:Nodal	dorsal_forerunner	0.051
+high	signal:Nodal	dorsal_organizer	0.404
+high	signal:Nodal	endoderm	0.0789
+high	signal:Nodal	forebrain_eye	0.194
+high	signal:Nodal	hatching_gland	0.131
+high	signal:Nodal	hindbrain	0.0402
+high	signal:Nodal	intermediate_mesoderm	0.265
+high	signal:Nodal	lateral_plate	-0.0103
+high	signal:Nodal	margin	0.422
+high	signal:Nodal	mesoderm	0.071
+high	signal:Nodal	midbrain_hindbrain_boundary	-0.026
+high	signal:Nodal	neural_crest	0.0369
+high	signal:Nodal	neural_plate	0.152
+high	signal:Nodal	non_neural_ectoderm	0.167
+high	signal:Nodal	notochord	0.238
+high	signal:Nodal	placodes	0.0432
+high	signal:Nodal	prechordal_plate	0.196
+high	signal:Nodal	presomitic_mesoderm	0.23
+high	signal:Nodal	primary_neurons	0.105
+high	signal:Nodal	tailbud	0.0593
+high	signal:Wnt	maternal	0.0674
+high	signal:Wnt	blastomere	-0.259
+high	signal:Wnt	cell_cycle_s	-0.116
+high	signal:Wnt	cell_cycle_g2m	0.0439
+high	signal:Wnt	heat_shock	0.0459
+high	signal:Wnt	p53_response	0.0482
+high	signal:Wnt	EVL	-0.000906
+high	signal:Wnt	PGC	0.0766
+high	signal:Wnt	adaxial_somite	-0.029
+high	signal:Wnt	axial_mesoderm	0.0127
+high	signal:Wnt	dorsal_forerunner	-0.0421
+high	signal:Wnt	dorsal_organizer	0.12
+high	signal:Wnt	endoderm	0.178
+high	signal:Wnt	forebrain_eye	-0.0757
+high	signal:Wnt	hatching_gland	-0.284
+high	signal:Wnt	hindbrain	-0.234
+high	signal:Wnt	intermediate_mesoderm	-0.0891
+high	signal:Wnt	lateral_plate	-0.327
+high	signal:Wnt	margin	0.0599
+high	signal:Wnt	mesoderm	-0.0563
+high	signal:Wnt	midbrain_hindbrain_boundary	-0.0852
+high	signal:Wnt	neural_crest	0.14
+high	signal:Wnt	neural_plate	0.0412
+high	signal:Wnt	non_neural_ectoderm	0.0805
+high	signal:Wnt	notochord	0.0444
+high	signal:Wnt	placodes	0.0485
+high	signal:Wnt	prechordal_plate	-0.0488
+high	signal:Wnt	presomitic_mesoderm	0.11
+high	signal:Wnt	primary_neurons	-0.207
+high	signal:Wnt	tailbud	0.272
+high	signal:FGF	maternal	0.0256
+high	signal:FGF	blastomere	0.0504
+high	signal:FGF	cell_cycle_s	-0.0242
+high	signal:FGF	cell_cycle_g2m	0.0302
+high	signal:FGF	heat_shock	0.00221
+high	signal:FGF	p53_response	-0.07
+high	signal:FGF	EVL	0.196
+high	signal:FGF	PGC	-0.177
+high	signal:FGF	adaxial_somite	0.0368
+high	signal:FGF	axial_mesoderm	0.34
+high	signal:FGF	dorsal_forerunner	-0.0487
+high	signal:FGF	dorsal_organizer	0.173
+high	signal:FGF	endoderm	0.254
+high	signal:FGF	forebrain_eye	0.0817
+high	signal:FGF	hatching_gland	-0.0433
+high	signal:FGF	hindbrain	0.106
+high	signal:FGF	intermediate_mesoderm	0.0589
+high	signal:FGF	lateral_plate	-0.142
+high	signal:FGF	margin	0.146
+high	signal:FGF	mesoderm	-0.045
+high	signal:FGF	midbrain_hindbrain_boundary	-0.00301
+high	signal:FGF	neural_crest	0.052
+high	signal:FGF	neural_plate	0.163
+high	signal:FGF	non_neural_ectoderm	0.203
+high	signal:FGF	notochord	0.216
+high	signal:FGF	placodes	0.221
+high	signal:FGF	prechordal_plate	0.116
+high	signal:FGF	presomitic_mesoderm	0.248
+high	signal:FGF	primary_neurons	-0.0148
+high	signal:FGF	tailbud	-0.124
+oblong	signal:BMP	maternal	-0.456
+oblong	signal:BMP	blastomere	0.0274
+oblong	signal:BMP	cell_cycle_s	-0.0166
+oblong	signal:BMP	cell_cycle_g2m	-0.188
+oblong	signal:BMP	heat_shock	0.109
+oblong	signal:BMP	p53_response	-0.232
+oblong	signal:BMP	EVL	-0.165
+oblong	signal:BMP	PGC	0.0875
+oblong	signal:BMP	adaxial_somite	-0.112
+oblong	signal:BMP	axial_mesoderm	0.0935
+oblong	signal:BMP	dorsal_forerunner	0.29
+oblong	signal:BMP	dorsal_organizer	0.274
+oblong	signal:BMP	endoderm	-0.188
+oblong	signal:BMP	forebrain_eye	0.51
+oblong	signal:BMP	hatching_gland	0.0828
+oblong	signal:BMP	hindbrain	0.36
+oblong	signal:BMP	intermediate_mesoderm	-0.191
+oblong	signal:BMP	lateral_plate	0.577
+oblong	signal:BMP	margin	0.271
+oblong	signal:BMP	mesoderm	0.647
+oblong	signal:BMP	midbrain_hindbrain_boundary	0.197
+oblong	signal:BMP	neural_crest	0.277
+oblong	signal:BMP	neural_plate	0.461
+oblong	signal:BMP	non_neural_ectoderm	-0.15
+oblong	signal:BMP	notochord	0.0502
+oblong	signal:BMP	placodes	-0.276
+oblong	signal:BMP	prechordal_plate	0.161
+oblong	signal:BMP	presomitic_mesoderm	0.196
+oblong	signal:BMP	primary_neurons	0.167
+oblong	signal:BMP	tailbud	0.314
+oblong	signal:Nodal	maternal	-0.183
+oblong	signal:Nodal	blastomere	-0.104
+oblong	signal:Nodal	cell_cycle_s	0.116
+oblong	signal:Nodal	cell_cycle_g2m	-0.00377
+oblong	signal:Nodal	heat_shock	0.132
+oblong	signal:Nodal	p53_response	0.0831
+oblong	signal:Nodal	EVL	0.0449
+oblong	signal:Nodal	PGC	0.194
+oblong	signal:Nodal	adaxial_somite	0.112
+oblong	signal:Nodal	axial_mesoderm	0.285
+oblong	signal:Nodal	dorsal_forerunner	-0.173
+oblong	signal:Nodal	dorsal_organizer	0.216
+oblong	signal:Nodal	endoderm	0.123
+oblong	signal:Nodal	forebrain_eye	0.203
+oblong	signal:Nodal	hatching_gland	0.176
+oblong	signal:Nodal	hindbrain	0.101
+oblong	signal:Nodal	intermediate_mesoderm	0.105
+oblong	signal:Nodal	lateral_plate	-0.205
+oblong	signal:Nodal	margin	0.257
+oblong	signal:Nodal	mesoderm	0.0185
+oblong	signal:Nodal	midbrain_hindbrain_boundary	-0.0418
+oblong	signal:Nodal	neural_crest	0.0459
+oblong	signal:Nodal	neural_plate	0.206
+oblong	signal:Nodal	non_neural_ectoderm	0.0612
+oblong	signal:Nodal	notochord	0.0568
+oblong	signal:Nodal	placodes	0.026
+oblong	signal:Nodal	prechordal_plate	-0.107
+oblong	signal:Nodal	presomitic_mesoderm	0.148
+oblong	signal:Nodal	primary_neurons	0.0318
+oblong	signal:Nodal	tailbud	0.292
+oblong	signal:Wnt	maternal	-0.157
+oblong	signal:Wnt	blastomere	-0.0186
+oblong	signal:Wnt	cell_cycle_s	0.123
+oblong	signal:Wnt	cell_cycle_g2m	-0.182
+oblong	signal:Wnt	heat_shock	0.169
+oblong	signal:Wnt	p53_response	-0.149
+oblong	signal:Wnt	EVL	0.0545
+oblong	signal:Wnt	PGC	0.311
+oblong	signal:Wnt	adaxial_somite	0.0386
+oblong	signal:Wnt	axial_mesoderm	0.0667
+oblong	signal:Wnt	dorsal_forerunner	-0.19
+oblong	signal:Wnt	dorsal_organizer	-0.0328
+oblong	signal:Wnt	endoderm	0.000294
+oblong	signal:Wnt	forebrain_eye	-0.0335
+oblong	signal:Wnt	hatching_gland	0.0468
+oblong	signal:Wnt	hindbrain	0.0771
+oblong	signal:Wnt	intermediate_mesoderm	0.168
+oblong	signal:Wnt	lateral_plate	-0.231
+oblong	signal:Wnt	margin	0.111
+oblong	signal:Wnt	mesoderm	-0.0695
+oblong	signal:Wnt	midbrain_hindbrain_boundary	0.068
+oblong	signal:Wnt	neural_crest	-0.15
+oblong	signal:Wnt	neural_plate	0.0648
+oblong	signal:Wnt	non_neural_ectoderm	0.0557
+oblong	signal:Wnt	notochord	-0.158
+oblong	signal:Wnt	placodes	0.202
+oblong	signal:Wnt	prechordal_plate	-0.205
+oblong	signal:Wnt	presomitic_mesoderm	-0.0717
+oblong	signal:Wnt	primary_neurons	-0.0811
+oblong	signal:Wnt	tailbud	0.248
+oblong	signal:FGF	maternal	-0.226
+oblong	signal:FGF	blastomere	-0.122
+oblong	signal:FGF	cell_cycle_s	0.174
+oblong	signal:FGF	cell_cycle_g2m	-0.0248
+oblong	signal:FGF	heat_shock	0.0313
+oblong	signal:FGF	p53_response	-0.124
+oblong	signal:FGF	EVL	0.151
+oblong	signal:FGF	PGC	0.0124
+oblong	signal:FGF	adaxial_somite	-0.0212
+oblong	signal:FGF	axial_mesoderm	0.12
+oblong	signal:FGF	dorsal_forerunner	0.25
+oblong	signal:FGF	dorsal_organizer	0.276
+oblong	signal:FGF	endoderm	0.122
+oblong	signal:FGF	forebrain_eye	0.0755
+oblong	signal:FGF	hatching_gland	0.00328
+oblong	signal:FGF	hindbrain	0.169
+oblong	signal:FGF	intermediate_mesoderm	0.146
+oblong	signal:FGF	lateral_plate	0.183
+oblong	signal:FGF	margin	0.286
+oblong	signal:FGF	mesoderm	0.222
+oblong	signal:FGF	midbrain_hindbrain_boundary	-0.0176
+oblong	signal:FGF	neural_crest	0.188
+oblong	signal:FGF	neural_plate	0.283
+oblong	signal:FGF	non_neural_ectoderm	0.15
+oblong	signal:FGF	notochord	0.118
+oblong	signal:FGF	placodes	0.242
+oblong	signal:FGF	prechordal_plate	0.0992
+oblong	signal:FGF	presomitic_mesoderm	0.238
+oblong	signal:FGF	primary_neurons	0.143
+oblong	signal:FGF	tailbud	-0.0912
+dome	signal:BMP	maternal	-0.354
+dome	signal:BMP	blastomere	0.108
+dome	signal:BMP	cell_cycle_s	0.388
+dome	signal:BMP	cell_cycle_g2m	0.324
+dome	signal:BMP	heat_shock	0.0194
+dome	signal:BMP	p53_response	-0.0662
+dome	signal:BMP	EVL	-0.435
+dome	signal:BMP	PGC	-0.068
+dome	signal:BMP	adaxial_somite	0.0278
+dome	signal:BMP	axial_mesoderm	-0.275
+dome	signal:BMP	dorsal_forerunner	-0.453
+dome	signal:BMP	dorsal_organizer	-0.137
+dome	signal:BMP	endoderm	-0.034
+dome	signal:BMP	forebrain_eye	-0.362
+dome	signal:BMP	hatching_gland	-0.442
+dome	signal:BMP	hindbrain	-0.0456
+dome	signal:BMP	intermediate_mesoderm	-0.306
+dome	signal:BMP	lateral_plate	-0.064
+dome	signal:BMP	margin	0.117
+dome	signal:BMP	mesoderm	0.312
+dome	signal:BMP	midbrain_hindbrain_boundary	-0.276
+dome	signal:BMP	neural_crest	-0.45
+dome	signal:BMP	neural_plate	-0.308
+dome	signal:BMP	non_neural_ectoderm	-0.329
+dome	signal:BMP	notochord	-0.427
+dome	signal:BMP	placodes	-0.285
+dome	signal:BMP	prechordal_plate	-0.14
+dome	signal:BMP	presomitic_mesoderm	-0.153
+dome	signal:BMP	primary_neurons	-0.0231
+dome	signal:BMP	tailbud	0.481
+dome	signal:Nodal	maternal	0.147
+dome	signal:Nodal	blastomere	-0.588
+dome	signal:Nodal	cell_cycle_s	-0.0726
+dome	signal:Nodal	cell_cycle_g2m	-0.198
+dome	signal:Nodal	heat_shock	0.172
+dome	signal:Nodal	p53_response	0.0246
+dome	signal:Nodal	EVL	0.0862
+dome	signal:Nodal	PGC	0.296
+dome	signal:Nodal	adaxial_somite	0.483
+dome	signal:Nodal	axial_mesoderm	0.698
+dome	signal:Nodal	dorsal_forerunner	0.172
+dome	signal:Nodal	dorsal_organizer	0.661
+dome	signal:Nodal	endoderm	0.902
+dome	signal:Nodal	forebrain_eye	0.293
+dome	signal:Nodal	hatching_gland	0.196
+dome	signal:Nodal	hindbrain	0.255
+dome	signal:Nodal	intermediate_mesoderm	0.417
+dome	signal:Nodal	lateral_plate	0.374
+dome	signal:Nodal	margin	0.903
+dome	signal:Nodal	mesoderm	0.806
+dome	signal:Nodal	midbrain_hindbrain_boundary	0.0931
+dome	signal:Nodal	neural_crest	-0.0831
+dome	signal:Nodal	neural_plate	0.474
+dome	signal:Nodal	non_neural_ectoderm	0.132
+dome	signal:Nodal	notochord	0.476
+dome	signal:Nodal	placodes	0.165
+dome	signal:Nodal	prechordal_plate	0.673
+dome	signal:Nodal	presomitic_mesoderm	0.741
+dome	signal:Nodal	primary_neurons	-0.2
+dome	signal:Nodal	tailbud	0.29
+dome	signal:Wnt	maternal	-0.018
+dome	signal:Wnt	blastomere	-0.293
+dome	signal:Wnt	cell_cycle_s	0.0534
+dome	signal:Wnt	cell_cycle_g2m	-0.0315
+dome	signal:Wnt	heat_shock	0.146
+dome	signal:Wnt	p53_response	-0.0261
+dome	signal:Wnt	EVL	0.0256
+dome	signal:Wnt	PGC	0.159
+dome	signal:Wnt	adaxial_somite	0.354
+dome	signal:Wnt	axial_mesoderm	0.418
+dome	signal:Wnt	dorsal_forerunner	0.0718
+dome	signal:Wnt	dorsal_organizer	0.273
+dome	signal:Wnt	endoderm	0.63
+dome	signal:Wnt	forebrain_eye	0.238
+dome	signal:Wnt	hatching_gland	0.0703
+dome	signal:Wnt	hindbrain	0.0833
+dome	signal:Wnt	intermediate_mesoderm	0.306
+dome	signal:Wnt	lateral_plate	0.114
+dome	signal:Wnt	margin	0.636
+dome	signal:Wnt	mesoderm	0.614
+dome	signal:Wnt	midbrain_hindbrain_boundary	-0.12
+dome	signal:Wnt	neural_crest	-0.0598
+dome	signal:Wnt	neural_plate	0.31
+dome	signal:Wnt	non_neural_ectoderm	0.0812
+dome	signal:Wnt	notochord	0.28
+dome	signal:Wnt	placodes	0.139
+dome	signal:Wnt	prechordal_plate	0.376
+dome	signal:Wnt	presomitic_mesoderm	0.508
+dome	signal:Wnt	primary_neurons	-0.0725
+dome	signal:Wnt	tailbud	0.315
+dome	signal:FGF	maternal	0.154
+dome	signal:FGF	blastomere	-0.619
+dome	signal:FGF	cell_cycle_s	-0.0824
+dome	signal:FGF	cell_cycle_g2m	-0.148
+dome	signal:FGF	heat_shock	0.152
+dome	signal:FGF	p53_response	0.0376
+dome	signal:FGF	EVL	0.0738
+dome	signal:FGF	PGC	0.39
+dome	signal:FGF	adaxial_somite	0.43
+dome	signal:FGF	axial_mesoderm	0.734
+dome	signal:FGF	dorsal_forerunner	0.199
+dome	signal:FGF	dorsal_organizer	0.797
+dome	signal:FGF	endoderm	0.863
+dome	signal:FGF	forebrain_eye	0.334
+dome	signal:FGF	hatching_gland	0.208
+dome	signal:FGF	hindbrain	0.223
+dome	signal:FGF	intermediate_mesoderm	0.383
+dome	signal:FGF	lateral_plate	0.332
+dome	signal:FGF	margin	0.856
+dome	signal:FGF	mesoderm	0.688
+dome	signal:FGF	midbrain_hindbrain_boundary	0.181
+dome	signal:FGF	neural_crest	-0.0815
+dome	signal:FGF	neural_plate	0.5
+dome	signal:FGF	non_neural_ectoderm	0.0797
+dome	signal:FGF	notochord	0.508
+dome	signal:FGF	placodes	0.121
+dome	signal:FGF	prechordal_plate	0.675
+dome	signal:FGF	presomitic_mesoderm	0.723
+dome	signal:FGF	primary_neurons	-0.199
+dome	signal:FGF	tailbud	0.195
+dome	receiving:Notch	maternal	-0.051
+dome	receiving:Notch	blastomere	-0.186
+dome	receiving:Notch	cell_cycle_s	-0.53
+dome	receiving:Notch	cell_cycle_g2m	-0.467
+dome	receiving:Notch	heat_shock	-0.0655
+dome	receiving:Notch	p53_response	0.0504
+dome	receiving:Notch	EVL	0.901
+dome	receiving:Notch	PGC	-0.0644
+dome	receiving:Notch	adaxial_somite	0.645
+dome	receiving:Notch	axial_mesoderm	0.545
+dome	receiving:Notch	dorsal_forerunner	0.77
+dome	receiving:Notch	dorsal_organizer	0.0396
+dome	receiving:Notch	endoderm	0.151
+dome	receiving:Notch	forebrain_eye	0.594
+dome	receiving:Notch	hatching_gland	0.839
+dome	receiving:Notch	hindbrain	0.0687
+dome	receiving:Notch	intermediate_mesoderm	0.835
+dome	receiving:Notch	lateral_plate	0.0637
+dome	receiving:Notch	margin	0.197
+dome	receiving:Notch	mesoderm	-0.0616
+dome	receiving:Notch	midbrain_hindbrain_boundary	0.157
+dome	receiving:Notch	neural_crest	0.828
+dome	receiving:Notch	neural_plate	0.504
+dome	receiving:Notch	non_neural_ectoderm	0.897
+dome	receiving:Notch	notochord	0.665
+dome	receiving:Notch	placodes	0.689
+dome	receiving:Notch	prechordal_plate	0.226
+dome	receiving:Notch	presomitic_mesoderm	0.51
+dome	receiving:Notch	primary_neurons	-0.00932
+dome	receiving:Notch	tailbud	-0.373
+30% epiboly	signal:BMP	maternal	-0.18
+30% epiboly	signal:BMP	blastomere	0.0924
+30% epiboly	signal:BMP	cell_cycle_s	0.155
+30% epiboly	signal:BMP	cell_cycle_g2m	0.398
+30% epiboly	signal:BMP	heat_shock	-0.105
+30% epiboly	signal:BMP	p53_response	0.0208
+30% epiboly	signal:BMP	EVL	-0.349
+30% epiboly	signal:BMP	PGC	-0.0365
+30% epiboly	signal:BMP	adaxial_somite	0.0828
+30% epiboly	signal:BMP	axial_mesoderm	-0.2
+30% epiboly	signal:BMP	dorsal_forerunner	-0.327
+30% epiboly	signal:BMP	dorsal_organizer	-0.15
+30% epiboly	signal:BMP	endoderm	-0.0451
+30% epiboly	signal:BMP	forebrain_eye	-0.376
+30% epiboly	signal:BMP	hatching_gland	-0.346
+30% epiboly	signal:BMP	hindbrain	0.069
+30% epiboly	signal:BMP	intermediate_mesoderm	-0.35
+30% epiboly	signal:BMP	lateral_plate	-0.042
+30% epiboly	signal:BMP	margin	0.127
+30% epiboly	signal:BMP	mesoderm	0.29
+30% epiboly	signal:BMP	midbrain_hindbrain_boundary	-0.281
+30% epiboly	signal:BMP	neural_crest	-0.416
+30% epiboly	signal:BMP	neural_plate	-0.198
+30% epiboly	signal:BMP	non_neural_ectoderm	-0.15
+30% epiboly	signal:BMP	notochord	-0.245
+30% epiboly	signal:BMP	placodes	0.0562
+30% epiboly	signal:BMP	prechordal_plate	-0.168
+30% epiboly	signal:BMP	presomitic_mesoderm	-0.0495
+30% epiboly	signal:BMP	primary_neurons	-0.0236
+30% epiboly	signal:BMP	tailbud	0.379
+30% epiboly	signal:Nodal	maternal	0.528
+30% epiboly	signal:Nodal	blastomere	-0.675
+30% epiboly	signal:Nodal	cell_cycle_s	-0.219
+30% epiboly	signal:Nodal	cell_cycle_g2m	-0.0548
+30% epiboly	signal:Nodal	heat_shock	0.0165
+30% epiboly	signal:Nodal	p53_response	-0.023
+30% epiboly	signal:Nodal	EVL	-0.0179
+30% epiboly	signal:Nodal	PGC	0.169
+30% epiboly	signal:Nodal	adaxial_somite	0.744
+30% epiboly	signal:Nodal	axial_mesoderm	0.642
+30% epiboly	signal:Nodal	dorsal_forerunner	0.0461
+30% epiboly	signal:Nodal	dorsal_organizer	0.704
+30% epiboly	signal:Nodal	endoderm	0.943
+30% epiboly	signal:Nodal	forebrain_eye	0.21
+30% epiboly	signal:Nodal	hatching_gland	0.102
+30% epiboly	signal:Nodal	hindbrain	0.593
+30% epiboly	signal:Nodal	intermediate_mesoderm	0.51
+30% epiboly	signal:Nodal	lateral_plate	0.696
+30% epiboly	signal:Nodal	margin	0.9
+30% epiboly	signal:Nodal	mesoderm	0.812
+30% epiboly	signal:Nodal	midbrain_hindbrain_boundary	0.226
+30% epiboly	signal:Nodal	neural_crest	-0.239
+30% epiboly	signal:Nodal	neural_plate	0.672
+30% epiboly	signal:Nodal	non_neural_ectoderm	-0.028
+30% epiboly	signal:Nodal	notochord	0.441
+30% epiboly	signal:Nodal	placodes	-0.00723
+30% epiboly	signal:Nodal	prechordal_plate	0.665
+30% epiboly	signal:Nodal	presomitic_mesoderm	0.908
+30% epiboly	signal:Nodal	primary_neurons	-0.258
+30% epiboly	signal:Nodal	tailbud	0.475
+30% epiboly	signal:Wnt	maternal	0.387
+30% epiboly	signal:Wnt	blastomere	-0.608
+30% epiboly	signal:Wnt	cell_cycle_s	-0.0848
+30% epiboly	signal:Wnt	cell_cycle_g2m	0.0165
+30% epiboly	signal:Wnt	heat_shock	0.00165
+30% epiboly	signal:Wnt	p53_response	-0.00844
+30% epiboly	signal:Wnt	EVL	-0.0994
+30% epiboly	signal:Wnt	PGC	0.106
+30% epiboly	signal:Wnt	adaxial_somite	0.641
+30% epiboly	signal:Wnt	axial_mesoderm	0.552
+30% epiboly	signal:Wnt	dorsal_forerunner	-0.0266
+30% epiboly	signal:Wnt	dorsal_organizer	0.48
+30% epiboly	signal:Wnt	endoderm	0.852
+30% epiboly	signal:Wnt	forebrain_eye	0.0747
+30% epiboly	signal:Wnt	hatching_gland	-0.0478
+30% epiboly	signal:Wnt	hindbrain	0.539
+30% epiboly	signal:Wnt	intermediate_mesoderm	0.378
+30% epiboly	signal:Wnt	lateral_plate	0.651
+30% epiboly	signal:Wnt	margin	0.828
+30% epiboly	signal:Wnt	mesoderm	0.829
+30% epiboly	signal:Wnt	midbrain_hindbrain_boundary	0.0502
+30% epiboly	signal:Wnt	neural_crest	-0.286
+30% epiboly	signal:Wnt	neural_plate	0.532
+30% epiboly	signal:Wnt	non_neural_ectoderm	-0.0929
+30% epiboly	signal:Wnt	notochord	0.351
+30% epiboly	signal:Wnt	placodes	-0.0703
+30% epiboly	signal:Wnt	prechordal_plate	0.447
+30% epiboly	signal:Wnt	presomitic_mesoderm	0.829
+30% epiboly	signal:Wnt	primary_neurons	-0.273
+30% epiboly	signal:Wnt	tailbud	0.564
+30% epiboly	signal:FGF	maternal	0.514
+30% epiboly	signal:FGF	blastomere	-0.75
+30% epiboly	signal:FGF	cell_cycle_s	-0.153
+30% epiboly	signal:FGF	cell_cycle_g2m	-0.0465
+30% epiboly	signal:FGF	heat_shock	0.076
+30% epiboly	signal:FGF	p53_response	-0.0285
+30% epiboly	signal:FGF	EVL	-0.0211
+30% epiboly	signal:FGF	PGC	0.204
+30% epiboly	signal:FGF	adaxial_somite	0.695
+30% epiboly	signal:FGF	axial_mesoderm	0.734
+30% epiboly	signal:FGF	dorsal_forerunner	0.11
+30% epiboly	signal:FGF	dorsal_organizer	0.679
+30% epiboly	signal:FGF	endoderm	0.904
+30% epiboly	signal:FGF	forebrain_eye	0.172
+30% epiboly	signal:FGF	hatching_gland	0.0569
+30% epiboly	signal:FGF	hindbrain	0.454
+30% epiboly	signal:FGF	intermediate_mesoderm	0.49
+30% epiboly	signal:FGF	lateral_plate	0.591
+30% epiboly	signal:FGF	margin	0.884
+30% epiboly	signal:FGF	mesoderm	0.826
+30% epiboly	signal:FGF	midbrain_hindbrain_boundary	0.0964
+30% epiboly	signal:FGF	neural_crest	-0.213
+30% epiboly	signal:FGF	neural_plate	0.608
+30% epiboly	signal:FGF	non_neural_ectoderm	-0.0656
+30% epiboly	signal:FGF	notochord	0.522
+30% epiboly	signal:FGF	placodes	-0.0705
+30% epiboly	signal:FGF	prechordal_plate	0.56
+30% epiboly	signal:FGF	presomitic_mesoderm	0.896
+30% epiboly	signal:FGF	primary_neurons	-0.274
+30% epiboly	signal:FGF	tailbud	0.566
+30% epiboly	receiving:Notch	maternal	-0.12
+30% epiboly	receiving:Notch	blastomere	-0.0462
+30% epiboly	receiving:Notch	cell_cycle_s	-0.669
+30% epiboly	receiving:Notch	cell_cycle_g2m	-0.422
+30% epiboly	receiving:Notch	heat_shock	0.026
+30% epiboly	receiving:Notch	p53_response	0.0126
+30% epiboly	receiving:Notch	EVL	0.957
+30% epiboly	receiving:Notch	PGC	-0.0328
+30% epiboly	receiving:Notch	adaxial_somite	0.401
+30% epiboly	receiving:Notch	axial_mesoderm	0.381
+30% epiboly	receiving:Notch	dorsal_forerunner	0.785
+30% epiboly	receiving:Notch	dorsal_organizer	-0.0392
+30% epiboly	receiving:Notch	endoderm	0.0572
+30% epiboly	receiving:Notch	forebrain_eye	0.524
+30% epiboly	receiving:Notch	hatching_gland	0.884
+30% epiboly	receiving:Notch	hindbrain	-0.139
+30% epiboly	receiving:Notch	intermediate_mesoderm	0.776
+30% epiboly	receiving:Notch	lateral_plate	0.308
+30% epiboly	receiving:Notch	margin	0.061
+30% epiboly	receiving:Notch	mesoderm	-0.132
+30% epiboly	receiving:Notch	midbrain_hindbrain_boundary	0.104
+30% epiboly	receiving:Notch	neural_crest	0.857
+30% epiboly	receiving:Notch	neural_plate	0.325
+30% epiboly	receiving:Notch	non_neural_ectoderm	0.901
+30% epiboly	receiving:Notch	notochord	0.695
+30% epiboly	receiving:Notch	placodes	0.682
+30% epiboly	receiving:Notch	prechordal_plate	0.353
+30% epiboly	receiving:Notch	presomitic_mesoderm	0.191
+30% epiboly	receiving:Notch	primary_neurons	0.165
+30% epiboly	receiving:Notch	tailbud	-0.271
+50% epiboly	signal:BMP	maternal	-0.0395
+50% epiboly	signal:BMP	blastomere	-0.0327
+50% epiboly	signal:BMP	cell_cycle_s	0.147
+50% epiboly	signal:BMP	cell_cycle_g2m	0.178
+50% epiboly	signal:BMP	heat_shock	-0.141
+50% epiboly	signal:BMP	p53_response	0.0636
+50% epiboly	signal:BMP	EVL	-0.341
+50% epiboly	signal:BMP	PGC	0.0275
+50% epiboly	signal:BMP	adaxial_somite	0.177
+50% epiboly	signal:BMP	axial_mesoderm	-0.189
+50% epiboly	signal:BMP	dorsal_forerunner	-0.34
+50% epiboly	signal:BMP	dorsal_organizer	0.000812
+50% epiboly	signal:BMP	endoderm	0.126
+50% epiboly	signal:BMP	forebrain_eye	-0.355
+50% epiboly	signal:BMP	hatching_gland	-0.322
+50% epiboly	signal:BMP	heart	-0.0393
+50% epiboly	signal:BMP	hindbrain	0.186
+50% epiboly	signal:BMP	intermediate_mesoderm	-0.248
+50% epiboly	signal:BMP	lateral_plate	0.164
+50% epiboly	signal:BMP	margin	0.221
+50% epiboly	signal:BMP	mesoderm	0.334
+50% epiboly	signal:BMP	midbrain_hindbrain_boundary	-0.216
+50% epiboly	signal:BMP	neural_crest	-0.423
+50% epiboly	signal:BMP	neural_plate	-0.211
+50% epiboly	signal:BMP	non_neural_ectoderm	-0.132
+50% epiboly	signal:BMP	notochord	-0.323
+50% epiboly	signal:BMP	placodes	-0.0799
+50% epiboly	signal:BMP	prechordal_plate	-0.115
+50% epiboly	signal:BMP	presomitic_mesoderm	0.0795
+50% epiboly	signal:BMP	primary_neurons	-0.332
+50% epiboly	signal:BMP	tailbud	0.346
+50% epiboly	signal:Nodal	maternal	0.453
+50% epiboly	signal:Nodal	blastomere	-0.676
+50% epiboly	signal:Nodal	cell_cycle_s	-0.233
+50% epiboly	signal:Nodal	cell_cycle_g2m	0.0126
+50% epiboly	signal:Nodal	heat_shock	0.0519
+50% epiboly	signal:Nodal	p53_response	-0.00498
+50% epiboly	signal:Nodal	EVL	-0.0437
+50% epiboly	signal:Nodal	PGC	0.259
+50% epiboly	signal:Nodal	adaxial_somite	0.776
+50% epiboly	signal:Nodal	axial_mesoderm	0.56
+50% epiboly	signal:Nodal	dorsal_forerunner	-0.176
+50% epiboly	signal:Nodal	dorsal_organizer	0.754
+50% epiboly	signal:Nodal	endoderm	0.915
+50% epiboly	signal:Nodal	forebrain_eye	0.376
+50% epiboly	signal:Nodal	hatching_gland	0.122
+50% epiboly	signal:Nodal	heart	0.194
+50% epiboly	signal:Nodal	hindbrain	0.641
+50% epiboly	signal:Nodal	intermediate_mesoderm	0.493
+50% epiboly	signal:Nodal	lateral_plate	0.756
+50% epiboly	signal:Nodal	margin	0.86
+50% epiboly	signal:Nodal	mesoderm	0.778
+50% epiboly	signal:Nodal	midbrain_hindbrain_boundary	0.417
+50% epiboly	signal:Nodal	neural_crest	-0.315
+50% epiboly	signal:Nodal	neural_plate	0.673
+50% epiboly	signal:Nodal	non_neural_ectoderm	-0.114
+50% epiboly	signal:Nodal	notochord	0.324
+50% epiboly	signal:Nodal	placodes	-0.109
+50% epiboly	signal:Nodal	prechordal_plate	0.624
+50% epiboly	signal:Nodal	presomitic_mesoderm	0.858
+50% epiboly	signal:Nodal	primary_neurons	-0.18
+50% epiboly	signal:Nodal	tailbud	0.549
+50% epiboly	signal:Wnt	maternal	0.184
+50% epiboly	signal:Wnt	blastomere	-0.656
+50% epiboly	signal:Wnt	cell_cycle_s	-0.0494
+50% epiboly	signal:Wnt	cell_cycle_g2m	0.114
+50% epiboly	signal:Wnt	heat_shock	-0.0179
+50% epiboly	signal:Wnt	p53_response	-0.0328
+50% epiboly	signal:Wnt	EVL	-0.0996
+50% epiboly	signal:Wnt	PGC	0.185
+50% epiboly	signal:Wnt	adaxial_somite	0.692
+50% epiboly	signal:Wnt	axial_mesoderm	0.509
+50% epiboly	signal:Wnt	dorsal_forerunner	-0.159
+50% epiboly	signal:Wnt	dorsal_organizer	0.358
+50% epiboly	signal:Wnt	endoderm	0.706
+50% epiboly	signal:Wnt	forebrain_eye	0.0146
+50% epiboly	signal:Wnt	hatching_gland	-0.15
+50% epiboly	signal:Wnt	heart	0.129
+50% epiboly	signal:Wnt	hindbrain	0.446
+50% epiboly	signal:Wnt	intermediate_mesoderm	0.363
+50% epiboly	signal:Wnt	lateral_plate	0.536
+50% epiboly	signal:Wnt	margin	0.821
+50% epiboly	signal:Wnt	mesoderm	0.856
+50% epiboly	signal:Wnt	midbrain_hindbrain_boundary	0.0364
+50% epiboly	signal:Wnt	neural_crest	-0.372
+50% epiboly	signal:Wnt	neural_plate	0.39
+50% epiboly	signal:Wnt	non_neural_ectoderm	-0.176
+50% epiboly	signal:Wnt	notochord	0.286
+50% epiboly	signal:Wnt	placodes	-0.201
+50% epiboly	signal:Wnt	prechordal_plate	0.216
+50% epiboly	signal:Wnt	presomitic_mesoderm	0.817
+50% epiboly	signal:Wnt	primary_neurons	-0.214
+50% epiboly	signal:Wnt	tailbud	0.78
+50% epiboly	signal:FGF	maternal	0.375
+50% epiboly	signal:FGF	blastomere	-0.721
+50% epiboly	signal:FGF	cell_cycle_s	-0.187
+50% epiboly	signal:FGF	cell_cycle_g2m	0.114
+50% epiboly	signal:FGF	heat_shock	0.0176
+50% epiboly	signal:FGF	p53_response	-0.0408
+50% epiboly	signal:FGF	EVL	-0.0201
+50% epiboly	signal:FGF	PGC	0.272
+50% epiboly	signal:FGF	adaxial_somite	0.685
+50% epiboly	signal:FGF	axial_mesoderm	0.733
+50% epiboly	signal:FGF	dorsal_forerunner	-0.0385
+50% epiboly	signal:FGF	dorsal_organizer	0.718
+50% epiboly	signal:FGF	endoderm	0.824
+50% epiboly	signal:FGF	forebrain_eye	0.24
+50% epiboly	signal:FGF	hatching_gland	0.0621
+50% epiboly	signal:FGF	heart	0.111
+50% epiboly	signal:FGF	hindbrain	0.428
+50% epiboly	signal:FGF	intermediate_mesoderm	0.47
+50% epiboly	signal:FGF	lateral_plate	0.533
+50% epiboly	signal:FGF	margin	0.851
+50% epiboly	signal:FGF	mesoderm	0.758
+50% epiboly	signal:FGF	midbrain_hindbrain_boundary	0.228
+50% epiboly	signal:FGF	neural_crest	-0.295
+50% epiboly	signal:FGF	neural_plate	0.55
+50% epiboly	signal:FGF	non_neural_ectoderm	-0.14
+50% epiboly	signal:FGF	notochord	0.462
+50% epiboly	signal:FGF	placodes	-0.147
+50% epiboly	signal:FGF	prechordal_plate	0.483
+50% epiboly	signal:FGF	presomitic_mesoderm	0.817
+50% epiboly	signal:FGF	primary_neurons	-0.224
+50% epiboly	signal:FGF	tailbud	0.642
+50% epiboly	receiving:Notch	maternal	-0.0744
+50% epiboly	receiving:Notch	blastomere	-0.166
+50% epiboly	receiving:Notch	cell_cycle_s	-0.557
+50% epiboly	receiving:Notch	cell_cycle_g2m	-0.458
+50% epiboly	receiving:Notch	heat_shock	0.385
+50% epiboly	receiving:Notch	p53_response	0.152
+50% epiboly	receiving:Notch	EVL	0.814
+50% epiboly	receiving:Notch	PGC	-0.00597
+50% epiboly	receiving:Notch	adaxial_somite	0.248
+50% epiboly	receiving:Notch	axial_mesoderm	0.342
+50% epiboly	receiving:Notch	dorsal_forerunner	0.653
+50% epiboly	receiving:Notch	dorsal_organizer	-0.0501
+50% epiboly	receiving:Notch	endoderm	-0.0285
+50% epiboly	receiving:Notch	forebrain_eye	0.282
+50% epiboly	receiving:Notch	hatching_gland	0.733
+50% epiboly	receiving:Notch	heart	0.384
+50% epiboly	receiving:Notch	hindbrain	-0.0788
+50% epiboly	receiving:Notch	intermediate_mesoderm	0.651
+50% epiboly	receiving:Notch	lateral_plate	0.169
+50% epiboly	receiving:Notch	margin	0.0369
+50% epiboly	receiving:Notch	mesoderm	-0.0679
+50% epiboly	receiving:Notch	midbrain_hindbrain_boundary	-0.031
+50% epiboly	receiving:Notch	neural_crest	0.685
+50% epiboly	receiving:Notch	neural_plate	0.195
+50% epiboly	receiving:Notch	non_neural_ectoderm	0.778
+50% epiboly	receiving:Notch	notochord	0.654
+50% epiboly	receiving:Notch	placodes	0.722
+50% epiboly	receiving:Notch	prechordal_plate	0.369
+50% epiboly	receiving:Notch	presomitic_mesoderm	0.0959
+50% epiboly	receiving:Notch	primary_neurons	0.414
+50% epiboly	receiving:Notch	tailbud	-0.149
+shield	signal:BMP	maternal	-0.0251
+shield	signal:BMP	blastomere	-0.0697
+shield	signal:BMP	cell_cycle_s	0.0576
+shield	signal:BMP	cell_cycle_g2m	-0.0969
+shield	signal:BMP	heat_shock	-0.0269
+shield	signal:BMP	p53_response	0.0146
+shield	signal:BMP	EVL	-0.0258
+shield	signal:BMP	PGC	0.0124
+shield	signal:BMP	adaxial_somite	0.268
+shield	signal:BMP	axial_mesoderm	-0.0205
+shield	signal:BMP	dorsal_forerunner	-0.221
+shield	signal:BMP	dorsal_organizer	0.0122
+shield	signal:BMP	endoderm	0.14
+shield	signal:BMP	forebrain_eye	-0.438
+shield	signal:BMP	hatching_gland	-0.0364
+shield	signal:BMP	hindbrain	0.0192
+shield	signal:BMP	intermediate_mesoderm	-0.0316
+shield	signal:BMP	lateral_plate	0.244
+shield	signal:BMP	margin	0.297
+shield	signal:BMP	mesoderm	0.301
+shield	signal:BMP	midbrain_hindbrain_boundary	-0.459
+shield	signal:BMP	neural_crest	-0.102
+shield	signal:BMP	neural_plate	-0.419
+shield	signal:BMP	non_neural_ectoderm	0.431
+shield	signal:BMP	notochord	-0.00799
+shield	signal:BMP	placodes	0.4
+shield	signal:BMP	prechordal_plate	0.127
+shield	signal:BMP	presomitic_mesoderm	0.09
+shield	signal:BMP	primary_neurons	-0.235
+shield	signal:BMP	tailbud	0.351
+shield	signal:Nodal	maternal	0.594
+shield	signal:Nodal	blastomere	-0.645
+shield	signal:Nodal	cell_cycle_s	-0.374
+shield	signal:Nodal	cell_cycle_g2m	0.146
+shield	signal:Nodal	heat_shock	0.364
+shield	signal:Nodal	p53_response	-0.0151
+shield	signal:Nodal	EVL	0.0356
+shield	signal:Nodal	PGC	0.167
+shield	signal:Nodal	adaxial_somite	0.585
+shield	signal:Nodal	axial_mesoderm	0.573
+shield	signal:Nodal	dorsal_forerunner	-0.355
+shield	signal:Nodal	dorsal_organizer	0.849
+shield	signal:Nodal	endoderm	0.569
+shield	signal:Nodal	forebrain_eye	0.325
+shield	signal:Nodal	hatching_gland	0.627
+shield	signal:Nodal	hindbrain	0.277
+shield	signal:Nodal	intermediate_mesoderm	0.695
+shield	signal:Nodal	lateral_plate	0.512
+shield	signal:Nodal	margin	0.641
+shield	signal:Nodal	mesoderm	0.468
+shield	signal:Nodal	midbrain_hindbrain_boundary	0.307
+shield	signal:Nodal	neural_crest	-0.337
+shield	signal:Nodal	neural_plate	0.368
+shield	signal:Nodal	non_neural_ectoderm	-0.248
+shield	signal:Nodal	notochord	0.623
+shield	signal:Nodal	placodes	-0.235
+shield	signal:Nodal	prechordal_plate	0.795
+shield	signal:Nodal	presomitic_mesoderm	0.621
+shield	signal:Nodal	primary_neurons	-0.237
+shield	signal:Nodal	tailbud	0.261
+shield	signal:Wnt	maternal	0.341
+shield	signal:Wnt	blastomere	-0.683
+shield	signal:Wnt	cell_cycle_s	0.0551
+shield	signal:Wnt	cell_cycle_g2m	0.104
+shield	signal:Wnt	heat_shock	-0.0401
+shield	signal:Wnt	p53_response	0.069
+shield	signal:Wnt	EVL	-0.0785
+shield	signal:Wnt	PGC	0.212
+shield	signal:Wnt	adaxial_somite	0.697
+shield	signal:Wnt	axial_mesoderm	0.629
+shield	signal:Wnt	dorsal_forerunner	-0.396
+shield	signal:Wnt	dorsal_organizer	0.298
+shield	signal:Wnt	endoderm	0.474
+shield	signal:Wnt	forebrain_eye	-0.282
+shield	signal:Wnt	hatching_gland	-0.186
+shield	signal:Wnt	hindbrain	0.04
+shield	signal:Wnt	intermediate_mesoderm	0.514
+shield	signal:Wnt	lateral_plate	0.464
+shield	signal:Wnt	margin	0.818
+shield	signal:Wnt	mesoderm	0.8
+shield	signal:Wnt	midbrain_hindbrain_boundary	-0.294
+shield	signal:Wnt	neural_crest	-0.416
+shield	signal:Wnt	neural_plate	0.0477
+shield	signal:Wnt	non_neural_ectoderm	-0.428
+shield	signal:Wnt	notochord	0.592
+shield	signal:Wnt	placodes	-0.449
+shield	signal:Wnt	prechordal_plate	0.152
+shield	signal:Wnt	presomitic_mesoderm	0.774
+shield	signal:Wnt	primary_neurons	-0.28
+shield	signal:Wnt	tailbud	0.785
+shield	signal:FGF	maternal	0.398
+shield	signal:FGF	blastomere	-0.665
+shield	signal:FGF	cell_cycle_s	-0.22
+shield	signal:FGF	cell_cycle_g2m	0.273
+shield	signal:FGF	heat_shock	0.106
+shield	signal:FGF	p53_response	0.0529
+shield	signal:FGF	EVL	0.0399
+shield	signal:FGF	PGC	0.194
+shield	signal:FGF	adaxial_somite	0.551
+shield	signal:FGF	axial_mesoderm	0.87
+shield	signal:FGF	dorsal_forerunner	-0.257
+shield	signal:FGF	dorsal_organizer	0.582
+shield	signal:FGF	endoderm	0.458
+shield	signal:FGF	forebrain_eye	-0.179
+shield	signal:FGF	hatching_gland	0.141
+shield	signal:FGF	hindbrain	-0.0247
+shield	signal:FGF	intermediate_mesoderm	0.55
+shield	signal:FGF	lateral_plate	0.328
+shield	signal:FGF	margin	0.729
+shield	signal:FGF	mesoderm	0.589
+shield	signal:FGF	midbrain_hindbrain_boundary	-0.143
+shield	signal:FGF	neural_crest	-0.287
+shield	signal:FGF	neural_plate	0.103
+shield	signal:FGF	non_neural_ectoderm	-0.352
+shield	signal:FGF	notochord	0.808
+shield	signal:FGF	placodes	-0.345
+shield	signal:FGF	prechordal_plate	0.334
+shield	signal:FGF	presomitic_mesoderm	0.637
+shield	signal:FGF	primary_neurons	-0.329
+shield	signal:FGF	tailbud	0.589
+shield	receiving:Notch	maternal	-0.00956
+shield	receiving:Notch	blastomere	0.0601
+shield	receiving:Notch	cell_cycle_s	0.193
+shield	receiving:Notch	cell_cycle_g2m	-0.0222
+shield	receiving:Notch	heat_shock	-0.0461
+shield	receiving:Notch	p53_response	-0.0288
+shield	receiving:Notch	EVL	-0.00325
+shield	receiving:Notch	PGC	-0.000666
+shield	receiving:Notch	adaxial_somite	-0.00702
+shield	receiving:Notch	axial_mesoderm	0.0144
+shield	receiving:Notch	dorsal_forerunner	0.0342
+shield	receiving:Notch	dorsal_organizer	-0.0816
+shield	receiving:Notch	endoderm	-0.109
+shield	receiving:Notch	forebrain_eye	-0.19
+shield	receiving:Notch	hatching_gland	-0.0539
+shield	receiving:Notch	hindbrain	-0.108
+shield	receiving:Notch	intermediate_mesoderm	-0.0741
+shield	receiving:Notch	lateral_plate	-0.0505
+shield	receiving:Notch	margin	0.033
+shield	receiving:Notch	mesoderm	0.02
+shield	receiving:Notch	midbrain_hindbrain_boundary	-0.219
+shield	receiving:Notch	neural_crest	0.0262
+shield	receiving:Notch	neural_plate	-0.188
+shield	receiving:Notch	non_neural_ectoderm	0.0944
+shield	receiving:Notch	notochord	-0.00248
+shield	receiving:Notch	placodes	0.129
+shield	receiving:Notch	prechordal_plate	-0.0551
+shield	receiving:Notch	presomitic_mesoderm	-0.0749
+shield	receiving:Notch	primary_neurons	-0.00801
+shield	receiving:Notch	tailbud	0.0928
+60% epiboly	signal:BMP	maternal	-0.0692
+60% epiboly	signal:BMP	blastomere	-0.0323
+60% epiboly	signal:BMP	cell_cycle_s	0.0441
+60% epiboly	signal:BMP	cell_cycle_g2m	0.0577
+60% epiboly	signal:BMP	heat_shock	0.0378
+60% epiboly	signal:BMP	p53_response	0.048
+60% epiboly	signal:BMP	EVL	0.0213
+60% epiboly	signal:BMP	PGC	0.0397
+60% epiboly	signal:BMP	adaxial_somite	0.0889
+60% epiboly	signal:BMP	axial_mesoderm	-0.0827
+60% epiboly	signal:BMP	dorsal_forerunner	0.0163
+60% epiboly	signal:BMP	dorsal_organizer	-0.0255
+60% epiboly	signal:BMP	endoderm	0.0916
+60% epiboly	signal:BMP	forebrain_eye	-0.507
+60% epiboly	signal:BMP	hatching_gland	0.0689
+60% epiboly	signal:BMP	heart	0.0972
+60% epiboly	signal:BMP	hindbrain	0.067
+60% epiboly	signal:BMP	intermediate_mesoderm	0.0094
+60% epiboly	signal:BMP	lateral_plate	0.328
+60% epiboly	signal:BMP	margin	0.18
+60% epiboly	signal:BMP	mesoderm	0.173
+60% epiboly	signal:BMP	midbrain_hindbrain_boundary	-0.524
+60% epiboly	signal:BMP	neural_crest	0.298
+60% epiboly	signal:BMP	neural_plate	-0.41
+60% epiboly	signal:BMP	non_neural_ectoderm	0.592
+60% epiboly	signal:BMP	notochord	-0.0622
+60% epiboly	signal:BMP	placodes	0.614
+60% epiboly	signal:BMP	prechordal_plate	0.116
+60% epiboly	signal:BMP	presomitic_mesoderm	-0.047
+60% epiboly	signal:BMP	primary_neurons	0.249
+60% epiboly	signal:BMP	tailbud	0.258
+60% epiboly	signal:Nodal	maternal	0.277
+60% epiboly	signal:Nodal	blastomere	-0.551
+60% epiboly	signal:Nodal	cell_cycle_s	-0.497
+60% epiboly	signal:Nodal	cell_cycle_g2m	-0.0167
+60% epiboly	signal:Nodal	heat_shock	0.457
+60% epiboly	signal:Nodal	p53_response	0.0626
+60% epiboly	signal:Nodal	EVL	0.172
+60% epiboly	signal:Nodal	PGC	0.229
+60% epiboly	signal:Nodal	adaxial_somite	0.451
+60% epiboly	signal:Nodal	axial_mesoderm	0.731
+60% epiboly	signal:Nodal	dorsal_forerunner	-0.37
+60% epiboly	signal:Nodal	dorsal_organizer	0.834
+60% epiboly	signal:Nodal	endoderm	0.371
+60% epiboly	signal:Nodal	forebrain_eye	0.181
+60% epiboly	signal:Nodal	hatching_gland	0.728
+60% epiboly	signal:Nodal	heart	0.000432
+60% epiboly	signal:Nodal	hindbrain	-0.17
+60% epiboly	signal:Nodal	intermediate_mesoderm	0.53
+60% epiboly	signal:Nodal	lateral_plate	0.325
+60% epiboly	signal:Nodal	margin	0.578
+60% epiboly	signal:Nodal	mesoderm	0.325
+60% epiboly	signal:Nodal	midbrain_hindbrain_boundary	0.0361
+60% epiboly	signal:Nodal	neural_crest	-0.236
+60% epiboly	signal:Nodal	neural_plate	0.226
+60% epiboly	signal:Nodal	non_neural_ectoderm	-0.223
+60% epiboly	signal:Nodal	notochord	0.739
+60% epiboly	signal:Nodal	placodes	-0.145
+60% epiboly	signal:Nodal	prechordal_plate	0.729
+60% epiboly	signal:Nodal	presomitic_mesoderm	0.469
+60% epiboly	signal:Nodal	primary_neurons	-0.0332
+60% epiboly	signal:Nodal	tailbud	0.242
+60% epiboly	signal:Wnt	maternal	0.154
+60% epiboly	signal:Wnt	blastomere	-0.455
+60% epiboly	signal:Wnt	cell_cycle_s	-0.000832
+60% epiboly	signal:Wnt	cell_cycle_g2m	0.381
+60% epiboly	signal:Wnt	heat_shock	0.0875
+60% epiboly	signal:Wnt	p53_response	0.0849
+60% epiboly	signal:Wnt	EVL	-0.0577
+60% epiboly	signal:Wnt	PGC	0.213
+60% epiboly	signal:Wnt	adaxial_somite	0.542
+60% epiboly	signal:Wnt	axial_mesoderm	0.491
+60% epiboly	signal:Wnt	dorsal_forerunner	-0.106
+60% epiboly	signal:Wnt	dorsal_organizer	0.11
+60% epiboly	signal:Wnt	endoderm	0.334
+60% epiboly	signal:Wnt	forebrain_eye	-0.415
+60% epiboly	signal:Wnt	hatching_gland	-0.155
+60% epiboly	signal:Wnt	heart	0.0975
+60% epiboly	signal:Wnt	hindbrain	-0.109
+60% epiboly	signal:Wnt	intermediate_mesoderm	0.266
+60% epiboly	signal:Wnt	lateral_plate	0.307
+60% epiboly	signal:Wnt	margin	0.761
+60% epiboly	signal:Wnt	mesoderm	0.692
+60% epiboly	signal:Wnt	midbrain_hindbrain_boundary	-0.397
+60% epiboly	signal:Wnt	neural_crest	-0.344
+60% epiboly	signal:Wnt	neural_plate	-0.121
+60% epiboly	signal:Wnt	non_neural_ectoderm	-0.415
+60% epiboly	signal:Wnt	notochord	0.474
+60% epiboly	signal:Wnt	placodes	-0.369
+60% epiboly	signal:Wnt	prechordal_plate	-0.0116
+60% epiboly	signal:Wnt	presomitic_mesoderm	0.654
+60% epiboly	signal:Wnt	primary_neurons	-0.329
+60% epiboly	signal:Wnt	tailbud	0.807
+60% epiboly	signal:FGF	maternal	0.22
+60% epiboly	signal:FGF	blastomere	-0.453
+60% epiboly	signal:FGF	cell_cycle_s	-0.155
+60% epiboly	signal:FGF	cell_cycle_g2m	0.305
+60% epiboly	signal:FGF	heat_shock	0.189
+60% epiboly	signal:FGF	p53_response	0.0958
+60% epiboly	signal:FGF	EVL	-0.0231
+60% epiboly	signal:FGF	PGC	0.236
+60% epiboly	signal:FGF	adaxial_somite	0.455
+60% epiboly	signal:FGF	axial_mesoderm	0.717
+60% epiboly	signal:FGF	dorsal_forerunner	-0.225
+60% epiboly	signal:FGF	dorsal_organizer	0.366
+60% epiboly	signal:FGF	endoderm	0.232
+60% epiboly	signal:FGF	forebrain_eye	-0.27
+60% epiboly	signal:FGF	hatching_gland	0.0354
+60% epiboly	signal:FGF	heart	0.00993
+60% epiboly	signal:FGF	hindbrain	-0.322
+60% epiboly	signal:FGF	intermediate_mesoderm	0.332
+60% epiboly	signal:FGF	lateral_plate	0.193
+60% epiboly	signal:FGF	margin	0.706
+60% epiboly	signal:FGF	mesoderm	0.516
+60% epiboly	signal:FGF	midbrain_hindbrain_boundary	-0.303
+60% epiboly	signal:FGF	neural_crest	-0.282
+60% epiboly	signal:FGF	neural_plate	-0.0529
+60% epiboly	signal:FGF	non_neural_ectoderm	-0.396
+60% epiboly	signal:FGF	notochord	0.692
+60% epiboly	signal:FGF	placodes	-0.346
+60% epiboly	signal:FGF	prechordal_plate	0.101
+60% epiboly	signal:FGF	presomitic_mesoderm	0.568
+60% epiboly	signal:FGF	primary_neurons	-0.285
+60% epiboly	signal:FGF	tailbud	0.673
+60% epiboly	receiving:Notch	maternal	0.0136
+60% epiboly	receiving:Notch	blastomere	-0.0247
+60% epiboly	receiving:Notch	cell_cycle_s	0.0704
+60% epiboly	receiving:Notch	cell_cycle_g2m	0.16
+60% epiboly	receiving:Notch	heat_shock	-0.00385
+60% epiboly	receiving:Notch	p53_response	0.143
+60% epiboly	receiving:Notch	EVL	0.045
+60% epiboly	receiving:Notch	PGC	0.046
+60% epiboly	receiving:Notch	adaxial_somite	0.0403
+60% epiboly	receiving:Notch	axial_mesoderm	0.215
+60% epiboly	receiving:Notch	dorsal_forerunner	0.0434
+60% epiboly	receiving:Notch	dorsal_organizer	-0.0399
+60% epiboly	receiving:Notch	endoderm	-0.0225
+60% epiboly	receiving:Notch	forebrain_eye	-0.246
+60% epiboly	receiving:Notch	hatching_gland	-0.114
+60% epiboly	receiving:Notch	heart	-0.0192
+60% epiboly	receiving:Notch	hindbrain	-0.197
+60% epiboly	receiving:Notch	intermediate_mesoderm	-0.0314
+60% epiboly	receiving:Notch	lateral_plate	-0.0182
+60% epiboly	receiving:Notch	margin	0.245
+60% epiboly	receiving:Notch	mesoderm	0.14
+60% epiboly	receiving:Notch	midbrain_hindbrain_boundary	-0.3
+60% epiboly	receiving:Notch	neural_crest	-0.0682
+60% epiboly	receiving:Notch	neural_plate	-0.218
+60% epiboly	receiving:Notch	non_neural_ectoderm	-0.139
+60% epiboly	receiving:Notch	notochord	0.205
+60% epiboly	receiving:Notch	placodes	-0.134
+60% epiboly	receiving:Notch	prechordal_plate	-0.0788
+60% epiboly	receiving:Notch	presomitic_mesoderm	0.0697
+60% epiboly	receiving:Notch	primary_neurons	-0.0604
+60% epiboly	receiving:Notch	tailbud	0.332
+75% epiboly	signal:BMP	maternal	-0.0456
+75% epiboly	signal:BMP	blastomere	-0.0776
+75% epiboly	signal:BMP	cell_cycle_s	-0.00661
+75% epiboly	signal:BMP	cell_cycle_g2m	-0.0268
+75% epiboly	signal:BMP	heat_shock	0.026
+75% epiboly	signal:BMP	p53_response	0.00376
+75% epiboly	signal:BMP	EVL	-0.0183
+75% epiboly	signal:BMP	PGC	-0.0541
+75% epiboly	signal:BMP	adaxial_somite	0.0492
+75% epiboly	signal:BMP	axial_mesoderm	-0.123
+75% epiboly	signal:BMP	dorsal_forerunner	-0.0429
+75% epiboly	signal:BMP	dorsal_organizer	-0.0508
+75% epiboly	signal:BMP	endoderm	-0.00226
+75% epiboly	signal:BMP	forebrain_eye	-0.484
+75% epiboly	signal:BMP	hatching_gland	0.105
+75% epiboly	signal:BMP	heart	0.233
+75% epiboly	signal:BMP	hindbrain	-0.0288
+75% epiboly	signal:BMP	intermediate_mesoderm	0.0143
+75% epiboly	signal:BMP	lateral_plate	0.336
+75% epiboly	signal:BMP	margin	0.141
+75% epiboly	signal:BMP	mesoderm	0.133
+75% epiboly	signal:BMP	midbrain_hindbrain_boundary	-0.489
+75% epiboly	signal:BMP	neural_crest	0.454
+75% epiboly	signal:BMP	neural_plate	-0.404
+75% epiboly	signal:BMP	non_neural_ectoderm	0.671
+75% epiboly	signal:BMP	notochord	-0.0818
+75% epiboly	signal:BMP	placodes	0.679
+75% epiboly	signal:BMP	prechordal_plate	0.151
+75% epiboly	signal:BMP	presomitic_mesoderm	-0.121
+75% epiboly	signal:BMP	primary_neurons	0.3
+75% epiboly	signal:BMP	tailbud	0.305
+75% epiboly	signal:Nodal	maternal	0.122
+75% epiboly	signal:Nodal	blastomere	-0.324
+75% epiboly	signal:Nodal	cell_cycle_s	-0.405
+75% epiboly	signal:Nodal	cell_cycle_g2m	-0.066
+75% epiboly	signal:Nodal	heat_shock	0.356
+75% epiboly	signal:Nodal	p53_response	0.0502
+75% epiboly	signal:Nodal	EVL	0.0435
+75% epiboly	signal:Nodal	PGC	0.0208
+75% epiboly	signal:Nodal	adaxial_somite	0.199
+75% epiboly	signal:Nodal	axial_mesoderm	0.555
+75% epiboly	signal:Nodal	dorsal_forerunner	-0.221
+75% epiboly	signal:Nodal	dorsal_organizer	0.753
+75% epiboly	signal:Nodal	endoderm	0.255
+75% epiboly	signal:Nodal	forebrain_eye	0.133
+75% epiboly	signal:Nodal	hatching_gland	0.65
+75% epiboly	signal:Nodal	heart	-0.0602
+75% epiboly	signal:Nodal	hindbrain	-0.212
+75% epiboly	signal:Nodal	intermediate_mesoderm	0.214
+75% epiboly	signal:Nodal	lateral_plate	0.0378
+75% epiboly	signal:Nodal	margin	0.376
+75% epiboly	signal:Nodal	mesoderm	0.0746
+75% epiboly	signal:Nodal	midbrain_hindbrain_boundary	-0.0018
+75% epiboly	signal:Nodal	neural_crest	-0.0554
+75% epiboly	signal:Nodal	neural_plate	0.137
+75% epiboly	signal:Nodal	non_neural_ectoderm	-0.179
+75% epiboly	signal:Nodal	notochord	0.496
+75% epiboly	signal:Nodal	placodes	-0.136
+75% epiboly	signal:Nodal	prechordal_plate	0.655
+75% epiboly	signal:Nodal	presomitic_mesoderm	0.218
+75% epiboly	signal:Nodal	primary_neurons	0.193
+75% epiboly	signal:Nodal	tailbud	0.0268
+75% epiboly	signal:Wnt	maternal	0.0411
+75% epiboly	signal:Wnt	blastomere	-0.0541
+75% epiboly	signal:Wnt	cell_cycle_s	0.0347
+75% epiboly	signal:Wnt	cell_cycle_g2m	0.257
+75% epiboly	signal:Wnt	heat_shock	-0.00323
+75% epiboly	signal:Wnt	p53_response	0.0262
+75% epiboly	signal:Wnt	EVL	-0.0603
+75% epiboly	signal:Wnt	PGC	0.0207
+75% epiboly	signal:Wnt	adaxial_somite	0.281
+75% epiboly	signal:Wnt	axial_mesoderm	0.335
+75% epiboly	signal:Wnt	dorsal_forerunner	-0.0304
+75% epiboly	signal:Wnt	dorsal_organizer	-0.00747
+75% epiboly	signal:Wnt	endoderm	0.184
+75% epiboly	signal:Wnt	forebrain_eye	-0.462
+75% epiboly	signal:Wnt	hatching_gland	-0.21
+75% epiboly	signal:Wnt	heart	-0.0132
+75% epiboly	signal:Wnt	hindbrain	-0.0655
+75% epiboly	signal:Wnt	intermediate_mesoderm	-0.0328
+75% epiboly	signal:Wnt	lateral_plate	0.0895
+75% epiboly	signal:Wnt	margin	0.582
+75% epiboly	signal:Wnt	mesoderm	0.432
+75% epiboly	signal:Wnt	midbrain_hindbrain_boundary	-0.404
+75% epiboly	signal:Wnt	neural_crest	-0.231
+75% epiboly	signal:Wnt	neural_plate	-0.352
+75% epiboly	signal:Wnt	non_neural_ectoderm	-0.376
+75% epiboly	signal:Wnt	notochord	0.296
+75% epiboly	signal:Wnt	placodes	-0.389
+75% epiboly	signal:Wnt	prechordal_plate	-0.144
+75% epiboly	signal:Wnt	presomitic_mesoderm	0.416
+75% epiboly	signal:Wnt	primary_neurons	-0.169
+75% epiboly	signal:Wnt	tailbud	0.595
+75% epiboly	signal:FGF	maternal	0.122
+75% epiboly	signal:FGF	blastomere	-0.259
+75% epiboly	signal:FGF	cell_cycle_s	-0.171
+75% epiboly	signal:FGF	cell_cycle_g2m	0.27
+75% epiboly	signal:FGF	heat_shock	0.0745
+75% epiboly	signal:FGF	p53_response	0.0658
+75% epiboly	signal:FGF	EVL	-0.00771
+75% epiboly	signal:FGF	PGC	0.0426
+75% epiboly	signal:FGF	adaxial_somite	0.253
+75% epiboly	signal:FGF	axial_mesoderm	0.564
+75% epiboly	signal:FGF	dorsal_forerunner	-0.139
+75% epiboly	signal:FGF	dorsal_organizer	0.243
+75% epiboly	signal:FGF	endoderm	0.129
+75% epiboly	signal:FGF	forebrain_eye	-0.255
+75% epiboly	signal:FGF	hatching_gland	-0.0483
+75% epiboly	signal:FGF	heart	-0.0888
+75% epiboly	signal:FGF	hindbrain	-0.396
+75% epiboly	signal:FGF	intermediate_mesoderm	0.035
+75% epiboly	signal:FGF	lateral_plate	0.0813
+75% epiboly	signal:FGF	margin	0.621
+75% epiboly	signal:FGF	mesoderm	0.355
+75% epiboly	signal:FGF	midbrain_hindbrain_boundary	-0.365
+75% epiboly	signal:FGF	neural_crest	-0.158
+75% epiboly	signal:FGF	neural_plate	-0.232
+75% epiboly	signal:FGF	non_neural_ectoderm	-0.364
+75% epiboly	signal:FGF	notochord	0.491
+75% epiboly	signal:FGF	placodes	-0.38
+75% epiboly	signal:FGF	prechordal_plate	-0.026
+75% epiboly	signal:FGF	presomitic_mesoderm	0.417
+75% epiboly	signal:FGF	primary_neurons	-0.2
+75% epiboly	signal:FGF	tailbud	0.597
+75% epiboly	receiving:RA	maternal	-0.0515
+75% epiboly	receiving:RA	blastomere	0.243
+75% epiboly	receiving:RA	cell_cycle_s	0.0203
+75% epiboly	receiving:RA	cell_cycle_g2m	-0.00958
+75% epiboly	receiving:RA	heat_shock	-0.0138
+75% epiboly	receiving:RA	p53_response	-0.0518
+75% epiboly	receiving:RA	EVL	-0.0281
+75% epiboly	receiving:RA	PGC	-0.0134
+75% epiboly	receiving:RA	adaxial_somite	-0.0535
+75% epiboly	receiving:RA	axial_mesoderm	-0.0503
+75% epiboly	receiving:RA	dorsal_forerunner	0.0536
+75% epiboly	receiving:RA	dorsal_organizer	-0.044
+75% epiboly	receiving:RA	endoderm	-0.0233
+75% epiboly	receiving:RA	forebrain_eye	-0.0142
+75% epiboly	receiving:RA	hatching_gland	-0.0475
+75% epiboly	receiving:RA	heart	-0.0389
+75% epiboly	receiving:RA	hindbrain	0.246
+75% epiboly	receiving:RA	intermediate_mesoderm	-0.0583
+75% epiboly	receiving:RA	lateral_plate	-0.0787
+75% epiboly	receiving:RA	margin	-0.0697
+75% epiboly	receiving:RA	mesoderm	-0.0617
+75% epiboly	receiving:RA	midbrain_hindbrain_boundary	0.0507
+75% epiboly	receiving:RA	neural_crest	-0.0933
+75% epiboly	receiving:RA	neural_plate	0.0728
+75% epiboly	receiving:RA	non_neural_ectoderm	-0.0686
+75% epiboly	receiving:RA	notochord	-0.0601
+75% epiboly	receiving:RA	placodes	-0.0744
+75% epiboly	receiving:RA	prechordal_plate	-0.0493
+75% epiboly	receiving:RA	presomitic_mesoderm	-0.0289
+75% epiboly	receiving:RA	primary_neurons	0.0897
+75% epiboly	receiving:RA	tailbud	-0.0972
+75% epiboly	receiving:Notch	maternal	0.18
+75% epiboly	receiving:Notch	blastomere	-0.0305
+75% epiboly	receiving:Notch	cell_cycle_s	-0.0399
+75% epiboly	receiving:Notch	cell_cycle_g2m	0.141
+75% epiboly	receiving:Notch	heat_shock	0.0805
+75% epiboly	receiving:Notch	p53_response	0.0739
+75% epiboly	receiving:Notch	EVL	-0.0192
+75% epiboly	receiving:Notch	PGC	0.183
+75% epiboly	receiving:Notch	adaxial_somite	0.0628
+75% epiboly	receiving:Notch	axial_mesoderm	0.256
+75% epiboly	receiving:Notch	dorsal_forerunner	0.00756
+75% epiboly	receiving:Notch	dorsal_organizer	0.0364
+75% epiboly	receiving:Notch	endoderm	0.0143
+75% epiboly	receiving:Notch	forebrain_eye	-0.308
+75% epiboly	receiving:Notch	hatching_gland	-0.0837
+75% epiboly	receiving:Notch	heart	-0.063
+75% epiboly	receiving:Notch	hindbrain	-0.182
+75% epiboly	receiving:Notch	intermediate_mesoderm	-0.0811
+75% epiboly	receiving:Notch	lateral_plate	-0.00396
+75% epiboly	receiving:Notch	margin	0.346
+75% epiboly	receiving:Notch	mesoderm	0.161
+75% epiboly	receiving:Notch	midbrain_hindbrain_boundary	-0.362
+75% epiboly	receiving:Notch	neural_crest	0.0142
+75% epiboly	receiving:Notch	neural_plate	-0.303
+75% epiboly	receiving:Notch	non_neural_ectoderm	-0.101
+75% epiboly	receiving:Notch	notochord	0.223
+75% epiboly	receiving:Notch	placodes	-0.127
+75% epiboly	receiving:Notch	prechordal_plate	-0.07
+75% epiboly	receiving:Notch	presomitic_mesoderm	0.125
+75% epiboly	receiving:Notch	primary_neurons	-0.0781
+75% epiboly	receiving:Notch	tailbud	0.427
+90% epiboly	signal:BMP	maternal	-0.0143
+90% epiboly	signal:BMP	blastomere	-0.263
+90% epiboly	signal:BMP	cell_cycle_s	-0.107
+90% epiboly	signal:BMP	cell_cycle_g2m	0.0302
+90% epiboly	signal:BMP	heat_shock	0.0676
+90% epiboly	signal:BMP	p53_response	0.02
+90% epiboly	signal:BMP	EVL	0.0478
+90% epiboly	signal:BMP	PGC	-0.0379
+90% epiboly	signal:BMP	adaxial_somite	-0.00694
+90% epiboly	signal:BMP	axial_mesoderm	-0.0855
+90% epiboly	signal:BMP	dorsal_forerunner	-0.0174
+90% epiboly	signal:BMP	dorsal_organizer	-0.0432
+90% epiboly	signal:BMP	endoderm	-0.0455
+90% epiboly	signal:BMP	forebrain_eye	-0.423
+90% epiboly	signal:BMP	hatching_gland	0.152
+90% epiboly	signal:BMP	heart	0.212
+90% epiboly	signal:BMP	hindbrain	-0.144
+90% epiboly	signal:BMP	intermediate_mesoderm	0.0705
+90% epiboly	signal:BMP	lateral_plate	0.335
+90% epiboly	signal:BMP	margin	0.172
+90% epiboly	signal:BMP	mesoderm	0.123
+90% epiboly	signal:BMP	midbrain_hindbrain_boundary	-0.455
+90% epiboly	signal:BMP	neural_crest	0.506
+90% epiboly	signal:BMP	neural_plate	-0.32
+90% epiboly	signal:BMP	non_neural_ectoderm	0.673
+90% epiboly	signal:BMP	notochord	-0.0238
+90% epiboly	signal:BMP	placodes	0.663
+90% epiboly	signal:BMP	prechordal_plate	0.197
+90% epiboly	signal:BMP	presomitic_mesoderm	-0.127
+90% epiboly	signal:BMP	primary_neurons	0.258
+90% epiboly	signal:BMP	tailbud	0.401
+90% epiboly	signal:Nodal	maternal	-0.032
+90% epiboly	signal:Nodal	blastomere	-0.1
+90% epiboly	signal:Nodal	cell_cycle_s	-0.128
+90% epiboly	signal:Nodal	cell_cycle_g2m	0.0451
+90% epiboly	signal:Nodal	heat_shock	0.0672
+90% epiboly	signal:Nodal	p53_response	0.00693
+90% epiboly	signal:Nodal	EVL	0.00662
+90% epiboly	signal:Nodal	PGC	0.00532
+90% epiboly	signal:Nodal	adaxial_somite	0.00418
+90% epiboly	signal:Nodal	axial_mesoderm	0.213
+90% epiboly	signal:Nodal	dorsal_forerunner	-0.109
+90% epiboly	signal:Nodal	dorsal_organizer	0.434
+90% epiboly	signal:Nodal	endoderm	0.117
+90% epiboly	signal:Nodal	forebrain_eye	0.128
+90% epiboly	signal:Nodal	hatching_gland	0.385
+90% epiboly	signal:Nodal	heart	-0.0763
+90% epiboly	signal:Nodal	hindbrain	-0.0532
+90% epiboly	signal:Nodal	intermediate_mesoderm	-0.00477
+90% epiboly	signal:Nodal	lateral_plate	-0.0589
+90% epiboly	signal:Nodal	margin	0.191
+90% epiboly	signal:Nodal	mesoderm	-0.0294
+90% epiboly	signal:Nodal	midbrain_hindbrain_boundary	-0.0442
+90% epiboly	signal:Nodal	neural_crest	-0.0026
+90% epiboly	signal:Nodal	neural_plate	0.107
+90% epiboly	signal:Nodal	non_neural_ectoderm	-0.135
+90% epiboly	signal:Nodal	notochord	0.177
+90% epiboly	signal:Nodal	placodes	-0.0881
+90% epiboly	signal:Nodal	prechordal_plate	0.408
+90% epiboly	signal:Nodal	presomitic_mesoderm	0.0507
+90% epiboly	signal:Nodal	primary_neurons	0.246
+90% epiboly	signal:Nodal	tailbud	-0.00795
+90% epiboly	signal:Wnt	maternal	0.0718
+90% epiboly	signal:Wnt	blastomere	0.0916
+90% epiboly	signal:Wnt	cell_cycle_s	0.0354
+90% epiboly	signal:Wnt	cell_cycle_g2m	0.0917
+90% epiboly	signal:Wnt	heat_shock	0.0241
+90% epiboly	signal:Wnt	p53_response	-0.0557
+90% epiboly	signal:Wnt	EVL	-0.113
+90% epiboly	signal:Wnt	PGC	0.0745
+90% epiboly	signal:Wnt	adaxial_somite	0.124
+90% epiboly	signal:Wnt	axial_mesoderm	0.239
+90% epiboly	signal:Wnt	dorsal_forerunner	0.0504
+90% epiboly	signal:Wnt	dorsal_organizer	-0.0513
+90% epiboly	signal:Wnt	endoderm	0.136
+90% epiboly	signal:Wnt	forebrain_eye	-0.519
+90% epiboly	signal:Wnt	hatching_gland	-0.257
+90% epiboly	signal:Wnt	heart	-0.0281
+90% epiboly	signal:Wnt	hindbrain	0.173
+90% epiboly	signal:Wnt	intermediate_mesoderm	-0.029
+90% epiboly	signal:Wnt	lateral_plate	0.0845
+90% epiboly	signal:Wnt	margin	0.429
+90% epiboly	signal:Wnt	mesoderm	0.26
+90% epiboly	signal:Wnt	midbrain_hindbrain_boundary	-0.34
+90% epiboly	signal:Wnt	neural_crest	-0.202
+90% epiboly	signal:Wnt	neural_plate	-0.429
+90% epiboly	signal:Wnt	non_neural_ectoderm	-0.311
+90% epiboly	signal:Wnt	notochord	0.149
+90% epiboly	signal:Wnt	placodes	-0.338
+90% epiboly	signal:Wnt	prechordal_plate	-0.247
+90% epiboly	signal:Wnt	presomitic_mesoderm	0.201
+90% epiboly	signal:Wnt	primary_neurons	-0.136
+90% epiboly	signal:Wnt	tailbud	0.455
+90% epiboly	signal:FGF	maternal	0.0913
+90% epiboly	signal:FGF	blastomere	-0.114
+90% epiboly	signal:FGF	cell_cycle_s	-0.0985
+90% epiboly	signal:FGF	cell_cycle_g2m	0.0942
+90% epiboly	signal:FGF	heat_shock	-0.00649
+90% epiboly	signal:FGF	p53_response	-0.00914
+90% epiboly	signal:FGF	EVL	-0.0661
+90% epiboly	signal:FGF	PGC	0.047
+90% epiboly	signal:FGF	adaxial_somite	0.101
+90% epiboly	signal:FGF	axial_mesoderm	0.42
+90% epiboly	signal:FGF	dorsal_forerunner	-0.0526
+90% epiboly	signal:FGF	dorsal_organizer	0.154
+90% epiboly	signal:FGF	endoderm	0.0416
+90% epiboly	signal:FGF	forebrain_eye	-0.199
+90% epiboly	signal:FGF	hatching_gland	-0.133
+90% epiboly	signal:FGF	heart	-0.109
+90% epiboly	signal:FGF	hindbrain	-0.199
+90% epiboly	signal:FGF	intermediate_mesoderm	-0.0775
+90% epiboly	signal:FGF	lateral_plate	0.00747
+90% epiboly	signal:FGF	margin	0.51
+90% epiboly	signal:FGF	mesoderm	0.213
+90% epiboly	signal:FGF	midbrain_hindbrain_boundary	-0.364
+90% epiboly	signal:FGF	neural_crest	-0.176
+90% epiboly	signal:FGF	neural_plate	-0.232
+90% epiboly	signal:FGF	non_neural_ectoderm	-0.338
+90% epiboly	signal:FGF	notochord	0.307
+90% epiboly	signal:FGF	placodes	-0.385
+90% epiboly	signal:FGF	prechordal_plate	-0.148
+90% epiboly	signal:FGF	presomitic_mesoderm	0.259
+90% epiboly	signal:FGF	primary_neurons	-0.232
+90% epiboly	signal:FGF	tailbud	0.497
+90% epiboly	receiving:RA	maternal	-0.00986
+90% epiboly	receiving:RA	blastomere	0.502
+90% epiboly	receiving:RA	cell_cycle_s	0.101
+90% epiboly	receiving:RA	cell_cycle_g2m	-0.0242
+90% epiboly	receiving:RA	heat_shock	-0.036
+90% epiboly	receiving:RA	p53_response	-0.0765
+90% epiboly	receiving:RA	EVL	-0.0497
+90% epiboly	receiving:RA	PGC	0.0137
+90% epiboly	receiving:RA	adaxial_somite	-0.143
+90% epiboly	receiving:RA	axial_mesoderm	-0.109
+90% epiboly	receiving:RA	dorsal_forerunner	0.133
+90% epiboly	receiving:RA	dorsal_organizer	-0.0872
+90% epiboly	receiving:RA	endoderm	-0.0221
+90% epiboly	receiving:RA	forebrain_eye	-0.0205
+90% epiboly	receiving:RA	hatching_gland	-0.0782
+90% epiboly	receiving:RA	heart	-0.0831
+90% epiboly	receiving:RA	hindbrain	0.386
+90% epiboly	receiving:RA	intermediate_mesoderm	-0.101
+90% epiboly	receiving:RA	lateral_plate	-0.151
+90% epiboly	receiving:RA	margin	-0.168
+90% epiboly	receiving:RA	mesoderm	-0.171
+90% epiboly	receiving:RA	midbrain_hindbrain_boundary	0.0598
+90% epiboly	receiving:RA	neural_crest	-0.157
+90% epiboly	receiving:RA	neural_plate	0.0805
+90% epiboly	receiving:RA	non_neural_ectoderm	-0.119
+90% epiboly	receiving:RA	notochord	-0.118
+90% epiboly	receiving:RA	placodes	-0.148
+90% epiboly	receiving:RA	prechordal_plate	-0.0932
+90% epiboly	receiving:RA	presomitic_mesoderm	-0.131
+90% epiboly	receiving:RA	primary_neurons	0.126
+90% epiboly	receiving:RA	tailbud	-0.186
+90% epiboly	receiving:Notch	maternal	0.0487
+90% epiboly	receiving:Notch	blastomere	-0.15
+90% epiboly	receiving:Notch	cell_cycle_s	-0.121
+90% epiboly	receiving:Notch	cell_cycle_g2m	0.00299
+90% epiboly	receiving:Notch	heat_shock	0.0369
+90% epiboly	receiving:Notch	p53_response	0.0134
+90% epiboly	receiving:Notch	EVL	-0.0381
+90% epiboly	receiving:Notch	PGC	0.0336
+90% epiboly	receiving:Notch	adaxial_somite	0.109
+90% epiboly	receiving:Notch	axial_mesoderm	0.306
+90% epiboly	receiving:Notch	dorsal_forerunner	-0.00718
+90% epiboly	receiving:Notch	dorsal_organizer	0.104
+90% epiboly	receiving:Notch	endoderm	0.0266
+90% epiboly	receiving:Notch	forebrain_eye	-0.347
+90% epiboly	receiving:Notch	hatching_gland	-0.0749
+90% epiboly	receiving:Notch	heart	-0.0365
+90% epiboly	receiving:Notch	hindbrain	-0.15
+90% epiboly	receiving:Notch	intermediate_mesoderm	-0.0704
+90% epiboly	receiving:Notch	lateral_plate	0.0467
+90% epiboly	receiving:Notch	margin	0.406
+90% epiboly	receiving:Notch	mesoderm	0.178
+90% epiboly	receiving:Notch	midbrain_hindbrain_boundary	-0.425
+90% epiboly	receiving:Notch	neural_crest	0.104
+90% epiboly	receiving:Notch	neural_plate	-0.322
+90% epiboly	receiving:Notch	non_neural_ectoderm	0.0827
+90% epiboly	receiving:Notch	notochord	0.253
+90% epiboly	receiving:Notch	placodes	0.0264
+90% epiboly	receiving:Notch	prechordal_plate	-0.0775
+90% epiboly	receiving:Notch	presomitic_mesoderm	0.12
+90% epiboly	receiving:Notch	primary_neurons	-0.0709
+90% epiboly	receiving:Notch	tailbud	0.466
+bud	signal:BMP	maternal	0.113
+bud	signal:BMP	blastomere	-0.355
+bud	signal:BMP	cell_cycle_s	-0.209
+bud	signal:BMP	cell_cycle_g2m	0.102
+bud	signal:BMP	heat_shock	-0.0553
+bud	signal:BMP	p53_response	0.159
+bud	signal:BMP	EVL	0.142
+bud	signal:BMP	PGC	-0.0413
+bud	signal:BMP	adaxial_somite	-0.0317
+bud	signal:BMP	axial_mesoderm	-0.0758
+bud	signal:BMP	dorsal_forerunner	0.0257
+bud	signal:BMP	dorsal_organizer	-0.0391
+bud	signal:BMP	endoderm	-0.0345
+bud	signal:BMP	forebrain_eye	-0.367
+bud	signal:BMP	hatching_gland	0.259
+bud	signal:BMP	heart	0.175
+bud	signal:BMP	hindbrain	-0.189
+bud	signal:BMP	intermediate_mesoderm	0.0771
+bud	signal:BMP	lateral_plate	0.361
+bud	signal:BMP	margin	0.178
+bud	signal:BMP	mesoderm	0.0903
+bud	signal:BMP	midbrain_hindbrain_boundary	-0.367
+bud	signal:BMP	neural_crest	0.501
+bud	signal:BMP	neural_plate	-0.282
+bud	signal:BMP	non_neural_ectoderm	0.686
+bud	signal:BMP	notochord	-0.0137
+bud	signal:BMP	placodes	0.578
+bud	signal:BMP	prechordal_plate	0.3
+bud	signal:BMP	presomitic_mesoderm	-0.149
+bud	signal:BMP	primary_neurons	0.19
+bud	signal:BMP	tailbud	0.425
+bud	signal:Nodal	maternal	-0.0458
+bud	signal:Nodal	blastomere	0.0451
+bud	signal:Nodal	cell_cycle_s	-0.0118
+bud	signal:Nodal	cell_cycle_g2m	0.0367
+bud	signal:Nodal	heat_shock	-0.0266
+bud	signal:Nodal	p53_response	0.112
+bud	signal:Nodal	EVL	-0.00685
+bud	signal:Nodal	PGC	-0.0103
+bud	signal:Nodal	adaxial_somite	-0.0738
+bud	signal:Nodal	axial_mesoderm	0.0696
+bud	signal:Nodal	dorsal_forerunner	0.0359
+bud	signal:Nodal	dorsal_organizer	0.307
+bud	signal:Nodal	endoderm	0.116
+bud	signal:Nodal	forebrain_eye	0.224
+bud	signal:Nodal	hatching_gland	0.217
+bud	signal:Nodal	heart	-0.0539
+bud	signal:Nodal	hindbrain	0.0398
+bud	signal:Nodal	intermediate_mesoderm	0.0152
+bud	signal:Nodal	lateral_plate	-0.115
+bud	signal:Nodal	margin	0.0512
+bud	signal:Nodal	mesoderm	-0.0918
+bud	signal:Nodal	midbrain_hindbrain_boundary	-0.0277
+bud	signal:Nodal	neural_crest	0.0663
+bud	signal:Nodal	neural_plate	0.157
+bud	signal:Nodal	non_neural_ectoderm	-0.0838
+bud	signal:Nodal	notochord	0.0397
+bud	signal:Nodal	placodes	-0.0819
+bud	signal:Nodal	prechordal_plate	0.306
+bud	signal:Nodal	presomitic_mesoderm	-0.0481
+bud	signal:Nodal	primary_neurons	0.114
+bud	signal:Nodal	tailbud	-0.0818
+bud	signal:Wnt	maternal	0.132
+bud	signal:Wnt	blastomere	-0.00582
+bud	signal:Wnt	cell_cycle_s	0.104
+bud	signal:Wnt	cell_cycle_g2m	0.0142
+bud	signal:Wnt	heat_shock	0.0244
+bud	signal:Wnt	p53_response	0.0885
+bud	signal:Wnt	EVL	-0.116
+bud	signal:Wnt	PGC	-0.00778
+bud	signal:Wnt	adaxial_somite	-0.0101
+bud	signal:Wnt	axial_mesoderm	0.213
+bud	signal:Wnt	dorsal_forerunner	0.121
+bud	signal:Wnt	dorsal_organizer	-0.0159
+bud	signal:Wnt	endoderm	0.111
+bud	signal:Wnt	forebrain_eye	-0.468
+bud	signal:Wnt	hatching_gland	-0.199
+bud	signal:Wnt	heart	-0.0802
+bud	signal:Wnt	hindbrain	0.00636
+bud	signal:Wnt	intermediate_mesoderm	0.00404
+bud	signal:Wnt	lateral_plate	0.1
+bud	signal:Wnt	margin	0.366
+bud	signal:Wnt	mesoderm	0.119
+bud	signal:Wnt	midbrain_hindbrain_boundary	-0.299
+bud	signal:Wnt	neural_crest	-0.0811
+bud	signal:Wnt	neural_plate	-0.372
+bud	signal:Wnt	non_neural_ectoderm	-0.2
+bud	signal:Wnt	notochord	0.125
+bud	signal:Wnt	placodes	-0.244
+bud	signal:Wnt	prechordal_plate	-0.227
+bud	signal:Wnt	presomitic_mesoderm	0.0191
+bud	signal:Wnt	primary_neurons	0.0318
+bud	signal:Wnt	tailbud	0.543
+bud	signal:FGF	maternal	0.0527
+bud	signal:FGF	blastomere	0.0381
+bud	signal:FGF	cell_cycle_s	0.0515
+bud	signal:FGF	cell_cycle_g2m	-0.0123
+bud	signal:FGF	heat_shock	0.0315
+bud	signal:FGF	p53_response	0.0479
+bud	signal:FGF	EVL	-0.134
+bud	signal:FGF	PGC	-0.0165
+bud	signal:FGF	adaxial_somite	0.0182
+bud	signal:FGF	axial_mesoderm	0.332
+bud	signal:FGF	dorsal_forerunner	0.0791
+bud	signal:FGF	dorsal_organizer	0.117
+bud	signal:FGF	endoderm	0.0462
+bud	signal:FGF	forebrain_eye	-0.101
+bud	signal:FGF	hatching_gland	-0.179
+bud	signal:FGF	heart	-0.154
+bud	signal:FGF	hindbrain	0.00569
+bud	signal:FGF	intermediate_mesoderm	-0.161
+bud	signal:FGF	lateral_plate	-0.1
+bud	signal:FGF	margin	0.383
+bud	signal:FGF	mesoderm	0.0983
+bud	signal:FGF	midbrain_hindbrain_boundary	-0.241
+bud	signal:FGF	neural_crest	-0.239
+bud	signal:FGF	neural_plate	-0.136
+bud	signal:FGF	non_neural_ectoderm	-0.334
+bud	signal:FGF	notochord	0.219
+bud	signal:FGF	placodes	-0.389
+bud	signal:FGF	prechordal_plate	-0.208
+bud	signal:FGF	presomitic_mesoderm	0.128
+bud	signal:FGF	primary_neurons	-0.164
+bud	signal:FGF	tailbud	0.418
+bud	receiving:RA	maternal	-0.0473
+bud	receiving:RA	blastomere	0.392
+bud	receiving:RA	cell_cycle_s	0.147
+bud	receiving:RA	cell_cycle_g2m	-0.0211
+bud	receiving:RA	heat_shock	-0.00681
+bud	receiving:RA	p53_response	-0.000641
+bud	receiving:RA	EVL	-0.0236
+bud	receiving:RA	PGC	-0.00672
+bud	receiving:RA	adaxial_somite	-0.0406
+bud	receiving:RA	axial_mesoderm	-0.0956
+bud	receiving:RA	dorsal_forerunner	0.114
+bud	receiving:RA	dorsal_organizer	-0.0691
+bud	receiving:RA	endoderm	0.0661
+bud	receiving:RA	forebrain_eye	-0.0311
+bud	receiving:RA	hatching_gland	-0.0756
+bud	receiving:RA	heart	-0.00348
+bud	receiving:RA	hindbrain	0.275
+bud	receiving:RA	intermediate_mesoderm	0.0127
+bud	receiving:RA	lateral_plate	-0.0209
+bud	receiving:RA	margin	-0.157
+bud	receiving:RA	mesoderm	-0.104
+bud	receiving:RA	midbrain_hindbrain_boundary	-0.0757
+bud	receiving:RA	neural_crest	-0.165
+bud	receiving:RA	neural_plate	0.0186
+bud	receiving:RA	non_neural_ectoderm	-0.119
+bud	receiving:RA	notochord	-0.087
+bud	receiving:RA	placodes	-0.107
+bud	receiving:RA	prechordal_plate	-0.0865
+bud	receiving:RA	presomitic_mesoderm	-0.0761
+bud	receiving:RA	primary_neurons	0.148
+bud	receiving:RA	tailbud	-0.162
+bud	receiving:Notch	maternal	0.0571
+bud	receiving:Notch	blastomere	-0.119
+bud	receiving:Notch	cell_cycle_s	-0.0911
+bud	receiving:Notch	cell_cycle_g2m	0.00975
+bud	receiving:Notch	heat_shock	0.0754
+bud	receiving:Notch	p53_response	0.111
+bud	receiving:Notch	EVL	-0.0279
+bud	receiving:Notch	PGC	-0.00968
+bud	receiving:Notch	adaxial_somite	0.209
+bud	receiving:Notch	axial_mesoderm	0.206
+bud	receiving:Notch	dorsal_forerunner	0.0122
+bud	receiving:Notch	dorsal_organizer	0.0539
+bud	receiving:Notch	endoderm	-0.0295
+bud	receiving:Notch	forebrain_eye	-0.334
+bud	receiving:Notch	hatching_gland	-0.0891
+bud	receiving:Notch	heart	-0.0619
+bud	receiving:Notch	hindbrain	-0.0512
+bud	receiving:Notch	intermediate_mesoderm	-0.122
+bud	receiving:Notch	lateral_plate	0.0433
+bud	receiving:Notch	margin	0.383
+bud	receiving:Notch	mesoderm	0.232
+bud	receiving:Notch	midbrain_hindbrain_boundary	-0.373
+bud	receiving:Notch	neural_crest	-0.0138
+bud	receiving:Notch	neural_plate	-0.348
+bud	receiving:Notch	non_neural_ectoderm	0.0694
+bud	receiving:Notch	notochord	0.147
+bud	receiving:Notch	placodes	-0.0246
+bud	receiving:Notch	prechordal_plate	-0.0919
+bud	receiving:Notch	presomitic_mesoderm	0.209
+bud	receiving:Notch	primary_neurons	0.0883
+bud	receiving:Notch	tailbud	0.471
+3-somite	signal:BMP	maternal	0.244
+3-somite	signal:BMP	blastomere	-0.354
+3-somite	signal:BMP	cell_cycle_s	-0.332
+3-somite	signal:BMP	cell_cycle_g2m	0.183
+3-somite	signal:BMP	heat_shock	-0.0797
+3-somite	signal:BMP	p53_response	0.15
+3-somite	signal:BMP	EVL	0.303
+3-somite	signal:BMP	PGC	-0.117
+3-somite	signal:BMP	adaxial_somite	-0.0212
+3-somite	signal:BMP	axial_mesoderm	0.104
+3-somite	signal:BMP	dorsal_forerunner	0.0274
+3-somite	signal:BMP	dorsal_organizer	0.157
+3-somite	signal:BMP	endoderm	-0.0064
+3-somite	signal:BMP	forebrain_eye	-0.269
+3-somite	signal:BMP	hatching_gland	0.46
+3-somite	signal:BMP	heart	0.115
+3-somite	signal:BMP	hindbrain	-0.187
+3-somite	signal:BMP	intermediate_mesoderm	0.15
+3-somite	signal:BMP	lateral_plate	0.138
+3-somite	signal:BMP	margin	0.312
+3-somite	signal:BMP	mesoderm	0.118
+3-somite	signal:BMP	midbrain_hindbrain_boundary	-0.233
+3-somite	signal:BMP	neural_crest	0.27
+3-somite	signal:BMP	neural_plate	-0.203
+3-somite	signal:BMP	non_neural_ectoderm	0.554
+3-somite	signal:BMP	notochord	0.125
+3-somite	signal:BMP	placodes	0.279
+3-somite	signal:BMP	prechordal_plate	0.474
+3-somite	signal:BMP	presomitic_mesoderm	-0.148
+3-somite	signal:BMP	primary_neurons	0.0978
+3-somite	signal:BMP	tailbud	0.443
+3-somite	signal:Nodal	maternal	-0.0122
+3-somite	signal:Nodal	blastomere	0.0645
+3-somite	signal:Nodal	cell_cycle_s	-0.0281
+3-somite	signal:Nodal	cell_cycle_g2m	0.0177
+3-somite	signal:Nodal	heat_shock	0.01
+3-somite	signal:Nodal	p53_response	-0.034
+3-somite	signal:Nodal	EVL	-0.0168
+3-somite	signal:Nodal	PGC	-0.0464
+3-somite	signal:Nodal	adaxial_somite	-0.068
+3-somite	signal:Nodal	axial_mesoderm	-0.012
+3-somite	signal:Nodal	dorsal_forerunner	0.054
+3-somite	signal:Nodal	dorsal_organizer	0.0866
+3-somite	signal:Nodal	endoderm	0.0259
+3-somite	signal:Nodal	forebrain_eye	0.311
+3-somite	signal:Nodal	hatching_gland	0.148
+3-somite	signal:Nodal	heart	-0.0498
+3-somite	signal:Nodal	hindbrain	0.0839
+3-somite	signal:Nodal	intermediate_mesoderm	-0.0527
+3-somite	signal:Nodal	lateral_plate	-0.0604
+3-somite	signal:Nodal	margin	-0.0437
+3-somite	signal:Nodal	mesoderm	-0.101
+3-somite	signal:Nodal	midbrain_hindbrain_boundary	-0.0203
+3-somite	signal:Nodal	neural_crest	0.052
+3-somite	signal:Nodal	neural_plate	0.182
+3-somite	signal:Nodal	non_neural_ectoderm	-0.0518
+3-somite	signal:Nodal	notochord	-0.0108
+3-somite	signal:Nodal	placodes	-0.0289
+3-somite	signal:Nodal	prechordal_plate	0.326
+3-somite	signal:Nodal	presomitic_mesoderm	-0.0621
+3-somite	signal:Nodal	primary_neurons	0.0732
+3-somite	signal:Nodal	tailbud	-0.0464
+3-somite	signal:Wnt	maternal	0.299
+3-somite	signal:Wnt	blastomere	-0.163
+3-somite	signal:Wnt	cell_cycle_s	0.0379
+3-somite	signal:Wnt	cell_cycle_g2m	0.0758
+3-somite	signal:Wnt	heat_shock	-0.0605
+3-somite	signal:Wnt	p53_response	-0.0419
+3-somite	signal:Wnt	EVL	-0.118
+3-somite	signal:Wnt	PGC	0.126
+3-somite	signal:Wnt	adaxial_somite	0.0063
+3-somite	signal:Wnt	axial_mesoderm	0.163
+3-somite	signal:Wnt	dorsal_forerunner	0.0768
+3-somite	signal:Wnt	dorsal_organizer	-0.0353
+3-somite	signal:Wnt	endoderm	-0.0985
+3-somite	signal:Wnt	forebrain_eye	-0.346
+3-somite	signal:Wnt	hatching_gland	-0.163
+3-somite	signal:Wnt	heart	-0.107
+3-somite	signal:Wnt	hindbrain	-0.226
+3-somite	signal:Wnt	intermediate_mesoderm	-0.0429
+3-somite	signal:Wnt	lateral_plate	0.00219
+3-somite	signal:Wnt	margin	0.489
+3-somite	signal:Wnt	mesoderm	0.208
+3-somite	signal:Wnt	midbrain_hindbrain_boundary	-0.238
+3-somite	signal:Wnt	neural_crest	-0.0253
+3-somite	signal:Wnt	neural_plate	-0.182
+3-somite	signal:Wnt	non_neural_ectoderm	-0.164
+3-somite	signal:Wnt	notochord	0.0444
+3-somite	signal:Wnt	placodes	-0.184
+3-somite	signal:Wnt	prechordal_plate	-0.175
+3-somite	signal:Wnt	presomitic_mesoderm	0.0475
+3-somite	signal:Wnt	primary_neurons	-0.0645
+3-somite	signal:Wnt	tailbud	0.75
+3-somite	signal:FGF	maternal	0.157
+3-somite	signal:FGF	blastomere	0.0182
+3-somite	signal:FGF	cell_cycle_s	-0.0177
+3-somite	signal:FGF	cell_cycle_g2m	0.138
+3-somite	signal:FGF	heat_shock	0.00416
+3-somite	signal:FGF	p53_response	0.0119
+3-somite	signal:FGF	EVL	-0.161
+3-somite	signal:FGF	PGC	0.126
+3-somite	signal:FGF	adaxial_somite	0.116
+3-somite	signal:FGF	axial_mesoderm	0.254
+3-somite	signal:FGF	dorsal_forerunner	0.0939
+3-somite	signal:FGF	dorsal_organizer	0.0929
+3-somite	signal:FGF	endoderm	0.0742
+3-somite	signal:FGF	forebrain_eye	-0.264
+3-somite	signal:FGF	hatching_gland	-0.153
+3-somite	signal:FGF	heart	-0.0326
+3-somite	signal:FGF	hindbrain	0.137
+3-somite	signal:FGF	intermediate_mesoderm	-0.0616
+3-somite	signal:FGF	lateral_plate	0.0834
+3-somite	signal:FGF	margin	0.422
+3-somite	signal:FGF	mesoderm	0.242
+3-somite	signal:FGF	midbrain_hindbrain_boundary	-0.196
+3-somite	signal:FGF	neural_crest	-0.104
+3-somite	signal:FGF	neural_plate	-0.0213
+3-somite	signal:FGF	non_neural_ectoderm	-0.257
+3-somite	signal:FGF	notochord	0.144
+3-somite	signal:FGF	placodes	-0.149
+3-somite	signal:FGF	prechordal_plate	-0.157
+3-somite	signal:FGF	presomitic_mesoderm	0.156
+3-somite	signal:FGF	primary_neurons	-0.123
+3-somite	signal:FGF	tailbud	0.539
+3-somite	receiving:RA	maternal	0.0975
+3-somite	receiving:RA	blastomere	0.005
+3-somite	receiving:RA	cell_cycle_s	0.0237
+3-somite	receiving:RA	cell_cycle_g2m	-0.0114
+3-somite	receiving:RA	heat_shock	-0.115
+3-somite	receiving:RA	p53_response	0.128
+3-somite	receiving:RA	EVL	-0.0202
+3-somite	receiving:RA	PGC	0.0132
+3-somite	receiving:RA	adaxial_somite	0.0258
+3-somite	receiving:RA	axial_mesoderm	-0.0582
+3-somite	receiving:RA	dorsal_forerunner	0.0612
+3-somite	receiving:RA	dorsal_organizer	-0.0155
+3-somite	receiving:RA	endoderm	0.248
+3-somite	receiving:RA	forebrain_eye	-0.133
+3-somite	receiving:RA	hatching_gland	-0.034
+3-somite	receiving:RA	heart	0.239
+3-somite	receiving:RA	hindbrain	0.0469
+3-somite	receiving:RA	intermediate_mesoderm	0.242
+3-somite	receiving:RA	lateral_plate	0.177
+3-somite	receiving:RA	margin	-0.0789
+3-somite	receiving:RA	mesoderm	0.00901
+3-somite	receiving:RA	midbrain_hindbrain_boundary	-0.174
+3-somite	receiving:RA	neural_crest	-0.0168
+3-somite	receiving:RA	neural_plate	-0.074
+3-somite	receiving:RA	non_neural_ectoderm	0.0432
+3-somite	receiving:RA	notochord	-0.0449
+3-somite	receiving:RA	placodes	-0.0145
+3-somite	receiving:RA	prechordal_plate	-0.0414
+3-somite	receiving:RA	presomitic_mesoderm	-0.0732
+3-somite	receiving:RA	primary_neurons	0.0365
+3-somite	receiving:RA	tailbud	-0.0428
+3-somite	receiving:Notch	maternal	0.0912
+3-somite	receiving:Notch	blastomere	0.0797
+3-somite	receiving:Notch	cell_cycle_s	0.0698
+3-somite	receiving:Notch	cell_cycle_g2m	-0.0778
+3-somite	receiving:Notch	heat_shock	0.0578
+3-somite	receiving:Notch	p53_response	0.0195
+3-somite	receiving:Notch	EVL	-0.0661
+3-somite	receiving:Notch	PGC	0.166
+3-somite	receiving:Notch	adaxial_somite	0.126
+3-somite	receiving:Notch	axial_mesoderm	0.0641
+3-somite	receiving:Notch	dorsal_forerunner	0.053
+3-somite	receiving:Notch	dorsal_organizer	-0.0744
+3-somite	receiving:Notch	endoderm	-0.117
+3-somite	receiving:Notch	forebrain_eye	-0.261
+3-somite	receiving:Notch	hatching_gland	-0.15
+3-somite	receiving:Notch	heart	-0.146
+3-somite	receiving:Notch	hindbrain	0.0475
+3-somite	receiving:Notch	intermediate_mesoderm	-0.222
+3-somite	receiving:Notch	lateral_plate	-0.0795
+3-somite	receiving:Notch	margin	0.346
+3-somite	receiving:Notch	mesoderm	0.197
+3-somite	receiving:Notch	midbrain_hindbrain_boundary	-0.309
+3-somite	receiving:Notch	neural_crest	-0.126
+3-somite	receiving:Notch	neural_plate	-0.123
+3-somite	receiving:Notch	non_neural_ectoderm	-0.116
+3-somite	receiving:Notch	notochord	-0.0151
+3-somite	receiving:Notch	placodes	0.0348
+3-somite	receiving:Notch	prechordal_plate	-0.117
+3-somite	receiving:Notch	presomitic_mesoderm	0.165
+3-somite	receiving:Notch	primary_neurons	0.24
+3-somite	receiving:Notch	tailbud	0.467
+6-somite	signal:BMP	maternal	0.173
+6-somite	signal:BMP	blastomere	-0.293
+6-somite	signal:BMP	cell_cycle_s	-0.203
+6-somite	signal:BMP	cell_cycle_g2m	-0.0337
+6-somite	signal:BMP	heat_shock	0.0131
+6-somite	signal:BMP	p53_response	0.205
+6-somite	signal:BMP	EVL	0.141
+6-somite	signal:BMP	PGC	-0.0818
+6-somite	signal:BMP	adaxial_somite	-0.0252
+6-somite	signal:BMP	axial_mesoderm	0.161
+6-somite	signal:BMP	dorsal_forerunner	0.0759
+6-somite	signal:BMP	dorsal_organizer	0.241
+6-somite	signal:BMP	endoderm	0.0279
+6-somite	signal:BMP	forebrain_eye	-0.225
+6-somite	signal:BMP	hatching_gland	0.441
+6-somite	signal:BMP	heart	0.157
+6-somite	signal:BMP	hindbrain	-0.058
+6-somite	signal:BMP	intermediate_mesoderm	0.0774
+6-somite	signal:BMP	lateral_plate	0.119
+6-somite	signal:BMP	margin	0.317
+6-somite	signal:BMP	mesoderm	0.119
+6-somite	signal:BMP	midbrain_hindbrain_boundary	-0.234
+6-somite	signal:BMP	neural_crest	0.2
+6-somite	signal:BMP	neural_plate	-0.103
+6-somite	signal:BMP	non_neural_ectoderm	0.509
+6-somite	signal:BMP	notochord	0.239
+6-somite	signal:BMP	placodes	0.2
+6-somite	signal:BMP	prechordal_plate	0.431
+6-somite	signal:BMP	presomitic_mesoderm	-0.144
+6-somite	signal:BMP	primary_neurons	0.0507
+6-somite	signal:BMP	tailbud	0.361
+6-somite	signal:Nodal	maternal	-0.0472
+6-somite	signal:Nodal	blastomere	0.0227
+6-somite	signal:Nodal	cell_cycle_s	0.0296
+6-somite	signal:Nodal	cell_cycle_g2m	-0.031
+6-somite	signal:Nodal	heat_shock	-0.0282
+6-somite	signal:Nodal	p53_response	-0.0434
+6-somite	signal:Nodal	EVL	-0.00912
+6-somite	signal:Nodal	PGC	0.293
+6-somite	signal:Nodal	adaxial_somite	-0.0743
+6-somite	signal:Nodal	axial_mesoderm	0.00688
+6-somite	signal:Nodal	dorsal_forerunner	0.0668
+6-somite	signal:Nodal	dorsal_organizer	0.0569
+6-somite	signal:Nodal	endoderm	0.0613
+6-somite	signal:Nodal	forebrain_eye	0.31
+6-somite	signal:Nodal	hatching_gland	0.0506
+6-somite	signal:Nodal	heart	-0.0289
+6-somite	signal:Nodal	hindbrain	0.131
+6-somite	signal:Nodal	intermediate_mesoderm	-0.0303
+6-somite	signal:Nodal	lateral_plate	-0.0534
+6-somite	signal:Nodal	margin	-0.0545
+6-somite	signal:Nodal	mesoderm	-0.0731
+6-somite	signal:Nodal	midbrain_hindbrain_boundary	0.0145
+6-somite	signal:Nodal	neural_crest	0.0375
+6-somite	signal:Nodal	neural_plate	0.14
+6-somite	signal:Nodal	non_neural_ectoderm	-0.0472
+6-somite	signal:Nodal	notochord	0.0122
+6-somite	signal:Nodal	placodes	-0.00864
+6-somite	signal:Nodal	prechordal_plate	0.188
+6-somite	signal:Nodal	presomitic_mesoderm	-0.0689
+6-somite	signal:Nodal	primary_neurons	0.0427
+6-somite	signal:Nodal	tailbud	-0.0633
+6-somite	signal:Wnt	maternal	0.153
+6-somite	signal:Wnt	blastomere	-0.0451
+6-somite	signal:Wnt	cell_cycle_s	0.0809
+6-somite	signal:Wnt	cell_cycle_g2m	0.0219
+6-somite	signal:Wnt	heat_shock	-0.0764
+6-somite	signal:Wnt	p53_response	0.0505
+6-somite	signal:Wnt	EVL	-0.0942
+6-somite	signal:Wnt	PGC	-0.0202
+6-somite	signal:Wnt	adaxial_somite	-0.0266
+6-somite	signal:Wnt	axial_mesoderm	0.25
+6-somite	signal:Wnt	dorsal_forerunner	0.0702
+6-somite	signal:Wnt	dorsal_organizer	0.104
+6-somite	signal:Wnt	endoderm	-0.0226
+6-somite	signal:Wnt	forebrain_eye	-0.272
+6-somite	signal:Wnt	hatching_gland	-0.114
+6-somite	signal:Wnt	heart	-0.132
+6-somite	signal:Wnt	hindbrain	-0.141
+6-somite	signal:Wnt	intermediate_mesoderm	-0.0905
+6-somite	signal:Wnt	lateral_plate	-0.0747
+6-somite	signal:Wnt	margin	0.413
+6-somite	signal:Wnt	mesoderm	0.129
+6-somite	signal:Wnt	midbrain_hindbrain_boundary	-0.151
+6-somite	signal:Wnt	neural_crest	-0.0355
+6-somite	signal:Wnt	neural_plate	-0.0712
+6-somite	signal:Wnt	non_neural_ectoderm	-0.131
+6-somite	signal:Wnt	notochord	0.102
+6-somite	signal:Wnt	placodes	-0.111
+6-somite	signal:Wnt	prechordal_plate	-0.158
+6-somite	signal:Wnt	presomitic_mesoderm	-0.00964
+6-somite	signal:Wnt	primary_neurons	0.0246
+6-somite	signal:Wnt	tailbud	0.677
+6-somite	signal:FGF	maternal	0.079
+6-somite	signal:FGF	blastomere	0.0221
+6-somite	signal:FGF	cell_cycle_s	0.0205
+6-somite	signal:FGF	cell_cycle_g2m	0.0604
+6-somite	signal:FGF	heat_shock	-0.0648
+6-somite	signal:FGF	p53_response	0.0425
+6-somite	signal:FGF	EVL	-0.102
+6-somite	signal:FGF	PGC	-0.0125
+6-somite	signal:FGF	adaxial_somite	0.067
+6-somite	signal:FGF	axial_mesoderm	0.481
+6-somite	signal:FGF	dorsal_forerunner	0.146
+6-somite	signal:FGF	dorsal_organizer	0.339
+6-somite	signal:FGF	endoderm	0.191
+6-somite	signal:FGF	forebrain_eye	-0.119
+6-somite	signal:FGF	hatching_gland	-0.102
+6-somite	signal:FGF	heart	-0.0835
+6-somite	signal:FGF	hindbrain	-0.0568
+6-somite	signal:FGF	intermediate_mesoderm	-0.0365
+6-somite	signal:FGF	lateral_plate	-0.0469
+6-somite	signal:FGF	margin	0.379
+6-somite	signal:FGF	mesoderm	0.125
+6-somite	signal:FGF	midbrain_hindbrain_boundary	-0.195
+6-somite	signal:FGF	neural_crest	-0.119
+6-somite	signal:FGF	neural_plate	0.0408
+6-somite	signal:FGF	non_neural_ectoderm	-0.187
+6-somite	signal:FGF	notochord	0.309
+6-somite	signal:FGF	placodes	-0.0446
+6-somite	signal:FGF	prechordal_plate	-0.156
+6-somite	signal:FGF	presomitic_mesoderm	0.0895
+6-somite	signal:FGF	primary_neurons	-0.0491
+6-somite	signal:FGF	tailbud	0.481
+6-somite	receiving:RA	maternal	0.287
+6-somite	receiving:RA	blastomere	-0.0389
+6-somite	receiving:RA	cell_cycle_s	-0.0391
+6-somite	receiving:RA	cell_cycle_g2m	0.0176
+6-somite	receiving:RA	heat_shock	-0.012
+6-somite	receiving:RA	p53_response	0.0398
+6-somite	receiving:RA	EVL	-0.0241
+6-somite	receiving:RA	PGC	0.0379
+6-somite	receiving:RA	adaxial_somite	0.00176
+6-somite	receiving:RA	axial_mesoderm	-0.0305
+6-somite	receiving:RA	dorsal_forerunner	0.0408
+6-somite	receiving:RA	dorsal_organizer	0.00724
+6-somite	receiving:RA	endoderm	0.262
+6-somite	receiving:RA	forebrain_eye	-0.0865
+6-somite	receiving:RA	hatching_gland	-0.0473
+6-somite	receiving:RA	heart	0.136
+6-somite	receiving:RA	hindbrain	0.0984
+6-somite	receiving:RA	intermediate_mesoderm	0.193
+6-somite	receiving:RA	lateral_plate	0.134
+6-somite	receiving:RA	margin	-0.0402
+6-somite	receiving:RA	mesoderm	0.0255
+6-somite	receiving:RA	midbrain_hindbrain_boundary	-0.121
+6-somite	receiving:RA	neural_crest	0.0364
+6-somite	receiving:RA	neural_plate	-0.0168
+6-somite	receiving:RA	non_neural_ectoderm	0.0154
+6-somite	receiving:RA	notochord	-0.0337
+6-somite	receiving:RA	placodes	0.0187
+6-somite	receiving:RA	prechordal_plate	-0.0679
+6-somite	receiving:RA	presomitic_mesoderm	-0.071
+6-somite	receiving:RA	primary_neurons	-0.0239
+6-somite	receiving:RA	tailbud	-0.0511
+6-somite	receiving:Notch	maternal	0.0509
+6-somite	receiving:Notch	blastomere	0.182
+6-somite	receiving:Notch	cell_cycle_s	0.173
+6-somite	receiving:Notch	cell_cycle_g2m	-0.00288
+6-somite	receiving:Notch	heat_shock	-0.0458
+6-somite	receiving:Notch	p53_response	-0.00844
+6-somite	receiving:Notch	EVL	-0.109
+6-somite	receiving:Notch	PGC	-0.0184
+6-somite	receiving:Notch	adaxial_somite	0.0615
+6-somite	receiving:Notch	axial_mesoderm	0.0596
+6-somite	receiving:Notch	dorsal_forerunner	0.0159
+6-somite	receiving:Notch	dorsal_organizer	-0.0634
+6-somite	receiving:Notch	endoderm	-0.0952
+6-somite	receiving:Notch	forebrain_eye	-0.101
+6-somite	receiving:Notch	hatching_gland	-0.159
+6-somite	receiving:Notch	heart	-0.153
+6-somite	receiving:Notch	hindbrain	0.115
+6-somite	receiving:Notch	intermediate_mesoderm	-0.199
+6-somite	receiving:Notch	lateral_plate	-0.103
+6-somite	receiving:Notch	margin	0.241
+6-somite	receiving:Notch	mesoderm	0.128
+6-somite	receiving:Notch	midbrain_hindbrain_boundary	-0.206
+6-somite	receiving:Notch	neural_crest	-0.0941
+6-somite	receiving:Notch	neural_plate	0.0476
+6-somite	receiving:Notch	non_neural_ectoderm	-0.143
+6-somite	receiving:Notch	notochord	-0.0288
+6-somite	receiving:Notch	placodes	0.0689
+6-somite	receiving:Notch	prechordal_plate	-0.143
+6-somite	receiving:Notch	presomitic_mesoderm	0.09
+6-somite	receiving:Notch	primary_neurons	0.176
+6-somite	receiving:Notch	tailbud	0.427

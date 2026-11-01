@@ -58,13 +58,13 @@ presumptive blood	hemato_vascular
 non neural ectoderm	non_neural_ectoderm		
 integument	non_neural_ectoderm		
 neural plate	neural_ectoderm	neural_plate	
-presumptive neural plate	neural_ectoderm	presumptive_neural	
-anterior presumptive neural plate	neural_ectoderm	presumptive_neural	
-neuroectoderm	neural_ectoderm	presumptive_neural	
+presumptive neural plate	neural_ectoderm	neural_plate	
+anterior presumptive neural plate	neural_ectoderm	neural_plate	
+neuroectoderm	neural_ectoderm	neural_plate	
 neural keel	neural_ectoderm	neural_plate	
 neural rod	neural_ectoderm	neural_plate	
 central nervous system	neural_ectoderm	neural_plate	
-presumptive brain	neural_ectoderm	presumptive_neural	
+presumptive brain	neural_ectoderm	neural_plate	
 anterior neural plate	forebrain_eye		
 anterior neural keel	forebrain_eye		
 anterior neural rod	forebrain_eye		
@@ -109,9 +109,9 @@ neurogenic placode	placodes
 epibranchial field	placodes		
 olfactory field	placodes		
 tail bud	tailbud		
-yolk syncytial layer	YSL		candidate (not captured in single-cell data)
-external yolk syncytial layer	YSL		candidate (not captured in single-cell data)
-internal yolk syncytial layer	YSL		candidate (not captured in single-cell data)
+yolk syncytial layer	YSL		curated program (script 16); may be absent from the deyolked embryos
+external yolk syncytial layer	YSL		curated program (script 16); may be absent from the deyolked embryos
+internal yolk syncytial layer	YSL		curated program (script 16); may be absent from the deyolked embryos
 forerunner cell group	dorsal_forerunner		candidate
 Kupffer's vesicle	dorsal_forerunner		candidate
 head mesenchyme	head_mesoderm		candidate

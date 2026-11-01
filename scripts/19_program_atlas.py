@@ -17,11 +17,9 @@ program's genes differ between stages), next to the stages of the unaligned
 UMAP. These are pictures only: the aligned atlas blurs adjacent stages, the
 unaligned one mixes stage with batch.
 The first pages are overviews over all programs and stages: the share of
-active cells, and the library-level expression (pseudobulk of the program's
-genes at the stage, UMIs per 10,000, median over genes, relative to each
-gene's maximum over all 28 libraries; median over the stage's libraries),
-which shows programs that act on whole libraries (maternal, blastomere) and
-are invisible within a library.
+active cells, and the pseudobulk strength of script 25 (mean over the stage's
+libraries), which shows programs that act on whole libraries (maternal,
+blastomere) and are invisible within a library.
 
 Two more files show only the atlas UMAP, one page per program (the stages
 first): program_atlas_aligned.pdf and program_atlas_unaligned.pdf.
@@ -36,7 +34,7 @@ Outputs:
   results/figures/program_atlas.pdf
   results/figures/program_atlas_{aligned,unaligned,combined}.pdf
   results/tables/program_atlas.tsv            (program x stage: genes,
-                                               supported, active share, level)
+                                               supported, active share, pseudobulk strength)
   data/processed/program_scores.tsv.gz        (cell x program smoothed scores)
   data/processed/program_active.tsv.gz        (cell x program active calls)
 """
@@ -67,39 +65,21 @@ SCORES = PROCESSED / "program_scores.tsv.gz"
 ACTIVE = PROCESSED / "program_active.tsv.gz"  # 1 / 0, empty where not defined
 # Display order: programs roughly by germ layer, then signalling and states.
 ORDER = ["maternal", "blastomere", "EVL", "PGC", "dorsal_organizer", "dorsal_forerunner",
-         "marginal_mesendoderm", "endoderm", "prechordal_plate", "notochord", "ventral_bmp",
+         "marginal_mesendoderm", "endoderm", "prechordal_plate", "notochord",
          "presomitic_mesoderm", "adaxial_somite", "tailbud", "lateral_plate",
          "intermediate_mesoderm", "heart", "neural_ectoderm", "forebrain_eye",
-         "midbrain_hindbrain_boundary", "hindbrain", "floor_plate", "primary_neurons",
+         "midbrain_hindbrain_boundary", "hindbrain", "primary_neurons",
          "neural_crest", "placodes", "non_neural_ectoderm"]
 
 
 def program_order(names) -> list[str]:
     names = set(names)
-    signal = sorted(n for n in names if n.startswith("signal:"))
+    signal = sorted(n for n in names
+                    if n.startswith(("signal:", "receiving:", "sending:", "blocking:")))
     state = sorted(n for n in names if n.startswith("state:"))
     known = [n for n in ORDER if n in names]
     rest = sorted(names - set(known) - set(signal) - set(state))
     return known + rest + signal + state
-
-
-def library_levels(adata, programs: pd.DataFrame) -> pd.DataFrame:
-    """Pseudobulk level of every program's stage genes in every library of the stage."""
-    library = adata.obs["library"].astype(str).to_numpy()
-    X = adata.X.tocsr()
-    depth = np.asarray(X.sum(axis=1)).ravel()
-    libs = np.unique(library)
-    bulk = np.vstack([np.asarray(X[library == lib].sum(axis=0)).ravel()
-                      / depth[library == lib].sum() * 1e4 for lib in libs])
-    rel = pd.DataFrame(bulk / np.maximum(bulk.max(axis=0), 1e-12), index=libs,
-                       columns=adata.var_names)
-    stage_of = adata.obs.groupby("library", observed=True)["stage"].first().astype(str)
-    rows = []
-    for (stage, program), g in programs.groupby(["stage", "program"]):
-        for lib in stage_of.index[stage_of == stage]:
-            rows.append(dict(stage=stage, program=program, library=lib,
-                             level=float(rel.loc[lib, g["gene"]].median())))
-    return pd.DataFrame(rows)
 
 
 def heatmap(ax, table: pd.DataFrame, programs: list[str], title: str, cmap: str,
@@ -181,8 +161,7 @@ def atlas_panels(fig, grid, program: str, atlas: pd.DataFrame, scores: pd.DataFr
 # the stages where they coexist; drawn together by atlas_combined().
 EXCLUSIVE_GROUPS = {
     "germ layers": ["EVL", "endoderm", "mesoderm", "neural_plate", "non_neural_ectoderm"],
-    "dorsal / ventral (gastrula)": ["dorsal_organizer", "ventral_bmp", "presumptive_neural",
-                                    "non_neural_ectoderm"],
+    "dorsal / ventral (gastrula)": ["dorsal_organizer", "neural_plate", "non_neural_ectoderm"],
     "axial and dorsal midline": ["dorsal_forerunner", "prechordal_plate", "axial_mesoderm",
                                  "notochord", "hatching_gland"],
     "mesoderm (segmentation)": ["presomitic_mesoderm", "adaxial_somite", "lateral_plate",
@@ -297,7 +276,7 @@ def program_page(pdf, program: str, cells: pd.DataFrame, scores: pd.DataFrame,
         r = info.loc[(stage, program)]
         mark = "supported" if r["supported"] else "not supported"
         ax.set_title(f"{stage}: {int(r['genes'])} genes, {mark}\n"
-                     f"active in {100 * r['active']:.0f}% of cells, library level "
+                     f"active in {100 * r['active']:.0f}% of cells, pseudobulk strength "
                      f"{r['level']:.2f}", fontsize=8)
     # genes: how many stages each gene is part of
     counts = pd.Series([g for gs in genes.values() for g in gs]).str.lower().value_counts()
@@ -345,9 +324,10 @@ def main() -> None:
     pd.DataFrame(active_cols).to_csv(ACTIVE, sep="\t", float_format="%.0f")
 
     active = pd.DataFrame(active_rows).groupby(["stage", "program"])["active"].median()
-    levels = library_levels(adata, curated).groupby(["stage", "program"])["level"].median()
+    levels = (pd.read_csv(TABLES / "program_pseudobulk_stages.tsv", sep="\t")
+              .set_index(["stage", "program"])["strength"])
     n_genes = curated.groupby(["stage", "program"]).size()
-    info = pd.DataFrame(dict(genes=n_genes, active=active, level=levels,
+    info = pd.DataFrame(dict(genes=n_genes, active=active, level=levels.reindex(n_genes.index),
                              supported=support.reindex(n_genes.index).fillna(False)))
     info.reset_index().to_csv(TABLES / "program_atlas.tsv", sep="\t", index=False,
                               float_format="%.4g")
@@ -376,7 +356,7 @@ def plot(curated, cells, scores, info, atlas) -> None:
                 "share of cells with the program active (median library); x: not supported",
                 "viridis", 0.3, info["supported"].unstack("stage"))
         heatmap(axes[1], info["level"].unstack("stage"), order,
-                "library level (pseudobulk relative to the maximum over libraries)", "magma", 1.0)
+                "pseudobulk strength (script 25)", "magma", 1.0)
         fig.tight_layout()
         pdf.savefig(fig)
         plt.close(fig)

@@ -1,0 +1,151 @@
+program	stage	genes	list
+blocking:BMP	high	2	CHD,NOG1
+blocking:RA	high	1	CYP26A1
+blocking:Wnt	high	2	DKK1B,SFRP1A
+sending:BMP_organizer	high	1	ADMP
+sending:Wnt/PCP	high	1	WNT11
+signal:BMP	high	6	ID1,ID3,BAMBIA,MSX1B,BMP2B,BMP7A
+signal:FGF	high	4	ETV4,IL17RD,FGF8A,FGF3
+signal:Nodal	high	3	LFT1,LFT2,NDR1
+signal:Wnt	high	3	SP5L,LEF1,WNT8A
+blocking:BMP	oblong	2	CHD,NOG1
+blocking:RA	oblong	1	CYP26A1
+blocking:Wnt	oblong	1	SFRP1A
+sending:BMP_organizer	oblong	1	ADMP
+sending:Wnt/PCP	oblong	1	WNT11
+signal:BMP	oblong	5	ID1,ID3,BAMBIA,BMP2B,BMP7A
+signal:FGF	oblong	3	ETV4,IL17RD,FGF8A
+signal:Nodal	oblong	3	LFT1,LFT2,NDR1
+signal:Wnt	oblong	3	SP5L,LEF1,WNT8A
+blocking:BMP	dome	2	CHD,NOG1
+blocking:RA	dome	1	CYP26A1
+blocking:Wnt	dome	3	DKK1B,FRZB,SFRP1A
+receiving:Notch	dome	1	HEY1
+sending:BMP_organizer	dome	1	ADMP
+sending:Notch	dome	4	DLA,DLB,DLC,DLD
+sending:Wnt/PCP	dome	1	WNT11
+signal:BMP	dome	8	ID1,ID3,BAMBIA,SZL,MSX1B,BMP2B,BMP4,BMP7A
+signal:FGF	dome	6	ETV4,IL17RD,FGF8A,FGF24,FGF3,FGF4
+signal:Nodal	dome	3	LFT1,LFT2,NDR1
+signal:Wnt	dome	4	SP5L,SP5A,LEF1,WNT8A
+blocking:BMP	30% epiboly	2	CHD,NOG1
+blocking:RA	30% epiboly	1	CYP26A1
+blocking:Wnt	30% epiboly	3	DKK1B,FRZB,SFRP1A
+receiving:Notch	30% epiboly	1	HEY1
+sending:BMP_organizer	30% epiboly	1	ADMP
+sending:Notch	30% epiboly	4	DLA,DLB,DLC,DLD
+sending:RA	30% epiboly	1	ALDH1A2
+sending:Wnt/PCP	30% epiboly	2	WNT5B,WNT11
+signal:BMP	30% epiboly	8	ID1,ID3,BAMBIA,SZL,MSX1B,BMP2B,BMP4,BMP7A
+signal:FGF	30% epiboly	6	ETV4,IL17RD,FGF8A,FGF24,FGF3,FGF4
+signal:Nodal	30% epiboly	4	LFT1,LFT2,NDR1,NDR2
+signal:Wnt	30% epiboly	5	SP5L,SP5A,NOTUM1A,LEF1,WNT8A
+blocking:BMP	50% epiboly	3	CHD,NOG1,FSTA
+blocking:RA	50% epiboly	1	CYP26A1
+blocking:Wnt	50% epiboly	3	DKK1B,FRZB,SFRP1A
+receiving:Notch	50% epiboly	2	HER12,HEY1
+sending:BMP_organizer	50% epiboly	1	ADMP
+sending:Hedgehog	50% epiboly	2	SHHA,SHHB
+sending:Notch	50% epiboly	4	DLA,DLB,DLC,DLD
+sending:RA	50% epiboly	1	ALDH1A2
+sending:Wnt/PCP	50% epiboly	2	WNT5B,WNT11
+signal:BMP	50% epiboly	8	ID1,ID3,BAMBIA,SZL,MSX1B,BMP2B,BMP4,BMP7A
+signal:FGF	50% epiboly	6	ETV4,IL17RD,FGF8A,FGF24,FGF3,FGF4
+signal:Nodal	50% epiboly	4	LFT1,LFT2,NDR1,NDR2
+signal:Wnt	50% epiboly	6	SP5L,SP5A,NOTUM1A,LEF1,WNT8A,WNT3A
+blocking:BMP	shield	2	CHD,NOG1
+blocking:RA	shield	1	CYP26A1
+blocking:Wnt	shield	3	DKK1B,FRZB,SFRP1A
+receiving:Notch	shield	1	HER12
+sending:BMP_organizer	shield	1	ADMP
+sending:Hedgehog	shield	1	SHHA
+sending:Notch	shield	3	DLA,DLC,DLD
+sending:RA	shield	1	ALDH1A2
+sending:Wnt/PCP	shield	2	WNT5B,WNT11
+signal:BMP	shield	8	ID1,ID3,BAMBIA,SZL,MSX1B,BMP2B,BMP4,BMP7A
+signal:FGF	shield	5	ETV4,IL17RD,FGF8A,FGF24,FGF3
+signal:Nodal	shield	4	LFT1,LFT2,NDR1,NDR2
+signal:Wnt	shield	5	SP5L,SP5A,NOTUM1A,LEF1,WNT8A
+blocking:BMP	60% epiboly	3	CHD,NOG1,FSTA
+blocking:RA	60% epiboly	1	CYP26A1
+blocking:Wnt	60% epiboly	3	DKK1B,FRZB,SFRP1A
+receiving:Notch	60% epiboly	4	HER15.1,HER15.2,HER12,HEY1
+sending:BMP_organizer	60% epiboly	1	ADMP
+sending:Hedgehog	60% epiboly	2	SHHA,SHHB
+sending:Notch	60% epiboly	4	DLA,DLB,DLC,DLD
+sending:RA	60% epiboly	1	ALDH1A2
+sending:Wnt/PCP	60% epiboly	2	WNT5B,WNT11
+signal:BMP	60% epiboly	8	ID1,ID3,BAMBIA,SZL,MSX1B,BMP2B,BMP4,BMP7A
+signal:FGF	60% epiboly	6	ETV4,IL17RD,FGF8A,FGF24,FGF3,FGF4
+signal:Nodal	60% epiboly	4	LFT1,LFT2,NDR1,NDR2
+signal:Wnt	60% epiboly	6	SP5L,SP5A,NOTUM1A,LEF1,WNT8A,WNT3A
+blocking:BMP	75% epiboly	3	CHD,NOG1,FSTA
+blocking:RA	75% epiboly	1	CYP26A1
+blocking:Wnt	75% epiboly	3	DKK1B,FRZB,SFRP1A
+receiving:Notch	75% epiboly	7	HER4.1,HER4.2,HER4.3,HER15.1,HER15.2,HER12,HEY1
+receiving:RA	75% epiboly	1	DHRS3A
+sending:BMP_organizer	75% epiboly	1	ADMP
+sending:Hedgehog	75% epiboly	2	SHHA,SHHB
+sending:Notch	75% epiboly	4	DLA,DLB,DLC,DLD
+sending:RA	75% epiboly	1	ALDH1A2
+sending:Wnt/PCP	75% epiboly	2	WNT5B,WNT11
+signal:BMP	75% epiboly	8	ID1,ID3,BAMBIA,SZL,MSX1B,BMP2B,BMP4,BMP7A
+signal:FGF	75% epiboly	5	ETV4,IL17RD,FGF8A,FGF24,FGF3
+signal:Nodal	75% epiboly	4	LFT1,LFT2,NDR1,NDR2
+signal:Wnt	75% epiboly	6	SP5L,SP5A,NOTUM1A,LEF1,WNT8A,WNT3A
+blocking:BMP	90% epiboly	4	CHD,NOG1,NOG2,FSTA
+blocking:RA	90% epiboly	1	CYP26A1
+blocking:Wnt	90% epiboly	3	DKK1B,FRZB,SFRP1A
+receiving:Notch	90% epiboly	7	HER4.1,HER4.2,HER4.3,HER15.1,HER15.2,HER12,HEY1
+receiving:RA	90% epiboly	1	DHRS3A
+sending:BMP_organizer	90% epiboly	1	ADMP
+sending:Hedgehog	90% epiboly	2	SHHA,SHHB
+sending:Notch	90% epiboly	4	DLA,DLB,DLC,DLD
+sending:RA	90% epiboly	1	ALDH1A2
+sending:Wnt/PCP	90% epiboly	2	WNT5B,WNT11
+signal:BMP	90% epiboly	8	ID1,ID3,BAMBIA,SZL,MSX1B,BMP2B,BMP4,BMP7A
+signal:FGF	90% epiboly	5	ETV4,IL17RD,FGF8A,FGF24,FGF3
+signal:Nodal	90% epiboly	3	LFT1,LFT2,NDR2
+signal:Wnt	90% epiboly	6	SP5L,SP5A,NOTUM1A,LEF1,WNT8A,WNT3A
+blocking:BMP	bud	4	CHD,NOG1,NOG2,FSTA
+blocking:RA	bud	1	CYP26A1
+blocking:Wnt	bud	3	DKK1B,FRZB,SFRP1A
+receiving:Notch	bud	7	HER4.1,HER4.2,HER4.3,HER15.1,HER15.2,HER12,HEY1
+receiving:RA	bud	1	DHRS3A
+sending:BMP_organizer	bud	1	ADMP
+sending:Hedgehog	bud	2	SHHA,SHHB
+sending:Notch	bud	4	DLA,DLB,DLC,DLD
+sending:RA	bud	1	ALDH1A2
+sending:Wnt/PCP	bud	2	WNT5B,WNT11
+signal:BMP	bud	8	ID1,ID3,BAMBIA,SZL,MSX1B,BMP2B,BMP4,BMP7A
+signal:FGF	bud	6	ETV4,IL17RD,FGF8A,FGF24,FGF3,FGF4
+signal:Nodal	bud	3	LFT1,LFT2,NDR2
+signal:Wnt	bud	6	SP5L,SP5A,NOTUM1A,LEF1,WNT8A,WNT3A
+blocking:BMP	3-somite	4	CHD,NOG1,NOG2,FSTA
+blocking:RA	3-somite	1	CYP26A1
+blocking:Wnt	3-somite	3	DKK1B,FRZB,SFRP1A
+receiving:Notch	3-somite	7	HER4.1,HER4.2,HER4.3,HER15.1,HER15.2,HER12,HEY1
+receiving:RA	3-somite	1	DHRS3A
+sending:BMP_organizer	3-somite	1	ADMP
+sending:Hedgehog	3-somite	2	SHHA,SHHB
+sending:Notch	3-somite	4	DLA,DLB,DLC,DLD
+sending:RA	3-somite	1	ALDH1A2
+sending:Wnt/PCP	3-somite	2	WNT5B,WNT11
+signal:BMP	3-somite	8	ID1,ID3,BAMBIA,SZL,MSX1B,BMP2B,BMP4,BMP7A
+signal:FGF	3-somite	6	ETV4,IL17RD,FGF8A,FGF24,FGF3,FGF4
+signal:Nodal	3-somite	2	LFT1,LFT2
+signal:Wnt	3-somite	6	SP5L,SP5A,NOTUM1A,LEF1,WNT8A,WNT3A
+blocking:BMP	6-somite	4	CHD,NOG1,NOG2,FSTA
+blocking:RA	6-somite	1	CYP26A1
+blocking:Wnt	6-somite	3	DKK1B,FRZB,SFRP1A
+receiving:Notch	6-somite	7	HER4.1,HER4.2,HER4.3,HER15.1,HER15.2,HER12,HEY1
+receiving:RA	6-somite	1	DHRS3A
+sending:BMP_organizer	6-somite	1	ADMP
+sending:Hedgehog	6-somite	2	SHHA,SHHB
+sending:Notch	6-somite	4	DLA,DLB,DLC,DLD
+sending:RA	6-somite	1	ALDH1A2
+sending:Wnt/PCP	6-somite	2	WNT5B,WNT11
+signal:BMP	6-somite	8	ID1,ID3,BAMBIA,SZL,MSX1B,BMP2B,BMP4,BMP7A
+signal:FGF	6-somite	6	ETV4,IL17RD,FGF8A,FGF24,FGF3,FGF4
+signal:Nodal	6-somite	2	LFT1,LFT2
+signal:Wnt	6-somite	6	SP5L,SP5A,NOTUM1A,LEF1,WNT8A,WNT3A

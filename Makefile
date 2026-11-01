@@ -1,0 +1,99 @@
+# Analysis pipeline: every script's main output table depends on the script,
+# the scripts it imports and its input tables, so `make` reruns only what is
+# out of date, in order. `make -n <target>` lists what would run.
+#
+#   make heterogeneity   01-03 (dataset, heterogeneous genes, a/b libraries)
+#   make programs        16, 17, 21, 22, 24 (program sets and their tests)
+#   make populations     14, 15, 18, 19, 20, 23
+#   make report          the report PDF (copied to report/main.pdf)
+#   make all             everything
+#
+# Scripts 17 and 22 also cache their intermediate results (data/processed/cache),
+# so a rerun after a small change of the programs recomputes only what changed.
+# Raw data and data/processed/dropseq_counts.h5ad are not built here (see AGENTS.md).
+
+PY ?= .venv/bin/python
+T := results/tables
+S := scripts
+UTILS := $(S)/pipeline_utils.py
+
+.PHONY: all heterogeneity programs populations report
+all: heterogeneity programs populations report
+heterogeneity: $(T)/libraries.tsv $(T)/heterogeneity_zfin.tsv $(T)/hvg_flavours.tsv \
+	$(T)/replicate_mixing.tsv $(T)/replicate_timing.tsv
+programs: $(T)/programs.tsv $(T)/program_support.tsv $(T)/signal_coupling.tsv \
+	$(T)/program_levels.tsv $(T)/program_overlap.tsv $(T)/program_pseudobulk.tsv
+populations: $(T)/replicated_populations.tsv $(T)/alignment_stages.tsv \
+	$(T)/program_populations.tsv $(T)/program_atlas.tsv results/figures/program_tracks.pdf \
+	$(T)/signal_atlas.tsv
+
+# --- dataset and heterogeneous genes (01-03) -------------------------------------------------
+$(T)/libraries.tsv: $(S)/01_dataset_structure.py $(UTILS)
+	$(PY) $<
+$(T)/heterogeneous_genes.tsv.gz: $(S)/01b_heterogeneous_genes.py $(UTILS)
+	$(PY) $<
+$(T)/heterogeneity_zfin.tsv: $(S)/01c_heterogeneity_zfin.py $(S)/01b_heterogeneous_genes.py \
+		$(S)/zfin_utils.py $(UTILS) $(T)/heterogeneous_genes.tsv.gz \
+		data/curated/zfin_anatomy_programs.tsv
+	$(PY) $<
+$(T)/hvg_flavours.tsv: $(S)/01d_hvg_flavours.py $(S)/01b_heterogeneous_genes.py \
+		$(S)/01c_heterogeneity_zfin.py $(UTILS) $(T)/heterogeneous_genes.tsv.gz
+	$(PY) $<
+$(T)/replicate_mixing.tsv: $(S)/02_replicate_mixing.py $(UTILS) $(T)/heterogeneous_genes.tsv.gz
+	$(PY) $<
+$(T)/replicate_timing.tsv: $(S)/03_replicate_differences.py $(UTILS)
+	$(PY) $<
+
+# --- programs (16, 17, 21, 22, 24) -----------------------------------------------------------
+$(T)/programs.tsv: $(S)/16_program_sets.py $(S)/01c_heterogeneity_zfin.py $(S)/zfin_utils.py \
+		$(S)/program_utils.py $(UTILS) $(T)/heterogeneous_genes.tsv.gz \
+		data/curated/zfin_anatomy_programs.tsv data/curated/signalling_evidence.tsv \
+		data/curated/curated_programs.tsv data/curated/gene_overrides.tsv $(wildcard data/curated/archive/*.tsv)
+	$(PY) $<
+$(T)/program_support.tsv: $(S)/17_program_tests.py $(S)/program_utils.py $(UTILS) \
+		$(T)/programs.tsv $(T)/heterogeneous_genes.tsv.gz
+	$(PY) $<
+$(T)/signal_coupling.tsv: $(S)/21_signal_coupling.py $(S)/18_program_populations.py \
+		$(S)/14_replicated_populations.py $(S)/program_utils.py $(UTILS) \
+		$(T)/programs.tsv $(T)/program_support.tsv
+	$(PY) $<
+$(T)/program_levels.tsv: $(S)/22_program_levels.py $(S)/17_program_tests.py \
+		$(S)/program_utils.py $(UTILS) $(T)/program_support.tsv
+	$(PY) $<
+$(T)/program_overlap.tsv: $(S)/24_program_overview.py $(S)/16_program_sets.py $(UTILS) \
+		$(T)/programs.tsv $(T)/heterogeneous_genes.tsv.gz data/curated/curated_programs.tsv \
+		data/curated/signalling_evidence.tsv
+	$(PY) $<
+$(T)/program_pseudobulk.tsv: $(S)/25_program_pseudobulk.py $(S)/24_program_overview.py \
+		$(UTILS) $(T)/programs.tsv data/curated/curated_programs.tsv
+	$(PY) $<
+
+# --- populations (14, 15, 18, 19, 20, 23) ----------------------------------------------------
+$(T)/replicated_populations.tsv: $(S)/14_replicated_populations.py \
+		$(S)/01c_heterogeneity_zfin.py $(UTILS) $(T)/heterogeneous_genes.tsv.gz
+	$(PY) $<
+$(T)/alignment_stages.tsv: $(S)/15_alignment.py $(S)/02_replicate_mixing.py $(UTILS) \
+		$(T)/heterogeneous_genes.tsv.gz
+	$(PY) $<
+$(T)/program_populations.tsv: $(S)/18_program_populations.py \
+		$(S)/14_replicated_populations.py $(S)/program_utils.py $(UTILS) \
+		$(T)/replicated_populations.tsv $(T)/programs.tsv $(T)/program_support.tsv
+	$(PY) $<
+$(T)/program_atlas.tsv: $(S)/19_program_atlas.py $(S)/15_alignment.py \
+		$(S)/18_program_populations.py $(UTILS) $(T)/replicated_populations.tsv \
+		$(T)/alignment_stages.tsv $(T)/programs.tsv $(T)/program_support.tsv \
+		$(T)/program_pseudobulk.tsv
+	$(PY) $<
+results/figures/program_tracks.pdf: $(S)/20_program_views.py $(S)/19_program_atlas.py \
+		$(UTILS) $(T)/program_atlas.tsv $(T)/replicated_populations.tsv
+	$(PY) $<
+$(T)/signal_atlas.tsv: $(S)/23_signal_atlas.py $(S)/18_program_populations.py \
+		$(S)/19_program_atlas.py $(UTILS) $(T)/program_support.tsv $(T)/program_atlas.tsv
+	$(PY) $<
+
+# --- report ----------------------------------------------------------------------------------
+report: report/main.pdf
+report/main.pdf: report/main.tex report/references.bib $(wildcard report/figures/*) \
+		$(wildcard report/tables/*.tex)
+	cd report && latexmk main.tex
+	cp report/build/main.pdf report/main.pdf

@@ -11,9 +11,9 @@ quantile of a gene-wise permutation within the library, as in scripts 18 and
   A active, readouts low    against expectation
   B active, readouts high   against expectation
 "High" and "low" are above and below the library average (the smoothed
-readout score is centred per library, so the split is at 0). As in script
-21, the readout genes are removed from the other programs first, so A and B
-cannot agree with the readouts through shared genes. Shown on the aligned
+readout score is centred per library, so the split is at 0). The curated
+programs are disjoint (script 16), so A and B cannot agree with the readouts
+through shared genes. Shown on the aligned
 and unaligned atlas UMAPs of script 15, only for the stages where all three
 programs are defined.
 
@@ -43,7 +43,6 @@ from pipeline_utils import PROCESSED, ROOT, STAGES, TABLES, ensure_dirs, load_dr
 
 warnings.filterwarnings("ignore", category=FutureWarning)
 program_populations = importlib.import_module("18_program_populations")
-coupling = importlib.import_module("21_signal_coupling")
 atlas_figures = importlib.import_module("19_program_atlas")
 
 FIGURES = ROOT / "results" / "figures"
@@ -51,11 +50,11 @@ SCORES = PROCESSED / "signal_atlas_scores.tsv.gz"
 ACTIVE = PROCESSED / "signal_atlas_active.tsv.gz"
 # pathway: (program expected with high readouts, program expected with low readouts)
 PAIRS = {
-    "BMP": ("non_neural_ectoderm", "neural_plate"),
-    "Nodal": ("margin", "presumptive_neural"),
-    "Wnt": ("tailbud", "forebrain_eye"),
-    "FGF": ("mesoderm", "non_neural_ectoderm"),
-    "Notch": ("presomitic_mesoderm", "lateral_plate"),
+    "signal:BMP": ("non_neural_ectoderm", "neural_plate"),
+    "signal:Nodal": ("margin", "neural_plate"),
+    "signal:Wnt": ("tailbud", "forebrain_eye"),
+    "signal:FGF": ("mesoderm", "non_neural_ectoderm"),
+    "receiving:Notch": ("presomitic_mesoderm", "lateral_plate"),
 }
 CATEGORIES = [("A", "high", "#0072B2"), ("B", "low", "#009E73"),
               ("A", "low", "#D55E00"), ("B", "high", "#E69F00")]
@@ -64,15 +63,12 @@ CATEGORIES = [("A", "high", "#0072B2"), ("B", "low", "#009E73"),
 def compute() -> tuple[pd.DataFrame, pd.DataFrame]:
     adata = load_dropseq_counts()
     programs = pd.read_csv(TABLES / "programs.tsv", sep="\t")
-    curated = programs[(programs["set"] == "curated") & programs["kept"]]
-    stripped, _ = coupling.without_readouts(curated)
-    stripped = pd.concat([stripped, programs[programs["set"] != "curated"]])
     support = pd.read_csv(TABLES / "program_support.tsv", sep="\t")
     genes_table = pd.read_csv(TABLES / "heterogeneous_genes.tsv.gz", sep="\t",
                               usecols=["stage", "gene", "heterogeneous"])
-    space = program_populations.ProgramSpace(stripped, support, genes_table,
+    space = program_populations.ProgramSpace(programs, support, genes_table,
                                              supported_only=False)
-    wanted = {f"signal:{s}" for s in PAIRS} | {p for pair in PAIRS.values() for p in pair}
+    wanted = set(PAIRS) | {p for pair in PAIRS.values() for p in pair}
     scores, active = {}, {}
     for stage in STAGES:
         sub = adata[adata.obs["stage"] == stage]
@@ -101,12 +97,12 @@ def compute() -> tuple[pd.DataFrame, pd.DataFrame]:
 def categorise(signal: str, a: str, b: str, scores: pd.DataFrame,
                active: pd.DataFrame) -> pd.Series:
     """Category index (0-3, see CATEGORIES) per cell; -1 none, NaN not defined."""
-    cols = [f"signal:{signal}", a, b]
+    cols = [signal, a, b]
     if any(c not in scores for c in cols):
         return pd.Series(np.nan, index=scores.index)
     defined = scores[cols].notna().all(axis=1)
     on_a, on_b = active[a].fillna(0) > 0, active[b].fillna(0) > 0
-    high = scores[f"signal:{signal}"] > 0
+    high = scores[signal] > 0
     cat = pd.Series(-1.0, index=scores.index)
     cat[on_a & ~on_b & high] = 0
     cat[on_b & ~on_a & ~high] = 1

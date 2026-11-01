@@ -215,3 +215,60 @@ def pearson_residuals(counts, genes, centre: bool = True) -> "np.ndarray":
     r[:, m == 0] = 0
     r = np.clip(r, -RESIDUAL_CLIP, RESIDUAL_CLIP)
     return r - r.mean(axis=0) if centre else r
+
+
+# --- cache of intermediate results ---------------------------------------------------------
+
+CACHE = PROCESSED / "cache"
+
+
+def digest(*parts) -> str:
+    """Short hash of the inputs of a computation (JSON-serialisable parts:
+    gene lists, parameters, a version number of the code)."""
+    import hashlib
+    import json
+
+    text = json.dumps(parts, sort_keys=True, default=str)
+    return hashlib.sha1(text.encode()).hexdigest()[:16]
+
+
+def cache_path(group: str, name: str, key: str) -> Path:
+    """data/processed/cache/<group>/<name>-<key>.pkl (name made file-safe)."""
+    import re
+
+    return CACHE / group / f"{re.sub(r'[^A-Za-z0-9_.-]+', '_', name)}-{key}.pkl"
+
+
+def load_cached(group: str, name: str, key: str):
+    """The cached value, or None if there is none for this key."""
+    import pickle
+
+    path = cache_path(group, name, key)
+    if not path.exists():
+        return None
+    with open(path, "rb") as fh:
+        return pickle.load(fh)
+
+
+def save_cached(group: str, name: str, key: str, value) -> None:
+    """Store a value atomically (an interrupted run leaves no partial file)."""
+    import pickle
+
+    path = cache_path(group, name, key)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(".tmp")
+    with open(tmp, "wb") as fh:
+        pickle.dump(value, fh, protocol=pickle.HIGHEST_PROTOCOL)
+    tmp.replace(path)
+
+
+def cached(group: str, name: str, key: str, compute):
+    """compute(), or its stored result if the key (a digest of the inputs) is
+    unchanged. Results are kept per unit of work, so an interrupted script
+    resumes, and a change recomputes only the units whose inputs changed.
+    Delete data/processed/cache/<group> to start from scratch."""
+    value = load_cached(group, name, key)
+    if value is None:
+        value = compute()
+        save_cached(group, name, key, value)
+    return value

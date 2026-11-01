@@ -229,9 +229,9 @@ def latex_missing(comp: pd.DataFrame) -> None:
     t = comp[comp["status"] == "unnamed"]
     lines = ["\\begin{tabular}{llrp{0.55\\linewidth}}", "\\toprule",
              "Stage & Pop. & Cells & Top genes \\\\", "\\midrule"]
-    for r in t.itertuples():
+    for i, r in enumerate(t.itertuples()):  # every second row shaded
         genes = ", ".join(r.top_genes.split(",")[:6]).replace("_", "\\_")
-        lines.append(f"{r.stage.replace('%', '\\%')} & {r.gene_population} & {r.cells} & "
+        lines.append(("\\rowcolor{gray!10}" if i % 2 else "") + f"{r.stage.replace('%', '\\%')} & {r.gene_population} & {r.cells} & "
                      f"\\emph{{{genes}}} \\\\")
     lines += ["\\bottomrule", "\\end{tabular}"]
     (REPORT_TABLES / "missing_programs.tex").write_text(
