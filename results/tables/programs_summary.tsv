@@ -1,16 +1,16 @@
 set	stage	programs	genes	median_genes	all_genes
-controls	high	6	51	3.5	162
-controls	oblong	8	105	7.5	162
-controls	dome	9	73	4.0	162
-controls	30% epiboly	8	71	5.0	162
-controls	50% epiboly	8	69	4.0	162
-controls	shield	6	59	10.5	162
-controls	60% epiboly	5	35	4.0	162
-controls	75% epiboly	5	37	4.0	162
-controls	90% epiboly	5	36	4.0	162
-controls	bud	5	42	4.0	162
-controls	3-somite	6	39	4.0	162
-controls	6-somite	7	49	4.0	162
+controls	high	6	51	3.5	73
+controls	oblong	6	46	2.5	73
+controls	dome	7	57	3.0	73
+controls	30% epiboly	6	55	3.0	73
+controls	50% epiboly	7	65	4.0	73
+controls	shield	5	43	4.0	73
+controls	60% epiboly	5	35	4.0	73
+controls	75% epiboly	5	37	4.0	73
+controls	90% epiboly	5	36	4.0	73
+controls	bud	5	42	4.0	73
+controls	3-somite	5	33	3.0	73
+controls	6-somite	6	43	3.5	73
 curated	high	39	328	9.0	616
 curated	oblong	39	298	9.0	616
 curated	dome	41	407	10.0	616

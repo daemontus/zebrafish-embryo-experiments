@@ -97,6 +97,7 @@ from pipeline_utils import (
     REPORT_TABLES,
     REPORT_WIDTH_IN,
     STAGES,
+    GZIP,
     TABLES,
     ensure_dirs,
     load_dropseq_counts,
@@ -554,15 +555,18 @@ def main() -> None:
     adata = load_dropseq_counts()
     frames, libs, ranks, models = per_library(adata)
     frames["residual"].rename_axis("gene").to_csv(
-        TABLES / "heterogeneous_genes_libraries.tsv.gz", sep="\t", float_format="%.4g")
+        TABLES / "heterogeneous_genes_libraries.tsv.gz", sep="\t", float_format="%.4g",
+        compression=GZIP)
     calls = frames["tier"]
-    calls.rename_axis("gene").to_csv(TABLES / "heterogeneous_genes_calls.tsv.gz", sep="\t")
+    calls.rename_axis("gene").to_csv(TABLES / "heterogeneous_genes_calls.tsv.gz", sep="\t",
+                                     compression=GZIP)
     rep = replication(libs, ranks)
     libs = libs.join(rep.groupby("a")[["residual", "seurat", "weak", "seurat_matched"]].mean()
                      .rename(columns=lambda c: f"jaccard_{c}"))
     libs.to_csv(TABLES / "heterogeneity_libraries.tsv", sep="\t", float_format="%.4g")
     genes, summary = per_stage(adata, frames, libs)
-    genes.to_csv(TABLES / "heterogeneous_genes.tsv.gz", sep="\t", index=False, float_format="%.4g")
+    genes.to_csv(TABLES / "heterogeneous_genes.tsv.gz", sep="\t", index=False, float_format="%.4g",
+                 compression=GZIP)
     print(pd.DataFrame(summary).to_string(index=False))
     print(rep.round(2).to_string(index=False))
     latex_table(summary)

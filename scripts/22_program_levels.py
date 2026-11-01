@@ -5,8 +5,11 @@ of a few discrete levels. The question: how much of what the continuous
 program scores say about the cells is kept when every program is reduced to
 k levels, and which programs need more than two?
 
-Prediction (the test of script 17: the same cached setup of every stage, i.e.
-evaluation genes, cells, split, smoothing coordinates and target). The curated programs'
+Prediction (the test of script 17, with the same cells, split, smoothing
+coordinates and kind of target, but its own evaluation genes: only the curated
+programs are tested here, so the evaluation genes need to be in no curated
+program, and may be in the programs of the other sets; this gives more and
+stronger heterogeneous evaluation genes than 17, most of all at shield). The curated programs'
 smoothed scores are discretised per stage, on the pooled (aligned) scores of
 the stage's libraries, i.e. one set of thresholds per program and stage, as
 a model would use. Every level is one-hot encoded (k - 1 columns per
@@ -25,10 +28,12 @@ Feature sets:
   3state         depleted (below the 0.1% quantile of the same null) /
                  neither / active
   supported_*    active and k3 for the supported programs only (17)
-The floor, the ceiling and the random reference are those of script 17 (the
-ceiling is the best of all models of 17 and of this script), so the
-explained fractions are on the same scale as in the report's program
-section, and `curated` reproduces 17's numbers. Features and model losses
+The floor (depth and library), the continuous supported programs, the random
+reference (random_curated) and the models of the ceiling (knn, pcs) are
+fitted here on these evaluation genes; the ceiling is the best of all
+models. The explained fractions are therefore not those of 17 (other genes);
+what is compared is each discretisation against the continuous scores
+(`retained`). Features and model losses
 are cached per stage (data/processed/cache/22) with a digest of the curated
 programs, so a rerun recomputes only what changed.
 
@@ -70,6 +75,7 @@ from sklearn.cluster import KMeans
 from pipeline_utils import (
     REPORT_WIDTH_IN,
     STAGES,
+    GZIP,
     TABLES,
     cached,
     digest,
@@ -83,9 +89,11 @@ import program_utils as prediction
 tests = importlib.import_module("17_program_tests")
 
 LEVELS = [2, 3, 4, 5, 6]
+EXCLUDE = ["curated"]  # evaluation genes: in no curated program (they may be in other sets)
 FEATURE_SETS = (["curated"] + [f"k{k}" for k in LEVELS] + ["k3_onehot", "k6_onehot", "active",
                                                             "3state", "supported_active",
                                                             "supported_k3"])
+MODELS = ["floor", "knn", "pcs", "curated_supported", "random_curated"] + FEATURE_SETS
 N_PERM = 5
 ACTIVE_QUANTILE = 0.999
 SEED = 0
@@ -154,7 +162,7 @@ def fidelity(stage: str, names: list[str], score: np.ndarray, train: np.ndarray)
 
 def evaluate_stage(adata, stage: str, long: pd.DataFrame, support: pd.DataFrame,
                    het_genes: set):
-    setup = tests.stage_setup(adata, stage, long, het_genes)
+    setup = tests.stage_setup(adata, stage, long, het_genes, exclude=EXCLUDE)
     sets = tests.definitions(long, support, setup)
     curated = sets["curated"]
     supported = list(sets["curated_supported"].index)
@@ -188,47 +196,44 @@ def evaluate_stage(adata, stage: str, long: pd.DataFrame, support: pd.DataFrame,
     f = cached(CACHE, f"features_{stage}", fkey, compute)
     specs = {n: ([fkey], lambda n=n: f["features"][n]) for n in FEATURE_SETS
              if f["features"][n].shape[1] > 0}
+    reference = tests.set_features(adata, setup, sets)
+    specs.update({"floor": ([], None), "knn": ([], None),
+                  "pcs": ([], lambda: reference("pcs"))})
+    for n in ("curated_supported", "random_curated"):
+        if len(sets[n]):
+            specs[n] = (tests.definition_key(sets[n]), lambda n=n: reference(n))
     fitted = tests.fit_losses(adata, setup, specs, group=CACHE)
     per_gene = pd.DataFrame({n: v["loss"] for n, v in fitted.items()})
-    for n in FEATURE_SETS:
+    for n in MODELS:
         if n not in per_gene:
             per_gene[n] = np.nan
     per_gene.insert(0, "stage", stage)
     per_gene.insert(1, "target", prediction.TARGETS[0])
     per_gene.insert(2, "gene", setup["eval_genes"])
     per_gene.insert(3, "group", setup["group"])
-    n_features = {n: f["features"][n].shape[1] for n in FEATURE_SETS}
+    n_features = {n: v["n_features"] for n, v in fitted.items()}
+    n_features.update({n: f["features"][n].shape[1] for n in FEATURE_SETS})
     n_features["n_programs"] = f["n_programs"]
     return per_gene, n_features, f["fidelity"]
 
 
-def summarise(per_gene: pd.DataFrame, previous: pd.DataFrame, n_features: dict) -> pd.DataFrame:
-    """Explained fractions on the floor and ceiling of script 17."""
-    keys = ["stage", "target", "gene", "group"]
-    merged = previous.merge(per_gene.drop(columns=["curated"]).rename(
-        columns={n: f"lv_{n}" for n in FEATURE_SETS if n != "curated"}), on=keys)
-    merged = merged.merge(per_gene[keys + ["curated"]].rename(columns={"curated": "lv_curated"}),
-                          on=keys)
-    previous_models = [m for m in tests.MODELS if m in previous]
-    ours = [f"lv_{n}" for n in FEATURE_SETS]
+def summarise(per_gene: pd.DataFrame, n_features: dict) -> pd.DataFrame:
+    """Explained fractions (floor: depth and library; ceiling: the best model)."""
     rows = []
-    for (stage, target, genes), g in merged.groupby(["stage", "target", "group"], sort=False):
-        fitted = [m for m in previous_models + ours if g[m].notna().all()]
+    for (stage, target, genes), g in per_gene.groupby(["stage", "target", "group"], sort=False):
+        fitted = [m for m in MODELS if m != "floor" and g[m].notna().all()]
         ceiling = min(fitted, key=lambda m: g[m].sum())
         gap = g["floor"].sum() - g[ceiling].sum()
         share = gap / g["floor"].sum()
         if share < prediction.MIN_SHARE:
             gap = np.nan
-        explained = {m: (g["floor"].sum() - g[m].sum()) / gap if g[m].notna().all() else np.nan
-                     for m in fitted}
-        for name in FEATURE_SETS + ["curated_supported", "random_curated", "pcs"]:
-            m = f"lv_{name}" if name in FEATURE_SETS else name
+        for name in MODELS[1:]:
+            loss = g[name].sum() if g[name].notna().all() else np.nan
             rows.append(dict(stage=stage, target=target, genes=genes, feature_set=name,
                              n_eval_genes=len(g), n_features=n_features[stage].get(name, np.nan),
                              n_programs=n_features[stage]["n_programs"],
-                             explained=explained.get(m, np.nan),
-                             curated_17=explained.get("curated", np.nan),
-                             ceiling=ceiling.removeprefix("lv_"), explainable_share=share))
+                             explained=(g["floor"].sum() - loss) / gap,
+                             ceiling=ceiling, explainable_share=share))
     out = pd.DataFrame(rows)
     ref = out.set_index(["stage", "target", "genes", "feature_set"])["explained"]
     out["random"] = [ref.get((r.stage, r.target, r.genes, "random_curated"), np.nan)
@@ -321,7 +326,6 @@ def main() -> None:
     het = pd.read_csv(TABLES / "heterogeneous_genes.tsv.gz", sep="\t",
                       usecols=["stage", "gene", "heterogeneous"])
     support = pd.read_csv(TABLES / "program_support.tsv", sep="\t")
-    previous = pd.read_csv(TABLES / "program_tests_prediction_genes.tsv.gz", sep="\t")
     genes, fid, n_features = [], [], {}
     for stage in STAGES:
         stage_het = set(het.loc[(het["stage"] == stage) & het["heterogeneous"], "gene"])
@@ -332,11 +336,11 @@ def main() -> None:
         print(stage, flush=True)
     per_gene = pd.concat(genes)
     per_gene.to_csv(TABLES / "program_levels_genes.tsv.gz", sep="\t", index=False,
-                    float_format="%.4g")
+                    float_format="%.4g", compression=GZIP)
     fid = pd.DataFrame(fid)
     fid.to_csv(TABLES / "program_levels_fidelity.tsv", sep="\t", index=False,
                float_format="%.4g")
-    summary = summarise(per_gene, previous, n_features)
+    summary = summarise(per_gene, n_features)
     summary.to_csv(TABLES / "program_levels.tsv", sep="\t", index=False, float_format="%.4g")
     report(summary, fid)
     plot(summary, fid)

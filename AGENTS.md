@@ -32,6 +32,14 @@ and a local macOS checkout.
   (`\graphicspath` includes it).
 - Bibliography entries: check against Crossref; normalise author names to
   NFC (Crossref returns combining accents that pdflatex rejects).
+- Figures and tables (main and supplementary) are numbered in the order the
+  text first refers to them; the appendix follows the same order. A figure
+  taller than ~70% of a page needs `[tbp]`, not `[t]` (otherwise it and all
+  later figures move to the end of the report).
+- Outputs are reproducible: `pipeline_utils` fixes the PDF creation date
+  (`SOURCE_DATE_EPOCH`), and versioned `.gz` tables are written with
+  `compression=GZIP` (no timestamp), so a rerun that changes nothing changes
+  no file. Keep it that way for new outputs.
 
 ## Environment
 
@@ -65,11 +73,13 @@ results (e.g. a new helper), mark the outputs as current with
 **Caching** (`pipeline_utils.cached`, `data/processed/cache/<script>/`): 17 and
 22 store every unit of work (coherence per stage and set, random-set quantiles
 per library, the prediction setup per stage, the losses per model) under a
-digest of its inputs, and every random draw has its own seed. A rerun after a
-change of the curated or control programs recomputes only those (minutes, not
-the full ~1 h); an interrupted run resumes. Increase a script's
-`CACHE_VERSION` when a code change changes cached results; delete the cache
-directory to start over.
+digest of its inputs, and every random draw has its own seed; an interrupted
+run resumes. A change of the curated or control programs recomputes only
+their coherence, but the whole prediction test of every stage whose program
+genes change (the evaluation genes are in no program, so they change too):
+about half an hour for 17 and 22 each. Increase a script's `CACHE_VERSION`
+when a code change changes cached results (17: `COHERENCE_VERSION` for the
+coherence part only); delete the cache directory to start over.
 
 | Script | Does | Needs | Time | Modes / caches |
 |---|---|---|---|---|
@@ -82,14 +92,14 @@ directory to start over.
 | `14_replicated_populations.py` | per-library clusters replicated in another library; tracks across stages | 01b, 01c | few min | `[stages]`, `--seed`, `--tag`, `--tracks-only` |
 | `15_alignment.py` | checks of the per-library alignment; UMAPs | 01b, 02 | ~20 min | `markers` (~2 min); cache `atlas_umap.tsv.gz` |
 | `16_program_sets.py` | program sets → `programs.tsv`, plus readable gene lists per set in `results/tables/program_sets/<set>.tsv` | 01b, 01c, ZFIN, `data/curated`, Farrell S2 | min | `tables` (rewrites the gene lists from `programs.tsv`) |
-| `17_program_tests.py` | coherence/support and prediction tests of the sets | 16 | cold ~20 min; cached runs seconds to minutes | `summarise`; cache `cache/17` |
+| `17_program_tests.py` | coherence/support (and relative coherence) and prediction tests of the sets (per stage and per library; explainable share per heterogeneity tier) | 01, 01b, 16 | cold ~1 h (coherence ~20 min); cached runs seconds to minutes | `summarise`; cache `cache/17` |
 | `18_program_populations.py` | populations in program space vs 14 | 14, 17 | few min | |
 | `19_program_atlas.py` | per-program UMAPs (exploration) | 14, 15, 17, 18, 25 | min | `plot`, `atlas`, `combined`; caches `program_{scores,active}.tsv.gz` |
 | `20_program_views.py` | dot plots, co-activity, tracks, genes (exploration) | 14, 19 | min | |
 | `21_signal_coupling.py` | signalling profiles vs programs (reading profiles: `signal_coupling`; all profiles: `signal_outputs`), with the expected senders, receivers and blockers as explicit hypotheses (AUROC on active cells; `HYPOTHESES`) | 17, 18 | few min | `plot` |
-| `22_program_levels.py` | discretised program levels in the prediction test | 17 | cold ~15 min; cached runs seconds to minutes | `summarise`; cache `cache/22` |
+| `22_program_levels.py` | discretised program levels in the prediction test (own evaluation genes: in no curated program, may be in other sets) | 17 | cold ~30 min; cached runs seconds to minutes | `summarise`; cache `cache/22` |
 | `23_signal_atlas.py` | readouts vs expected programs on the atlas (exploration) | 17, 18, 19, 21 | few min | `plot`; caches `signal_atlas_*` |
-| `24_program_overview.py` | report figures and tables: curated-program timeline (heterogeneous genes per stage vs the ZFIN window, derivations as indentation and arrows), programs per stage of the sets, Farrell modules named by the curated programs, the curated program table (from `data/curated/curated_programs.tsv`), the signalling evidence table and the genes removed to make the curated programs disjoint | 01b, 16 | seconds | |
+| `24_program_overview.py` | report figures and tables: curated-program timeline (heterogeneous genes per stage vs the ZFIN window, derivations as indentation and arrows), programs per stage of the sets, Farrell modules named by the curated programs, the curated program table (from `data/curated/curated_programs.tsv`), the signalling evidence table and the genes removed to make the curated programs disjoint; the relative-coherence map in the rows of the timeline | 01b, 16, 17 | seconds | |
 | `25_program_pseudobulk.py` | pseudobulk program strength per library (mean gene level relative to its peak, CP10k; the only library-level measure), in the layout of the timeline of 24 (squares) | 16, 24 | ~1 min | |
 
 Shared modules:
@@ -98,11 +108,11 @@ Shared modules:
   `nb_overdispersion` (per-gene NB dispersion vs the library's
   dispersion-mean trend phi_t(m) = a0 + a1 m^-b) and `pearson_residuals`
   (per-library residuals under that model, clipped at ±10, optionally
-  centred = the alignment), and the cache helpers (`digest`, `cached`,
-  `load_cached`, `save_cached`).
+  centred = the alignment), the cache helpers (`digest`, `cached`,
+  `load_cached`, `save_cached`) and `GZIP` (timestamp-free gzip for `to_csv`).
 - `program_utils.py`: kNN smoothing, the held-out prediction test (target:
   neighbourhood detection frequency only since 2026-10-29; floor /
-  feature sets / ceiling) and the Farrell et al. Table S2 loader (all 30
+  feature sets / ceiling; `fit_model_losses` keeps the loss per test cell) and the Farrell et al. Table S2 loader (all 30
   genes per module; reads `paper/aar3131_farrell_table-s2.xlsx`, not
   versioned).
 - `zfin_utils.py`: ZFIN records, stage hpf, symbol matching
@@ -112,7 +122,7 @@ Shared modules:
 Report sections: 3 dataset (01), 4 heterogeneous genes (01b–01d),
 5 a/b libraries (02, 03), 6 alignment (15), 7 programs: sets, structure,
 pseudobulk (16, 24, 25), 8 programs vs cells: support, prediction, levels
-(17, 22), 9 programs and signals (21), 10 populations (14, 18). 19, 20 and
+(17, 22; the coherence map is drawn by 24), 9 programs and signals (21), 10 populations (14, 18). 19, 20 and
 23 are exploration only.
 
 ## Conventions and conclusions that affect downstream work
@@ -134,8 +144,7 @@ pseudobulk (16, 24, 25), 8 programs vs cells: support, prediction, levels
   heterogeneous genes; a sanity check, mentioned once in the report),
   `signalling` (the curated signalling profiles as a set of their own,
   fixed), `states` (six cell states from the archived
-  literature table), `controls` (whole-organism genes, embryo-age genes from
-  adjacent stages of one batch, negative-control pathways and
+  literature table), `controls` (whole-organism genes, negative-control pathways and
   dissociation-stress genes, YSL; see 16's docstring) and **`curated`, the set
   used downstream**: ZFIN terms grouped by
   `data/curated/zfin_anatomy_programs.tsv` (column `program`; column
@@ -145,8 +154,7 @@ pseudobulk (16, 24, 25), 8 programs vs cells: support, prediction, levels
   needs >= 1/3 of the gene's publications at some stage), heterogeneous at
   >= 1 stage, ranked by mean tier over all stages, cap 30. The ZFIN window
   (stages with >= 3 recorded genes, `results/tables/curated_zfin_windows.tsv`)
-  is only compared with the data (boxes in the timeline of 24, dark squares
-  in 25). Plus the cell states (`state:`) and
+  is only compared with the data (boxes in the figures of 24 and 25). Plus the cell states (`state:`) and
   the signalling profiles, assigned per gene by the column `program` of
   `signalling_evidence.tsv`: general `signal:<pathway>` where readouts and
   ligands mark the same cells (Nodal, BMP, Wnt, FGF), otherwise
@@ -161,19 +169,25 @@ pseudobulk (16, 24, 25), 8 programs vs cells: support, prediction, levels
   sub-program column);
   removed genes in `results/tables/curated_removed_genes.tsv`. Dropped for lack of specific genes after that: `ventral_bmp` (ZFIN ventral mesoderm; the general BMP profile covers it), `floor_plate`, `head_mesoderm` and `hemato_vascular`; `presumptive_neural` is merged into `neural_plate` (`EXCLUDED_GROUPS` in 16). Genes can be assigned to a group by hand in `data/curated/gene_overrides.tsv` (gene, program, reason, references; keep it small and sourced): only `dharma` → dorsal organizer. ZFIN's maternal and blastomere terms
   are excluded (maternal records end before high; blastomere/blastoderm
-  records are led by ventral and EVL genes even before shield). A
-  stage-specific curated version was dropped on 2026-10-29. Yolk and YSL records are kept although the embryos
+  records are led by ventral and EVL genes even before shield). Yolk and YSL records are kept although the embryos
   were deyolked: as `control:YSL` in `controls` (the curated YSL group without
   any gene of the curated programs or other controls), and as terms in
   `zfin_*`; 01c still leaves them out of the heterogeneity
-  validation. In 17, `curated` and `controls` do not
-  choose the evaluation genes (the other sets do); evaluation genes are left
-  out of their programs instead, so changing them keeps the cache valid.
+  validation.
 - **Program score** = mean centred Pearson residual of its genes;
   **supported** = coherent (vs the 95% quantile of 500 random sets of
   heterogeneous genes) in >= half of the stage's libraries; **active** =
   smoothed score above the 99.9% quantile of a gene-wise permutation null
-  in the library.
+  in the library; **relative coherence** = (R - median) / (95% quantile -
+  median) of the random sets (0 = random heterogeneous genes, 1 = the
+  threshold), median over the stage's libraries: descriptive, for trends
+  below the threshold.
+- **Prediction test** (17): evaluation genes are in no program of any set,
+  so no set predicts its own genes; losses are summed per stage and per
+  library. 22 tests only the curated programs, so its evaluation genes need
+  to be in no curated program only (more and stronger genes); its explained
+  fractions are therefore not those of 17. With few heterogeneous
+  evaluation genes (shield: 49 in 17) the test has little to explain.
 - **Populations** (14): robust = found at >= 2 Leiden resolutions;
   single-library stages (dome, shield, 3-somite) are matched against adjacent
   stages, which is weaker evidence.
@@ -182,9 +196,17 @@ pseudobulk (16, 24, 25), 8 programs vs cells: support, prediction, levels
   as RA blocking; dhrs3b was dropped: no evidence); nkd1 and nrarpb
   are also BMP targets. Since the curated programs are disjoint, 21 and 23
   compare them directly.
-- Removed on 2026-10-28 (never committed): scripts 04–13 (first program
-  scoring, cNMF, early prediction tests). Backup in
-  `data/processed/archive/old_program_analyses_2026-10-28.tar.gz`.
+- **Tried and dropped** (do not reintroduce without a new reason):
+  scripts 04–13 (first program scoring, cNMF, early prediction tests;
+  removed 2026-10-28, never committed, backup in
+  `data/processed/archive/old_program_analyses_2026-10-28.tar.gz`); a
+  stage-specific curated set (2026-10-29); embryo-age controls (genes
+  changing between adjacent stages of one batch; 2026-11-01: few genes,
+  none from 60% epiboly to bud, and the only coherent list was the
+  si:ch211-113a14 gene family, not age); a per-library prediction script
+  (merged into 17); keeping a gene shared along a derivation only in the
+  derived program (the parent programs lost their markers, e.g. the margin
+  27 of 30 genes).
 
 ## Data
 

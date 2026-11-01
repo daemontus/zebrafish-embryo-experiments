@@ -3,7 +3,7 @@
 # out of date, in order. `make -n <target>` lists what would run.
 #
 #   make heterogeneity   01-03 (dataset, heterogeneous genes, a/b libraries)
-#   make programs        16, 17, 21, 22, 24 (program sets and their tests)
+#   make programs        16, 17, 21, 22, 24, 25 (program sets and their tests)
 #   make populations     14, 15, 18, 19, 20, 23
 #   make report          the report PDF (copied to report/main.pdf)
 #   make all             everything
@@ -51,7 +51,8 @@ $(T)/programs.tsv: $(S)/16_program_sets.py $(S)/01c_heterogeneity_zfin.py $(S)/z
 		data/curated/curated_programs.tsv data/curated/gene_overrides.tsv $(wildcard data/curated/archive/*.tsv)
 	$(PY) $<
 $(T)/program_support.tsv: $(S)/17_program_tests.py $(S)/program_utils.py $(UTILS) \
-		$(T)/programs.tsv $(T)/heterogeneous_genes.tsv.gz
+		$(T)/programs.tsv $(T)/heterogeneous_genes.tsv.gz $(T)/libraries.tsv \
+		$(T)/heterogeneity_libraries.tsv
 	$(PY) $<
 $(T)/signal_coupling.tsv: $(S)/21_signal_coupling.py $(S)/18_program_populations.py \
 		$(S)/14_replicated_populations.py $(S)/program_utils.py $(UTILS) \
@@ -62,7 +63,7 @@ $(T)/program_levels.tsv: $(S)/22_program_levels.py $(S)/17_program_tests.py \
 	$(PY) $<
 $(T)/program_overlap.tsv: $(S)/24_program_overview.py $(S)/16_program_sets.py $(UTILS) \
 		$(T)/programs.tsv $(T)/heterogeneous_genes.tsv.gz data/curated/curated_programs.tsv \
-		data/curated/signalling_evidence.tsv
+		data/curated/signalling_evidence.tsv $(T)/program_support.tsv
 	$(PY) $<
 $(T)/program_pseudobulk.tsv: $(S)/25_program_pseudobulk.py $(S)/24_program_overview.py \
 		$(UTILS) $(T)/programs.tsv data/curated/curated_programs.tsv

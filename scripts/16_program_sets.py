@@ -78,17 +78,14 @@ per stage). Sets:
                    (< MIN_UMIS) are left out; otherwise the list is fixed.
   controls         programs that should not describe cell identity:
                    whole_organism (genes ZFIN records only in the whole embryo
-                   from high to shield; uniform expression expected) and
-                   age_older / age_younger (genes higher at the later / earlier
-                   of two adjacent stages of the same sequencing batch, so that
-                   batch effects do not enter; coherent within a library only
-                   if its embryos differ in age), and the readouts of pathways
+                   from high to shield; uniform expression expected), the
+                   readouts of pathways
                    that should be inactive or uniform at these stages
                    (interferon, AhR, glucocorticoid, circadian clock) or that
                    flag dissociation stress, and YSL (the curated YSL group,
                    without the genes of curated programs and other controls;
                    the embryos were deyolked). See whole_organism_program,
-                   age_programs and pathway_controls.
+                   and pathway_controls.
 Every set is restricted to genes with at least MIN_UMIS UMIs in the stage and
 capped at CAP genes per program (most publications first; Farrell et al.:
 highest weight first; curated: see above).
@@ -161,11 +158,8 @@ EXCLUDED_GROUPS = ["(broad)", "program", "maternal", "blastomere", "ventral_bmp"
                    "hemato_vascular", "head_mesoderm"]
 CURATED_YOLK_GROUPS = ["YSL"]
 # Control programs (set `controls`): genes ZFIN records only in the whole
-# organism (high to WHOLE_ORGANISM_END), and genes that change between a stage
-# and an adjacent stage of the same sequencing batch (embryo age).
+# organism (high to WHOLE_ORGANISM_END).
 WHOLE_ORGANISM_END = "shield"
-AGE_MAX_STEPS = 2  # adjacent stage of the same batch at most this many stages away
-AGE_MIN_LOG2FC = 1.0  # > 2-fold in every pair of libraries, as in script 03
 # Record kinds (01c) of the zfin_* term sets: the yolk and YSL terms are kept as
 # a negative control.
 ZFIN_KINDS = ("restricted", "yolk")
@@ -174,7 +168,7 @@ SETS = ["farrell", "zfin_all", "zfin_all_het", "zfin_pre_het", "signalling", "st
 # How a set's programs relate across stages (column of the report table).
 ACROSS_STAGES = {"farrell": "new per stage", "zfin_all": "per stage", "zfin_all_het": "per stage",
                  "zfin_pre_het": "per stage", "signalling": "fixed", "states": "fixed",
-                 "curated": "fixed", "controls": "fixed (age: per stage)"}
+                 "curated": "fixed", "controls": "fixed"}
 TIERS = ["weak", "moderate", "strong"]
 
 
@@ -377,59 +371,6 @@ def whole_organism_program(records: pd.DataFrame, measured: dict[str, set]) -> p
         stage=s, program="control:whole_organism") for s in window], ignore_index=True)
 
 
-def age_programs(adata, measured: dict[str, set], identity: set) -> pd.DataFrame:
-    """Control: genes that change with developmental time, per stage. The
-    reference is the nearest stage of the same sequencing batch (at most
-    AGE_MAX_STEPS stages away, the later one if both are equally near); a gene
-    is "older" (higher at the later stage) or "younger" if every library of
-    the stage differs from every library of the reference of the same batch by
-    more than AGE_MIN_LOG2FC, in the same direction (pseudobulk per 10,000
-    UMIs + 1; ribosomal protein genes and the genes of the curated programs
-    (`identity`: genes that change with time because a tissue appears, and
-    the state genes) left out). Ranked by the smallest fold change;
-    stage-specific gene lists (a control, not an identity program); none with
-    fewer than MIN_GENES genes."""
-    obs = adata.obs
-    lib_stage = obs.groupby("library", observed=True)["stage"].first().astype(str)
-    lib_batch = obs.groupby("library", observed=True)["sequencing_batch"].first().astype(str)
-    X = adata.X.tocsr()
-    library = obs["library"].astype(str).to_numpy()
-    bulk = {}
-    for lib in lib_stage.index:
-        rows = library == lib
-        bulk[lib] = np.asarray(X[rows].sum(axis=0)).ravel() / X[rows].sum() * 1e4
-    bulk = pd.DataFrame(bulk, index=adata.var_names)
-    ribo = adata.var_names.str.match(r"^RP[LS]\d")
-    out = []
-    for i, stage in enumerate(STAGES):
-        batches = set(lib_batch[lib_stage == stage])
-        candidates = []
-        for j, other in enumerate(STAGES):
-            same = set(lib_batch[lib_stage == other]) & batches
-            if j != i and abs(j - i) <= AGE_MAX_STEPS and same:
-                candidates.append((abs(j - i), -j, other, same))
-        if not candidates:
-            continue
-        _, _, ref, same = min(candidates)
-        later = STAGES.index(ref) > i
-        fcs = []
-        for b in same:
-            for a in lib_stage.index[(lib_stage == stage) & (lib_batch == b)]:
-                for r in lib_stage.index[(lib_stage == ref) & (lib_batch == b)]:
-                    fc = np.log2((bulk[r] + 1) / (bulk[a] + 1))
-                    fcs.append(fc if later else -fc)  # > 0: higher at the later stage
-        fcs = pd.concat(fcs, axis=1)
-        for name, sign in (("control:age_older", 1), ("control:age_younger", -1)):
-            low = (sign * fcs).min(axis=1)
-            genes = low[(low > AGE_MIN_LOG2FC) & ~ribo].sort_values(ascending=False)
-            genes = [g for g in genes.index if g in measured[stage] and g not in identity]
-            if len(genes) < MIN_GENES:
-                continue
-            out.append(pd.DataFrame(dict(gene=genes, rank=np.arange(1, len(genes) + 1),
-                                         stage=stage, program=name, reference=ref)))
-    return pd.concat(out, ignore_index=True)
-
-
 def finish_controls(t: pd.DataFrame) -> pd.DataFrame:
     t = t.copy()
     t["set"] = "controls"
@@ -591,9 +532,7 @@ def main() -> None:
     ysl = fixed_group_programs(ysl, measured)
     ysl["program"] = "control:" + ysl["program"]
     parts += [finish_controls(pd.concat([whole_organism_program(records["all"], measured),
-                                         ysl,
-                                         age_programs(adata, measured, identity),
-                                         pathway_controls(measured)]))]
+                                         ysl, pathway_controls(measured)]))]
     long = pd.concat([p for p in parts if not p.empty], ignore_index=True)
     long = long[["set", "stage", "program", "gene", "weight", "pubs", "tier", "rank", "kept"]]
     long.to_csv(TABLES / "programs.tsv", sep="\t", index=False, float_format="%.4g")

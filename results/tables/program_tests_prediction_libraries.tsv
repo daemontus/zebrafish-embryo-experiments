@@ -1,0 +1,897 @@
+stage	target	genes	feature_set	n_eval_genes	n_programs	explained	ceiling	explainable_share	random	beyond_random	library	test_cells
+high	neighbourhood	all	farrell	400	10		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	zfin_all	400	2		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	zfin_all_het	400	2		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	zfin_pre_het	400	2		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	signalling	400	9		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	states	400	6		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	curated	400	39		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	controls	400	6		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	curated_supported	400	4		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	random_farrell	400	10		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	random_zfin	400	2		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	random_zfin_het	400	2		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	random_curated	400	39		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	pcs	400	30		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	all	400	79		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	knn	400	0		zfin_all	-0.001913			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	farrell	62	10		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	zfin_all	62	2		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	zfin_all_het	62	2		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	zfin_pre_het	62	2		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	signalling	62	9		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	states	62	6		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	curated	62	39		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	controls	62	6		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	curated_supported	62	4		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	random_farrell	62	10		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	random_zfin	62	2		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	random_zfin_het	62	2		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	random_curated	62	39		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	pcs	62	30		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	all	62	79		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	heterogeneous	knn	62	0		farrell	0.0151			ZFHIGH_WT_DS5	79
+high	neighbourhood	all	farrell	400	10		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	all	zfin_all	400	2		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	all	zfin_all_het	400	2		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	all	zfin_pre_het	400	2		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	all	signalling	400	9		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	all	states	400	6		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	all	curated	400	39		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	all	controls	400	6		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	all	curated_supported	400	4		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	all	random_farrell	400	10		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	all	random_zfin	400	2		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	all	random_zfin_het	400	2		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	all	random_curated	400	39		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	all	pcs	400	30		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	all	all	400	79		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	all	knn	400	0		zfin_all	-0.01008			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	farrell	62	10		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	zfin_all	62	2		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	zfin_all_het	62	2		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	zfin_pre_het	62	2		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	signalling	62	9		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	states	62	6		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	curated	62	39		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	controls	62	6		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	curated_supported	62	4		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	random_farrell	62	10		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	random_zfin	62	2		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	random_zfin_het	62	2		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	random_curated	62	39		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	pcs	62	30		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	all	62	79		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+high	neighbourhood	heterogeneous	knn	62	0		farrell	-0.01444			ZFHIGH_WT_DS5b	15
+oblong	neighbourhood	all	farrell	400	11		zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	zfin_all	400	1		zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	zfin_all_het	400			zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	zfin_pre_het	400			zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	signalling	400	9		zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	states	400	6		zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	curated	400	39		zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	controls	400	6		zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	curated_supported	400	4		zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	random_farrell	400	11		zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	random_zfin	400	1		zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	random_zfin_het	400			zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	random_curated	400	39		zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	pcs	400	30		zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	all	400	80		zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	knn	400	0		zfin_all	-0.001703			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	farrell	28	11		random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	zfin_all	28	1		random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	zfin_all_het	28			random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	zfin_pre_het	28			random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	signalling	28	9		random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	states	28	6		random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	curated	28	39		random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	controls	28	6		random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	curated_supported	28	4		random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	random_farrell	28	11		random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	random_zfin	28	1		random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	random_zfin_het	28			random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	random_curated	28	39		random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	pcs	28	30		random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	all	28	80		random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	heterogeneous	knn	28	0		random_zfin	0.01219			ZFOBLONG_WT_DS5	22
+oblong	neighbourhood	all	farrell	400	11		zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	all	zfin_all	400	1		zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	all	zfin_all_het	400			zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	all	zfin_pre_het	400			zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	all	signalling	400	9		zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	all	states	400	6		zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	all	curated	400	39		zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	all	controls	400	6		zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	all	curated_supported	400	4		zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	all	random_farrell	400	11		zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	all	random_zfin	400	1		zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	all	random_zfin_het	400			zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	all	random_curated	400	39		zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	all	pcs	400	30		zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	all	all	400	80		zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	all	knn	400	0		zfin_all	-0.005255			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	farrell	28	11		random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	zfin_all	28	1		random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	zfin_all_het	28			random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	zfin_pre_het	28			random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	signalling	28	9		random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	states	28	6		random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	curated	28	39		random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	controls	28	6		random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	curated_supported	28	4		random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	random_farrell	28	11		random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	random_zfin	28	1		random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	random_zfin_het	28			random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	random_curated	28	39		random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	pcs	28	30		random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	all	28	80		random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+oblong	neighbourhood	heterogeneous	knn	28	0		random_zfin	-0.009254			ZFOBLONG_WT_DS5b	38
+dome	neighbourhood	all	farrell	400	17		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	all	zfin_all	400	8		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	all	zfin_all_het	400	7		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	all	zfin_pre_het	400	6		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	all	signalling	400	11		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	all	states	400	6		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	all	curated	400	41		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	all	controls	400	7		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	all	curated_supported	400	3		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	all	random_farrell	400	17		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	all	random_zfin	400	8		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	all	random_zfin_het	400	7		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	all	random_curated	400	41		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	all	pcs	400	30		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	all	all	400	88		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	all	knn	400	0		farrell	0.03628			ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	farrell	119	17	1	farrell	0.3288	0.8897	1	ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	zfin_all	119	8	0.9448	farrell	0.3288	0.5844	0.8672	ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	zfin_all_het	119	7	0.9587	farrell	0.3288	0.7683	0.8218	ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	zfin_pre_het	119	6	0.9582	farrell	0.3288	0.7683	0.8195	ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	signalling	119	11	0.9247	farrell	0.3288			ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	states	119	6	0.7978	farrell	0.3288			ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	curated	119	41	0.9574	farrell	0.3288	0.8934	0.6009	ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	controls	119	7	0.8341	farrell	0.3288			ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	curated_supported	119	3	0.9426	farrell	0.3288	0.8934	0.4617	ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	random_farrell	119	17	0.8897	farrell	0.3288			ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	random_zfin	119	8	0.5844	farrell	0.3288			ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	random_zfin_het	119	7	0.7683	farrell	0.3288			ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	random_curated	119	41	0.8934	farrell	0.3288			ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	pcs	119	30	0.9727	farrell	0.3288			ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	all	119	88	0.9601	farrell	0.3288			ZFDOME_WT_DS5	353
+dome	neighbourhood	heterogeneous	knn	119	0	0.7739	farrell	0.3288			ZFDOME_WT_DS5	353
+30% epiboly	neighbourhood	all	farrell	400	15		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	zfin_all	400	13		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	zfin_all_het	400	11		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	zfin_pre_het	400	11		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	signalling	400	12		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	states	400	6		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	curated	400	42		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	controls	400	6		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	curated_supported	400	4		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	random_farrell	400	15		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	random_zfin	400	13		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	random_zfin_het	400	11		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	random_curated	400	42		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	pcs	400	30		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	all	400	87		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	knn	400	0		curated_supported	0.02224			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	farrell	119	15	1	farrell	0.328	0.9149	1	ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	zfin_all	119	13	1.001	farrell	0.328	0.7421	1.004	ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	zfin_all_het	119	11	1.004	farrell	0.328	0.7879	1.017	ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	zfin_pre_het	119	11	1.003	farrell	0.328	0.7879	1.014	ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	signalling	119	12	0.9416	farrell	0.328			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	states	119	6	0.9204	farrell	0.328			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	curated	119	42	0.9791	farrell	0.328	0.9375	0.6662	ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	controls	119	6	0.85	farrell	0.328			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	curated_supported	119	4	1.004	farrell	0.328	0.9375	1.063	ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	random_farrell	119	15	0.9149	farrell	0.328			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	random_zfin	119	13	0.7421	farrell	0.328			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	random_zfin_het	119	11	0.7879	farrell	0.328			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	random_curated	119	42	0.9375	farrell	0.328			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	pcs	119	30	1.001	farrell	0.328			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	all	119	87	0.9849	farrell	0.328			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	heterogeneous	knn	119	0	0.7284	farrell	0.328			ZF30_WT_DS5	134
+30% epiboly	neighbourhood	all	farrell	400	15		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	all	zfin_all	400	13		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	all	zfin_all_het	400	11		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	all	zfin_pre_het	400	11		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	all	signalling	400	12		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	all	states	400	6		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	all	curated	400	42		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	all	controls	400	6		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	all	curated_supported	400	4		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	all	random_farrell	400	15		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	all	random_zfin	400	13		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	all	random_zfin_het	400	11		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	all	random_curated	400	42		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	all	pcs	400	30		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	all	all	400	87		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	all	knn	400	0		curated_supported	0.02141			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	farrell	119	15	1	farrell	0.315	0.935	1	ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	zfin_all	119	13	0.9905	farrell	0.315	0.7559	0.9609	ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	zfin_all_het	119	11	0.9903	farrell	0.315	0.8519	0.9347	ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	zfin_pre_het	119	11	0.9903	farrell	0.315	0.8519	0.9345	ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	signalling	119	12	0.9399	farrell	0.315			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	states	119	6	0.8642	farrell	0.315			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	curated	119	42	0.9661	farrell	0.315	0.8875	0.6987	ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	controls	119	6	0.8157	farrell	0.315			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	curated_supported	119	4	0.9814	farrell	0.315	0.8875	0.8349	ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	random_farrell	119	15	0.935	farrell	0.315			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	random_zfin	119	13	0.7559	farrell	0.315			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	random_zfin_het	119	11	0.8519	farrell	0.315			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	random_curated	119	42	0.8875	farrell	0.315			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	pcs	119	30	0.9585	farrell	0.315			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	all	119	87	0.9433	farrell	0.315			ZF30_WT_DS5b	318
+30% epiboly	neighbourhood	heterogeneous	knn	119	0	0.7685	farrell	0.315			ZF30_WT_DS5b	318
+50% epiboly	neighbourhood	all	farrell	400	20		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	zfin_all	400	25		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	zfin_all_het	400	25		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	zfin_pre_het	400	25		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	signalling	400	13		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	states	400	6		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	curated	400	44		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	controls	400	7		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	curated_supported	400	4		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	random_farrell	400	20		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	random_zfin	400	25		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	random_zfin_het	400	25		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	random_curated	400	44		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	pcs	400	30		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	all	400	94		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	knn	400	0		pcs	0.02694			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	farrell	179	20	0.9719	pcs	0.2957	0.9126	0.679	ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	zfin_all	179	25	0.9481	pcs	0.2957	0.8474	0.66	ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	zfin_all_het	179	25	0.9694	pcs	0.2957	0.8523	0.7929	ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	zfin_pre_het	179	25	0.9698	pcs	0.2957	0.8523	0.7957	ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	signalling	179	13	0.8711	pcs	0.2957			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	states	179	6	0.8698	pcs	0.2957			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	curated	179	44	0.9538	pcs	0.2957	0.8651	0.6571	ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	controls	179	7	0.6907	pcs	0.2957			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	curated_supported	179	4	0.9439	pcs	0.2957	0.8651	0.5843	ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	random_farrell	179	20	0.9126	pcs	0.2957			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	random_zfin	179	25	0.8474	pcs	0.2957			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	random_zfin_het	179	25	0.8523	pcs	0.2957			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	random_curated	179	44	0.8651	pcs	0.2957			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	pcs	179	30	1	pcs	0.2957			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	all	179	94	0.9491	pcs	0.2957			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	heterogeneous	knn	179	0	0.6814	pcs	0.2957			ZF50_WT_DS2	386
+50% epiboly	neighbourhood	all	farrell	400	20		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	zfin_all	400	25		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	zfin_all_het	400	25		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	zfin_pre_het	400	25		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	signalling	400	13		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	states	400	6		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	curated	400	44		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	controls	400	7		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	curated_supported	400	4		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	random_farrell	400	20		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	random_zfin	400	25		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	random_zfin_het	400	25		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	random_curated	400	44		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	pcs	400	30		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	all	400	94		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	knn	400	0		pcs	0.03106			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	farrell	179	20	0.9612	pcs	0.3135	0.8932	0.6364	ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	zfin_all	179	25	0.9692	pcs	0.3135	0.846	0.7998	ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	zfin_all_het	179	25	0.9776	pcs	0.3135	0.8015	0.8873	ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	zfin_pre_het	179	25	0.9785	pcs	0.3135	0.8015	0.8915	ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	signalling	179	13	0.7994	pcs	0.3135			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	states	179	6	0.7495	pcs	0.3135			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	curated	179	44	0.9724	pcs	0.3135	0.8477	0.8187	ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	controls	179	7	0.679	pcs	0.3135			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	curated_supported	179	4	0.8866	pcs	0.3135	0.8477	0.255	ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	random_farrell	179	20	0.8932	pcs	0.3135			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	random_zfin	179	25	0.846	pcs	0.3135			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	random_zfin_het	179	25	0.8015	pcs	0.3135			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	random_curated	179	44	0.8477	pcs	0.3135			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	pcs	179	30	1	pcs	0.3135			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	all	179	94	0.9911	pcs	0.3135			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	heterogeneous	knn	179	0	0.6792	pcs	0.3135			ZF50_WT_DS3	429
+50% epiboly	neighbourhood	all	farrell	400	20		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	zfin_all	400	25		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	zfin_all_het	400	25		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	zfin_pre_het	400	25		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	signalling	400	13		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	states	400	6		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	curated	400	44		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	controls	400	7		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	curated_supported	400	4		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	random_farrell	400	20		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	random_zfin	400	25		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	random_zfin_het	400	25		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	random_curated	400	44		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	pcs	400	30		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	all	400	94		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	knn	400	0		pcs	0.0385			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	farrell	179	20	0.9697	pcs	0.2564	0.8917	0.7199	ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	zfin_all	179	25	0.9201	pcs	0.2564	0.8176	0.5617	ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	zfin_all_het	179	25	0.9188	pcs	0.2564	0.797	0.6003	ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	zfin_pre_het	179	25	0.9297	pcs	0.2564	0.797	0.6536	ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	signalling	179	13	0.7944	pcs	0.2564			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	states	179	6	0.8118	pcs	0.2564			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	curated	179	44	0.9552	pcs	0.2564	0.8511	0.6994	ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	controls	179	7	0.6169	pcs	0.2564			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	curated_supported	179	4	0.8677	pcs	0.2564	0.8511	0.1118	ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	random_farrell	179	20	0.8917	pcs	0.2564			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	random_zfin	179	25	0.8176	pcs	0.2564			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	random_zfin_het	179	25	0.797	pcs	0.2564			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	random_curated	179	44	0.8511	pcs	0.2564			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	pcs	179	30	1	pcs	0.2564			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	all	179	94	0.9973	pcs	0.2564			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	heterogeneous	knn	179	0	0.6372	pcs	0.2564			ZF50_WT_DS4	471
+50% epiboly	neighbourhood	all	farrell	400	20		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	all	zfin_all	400	25		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	all	zfin_all_het	400	25		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	all	zfin_pre_het	400	25		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	all	signalling	400	13		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	all	states	400	6		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	all	curated	400	44		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	all	controls	400	7		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	all	curated_supported	400	4		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	all	random_farrell	400	20		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	all	random_zfin	400	25		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	all	random_zfin_het	400	25		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	all	random_curated	400	44		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	all	pcs	400	30		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	all	all	400	94		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	all	knn	400	0		pcs	0.03892			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	farrell	179	20	0.9904	pcs	0.3443	0.921	0.8792	ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	zfin_all	179	25	0.9432	pcs	0.3443	0.8316	0.663	ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	zfin_all_het	179	25	0.9529	pcs	0.3443	0.8725	0.6305	ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	zfin_pre_het	179	25	0.9553	pcs	0.3443	0.8725	0.6494	ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	signalling	179	13	0.7448	pcs	0.3443			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	states	179	6	0.8228	pcs	0.3443			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	curated	179	44	0.9698	pcs	0.3443	0.9005	0.6967	ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	controls	179	7	0.4909	pcs	0.3443			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	curated_supported	179	4	0.9211	pcs	0.3443	0.9005	0.2071	ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	random_farrell	179	20	0.921	pcs	0.3443			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	random_zfin	179	25	0.8316	pcs	0.3443			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	random_zfin_het	179	25	0.8725	pcs	0.3443			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	random_curated	179	44	0.9005	pcs	0.3443			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	pcs	179	30	1	pcs	0.3443			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	all	179	94	0.9894	pcs	0.3443			ZF50_WT_DS4b	474
+50% epiboly	neighbourhood	heterogeneous	knn	179	0	0.7038	pcs	0.3443			ZF50_WT_DS4b	474
+shield	neighbourhood	all	farrell	400	25		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	all	zfin_all	400	35		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	all	zfin_all_het	400	31		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	all	zfin_pre_het	400	30		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	all	signalling	400	13		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	all	states	400	6		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	all	curated	400	43		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	all	controls	400	5		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	all	curated_supported	400	8		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	all	random_farrell	400	25		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	all	random_zfin	400	35		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	all	random_zfin_het	400	31		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	all	random_curated	400	43		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	all	pcs	400	30		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	all	all	400	98		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	all	knn	400	0		curated_supported	0.001673			ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	farrell	49	25	0.9227	curated_supported	0.05813	0.6537	0.7768	ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	zfin_all	49	35	0.8565	curated_supported	0.05813	0.5244	0.6984	ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	zfin_all_het	49	31	0.9288	curated_supported	0.05813	0.2813	0.9009	ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	zfin_pre_het	49	30	0.9332	curated_supported	0.05813	0.2813	0.9071	ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	signalling	49	13	0.4078	curated_supported	0.05813			ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	states	49	6	0.7254	curated_supported	0.05813			ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	curated	49	43	0.8431	curated_supported	0.05813	0.3252	0.7675	ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	controls	49	5	-0.1764	curated_supported	0.05813			ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	curated_supported	49	8	1	curated_supported	0.05813	0.3252	1	ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	random_farrell	49	25	0.6537	curated_supported	0.05813			ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	random_zfin	49	35	0.5244	curated_supported	0.05813			ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	random_zfin_het	49	31	0.2813	curated_supported	0.05813			ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	random_curated	49	43	0.3252	curated_supported	0.05813			ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	pcs	49	30	0.8057	curated_supported	0.05813			ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	all	49	98	0.6554	curated_supported	0.05813			ZFS_WT_DS5	314
+shield	neighbourhood	heterogeneous	knn	49	0	0.6713	curated_supported	0.05813			ZFS_WT_DS5	314
+60% epiboly	neighbourhood	all	farrell	400	25	0.9619	pcs	0.04625	0.6968	0.8744	ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	zfin_all	400	36	0.8827	pcs	0.04625	0.582	0.7193	ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	zfin_all_het	400	34	0.9023	pcs	0.04625	0.6233	0.7407	ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	zfin_pre_het	400	33	0.8998	pcs	0.04625	0.6233	0.7341	ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	signalling	400	13	0.6782	pcs	0.04625			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	states	400	6	0.5571	pcs	0.04625			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	curated	400	44	0.8842	pcs	0.04625	0.5379	0.7495	ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	controls	400	5	0.09648	pcs	0.04625			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	curated_supported	400	26	0.8792	pcs	0.04625	0.5379	0.7386	ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	random_farrell	400	25	0.6968	pcs	0.04625			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	random_zfin	400	36	0.582	pcs	0.04625			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	random_zfin_het	400	34	0.6233	pcs	0.04625			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	random_curated	400	44	0.5379	pcs	0.04625			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	pcs	400	30	1	pcs	0.04625			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	all	400	99	0.9128	pcs	0.04625			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	knn	400	0	0.248	pcs	0.04625			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	farrell	137	25	0.9919	pcs	0.2709	0.9	0.9187	ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	zfin_all	137	36	0.9721	pcs	0.2709	0.8452	0.8196	ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	zfin_all_het	137	34	0.9829	pcs	0.2709	0.8582	0.8797	ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	zfin_pre_het	137	33	0.9842	pcs	0.2709	0.8582	0.8887	ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	signalling	137	13	0.8423	pcs	0.2709			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	states	137	6	0.7535	pcs	0.2709			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	curated	137	44	0.9808	pcs	0.2709	0.8601	0.863	ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	controls	137	5	0.1514	pcs	0.2709			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	curated_supported	137	26	0.9895	pcs	0.2709	0.8601	0.9247	ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	random_farrell	137	25	0.9	pcs	0.2709			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	random_zfin	137	36	0.8452	pcs	0.2709			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	random_zfin_het	137	34	0.8582	pcs	0.2709			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	random_curated	137	44	0.8601	pcs	0.2709			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	pcs	137	30	1	pcs	0.2709			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	all	137	99	0.9824	pcs	0.2709			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	heterogeneous	knn	137	0	0.6582	pcs	0.2709			ZF60_WT_DS2	437
+60% epiboly	neighbourhood	all	farrell	400	25	0.9495	pcs	0.04705	0.6833	0.8404	ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	zfin_all	400	36	0.8607	pcs	0.04705	0.6039	0.6484	ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	zfin_all_het	400	34	0.868	pcs	0.04705	0.6012	0.669	ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	zfin_pre_het	400	33	0.858	pcs	0.04705	0.6012	0.644	ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	signalling	400	13	0.633	pcs	0.04705			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	states	400	6	0.5151	pcs	0.04705			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	curated	400	44	0.9246	pcs	0.04705	0.544	0.8347	ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	controls	400	5	0.1153	pcs	0.04705			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	curated_supported	400	26	0.9098	pcs	0.04705	0.544	0.8023	ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	random_farrell	400	25	0.6833	pcs	0.04705			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	random_zfin	400	36	0.6039	pcs	0.04705			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	random_zfin_het	400	34	0.6012	pcs	0.04705			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	random_curated	400	44	0.544	pcs	0.04705			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	pcs	400	30	1	pcs	0.04705			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	all	400	99	0.9591	pcs	0.04705			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	knn	400	0	0.2188	pcs	0.04705			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	farrell	137	25	0.9784	pcs	0.2633	0.8331	0.8707	ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	zfin_all	137	36	0.9524	pcs	0.2633	0.8011	0.7607	ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	zfin_all_het	137	34	0.951	pcs	0.2633	0.8092	0.7434	ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	zfin_pre_het	137	33	0.9512	pcs	0.2633	0.8092	0.7441	ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	signalling	137	13	0.7207	pcs	0.2633			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	states	137	6	0.6058	pcs	0.2633			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	curated	137	44	0.9682	pcs	0.2633	0.7657	0.8641	ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	controls	137	5	0.1543	pcs	0.2633			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	curated_supported	137	26	0.9535	pcs	0.2633	0.7657	0.8017	ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	random_farrell	137	25	0.8331	pcs	0.2633			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	random_zfin	137	36	0.8011	pcs	0.2633			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	random_zfin_het	137	34	0.8092	pcs	0.2633			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	random_curated	137	44	0.7657	pcs	0.2633			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	pcs	137	30	1	pcs	0.2633			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	all	137	99	0.9912	pcs	0.2633			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	heterogeneous	knn	137	0	0.6231	pcs	0.2633			ZF60_WT_DS3	383
+60% epiboly	neighbourhood	all	farrell	400	25		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	all	zfin_all	400	36		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	all	zfin_all_het	400	34		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	all	zfin_pre_het	400	33		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	all	signalling	400	13		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	all	states	400	6		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	all	curated	400	44		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	all	controls	400	5		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	all	curated_supported	400	26		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	all	random_farrell	400	25		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	all	random_zfin	400	36		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	all	random_zfin_het	400	34		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	all	random_curated	400	44		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	all	pcs	400	30		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	all	all	400	99		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	all	knn	400	0		pcs	0.03345			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	farrell	137	25	1.001	pcs	0.2431	0.883	1.009	ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	zfin_all	137	36	0.9544	pcs	0.2431	0.7923	0.7806	ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	zfin_all_het	137	34	0.9721	pcs	0.2431	0.8047	0.8573	ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	zfin_pre_het	137	33	0.9745	pcs	0.2431	0.8047	0.8697	ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	signalling	137	13	0.7686	pcs	0.2431			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	states	137	6	0.6375	pcs	0.2431			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	curated	137	44	0.9677	pcs	0.2431	0.8132	0.8273	ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	controls	137	5	0.09823	pcs	0.2431			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	curated_supported	137	26	0.9669	pcs	0.2431	0.8132	0.8227	ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	random_farrell	137	25	0.883	pcs	0.2431			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	random_zfin	137	36	0.7923	pcs	0.2431			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	random_zfin_het	137	34	0.8047	pcs	0.2431			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	random_curated	137	44	0.8132	pcs	0.2431			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	pcs	137	30	1	pcs	0.2431			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	all	137	99	0.9807	pcs	0.2431			ZF60_WT_DS4	441
+60% epiboly	neighbourhood	heterogeneous	knn	137	0	0.6667	pcs	0.2431			ZF60_WT_DS4	441
+75% epiboly	neighbourhood	all	farrell	400	24	0.8986	pcs	0.04057	0.6311	0.7252	ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	zfin_all	400	43	0.856	pcs	0.04057	0.5043	0.7095	ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	zfin_all_het	400	40	0.871	pcs	0.04057	0.5515	0.7124	ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	zfin_pre_het	400	40	0.8657	pcs	0.04057	0.5515	0.7005	ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	signalling	400	14	0.5872	pcs	0.04057			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	states	400	6	0.3856	pcs	0.04057			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	curated	400	45	0.8837	pcs	0.04057	0.3692	0.8156	ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	controls	400	5	0.07194	pcs	0.04057			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	curated_supported	400	26	0.8645	pcs	0.04057	0.3692	0.7851	ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	random_farrell	400	24	0.6311	pcs	0.04057			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	random_zfin	400	43	0.5043	pcs	0.04057			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	random_zfin_het	400	40	0.5515	pcs	0.04057			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	random_curated	400	45	0.3692	pcs	0.04057			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	pcs	400	30	1	pcs	0.04057			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	all	400	99	0.9398	pcs	0.04057			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	knn	400	0	0.1952	pcs	0.04057			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	farrell	179	24	0.984	pcs	0.2856	0.8352	0.9028	ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	zfin_all	179	43	0.9589	pcs	0.2856	0.7842	0.8093	ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	zfin_all_het	179	40	0.9601	pcs	0.2856	0.8219	0.7762	ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	zfin_pre_het	179	40	0.9601	pcs	0.2856	0.8219	0.7761	ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	signalling	179	14	0.6961	pcs	0.2856			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	states	179	6	0.5454	pcs	0.2856			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	curated	179	45	0.9642	pcs	0.2856	0.6821	0.8875	ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	controls	179	5	0.1027	pcs	0.2856			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	curated_supported	179	26	0.9555	pcs	0.2856	0.6821	0.8601	ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	random_farrell	179	24	0.8352	pcs	0.2856			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	random_zfin	179	43	0.7842	pcs	0.2856			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	random_zfin_het	179	40	0.8219	pcs	0.2856			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	random_curated	179	45	0.6821	pcs	0.2856			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	pcs	179	30	1	pcs	0.2856			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	all	179	99	0.9939	pcs	0.2856			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	heterogeneous	knn	179	0	0.6378	pcs	0.2856			ZF75_WT_DS2	598
+75% epiboly	neighbourhood	all	farrell	400	24	0.974	pcs	0.05671	0.6755	0.92	ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	zfin_all	400	43	0.9479	pcs	0.05671	0.7069	0.8224	ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	zfin_all_het	400	40	0.9626	pcs	0.05671	0.6563	0.8911	ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	zfin_pre_het	400	40	0.9604	pcs	0.05671	0.6563	0.8847	ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	signalling	400	14	0.4089	pcs	0.05671			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	states	400	6	0.414	pcs	0.05671			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	curated	400	45	0.9422	pcs	0.05671	0.5602	0.8687	ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	controls	400	5	0.1385	pcs	0.05671			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	curated_supported	400	26	0.9522	pcs	0.05671	0.5602	0.8914	ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	random_farrell	400	24	0.6755	pcs	0.05671			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	random_zfin	400	43	0.7069	pcs	0.05671			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	random_zfin_het	400	40	0.6563	pcs	0.05671			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	random_curated	400	45	0.5602	pcs	0.05671			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	pcs	400	30	1	pcs	0.05671			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	all	400	99	0.9749	pcs	0.05671			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	knn	400	0	0.1645	pcs	0.05671			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	farrell	179	24	0.9917	pcs	0.2695	0.8031	0.958	ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	zfin_all	179	43	0.9814	pcs	0.2695	0.8043	0.9049	ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	zfin_all_het	179	40	0.9825	pcs	0.2695	0.813	0.9065	ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	zfin_pre_het	179	40	0.9832	pcs	0.2695	0.813	0.9101	ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	signalling	179	14	0.6467	pcs	0.2695			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	states	179	6	0.4764	pcs	0.2695			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	curated	179	45	0.9782	pcs	0.2695	0.6716	0.9336	ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	controls	179	5	0.1506	pcs	0.2695			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	curated_supported	179	26	0.9608	pcs	0.2695	0.6716	0.8805	ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	random_farrell	179	24	0.8031	pcs	0.2695			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	random_zfin	179	43	0.8043	pcs	0.2695			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	random_zfin_het	179	40	0.813	pcs	0.2695			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	random_curated	179	45	0.6716	pcs	0.2695			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	pcs	179	30	1	pcs	0.2695			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	all	179	99	1.006	pcs	0.2695			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	heterogeneous	knn	179	0	0.5972	pcs	0.2695			ZF75_WT_DS3	889
+75% epiboly	neighbourhood	all	farrell	400	24		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	all	zfin_all	400	43		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	all	zfin_all_het	400	40		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	all	zfin_pre_het	400	40		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	all	signalling	400	14		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	all	states	400	6		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	all	curated	400	45		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	all	controls	400	5		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	all	curated_supported	400	26		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	all	random_farrell	400	24		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	all	random_zfin	400	43		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	all	random_zfin_het	400	40		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	all	random_curated	400	45		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	all	pcs	400	30		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	all	all	400	99		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	all	knn	400	0		pcs	0.03992			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	farrell	179	24	0.9847	pcs	0.2906	0.827	0.9117	ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	zfin_all	179	43	0.9612	pcs	0.2906	0.8141	0.7915	ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	zfin_all_het	179	40	0.9672	pcs	0.2906	0.8802	0.7263	ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	zfin_pre_het	179	40	0.9679	pcs	0.2906	0.8802	0.732	ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	signalling	179	14	0.6968	pcs	0.2906			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	states	179	6	0.5226	pcs	0.2906			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	curated	179	45	0.9747	pcs	0.2906	0.7402	0.9027	ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	controls	179	5	0.1144	pcs	0.2906			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	curated_supported	179	26	0.9501	pcs	0.2906	0.7402	0.8079	ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	random_farrell	179	24	0.827	pcs	0.2906			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	random_zfin	179	43	0.8141	pcs	0.2906			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	random_zfin_het	179	40	0.8802	pcs	0.2906			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	random_curated	179	45	0.7402	pcs	0.2906			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	pcs	179	30	1	pcs	0.2906			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	all	179	99	0.9932	pcs	0.2906			ZF75_WT_DS4	411
+75% epiboly	neighbourhood	heterogeneous	knn	179	0	0.6717	pcs	0.2906			ZF75_WT_DS4	411
+90% epiboly	neighbourhood	all	farrell	400	45	0.9748	pcs	0.07747	0.8073	0.8693	ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	zfin_all	400	39	0.9134	pcs	0.07747	0.6643	0.7421	ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	zfin_all_het	400	37	0.9259	pcs	0.07747	0.641	0.7936	ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	zfin_pre_het	400	37	0.927	pcs	0.07747	0.641	0.7966	ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	signalling	400	14	0.624	pcs	0.07747			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	states	400	6	0.3601	pcs	0.07747			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	curated	400	45	0.9842	pcs	0.07747	0.6713	0.952	ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	controls	400	5	0.1576	pcs	0.07747			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	curated_supported	400	25	0.9334	pcs	0.07747	0.6713	0.7973	ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	random_farrell	400	45	0.8073	pcs	0.07747			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	random_zfin	400	39	0.6643	pcs	0.07747			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	random_zfin_het	400	37	0.641	pcs	0.07747			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	random_curated	400	45	0.6713	pcs	0.07747			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	pcs	400	30	1	pcs	0.07747			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	all	400	120	1.061	pcs	0.07747			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	knn	400	0	0.2365	pcs	0.07747			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	farrell	166	45	0.9778	all	0.3504	0.8925	0.7936	ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	zfin_all	166	39	0.9538	all	0.3504	0.7534	0.8127	ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	zfin_all_het	166	37	0.963	all	0.3504	0.7331	0.8616	ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	zfin_pre_het	166	37	0.9626	all	0.3504	0.7331	0.8599	ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	signalling	166	14	0.6881	all	0.3504			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	states	166	6	0.3849	all	0.3504			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	curated	166	45	0.9693	all	0.3504	0.7654	0.869	ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	controls	166	5	0.192	all	0.3504			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	curated_supported	166	25	0.9525	all	0.3504	0.7654	0.7977	ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	random_farrell	166	45	0.8925	all	0.3504			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	random_zfin	166	39	0.7534	all	0.3504			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	random_zfin_het	166	37	0.7331	all	0.3504			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	random_curated	166	45	0.7654	all	0.3504			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	pcs	166	30	0.9877	all	0.3504			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	all	166	120	1	all	0.3504			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	heterogeneous	knn	166	0	0.6601	all	0.3504			ZF90_WT_DS2	371
+90% epiboly	neighbourhood	all	farrell	400	45	0.9581	pcs	0.04706	0.7412	0.8382	ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	zfin_all	400	39	0.9131	pcs	0.04706	0.603	0.7811	ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	zfin_all_het	400	37	0.9136	pcs	0.04706	0.5568	0.805	ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	zfin_pre_het	400	37	0.9163	pcs	0.04706	0.5568	0.8111	ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	signalling	400	14	0.4629	pcs	0.04706			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	states	400	6	0.2807	pcs	0.04706			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	curated	400	45	0.9478	pcs	0.04706	0.6057	0.8677	ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	controls	400	5	0.1815	pcs	0.04706			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	curated_supported	400	25	0.9557	pcs	0.04706	0.6057	0.8876	ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	random_farrell	400	45	0.7412	pcs	0.04706			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	random_zfin	400	39	0.603	pcs	0.04706			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	random_zfin_het	400	37	0.5568	pcs	0.04706			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	random_curated	400	45	0.6057	pcs	0.04706			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	pcs	400	30	1	pcs	0.04706			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	all	400	120	0.9154	pcs	0.04706			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	knn	400	0	0.1928	pcs	0.04706			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	farrell	166	45	0.9946	all	0.2905	0.9024	0.9452	ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	zfin_all	166	39	0.9744	all	0.2905	0.7735	0.8868	ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	zfin_all_het	166	37	0.9776	all	0.2905	0.7506	0.9102	ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	zfin_pre_het	166	37	0.9774	all	0.2905	0.7506	0.9095	ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	signalling	166	14	0.6196	all	0.2905			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	states	166	6	0.3493	all	0.2905			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	curated	166	45	0.9809	all	0.2905	0.7878	0.9098	ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	controls	166	5	0.2535	all	0.2905			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	curated_supported	166	25	0.9637	all	0.2905	0.7878	0.8292	ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	random_farrell	166	45	0.9024	all	0.2905			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	random_zfin	166	39	0.7735	all	0.2905			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	random_zfin_het	166	37	0.7506	all	0.2905			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	random_curated	166	45	0.7878	all	0.2905			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	pcs	166	30	1.002	all	0.2905			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	all	166	120	1	all	0.2905			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	heterogeneous	knn	166	0	0.6414	all	0.2905			ZF90_WT_DS3	855
+90% epiboly	neighbourhood	all	farrell	400	45	0.9849	pcs	0.04381	0.7931	0.9269	ZF90_WT_DS4	462
+90% epiboly	neighbourhood	all	zfin_all	400	39	0.9302	pcs	0.04381	0.6323	0.8102	ZF90_WT_DS4	462
+90% epiboly	neighbourhood	all	zfin_all_het	400	37	0.9321	pcs	0.04381	0.6284	0.8173	ZF90_WT_DS4	462
+90% epiboly	neighbourhood	all	zfin_pre_het	400	37	0.933	pcs	0.04381	0.6284	0.8198	ZF90_WT_DS4	462
+90% epiboly	neighbourhood	all	signalling	400	14	0.6438	pcs	0.04381			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	all	states	400	6	0.3619	pcs	0.04381			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	all	curated	400	45	0.9587	pcs	0.04381	0.6594	0.8788	ZF90_WT_DS4	462
+90% epiboly	neighbourhood	all	controls	400	5	0.0723	pcs	0.04381			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	all	curated_supported	400	25	0.9675	pcs	0.04381	0.6594	0.9046	ZF90_WT_DS4	462
+90% epiboly	neighbourhood	all	random_farrell	400	45	0.7931	pcs	0.04381			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	all	random_zfin	400	39	0.6323	pcs	0.04381			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	all	random_zfin_het	400	37	0.6284	pcs	0.04381			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	all	random_curated	400	45	0.6594	pcs	0.04381			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	all	pcs	400	30	1	pcs	0.04381			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	all	all	400	120	0.9574	pcs	0.04381			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	all	knn	400	0	0.2522	pcs	0.04381			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	farrell	166	45	0.9904	all	0.2578	0.9191	0.8818	ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	zfin_all	166	39	0.9762	all	0.2578	0.7822	0.8906	ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	zfin_all_het	166	37	0.9797	all	0.2578	0.7449	0.9206	ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	zfin_pre_het	166	37	0.9798	all	0.2578	0.7449	0.9209	ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	signalling	166	14	0.7205	all	0.2578			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	states	166	6	0.3759	all	0.2578			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	curated	166	45	0.9807	all	0.2578	0.7612	0.919	ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	controls	166	5	0.1462	all	0.2578			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	curated_supported	166	25	0.9629	all	0.2578	0.7612	0.8446	ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	random_farrell	166	45	0.9191	all	0.2578			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	random_zfin	166	39	0.7822	all	0.2578			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	random_zfin_het	166	37	0.7449	all	0.2578			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	random_curated	166	45	0.7612	all	0.2578			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	pcs	166	30	0.9993	all	0.2578			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	all	166	120	1	all	0.2578			ZF90_WT_DS4	462
+90% epiboly	neighbourhood	heterogeneous	knn	166	0	0.6506	all	0.2578			ZF90_WT_DS4	462
+bud	neighbourhood	all	farrell	400	40		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	all	zfin_all	400	68		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	all	zfin_all_het	400	63		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	all	zfin_pre_het	400	62		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	all	signalling	400	14		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	all	states	400	6		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	all	curated	400	45		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	all	controls	400	5		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	all	curated_supported	400	30		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	all	random_farrell	400	40		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	all	random_zfin	400	68		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	all	random_zfin_het	400	63		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	all	random_curated	400	45		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	all	pcs	400	30		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	all	all	400	115		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	all	knn	400	0		all	0.07045			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	farrell	136	40		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	zfin_all	136	68		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	zfin_all_het	136	63		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	zfin_pre_het	136	62		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	signalling	136	14		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	states	136	6		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	curated	136	45		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	controls	136	5		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	curated_supported	136	30		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	random_farrell	136	40		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	random_zfin	136	68		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	random_zfin_het	136	63		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	random_curated	136	45		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	pcs	136	30		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	all	136	115		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	heterogeneous	knn	136	0		all	0.3637			ZFB_WT_DS2	75
+bud	neighbourhood	all	farrell	400	40	0.8748	all	0.07437	0.7368	0.5243	ZFB_WT_DS2b	152
+bud	neighbourhood	all	zfin_all	400	68	0.8723	all	0.07437	0.7382	0.5124	ZFB_WT_DS2b	152
+bud	neighbourhood	all	zfin_all_het	400	63	0.8521	all	0.07437	0.7477	0.4137	ZFB_WT_DS2b	152
+bud	neighbourhood	all	zfin_pre_het	400	62	0.839	all	0.07437	0.7477	0.362	ZFB_WT_DS2b	152
+bud	neighbourhood	all	signalling	400	14	0.5615	all	0.07437			ZFB_WT_DS2b	152
+bud	neighbourhood	all	states	400	6	0.329	all	0.07437			ZFB_WT_DS2b	152
+bud	neighbourhood	all	curated	400	45	0.866	all	0.07437	0.5169	0.7227	ZFB_WT_DS2b	152
+bud	neighbourhood	all	controls	400	5	0.1873	all	0.07437			ZFB_WT_DS2b	152
+bud	neighbourhood	all	curated_supported	400	30	0.8201	all	0.07437	0.5169	0.6276	ZFB_WT_DS2b	152
+bud	neighbourhood	all	random_farrell	400	40	0.7368	all	0.07437			ZFB_WT_DS2b	152
+bud	neighbourhood	all	random_zfin	400	68	0.7382	all	0.07437			ZFB_WT_DS2b	152
+bud	neighbourhood	all	random_zfin_het	400	63	0.7477	all	0.07437			ZFB_WT_DS2b	152
+bud	neighbourhood	all	random_curated	400	45	0.5169	all	0.07437			ZFB_WT_DS2b	152
+bud	neighbourhood	all	pcs	400	30	0.8387	all	0.07437			ZFB_WT_DS2b	152
+bud	neighbourhood	all	all	400	115	1	all	0.07437			ZFB_WT_DS2b	152
+bud	neighbourhood	all	knn	400	0	0.2204	all	0.07437			ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	farrell	136	40	0.9875	all	0.3733	0.8756	0.8993	ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	zfin_all	136	68	0.9598	all	0.3733	0.8643	0.7034	ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	zfin_all_het	136	63	0.9493	all	0.3733	0.8922	0.5299	ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	zfin_pre_het	136	62	0.9478	all	0.3733	0.8922	0.5159	ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	signalling	136	14	0.729	all	0.3733			ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	states	136	6	0.3593	all	0.3733			ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	curated	136	45	0.9614	all	0.3733	0.5941	0.9049	ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	controls	136	5	0.2341	all	0.3733			ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	curated_supported	136	30	0.9552	all	0.3733	0.5941	0.8897	ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	random_farrell	136	40	0.8756	all	0.3733			ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	random_zfin	136	68	0.8643	all	0.3733			ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	random_zfin_het	136	63	0.8922	all	0.3733			ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	random_curated	136	45	0.5941	all	0.3733			ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	pcs	136	30	0.9817	all	0.3733			ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	all	136	115	1	all	0.3733			ZFB_WT_DS2b	152
+bud	neighbourhood	heterogeneous	knn	136	0	0.6558	all	0.3733			ZFB_WT_DS2b	152
+bud	neighbourhood	all	farrell	400	40	0.9953	all	0.06233	0.7788	0.9789	ZFB_WT_DS3	1428
+bud	neighbourhood	all	zfin_all	400	68	0.9543	all	0.06233	0.6659	0.8631	ZFB_WT_DS3	1428
+bud	neighbourhood	all	zfin_all_het	400	63	0.9685	all	0.06233	0.6909	0.8982	ZFB_WT_DS3	1428
+bud	neighbourhood	all	zfin_pre_het	400	62	0.971	all	0.06233	0.6909	0.9061	ZFB_WT_DS3	1428
+bud	neighbourhood	all	signalling	400	14	0.501	all	0.06233			ZFB_WT_DS3	1428
+bud	neighbourhood	all	states	400	6	0.3389	all	0.06233			ZFB_WT_DS3	1428
+bud	neighbourhood	all	curated	400	45	0.9752	all	0.06233	0.5802	0.9409	ZFB_WT_DS3	1428
+bud	neighbourhood	all	controls	400	5	0.1906	all	0.06233			ZFB_WT_DS3	1428
+bud	neighbourhood	all	curated_supported	400	30	0.984	all	0.06233	0.5802	0.9619	ZFB_WT_DS3	1428
+bud	neighbourhood	all	random_farrell	400	40	0.7788	all	0.06233			ZFB_WT_DS3	1428
+bud	neighbourhood	all	random_zfin	400	68	0.6659	all	0.06233			ZFB_WT_DS3	1428
+bud	neighbourhood	all	random_zfin_het	400	63	0.6909	all	0.06233			ZFB_WT_DS3	1428
+bud	neighbourhood	all	random_curated	400	45	0.5802	all	0.06233			ZFB_WT_DS3	1428
+bud	neighbourhood	all	pcs	400	30	1.027	all	0.06233			ZFB_WT_DS3	1428
+bud	neighbourhood	all	all	400	115	1	all	0.06233			ZFB_WT_DS3	1428
+bud	neighbourhood	all	knn	400	0	0.2485	all	0.06233			ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	farrell	136	40	0.9894	all	0.3259	0.8481	0.9305	ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	zfin_all	136	68	0.9616	all	0.3259	0.7831	0.8232	ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	zfin_all_het	136	63	0.9667	all	0.3259	0.8249	0.8101	ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	zfin_pre_het	136	62	0.9674	all	0.3259	0.8249	0.8135	ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	signalling	136	14	0.6487	all	0.3259			ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	states	136	6	0.3121	all	0.3259			ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	curated	136	45	0.9562	all	0.3259	0.6328	0.8808	ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	controls	136	5	0.226	all	0.3259			ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	curated_supported	136	30	0.9519	all	0.3259	0.6328	0.8689	ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	random_farrell	136	40	0.8481	all	0.3259			ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	random_zfin	136	68	0.7831	all	0.3259			ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	random_zfin_het	136	63	0.8249	all	0.3259			ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	random_curated	136	45	0.6328	all	0.3259			ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	pcs	136	30	0.9951	all	0.3259			ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	all	136	115	1	all	0.3259			ZFB_WT_DS3	1428
+bud	neighbourhood	heterogeneous	knn	136	0	0.6945	all	0.3259			ZFB_WT_DS3	1428
+bud	neighbourhood	all	farrell	400	40	0.9927	all	0.06643	0.8212	0.959	ZFB_WT_DS4	494
+bud	neighbourhood	all	zfin_all	400	68	0.9457	all	0.06643	0.7297	0.7992	ZFB_WT_DS4	494
+bud	neighbourhood	all	zfin_all_het	400	63	0.9688	all	0.06643	0.7965	0.8468	ZFB_WT_DS4	494
+bud	neighbourhood	all	zfin_pre_het	400	62	0.9676	all	0.06643	0.7965	0.8406	ZFB_WT_DS4	494
+bud	neighbourhood	all	signalling	400	14	0.5978	all	0.06643			ZFB_WT_DS4	494
+bud	neighbourhood	all	states	400	6	0.4054	all	0.06643			ZFB_WT_DS4	494
+bud	neighbourhood	all	curated	400	45	1.008	all	0.06643	0.6124	1.021	ZFB_WT_DS4	494
+bud	neighbourhood	all	controls	400	5	0.1684	all	0.06643			ZFB_WT_DS4	494
+bud	neighbourhood	all	curated_supported	400	30	0.9955	all	0.06643	0.6124	0.9885	ZFB_WT_DS4	494
+bud	neighbourhood	all	random_farrell	400	40	0.8212	all	0.06643			ZFB_WT_DS4	494
+bud	neighbourhood	all	random_zfin	400	68	0.7297	all	0.06643			ZFB_WT_DS4	494
+bud	neighbourhood	all	random_zfin_het	400	63	0.7965	all	0.06643			ZFB_WT_DS4	494
+bud	neighbourhood	all	random_curated	400	45	0.6124	all	0.06643			ZFB_WT_DS4	494
+bud	neighbourhood	all	pcs	400	30	1.006	all	0.06643			ZFB_WT_DS4	494
+bud	neighbourhood	all	all	400	115	1	all	0.06643			ZFB_WT_DS4	494
+bud	neighbourhood	all	knn	400	0	0.2965	all	0.06643			ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	farrell	136	40	0.9876	all	0.36	0.8439	0.9206	ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	zfin_all	136	68	0.9636	all	0.36	0.8279	0.7885	ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	zfin_all_het	136	63	0.9668	all	0.36	0.8669	0.7507	ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	zfin_pre_het	136	62	0.9658	all	0.36	0.8669	0.7432	ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	signalling	136	14	0.6868	all	0.36			ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	states	136	6	0.3633	all	0.36			ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	curated	136	45	0.9709	all	0.36	0.6572	0.9152	ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	controls	136	5	0.2171	all	0.36			ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	curated_supported	136	30	0.9673	all	0.36	0.6572	0.9046	ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	random_farrell	136	40	0.8439	all	0.36			ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	random_zfin	136	68	0.8279	all	0.36			ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	random_zfin_het	136	63	0.8669	all	0.36			ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	random_curated	136	45	0.6572	all	0.36			ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	pcs	136	30	0.9972	all	0.36			ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	all	136	115	1	all	0.36			ZFB_WT_DS4	494
+bud	neighbourhood	heterogeneous	knn	136	0	0.6872	all	0.36			ZFB_WT_DS4	494
+3-somite	neighbourhood	all	farrell	400	31	1	farrell	0.04019	0.6282	1	ZF3S_WT_DS5	490
+3-somite	neighbourhood	all	zfin_all	400	81	0.5797	farrell	0.04019	0.169	0.4943	ZF3S_WT_DS5	490
+3-somite	neighbourhood	all	zfin_all_het	400	71	0.6505	farrell	0.04019	0.2358	0.5427	ZF3S_WT_DS5	490
+3-somite	neighbourhood	all	zfin_pre_het	400	69	0.6452	farrell	0.04019	0.2358	0.5357	ZF3S_WT_DS5	490
+3-somite	neighbourhood	all	signalling	400	14	0.3801	farrell	0.04019			ZF3S_WT_DS5	490
+3-somite	neighbourhood	all	states	400	6	0.4214	farrell	0.04019			ZF3S_WT_DS5	490
+3-somite	neighbourhood	all	curated	400	45	0.8284	farrell	0.04019	0.2713	0.7645	ZF3S_WT_DS5	490
+3-somite	neighbourhood	all	controls	400	5	0.3064	farrell	0.04019			ZF3S_WT_DS5	490
+3-somite	neighbourhood	all	curated_supported	400	32	0.9411	farrell	0.04019	0.2713	0.9192	ZF3S_WT_DS5	490
+3-somite	neighbourhood	all	random_farrell	400	31	0.6282	farrell	0.04019			ZF3S_WT_DS5	490
+3-somite	neighbourhood	all	random_zfin	400	81	0.169	farrell	0.04019			ZF3S_WT_DS5	490
+3-somite	neighbourhood	all	random_zfin_het	400	71	0.2358	farrell	0.04019			ZF3S_WT_DS5	490
+3-somite	neighbourhood	all	random_curated	400	45	0.2713	farrell	0.04019			ZF3S_WT_DS5	490
+3-somite	neighbourhood	all	pcs	400	30	0.9858	farrell	0.04019			ZF3S_WT_DS5	490
+3-somite	neighbourhood	all	all	400	106	0.6874	farrell	0.04019			ZF3S_WT_DS5	490
+3-somite	neighbourhood	all	knn	400	0	0.2455	farrell	0.04019			ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	farrell	116	31	1	farrell	0.2426	0.8428	1	ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	zfin_all	116	81	0.9109	farrell	0.2426	0.8047	0.5438	ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	zfin_all_het	116	71	0.9195	farrell	0.2426	0.7958	0.6059	ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	zfin_pre_het	116	69	0.9178	farrell	0.2426	0.7958	0.5974	ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	signalling	116	14	0.5202	farrell	0.2426			ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	states	116	6	0.4064	farrell	0.2426			ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	curated	116	45	0.9426	farrell	0.2426	0.7156	0.7982	ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	controls	116	5	0.3664	farrell	0.2426			ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	curated_supported	116	32	0.9265	farrell	0.2426	0.7156	0.7415	ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	random_farrell	116	31	0.8428	farrell	0.2426			ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	random_zfin	116	81	0.8047	farrell	0.2426			ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	random_zfin_het	116	71	0.7958	farrell	0.2426			ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	random_curated	116	45	0.7156	farrell	0.2426			ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	pcs	116	30	0.9901	farrell	0.2426			ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	all	116	106	0.9737	farrell	0.2426			ZF3S_WT_DS5	490
+3-somite	neighbourhood	heterogeneous	knn	116	0	0.6693	farrell	0.2426			ZF3S_WT_DS5	490
+6-somite	neighbourhood	all	farrell	400	42	0.9753	pcs	0.04731	0.77	0.8927	ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	zfin_all	400	110	0.8669	pcs	0.04731	0.6215	0.6484	ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	zfin_all_het	400	103	0.8723	pcs	0.04731	0.6255	0.6591	ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	zfin_pre_het	400	101	0.8715	pcs	0.04731	0.6255	0.6568	ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	signalling	400	14	0.3715	pcs	0.04731			ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	states	400	6	0.2436	pcs	0.04731			ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	curated	400	45	0.9205	pcs	0.04731	0.6271	0.7868	ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	controls	400	6	0.2307	pcs	0.04731			ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	curated_supported	400	33	0.9523	pcs	0.04731	0.6271	0.872	ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	random_farrell	400	42	0.77	pcs	0.04731			ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	random_zfin	400	110	0.6215	pcs	0.04731			ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	random_zfin_het	400	103	0.6255	pcs	0.04731			ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	random_curated	400	45	0.6271	pcs	0.04731			ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	pcs	400	30	1	pcs	0.04731			ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	all	400	117	0.9395	pcs	0.04731			ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	knn	400	0	0.2499	pcs	0.04731			ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	farrell	233	42	0.9908	all	0.3288	0.9061	0.9022	ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	zfin_all	233	110	0.9595	all	0.3288	0.8944	0.6161	ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	zfin_all_het	233	103	0.9576	all	0.3288	0.9024	0.5656	ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	zfin_pre_het	233	101	0.9557	all	0.3288	0.9024	0.5462	ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	signalling	233	14	0.4415	all	0.3288			ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	states	233	6	0.28	all	0.3288			ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	curated	233	45	0.9471	all	0.3288	0.7846	0.7544	ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	controls	233	6	0.4143	all	0.3288			ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	curated_supported	233	33	0.9393	all	0.3288	0.7846	0.7181	ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	random_farrell	233	42	0.9061	all	0.3288			ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	random_zfin	233	110	0.8944	all	0.3288			ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	random_zfin_het	233	103	0.9024	all	0.3288			ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	random_curated	233	45	0.7846	all	0.3288			ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	pcs	233	30	0.9936	all	0.3288			ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	all	233	117	1	all	0.3288			ZF6S_WT_DS5	712
+6-somite	neighbourhood	heterogeneous	knn	233	0	0.7141	all	0.3288			ZF6S_WT_DS5	712
+6-somite	neighbourhood	all	farrell	400	42	0.9427	pcs	0.07831	0.7404	0.7794	ZF6S_WT_DS5b	626
+6-somite	neighbourhood	all	zfin_all	400	110	0.8809	pcs	0.07831	0.689	0.6171	ZF6S_WT_DS5b	626
+6-somite	neighbourhood	all	zfin_all_het	400	103	0.8949	pcs	0.07831	0.6873	0.6639	ZF6S_WT_DS5b	626
+6-somite	neighbourhood	all	zfin_pre_het	400	101	0.8866	pcs	0.07831	0.6873	0.6373	ZF6S_WT_DS5b	626
+6-somite	neighbourhood	all	signalling	400	14	0.372	pcs	0.07831			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	all	states	400	6	0.2639	pcs	0.07831			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	all	curated	400	45	0.8744	pcs	0.07831	0.6042	0.6826	ZF6S_WT_DS5b	626
+6-somite	neighbourhood	all	controls	400	6	0.2234	pcs	0.07831			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	all	curated_supported	400	33	0.8723	pcs	0.07831	0.6042	0.6775	ZF6S_WT_DS5b	626
+6-somite	neighbourhood	all	random_farrell	400	42	0.7404	pcs	0.07831			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	all	random_zfin	400	110	0.689	pcs	0.07831			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	all	random_zfin_het	400	103	0.6873	pcs	0.07831			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	all	random_curated	400	45	0.6042	pcs	0.07831			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	all	pcs	400	30	1	pcs	0.07831			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	all	all	400	117	0.9456	pcs	0.07831			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	all	knn	400	0	0.2239	pcs	0.07831			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	farrell	233	42	0.9848	all	0.3941	0.9084	0.8337	ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	zfin_all	233	110	0.9679	all	0.3941	0.917	0.6133	ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	zfin_all_het	233	103	0.9722	all	0.3941	0.9065	0.7026	ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	zfin_pre_het	233	101	0.9702	all	0.3941	0.9065	0.6811	ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	signalling	233	14	0.5345	all	0.3941			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	states	233	6	0.3551	all	0.3941			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	curated	233	45	0.9581	all	0.3941	0.793	0.7973	ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	controls	233	6	0.4223	all	0.3941			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	curated_supported	233	33	0.9464	all	0.3941	0.793	0.741	ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	random_farrell	233	42	0.9084	all	0.3941			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	random_zfin	233	110	0.917	all	0.3941			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	random_zfin_het	233	103	0.9065	all	0.3941			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	random_curated	233	45	0.793	all	0.3941			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	pcs	233	30	0.999	all	0.3941			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	all	233	117	1	all	0.3941			ZF6S_WT_DS5b	626
+6-somite	neighbourhood	heterogeneous	knn	233	0	0.7125	all	0.3941			ZF6S_WT_DS5b	626

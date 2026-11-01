@@ -120,9 +120,10 @@ def init_worker(base: np.ndarray, target: np.ndarray, knn_p: np.ndarray,
     _SHARED.update(base=base, target=target, knn_p=knn_p, features=features, train=train)
 
 
-def fit_models(task) -> list[float]:
-    """Mean test loss of one evaluation gene for the requested models: "floor"
-    (depth and library), "knn" (the ceiling feature) or a feature set.
+def fit_model_losses(task) -> list[np.ndarray]:
+    """Test loss of every test cell (one array per model) of one evaluation
+    gene, for the requested models: "floor" (depth and library), "knn" (the
+    ceiling feature) or a feature set.
 
     The soft target y in [0, 1] is fitted as a positive with weight y and a
     negative with weight 1 - y.
@@ -149,7 +150,7 @@ def fit_models(task) -> list[float]:
             warnings.simplefilter("ignore", FutureWarning)
             model = LogisticRegressionCV(Cs=CS, cv=3, scoring="neg_log_loss", max_iter=500)
             model.fit(Xt, yt, sample_weight=weight)
-        out.append(float(log_loss(y[test], model.predict_proba(X[test])[:, 1]).mean()))
+        out.append(log_loss(y[test], model.predict_proba(X[test])[:, 1]))
     return out
 
 

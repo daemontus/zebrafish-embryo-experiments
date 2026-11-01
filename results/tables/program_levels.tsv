@@ -1,361 +1,385 @@
-stage	target	genes	feature_set	n_eval_genes	n_features	n_programs	explained	curated_17	ceiling	explainable_share	random	continuous	retained
-high	neighbourhood	all	curated	400	39	39			knn	-0.001404			
-high	neighbourhood	all	k2	400	39	39			knn	-0.001404			
-high	neighbourhood	all	k3	400	78	39			knn	-0.001404			
-high	neighbourhood	all	k4	400	117	39			knn	-0.001404			
-high	neighbourhood	all	k5	400	156	39			knn	-0.001404			
-high	neighbourhood	all	k6	400	195	39			knn	-0.001404			
-high	neighbourhood	all	k3_onehot	400	78	39			knn	-0.001404			
-high	neighbourhood	all	k6_onehot	400	195	39			knn	-0.001404			
-high	neighbourhood	all	active	400	39	39			knn	-0.001404			
-high	neighbourhood	all	3state	400	78	39			knn	-0.001404			
-high	neighbourhood	all	supported_active	400	4	39			knn	-0.001404			
-high	neighbourhood	all	supported_k3	400	8	39			knn	-0.001404			
-high	neighbourhood	all	curated_supported	400		39			knn	-0.001404			
-high	neighbourhood	all	random_curated	400		39			knn	-0.001404			
-high	neighbourhood	all	pcs	400		39			knn	-0.001404			
-high	neighbourhood	heterogeneous	curated	102	39	39	-0.08621	-0.08613	farrell	0.0605	-0.373	-0.08621	1
-high	neighbourhood	heterogeneous	k2	102	39	39	-0.5572	-0.08613	farrell	0.0605	-0.373	-0.08621	6.463
-high	neighbourhood	heterogeneous	k3	102	78	39	-1.083	-0.08613	farrell	0.0605	-0.373	-0.08621	12.56
-high	neighbourhood	heterogeneous	k4	102	117	39	-1.526	-0.08613	farrell	0.0605	-0.373	-0.08621	17.7
-high	neighbourhood	heterogeneous	k5	102	156	39	-1.838	-0.08613	farrell	0.0605	-0.373	-0.08621	21.32
-high	neighbourhood	heterogeneous	k6	102	195	39	-1.9	-0.08613	farrell	0.0605	-0.373	-0.08621	22.04
-high	neighbourhood	heterogeneous	k3_onehot	102	78	39	-1.222	-0.08613	farrell	0.0605	-0.373	-0.08621	14.18
-high	neighbourhood	heterogeneous	k6_onehot	102	195	39	-2.353	-0.08613	farrell	0.0605	-0.373	-0.08621	27.3
-high	neighbourhood	heterogeneous	active	102	39	39	-0.649	-0.08613	farrell	0.0605	-0.373	-0.08621	7.528
-high	neighbourhood	heterogeneous	3state	102	78	39	-1.049	-0.08613	farrell	0.0605	-0.373	-0.08621	12.17
-high	neighbourhood	heterogeneous	supported_active	102	4	39	0.5171	-0.08613	farrell	0.0605	-0.373	-0.08621	-5.998
-high	neighbourhood	heterogeneous	supported_k3	102	8	39	0.3763	-0.08613	farrell	0.0605	-0.373	-0.08621	-4.365
-high	neighbourhood	heterogeneous	curated_supported	102		39	0.7376	-0.08613	farrell	0.0605	-0.373	-0.08621	-8.557
-high	neighbourhood	heterogeneous	random_curated	102		39	-0.373	-0.08613	farrell	0.0605	-0.373	-0.08621	4.327
-high	neighbourhood	heterogeneous	pcs	102		39	0.1758	-0.08613	farrell	0.0605	-0.373	-0.08621	-2.04
-oblong	neighbourhood	all	curated	400	39	39			zfin_all	-0.007628			
-oblong	neighbourhood	all	k2	400	39	39			zfin_all	-0.007628			
-oblong	neighbourhood	all	k3	400	78	39			zfin_all	-0.007628			
-oblong	neighbourhood	all	k4	400	117	39			zfin_all	-0.007628			
-oblong	neighbourhood	all	k5	400	156	39			zfin_all	-0.007628			
-oblong	neighbourhood	all	k6	400	195	39			zfin_all	-0.007628			
-oblong	neighbourhood	all	k3_onehot	400	78	39			zfin_all	-0.007628			
-oblong	neighbourhood	all	k6_onehot	400	195	39			zfin_all	-0.007628			
-oblong	neighbourhood	all	active	400	39	39			zfin_all	-0.007628			
-oblong	neighbourhood	all	3state	400	78	39			zfin_all	-0.007628			
-oblong	neighbourhood	all	supported_active	400	4	39			zfin_all	-0.007628			
-oblong	neighbourhood	all	supported_k3	400	8	39			zfin_all	-0.007628			
-oblong	neighbourhood	all	curated_supported	400		39			zfin_all	-0.007628			
-oblong	neighbourhood	all	random_curated	400		39			zfin_all	-0.007628			
-oblong	neighbourhood	all	pcs	400		39			zfin_all	-0.007628			
-oblong	neighbourhood	heterogeneous	curated	53	39	39			knn	0.0373			
-oblong	neighbourhood	heterogeneous	k2	53	39	39			knn	0.0373			
-oblong	neighbourhood	heterogeneous	k3	53	78	39			knn	0.0373			
-oblong	neighbourhood	heterogeneous	k4	53	117	39			knn	0.0373			
-oblong	neighbourhood	heterogeneous	k5	53	156	39			knn	0.0373			
-oblong	neighbourhood	heterogeneous	k6	53	195	39			knn	0.0373			
-oblong	neighbourhood	heterogeneous	k3_onehot	53	78	39			knn	0.0373			
-oblong	neighbourhood	heterogeneous	k6_onehot	53	195	39			knn	0.0373			
-oblong	neighbourhood	heterogeneous	active	53	39	39			knn	0.0373			
-oblong	neighbourhood	heterogeneous	3state	53	78	39			knn	0.0373			
-oblong	neighbourhood	heterogeneous	supported_active	53	4	39			knn	0.0373			
-oblong	neighbourhood	heterogeneous	supported_k3	53	8	39			knn	0.0373			
-oblong	neighbourhood	heterogeneous	curated_supported	53		39			knn	0.0373			
-oblong	neighbourhood	heterogeneous	random_curated	53		39			knn	0.0373			
-oblong	neighbourhood	heterogeneous	pcs	53		39			knn	0.0373			
-dome	neighbourhood	all	curated	400	41	41	0.6009	0.601	farrell	0.04395	0.2431	0.6009	1
-dome	neighbourhood	all	k2	400	41	41	0.3444	0.601	farrell	0.04395	0.2431	0.6009	0.5732
-dome	neighbourhood	all	k3	400	82	41	0.1035	0.601	farrell	0.04395	0.2431	0.6009	0.1723
-dome	neighbourhood	all	k4	400	123	41	-0.1834	0.601	farrell	0.04395	0.2431	0.6009	-0.3052
-dome	neighbourhood	all	k5	400	164	41	-0.4432	0.601	farrell	0.04395	0.2431	0.6009	-0.7375
-dome	neighbourhood	all	k6	400	205	41	-0.6156	0.601	farrell	0.04395	0.2431	0.6009	-1.025
-dome	neighbourhood	all	k3_onehot	400	82	41	0.05071	0.601	farrell	0.04395	0.2431	0.6009	0.0844
-dome	neighbourhood	all	k6_onehot	400	205	41	-1.045	0.601	farrell	0.04395	0.2431	0.6009	-1.738
-dome	neighbourhood	all	active	400	41	41	0.05518	0.601	farrell	0.04395	0.2431	0.6009	0.09184
-dome	neighbourhood	all	3state	400	82	41	-0.276	0.601	farrell	0.04395	0.2431	0.6009	-0.4594
-dome	neighbourhood	all	supported_active	400	3	41	0.4017	0.601	farrell	0.04395	0.2431	0.6009	0.6685
-dome	neighbourhood	all	supported_k3	400	6	41	0.6107	0.601	farrell	0.04395	0.2431	0.6009	1.016
-dome	neighbourhood	all	curated_supported	400		41	0.594	0.601	farrell	0.04395	0.2431	0.6009	0.9886
-dome	neighbourhood	all	random_curated	400		41	0.2431	0.601	farrell	0.04395	0.2431	0.6009	0.4046
-dome	neighbourhood	all	pcs	400		41	0.8245	0.601	farrell	0.04395	0.2431	0.6009	1.372
-dome	neighbourhood	heterogeneous	curated	235	41	41	0.9648	0.9648	farrell	0.4086	0.9029	0.9648	1
-dome	neighbourhood	heterogeneous	k2	235	41	41	0.9299	0.9648	farrell	0.4086	0.9029	0.9648	0.9639
-dome	neighbourhood	heterogeneous	k3	235	82	41	0.9319	0.9648	farrell	0.4086	0.9029	0.9648	0.966
-dome	neighbourhood	heterogeneous	k4	235	123	41	0.9201	0.9648	farrell	0.4086	0.9029	0.9648	0.9537
-dome	neighbourhood	heterogeneous	k5	235	164	41	0.9004	0.9648	farrell	0.4086	0.9029	0.9648	0.9332
-dome	neighbourhood	heterogeneous	k6	235	205	41	0.8928	0.9648	farrell	0.4086	0.9029	0.9648	0.9254
-dome	neighbourhood	heterogeneous	k3_onehot	235	82	41	0.9227	0.9648	farrell	0.4086	0.9029	0.9648	0.9563
-dome	neighbourhood	heterogeneous	k6_onehot	235	205	41	0.8493	0.9648	farrell	0.4086	0.9029	0.9648	0.8803
-dome	neighbourhood	heterogeneous	active	235	41	41	0.8892	0.9648	farrell	0.4086	0.9029	0.9648	0.9217
-dome	neighbourhood	heterogeneous	3state	235	82	41	0.888	0.9648	farrell	0.4086	0.9029	0.9648	0.9204
-dome	neighbourhood	heterogeneous	supported_active	235	3	41	0.7564	0.9648	farrell	0.4086	0.9029	0.9648	0.784
-dome	neighbourhood	heterogeneous	supported_k3	235	6	41	0.9049	0.9648	farrell	0.4086	0.9029	0.9648	0.9379
-dome	neighbourhood	heterogeneous	curated_supported	235		41	0.9101	0.9648	farrell	0.4086	0.9029	0.9648	0.9434
-dome	neighbourhood	heterogeneous	random_curated	235		41	0.9029	0.9648	farrell	0.4086	0.9029	0.9648	0.9358
-dome	neighbourhood	heterogeneous	pcs	235		41	0.9889	0.9648	farrell	0.4086	0.9029	0.9648	1.025
-30% epiboly	neighbourhood	all	curated	400	42	42			curated_supported	0.0243			
-30% epiboly	neighbourhood	all	k2	400	42	42			curated_supported	0.0243			
-30% epiboly	neighbourhood	all	k3	400	84	42			curated_supported	0.0243			
-30% epiboly	neighbourhood	all	k4	400	126	42			curated_supported	0.0243			
-30% epiboly	neighbourhood	all	k5	400	168	42			curated_supported	0.0243			
-30% epiboly	neighbourhood	all	k6	400	210	42			curated_supported	0.0243			
-30% epiboly	neighbourhood	all	k3_onehot	400	84	42			curated_supported	0.0243			
-30% epiboly	neighbourhood	all	k6_onehot	400	210	42			curated_supported	0.0243			
-30% epiboly	neighbourhood	all	active	400	42	42			curated_supported	0.0243			
-30% epiboly	neighbourhood	all	3state	400	84	42			curated_supported	0.0243			
-30% epiboly	neighbourhood	all	supported_active	400	4	42			curated_supported	0.0243			
-30% epiboly	neighbourhood	all	supported_k3	400	8	42			curated_supported	0.0243			
-30% epiboly	neighbourhood	all	curated_supported	400		42			curated_supported	0.0243			
-30% epiboly	neighbourhood	all	random_curated	400		42			curated_supported	0.0243			
-30% epiboly	neighbourhood	all	pcs	400		42			curated_supported	0.0243			
-30% epiboly	neighbourhood	heterogeneous	curated	226	42	42	0.9769	0.9769	farrell	0.3981	0.9097	0.9769	1
-30% epiboly	neighbourhood	heterogeneous	k2	226	42	42	0.9641	0.9769	farrell	0.3981	0.9097	0.9769	0.9869
-30% epiboly	neighbourhood	heterogeneous	k3	226	84	42	0.9518	0.9769	farrell	0.3981	0.9097	0.9769	0.9743
-30% epiboly	neighbourhood	heterogeneous	k4	226	126	42	0.9363	0.9769	farrell	0.3981	0.9097	0.9769	0.9584
-30% epiboly	neighbourhood	heterogeneous	k5	226	168	42	0.923	0.9769	farrell	0.3981	0.9097	0.9769	0.9448
-30% epiboly	neighbourhood	heterogeneous	k6	226	210	42	0.9066	0.9769	farrell	0.3981	0.9097	0.9769	0.928
-30% epiboly	neighbourhood	heterogeneous	k3_onehot	226	84	42	0.943	0.9769	farrell	0.3981	0.9097	0.9769	0.9652
-30% epiboly	neighbourhood	heterogeneous	k6_onehot	226	210	42	0.8754	0.9769	farrell	0.3981	0.9097	0.9769	0.8961
-30% epiboly	neighbourhood	heterogeneous	active	226	42	42	0.9574	0.9769	farrell	0.3981	0.9097	0.9769	0.9801
-30% epiboly	neighbourhood	heterogeneous	3state	226	84	42	0.9319	0.9769	farrell	0.3981	0.9097	0.9769	0.9539
-30% epiboly	neighbourhood	heterogeneous	supported_active	226	4	42	0.7525	0.9769	farrell	0.3981	0.9097	0.9769	0.7702
-30% epiboly	neighbourhood	heterogeneous	supported_k3	226	8	42	0.9722	0.9769	farrell	0.3981	0.9097	0.9769	0.9951
-30% epiboly	neighbourhood	heterogeneous	curated_supported	226		42	0.9837	0.9769	farrell	0.3981	0.9097	0.9769	1.007
-30% epiboly	neighbourhood	heterogeneous	random_curated	226		42	0.9097	0.9769	farrell	0.3981	0.9097	0.9769	0.9312
-30% epiboly	neighbourhood	heterogeneous	pcs	226		42	0.995	0.9769	farrell	0.3981	0.9097	0.9769	1.018
-50% epiboly	neighbourhood	all	curated	400	44	44			pcs	0.03653			
-50% epiboly	neighbourhood	all	k2	400	44	44			pcs	0.03653			
-50% epiboly	neighbourhood	all	k3	400	88	44			pcs	0.03653			
-50% epiboly	neighbourhood	all	k4	400	132	44			pcs	0.03653			
-50% epiboly	neighbourhood	all	k5	400	176	44			pcs	0.03653			
-50% epiboly	neighbourhood	all	k6	400	220	44			pcs	0.03653			
-50% epiboly	neighbourhood	all	k3_onehot	400	88	44			pcs	0.03653			
-50% epiboly	neighbourhood	all	k6_onehot	400	220	44			pcs	0.03653			
-50% epiboly	neighbourhood	all	active	400	44	44			pcs	0.03653			
-50% epiboly	neighbourhood	all	3state	400	88	44			pcs	0.03653			
-50% epiboly	neighbourhood	all	supported_active	400	4	44			pcs	0.03653			
-50% epiboly	neighbourhood	all	supported_k3	400	8	44			pcs	0.03653			
-50% epiboly	neighbourhood	all	curated_supported	400		44			pcs	0.03653			
-50% epiboly	neighbourhood	all	random_curated	400		44			pcs	0.03653			
-50% epiboly	neighbourhood	all	pcs	400		44			pcs	0.03653			
-50% epiboly	neighbourhood	heterogeneous	curated	253	44	44	0.9713	0.9713	pcs	0.3237	0.8256	0.9713	1
-50% epiboly	neighbourhood	heterogeneous	k2	253	44	44	0.9359	0.9713	pcs	0.3237	0.8256	0.9713	0.9636
-50% epiboly	neighbourhood	heterogeneous	k3	253	88	44	0.9501	0.9713	pcs	0.3237	0.8256	0.9713	0.9782
-50% epiboly	neighbourhood	heterogeneous	k4	253	132	44	0.9484	0.9713	pcs	0.3237	0.8256	0.9713	0.9764
-50% epiboly	neighbourhood	heterogeneous	k5	253	176	44	0.9407	0.9713	pcs	0.3237	0.8256	0.9713	0.9685
-50% epiboly	neighbourhood	heterogeneous	k6	253	220	44	0.9295	0.9713	pcs	0.3237	0.8256	0.9713	0.957
-50% epiboly	neighbourhood	heterogeneous	k3_onehot	253	88	44	0.951	0.9713	pcs	0.3237	0.8256	0.9713	0.9791
-50% epiboly	neighbourhood	heterogeneous	k6_onehot	253	220	44	0.9103	0.9713	pcs	0.3237	0.8256	0.9713	0.9372
-50% epiboly	neighbourhood	heterogeneous	active	253	44	44	0.919	0.9713	pcs	0.3237	0.8256	0.9713	0.9462
-50% epiboly	neighbourhood	heterogeneous	3state	253	88	44	0.9269	0.9713	pcs	0.3237	0.8256	0.9713	0.9543
-50% epiboly	neighbourhood	heterogeneous	supported_active	253	4	44	0.6834	0.9713	pcs	0.3237	0.8256	0.9713	0.7036
-50% epiboly	neighbourhood	heterogeneous	supported_k3	253	8	44	0.8773	0.9713	pcs	0.3237	0.8256	0.9713	0.9033
-50% epiboly	neighbourhood	heterogeneous	curated_supported	253		44	0.9023	0.9713	pcs	0.3237	0.8256	0.9713	0.929
-50% epiboly	neighbourhood	heterogeneous	random_curated	253		44	0.8256	0.9713	pcs	0.3237	0.8256	0.9713	0.85
-50% epiboly	neighbourhood	heterogeneous	pcs	253		44	1	0.9713	pcs	0.3237	0.8256	0.9713	1.03
-shield	neighbourhood	all	curated	400	43	43			curated_supported	0.0101			
-shield	neighbourhood	all	k2	400	43	43			curated_supported	0.0101			
-shield	neighbourhood	all	k3	400	86	43			curated_supported	0.0101			
-shield	neighbourhood	all	k4	400	129	43			curated_supported	0.0101			
-shield	neighbourhood	all	k5	400	172	43			curated_supported	0.0101			
-shield	neighbourhood	all	k6	400	215	43			curated_supported	0.0101			
-shield	neighbourhood	all	k3_onehot	400	86	43			curated_supported	0.0101			
-shield	neighbourhood	all	k6_onehot	400	215	43			curated_supported	0.0101			
-shield	neighbourhood	all	active	400	43	43			curated_supported	0.0101			
-shield	neighbourhood	all	3state	400	86	43			curated_supported	0.0101			
-shield	neighbourhood	all	supported_active	400	8	43			curated_supported	0.0101			
-shield	neighbourhood	all	supported_k3	400	16	43			curated_supported	0.0101			
-shield	neighbourhood	all	curated_supported	400		43			curated_supported	0.0101			
-shield	neighbourhood	all	random_curated	400		43			curated_supported	0.0101			
-shield	neighbourhood	all	pcs	400		43			curated_supported	0.0101			
-shield	neighbourhood	heterogeneous	curated	73	43	43	0.9355	0.9355	zfin_all	0.1314	0.5443	0.9355	1
-shield	neighbourhood	heterogeneous	k2	73	43	43	0.8141	0.9355	zfin_all	0.1314	0.5443	0.9355	0.8702
-shield	neighbourhood	heterogeneous	k3	73	86	43	0.834	0.9355	zfin_all	0.1314	0.5443	0.9355	0.8915
-shield	neighbourhood	heterogeneous	k4	73	129	43	0.8235	0.9355	zfin_all	0.1314	0.5443	0.9355	0.8803
-shield	neighbourhood	heterogeneous	k5	73	172	43	0.7648	0.9355	zfin_all	0.1314	0.5443	0.9355	0.8175
-shield	neighbourhood	heterogeneous	k6	73	215	43	0.6723	0.9355	zfin_all	0.1314	0.5443	0.9355	0.7186
-shield	neighbourhood	heterogeneous	k3_onehot	73	86	43	0.7863	0.9355	zfin_all	0.1314	0.5443	0.9355	0.8406
-shield	neighbourhood	heterogeneous	k6_onehot	73	215	43	0.5237	0.9355	zfin_all	0.1314	0.5443	0.9355	0.5598
-shield	neighbourhood	heterogeneous	active	73	43	43	0.8007	0.9355	zfin_all	0.1314	0.5443	0.9355	0.856
-shield	neighbourhood	heterogeneous	3state	73	86	43	0.7311	0.9355	zfin_all	0.1314	0.5443	0.9355	0.7815
-shield	neighbourhood	heterogeneous	supported_active	73	8	43	0.8467	0.9355	zfin_all	0.1314	0.5443	0.9355	0.905
-shield	neighbourhood	heterogeneous	supported_k3	73	16	43	0.878	0.9355	zfin_all	0.1314	0.5443	0.9355	0.9385
-shield	neighbourhood	heterogeneous	curated_supported	73		43	0.9835	0.9355	zfin_all	0.1314	0.5443	0.9355	1.051
-shield	neighbourhood	heterogeneous	random_curated	73		43	0.5443	0.9355	zfin_all	0.1314	0.5443	0.9355	0.5818
-shield	neighbourhood	heterogeneous	pcs	73		43	0.9415	0.9355	zfin_all	0.1314	0.5443	0.9355	1.006
-60% epiboly	neighbourhood	all	curated	400	44	44	0.9227	0.9227	pcs	0.04926	0.6176	0.9227	1
-60% epiboly	neighbourhood	all	k2	400	44	44	0.7464	0.9227	pcs	0.04926	0.6176	0.9227	0.8089
-60% epiboly	neighbourhood	all	k3	400	88	44	0.7221	0.9227	pcs	0.04926	0.6176	0.9227	0.7826
-60% epiboly	neighbourhood	all	k4	400	132	44	0.6148	0.9227	pcs	0.04926	0.6176	0.9227	0.6663
-60% epiboly	neighbourhood	all	k5	400	176	44	0.4937	0.9227	pcs	0.04926	0.6176	0.9227	0.535
-60% epiboly	neighbourhood	all	k6	400	220	44	0.3694	0.9227	pcs	0.04926	0.6176	0.9227	0.4003
-60% epiboly	neighbourhood	all	k3_onehot	400	88	44	0.7001	0.9227	pcs	0.04926	0.6176	0.9227	0.7587
-60% epiboly	neighbourhood	all	k6_onehot	400	220	44	0.2407	0.9227	pcs	0.04926	0.6176	0.9227	0.2608
-60% epiboly	neighbourhood	all	active	400	44	44	0.6789	0.9227	pcs	0.04926	0.6176	0.9227	0.7358
-60% epiboly	neighbourhood	all	3state	400	88	44	0.538	0.9227	pcs	0.04926	0.6176	0.9227	0.5831
-60% epiboly	neighbourhood	all	supported_active	400	26	44	0.6634	0.9227	pcs	0.04926	0.6176	0.9227	0.719
-60% epiboly	neighbourhood	all	supported_k3	400	52	44	0.7777	0.9227	pcs	0.04926	0.6176	0.9227	0.8429
-60% epiboly	neighbourhood	all	curated_supported	400		44	0.8906	0.9227	pcs	0.04926	0.6176	0.9227	0.9652
-60% epiboly	neighbourhood	all	random_curated	400		44	0.6176	0.9227	pcs	0.04926	0.6176	0.9227	0.6693
-60% epiboly	neighbourhood	all	pcs	400		44	1	0.9227	pcs	0.04926	0.6176	0.9227	1.084
-60% epiboly	neighbourhood	heterogeneous	curated	184	44	44	0.9652	0.9652	pcs	0.3268	0.8098	0.9652	1
-60% epiboly	neighbourhood	heterogeneous	k2	184	44	44	0.9182	0.9652	pcs	0.3268	0.8098	0.9652	0.9513
-60% epiboly	neighbourhood	heterogeneous	k3	184	88	44	0.9406	0.9652	pcs	0.3268	0.8098	0.9652	0.9746
-60% epiboly	neighbourhood	heterogeneous	k4	184	132	44	0.9271	0.9652	pcs	0.3268	0.8098	0.9652	0.9605
-60% epiboly	neighbourhood	heterogeneous	k5	184	176	44	0.9225	0.9652	pcs	0.3268	0.8098	0.9652	0.9557
-60% epiboly	neighbourhood	heterogeneous	k6	184	220	44	0.9163	0.9652	pcs	0.3268	0.8098	0.9652	0.9493
-60% epiboly	neighbourhood	heterogeneous	k3_onehot	184	88	44	0.9369	0.9652	pcs	0.3268	0.8098	0.9652	0.9707
-60% epiboly	neighbourhood	heterogeneous	k6_onehot	184	220	44	0.9018	0.9652	pcs	0.3268	0.8098	0.9652	0.9343
-60% epiboly	neighbourhood	heterogeneous	active	184	44	44	0.872	0.9652	pcs	0.3268	0.8098	0.9652	0.9035
-60% epiboly	neighbourhood	heterogeneous	3state	184	88	44	0.9038	0.9652	pcs	0.3268	0.8098	0.9652	0.9364
-60% epiboly	neighbourhood	heterogeneous	supported_active	184	26	44	0.8316	0.9652	pcs	0.3268	0.8098	0.9652	0.8616
-60% epiboly	neighbourhood	heterogeneous	supported_k3	184	52	44	0.9382	0.9652	pcs	0.3268	0.8098	0.9652	0.972
-60% epiboly	neighbourhood	heterogeneous	curated_supported	184		44	0.9478	0.9652	pcs	0.3268	0.8098	0.9652	0.982
-60% epiboly	neighbourhood	heterogeneous	random_curated	184		44	0.8098	0.9652	pcs	0.3268	0.8098	0.9652	0.8389
-60% epiboly	neighbourhood	heterogeneous	pcs	184		44	1	0.9652	pcs	0.3268	0.8098	0.9652	1.036
-75% epiboly	neighbourhood	all	curated	400	45	45	0.9279	0.9279	all	0.06567	0.6132	0.9279	1
-75% epiboly	neighbourhood	all	k2	400	45	45	0.8091	0.9279	all	0.06567	0.6132	0.9279	0.872
-75% epiboly	neighbourhood	all	k3	400	90	45	0.8246	0.9279	all	0.06567	0.6132	0.9279	0.8887
-75% epiboly	neighbourhood	all	k4	400	135	45	0.8046	0.9279	all	0.06567	0.6132	0.9279	0.8671
-75% epiboly	neighbourhood	all	k5	400	180	45	0.7828	0.9279	all	0.06567	0.6132	0.9279	0.8437
-75% epiboly	neighbourhood	all	k6	400	225	45	0.7289	0.9279	all	0.06567	0.6132	0.9279	0.7856
-75% epiboly	neighbourhood	all	k3_onehot	400	90	45	0.816	0.9279	all	0.06567	0.6132	0.9279	0.8795
-75% epiboly	neighbourhood	all	k6_onehot	400	225	45	0.6468	0.9279	all	0.06567	0.6132	0.9279	0.6971
-75% epiboly	neighbourhood	all	active	400	45	45	0.7177	0.9279	all	0.06567	0.6132	0.9279	0.7735
-75% epiboly	neighbourhood	all	3state	400	90	45	0.6834	0.9279	all	0.06567	0.6132	0.9279	0.7365
-75% epiboly	neighbourhood	all	supported_active	400	26	45	0.658	0.9279	all	0.06567	0.6132	0.9279	0.7092
-75% epiboly	neighbourhood	all	supported_k3	400	52	45	0.8281	0.9279	all	0.06567	0.6132	0.9279	0.8924
-75% epiboly	neighbourhood	all	curated_supported	400		45	0.8904	0.9279	all	0.06567	0.6132	0.9279	0.9596
-75% epiboly	neighbourhood	all	random_curated	400		45	0.6132	0.9279	all	0.06567	0.6132	0.9279	0.6609
-75% epiboly	neighbourhood	all	pcs	400		45	0.9792	0.9279	all	0.06567	0.6132	0.9279	1.055
-75% epiboly	neighbourhood	heterogeneous	curated	246	45	45	0.9652	0.9652	all	0.3439	0.7782	0.9652	1
-75% epiboly	neighbourhood	heterogeneous	k2	246	45	45	0.9235	0.9652	all	0.3439	0.7782	0.9652	0.9569
-75% epiboly	neighbourhood	heterogeneous	k3	246	90	45	0.9535	0.9652	all	0.3439	0.7782	0.9652	0.9879
-75% epiboly	neighbourhood	heterogeneous	k4	246	135	45	0.9618	0.9652	all	0.3439	0.7782	0.9652	0.9965
-75% epiboly	neighbourhood	heterogeneous	k5	246	180	45	0.9644	0.9652	all	0.3439	0.7782	0.9652	0.9992
-75% epiboly	neighbourhood	heterogeneous	k6	246	225	45	0.9578	0.9652	all	0.3439	0.7782	0.9652	0.9924
-75% epiboly	neighbourhood	heterogeneous	k3_onehot	246	90	45	0.9522	0.9652	all	0.3439	0.7782	0.9652	0.9866
-75% epiboly	neighbourhood	heterogeneous	k6_onehot	246	225	45	0.9486	0.9652	all	0.3439	0.7782	0.9652	0.9829
-75% epiboly	neighbourhood	heterogeneous	active	246	45	45	0.8685	0.9652	all	0.3439	0.7782	0.9652	0.8999
-75% epiboly	neighbourhood	heterogeneous	3state	246	90	45	0.918	0.9652	all	0.3439	0.7782	0.9652	0.9511
-75% epiboly	neighbourhood	heterogeneous	supported_active	246	26	45	0.8163	0.9652	all	0.3439	0.7782	0.9652	0.8458
-75% epiboly	neighbourhood	heterogeneous	supported_k3	246	52	45	0.9314	0.9652	all	0.3439	0.7782	0.9652	0.965
-75% epiboly	neighbourhood	heterogeneous	curated_supported	246		45	0.9443	0.9652	all	0.3439	0.7782	0.9652	0.9784
-75% epiboly	neighbourhood	heterogeneous	random_curated	246		45	0.7782	0.9652	all	0.3439	0.7782	0.9652	0.8062
-75% epiboly	neighbourhood	heterogeneous	pcs	246		45	0.994	0.9652	all	0.3439	0.7782	0.9652	1.03
-90% epiboly	neighbourhood	all	curated	400	45	45	0.9399	0.9399	all	0.06572	0.5731	0.9399	1
-90% epiboly	neighbourhood	all	k2	400	45	45	0.8033	0.9399	all	0.06572	0.5731	0.9399	0.8546
-90% epiboly	neighbourhood	all	k3	400	90	45	0.8166	0.9399	all	0.06572	0.5731	0.9399	0.8688
-90% epiboly	neighbourhood	all	k4	400	135	45	0.8245	0.9399	all	0.06572	0.5731	0.9399	0.8772
-90% epiboly	neighbourhood	all	k5	400	180	45	0.7858	0.9399	all	0.06572	0.5731	0.9399	0.836
-90% epiboly	neighbourhood	all	k6	400	225	45	0.7199	0.9399	all	0.06572	0.5731	0.9399	0.7659
-90% epiboly	neighbourhood	all	k3_onehot	400	90	45	0.821	0.9399	all	0.06572	0.5731	0.9399	0.8734
-90% epiboly	neighbourhood	all	k6_onehot	400	225	45	0.6191	0.9399	all	0.06572	0.5731	0.9399	0.6586
-90% epiboly	neighbourhood	all	active	400	45	45	0.7007	0.9399	all	0.06572	0.5731	0.9399	0.7455
-90% epiboly	neighbourhood	all	3state	400	90	45	0.6974	0.9399	all	0.06572	0.5731	0.9399	0.742
-90% epiboly	neighbourhood	all	supported_active	400	25	45	0.6361	0.9399	all	0.06572	0.5731	0.9399	0.6767
-90% epiboly	neighbourhood	all	supported_k3	400	50	45	0.8087	0.9399	all	0.06572	0.5731	0.9399	0.8604
-90% epiboly	neighbourhood	all	curated_supported	400		45	0.8884	0.9399	all	0.06572	0.5731	0.9399	0.9451
-90% epiboly	neighbourhood	all	random_curated	400		45	0.5731	0.9399	all	0.06572	0.5731	0.9399	0.6097
-90% epiboly	neighbourhood	all	pcs	400		45	0.9571	0.9399	all	0.06572	0.5731	0.9399	1.018
-90% epiboly	neighbourhood	heterogeneous	curated	255	45	45	0.9687	0.9687	all	0.3667	0.7638	0.9687	1
-90% epiboly	neighbourhood	heterogeneous	k2	255	45	45	0.9189	0.9687	all	0.3667	0.7638	0.9687	0.9486
-90% epiboly	neighbourhood	heterogeneous	k3	255	90	45	0.9507	0.9687	all	0.3667	0.7638	0.9687	0.9815
-90% epiboly	neighbourhood	heterogeneous	k4	255	135	45	0.9685	0.9687	all	0.3667	0.7638	0.9687	0.9998
-90% epiboly	neighbourhood	heterogeneous	k5	255	180	45	0.9674	0.9687	all	0.3667	0.7638	0.9687	0.9987
-90% epiboly	neighbourhood	heterogeneous	k6	255	225	45	0.9655	0.9687	all	0.3667	0.7638	0.9687	0.9967
-90% epiboly	neighbourhood	heterogeneous	k3_onehot	255	90	45	0.9487	0.9687	all	0.3667	0.7638	0.9687	0.9794
-90% epiboly	neighbourhood	heterogeneous	k6_onehot	255	225	45	0.9496	0.9687	all	0.3667	0.7638	0.9687	0.9804
-90% epiboly	neighbourhood	heterogeneous	active	255	45	45	0.8745	0.9687	all	0.3667	0.7638	0.9687	0.9028
-90% epiboly	neighbourhood	heterogeneous	3state	255	90	45	0.9173	0.9687	all	0.3667	0.7638	0.9687	0.9469
-90% epiboly	neighbourhood	heterogeneous	supported_active	255	25	45	0.8133	0.9687	all	0.3667	0.7638	0.9687	0.8396
-90% epiboly	neighbourhood	heterogeneous	supported_k3	255	50	45	0.9197	0.9687	all	0.3667	0.7638	0.9687	0.9494
-90% epiboly	neighbourhood	heterogeneous	curated_supported	255		45	0.9445	0.9687	all	0.3667	0.7638	0.9687	0.9751
-90% epiboly	neighbourhood	heterogeneous	random_curated	255		45	0.7638	0.9687	all	0.3667	0.7638	0.9687	0.7885
-90% epiboly	neighbourhood	heterogeneous	pcs	255		45	0.9875	0.9687	all	0.3667	0.7638	0.9687	1.019
-bud	neighbourhood	all	curated	400	45	45	0.9335	0.9335	all	0.08208	0.6471	0.9335	1
-bud	neighbourhood	all	k2	400	45	45	0.8523	0.9335	all	0.08208	0.6471	0.9335	0.913
-bud	neighbourhood	all	k3	400	90	45	0.8756	0.9335	all	0.08208	0.6471	0.9335	0.938
-bud	neighbourhood	all	k4	400	135	45	0.8687	0.9335	all	0.08208	0.6471	0.9335	0.9306
-bud	neighbourhood	all	k5	400	180	45	0.8621	0.9335	all	0.08208	0.6471	0.9335	0.9236
-bud	neighbourhood	all	k6	400	225	45	0.8255	0.9335	all	0.08208	0.6471	0.9335	0.8843
-bud	neighbourhood	all	k3_onehot	400	90	45	0.8711	0.9335	all	0.08208	0.6471	0.9335	0.9332
-bud	neighbourhood	all	k6_onehot	400	225	45	0.7662	0.9335	all	0.08208	0.6471	0.9335	0.8208
-bud	neighbourhood	all	active	400	45	45	0.7833	0.9335	all	0.08208	0.6471	0.9335	0.8391
-bud	neighbourhood	all	3state	400	90	45	0.7989	0.9335	all	0.08208	0.6471	0.9335	0.8558
-bud	neighbourhood	all	supported_active	400	30	45	0.7384	0.9335	all	0.08208	0.6471	0.9335	0.791
-bud	neighbourhood	all	supported_k3	400	60	45	0.8714	0.9335	all	0.08208	0.6471	0.9335	0.9335
-bud	neighbourhood	all	curated_supported	400		45	0.9131	0.9335	all	0.08208	0.6471	0.9335	0.9782
-bud	neighbourhood	all	random_curated	400		45	0.6471	0.9335	all	0.08208	0.6471	0.9335	0.6932
-bud	neighbourhood	all	pcs	400		45	0.9742	0.9335	all	0.08208	0.6471	0.9335	1.044
-bud	neighbourhood	heterogeneous	curated	214	45	45	0.9553	0.9553	all	0.412	0.7142	0.9553	1
-bud	neighbourhood	heterogeneous	k2	214	45	45	0.9149	0.9553	all	0.412	0.7142	0.9553	0.9578
-bud	neighbourhood	heterogeneous	k3	214	90	45	0.9549	0.9553	all	0.412	0.7142	0.9553	0.9996
-bud	neighbourhood	heterogeneous	k4	214	135	45	0.9657	0.9553	all	0.412	0.7142	0.9553	1.011
-bud	neighbourhood	heterogeneous	k5	214	180	45	0.9693	0.9553	all	0.412	0.7142	0.9553	1.015
-bud	neighbourhood	heterogeneous	k6	214	225	45	0.9694	0.9553	all	0.412	0.7142	0.9553	1.015
-bud	neighbourhood	heterogeneous	k3_onehot	214	90	45	0.9528	0.9553	all	0.412	0.7142	0.9553	0.9974
-bud	neighbourhood	heterogeneous	k6_onehot	214	225	45	0.9559	0.9553	all	0.412	0.7142	0.9553	1.001
-bud	neighbourhood	heterogeneous	active	214	45	45	0.8818	0.9553	all	0.412	0.7142	0.9553	0.9231
-bud	neighbourhood	heterogeneous	3state	214	90	45	0.9217	0.9553	all	0.412	0.7142	0.9553	0.9649
-bud	neighbourhood	heterogeneous	supported_active	214	30	45	0.8505	0.9553	all	0.412	0.7142	0.9553	0.8903
-bud	neighbourhood	heterogeneous	supported_k3	214	60	45	0.9409	0.9553	all	0.412	0.7142	0.9553	0.985
-bud	neighbourhood	heterogeneous	curated_supported	214		45	0.9437	0.9553	all	0.412	0.7142	0.9553	0.9879
-bud	neighbourhood	heterogeneous	random_curated	214		45	0.7142	0.9553	all	0.412	0.7142	0.9553	0.7477
-bud	neighbourhood	heterogeneous	pcs	214		45	0.9878	0.9553	all	0.412	0.7142	0.9553	1.034
-3-somite	neighbourhood	all	curated	400	45	45	0.8465	0.8466	farrell	0.06064	0.4161	0.8465	1
-3-somite	neighbourhood	all	k2	400	45	45	0.6939	0.8466	farrell	0.06064	0.4161	0.8465	0.8197
-3-somite	neighbourhood	all	k3	400	90	45	0.5888	0.8466	farrell	0.06064	0.4161	0.8465	0.6956
-3-somite	neighbourhood	all	k4	400	135	45	0.416	0.8466	farrell	0.06064	0.4161	0.8465	0.4914
-3-somite	neighbourhood	all	k5	400	180	45	0.2918	0.8466	farrell	0.06064	0.4161	0.8465	0.3448
-3-somite	neighbourhood	all	k6	400	225	45	0.1841	0.8466	farrell	0.06064	0.4161	0.8465	0.2175
-3-somite	neighbourhood	all	k3_onehot	400	90	45	0.5458	0.8466	farrell	0.06064	0.4161	0.8465	0.6448
-3-somite	neighbourhood	all	k6_onehot	400	225	45	-0.1275	0.8466	farrell	0.06064	0.4161	0.8465	-0.1507
-3-somite	neighbourhood	all	active	400	45	45	0.6208	0.8466	farrell	0.06064	0.4161	0.8465	0.7334
-3-somite	neighbourhood	all	3state	400	90	45	0.4609	0.8466	farrell	0.06064	0.4161	0.8465	0.5445
-3-somite	neighbourhood	all	supported_active	400	32	45	0.7029	0.8466	farrell	0.06064	0.4161	0.8465	0.8304
-3-somite	neighbourhood	all	supported_k3	400	64	45	0.6787	0.8466	farrell	0.06064	0.4161	0.8465	0.8018
-3-somite	neighbourhood	all	curated_supported	400		45	0.9122	0.8466	farrell	0.06064	0.4161	0.8465	1.078
-3-somite	neighbourhood	all	random_curated	400		45	0.4161	0.8466	farrell	0.06064	0.4161	0.8465	0.4915
-3-somite	neighbourhood	all	pcs	400		45	0.9993	0.8466	farrell	0.06064	0.4161	0.8465	1.181
-3-somite	neighbourhood	heterogeneous	curated	140	45	45	0.9534	0.9534	pcs	0.2891	0.7475	0.9534	1
-3-somite	neighbourhood	heterogeneous	k2	140	45	45	0.889	0.9534	pcs	0.2891	0.7475	0.9534	0.9325
-3-somite	neighbourhood	heterogeneous	k3	140	90	45	0.9092	0.9534	pcs	0.2891	0.7475	0.9534	0.9536
-3-somite	neighbourhood	heterogeneous	k4	140	135	45	0.9068	0.9534	pcs	0.2891	0.7475	0.9534	0.9511
-3-somite	neighbourhood	heterogeneous	k5	140	180	45	0.9194	0.9534	pcs	0.2891	0.7475	0.9534	0.9644
-3-somite	neighbourhood	heterogeneous	k6	140	225	45	0.908	0.9534	pcs	0.2891	0.7475	0.9534	0.9524
-3-somite	neighbourhood	heterogeneous	k3_onehot	140	90	45	0.8911	0.9534	pcs	0.2891	0.7475	0.9534	0.9347
-3-somite	neighbourhood	heterogeneous	k6_onehot	140	225	45	0.8462	0.9534	pcs	0.2891	0.7475	0.9534	0.8875
-3-somite	neighbourhood	heterogeneous	active	140	45	45	0.8651	0.9534	pcs	0.2891	0.7475	0.9534	0.9073
-3-somite	neighbourhood	heterogeneous	3state	140	90	45	0.8678	0.9534	pcs	0.2891	0.7475	0.9534	0.9102
-3-somite	neighbourhood	heterogeneous	supported_active	140	32	45	0.8528	0.9534	pcs	0.2891	0.7475	0.9534	0.8945
-3-somite	neighbourhood	heterogeneous	supported_k3	140	64	45	0.9129	0.9534	pcs	0.2891	0.7475	0.9534	0.9575
-3-somite	neighbourhood	heterogeneous	curated_supported	140		45	0.9489	0.9534	pcs	0.2891	0.7475	0.9534	0.9953
-3-somite	neighbourhood	heterogeneous	random_curated	140		45	0.7475	0.9534	pcs	0.2891	0.7475	0.9534	0.784
-3-somite	neighbourhood	heterogeneous	pcs	140		45	1	0.9534	pcs	0.2891	0.7475	0.9534	1.049
-6-somite	neighbourhood	all	curated	400	45	45	0.9187	0.9187	pcs	0.07329	0.6196	0.9187	1
-6-somite	neighbourhood	all	k2	400	45	45	0.7899	0.9187	pcs	0.07329	0.6196	0.9187	0.8598
-6-somite	neighbourhood	all	k3	400	90	45	0.7922	0.9187	pcs	0.07329	0.6196	0.9187	0.8623
-6-somite	neighbourhood	all	k4	400	135	45	0.7807	0.9187	pcs	0.07329	0.6196	0.9187	0.8498
-6-somite	neighbourhood	all	k5	400	180	45	0.7176	0.9187	pcs	0.07329	0.6196	0.9187	0.7811
-6-somite	neighbourhood	all	k6	400	225	45	0.6742	0.9187	pcs	0.07329	0.6196	0.9187	0.7339
-6-somite	neighbourhood	all	k3_onehot	400	90	45	0.7828	0.9187	pcs	0.07329	0.6196	0.9187	0.852
-6-somite	neighbourhood	all	k6_onehot	400	225	45	0.5703	0.9187	pcs	0.07329	0.6196	0.9187	0.6208
-6-somite	neighbourhood	all	active	400	45	45	0.7157	0.9187	pcs	0.07329	0.6196	0.9187	0.779
-6-somite	neighbourhood	all	3state	400	90	45	0.6978	0.9187	pcs	0.07329	0.6196	0.9187	0.7596
-6-somite	neighbourhood	all	supported_active	400	33	45	0.694	0.9187	pcs	0.07329	0.6196	0.9187	0.7554
-6-somite	neighbourhood	all	supported_k3	400	66	45	0.8251	0.9187	pcs	0.07329	0.6196	0.9187	0.8981
-6-somite	neighbourhood	all	curated_supported	400		45	0.9263	0.9187	pcs	0.07329	0.6196	0.9187	1.008
-6-somite	neighbourhood	all	random_curated	400		45	0.6196	0.9187	pcs	0.07329	0.6196	0.9187	0.6744
-6-somite	neighbourhood	all	pcs	400		45	1	0.9187	pcs	0.07329	0.6196	0.9187	1.088
-6-somite	neighbourhood	heterogeneous	curated	254	45	45	0.9558	0.9558	all	0.3695	0.7721	0.9558	1
-6-somite	neighbourhood	heterogeneous	k2	254	45	45	0.8846	0.9558	all	0.3695	0.7721	0.9558	0.9255
-6-somite	neighbourhood	heterogeneous	k3	254	90	45	0.938	0.9558	all	0.3695	0.7721	0.9558	0.9813
-6-somite	neighbourhood	heterogeneous	k4	254	135	45	0.9499	0.9558	all	0.3695	0.7721	0.9558	0.9939
-6-somite	neighbourhood	heterogeneous	k5	254	180	45	0.9523	0.9558	all	0.3695	0.7721	0.9558	0.9963
-6-somite	neighbourhood	heterogeneous	k6	254	225	45	0.9491	0.9558	all	0.3695	0.7721	0.9558	0.993
-6-somite	neighbourhood	heterogeneous	k3_onehot	254	90	45	0.9342	0.9558	all	0.3695	0.7721	0.9558	0.9774
-6-somite	neighbourhood	heterogeneous	k6_onehot	254	225	45	0.9226	0.9558	all	0.3695	0.7721	0.9558	0.9653
-6-somite	neighbourhood	heterogeneous	active	254	45	45	0.8679	0.9558	all	0.3695	0.7721	0.9558	0.908
-6-somite	neighbourhood	heterogeneous	3state	254	90	45	0.8978	0.9558	all	0.3695	0.7721	0.9558	0.9393
-6-somite	neighbourhood	heterogeneous	supported_active	254	33	45	0.8422	0.9558	all	0.3695	0.7721	0.9558	0.8812
-6-somite	neighbourhood	heterogeneous	supported_k3	254	66	45	0.9359	0.9558	all	0.3695	0.7721	0.9558	0.9792
-6-somite	neighbourhood	heterogeneous	curated_supported	254		45	0.9441	0.9558	all	0.3695	0.7721	0.9558	0.9878
-6-somite	neighbourhood	heterogeneous	random_curated	254		45	0.7721	0.9558	all	0.3695	0.7721	0.9558	0.8079
-6-somite	neighbourhood	heterogeneous	pcs	254		45	0.9974	0.9558	all	0.3695	0.7721	0.9558	1.044
+stage	target	genes	feature_set	n_eval_genes	n_features	n_programs	explained	ceiling	explainable_share	random	continuous	retained
+high	neighbourhood	all	knn	400	0	39		curated_supported	0.007742			
+high	neighbourhood	all	pcs	400	30	39		curated_supported	0.007742			
+high	neighbourhood	all	curated_supported	400	4	39		curated_supported	0.007742			
+high	neighbourhood	all	random_curated	400	39	39		curated_supported	0.007742			
+high	neighbourhood	all	curated	400	39	39		curated_supported	0.007742			
+high	neighbourhood	all	k2	400	39	39		curated_supported	0.007742			
+high	neighbourhood	all	k3	400	78	39		curated_supported	0.007742			
+high	neighbourhood	all	k4	400	117	39		curated_supported	0.007742			
+high	neighbourhood	all	k5	400	156	39		curated_supported	0.007742			
+high	neighbourhood	all	k6	400	195	39		curated_supported	0.007742			
+high	neighbourhood	all	k3_onehot	400	78	39		curated_supported	0.007742			
+high	neighbourhood	all	k6_onehot	400	195	39		curated_supported	0.007742			
+high	neighbourhood	all	active	400	39	39		curated_supported	0.007742			
+high	neighbourhood	all	3state	400	78	39		curated_supported	0.007742			
+high	neighbourhood	all	supported_active	400	4	39		curated_supported	0.007742			
+high	neighbourhood	all	supported_k3	400	8	39		curated_supported	0.007742			
+high	neighbourhood	heterogeneous	knn	94	0	39	0.6562	curated_supported	0.04605	-0.6876	0.2143	3.062
+high	neighbourhood	heterogeneous	pcs	94	30	39	0.296	curated_supported	0.04605	-0.6876	0.2143	1.381
+high	neighbourhood	heterogeneous	curated_supported	94	4	39	1	curated_supported	0.04605	-0.6876	0.2143	4.666
+high	neighbourhood	heterogeneous	random_curated	94	39	39	-0.6876	curated_supported	0.04605	-0.6876	0.2143	-3.208
+high	neighbourhood	heterogeneous	curated	94	39	39	0.2143	curated_supported	0.04605	-0.6876	0.2143	1
+high	neighbourhood	heterogeneous	k2	94	39	39	-0.2447	curated_supported	0.04605	-0.6876	0.2143	-1.142
+high	neighbourhood	heterogeneous	k3	94	78	39	-1.063	curated_supported	0.04605	-0.6876	0.2143	-4.961
+high	neighbourhood	heterogeneous	k4	94	117	39	-1.25	curated_supported	0.04605	-0.6876	0.2143	-5.832
+high	neighbourhood	heterogeneous	k5	94	156	39	-1.751	curated_supported	0.04605	-0.6876	0.2143	-8.169
+high	neighbourhood	heterogeneous	k6	94	195	39	-2.211	curated_supported	0.04605	-0.6876	0.2143	-10.32
+high	neighbourhood	heterogeneous	k3_onehot	94	78	39	-1.48	curated_supported	0.04605	-0.6876	0.2143	-6.907
+high	neighbourhood	heterogeneous	k6_onehot	94	195	39	-2.783	curated_supported	0.04605	-0.6876	0.2143	-12.98
+high	neighbourhood	heterogeneous	active	94	39	39	-0.4438	curated_supported	0.04605	-0.6876	0.2143	-2.07
+high	neighbourhood	heterogeneous	3state	94	78	39	-1.097	curated_supported	0.04605	-0.6876	0.2143	-5.116
+high	neighbourhood	heterogeneous	supported_active	94	4	39	0.4997	curated_supported	0.04605	-0.6876	0.2143	2.332
+high	neighbourhood	heterogeneous	supported_k3	94	8	39	0.5736	curated_supported	0.04605	-0.6876	0.2143	2.676
+oblong	neighbourhood	all	knn	400	0	39		curated_supported	0.00107			
+oblong	neighbourhood	all	pcs	400	30	39		curated_supported	0.00107			
+oblong	neighbourhood	all	curated_supported	400	4	39		curated_supported	0.00107			
+oblong	neighbourhood	all	random_curated	400	39	39		curated_supported	0.00107			
+oblong	neighbourhood	all	curated	400	39	39		curated_supported	0.00107			
+oblong	neighbourhood	all	k2	400	39	39		curated_supported	0.00107			
+oblong	neighbourhood	all	k3	400	78	39		curated_supported	0.00107			
+oblong	neighbourhood	all	k4	400	117	39		curated_supported	0.00107			
+oblong	neighbourhood	all	k5	400	156	39		curated_supported	0.00107			
+oblong	neighbourhood	all	k6	400	195	39		curated_supported	0.00107			
+oblong	neighbourhood	all	k3_onehot	400	78	39		curated_supported	0.00107			
+oblong	neighbourhood	all	k6_onehot	400	195	39		curated_supported	0.00107			
+oblong	neighbourhood	all	active	400	39	39		curated_supported	0.00107			
+oblong	neighbourhood	all	3state	400	78	39		curated_supported	0.00107			
+oblong	neighbourhood	all	supported_active	400	4	39		curated_supported	0.00107			
+oblong	neighbourhood	all	supported_k3	400	8	39		curated_supported	0.00107			
+oblong	neighbourhood	heterogeneous	knn	44	0	39	0.7881	curated_supported	0.06441	-2.23	-1.808	-0.4359
+oblong	neighbourhood	heterogeneous	pcs	44	30	39	-1.186	curated_supported	0.06441	-2.23	-1.808	0.6558
+oblong	neighbourhood	heterogeneous	curated_supported	44	4	39	1	curated_supported	0.06441	-2.23	-1.808	-0.5531
+oblong	neighbourhood	heterogeneous	random_curated	44	39	39	-2.23	curated_supported	0.06441	-2.23	-1.808	1.233
+oblong	neighbourhood	heterogeneous	curated	44	39	39	-1.808	curated_supported	0.06441	-2.23	-1.808	1
+oblong	neighbourhood	heterogeneous	k2	44	39	39	-2.413	curated_supported	0.06441	-2.23	-1.808	1.335
+oblong	neighbourhood	heterogeneous	k3	44	78	39	-3.507	curated_supported	0.06441	-2.23	-1.808	1.94
+oblong	neighbourhood	heterogeneous	k4	44	117	39	-4.37	curated_supported	0.06441	-2.23	-1.808	2.417
+oblong	neighbourhood	heterogeneous	k5	44	156	39	-4.302	curated_supported	0.06441	-2.23	-1.808	2.379
+oblong	neighbourhood	heterogeneous	k6	44	195	39	-4.509	curated_supported	0.06441	-2.23	-1.808	2.494
+oblong	neighbourhood	heterogeneous	k3_onehot	44	78	39	-4.471	curated_supported	0.06441	-2.23	-1.808	2.473
+oblong	neighbourhood	heterogeneous	k6_onehot	44	195	39	-6	curated_supported	0.06441	-2.23	-1.808	3.319
+oblong	neighbourhood	heterogeneous	active	44	39	39	-0.1714	curated_supported	0.06441	-2.23	-1.808	0.09481
+oblong	neighbourhood	heterogeneous	3state	44	78	39	-3.688	curated_supported	0.06441	-2.23	-1.808	2.04
+oblong	neighbourhood	heterogeneous	supported_active	44	4	39	0.9126	curated_supported	0.06441	-2.23	-1.808	-0.5048
+oblong	neighbourhood	heterogeneous	supported_k3	44	8	39	0.4412	curated_supported	0.06441	-2.23	-1.808	-0.244
+dome	neighbourhood	all	knn	400	0	41		pcs	0.02983			
+dome	neighbourhood	all	pcs	400	30	41		pcs	0.02983			
+dome	neighbourhood	all	curated_supported	400	3	41		pcs	0.02983			
+dome	neighbourhood	all	random_curated	400	41	41		pcs	0.02983			
+dome	neighbourhood	all	curated	400	41	41		pcs	0.02983			
+dome	neighbourhood	all	k2	400	41	41		pcs	0.02983			
+dome	neighbourhood	all	k3	400	82	41		pcs	0.02983			
+dome	neighbourhood	all	k4	400	123	41		pcs	0.02983			
+dome	neighbourhood	all	k5	400	164	41		pcs	0.02983			
+dome	neighbourhood	all	k6	400	205	41		pcs	0.02983			
+dome	neighbourhood	all	k3_onehot	400	82	41		pcs	0.02983			
+dome	neighbourhood	all	k6_onehot	400	205	41		pcs	0.02983			
+dome	neighbourhood	all	active	400	41	41		pcs	0.02983			
+dome	neighbourhood	all	3state	400	82	41		pcs	0.02983			
+dome	neighbourhood	all	supported_active	400	3	41		pcs	0.02983			
+dome	neighbourhood	all	supported_k3	400	6	41		pcs	0.02983			
+dome	neighbourhood	heterogeneous	knn	190	0	41	0.7703	pcs	0.2929	0.8547	0.9787	0.7871
+dome	neighbourhood	heterogeneous	pcs	190	30	41	1	pcs	0.2929	0.8547	0.9787	1.022
+dome	neighbourhood	heterogeneous	curated_supported	190	3	41	0.916	pcs	0.2929	0.8547	0.9787	0.9359
+dome	neighbourhood	heterogeneous	random_curated	190	41	41	0.8547	pcs	0.2929	0.8547	0.9787	0.8733
+dome	neighbourhood	heterogeneous	curated	190	41	41	0.9787	pcs	0.2929	0.8547	0.9787	1
+dome	neighbourhood	heterogeneous	k2	190	41	41	0.948	pcs	0.2929	0.8547	0.9787	0.9686
+dome	neighbourhood	heterogeneous	k3	190	82	41	0.9221	pcs	0.2929	0.8547	0.9787	0.9422
+dome	neighbourhood	heterogeneous	k4	190	123	41	0.9117	pcs	0.2929	0.8547	0.9787	0.9315
+dome	neighbourhood	heterogeneous	k5	190	164	41	0.8935	pcs	0.2929	0.8547	0.9787	0.913
+dome	neighbourhood	heterogeneous	k6	190	205	41	0.8601	pcs	0.2929	0.8547	0.9787	0.8788
+dome	neighbourhood	heterogeneous	k3_onehot	190	82	41	0.9114	pcs	0.2929	0.8547	0.9787	0.9313
+dome	neighbourhood	heterogeneous	k6_onehot	190	205	41	0.7978	pcs	0.2929	0.8547	0.9787	0.8152
+dome	neighbourhood	heterogeneous	active	190	41	41	0.8841	pcs	0.2929	0.8547	0.9787	0.9034
+dome	neighbourhood	heterogeneous	3state	190	82	41	0.8692	pcs	0.2929	0.8547	0.9787	0.8881
+dome	neighbourhood	heterogeneous	supported_active	190	3	41	0.7256	pcs	0.2929	0.8547	0.9787	0.7414
+dome	neighbourhood	heterogeneous	supported_k3	190	6	41	0.9031	pcs	0.2929	0.8547	0.9787	0.9228
+30% epiboly	neighbourhood	all	knn	400	0	42		pcs	0.02388			
+30% epiboly	neighbourhood	all	pcs	400	30	42		pcs	0.02388			
+30% epiboly	neighbourhood	all	curated_supported	400	4	42		pcs	0.02388			
+30% epiboly	neighbourhood	all	random_curated	400	42	42		pcs	0.02388			
+30% epiboly	neighbourhood	all	curated	400	42	42		pcs	0.02388			
+30% epiboly	neighbourhood	all	k2	400	42	42		pcs	0.02388			
+30% epiboly	neighbourhood	all	k3	400	84	42		pcs	0.02388			
+30% epiboly	neighbourhood	all	k4	400	126	42		pcs	0.02388			
+30% epiboly	neighbourhood	all	k5	400	168	42		pcs	0.02388			
+30% epiboly	neighbourhood	all	k6	400	210	42		pcs	0.02388			
+30% epiboly	neighbourhood	all	k3_onehot	400	84	42		pcs	0.02388			
+30% epiboly	neighbourhood	all	k6_onehot	400	210	42		pcs	0.02388			
+30% epiboly	neighbourhood	all	active	400	42	42		pcs	0.02388			
+30% epiboly	neighbourhood	all	3state	400	84	42		pcs	0.02388			
+30% epiboly	neighbourhood	all	supported_active	400	4	42		pcs	0.02388			
+30% epiboly	neighbourhood	all	supported_k3	400	8	42		pcs	0.02388			
+30% epiboly	neighbourhood	heterogeneous	knn	187	0	42	0.7051	pcs	0.3167	0.8874	0.9893	0.7127
+30% epiboly	neighbourhood	heterogeneous	pcs	187	30	42	1	pcs	0.3167	0.8874	0.9893	1.011
+30% epiboly	neighbourhood	heterogeneous	curated_supported	187	4	42	0.9245	pcs	0.3167	0.8874	0.9893	0.9346
+30% epiboly	neighbourhood	heterogeneous	random_curated	187	42	42	0.8874	pcs	0.3167	0.8874	0.9893	0.8971
+30% epiboly	neighbourhood	heterogeneous	curated	187	42	42	0.9893	pcs	0.3167	0.8874	0.9893	1
+30% epiboly	neighbourhood	heterogeneous	k2	187	42	42	0.9644	pcs	0.3167	0.8874	0.9893	0.9748
+30% epiboly	neighbourhood	heterogeneous	k3	187	84	42	0.9465	pcs	0.3167	0.8874	0.9893	0.9568
+30% epiboly	neighbourhood	heterogeneous	k4	187	126	42	0.9297	pcs	0.3167	0.8874	0.9893	0.9398
+30% epiboly	neighbourhood	heterogeneous	k5	187	168	42	0.9063	pcs	0.3167	0.8874	0.9893	0.9161
+30% epiboly	neighbourhood	heterogeneous	k6	187	210	42	0.8901	pcs	0.3167	0.8874	0.9893	0.8997
+30% epiboly	neighbourhood	heterogeneous	k3_onehot	187	84	42	0.9387	pcs	0.3167	0.8874	0.9893	0.9489
+30% epiboly	neighbourhood	heterogeneous	k6_onehot	187	210	42	0.8276	pcs	0.3167	0.8874	0.9893	0.8366
+30% epiboly	neighbourhood	heterogeneous	active	187	42	42	0.9347	pcs	0.3167	0.8874	0.9893	0.9449
+30% epiboly	neighbourhood	heterogeneous	3state	187	84	42	0.9054	pcs	0.3167	0.8874	0.9893	0.9152
+30% epiboly	neighbourhood	heterogeneous	supported_active	187	4	42	0.7124	pcs	0.3167	0.8874	0.9893	0.7201
+30% epiboly	neighbourhood	heterogeneous	supported_k3	187	8	42	0.9076	pcs	0.3167	0.8874	0.9893	0.9175
+50% epiboly	neighbourhood	all	knn	400	0	44	0.1107	pcs	0.0426	0.479	0.9096	0.1217
+50% epiboly	neighbourhood	all	pcs	400	30	44	1	pcs	0.0426	0.479	0.9096	1.099
+50% epiboly	neighbourhood	all	curated_supported	400	4	44	0.6154	pcs	0.0426	0.479	0.9096	0.6765
+50% epiboly	neighbourhood	all	random_curated	400	44	44	0.479	pcs	0.0426	0.479	0.9096	0.5266
+50% epiboly	neighbourhood	all	curated	400	44	44	0.9096	pcs	0.0426	0.479	0.9096	1
+50% epiboly	neighbourhood	all	k2	400	44	44	0.724	pcs	0.0426	0.479	0.9096	0.7959
+50% epiboly	neighbourhood	all	k3	400	88	44	0.7434	pcs	0.0426	0.479	0.9096	0.8172
+50% epiboly	neighbourhood	all	k4	400	132	44	0.6555	pcs	0.0426	0.479	0.9096	0.7206
+50% epiboly	neighbourhood	all	k5	400	176	44	0.5146	pcs	0.0426	0.479	0.9096	0.5658
+50% epiboly	neighbourhood	all	k6	400	220	44	0.4175	pcs	0.0426	0.479	0.9096	0.459
+50% epiboly	neighbourhood	all	k3_onehot	400	88	44	0.7309	pcs	0.0426	0.479	0.9096	0.8035
+50% epiboly	neighbourhood	all	k6_onehot	400	220	44	0.2614	pcs	0.0426	0.479	0.9096	0.2874
+50% epiboly	neighbourhood	all	active	400	44	44	0.6354	pcs	0.0426	0.479	0.9096	0.6986
+50% epiboly	neighbourhood	all	3state	400	88	44	0.5812	pcs	0.0426	0.479	0.9096	0.6389
+50% epiboly	neighbourhood	all	supported_active	400	4	44	0.433	pcs	0.0426	0.479	0.9096	0.476
+50% epiboly	neighbourhood	all	supported_k3	400	8	44	0.6469	pcs	0.0426	0.479	0.9096	0.7111
+50% epiboly	neighbourhood	heterogeneous	knn	297	0	44	0.6621	pcs	0.2925	0.7729	0.9612	0.6888
+50% epiboly	neighbourhood	heterogeneous	pcs	297	30	44	1	pcs	0.2925	0.7729	0.9612	1.04
+50% epiboly	neighbourhood	heterogeneous	curated_supported	297	4	44	0.8642	pcs	0.2925	0.7729	0.9612	0.899
+50% epiboly	neighbourhood	heterogeneous	random_curated	297	44	44	0.7729	pcs	0.2925	0.7729	0.9612	0.804
+50% epiboly	neighbourhood	heterogeneous	curated	297	44	44	0.9612	pcs	0.2925	0.7729	0.9612	1
+50% epiboly	neighbourhood	heterogeneous	k2	297	44	44	0.9083	pcs	0.2925	0.7729	0.9612	0.945
+50% epiboly	neighbourhood	heterogeneous	k3	297	88	44	0.9293	pcs	0.2925	0.7729	0.9612	0.9668
+50% epiboly	neighbourhood	heterogeneous	k4	297	132	44	0.9298	pcs	0.2925	0.7729	0.9612	0.9672
+50% epiboly	neighbourhood	heterogeneous	k5	297	176	44	0.9238	pcs	0.2925	0.7729	0.9612	0.961
+50% epiboly	neighbourhood	heterogeneous	k6	297	220	44	0.9146	pcs	0.2925	0.7729	0.9612	0.9515
+50% epiboly	neighbourhood	heterogeneous	k3_onehot	297	88	44	0.9339	pcs	0.2925	0.7729	0.9612	0.9716
+50% epiboly	neighbourhood	heterogeneous	k6_onehot	297	220	44	0.8963	pcs	0.2925	0.7729	0.9612	0.9324
+50% epiboly	neighbourhood	heterogeneous	active	297	44	44	0.8848	pcs	0.2925	0.7729	0.9612	0.9205
+50% epiboly	neighbourhood	heterogeneous	3state	297	88	44	0.8974	pcs	0.2925	0.7729	0.9612	0.9336
+50% epiboly	neighbourhood	heterogeneous	supported_active	297	4	44	0.6839	pcs	0.2925	0.7729	0.9612	0.7114
+50% epiboly	neighbourhood	heterogeneous	supported_k3	297	8	44	0.844	pcs	0.2925	0.7729	0.9612	0.8781
+shield	neighbourhood	all	knn	400	0	43		curated_supported	0.011			
+shield	neighbourhood	all	pcs	400	30	43		curated_supported	0.011			
+shield	neighbourhood	all	curated_supported	400	8	43		curated_supported	0.011			
+shield	neighbourhood	all	random_curated	400	43	43		curated_supported	0.011			
+shield	neighbourhood	all	curated	400	43	43		curated_supported	0.011			
+shield	neighbourhood	all	k2	400	43	43		curated_supported	0.011			
+shield	neighbourhood	all	k3	400	86	43		curated_supported	0.011			
+shield	neighbourhood	all	k4	400	129	43		curated_supported	0.011			
+shield	neighbourhood	all	k5	400	172	43		curated_supported	0.011			
+shield	neighbourhood	all	k6	400	215	43		curated_supported	0.011			
+shield	neighbourhood	all	k3_onehot	400	86	43		curated_supported	0.011			
+shield	neighbourhood	all	k6_onehot	400	215	43		curated_supported	0.011			
+shield	neighbourhood	all	active	400	43	43		curated_supported	0.011			
+shield	neighbourhood	all	3state	400	86	43		curated_supported	0.011			
+shield	neighbourhood	all	supported_active	400	8	43		curated_supported	0.011			
+shield	neighbourhood	all	supported_k3	400	16	43		curated_supported	0.011			
+shield	neighbourhood	heterogeneous	knn	111	0	43	0.6822	pcs	0.1486	0.5855	0.9631	0.7084
+shield	neighbourhood	heterogeneous	pcs	111	30	43	1	pcs	0.1486	0.5855	0.9631	1.038
+shield	neighbourhood	heterogeneous	curated_supported	111	8	43	0.9308	pcs	0.1486	0.5855	0.9631	0.9664
+shield	neighbourhood	heterogeneous	random_curated	111	43	43	0.5855	pcs	0.1486	0.5855	0.9631	0.608
+shield	neighbourhood	heterogeneous	curated	111	43	43	0.9631	pcs	0.1486	0.5855	0.9631	1
+shield	neighbourhood	heterogeneous	k2	111	43	43	0.8314	pcs	0.1486	0.5855	0.9631	0.8633
+shield	neighbourhood	heterogeneous	k3	111	86	43	0.8369	pcs	0.1486	0.5855	0.9631	0.8689
+shield	neighbourhood	heterogeneous	k4	111	129	43	0.8135	pcs	0.1486	0.5855	0.9631	0.8447
+shield	neighbourhood	heterogeneous	k5	111	172	43	0.7398	pcs	0.1486	0.5855	0.9631	0.7681
+shield	neighbourhood	heterogeneous	k6	111	215	43	0.7244	pcs	0.1486	0.5855	0.9631	0.7522
+shield	neighbourhood	heterogeneous	k3_onehot	111	86	43	0.8033	pcs	0.1486	0.5855	0.9631	0.8341
+shield	neighbourhood	heterogeneous	k6_onehot	111	215	43	0.5424	pcs	0.1486	0.5855	0.9631	0.5632
+shield	neighbourhood	heterogeneous	active	111	43	43	0.7622	pcs	0.1486	0.5855	0.9631	0.7914
+shield	neighbourhood	heterogeneous	3state	111	86	43	0.6969	pcs	0.1486	0.5855	0.9631	0.7236
+shield	neighbourhood	heterogeneous	supported_active	111	8	43	0.8072	pcs	0.1486	0.5855	0.9631	0.8382
+shield	neighbourhood	heterogeneous	supported_k3	111	16	43	0.8941	pcs	0.1486	0.5855	0.9631	0.9284
+60% epiboly	neighbourhood	all	knn	400	0	44	0.2521	pcs	0.06912	0.5454	0.925	0.2725
+60% epiboly	neighbourhood	all	pcs	400	30	44	1	pcs	0.06912	0.5454	0.925	1.081
+60% epiboly	neighbourhood	all	curated_supported	400	26	44	0.8918	pcs	0.06912	0.5454	0.925	0.9641
+60% epiboly	neighbourhood	all	random_curated	400	44	44	0.5454	pcs	0.06912	0.5454	0.925	0.5896
+60% epiboly	neighbourhood	all	curated	400	44	44	0.925	pcs	0.06912	0.5454	0.925	1
+60% epiboly	neighbourhood	all	k2	400	44	44	0.7485	pcs	0.06912	0.5454	0.925	0.8092
+60% epiboly	neighbourhood	all	k3	400	88	44	0.7613	pcs	0.06912	0.5454	0.925	0.8231
+60% epiboly	neighbourhood	all	k4	400	132	44	0.7141	pcs	0.06912	0.5454	0.925	0.772
+60% epiboly	neighbourhood	all	k5	400	176	44	0.6416	pcs	0.06912	0.5454	0.925	0.6936
+60% epiboly	neighbourhood	all	k6	400	220	44	0.559	pcs	0.06912	0.5454	0.925	0.6043
+60% epiboly	neighbourhood	all	k3_onehot	400	88	44	0.7452	pcs	0.06912	0.5454	0.925	0.8057
+60% epiboly	neighbourhood	all	k6_onehot	400	220	44	0.4551	pcs	0.06912	0.5454	0.925	0.4921
+60% epiboly	neighbourhood	all	active	400	44	44	0.698	pcs	0.06912	0.5454	0.925	0.7546
+60% epiboly	neighbourhood	all	3state	400	88	44	0.6577	pcs	0.06912	0.5454	0.925	0.711
+60% epiboly	neighbourhood	all	supported_active	400	26	44	0.66	pcs	0.06912	0.5454	0.925	0.7135
+60% epiboly	neighbourhood	all	supported_k3	400	52	44	0.7653	pcs	0.06912	0.5454	0.925	0.8274
+60% epiboly	neighbourhood	heterogeneous	knn	232	0	44	0.7009	pcs	0.3651	0.7259	0.9602	0.73
+60% epiboly	neighbourhood	heterogeneous	pcs	232	30	44	1	pcs	0.3651	0.7259	0.9602	1.041
+60% epiboly	neighbourhood	heterogeneous	curated_supported	232	26	44	0.9407	pcs	0.3651	0.7259	0.9602	0.9797
+60% epiboly	neighbourhood	heterogeneous	random_curated	232	44	44	0.7259	pcs	0.3651	0.7259	0.9602	0.756
+60% epiboly	neighbourhood	heterogeneous	curated	232	44	44	0.9602	pcs	0.3651	0.7259	0.9602	1
+60% epiboly	neighbourhood	heterogeneous	k2	232	44	44	0.9077	pcs	0.3651	0.7259	0.9602	0.9454
+60% epiboly	neighbourhood	heterogeneous	k3	232	88	44	0.9293	pcs	0.3651	0.7259	0.9602	0.9679
+60% epiboly	neighbourhood	heterogeneous	k4	232	132	44	0.9393	pcs	0.3651	0.7259	0.9602	0.9782
+60% epiboly	neighbourhood	heterogeneous	k5	232	176	44	0.935	pcs	0.3651	0.7259	0.9602	0.9737
+60% epiboly	neighbourhood	heterogeneous	k6	232	220	44	0.9287	pcs	0.3651	0.7259	0.9602	0.9672
+60% epiboly	neighbourhood	heterogeneous	k3_onehot	232	88	44	0.9274	pcs	0.3651	0.7259	0.9602	0.9658
+60% epiboly	neighbourhood	heterogeneous	k6_onehot	232	220	44	0.9107	pcs	0.3651	0.7259	0.9602	0.9484
+60% epiboly	neighbourhood	heterogeneous	active	232	44	44	0.8642	pcs	0.3651	0.7259	0.9602	0.9001
+60% epiboly	neighbourhood	heterogeneous	3state	232	88	44	0.913	pcs	0.3651	0.7259	0.9602	0.9508
+60% epiboly	neighbourhood	heterogeneous	supported_active	232	26	44	0.8226	pcs	0.3651	0.7259	0.9602	0.8568
+60% epiboly	neighbourhood	heterogeneous	supported_k3	232	52	44	0.9176	pcs	0.3651	0.7259	0.9602	0.9556
+75% epiboly	neighbourhood	all	knn	400	0	45	0.1948	pcs	0.06136	0.5715	0.9579	0.2034
+75% epiboly	neighbourhood	all	pcs	400	30	45	1	pcs	0.06136	0.5715	0.9579	1.044
+75% epiboly	neighbourhood	all	curated_supported	400	26	45	0.9149	pcs	0.06136	0.5715	0.9579	0.9552
+75% epiboly	neighbourhood	all	random_curated	400	45	45	0.5715	pcs	0.06136	0.5715	0.9579	0.5966
+75% epiboly	neighbourhood	all	curated	400	45	45	0.9579	pcs	0.06136	0.5715	0.9579	1
+75% epiboly	neighbourhood	all	k2	400	45	45	0.8001	pcs	0.06136	0.5715	0.9579	0.8353
+75% epiboly	neighbourhood	all	k3	400	90	45	0.8332	pcs	0.06136	0.5715	0.9579	0.8698
+75% epiboly	neighbourhood	all	k4	400	135	45	0.8383	pcs	0.06136	0.5715	0.9579	0.8752
+75% epiboly	neighbourhood	all	k5	400	180	45	0.8484	pcs	0.06136	0.5715	0.9579	0.8857
+75% epiboly	neighbourhood	all	k6	400	225	45	0.803	pcs	0.06136	0.5715	0.9579	0.8383
+75% epiboly	neighbourhood	all	k3_onehot	400	90	45	0.8154	pcs	0.06136	0.5715	0.9579	0.8513
+75% epiboly	neighbourhood	all	k6_onehot	400	225	45	0.7285	pcs	0.06136	0.5715	0.9579	0.7606
+75% epiboly	neighbourhood	all	active	400	45	45	0.7028	pcs	0.06136	0.5715	0.9579	0.7337
+75% epiboly	neighbourhood	all	3state	400	90	45	0.6757	pcs	0.06136	0.5715	0.9579	0.7054
+75% epiboly	neighbourhood	all	supported_active	400	26	45	0.6627	pcs	0.06136	0.5715	0.9579	0.6919
+75% epiboly	neighbourhood	all	supported_k3	400	52	45	0.8272	pcs	0.06136	0.5715	0.9579	0.8636
+75% epiboly	neighbourhood	heterogeneous	knn	268	0	45	0.6769	pcs	0.3448	0.6917	0.9706	0.6975
+75% epiboly	neighbourhood	heterogeneous	pcs	268	30	45	1	pcs	0.3448	0.6917	0.9706	1.03
+75% epiboly	neighbourhood	heterogeneous	curated_supported	268	26	45	0.9514	pcs	0.3448	0.6917	0.9706	0.9803
+75% epiboly	neighbourhood	heterogeneous	random_curated	268	45	45	0.6917	pcs	0.3448	0.6917	0.9706	0.7127
+75% epiboly	neighbourhood	heterogeneous	curated	268	45	45	0.9706	pcs	0.3448	0.6917	0.9706	1
+75% epiboly	neighbourhood	heterogeneous	k2	268	45	45	0.9067	pcs	0.3448	0.6917	0.9706	0.9342
+75% epiboly	neighbourhood	heterogeneous	k3	268	90	45	0.9444	pcs	0.3448	0.6917	0.9706	0.9731
+75% epiboly	neighbourhood	heterogeneous	k4	268	135	45	0.9551	pcs	0.3448	0.6917	0.9706	0.9841
+75% epiboly	neighbourhood	heterogeneous	k5	268	180	45	0.9842	pcs	0.3448	0.6917	0.9706	1.014
+75% epiboly	neighbourhood	heterogeneous	k6	268	225	45	0.9798	pcs	0.3448	0.6917	0.9706	1.009
+75% epiboly	neighbourhood	heterogeneous	k3_onehot	268	90	45	0.9442	pcs	0.3448	0.6917	0.9706	0.9728
+75% epiboly	neighbourhood	heterogeneous	k6_onehot	268	225	45	0.9686	pcs	0.3448	0.6917	0.9706	0.998
+75% epiboly	neighbourhood	heterogeneous	active	268	45	45	0.8564	pcs	0.3448	0.6917	0.9706	0.8823
+75% epiboly	neighbourhood	heterogeneous	3state	268	90	45	0.9168	pcs	0.3448	0.6917	0.9706	0.9446
+75% epiboly	neighbourhood	heterogeneous	supported_active	268	26	45	0.8155	pcs	0.3448	0.6917	0.9706	0.8402
+75% epiboly	neighbourhood	heterogeneous	supported_k3	268	52	45	0.9213	pcs	0.3448	0.6917	0.9706	0.9492
+90% epiboly	neighbourhood	all	knn	400	0	45	0.2503	pcs	0.07427	0.644	0.975	0.2567
+90% epiboly	neighbourhood	all	pcs	400	30	45	1	pcs	0.07427	0.644	0.975	1.026
+90% epiboly	neighbourhood	all	curated_supported	400	25	45	0.9184	pcs	0.07427	0.644	0.975	0.942
+90% epiboly	neighbourhood	all	random_curated	400	45	45	0.644	pcs	0.07427	0.644	0.975	0.6606
+90% epiboly	neighbourhood	all	curated	400	45	45	0.975	pcs	0.07427	0.644	0.975	1
+90% epiboly	neighbourhood	all	k2	400	45	45	0.858	pcs	0.07427	0.644	0.975	0.88
+90% epiboly	neighbourhood	all	k3	400	90	45	0.8886	pcs	0.07427	0.644	0.975	0.9114
+90% epiboly	neighbourhood	all	k4	400	135	45	0.9013	pcs	0.07427	0.644	0.975	0.9244
+90% epiboly	neighbourhood	all	k5	400	180	45	0.8918	pcs	0.07427	0.644	0.975	0.9147
+90% epiboly	neighbourhood	all	k6	400	225	45	0.8466	pcs	0.07427	0.644	0.975	0.8684
+90% epiboly	neighbourhood	all	k3_onehot	400	90	45	0.8784	pcs	0.07427	0.644	0.975	0.901
+90% epiboly	neighbourhood	all	k6_onehot	400	225	45	0.7599	pcs	0.07427	0.644	0.975	0.7794
+90% epiboly	neighbourhood	all	active	400	45	45	0.7956	pcs	0.07427	0.644	0.975	0.8161
+90% epiboly	neighbourhood	all	3state	400	90	45	0.8079	pcs	0.07427	0.644	0.975	0.8287
+90% epiboly	neighbourhood	all	supported_active	400	25	45	0.7115	pcs	0.07427	0.644	0.975	0.7298
+90% epiboly	neighbourhood	all	supported_k3	400	50	45	0.8459	pcs	0.07427	0.644	0.975	0.8676
+90% epiboly	neighbourhood	heterogeneous	knn	288	0	45	0.7138	pcs	0.3825	0.7287	0.9713	0.7349
+90% epiboly	neighbourhood	heterogeneous	pcs	288	30	45	1	pcs	0.3825	0.7287	0.9713	1.03
+90% epiboly	neighbourhood	heterogeneous	curated_supported	288	25	45	0.9446	pcs	0.3825	0.7287	0.9713	0.9725
+90% epiboly	neighbourhood	heterogeneous	random_curated	288	45	45	0.7287	pcs	0.3825	0.7287	0.9713	0.7502
+90% epiboly	neighbourhood	heterogeneous	curated	288	45	45	0.9713	pcs	0.3825	0.7287	0.9713	1
+90% epiboly	neighbourhood	heterogeneous	k2	288	45	45	0.9147	pcs	0.3825	0.7287	0.9713	0.9418
+90% epiboly	neighbourhood	heterogeneous	k3	288	90	45	0.954	pcs	0.3825	0.7287	0.9713	0.9822
+90% epiboly	neighbourhood	heterogeneous	k4	288	135	45	0.973	pcs	0.3825	0.7287	0.9713	1.002
+90% epiboly	neighbourhood	heterogeneous	k5	288	180	45	0.9826	pcs	0.3825	0.7287	0.9713	1.012
+90% epiboly	neighbourhood	heterogeneous	k6	288	225	45	0.9779	pcs	0.3825	0.7287	0.9713	1.007
+90% epiboly	neighbourhood	heterogeneous	k3_onehot	288	90	45	0.9533	pcs	0.3825	0.7287	0.9713	0.9815
+90% epiboly	neighbourhood	heterogeneous	k6_onehot	288	225	45	0.9642	pcs	0.3825	0.7287	0.9713	0.9927
+90% epiboly	neighbourhood	heterogeneous	active	288	45	45	0.8664	pcs	0.3825	0.7287	0.9713	0.892
+90% epiboly	neighbourhood	heterogeneous	3state	288	90	45	0.9263	pcs	0.3825	0.7287	0.9713	0.9537
+90% epiboly	neighbourhood	heterogeneous	supported_active	288	25	45	0.8044	pcs	0.3825	0.7287	0.9713	0.8282
+90% epiboly	neighbourhood	heterogeneous	supported_k3	288	50	45	0.912	pcs	0.3825	0.7287	0.9713	0.939
+bud	neighbourhood	all	knn	400	0	45	0.3033	pcs	0.09167	0.6156	0.9668	0.3137
+bud	neighbourhood	all	pcs	400	30	45	1	pcs	0.09167	0.6156	0.9668	1.034
+bud	neighbourhood	all	curated_supported	400	30	45	0.9434	pcs	0.09167	0.6156	0.9668	0.9759
+bud	neighbourhood	all	random_curated	400	45	45	0.6156	pcs	0.09167	0.6156	0.9668	0.6367
+bud	neighbourhood	all	curated	400	45	45	0.9668	pcs	0.09167	0.6156	0.9668	1
+bud	neighbourhood	all	k2	400	45	45	0.8866	pcs	0.09167	0.6156	0.9668	0.9171
+bud	neighbourhood	all	k3	400	90	45	0.9235	pcs	0.09167	0.6156	0.9668	0.9553
+bud	neighbourhood	all	k4	400	135	45	0.9117	pcs	0.09167	0.6156	0.9668	0.9431
+bud	neighbourhood	all	k5	400	180	45	0.9089	pcs	0.09167	0.6156	0.9668	0.9402
+bud	neighbourhood	all	k6	400	225	45	0.8931	pcs	0.09167	0.6156	0.9668	0.9238
+bud	neighbourhood	all	k3_onehot	400	90	45	0.9194	pcs	0.09167	0.6156	0.9668	0.951
+bud	neighbourhood	all	k6_onehot	400	225	45	0.8411	pcs	0.09167	0.6156	0.9668	0.87
+bud	neighbourhood	all	active	400	45	45	0.8039	pcs	0.09167	0.6156	0.9668	0.8315
+bud	neighbourhood	all	3state	400	90	45	0.8353	pcs	0.09167	0.6156	0.9668	0.864
+bud	neighbourhood	all	supported_active	400	30	45	0.7542	pcs	0.09167	0.6156	0.9668	0.7802
+bud	neighbourhood	all	supported_k3	400	60	45	0.9123	pcs	0.09167	0.6156	0.9668	0.9437
+bud	neighbourhood	heterogeneous	knn	243	0	45	0.7422	pcs	0.429	0.6872	0.9658	0.7685
+bud	neighbourhood	heterogeneous	pcs	243	30	45	1	pcs	0.429	0.6872	0.9658	1.035
+bud	neighbourhood	heterogeneous	curated_supported	243	30	45	0.952	pcs	0.429	0.6872	0.9658	0.9857
+bud	neighbourhood	heterogeneous	random_curated	243	45	45	0.6872	pcs	0.429	0.6872	0.9658	0.7115
+bud	neighbourhood	heterogeneous	curated	243	45	45	0.9658	pcs	0.429	0.6872	0.9658	1
+bud	neighbourhood	heterogeneous	k2	243	45	45	0.9117	pcs	0.429	0.6872	0.9658	0.944
+bud	neighbourhood	heterogeneous	k3	243	90	45	0.9583	pcs	0.429	0.6872	0.9658	0.9923
+bud	neighbourhood	heterogeneous	k4	243	135	45	0.9726	pcs	0.429	0.6872	0.9658	1.007
+bud	neighbourhood	heterogeneous	k5	243	180	45	0.9806	pcs	0.429	0.6872	0.9658	1.015
+bud	neighbourhood	heterogeneous	k6	243	225	45	0.9803	pcs	0.429	0.6872	0.9658	1.015
+bud	neighbourhood	heterogeneous	k3_onehot	243	90	45	0.9573	pcs	0.429	0.6872	0.9658	0.9912
+bud	neighbourhood	heterogeneous	k6_onehot	243	225	45	0.9697	pcs	0.429	0.6872	0.9658	1.004
+bud	neighbourhood	heterogeneous	active	243	45	45	0.8706	pcs	0.429	0.6872	0.9658	0.9014
+bud	neighbourhood	heterogeneous	3state	243	90	45	0.9245	pcs	0.429	0.6872	0.9658	0.9573
+bud	neighbourhood	heterogeneous	supported_active	243	30	45	0.8382	pcs	0.429	0.6872	0.9658	0.8678
+bud	neighbourhood	heterogeneous	supported_k3	243	60	45	0.9433	pcs	0.429	0.6872	0.9658	0.9767
+3-somite	neighbourhood	all	knn	400	0	45	0.261	pcs	0.09941	0.4654	0.8827	0.2957
+3-somite	neighbourhood	all	pcs	400	30	45	1	pcs	0.09941	0.4654	0.8827	1.133
+3-somite	neighbourhood	all	curated_supported	400	32	45	0.8928	pcs	0.09941	0.4654	0.8827	1.011
+3-somite	neighbourhood	all	random_curated	400	45	45	0.4654	pcs	0.09941	0.4654	0.8827	0.5273
+3-somite	neighbourhood	all	curated	400	45	45	0.8827	pcs	0.09941	0.4654	0.8827	1
+3-somite	neighbourhood	all	k2	400	45	45	0.7303	pcs	0.09941	0.4654	0.8827	0.8274
+3-somite	neighbourhood	all	k3	400	90	45	0.7482	pcs	0.09941	0.4654	0.8827	0.8476
+3-somite	neighbourhood	all	k4	400	135	45	0.7136	pcs	0.09941	0.4654	0.8827	0.8084
+3-somite	neighbourhood	all	k5	400	180	45	0.6819	pcs	0.09941	0.4654	0.8827	0.7725
+3-somite	neighbourhood	all	k6	400	225	45	0.6171	pcs	0.09941	0.4654	0.8827	0.6991
+3-somite	neighbourhood	all	k3_onehot	400	90	45	0.722	pcs	0.09941	0.4654	0.8827	0.8179
+3-somite	neighbourhood	all	k6_onehot	400	225	45	0.4026	pcs	0.09941	0.4654	0.8827	0.4561
+3-somite	neighbourhood	all	active	400	45	45	0.6766	pcs	0.09941	0.4654	0.8827	0.7666
+3-somite	neighbourhood	all	3state	400	90	45	0.6212	pcs	0.09941	0.4654	0.8827	0.7038
+3-somite	neighbourhood	all	supported_active	400	32	45	0.6911	pcs	0.09941	0.4654	0.8827	0.783
+3-somite	neighbourhood	all	supported_k3	400	64	45	0.7854	pcs	0.09941	0.4654	0.8827	0.8898
+3-somite	neighbourhood	heterogeneous	knn	225	0	45	0.7275	pcs	0.381	0.7042	0.9479	0.7674
+3-somite	neighbourhood	heterogeneous	pcs	225	30	45	1	pcs	0.381	0.7042	0.9479	1.055
+3-somite	neighbourhood	heterogeneous	curated_supported	225	32	45	0.9398	pcs	0.381	0.7042	0.9479	0.9914
+3-somite	neighbourhood	heterogeneous	random_curated	225	45	45	0.7042	pcs	0.381	0.7042	0.9479	0.7429
+3-somite	neighbourhood	heterogeneous	curated	225	45	45	0.9479	pcs	0.381	0.7042	0.9479	1
+3-somite	neighbourhood	heterogeneous	k2	225	45	45	0.8439	pcs	0.381	0.7042	0.9479	0.8902
+3-somite	neighbourhood	heterogeneous	k3	225	90	45	0.9253	pcs	0.381	0.7042	0.9479	0.9761
+3-somite	neighbourhood	heterogeneous	k4	225	135	45	0.9393	pcs	0.381	0.7042	0.9479	0.9908
+3-somite	neighbourhood	heterogeneous	k5	225	180	45	0.9428	pcs	0.381	0.7042	0.9479	0.9946
+3-somite	neighbourhood	heterogeneous	k6	225	225	45	0.941	pcs	0.381	0.7042	0.9479	0.9926
+3-somite	neighbourhood	heterogeneous	k3_onehot	225	90	45	0.9146	pcs	0.381	0.7042	0.9479	0.9648
+3-somite	neighbourhood	heterogeneous	k6_onehot	225	225	45	0.8768	pcs	0.381	0.7042	0.9479	0.9249
+3-somite	neighbourhood	heterogeneous	active	225	45	45	0.8352	pcs	0.381	0.7042	0.9479	0.8811
+3-somite	neighbourhood	heterogeneous	3state	225	90	45	0.8796	pcs	0.381	0.7042	0.9479	0.9279
+3-somite	neighbourhood	heterogeneous	supported_active	225	32	45	0.8179	pcs	0.381	0.7042	0.9479	0.8629
+3-somite	neighbourhood	heterogeneous	supported_k3	225	64	45	0.9307	pcs	0.381	0.7042	0.9479	0.9819
+6-somite	neighbourhood	all	knn	400	0	45	0.292	pcs	0.097	0.6272	0.9326	0.3131
+6-somite	neighbourhood	all	pcs	400	30	45	1	pcs	0.097	0.6272	0.9326	1.072
+6-somite	neighbourhood	all	curated_supported	400	33	45	0.918	pcs	0.097	0.6272	0.9326	0.9844
+6-somite	neighbourhood	all	random_curated	400	45	45	0.6272	pcs	0.097	0.6272	0.9326	0.6726
+6-somite	neighbourhood	all	curated	400	45	45	0.9326	pcs	0.097	0.6272	0.9326	1
+6-somite	neighbourhood	all	k2	400	45	45	0.8067	pcs	0.097	0.6272	0.9326	0.865
+6-somite	neighbourhood	all	k3	400	90	45	0.8483	pcs	0.097	0.6272	0.9326	0.9097
+6-somite	neighbourhood	all	k4	400	135	45	0.8674	pcs	0.097	0.6272	0.9326	0.9302
+6-somite	neighbourhood	all	k5	400	180	45	0.8716	pcs	0.097	0.6272	0.9326	0.9346
+6-somite	neighbourhood	all	k6	400	225	45	0.8509	pcs	0.097	0.6272	0.9326	0.9125
+6-somite	neighbourhood	all	k3_onehot	400	90	45	0.8399	pcs	0.097	0.6272	0.9326	0.9006
+6-somite	neighbourhood	all	k6_onehot	400	225	45	0.7683	pcs	0.097	0.6272	0.9326	0.8239
+6-somite	neighbourhood	all	active	400	45	45	0.7326	pcs	0.097	0.6272	0.9326	0.7855
+6-somite	neighbourhood	all	3state	400	90	45	0.7576	pcs	0.097	0.6272	0.9326	0.8124
+6-somite	neighbourhood	all	supported_active	400	33	45	0.6842	pcs	0.097	0.6272	0.9326	0.7337
+6-somite	neighbourhood	all	supported_k3	400	66	45	0.8487	pcs	0.097	0.6272	0.9326	0.9101
+6-somite	neighbourhood	heterogeneous	knn	388	0	45	0.7376	pcs	0.4324	0.7318	0.9527	0.7743
+6-somite	neighbourhood	heterogeneous	pcs	388	30	45	1	pcs	0.4324	0.7318	0.9527	1.05
+6-somite	neighbourhood	heterogeneous	curated_supported	388	33	45	0.9369	pcs	0.4324	0.7318	0.9527	0.9834
+6-somite	neighbourhood	heterogeneous	random_curated	388	45	45	0.7318	pcs	0.4324	0.7318	0.9527	0.7681
+6-somite	neighbourhood	heterogeneous	curated	388	45	45	0.9527	pcs	0.4324	0.7318	0.9527	1
+6-somite	neighbourhood	heterogeneous	k2	388	45	45	0.8687	pcs	0.4324	0.7318	0.9527	0.9118
+6-somite	neighbourhood	heterogeneous	k3	388	90	45	0.9371	pcs	0.4324	0.7318	0.9527	0.9836
+6-somite	neighbourhood	heterogeneous	k4	388	135	45	0.9578	pcs	0.4324	0.7318	0.9527	1.005
+6-somite	neighbourhood	heterogeneous	k5	388	180	45	0.9673	pcs	0.4324	0.7318	0.9527	1.015
+6-somite	neighbourhood	heterogeneous	k6	388	225	45	0.9688	pcs	0.4324	0.7318	0.9527	1.017
+6-somite	neighbourhood	heterogeneous	k3_onehot	388	90	45	0.9347	pcs	0.4324	0.7318	0.9527	0.9811
+6-somite	neighbourhood	heterogeneous	k6_onehot	388	225	45	0.9458	pcs	0.4324	0.7318	0.9527	0.9928
+6-somite	neighbourhood	heterogeneous	active	388	45	45	0.8488	pcs	0.4324	0.7318	0.9527	0.891
+6-somite	neighbourhood	heterogeneous	3state	388	90	45	0.8987	pcs	0.4324	0.7318	0.9527	0.9433
+6-somite	neighbourhood	heterogeneous	supported_active	388	33	45	0.8159	pcs	0.4324	0.7318	0.9527	0.8564
+6-somite	neighbourhood	heterogeneous	supported_k3	388	66	45	0.9304	pcs	0.4324	0.7318	0.9527	0.9765

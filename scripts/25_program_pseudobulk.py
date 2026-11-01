@@ -23,8 +23,7 @@ neural plate). Genes whose peak is below MIN_PEAK CP10k are left out (their
 relative levels are noise).
 
 Every program uses its fixed gene list (results/tables/programs.tsv) at every
-stage. The embryo-age controls are left out (their genes are chosen per stage
-pair).
+stage.
 
 Figure (report figure `program_pseudobulk`), in the rows and layout of the
 timeline of script 24, but with squares (to tell the two figures apart):
@@ -90,10 +89,8 @@ MARKER = "s"  # squares: not to be confused with the circles of the timeline (24
 
 
 def gene_lists(programs: pd.DataFrame) -> pd.DataFrame:
-    """Fixed gene list of every curated program and control (age controls left
-    out)."""
+    """Fixed gene list of every curated program and control."""
     kept = programs[programs["kept"] & programs["set"].isin(["curated", "controls"])]
-    kept = kept[~kept["program"].str.startswith("control:age")]
     return kept[["program", "gene"]].drop_duplicates()
 
 

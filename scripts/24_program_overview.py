@@ -15,6 +15,10 @@
    presumed derivation of a program from another (derives_from), from the
    source at the stage before the program's ZFIN window starts (a dot where
    it leaves the source's row) to the window's first stage.
+   Coherence map (report figure `program_coherence`): in the same rows, the
+   relative coherence of every program at every stage (script 17, median
+   over the stage's libraries; 0 = as coherent as random heterogeneous
+   genes, 1 = the threshold of support), a dot where it is supported.
    Programs per stage of the Farrell et al. modules, the ZFIN terms (all
    years) and the curated set (programs with >= 1 measured gene, and with
    >= 1 heterogeneous gene at the stage): report figure `program_set_sizes`.
@@ -44,12 +48,13 @@
    script 16 removed from the curated anatomy programs to make them disjoint
    (results/tables/curated_removed_genes.tsv).
 
-Reads results/tables/programs.tsv and curated_zfin_windows.tsv (16) and
-heterogeneous_genes.tsv.gz (01b);
+Reads results/tables/programs.tsv and curated_zfin_windows.tsv (16),
+heterogeneous_genes.tsv.gz (01b) and program_support.tsv (17);
 takes a few seconds.
 
 Outputs:
-  report/figures/program_timeline.pdf, report/figures/program_set_sizes.pdf,
+  report/figures/program_timeline.pdf, report/figures/program_coherence.pdf,
+  report/figures/program_set_sizes.pdf,
   report/figures/program_overlap.pdf
   report/tables/curated_programs.tex, report/tables/signalling_evidence.tex,
   report/tables/curated_removed.tex
@@ -65,9 +70,9 @@ matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from matplotlib.colors import to_rgb
+from matplotlib.colors import TwoSlopeNorm, to_rgb
 from matplotlib.lines import Line2D
-from matplotlib.patches import FancyBboxPatch, Patch
+from matplotlib.patches import FancyBboxPatch, Patch, Rectangle
 
 import importlib
 
@@ -94,6 +99,7 @@ SET_STYLE = {"farrell": dict(color="#E69F00", marker="s", label="Farrell et al. 
 HET_STYLE = dict(color="#009E73", marker="^", mfc="white", ls="--",
                  label="curated (heterogeneous)")
 MIN_FILLED = 3  # timeline: fewer heterogeneous genes are drawn as an open ring
+COHERENCE_RANGE = (-1.0, 3.0)  # colour scale of the relative coherence (values clipped)
 OVERLAP_STAGES = ["shield", "75% epiboly"]
 NAMED_SHARE = 0.2
 MIN_SHARED = 3
@@ -245,6 +251,53 @@ def timeline(programs: pd.DataFrame, notes: pd.DataFrame) -> None:
     plt.close(fig)
 
 
+def coherence_map(notes: pd.DataFrame) -> None:
+    """Relative coherence of the curated programs and controls per stage
+    (script 17: median over the stage's libraries; 0 = a typical random set of
+    heterogeneous genes, 1 = the threshold), in the rows of the timeline; a
+    dot marks the supported programs."""
+    support = pd.read_csv(TABLES / "program_support.tsv", sep="\t")
+    support = support[support["set"].isin(["curated", "controls"])
+                      & support["relative_coherence"].notna()]
+    table = support.set_index(["program", "stage"])
+    rows = row_order(notes, set(support["program"]))
+    zfin = zfin_spans()
+    cmap = plt.get_cmap("RdBu_r")
+    norm = TwoSlopeNorm(vmin=-COHERENCE_RANGE[1] / 3, vcenter=0, vmax=COHERENCE_RANGE[1])
+    fig, ax = plt.subplots(figsize=(REPORT_WIDTH_IN, 0.155 * len(rows) + 1.0))
+    for i, (p, group, _) in enumerate(rows):
+        if p in zfin:  # outline around the squares, drawn on top
+            a, b = min(zfin[p]), max(zfin[p])
+            ax.add_patch(FancyBboxPatch((a - 0.4, i - 0.44), b - a + 0.8, 0.88,
+                                        boxstyle="round,pad=0,rounding_size=0.3", fc="none",
+                                        ec=GROUP_COLOR[group], lw=0.9, zorder=4))
+        for j, stage in enumerate(STAGES):
+            if (p, stage) not in table.index:
+                continue
+            row = table.loc[(p, stage)]
+            ax.add_patch(Rectangle((j - 0.27, i - 0.3), 0.54, 0.6, zorder=2, lw=0,
+                                   color=cmap(norm(np.clip(row["relative_coherence"],
+                                                           *COHERENCE_RANGE)))))
+            if row["supported"]:
+                ax.scatter(j, i, s=8, color="white", edgecolors="#222222", linewidths=0.5,
+                           zorder=3)
+    rows_axis(ax, rows)
+    sm = plt.cm.ScalarMappable(norm=norm, cmap=cmap)
+    cax = ax.inset_axes([0.0, -0.13, 0.4, 0.012])
+    cbar = fig.colorbar(sm, cax=cax, orientation="horizontal")
+    cbar.set_ticks([-1, 0, 1, 2, 3])
+    cbar.ax.tick_params(labelsize=6, length=2)
+    cbar.set_label("relative coherence (0: random genes, 1: threshold; median over libraries)",
+                   fontsize=6)
+    ax.legend(handles=[Line2D([], [], ls="", marker="o", ms=2.8, mfc="white", mec="#222222",
+                              mew=0.5, label="supported"),
+                       Patch(fc="none", ec="#555555", lw=0.9,
+                             label="stages at which ZFIN records the program")],
+              frameon=False, fontsize=6, ncol=2, loc="upper right", bbox_to_anchor=(1.0, -0.09))
+    save_report_figure(fig, "program_coherence")
+    plt.close(fig)
+
+
 def tier_alpha(tier: float) -> float:
     """Fill opacity for a mean tier from 1 (weak) to 3 (strong)."""
     return 0.0 if np.isnan(tier) else 0.22 + 0.78 * (tier - 1) / 2
@@ -380,8 +433,6 @@ def annotation_table(programs: pd.DataFrame, notes: pd.DataFrame) -> None:
         elif r.program == "control:YSL":
             t = terms.get("YSL", [])
             source = "ZFIN: " + "; ".join(t[:4]) + " (genes of curated programs left out)"
-        elif r.program.startswith("control:age"):
-            source = "adjacent stages of one batch"
         elif r.program.startswith("control:"):
             source = "readouts (signalling table)"
         elif r.program.startswith("state:"):
@@ -592,6 +643,7 @@ def main() -> None:
     programs = pd.read_csv(TABLES / "programs.tsv", sep="\t")
     notes = pd.read_csv(ANNOTATION, sep="\t", keep_default_na=False)
     timeline(programs, notes)
+    coherence_map(notes)
     set_sizes(programs)
     annotation_table(programs, notes)
     evidence_table()

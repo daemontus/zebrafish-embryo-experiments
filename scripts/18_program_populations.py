@@ -54,6 +54,7 @@ from pipeline_utils import (
     REPORT_TABLES,
     REPORT_WIDTH_IN,
     STAGES,
+    GZIP,
     TABLES,
     ensure_dirs,
     load_dropseq_counts,
@@ -276,7 +277,8 @@ def main() -> None:
     cons.to_csv(TABLES / "program_populations.tsv", sep="\t", index=False, float_format="%.4g")
     summary.to_csv(TABLES / "program_populations_summary.tsv", sep="\t", index=False,
                    float_format="%.4g")
-    cells.to_csv(TABLES / "program_populations_cells.tsv.gz", sep="\t", float_format="%.4g")
+    cells.to_csv(TABLES / "program_populations_cells.tsv.gz", sep="\t", float_format="%.4g",
+                 compression=GZIP)
     comp.to_csv(TABLES / "program_populations_comparison.tsv", sep="\t", index=False,
                 float_format="%.4g")
     cov.to_csv(TABLES / "program_populations_coverage.tsv", sep="\t", index=False,

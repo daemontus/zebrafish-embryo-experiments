@@ -82,7 +82,7 @@ from scipy.stats import hypergeom, rankdata
 from sklearn.decomposition import PCA
 from sklearn.neighbors import NearestNeighbors
 
-from pipeline_utils import BATCH_COLORS, RESIDUAL_CLIP, ROOT, STAGES, TABLES, ensure_dirs, \
+from pipeline_utils import BATCH_COLORS, GZIP, RESIDUAL_CLIP, ROOT, STAGES, TABLES, ensure_dirs, \
     load_dropseq_counts, nb_overdispersion, pearson_residuals  # noqa: F401
 
 warnings.filterwarnings("ignore", category=FutureWarning)
@@ -674,7 +674,7 @@ def main() -> None:
     for suffix, table in tables.items():
         table.to_csv(TABLES / f"{name}{suffix}", sep="\t", index=False, float_format="%.4g")
     pd.concat([r["cells"] for r in out.values()]).to_csv(
-        TABLES / f"{name}_cells.tsv.gz", sep="\t", float_format="%.4g")
+        TABLES / f"{name}_cells.tsv.gz", sep="\t", float_format="%.4g", compression=GZIP)
     with PdfPages(FIGURES / f"{name}.pdf") as pdf:
         plot(out, pdf)
     tracks(name)

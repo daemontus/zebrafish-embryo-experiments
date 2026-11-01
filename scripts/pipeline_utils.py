@@ -1,7 +1,14 @@
 """Shared paths, constants and plotting helpers for the analysis scripts."""
 from __future__ import annotations
 
+import os
 from pathlib import Path
+
+# Reproducible outputs: a fixed creation date in every PDF (matplotlib reads
+# SOURCE_DATE_EPOCH) and no timestamp in gzipped tables (to_csv(...,
+# compression=GZIP)), so that a rerun that changes nothing changes no file.
+os.environ.setdefault("SOURCE_DATE_EPOCH", "0")
+GZIP = {"method": "gzip", "mtime": 0}
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "data" / "raw" / "GSE106587"

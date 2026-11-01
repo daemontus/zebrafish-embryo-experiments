@@ -1,385 +1,385 @@
 stage	target	genes	feature_set	n_eval_genes	n_programs	explained	ceiling	explainable_share	random	beyond_random
-high	neighbourhood	all	farrell	400	10		knn	-0.001402		
-high	neighbourhood	all	zfin_all	400	2		knn	-0.001402		
-high	neighbourhood	all	zfin_all_het	400	2		knn	-0.001402		
-high	neighbourhood	all	zfin_pre_het	400	2		knn	-0.001402		
-high	neighbourhood	all	signalling	400	9		knn	-0.001402		
-high	neighbourhood	all	states	400	6		knn	-0.001402		
-high	neighbourhood	all	curated	400	39		knn	-0.001402		
-high	neighbourhood	all	controls	400	6		knn	-0.001402		
-high	neighbourhood	all	curated_supported	400	4		knn	-0.001402		
-high	neighbourhood	all	random_farrell	400	10		knn	-0.001402		
-high	neighbourhood	all	random_zfin	400	2		knn	-0.001402		
-high	neighbourhood	all	random_zfin_het	400	2		knn	-0.001402		
-high	neighbourhood	all	random_curated	400	39		knn	-0.001402		
-high	neighbourhood	all	pcs	400	30		knn	-0.001402		
-high	neighbourhood	all	all	400	79		knn	-0.001402		
-high	neighbourhood	all	knn	400	0		knn	-0.001402		
-high	neighbourhood	heterogeneous	farrell	102	10	1	farrell	0.0605	0.4133	1
-high	neighbourhood	heterogeneous	zfin_all	102	2	0.1729	farrell	0.0605	0.09094	0.09016
-high	neighbourhood	heterogeneous	zfin_all_het	102	2	0.2633	farrell	0.0605	0.06271	0.214
-high	neighbourhood	heterogeneous	zfin_pre_het	102	2	0.2633	farrell	0.0605	0.06271	0.214
-high	neighbourhood	heterogeneous	signalling	102	9	0.3878	farrell	0.0605		
-high	neighbourhood	heterogeneous	states	102	6	0.4372	farrell	0.0605		
-high	neighbourhood	heterogeneous	curated	102	39	-0.08618	farrell	0.0605	-0.3727	0.2087
-high	neighbourhood	heterogeneous	controls	102	6	0.0788	farrell	0.0605		
-high	neighbourhood	heterogeneous	curated_supported	102	4	0.7376	farrell	0.0605	-0.3727	0.8088
-high	neighbourhood	heterogeneous	random_farrell	102	10	0.4133	farrell	0.0605		
-high	neighbourhood	heterogeneous	random_zfin	102	2	0.09094	farrell	0.0605		
-high	neighbourhood	heterogeneous	random_zfin_het	102	2	0.06271	farrell	0.0605		
-high	neighbourhood	heterogeneous	random_curated	102	39	-0.3727	farrell	0.0605		
-high	neighbourhood	heterogeneous	pcs	102	30	0.1757	farrell	0.0605		
-high	neighbourhood	heterogeneous	all	102	79	-0.6084	farrell	0.0605		
-high	neighbourhood	heterogeneous	knn	102	0	0.4113	farrell	0.0605		
-oblong	neighbourhood	all	farrell	400	11		zfin_all	-0.007628		
-oblong	neighbourhood	all	zfin_all	400	1		zfin_all	-0.007628		
-oblong	neighbourhood	all	zfin_all_het	400			zfin_all	-0.007628		
-oblong	neighbourhood	all	zfin_pre_het	400			zfin_all	-0.007628		
-oblong	neighbourhood	all	signalling	400	9		zfin_all	-0.007628		
-oblong	neighbourhood	all	states	400	6		zfin_all	-0.007628		
-oblong	neighbourhood	all	curated	400	39		zfin_all	-0.007628		
-oblong	neighbourhood	all	controls	400	8		zfin_all	-0.007628		
-oblong	neighbourhood	all	curated_supported	400	4		zfin_all	-0.007628		
-oblong	neighbourhood	all	random_farrell	400	11		zfin_all	-0.007628		
-oblong	neighbourhood	all	random_zfin	400	1		zfin_all	-0.007628		
-oblong	neighbourhood	all	random_zfin_het	400			zfin_all	-0.007628		
-oblong	neighbourhood	all	random_curated	400	39		zfin_all	-0.007628		
-oblong	neighbourhood	all	pcs	400	30		zfin_all	-0.007628		
-oblong	neighbourhood	all	all	400	80		zfin_all	-0.007628		
-oblong	neighbourhood	all	knn	400	0		zfin_all	-0.007628		
-oblong	neighbourhood	heterogeneous	farrell	53	11		knn	0.03729		
-oblong	neighbourhood	heterogeneous	zfin_all	53	1		knn	0.03729		
-oblong	neighbourhood	heterogeneous	zfin_all_het	53			knn	0.03729		
-oblong	neighbourhood	heterogeneous	zfin_pre_het	53			knn	0.03729		
-oblong	neighbourhood	heterogeneous	signalling	53	9		knn	0.03729		
-oblong	neighbourhood	heterogeneous	states	53	6		knn	0.03729		
-oblong	neighbourhood	heterogeneous	curated	53	39		knn	0.03729		
-oblong	neighbourhood	heterogeneous	controls	53	8		knn	0.03729		
-oblong	neighbourhood	heterogeneous	curated_supported	53	4		knn	0.03729		
-oblong	neighbourhood	heterogeneous	random_farrell	53	11		knn	0.03729		
-oblong	neighbourhood	heterogeneous	random_zfin	53	1		knn	0.03729		
-oblong	neighbourhood	heterogeneous	random_zfin_het	53			knn	0.03729		
-oblong	neighbourhood	heterogeneous	random_curated	53	39		knn	0.03729		
-oblong	neighbourhood	heterogeneous	pcs	53	30		knn	0.03729		
-oblong	neighbourhood	heterogeneous	all	53	80		knn	0.03729		
-oblong	neighbourhood	heterogeneous	knn	53	0		knn	0.03729		
-dome	neighbourhood	all	farrell	400	17	1	farrell	0.04395	0.4941	1
-dome	neighbourhood	all	zfin_all	400	8	0.7016	farrell	0.04395	0.2039	0.6252
-dome	neighbourhood	all	zfin_all_het	400	7	0.7399	farrell	0.04395	0.2122	0.6698
-dome	neighbourhood	all	zfin_pre_het	400	6	0.7264	farrell	0.04395	0.2122	0.6527
-dome	neighbourhood	all	signalling	400	11	0.7321	farrell	0.04395		
-dome	neighbourhood	all	states	400	6	0.5508	farrell	0.04395		
-dome	neighbourhood	all	curated	400	41	0.6009	farrell	0.04395	0.2431	0.4727
-dome	neighbourhood	all	controls	400	9	0.358	farrell	0.04395		
-dome	neighbourhood	all	curated_supported	400	3	0.5939	farrell	0.04395	0.2431	0.4635
-dome	neighbourhood	all	random_farrell	400	17	0.4941	farrell	0.04395		
-dome	neighbourhood	all	random_zfin	400	8	0.2039	farrell	0.04395		
-dome	neighbourhood	all	random_zfin_het	400	7	0.2122	farrell	0.04395		
-dome	neighbourhood	all	random_curated	400	41	0.2431	farrell	0.04395		
-dome	neighbourhood	all	pcs	400	30	0.8244	farrell	0.04395		
-dome	neighbourhood	all	all	400	88	0.5388	farrell	0.04395		
-dome	neighbourhood	all	knn	400	0	0.1772	farrell	0.04395		
-dome	neighbourhood	heterogeneous	farrell	235	17	1	farrell	0.4086	0.9025	1
-dome	neighbourhood	heterogeneous	zfin_all	235	8	0.9357	farrell	0.4086	0.6069	0.8365
-dome	neighbourhood	heterogeneous	zfin_all_het	235	7	0.9458	farrell	0.4086	0.613	0.8598
-dome	neighbourhood	heterogeneous	zfin_pre_het	235	6	0.9446	farrell	0.4086	0.613	0.857
-dome	neighbourhood	heterogeneous	signalling	235	11	0.914	farrell	0.4086		
-dome	neighbourhood	heterogeneous	states	235	6	0.8067	farrell	0.4086		
-dome	neighbourhood	heterogeneous	curated	235	41	0.9648	farrell	0.4086	0.9029	0.6373
-dome	neighbourhood	heterogeneous	controls	235	9	0.6465	farrell	0.4086		
-dome	neighbourhood	heterogeneous	curated_supported	235	3	0.9101	farrell	0.4086	0.9029	0.07492
-dome	neighbourhood	heterogeneous	random_farrell	235	17	0.9025	farrell	0.4086		
-dome	neighbourhood	heterogeneous	random_zfin	235	8	0.6069	farrell	0.4086		
-dome	neighbourhood	heterogeneous	random_zfin_het	235	7	0.613	farrell	0.4086		
-dome	neighbourhood	heterogeneous	random_curated	235	41	0.9029	farrell	0.4086		
-dome	neighbourhood	heterogeneous	pcs	235	30	0.9889	farrell	0.4086		
-dome	neighbourhood	heterogeneous	all	235	88	0.9744	farrell	0.4086		
-dome	neighbourhood	heterogeneous	knn	235	0	0.7888	farrell	0.4086		
-30% epiboly	neighbourhood	all	farrell	400	15		curated_supported	0.0243		
-30% epiboly	neighbourhood	all	zfin_all	400	13		curated_supported	0.0243		
-30% epiboly	neighbourhood	all	zfin_all_het	400	11		curated_supported	0.0243		
-30% epiboly	neighbourhood	all	zfin_pre_het	400	11		curated_supported	0.0243		
-30% epiboly	neighbourhood	all	signalling	400	12		curated_supported	0.0243		
-30% epiboly	neighbourhood	all	states	400	6		curated_supported	0.0243		
-30% epiboly	neighbourhood	all	curated	400	42		curated_supported	0.0243		
-30% epiboly	neighbourhood	all	controls	400	8		curated_supported	0.0243		
-30% epiboly	neighbourhood	all	curated_supported	400	4		curated_supported	0.0243		
-30% epiboly	neighbourhood	all	random_farrell	400	15		curated_supported	0.0243		
-30% epiboly	neighbourhood	all	random_zfin	400	13		curated_supported	0.0243		
-30% epiboly	neighbourhood	all	random_zfin_het	400	11		curated_supported	0.0243		
-30% epiboly	neighbourhood	all	random_curated	400	42		curated_supported	0.0243		
-30% epiboly	neighbourhood	all	pcs	400	30		curated_supported	0.0243		
-30% epiboly	neighbourhood	all	all	400	87		curated_supported	0.0243		
-30% epiboly	neighbourhood	all	knn	400	0		curated_supported	0.0243		
-30% epiboly	neighbourhood	heterogeneous	farrell	226	15	1	farrell	0.3981	0.9393	1
-30% epiboly	neighbourhood	heterogeneous	zfin_all	226	13	0.9936	farrell	0.3981	0.766	0.9725
-30% epiboly	neighbourhood	heterogeneous	zfin_all_het	226	11	0.9952	farrell	0.3981	0.8633	0.9652
-30% epiboly	neighbourhood	heterogeneous	zfin_pre_het	226	11	0.9947	farrell	0.3981	0.8633	0.9614
-30% epiboly	neighbourhood	heterogeneous	signalling	226	12	0.9344	farrell	0.3981		
-30% epiboly	neighbourhood	heterogeneous	states	226	6	0.8884	farrell	0.3981		
-30% epiboly	neighbourhood	heterogeneous	curated	226	42	0.9769	farrell	0.3981	0.9097	0.7445
-30% epiboly	neighbourhood	heterogeneous	controls	226	8	0.8331	farrell	0.3981		
-30% epiboly	neighbourhood	heterogeneous	curated_supported	226	4	0.9837	farrell	0.3981	0.9097	0.8198
-30% epiboly	neighbourhood	heterogeneous	random_farrell	226	15	0.9393	farrell	0.3981		
-30% epiboly	neighbourhood	heterogeneous	random_zfin	226	13	0.766	farrell	0.3981		
-30% epiboly	neighbourhood	heterogeneous	random_zfin_het	226	11	0.8633	farrell	0.3981		
-30% epiboly	neighbourhood	heterogeneous	random_curated	226	42	0.9097	farrell	0.3981		
-30% epiboly	neighbourhood	heterogeneous	pcs	226	30	0.995	farrell	0.3981		
-30% epiboly	neighbourhood	heterogeneous	all	226	87	0.9736	farrell	0.3981		
-30% epiboly	neighbourhood	heterogeneous	knn	226	0	0.7847	farrell	0.3981		
-50% epiboly	neighbourhood	all	farrell	400	20		pcs	0.03653		
-50% epiboly	neighbourhood	all	zfin_all	400	25		pcs	0.03653		
-50% epiboly	neighbourhood	all	zfin_all_het	400	25		pcs	0.03653		
-50% epiboly	neighbourhood	all	zfin_pre_het	400	25		pcs	0.03653		
-50% epiboly	neighbourhood	all	signalling	400	13		pcs	0.03653		
-50% epiboly	neighbourhood	all	states	400	6		pcs	0.03653		
-50% epiboly	neighbourhood	all	curated	400	44		pcs	0.03653		
-50% epiboly	neighbourhood	all	controls	400	8		pcs	0.03653		
-50% epiboly	neighbourhood	all	curated_supported	400	4		pcs	0.03653		
-50% epiboly	neighbourhood	all	random_farrell	400	20		pcs	0.03653		
-50% epiboly	neighbourhood	all	random_zfin	400	25		pcs	0.03653		
-50% epiboly	neighbourhood	all	random_zfin_het	400	25		pcs	0.03653		
-50% epiboly	neighbourhood	all	random_curated	400	44		pcs	0.03653		
-50% epiboly	neighbourhood	all	pcs	400	30		pcs	0.03653		
-50% epiboly	neighbourhood	all	all	400	94		pcs	0.03653		
-50% epiboly	neighbourhood	all	knn	400	0		pcs	0.03653		
-50% epiboly	neighbourhood	heterogeneous	farrell	253	20	0.9771	pcs	0.3237	0.8608	0.8354
-50% epiboly	neighbourhood	heterogeneous	zfin_all	253	25	0.9499	pcs	0.3237	0.8335	0.6994
-50% epiboly	neighbourhood	heterogeneous	zfin_all_het	253	25	0.9521	pcs	0.3237	0.8252	0.7258
-50% epiboly	neighbourhood	heterogeneous	zfin_pre_het	253	25	0.9553	pcs	0.3237	0.8252	0.744
-50% epiboly	neighbourhood	heterogeneous	signalling	253	13	0.8032	pcs	0.3237		
-50% epiboly	neighbourhood	heterogeneous	states	253	6	0.8054	pcs	0.3237		
-50% epiboly	neighbourhood	heterogeneous	curated	253	44	0.9713	pcs	0.3237	0.8256	0.8353
-50% epiboly	neighbourhood	heterogeneous	controls	253	8	0.5726	pcs	0.3237		
-50% epiboly	neighbourhood	heterogeneous	curated_supported	253	4	0.9023	pcs	0.3237	0.8256	0.4402
-50% epiboly	neighbourhood	heterogeneous	random_farrell	253	20	0.8608	pcs	0.3237		
-50% epiboly	neighbourhood	heterogeneous	random_zfin	253	25	0.8335	pcs	0.3237		
-50% epiboly	neighbourhood	heterogeneous	random_zfin_het	253	25	0.8252	pcs	0.3237		
-50% epiboly	neighbourhood	heterogeneous	random_curated	253	44	0.8256	pcs	0.3237		
-50% epiboly	neighbourhood	heterogeneous	pcs	253	30	1	pcs	0.3237		
-50% epiboly	neighbourhood	heterogeneous	all	253	94	0.9923	pcs	0.3237		
-50% epiboly	neighbourhood	heterogeneous	knn	253	0	0.6842	pcs	0.3237		
-shield	neighbourhood	all	farrell	400	25		curated_supported	0.01009		
-shield	neighbourhood	all	zfin_all	400	35		curated_supported	0.01009		
-shield	neighbourhood	all	zfin_all_het	400	31		curated_supported	0.01009		
-shield	neighbourhood	all	zfin_pre_het	400	30		curated_supported	0.01009		
-shield	neighbourhood	all	signalling	400	13		curated_supported	0.01009		
-shield	neighbourhood	all	states	400	6		curated_supported	0.01009		
-shield	neighbourhood	all	curated	400	43		curated_supported	0.01009		
-shield	neighbourhood	all	controls	400	6		curated_supported	0.01009		
-shield	neighbourhood	all	curated_supported	400	8		curated_supported	0.01009		
-shield	neighbourhood	all	random_farrell	400	25		curated_supported	0.01009		
-shield	neighbourhood	all	random_zfin	400	35		curated_supported	0.01009		
-shield	neighbourhood	all	random_zfin_het	400	31		curated_supported	0.01009		
-shield	neighbourhood	all	random_curated	400	43		curated_supported	0.01009		
-shield	neighbourhood	all	pcs	400	30		curated_supported	0.01009		
-shield	neighbourhood	all	all	400	98		curated_supported	0.01009		
-shield	neighbourhood	all	knn	400	0		curated_supported	0.01009		
-shield	neighbourhood	heterogeneous	farrell	73	25	0.9904	zfin_all	0.1314	0.8259	0.945
-shield	neighbourhood	heterogeneous	zfin_all	73	35	1	zfin_all	0.1314	0.6935	1
-shield	neighbourhood	heterogeneous	zfin_all_het	73	31	0.9749	zfin_all	0.1314	0.733	0.9059
-shield	neighbourhood	heterogeneous	zfin_pre_het	73	30	0.9866	zfin_all	0.1314	0.733	0.9499
-shield	neighbourhood	heterogeneous	signalling	73	13	0.7126	zfin_all	0.1314		
-shield	neighbourhood	heterogeneous	states	73	6	0.7366	zfin_all	0.1314		
-shield	neighbourhood	heterogeneous	curated	73	43	0.9356	zfin_all	0.1314	0.5444	0.8587
-shield	neighbourhood	heterogeneous	controls	73	6	-0.01052	zfin_all	0.1314		
-shield	neighbourhood	heterogeneous	curated_supported	73	8	0.9835	zfin_all	0.1314	0.5444	0.9639
-shield	neighbourhood	heterogeneous	random_farrell	73	25	0.8259	zfin_all	0.1314		
-shield	neighbourhood	heterogeneous	random_zfin	73	35	0.6935	zfin_all	0.1314		
-shield	neighbourhood	heterogeneous	random_zfin_het	73	31	0.733	zfin_all	0.1314		
-shield	neighbourhood	heterogeneous	random_curated	73	43	0.5444	zfin_all	0.1314		
-shield	neighbourhood	heterogeneous	pcs	73	30	0.9417	zfin_all	0.1314		
-shield	neighbourhood	heterogeneous	all	73	98	0.8917	zfin_all	0.1314		
-shield	neighbourhood	heterogeneous	knn	73	0	0.7253	zfin_all	0.1314		
-60% epiboly	neighbourhood	all	farrell	400	25	0.9629	pcs	0.04926	0.6354	0.8983
-60% epiboly	neighbourhood	all	zfin_all	400	36	0.8828	pcs	0.04926	0.5483	0.7404
-60% epiboly	neighbourhood	all	zfin_all_het	400	34	0.8961	pcs	0.04926	0.6236	0.7239
-60% epiboly	neighbourhood	all	zfin_pre_het	400	33	0.8945	pcs	0.04926	0.6236	0.7198
-60% epiboly	neighbourhood	all	signalling	400	13	0.6469	pcs	0.04926		
-60% epiboly	neighbourhood	all	states	400	6	0.5168	pcs	0.04926		
-60% epiboly	neighbourhood	all	curated	400	44	0.9227	pcs	0.04926	0.6176	0.7979
-60% epiboly	neighbourhood	all	controls	400	5	0.09441	pcs	0.04926		
-60% epiboly	neighbourhood	all	curated_supported	400	26	0.8905	pcs	0.04926	0.6176	0.7137
-60% epiboly	neighbourhood	all	random_farrell	400	25	0.6354	pcs	0.04926		
-60% epiboly	neighbourhood	all	random_zfin	400	36	0.5483	pcs	0.04926		
-60% epiboly	neighbourhood	all	random_zfin_het	400	34	0.6236	pcs	0.04926		
-60% epiboly	neighbourhood	all	random_curated	400	44	0.6176	pcs	0.04926		
-60% epiboly	neighbourhood	all	pcs	400	30	1	pcs	0.04926		
-60% epiboly	neighbourhood	all	all	400	99	0.9658	pcs	0.04926		
-60% epiboly	neighbourhood	all	knn	400	0	0.2118	pcs	0.04926		
-60% epiboly	neighbourhood	heterogeneous	farrell	184	25	0.9827	pcs	0.3268	0.8269	0.9003
-60% epiboly	neighbourhood	heterogeneous	zfin_all	184	36	0.9542	pcs	0.3268	0.7667	0.8035
-60% epiboly	neighbourhood	heterogeneous	zfin_all_het	184	34	0.9637	pcs	0.3268	0.8306	0.7858
-60% epiboly	neighbourhood	heterogeneous	zfin_pre_het	184	33	0.9642	pcs	0.3268	0.8306	0.7887
-60% epiboly	neighbourhood	heterogeneous	signalling	184	13	0.7548	pcs	0.3268		
-60% epiboly	neighbourhood	heterogeneous	states	184	6	0.6383	pcs	0.3268		
-60% epiboly	neighbourhood	heterogeneous	curated	184	44	0.9652	pcs	0.3268	0.8098	0.8171
-60% epiboly	neighbourhood	heterogeneous	controls	184	5	0.1676	pcs	0.3268		
-60% epiboly	neighbourhood	heterogeneous	curated_supported	184	26	0.9478	pcs	0.3268	0.8098	0.7257
-60% epiboly	neighbourhood	heterogeneous	random_farrell	184	25	0.8269	pcs	0.3268		
-60% epiboly	neighbourhood	heterogeneous	random_zfin	184	36	0.7667	pcs	0.3268		
-60% epiboly	neighbourhood	heterogeneous	random_zfin_het	184	34	0.8306	pcs	0.3268		
-60% epiboly	neighbourhood	heterogeneous	random_curated	184	44	0.8098	pcs	0.3268		
-60% epiboly	neighbourhood	heterogeneous	pcs	184	30	1	pcs	0.3268		
-60% epiboly	neighbourhood	heterogeneous	all	184	99	0.999	pcs	0.3268		
-60% epiboly	neighbourhood	heterogeneous	knn	184	0	0.691	pcs	0.3268		
-75% epiboly	neighbourhood	all	farrell	400	24	0.9207	all	0.06566	0.6099	0.7968
-75% epiboly	neighbourhood	all	zfin_all	400	43	0.9084	all	0.06566	0.5562	0.7937
-75% epiboly	neighbourhood	all	zfin_all_het	400	40	0.918	all	0.06566	0.6098	0.79
-75% epiboly	neighbourhood	all	zfin_pre_het	400	40	0.9191	all	0.06566	0.6098	0.7927
-75% epiboly	neighbourhood	all	signalling	400	14	0.5251	all	0.06566		
-75% epiboly	neighbourhood	all	states	400	6	0.3462	all	0.06566		
-75% epiboly	neighbourhood	all	curated	400	45	0.9279	all	0.06566	0.6133	0.8135
-75% epiboly	neighbourhood	all	controls	400	5	0.1003	all	0.06566		
-75% epiboly	neighbourhood	all	curated_supported	400	26	0.8904	all	0.06566	0.6133	0.7166
-75% epiboly	neighbourhood	all	random_farrell	400	24	0.6099	all	0.06566		
-75% epiboly	neighbourhood	all	random_zfin	400	43	0.5562	all	0.06566		
-75% epiboly	neighbourhood	all	random_zfin_het	400	40	0.6098	all	0.06566		
-75% epiboly	neighbourhood	all	random_curated	400	45	0.6133	all	0.06566		
-75% epiboly	neighbourhood	all	pcs	400	30	0.9792	all	0.06566		
-75% epiboly	neighbourhood	all	all	400	99	1	all	0.06566		
-75% epiboly	neighbourhood	all	knn	400	0	0.2391	all	0.06566		
-75% epiboly	neighbourhood	heterogeneous	farrell	246	24	0.9727	all	0.3439	0.7513	0.8904
-75% epiboly	neighbourhood	heterogeneous	zfin_all	246	43	0.9618	all	0.3439	0.7407	0.8528
-75% epiboly	neighbourhood	heterogeneous	zfin_all_het	246	40	0.9643	all	0.3439	0.7824	0.8359
-75% epiboly	neighbourhood	heterogeneous	zfin_pre_het	246	40	0.9639	all	0.3439	0.7824	0.8342
-75% epiboly	neighbourhood	heterogeneous	signalling	246	14	0.6881	all	0.3439		
-75% epiboly	neighbourhood	heterogeneous	states	246	6	0.4843	all	0.3439		
-75% epiboly	neighbourhood	heterogeneous	curated	246	45	0.9652	all	0.3439	0.7782	0.843
-75% epiboly	neighbourhood	heterogeneous	controls	246	5	0.1362	all	0.3439		
-75% epiboly	neighbourhood	heterogeneous	curated_supported	246	26	0.9443	all	0.3439	0.7782	0.749
-75% epiboly	neighbourhood	heterogeneous	random_farrell	246	24	0.7513	all	0.3439		
-75% epiboly	neighbourhood	heterogeneous	random_zfin	246	43	0.7407	all	0.3439		
-75% epiboly	neighbourhood	heterogeneous	random_zfin_het	246	40	0.7824	all	0.3439		
-75% epiboly	neighbourhood	heterogeneous	random_curated	246	45	0.7782	all	0.3439		
-75% epiboly	neighbourhood	heterogeneous	pcs	246	30	0.994	all	0.3439		
-75% epiboly	neighbourhood	heterogeneous	all	246	99	1	all	0.3439		
-75% epiboly	neighbourhood	heterogeneous	knn	246	0	0.6652	all	0.3439		
-90% epiboly	neighbourhood	all	farrell	400	45	0.9335	all	0.06571	0.7436	0.7406
-90% epiboly	neighbourhood	all	zfin_all	400	39	0.8977	all	0.06571	0.618	0.7321
-90% epiboly	neighbourhood	all	zfin_all_het	400	37	0.8967	all	0.06571	0.5641	0.763
-90% epiboly	neighbourhood	all	zfin_pre_het	400	37	0.8968	all	0.06571	0.5641	0.7634
-90% epiboly	neighbourhood	all	signalling	400	14	0.5376	all	0.06571		
-90% epiboly	neighbourhood	all	states	400	6	0.2722	all	0.06571		
-90% epiboly	neighbourhood	all	curated	400	45	0.9399	all	0.06571	0.5731	0.8593
-90% epiboly	neighbourhood	all	controls	400	5	0.1519	all	0.06571		
-90% epiboly	neighbourhood	all	curated_supported	400	25	0.8883	all	0.06571	0.5731	0.7384
-90% epiboly	neighbourhood	all	random_farrell	400	45	0.7436	all	0.06571		
-90% epiboly	neighbourhood	all	random_zfin	400	39	0.618	all	0.06571		
-90% epiboly	neighbourhood	all	random_zfin_het	400	37	0.5641	all	0.06571		
-90% epiboly	neighbourhood	all	random_curated	400	45	0.5731	all	0.06571		
-90% epiboly	neighbourhood	all	pcs	400	30	0.957	all	0.06571		
-90% epiboly	neighbourhood	all	all	400	120	1	all	0.06571		
-90% epiboly	neighbourhood	all	knn	400	0	0.2088	all	0.06571		
-90% epiboly	neighbourhood	heterogeneous	farrell	255	45	0.9805	all	0.3667	0.8923	0.8193
-90% epiboly	neighbourhood	heterogeneous	zfin_all	255	39	0.958	all	0.3667	0.7821	0.8074
-90% epiboly	neighbourhood	heterogeneous	zfin_all_het	255	37	0.9605	all	0.3667	0.7031	0.867
-90% epiboly	neighbourhood	heterogeneous	zfin_pre_het	255	37	0.9598	all	0.3667	0.7031	0.8647
-90% epiboly	neighbourhood	heterogeneous	signalling	255	14	0.6951	all	0.3667		
-90% epiboly	neighbourhood	heterogeneous	states	255	6	0.3574	all	0.3667		
-90% epiboly	neighbourhood	heterogeneous	curated	255	45	0.9687	all	0.3667	0.7638	0.8673
-90% epiboly	neighbourhood	heterogeneous	controls	255	5	0.1913	all	0.3667		
-90% epiboly	neighbourhood	heterogeneous	curated_supported	255	25	0.9445	all	0.3667	0.7638	0.765
-90% epiboly	neighbourhood	heterogeneous	random_farrell	255	45	0.8923	all	0.3667		
-90% epiboly	neighbourhood	heterogeneous	random_zfin	255	39	0.7821	all	0.3667		
-90% epiboly	neighbourhood	heterogeneous	random_zfin_het	255	37	0.7031	all	0.3667		
-90% epiboly	neighbourhood	heterogeneous	random_curated	255	45	0.7638	all	0.3667		
-90% epiboly	neighbourhood	heterogeneous	pcs	255	30	0.9875	all	0.3667		
-90% epiboly	neighbourhood	heterogeneous	all	255	120	1	all	0.3667		
-90% epiboly	neighbourhood	heterogeneous	knn	255	0	0.6737	all	0.3667		
-bud	neighbourhood	all	farrell	400	40	0.9412	all	0.08208	0.7563	0.7589
-bud	neighbourhood	all	zfin_all	400	68	0.9326	all	0.08208	0.7352	0.7455
-bud	neighbourhood	all	zfin_all_het	400	63	0.9374	all	0.08208	0.7469	0.7526
-bud	neighbourhood	all	zfin_pre_het	400	62	0.944	all	0.08208	0.7469	0.7788
-bud	neighbourhood	all	signalling	400	14	0.5205	all	0.08208		
-bud	neighbourhood	all	states	400	6	0.2997	all	0.08208		
-bud	neighbourhood	all	curated	400	45	0.9335	all	0.08208	0.6471	0.8116
-bud	neighbourhood	all	controls	400	5	0.1672	all	0.08208		
-bud	neighbourhood	all	curated_supported	400	30	0.9132	all	0.08208	0.6471	0.7539
-bud	neighbourhood	all	random_farrell	400	40	0.7563	all	0.08208		
-bud	neighbourhood	all	random_zfin	400	68	0.7352	all	0.08208		
-bud	neighbourhood	all	random_zfin_het	400	63	0.7469	all	0.08208		
-bud	neighbourhood	all	random_curated	400	45	0.6471	all	0.08208		
-bud	neighbourhood	all	pcs	400	30	0.9743	all	0.08208		
-bud	neighbourhood	all	all	400	115	1	all	0.08208		
-bud	neighbourhood	all	knn	400	0	0.2853	all	0.08208		
-bud	neighbourhood	heterogeneous	farrell	214	40	0.977	all	0.412	0.8422	0.8542
-bud	neighbourhood	heterogeneous	zfin_all	214	68	0.9621	all	0.412	0.8421	0.7602
-bud	neighbourhood	heterogeneous	zfin_all_het	214	63	0.9661	all	0.412	0.8507	0.7729
-bud	neighbourhood	heterogeneous	zfin_pre_het	214	62	0.9652	all	0.412	0.8507	0.7667
-bud	neighbourhood	heterogeneous	signalling	214	14	0.6754	all	0.412		
-bud	neighbourhood	heterogeneous	states	214	6	0.3293	all	0.412		
-bud	neighbourhood	heterogeneous	curated	214	45	0.9553	all	0.412	0.7142	0.8435
-bud	neighbourhood	heterogeneous	controls	214	5	0.1958	all	0.412		
-bud	neighbourhood	heterogeneous	curated_supported	214	30	0.9437	all	0.412	0.7142	0.8031
-bud	neighbourhood	heterogeneous	random_farrell	214	40	0.8422	all	0.412		
-bud	neighbourhood	heterogeneous	random_zfin	214	68	0.8421	all	0.412		
-bud	neighbourhood	heterogeneous	random_zfin_het	214	63	0.8507	all	0.412		
-bud	neighbourhood	heterogeneous	random_curated	214	45	0.7142	all	0.412		
-bud	neighbourhood	heterogeneous	pcs	214	30	0.9878	all	0.412		
-bud	neighbourhood	heterogeneous	all	214	115	1	all	0.412		
-bud	neighbourhood	heterogeneous	knn	214	0	0.7044	all	0.412		
-3-somite	neighbourhood	all	farrell	400	31	1	farrell	0.06063	0.5875	1
-3-somite	neighbourhood	all	zfin_all	400	81	0.7331	farrell	0.06063	0.2698	0.6345
-3-somite	neighbourhood	all	zfin_all_het	400	71	0.8115	farrell	0.06063	0.3832	0.6943
-3-somite	neighbourhood	all	zfin_pre_het	400	69	0.8124	farrell	0.06063	0.3832	0.6959
-3-somite	neighbourhood	all	signalling	400	14	0.4485	farrell	0.06063		
-3-somite	neighbourhood	all	states	400	6	0.3365	farrell	0.06063		
-3-somite	neighbourhood	all	curated	400	45	0.8465	farrell	0.06063	0.4161	0.7372
-3-somite	neighbourhood	all	controls	400	6	0.2629	farrell	0.06063		
-3-somite	neighbourhood	all	curated_supported	400	32	0.9122	farrell	0.06063	0.4161	0.8497
-3-somite	neighbourhood	all	random_farrell	400	31	0.5875	farrell	0.06063		
-3-somite	neighbourhood	all	random_zfin	400	81	0.2698	farrell	0.06063		
-3-somite	neighbourhood	all	random_zfin_het	400	71	0.3832	farrell	0.06063		
-3-somite	neighbourhood	all	random_curated	400	45	0.4161	farrell	0.06063		
-3-somite	neighbourhood	all	pcs	400	30	0.9994	farrell	0.06063		
-3-somite	neighbourhood	all	all	400	106	0.8002	farrell	0.06063		
-3-somite	neighbourhood	all	knn	400	0	0.2662	farrell	0.06063		
-3-somite	neighbourhood	heterogeneous	farrell	140	31	0.9889	pcs	0.2891	0.7907	0.9468
-3-somite	neighbourhood	heterogeneous	zfin_all	140	81	0.9544	pcs	0.2891	0.778	0.7947
-3-somite	neighbourhood	heterogeneous	zfin_all_het	140	71	0.9577	pcs	0.2891	0.8073	0.7806
-3-somite	neighbourhood	heterogeneous	zfin_pre_het	140	69	0.956	pcs	0.2891	0.8073	0.7715
-3-somite	neighbourhood	heterogeneous	signalling	140	14	0.5651	pcs	0.2891		
-3-somite	neighbourhood	heterogeneous	states	140	6	0.3755	pcs	0.2891		
-3-somite	neighbourhood	heterogeneous	curated	140	45	0.9534	pcs	0.2891	0.7474	0.8154
-3-somite	neighbourhood	heterogeneous	controls	140	6	0.3634	pcs	0.2891		
-3-somite	neighbourhood	heterogeneous	curated_supported	140	32	0.9488	pcs	0.2891	0.7474	0.7975
-3-somite	neighbourhood	heterogeneous	random_farrell	140	31	0.7907	pcs	0.2891		
-3-somite	neighbourhood	heterogeneous	random_zfin	140	81	0.778	pcs	0.2891		
-3-somite	neighbourhood	heterogeneous	random_zfin_het	140	71	0.8073	pcs	0.2891		
-3-somite	neighbourhood	heterogeneous	random_curated	140	45	0.7474	pcs	0.2891		
-3-somite	neighbourhood	heterogeneous	pcs	140	30	1	pcs	0.2891		
-3-somite	neighbourhood	heterogeneous	all	140	106	0.9857	pcs	0.2891		
-3-somite	neighbourhood	heterogeneous	knn	140	0	0.6783	pcs	0.2891		
-6-somite	neighbourhood	all	farrell	400	42	0.9682	pcs	0.07329	0.7751	0.8585
-6-somite	neighbourhood	all	zfin_all	400	110	0.9046	pcs	0.07329	0.6798	0.7021
-6-somite	neighbourhood	all	zfin_all_het	400	103	0.9225	pcs	0.07329	0.6972	0.744
-6-somite	neighbourhood	all	zfin_pre_het	400	101	0.916	pcs	0.07329	0.6972	0.7227
-6-somite	neighbourhood	all	signalling	400	14	0.3913	pcs	0.07329		
-6-somite	neighbourhood	all	states	400	6	0.2844	pcs	0.07329		
-6-somite	neighbourhood	all	curated	400	45	0.9187	pcs	0.07329	0.6196	0.7862
-6-somite	neighbourhood	all	controls	400	7	0.2649	pcs	0.07329		
-6-somite	neighbourhood	all	curated_supported	400	33	0.9263	pcs	0.07329	0.6196	0.8064
-6-somite	neighbourhood	all	random_farrell	400	42	0.7751	pcs	0.07329		
-6-somite	neighbourhood	all	random_zfin	400	110	0.6798	pcs	0.07329		
-6-somite	neighbourhood	all	random_zfin_het	400	103	0.6972	pcs	0.07329		
-6-somite	neighbourhood	all	random_curated	400	45	0.6196	pcs	0.07329		
-6-somite	neighbourhood	all	pcs	400	30	1	pcs	0.07329		
-6-somite	neighbourhood	all	all	400	117	0.9735	pcs	0.07329		
-6-somite	neighbourhood	all	knn	400	0	0.2678	pcs	0.07329		
-6-somite	neighbourhood	heterogeneous	farrell	254	42	0.9824	all	0.3695	0.9052	0.8149
-6-somite	neighbourhood	heterogeneous	zfin_all	254	110	0.9684	all	0.3695	0.8982	0.6891
-6-somite	neighbourhood	heterogeneous	zfin_all_het	254	103	0.971	all	0.3695	0.8917	0.7326
-6-somite	neighbourhood	heterogeneous	zfin_pre_het	254	101	0.968	all	0.3695	0.8917	0.7046
-6-somite	neighbourhood	heterogeneous	signalling	254	14	0.5108	all	0.3695		
-6-somite	neighbourhood	heterogeneous	states	254	6	0.317	all	0.3695		
-6-somite	neighbourhood	heterogeneous	curated	254	45	0.9558	all	0.3695	0.7721	0.806
-6-somite	neighbourhood	heterogeneous	controls	254	7	0.4074	all	0.3695		
-6-somite	neighbourhood	heterogeneous	curated_supported	254	33	0.9441	all	0.3695	0.7721	0.7546
-6-somite	neighbourhood	heterogeneous	random_farrell	254	42	0.9052	all	0.3695		
-6-somite	neighbourhood	heterogeneous	random_zfin	254	110	0.8982	all	0.3695		
-6-somite	neighbourhood	heterogeneous	random_zfin_het	254	103	0.8917	all	0.3695		
-6-somite	neighbourhood	heterogeneous	random_curated	254	45	0.7721	all	0.3695		
-6-somite	neighbourhood	heterogeneous	pcs	254	30	0.9974	all	0.3695		
-6-somite	neighbourhood	heterogeneous	all	254	117	1	all	0.3695		
-6-somite	neighbourhood	heterogeneous	knn	254	0	0.7148	all	0.3695		
+high	neighbourhood	all	farrell	400	10		zfin_all	-0.002908		
+high	neighbourhood	all	zfin_all	400	2		zfin_all	-0.002908		
+high	neighbourhood	all	zfin_all_het	400	2		zfin_all	-0.002908		
+high	neighbourhood	all	zfin_pre_het	400	2		zfin_all	-0.002908		
+high	neighbourhood	all	signalling	400	9		zfin_all	-0.002908		
+high	neighbourhood	all	states	400	6		zfin_all	-0.002908		
+high	neighbourhood	all	curated	400	39		zfin_all	-0.002908		
+high	neighbourhood	all	controls	400	6		zfin_all	-0.002908		
+high	neighbourhood	all	curated_supported	400	4		zfin_all	-0.002908		
+high	neighbourhood	all	random_farrell	400	10		zfin_all	-0.002908		
+high	neighbourhood	all	random_zfin	400	2		zfin_all	-0.002908		
+high	neighbourhood	all	random_zfin_het	400	2		zfin_all	-0.002908		
+high	neighbourhood	all	random_curated	400	39		zfin_all	-0.002908		
+high	neighbourhood	all	pcs	400	30		zfin_all	-0.002908		
+high	neighbourhood	all	all	400	79		zfin_all	-0.002908		
+high	neighbourhood	all	knn	400	0		zfin_all	-0.002908		
+high	neighbourhood	heterogeneous	farrell	62	10		farrell	0.01157		
+high	neighbourhood	heterogeneous	zfin_all	62	2		farrell	0.01157		
+high	neighbourhood	heterogeneous	zfin_all_het	62	2		farrell	0.01157		
+high	neighbourhood	heterogeneous	zfin_pre_het	62	2		farrell	0.01157		
+high	neighbourhood	heterogeneous	signalling	62	9		farrell	0.01157		
+high	neighbourhood	heterogeneous	states	62	6		farrell	0.01157		
+high	neighbourhood	heterogeneous	curated	62	39		farrell	0.01157		
+high	neighbourhood	heterogeneous	controls	62	6		farrell	0.01157		
+high	neighbourhood	heterogeneous	curated_supported	62	4		farrell	0.01157		
+high	neighbourhood	heterogeneous	random_farrell	62	10		farrell	0.01157		
+high	neighbourhood	heterogeneous	random_zfin	62	2		farrell	0.01157		
+high	neighbourhood	heterogeneous	random_zfin_het	62	2		farrell	0.01157		
+high	neighbourhood	heterogeneous	random_curated	62	39		farrell	0.01157		
+high	neighbourhood	heterogeneous	pcs	62	30		farrell	0.01157		
+high	neighbourhood	heterogeneous	all	62	79		farrell	0.01157		
+high	neighbourhood	heterogeneous	knn	62	0		farrell	0.01157		
+oblong	neighbourhood	all	farrell	400	11		zfin_all	-0.003878		
+oblong	neighbourhood	all	zfin_all	400	1		zfin_all	-0.003878		
+oblong	neighbourhood	all	zfin_all_het	400			zfin_all	-0.003878		
+oblong	neighbourhood	all	zfin_pre_het	400			zfin_all	-0.003878		
+oblong	neighbourhood	all	signalling	400	9		zfin_all	-0.003878		
+oblong	neighbourhood	all	states	400	6		zfin_all	-0.003878		
+oblong	neighbourhood	all	curated	400	39		zfin_all	-0.003878		
+oblong	neighbourhood	all	controls	400	6		zfin_all	-0.003878		
+oblong	neighbourhood	all	curated_supported	400	4		zfin_all	-0.003878		
+oblong	neighbourhood	all	random_farrell	400	11		zfin_all	-0.003878		
+oblong	neighbourhood	all	random_zfin	400	1		zfin_all	-0.003878		
+oblong	neighbourhood	all	random_zfin_het	400			zfin_all	-0.003878		
+oblong	neighbourhood	all	random_curated	400	39		zfin_all	-0.003878		
+oblong	neighbourhood	all	pcs	400	30		zfin_all	-0.003878		
+oblong	neighbourhood	all	all	400	80		zfin_all	-0.003878		
+oblong	neighbourhood	all	knn	400	0		zfin_all	-0.003878		
+oblong	neighbourhood	heterogeneous	farrell	28	11		random_zfin	-0.0004604		
+oblong	neighbourhood	heterogeneous	zfin_all	28	1		random_zfin	-0.0004604		
+oblong	neighbourhood	heterogeneous	zfin_all_het	28			random_zfin	-0.0004604		
+oblong	neighbourhood	heterogeneous	zfin_pre_het	28			random_zfin	-0.0004604		
+oblong	neighbourhood	heterogeneous	signalling	28	9		random_zfin	-0.0004604		
+oblong	neighbourhood	heterogeneous	states	28	6		random_zfin	-0.0004604		
+oblong	neighbourhood	heterogeneous	curated	28	39		random_zfin	-0.0004604		
+oblong	neighbourhood	heterogeneous	controls	28	6		random_zfin	-0.0004604		
+oblong	neighbourhood	heterogeneous	curated_supported	28	4		random_zfin	-0.0004604		
+oblong	neighbourhood	heterogeneous	random_farrell	28	11		random_zfin	-0.0004604		
+oblong	neighbourhood	heterogeneous	random_zfin	28	1		random_zfin	-0.0004604		
+oblong	neighbourhood	heterogeneous	random_zfin_het	28			random_zfin	-0.0004604		
+oblong	neighbourhood	heterogeneous	random_curated	28	39		random_zfin	-0.0004604		
+oblong	neighbourhood	heterogeneous	pcs	28	30		random_zfin	-0.0004604		
+oblong	neighbourhood	heterogeneous	all	28	80		random_zfin	-0.0004604		
+oblong	neighbourhood	heterogeneous	knn	28	0		random_zfin	-0.0004604		
+dome	neighbourhood	all	farrell	400	17		farrell	0.03628		
+dome	neighbourhood	all	zfin_all	400	8		farrell	0.03628		
+dome	neighbourhood	all	zfin_all_het	400	7		farrell	0.03628		
+dome	neighbourhood	all	zfin_pre_het	400	6		farrell	0.03628		
+dome	neighbourhood	all	signalling	400	11		farrell	0.03628		
+dome	neighbourhood	all	states	400	6		farrell	0.03628		
+dome	neighbourhood	all	curated	400	41		farrell	0.03628		
+dome	neighbourhood	all	controls	400	7		farrell	0.03628		
+dome	neighbourhood	all	curated_supported	400	3		farrell	0.03628		
+dome	neighbourhood	all	random_farrell	400	17		farrell	0.03628		
+dome	neighbourhood	all	random_zfin	400	8		farrell	0.03628		
+dome	neighbourhood	all	random_zfin_het	400	7		farrell	0.03628		
+dome	neighbourhood	all	random_curated	400	41		farrell	0.03628		
+dome	neighbourhood	all	pcs	400	30		farrell	0.03628		
+dome	neighbourhood	all	all	400	88		farrell	0.03628		
+dome	neighbourhood	all	knn	400	0		farrell	0.03628		
+dome	neighbourhood	heterogeneous	farrell	119	17	1	farrell	0.3288	0.8897	1
+dome	neighbourhood	heterogeneous	zfin_all	119	8	0.9448	farrell	0.3288	0.5844	0.8672
+dome	neighbourhood	heterogeneous	zfin_all_het	119	7	0.9587	farrell	0.3288	0.7683	0.8218
+dome	neighbourhood	heterogeneous	zfin_pre_het	119	6	0.9582	farrell	0.3288	0.7683	0.8195
+dome	neighbourhood	heterogeneous	signalling	119	11	0.9247	farrell	0.3288		
+dome	neighbourhood	heterogeneous	states	119	6	0.7978	farrell	0.3288		
+dome	neighbourhood	heterogeneous	curated	119	41	0.9574	farrell	0.3288	0.8934	0.6009
+dome	neighbourhood	heterogeneous	controls	119	7	0.8341	farrell	0.3288		
+dome	neighbourhood	heterogeneous	curated_supported	119	3	0.9426	farrell	0.3288	0.8934	0.4617
+dome	neighbourhood	heterogeneous	random_farrell	119	17	0.8897	farrell	0.3288		
+dome	neighbourhood	heterogeneous	random_zfin	119	8	0.5844	farrell	0.3288		
+dome	neighbourhood	heterogeneous	random_zfin_het	119	7	0.7683	farrell	0.3288		
+dome	neighbourhood	heterogeneous	random_curated	119	41	0.8934	farrell	0.3288		
+dome	neighbourhood	heterogeneous	pcs	119	30	0.9727	farrell	0.3288		
+dome	neighbourhood	heterogeneous	all	119	88	0.9601	farrell	0.3288		
+dome	neighbourhood	heterogeneous	knn	119	0	0.7739	farrell	0.3288		
+30% epiboly	neighbourhood	all	farrell	400	15		curated_supported	0.02165		
+30% epiboly	neighbourhood	all	zfin_all	400	13		curated_supported	0.02165		
+30% epiboly	neighbourhood	all	zfin_all_het	400	11		curated_supported	0.02165		
+30% epiboly	neighbourhood	all	zfin_pre_het	400	11		curated_supported	0.02165		
+30% epiboly	neighbourhood	all	signalling	400	12		curated_supported	0.02165		
+30% epiboly	neighbourhood	all	states	400	6		curated_supported	0.02165		
+30% epiboly	neighbourhood	all	curated	400	42		curated_supported	0.02165		
+30% epiboly	neighbourhood	all	controls	400	6		curated_supported	0.02165		
+30% epiboly	neighbourhood	all	curated_supported	400	4		curated_supported	0.02165		
+30% epiboly	neighbourhood	all	random_farrell	400	15		curated_supported	0.02165		
+30% epiboly	neighbourhood	all	random_zfin	400	13		curated_supported	0.02165		
+30% epiboly	neighbourhood	all	random_zfin_het	400	11		curated_supported	0.02165		
+30% epiboly	neighbourhood	all	random_curated	400	42		curated_supported	0.02165		
+30% epiboly	neighbourhood	all	pcs	400	30		curated_supported	0.02165		
+30% epiboly	neighbourhood	all	all	400	87		curated_supported	0.02165		
+30% epiboly	neighbourhood	all	knn	400	0		curated_supported	0.02165		
+30% epiboly	neighbourhood	heterogeneous	farrell	119	15	1	farrell	0.3189	0.9288	1
+30% epiboly	neighbourhood	heterogeneous	zfin_all	119	13	0.9937	farrell	0.3189	0.7516	0.9748
+30% epiboly	neighbourhood	heterogeneous	zfin_all_het	119	11	0.9944	farrell	0.3189	0.8322	0.9667
+30% epiboly	neighbourhood	heterogeneous	zfin_pre_het	119	11	0.9942	farrell	0.3189	0.8322	0.9653
+30% epiboly	neighbourhood	heterogeneous	signalling	119	12	0.9404	farrell	0.3189		
+30% epiboly	neighbourhood	heterogeneous	states	119	6	0.8815	farrell	0.3189		
+30% epiboly	neighbourhood	heterogeneous	curated	119	42	0.9701	farrell	0.3189	0.9029	0.6922
+30% epiboly	neighbourhood	heterogeneous	controls	119	6	0.8263	farrell	0.3189		
+30% epiboly	neighbourhood	heterogeneous	curated_supported	119	4	0.9884	farrell	0.3189	0.9029	0.8802
+30% epiboly	neighbourhood	heterogeneous	random_farrell	119	15	0.9288	farrell	0.3189		
+30% epiboly	neighbourhood	heterogeneous	random_zfin	119	13	0.7516	farrell	0.3189		
+30% epiboly	neighbourhood	heterogeneous	random_zfin_het	119	11	0.8322	farrell	0.3189		
+30% epiboly	neighbourhood	heterogeneous	random_curated	119	42	0.9029	farrell	0.3189		
+30% epiboly	neighbourhood	heterogeneous	pcs	119	30	0.9715	farrell	0.3189		
+30% epiboly	neighbourhood	heterogeneous	all	119	87	0.9561	farrell	0.3189		
+30% epiboly	neighbourhood	heterogeneous	knn	119	0	0.7561	farrell	0.3189		
+50% epiboly	neighbourhood	all	farrell	400	20		pcs	0.03427		
+50% epiboly	neighbourhood	all	zfin_all	400	25		pcs	0.03427		
+50% epiboly	neighbourhood	all	zfin_all_het	400	25		pcs	0.03427		
+50% epiboly	neighbourhood	all	zfin_pre_het	400	25		pcs	0.03427		
+50% epiboly	neighbourhood	all	signalling	400	13		pcs	0.03427		
+50% epiboly	neighbourhood	all	states	400	6		pcs	0.03427		
+50% epiboly	neighbourhood	all	curated	400	44		pcs	0.03427		
+50% epiboly	neighbourhood	all	controls	400	7		pcs	0.03427		
+50% epiboly	neighbourhood	all	curated_supported	400	4		pcs	0.03427		
+50% epiboly	neighbourhood	all	random_farrell	400	20		pcs	0.03427		
+50% epiboly	neighbourhood	all	random_zfin	400	25		pcs	0.03427		
+50% epiboly	neighbourhood	all	random_zfin_het	400	25		pcs	0.03427		
+50% epiboly	neighbourhood	all	random_curated	400	44		pcs	0.03427		
+50% epiboly	neighbourhood	all	pcs	400	30		pcs	0.03427		
+50% epiboly	neighbourhood	all	all	400	94		pcs	0.03427		
+50% epiboly	neighbourhood	all	knn	400	0		pcs	0.03427		
+50% epiboly	neighbourhood	heterogeneous	farrell	179	20	0.9747	pcs	0.3036	0.906	0.7309
+50% epiboly	neighbourhood	heterogeneous	zfin_all	179	25	0.9457	pcs	0.3036	0.8356	0.6698
+50% epiboly	neighbourhood	heterogeneous	zfin_all_het	179	25	0.9553	pcs	0.3036	0.8343	0.7302
+50% epiboly	neighbourhood	heterogeneous	zfin_pre_het	179	25	0.9587	pcs	0.3036	0.8343	0.7507
+50% epiboly	neighbourhood	heterogeneous	signalling	179	13	0.7966	pcs	0.3036		
+50% epiboly	neighbourhood	heterogeneous	states	179	6	0.8126	pcs	0.3036		
+50% epiboly	neighbourhood	heterogeneous	curated	179	44	0.9638	pcs	0.3036	0.8691	0.7234
+50% epiboly	neighbourhood	heterogeneous	controls	179	7	0.6082	pcs	0.3036		
+50% epiboly	neighbourhood	heterogeneous	curated_supported	179	4	0.9061	pcs	0.3036	0.8691	0.2827
+50% epiboly	neighbourhood	heterogeneous	random_farrell	179	20	0.906	pcs	0.3036		
+50% epiboly	neighbourhood	heterogeneous	random_zfin	179	25	0.8356	pcs	0.3036		
+50% epiboly	neighbourhood	heterogeneous	random_zfin_het	179	25	0.8343	pcs	0.3036		
+50% epiboly	neighbourhood	heterogeneous	random_curated	179	44	0.8691	pcs	0.3036		
+50% epiboly	neighbourhood	heterogeneous	pcs	179	30	1	pcs	0.3036		
+50% epiboly	neighbourhood	heterogeneous	all	179	94	0.9827	pcs	0.3036		
+50% epiboly	neighbourhood	heterogeneous	knn	179	0	0.6785	pcs	0.3036		
+shield	neighbourhood	all	farrell	400	25		curated_supported	0.001673		
+shield	neighbourhood	all	zfin_all	400	35		curated_supported	0.001673		
+shield	neighbourhood	all	zfin_all_het	400	31		curated_supported	0.001673		
+shield	neighbourhood	all	zfin_pre_het	400	30		curated_supported	0.001673		
+shield	neighbourhood	all	signalling	400	13		curated_supported	0.001673		
+shield	neighbourhood	all	states	400	6		curated_supported	0.001673		
+shield	neighbourhood	all	curated	400	43		curated_supported	0.001673		
+shield	neighbourhood	all	controls	400	5		curated_supported	0.001673		
+shield	neighbourhood	all	curated_supported	400	8		curated_supported	0.001673		
+shield	neighbourhood	all	random_farrell	400	25		curated_supported	0.001673		
+shield	neighbourhood	all	random_zfin	400	35		curated_supported	0.001673		
+shield	neighbourhood	all	random_zfin_het	400	31		curated_supported	0.001673		
+shield	neighbourhood	all	random_curated	400	43		curated_supported	0.001673		
+shield	neighbourhood	all	pcs	400	30		curated_supported	0.001673		
+shield	neighbourhood	all	all	400	98		curated_supported	0.001673		
+shield	neighbourhood	all	knn	400	0		curated_supported	0.001673		
+shield	neighbourhood	heterogeneous	farrell	49	25	0.9227	curated_supported	0.05813	0.6537	0.7768
+shield	neighbourhood	heterogeneous	zfin_all	49	35	0.8565	curated_supported	0.05813	0.5244	0.6984
+shield	neighbourhood	heterogeneous	zfin_all_het	49	31	0.9288	curated_supported	0.05813	0.2813	0.9009
+shield	neighbourhood	heterogeneous	zfin_pre_het	49	30	0.9332	curated_supported	0.05813	0.2813	0.9071
+shield	neighbourhood	heterogeneous	signalling	49	13	0.4078	curated_supported	0.05813		
+shield	neighbourhood	heterogeneous	states	49	6	0.7254	curated_supported	0.05813		
+shield	neighbourhood	heterogeneous	curated	49	43	0.8431	curated_supported	0.05813	0.3252	0.7675
+shield	neighbourhood	heterogeneous	controls	49	5	-0.1764	curated_supported	0.05813		
+shield	neighbourhood	heterogeneous	curated_supported	49	8	1	curated_supported	0.05813	0.3252	1
+shield	neighbourhood	heterogeneous	random_farrell	49	25	0.6537	curated_supported	0.05813		
+shield	neighbourhood	heterogeneous	random_zfin	49	35	0.5244	curated_supported	0.05813		
+shield	neighbourhood	heterogeneous	random_zfin_het	49	31	0.2813	curated_supported	0.05813		
+shield	neighbourhood	heterogeneous	random_curated	49	43	0.3252	curated_supported	0.05813		
+shield	neighbourhood	heterogeneous	pcs	49	30	0.8057	curated_supported	0.05813		
+shield	neighbourhood	heterogeneous	all	49	98	0.6554	curated_supported	0.05813		
+shield	neighbourhood	heterogeneous	knn	49	0	0.6713	curated_supported	0.05813		
+60% epiboly	neighbourhood	all	farrell	400	25	0.9749	pcs	0.04213	0.7131	0.9125
+60% epiboly	neighbourhood	all	zfin_all	400	36	0.8792	pcs	0.04213	0.5829	0.7104
+60% epiboly	neighbourhood	all	zfin_all_het	400	34	0.8994	pcs	0.04213	0.6132	0.7399
+60% epiboly	neighbourhood	all	zfin_pre_het	400	33	0.8958	pcs	0.04213	0.6132	0.7307
+60% epiboly	neighbourhood	all	signalling	400	13	0.6573	pcs	0.04213		
+60% epiboly	neighbourhood	all	states	400	6	0.5334	pcs	0.04213		
+60% epiboly	neighbourhood	all	curated	400	44	0.8948	pcs	0.04213	0.5352	0.7736
+60% epiboly	neighbourhood	all	controls	400	5	0.08841	pcs	0.04213		
+60% epiboly	neighbourhood	all	curated_supported	400	26	0.9032	pcs	0.04213	0.5352	0.7917
+60% epiboly	neighbourhood	all	random_farrell	400	25	0.7131	pcs	0.04213		
+60% epiboly	neighbourhood	all	random_zfin	400	36	0.5829	pcs	0.04213		
+60% epiboly	neighbourhood	all	random_zfin_het	400	34	0.6132	pcs	0.04213		
+60% epiboly	neighbourhood	all	random_curated	400	44	0.5352	pcs	0.04213		
+60% epiboly	neighbourhood	all	pcs	400	30	1	pcs	0.04213		
+60% epiboly	neighbourhood	all	all	400	99	0.9223	pcs	0.04213		
+60% epiboly	neighbourhood	all	knn	400	0	0.2466	pcs	0.04213		
+60% epiboly	neighbourhood	heterogeneous	farrell	137	25	0.9907	pcs	0.259	0.8737	0.9261
+60% epiboly	neighbourhood	heterogeneous	zfin_all	137	36	0.9602	pcs	0.259	0.8143	0.7859
+60% epiboly	neighbourhood	heterogeneous	zfin_all_het	137	34	0.9695	pcs	0.259	0.8256	0.8252
+60% epiboly	neighbourhood	heterogeneous	zfin_pre_het	137	33	0.9708	pcs	0.259	0.8256	0.8326
+60% epiboly	neighbourhood	heterogeneous	signalling	137	13	0.7806	pcs	0.259		
+60% epiboly	neighbourhood	heterogeneous	states	137	6	0.67	pcs	0.259		
+60% epiboly	neighbourhood	heterogeneous	curated	137	44	0.9727	pcs	0.259	0.8156	0.8517
+60% epiboly	neighbourhood	heterogeneous	controls	137	5	0.1351	pcs	0.259		
+60% epiboly	neighbourhood	heterogeneous	curated_supported	137	26	0.971	pcs	0.259	0.8156	0.8427
+60% epiboly	neighbourhood	heterogeneous	random_farrell	137	25	0.8737	pcs	0.259		
+60% epiboly	neighbourhood	heterogeneous	random_zfin	137	36	0.8143	pcs	0.259		
+60% epiboly	neighbourhood	heterogeneous	random_zfin_het	137	34	0.8256	pcs	0.259		
+60% epiboly	neighbourhood	heterogeneous	random_curated	137	44	0.8156	pcs	0.259		
+60% epiboly	neighbourhood	heterogeneous	pcs	137	30	1	pcs	0.259		
+60% epiboly	neighbourhood	heterogeneous	all	137	99	0.9846	pcs	0.259		
+60% epiboly	neighbourhood	heterogeneous	knn	137	0	0.6501	pcs	0.259		
+75% epiboly	neighbourhood	all	farrell	400	24	0.9549	pcs	0.04776	0.6597	0.8676
+75% epiboly	neighbourhood	all	zfin_all	400	43	0.9107	pcs	0.04776	0.6395	0.7523
+75% epiboly	neighbourhood	all	zfin_all_het	400	40	0.9277	pcs	0.04776	0.6332	0.8029
+75% epiboly	neighbourhood	all	zfin_pre_het	400	40	0.9257	pcs	0.04776	0.6332	0.7973
+75% epiboly	neighbourhood	all	signalling	400	14	0.4877	pcs	0.04776		
+75% epiboly	neighbourhood	all	states	400	6	0.407	pcs	0.04776		
+75% epiboly	neighbourhood	all	curated	400	45	0.9226	pcs	0.04776	0.5068	0.843
+75% epiboly	neighbourhood	all	controls	400	5	0.1074	pcs	0.04776		
+75% epiboly	neighbourhood	all	curated_supported	400	26	0.9205	pcs	0.04776	0.5068	0.8387
+75% epiboly	neighbourhood	all	random_farrell	400	24	0.6597	pcs	0.04776		
+75% epiboly	neighbourhood	all	random_zfin	400	43	0.6395	pcs	0.04776		
+75% epiboly	neighbourhood	all	random_zfin_het	400	40	0.6332	pcs	0.04776		
+75% epiboly	neighbourhood	all	random_curated	400	45	0.5068	pcs	0.04776		
+75% epiboly	neighbourhood	all	pcs	400	30	1	pcs	0.04776		
+75% epiboly	neighbourhood	all	all	400	99	0.9683	pcs	0.04776		
+75% epiboly	neighbourhood	all	knn	400	0	0.1822	pcs	0.04776		
+75% epiboly	neighbourhood	heterogeneous	farrell	179	24	0.9875	pcs	0.2795	0.8194	0.9309
+75% epiboly	neighbourhood	heterogeneous	zfin_all	179	43	0.9692	pcs	0.2795	0.8	0.8459
+75% epiboly	neighbourhood	heterogeneous	zfin_all_het	179	40	0.9715	pcs	0.2795	0.8319	0.8305
+75% epiboly	neighbourhood	heterogeneous	zfin_pre_het	179	40	0.972	pcs	0.2795	0.8319	0.8332
+75% epiboly	neighbourhood	heterogeneous	signalling	179	14	0.6749	pcs	0.2795		
+75% epiboly	neighbourhood	heterogeneous	states	179	6	0.5101	pcs	0.2795		
+75% epiboly	neighbourhood	heterogeneous	curated	179	45	0.9728	pcs	0.2795	0.6913	0.9118
+75% epiboly	neighbourhood	heterogeneous	controls	179	5	0.1262	pcs	0.2795		
+75% epiboly	neighbourhood	heterogeneous	curated_supported	179	26	0.9565	pcs	0.2795	0.6913	0.8591
+75% epiboly	neighbourhood	heterogeneous	random_farrell	179	24	0.8194	pcs	0.2795		
+75% epiboly	neighbourhood	heterogeneous	random_zfin	179	43	0.8	pcs	0.2795		
+75% epiboly	neighbourhood	heterogeneous	random_zfin_het	179	40	0.8319	pcs	0.2795		
+75% epiboly	neighbourhood	heterogeneous	random_curated	179	45	0.6913	pcs	0.2795		
+75% epiboly	neighbourhood	heterogeneous	pcs	179	30	1	pcs	0.2795		
+75% epiboly	neighbourhood	heterogeneous	all	179	99	0.999	pcs	0.2795		
+75% epiboly	neighbourhood	heterogeneous	knn	179	0	0.6282	pcs	0.2795		
+90% epiboly	neighbourhood	all	farrell	400	45	0.9696	pcs	0.05326	0.7749	0.8651
+90% epiboly	neighbourhood	all	zfin_all	400	39	0.917	pcs	0.05326	0.6302	0.7755
+90% epiboly	neighbourhood	all	zfin_all_het	400	37	0.9218	pcs	0.05326	0.601	0.804
+90% epiboly	neighbourhood	all	zfin_pre_het	400	37	0.9236	pcs	0.05326	0.601	0.8085
+90% epiboly	neighbourhood	all	signalling	400	14	0.5571	pcs	0.05326		
+90% epiboly	neighbourhood	all	states	400	6	0.3254	pcs	0.05326		
+90% epiboly	neighbourhood	all	curated	400	45	0.9625	pcs	0.05326	0.6397	0.896
+90% epiboly	neighbourhood	all	controls	400	5	0.1494	pcs	0.05326		
+90% epiboly	neighbourhood	all	curated_supported	400	25	0.9507	pcs	0.05326	0.6397	0.8633
+90% epiboly	neighbourhood	all	random_farrell	400	45	0.7749	pcs	0.05326		
+90% epiboly	neighbourhood	all	random_zfin	400	39	0.6302	pcs	0.05326		
+90% epiboly	neighbourhood	all	random_zfin_het	400	37	0.601	pcs	0.05326		
+90% epiboly	neighbourhood	all	random_curated	400	45	0.6397	pcs	0.05326		
+90% epiboly	neighbourhood	all	pcs	400	30	1	pcs	0.05326		
+90% epiboly	neighbourhood	all	all	400	120	0.974	pcs	0.05326		
+90% epiboly	neighbourhood	all	knn	400	0	0.2206	pcs	0.05326		
+90% epiboly	neighbourhood	heterogeneous	farrell	166	45	0.9887	all	0.2972	0.9032	0.8832
+90% epiboly	neighbourhood	heterogeneous	zfin_all	166	39	0.9686	all	0.2972	0.7695	0.864
+90% epiboly	neighbourhood	heterogeneous	zfin_all_het	166	37	0.9737	all	0.2972	0.7441	0.8974
+90% epiboly	neighbourhood	heterogeneous	zfin_pre_het	166	37	0.9735	all	0.2972	0.7441	0.8966
+90% epiboly	neighbourhood	heterogeneous	signalling	166	14	0.6625	all	0.2972		
+90% epiboly	neighbourhood	heterogeneous	states	166	6	0.3658	all	0.2972		
+90% epiboly	neighbourhood	heterogeneous	curated	166	45	0.9774	all	0.2972	0.7752	0.8993
+90% epiboly	neighbourhood	heterogeneous	controls	166	5	0.2113	all	0.2972		
+90% epiboly	neighbourhood	heterogeneous	curated_supported	166	25	0.9602	all	0.2972	0.7752	0.823
+90% epiboly	neighbourhood	heterogeneous	random_farrell	166	45	0.9032	all	0.2972		
+90% epiboly	neighbourhood	heterogeneous	random_zfin	166	39	0.7695	all	0.2972		
+90% epiboly	neighbourhood	heterogeneous	random_zfin_het	166	37	0.7441	all	0.2972		
+90% epiboly	neighbourhood	heterogeneous	random_curated	166	45	0.7752	all	0.2972		
+90% epiboly	neighbourhood	heterogeneous	pcs	166	30	0.9972	all	0.2972		
+90% epiboly	neighbourhood	heterogeneous	all	166	120	1	all	0.2972		
+90% epiboly	neighbourhood	heterogeneous	knn	166	0	0.649	all	0.2972		
+bud	neighbourhood	all	farrell	400	40	0.9786	all	0.06446	0.7858	0.8999
+bud	neighbourhood	all	zfin_all	400	68	0.9418	all	0.06446	0.6958	0.8087
+bud	neighbourhood	all	zfin_all_het	400	63	0.9545	all	0.06446	0.727	0.8334
+bud	neighbourhood	all	zfin_pre_het	400	62	0.9536	all	0.06446	0.727	0.8299
+bud	neighbourhood	all	signalling	400	14	0.5347	all	0.06446		
+bud	neighbourhood	all	states	400	6	0.3499	all	0.06446		
+bud	neighbourhood	all	curated	400	45	0.9706	all	0.06446	0.5867	0.9288
+bud	neighbourhood	all	controls	400	5	0.1868	all	0.06446		
+bud	neighbourhood	all	curated_supported	400	30	0.9665	all	0.06446	0.5867	0.9189
+bud	neighbourhood	all	random_farrell	400	40	0.7858	all	0.06446		
+bud	neighbourhood	all	random_zfin	400	68	0.6958	all	0.06446		
+bud	neighbourhood	all	random_zfin_het	400	63	0.727	all	0.06446		
+bud	neighbourhood	all	random_curated	400	45	0.5867	all	0.06446		
+bud	neighbourhood	all	pcs	400	30	0.9954	all	0.06446		
+bud	neighbourhood	all	all	400	115	1	all	0.06446		
+bud	neighbourhood	all	knn	400	0	0.2537	all	0.06446		
+bud	neighbourhood	heterogeneous	farrell	136	40	0.9896	all	0.3392	0.8492	0.9308
+bud	neighbourhood	heterogeneous	zfin_all	136	68	0.963	all	0.3392	0.8041	0.811
+bud	neighbourhood	heterogeneous	zfin_all_het	136	63	0.9665	all	0.3392	0.8436	0.786
+bud	neighbourhood	heterogeneous	zfin_pre_het	136	62	0.9666	all	0.3392	0.8436	0.7868
+bud	neighbourhood	heterogeneous	signalling	136	14	0.6696	all	0.3392		
+bud	neighbourhood	heterogeneous	states	136	6	0.3276	all	0.3392		
+bud	neighbourhood	heterogeneous	curated	136	45	0.962	all	0.3392	0.6378	0.8951
+bud	neighbourhood	heterogeneous	controls	136	5	0.2278	all	0.3392		
+bud	neighbourhood	heterogeneous	curated_supported	136	30	0.9583	all	0.3392	0.6378	0.8848
+bud	neighbourhood	heterogeneous	random_farrell	136	40	0.8492	all	0.3392		
+bud	neighbourhood	heterogeneous	random_zfin	136	68	0.8041	all	0.3392		
+bud	neighbourhood	heterogeneous	random_zfin_het	136	63	0.8436	all	0.3392		
+bud	neighbourhood	heterogeneous	random_curated	136	45	0.6378	all	0.3392		
+bud	neighbourhood	heterogeneous	pcs	136	30	0.9952	all	0.3392		
+bud	neighbourhood	heterogeneous	all	136	115	1	all	0.3392		
+bud	neighbourhood	heterogeneous	knn	136	0	0.6888	all	0.3392		
+3-somite	neighbourhood	all	farrell	400	31	1	farrell	0.04019	0.6282	1
+3-somite	neighbourhood	all	zfin_all	400	81	0.5797	farrell	0.04019	0.169	0.4943
+3-somite	neighbourhood	all	zfin_all_het	400	71	0.6505	farrell	0.04019	0.2358	0.5427
+3-somite	neighbourhood	all	zfin_pre_het	400	69	0.6452	farrell	0.04019	0.2358	0.5357
+3-somite	neighbourhood	all	signalling	400	14	0.3801	farrell	0.04019		
+3-somite	neighbourhood	all	states	400	6	0.4214	farrell	0.04019		
+3-somite	neighbourhood	all	curated	400	45	0.8284	farrell	0.04019	0.2713	0.7645
+3-somite	neighbourhood	all	controls	400	5	0.3064	farrell	0.04019		
+3-somite	neighbourhood	all	curated_supported	400	32	0.9411	farrell	0.04019	0.2713	0.9192
+3-somite	neighbourhood	all	random_farrell	400	31	0.6282	farrell	0.04019		
+3-somite	neighbourhood	all	random_zfin	400	81	0.169	farrell	0.04019		
+3-somite	neighbourhood	all	random_zfin_het	400	71	0.2358	farrell	0.04019		
+3-somite	neighbourhood	all	random_curated	400	45	0.2713	farrell	0.04019		
+3-somite	neighbourhood	all	pcs	400	30	0.9858	farrell	0.04019		
+3-somite	neighbourhood	all	all	400	106	0.6874	farrell	0.04019		
+3-somite	neighbourhood	all	knn	400	0	0.2455	farrell	0.04019		
+3-somite	neighbourhood	heterogeneous	farrell	116	31	1	farrell	0.2426	0.8428	1
+3-somite	neighbourhood	heterogeneous	zfin_all	116	81	0.9109	farrell	0.2426	0.8047	0.5438
+3-somite	neighbourhood	heterogeneous	zfin_all_het	116	71	0.9195	farrell	0.2426	0.7958	0.6059
+3-somite	neighbourhood	heterogeneous	zfin_pre_het	116	69	0.9178	farrell	0.2426	0.7958	0.5974
+3-somite	neighbourhood	heterogeneous	signalling	116	14	0.5202	farrell	0.2426		
+3-somite	neighbourhood	heterogeneous	states	116	6	0.4064	farrell	0.2426		
+3-somite	neighbourhood	heterogeneous	curated	116	45	0.9426	farrell	0.2426	0.7156	0.7982
+3-somite	neighbourhood	heterogeneous	controls	116	5	0.3664	farrell	0.2426		
+3-somite	neighbourhood	heterogeneous	curated_supported	116	32	0.9265	farrell	0.2426	0.7156	0.7415
+3-somite	neighbourhood	heterogeneous	random_farrell	116	31	0.8428	farrell	0.2426		
+3-somite	neighbourhood	heterogeneous	random_zfin	116	81	0.8047	farrell	0.2426		
+3-somite	neighbourhood	heterogeneous	random_zfin_het	116	71	0.7958	farrell	0.2426		
+3-somite	neighbourhood	heterogeneous	random_curated	116	45	0.7156	farrell	0.2426		
+3-somite	neighbourhood	heterogeneous	pcs	116	30	0.9901	farrell	0.2426		
+3-somite	neighbourhood	heterogeneous	all	116	106	0.9737	farrell	0.2426		
+3-somite	neighbourhood	heterogeneous	knn	116	0	0.6693	farrell	0.2426		
+6-somite	neighbourhood	all	farrell	400	42	0.9551	pcs	0.06271	0.7516	0.8193
+6-somite	neighbourhood	all	zfin_all	400	110	0.8756	pcs	0.06271	0.6634	0.6305
+6-somite	neighbourhood	all	zfin_all_het	400	103	0.8863	pcs	0.06271	0.6638	0.6619
+6-somite	neighbourhood	all	zfin_pre_het	400	101	0.8808	pcs	0.06271	0.6638	0.6456
+6-somite	neighbourhood	all	signalling	400	14	0.3718	pcs	0.06271		
+6-somite	neighbourhood	all	states	400	6	0.2562	pcs	0.06271		
+6-somite	neighbourhood	all	curated	400	45	0.8919	pcs	0.06271	0.6129	0.7207
+6-somite	neighbourhood	all	controls	400	6	0.2262	pcs	0.06271		
+6-somite	neighbourhood	all	curated_supported	400	33	0.9027	pcs	0.06271	0.6129	0.7486
+6-somite	neighbourhood	all	random_farrell	400	42	0.7516	pcs	0.06271		
+6-somite	neighbourhood	all	random_zfin	400	110	0.6634	pcs	0.06271		
+6-somite	neighbourhood	all	random_zfin_het	400	103	0.6638	pcs	0.06271		
+6-somite	neighbourhood	all	random_curated	400	45	0.6129	pcs	0.06271		
+6-somite	neighbourhood	all	pcs	400	30	1	pcs	0.06271		
+6-somite	neighbourhood	all	all	400	117	0.9433	pcs	0.06271		
+6-somite	neighbourhood	all	knn	400	0	0.2338	pcs	0.06271		
+6-somite	neighbourhood	heterogeneous	farrell	233	42	0.9874	all	0.3629	0.9074	0.8638
+6-somite	neighbourhood	heterogeneous	zfin_all	233	110	0.9642	all	0.3629	0.9072	0.6147
+6-somite	neighbourhood	heterogeneous	zfin_all_het	233	103	0.9659	all	0.3629	0.9047	0.6418
+6-somite	neighbourhood	heterogeneous	zfin_pre_het	233	101	0.9639	all	0.3629	0.9047	0.6213
+6-somite	neighbourhood	heterogeneous	signalling	233	14	0.4942	all	0.3629		
+6-somite	neighbourhood	heterogeneous	states	233	6	0.3225	all	0.3629		
+6-somite	neighbourhood	heterogeneous	curated	233	45	0.9533	all	0.3629	0.7894	0.7783
+6-somite	neighbourhood	heterogeneous	controls	233	6	0.4189	all	0.3629		
+6-somite	neighbourhood	heterogeneous	curated_supported	233	33	0.9433	all	0.3629	0.7894	0.7309
+6-somite	neighbourhood	heterogeneous	random_farrell	233	42	0.9074	all	0.3629		
+6-somite	neighbourhood	heterogeneous	random_zfin	233	110	0.9072	all	0.3629		
+6-somite	neighbourhood	heterogeneous	random_zfin_het	233	103	0.9047	all	0.3629		
+6-somite	neighbourhood	heterogeneous	random_curated	233	45	0.7894	all	0.3629		
+6-somite	neighbourhood	heterogeneous	pcs	233	30	0.9966	all	0.3629		
+6-somite	neighbourhood	heterogeneous	all	233	117	1	all	0.3629		
+6-somite	neighbourhood	heterogeneous	knn	233	0	0.7131	all	0.3629		

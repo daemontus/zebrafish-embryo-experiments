@@ -46,8 +46,6 @@ state:heat_shock	cell states			handling of embryos and cells	technical control (
 state:p53_response	cell states			stressed or damaged cells	technical and biological stress control	p53 targets (mdm2, cdkn1a, ccng1)	fischer2017;langheinrich2002;robu2007
 control:whole_organism	controls			whole embryo	negative control: uniform genes should not vary between cells	genes ZFIN records only in the whole organism from high to shield	
 control:YSL	controls	YSL		syncytium between the blastoderm and the yolk; source of Nodal signals	negative control: removed with the yolk before dissociation	no YSL cells are expected; genes of the curated programs and other controls are left out, so that only YSL-specific genes remain	rodaway1999
-control:age_older	controls			whole embryo; developmental time	control for differences in age between the embryos of a library	genes higher at the later of two adjacent stages of the same sequencing batch	
-control:age_younger	controls			whole embryo; developmental time	control for differences in age between the embryos of a library	genes higher at the earlier of two adjacent stages of the same sequencing batch	
 control:IFN	controls			whole embryo	negative control: should not vary between cells	type I interferon response; no immune system yet	
 control:AhR	controls			whole embryo	negative control: should not vary between cells	aryl hydrocarbon receptor (xenobiotic) response; embryo-wide	
 control:GR	controls			whole embryo	negative control: should not vary between cells	glucocorticoid receptor response; embryo-wide	
