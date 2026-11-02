@@ -1,0 +1,31 @@
+program	stage	cells	runner_ups	ancestor	ancestor_supported	supported_cells
+axial_mesoderm	50% epiboly	51	dorsal_organizer:26;margin:15;notochord:6;dorsal_forerunner:3;state:maternal:1	0.824	0.484	498
+dorsal_forerunner	6-somite	29	endoderm:11;state:blastomere:5;forebrain_eye:5;tailbud:3;PGC:2;axial_mesoderm:2;neural_crest:1	0.172		0
+dorsal_forerunner	bud	37	state:blastomere:22;endoderm:8;tailbud:3;dorsal_organizer:2;PGC:1;axial_mesoderm:1	0.595		0
+dorsal_organizer	30% epiboly	23	margin:12;axial_mesoderm:9;dorsal_forerunner:2	0.522	0.036	337
+dorsal_organizer	50% epiboly	186	margin:96;axial_mesoderm:72;endoderm:10;presomitic_mesoderm:2;notochord:1;state:maternal:1;prechordal_plate:1;forebrain_eye:1;hatching_gland:1;PGC:1	0.522	0.036	337
+dorsal_organizer	dome	20	margin:12;axial_mesoderm:6;PGC:2	0.600	0.036	337
+endoderm	50% epiboly	20	margin:19;neural_plate:1	0.950	0.174	1016
+forebrain_eye	60% epiboly	306	midbrain_hindbrain_boundary:172;neural_plate:106;state:blastomere:19;primary_neurons:3;heart:2;state:maternal:1;EVL:1;hindbrain:1;neural_crest:1	0.412	0.633	3212
+forebrain_eye	shield	32	neural_plate:19;midbrain_hindbrain_boundary:7;primary_neurons:6	0.594	0.633	3212
+heart	75% epiboly	25	lateral_plate:12;mesoderm:8;intermediate_mesoderm:4;non_neural_ectoderm:1	0.800	0.846	130
+hindbrain	75% epiboly	56	state:blastomere:42;midbrain_hindbrain_boundary:9;neural_plate:2;dorsal_forerunner:2;primary_neurons:1	0.786	0.693	746
+hindbrain	90% epiboly	189	state:blastomere:140;midbrain_hindbrain_boundary:29;primary_neurons:9;neural_crest:4;neural_plate:2;PGC:2;state:maternal:1;placodes:1;dorsal_forerunner:1	0.757	0.693	746
+intermediate_mesoderm	75% epiboly	39	mesoderm:33;adaxial_somite:2;endoderm:1;lateral_plate:1;dorsal_organizer:1;heart:1	0.846	0.270	115
+intermediate_mesoderm	90% epiboly	47	mesoderm:40;lateral_plate:4;dorsal_organizer:1;adaxial_somite:1;heart:1	0.851	0.270	115
+intermediate_mesoderm	bud	74	mesoderm:33;lateral_plate:25;hatching_gland:5;heart:4;adaxial_somite:3;dorsal_organizer:3;axial_mesoderm:1	0.446	0.270	115
+lateral_plate	75% epiboly	48	mesoderm:41;heart:7	0.854	0.249	485
+lateral_plate	90% epiboly	119	mesoderm:73;heart:26;intermediate_mesoderm:18;margin:1;PGC:1	0.622	0.249	485
+mesoderm	50% epiboly	42	margin:36;presomitic_mesoderm:3;state:maternal:2;tailbud:1	0.905	0.198	1328
+midbrain_hindbrain_boundary	50% epiboly	40	neural_plate:29;state:blastomere:5;forebrain_eye:4;neural_crest:2	0.850	0.496	2271
+midbrain_hindbrain_boundary	60% epiboly	273	forebrain_eye:157;neural_plate:56;state:blastomere:38;hindbrain:5;state:maternal:3;dorsal_forerunner:2;adaxial_somite:2;neural_crest:2;dorsal_organizer:2;PGC:1;primary_neurons:1;intermediate_mesoderm:1;EVL:1;endoderm:1;heart:1	0.355	0.496	2271
+midbrain_hindbrain_boundary	shield	25	neural_plate:14;forebrain_eye:5;primary_neurons:2;dorsal_forerunner:2;state:blastomere:2	0.640	0.496	2271
+neural_crest	90% epiboly	23	non_neural_ectoderm:14;placodes:4;tailbud:3;EVL:1;hindbrain:1	0.609	0.138	282
+neural_crest	bud	55	midbrain_hindbrain_boundary:22;placodes:16;non_neural_ectoderm:8;hindbrain:3;tailbud:2;state:blastomere:1;neural_plate:1;primary_neurons:1;state:maternal:1	0.200	0.138	282
+placodes	60% epiboly	93	non_neural_ectoderm:85;state:blastomere:6;primary_neurons:2	0.978	0.660	703
+placodes	75% epiboly	65	non_neural_ectoderm:63;state:blastomere:1;primary_neurons:1	0.985	0.660	703
+presomitic_mesoderm	50% epiboly	45	margin:29;mesoderm:16	1.000	0.716	2895
+primary_neurons	bud	77	hindbrain:50;neural_crest:12;state:blastomere:11;placodes:2;EVL:1;midbrain_hindbrain_boundary:1	0.143	0.186	140
+state:blastomere	50% epiboly	186	state:maternal:54;neural_crest:24;midbrain_hindbrain_boundary:17;primary_neurons:15;dorsal_forerunner:15;placodes:11;forebrain_eye:10;hindbrain:8;heart:8;lateral_plate:6;hatching_gland:5;prechordal_plate:4;neural_plate:3;non_neural_ectoderm:3;PGC:2;tailbud:1	0.290	0.040	1849
+tailbud	75% epiboly	77	margin:60;axial_mesoderm:10;neural_crest:3;state:blastomere:2;non_neural_ectoderm:1;primary_neurons:1	0.805	0.771	606
+tailbud	90% epiboly	111	margin:83;axial_mesoderm:19;PGC:5;dorsal_forerunner:2;presomitic_mesoderm:1;non_neural_ectoderm:1	0.748	0.771	606

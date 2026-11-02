@@ -32,7 +32,11 @@ Ubiquitous genes: called in at least UBIQUITOUS_SHARE of the conclusive library
 populations, of at least UBIQUITOUS_PROGRAMS different programs. They vary
 within almost any population and say nothing about which one; they are listed
 and left out of the per-population gene lists (as are the genes of
-EXCLUDED_GENE_PROGRAMS of script 26: heat shock, dissociation, cell cycle).
+EXCLUDED_GENE_PROGRAMS of script 26: heat shock, dissociation, cell cycle). What
+they vary with inside the populations (median correlation over the conclusive
+populations) tells what they are: positional gradients that run through many
+populations, or states and technical axes (UBIQUITOUS_CLASSES, read from
+population_ubiquitous_partners.tsv).
 
 Every test is cached (data/processed/cache/28); increase CACHE_VERSION when a
 change alters the calls. `28_population_heterogeneity.py plot` redraws the
@@ -45,6 +49,7 @@ Outputs:
   results/tables/population_heterogeneity_genes.tsv  per program, stage and
       gene: libraries, median driver cells, ubiquitous, owner program
   results/tables/population_ubiquitous_genes.tsv     the ubiquitous genes
+  results/tables/population_ubiquitous_partners.tsv  their co-varying genes, class
   report/figures/population_heterogeneity.pdf, report/tables/population_genes.tex
 """
 from __future__ import annotations
@@ -92,6 +97,18 @@ UBIQUITOUS_SHARE = 0.25
 UBIQUITOUS_PROGRAMS = 4
 N_WORKERS = 8
 LIST_GENES = 12  # genes per population in the report table
+PARTNERS = 8  # co-varying genes listed per ubiquitous gene
+MIN_DETECTING = 10  # cells of a population detecting a gene, at least, for its correlations
+# What a ubiquitous gene varies with inside the populations (population_ubiquitous_partners
+# .tsv, read by hand): position (ventral BMP targets, posterior, anterior, paraxial
+# maturation), a state or technical axis, or unclear. Unlisted genes are "unclear".
+UBIQUITOUS_CLASSES = {
+    "APOC1": "position", "APOEB": "position", "VED": "position", "CDX4": "position",
+    "IRX7": "position", "MSGN1": "position",
+    "HISTH1L": "state or technical", "FOSAB": "state or technical",
+    "ZGC:110425": "state or technical",
+}
+CLASS_COLOURS = {"position": "#0072B2", "state or technical": "#999999", "unclear": "#DDDDDD"}
 _adata = None
 
 
@@ -148,6 +165,50 @@ def compute() -> None:
     results = {(q["program"], q["stage"], q["library"], kind): load_cached("28", "test", key)
                for q, kind, key, _ in jobs}
     summarise(pops, results, driver_rates(sorted({q["library"] for q in pops})))
+    partners(pops)
+
+
+def partners(pops: list[dict]) -> None:
+    """For every ubiquitous gene: its median correlation (Pearson residuals of the
+    population's own model) with the stage's heterogeneous genes, over the
+    conclusive populations; genes detected in >= MIN_DETECTING of a population's
+    cells, and correlated in >= a third of the populations."""
+    t = pd.read_csv(TABLES / "population_heterogeneity.tsv", sep="\t")
+    ubi = pd.read_csv(TABLES / "population_ubiquitous_genes.tsv", sep="\t")["gene"].tolist()
+    het = pd.read_csv(TABLES / "heterogeneous_genes.tsv.gz", sep="\t",
+                      usecols=["stage", "gene", "heterogeneous"])
+    conclusive = set(zip(t.loc[t["conclusive"], "program"], t.loc[t["conclusive"], "library"]))
+    adata = load_dropseq_counts()
+    corr = {g: [] for g in ubi}
+    for q in pops:
+        if (q["program"], q["library"]) not in conclusive:
+            continue
+        sub = adata[q["population"]]
+        genes = sorted((set(het.loc[(het["stage"] == q["stage"]) & het["heterogeneous"], "gene"])
+                        | set(ubi)) & set(sub.var_names))
+        X = sub.X.tocsr()
+        idx = sub.var_names.get_indexer(genes)
+        keep = np.asarray((X[:, idx] > 0).sum(axis=0)).ravel() >= MIN_DETECTING
+        names = np.array(genes)[keep]
+        r = pearson_residuals(X, idx[keep])
+        r = (r - r.mean(axis=0)) / (r.std(axis=0) + 1e-9)
+        c = pd.DataFrame(r.T @ r / len(r), index=names, columns=names)
+        for g in ubi:
+            if g in c.index:
+                corr[g].append(c[g].drop(g))
+    rows = []
+    for g in ubi:
+        if not corr[g]:
+            continue
+        m = pd.concat(corr[g], axis=1)
+        med = m.median(axis=1)[m.notna().sum(axis=1) >= max(5, len(corr[g]) // 3)]
+        top, bottom = med.sort_values(ascending=False), med.sort_values()
+        rows.append(dict(gene=g, populations=len(corr[g]),
+                         class_=UBIQUITOUS_CLASSES.get(g, "unclear"),
+                         positive=", ".join(f"{x}:{v:.2f}" for x, v in top.head(PARTNERS).items()),
+                         negative=", ".join(f"{x}:{v:.2f}" for x, v in bottom.head(4).items())))
+    pd.DataFrame(rows).rename(columns={"class_": "class"}).to_csv(
+        TABLES / "population_ubiquitous_partners.tsv", sep="\t", index=False)
 
 
 def driver_rates(libraries: list[str]) -> dict:
@@ -309,12 +370,10 @@ def figure(t: pd.DataFrame, ubi: pd.DataFrame) -> None:
     ax.set_title("(b) per program", loc="left", fontsize=8)
     ax = axes[2]
     u = ubi.head(20).iloc[::-1]
-    patterning = u["program"].map(lambda o: any(x and not x.startswith("control:")
-                                                for x in str(o).split(";")))
-    ax.barh(range(len(u)), u["share"], height=0.7,
-            color=np.where(patterning, "#0072B2", "#999999"))
-    ax.legend(handles=[plt.Rectangle((0, 0), 1, 1, color="#0072B2", label="in a curated program"),
-                       plt.Rectangle((0, 0), 1, 1, color="#999999", label="in none")],
+    kind = u["gene"].map(lambda g: UBIQUITOUS_CLASSES.get(g, "unclear"))
+    ax.barh(range(len(u)), u["share"], height=0.7, color=kind.map(CLASS_COLOURS))
+    ax.legend(handles=[plt.Rectangle((0, 0), 1, 1, color=c, label=k)
+                       for k, c in CLASS_COLOURS.items() if k in set(kind)],
               frameon=False, fontsize=6, loc="upper center", bbox_to_anchor=(0.4, -0.22),
               ncol=1)
     ax.set_yticks(range(len(u)), [x.lower() for x in u["gene"]], fontsize=6)

@@ -1,0 +1,513 @@
+program	stage	library	cells	neighbour	share	enrichment	relation
+axial_mesoderm	50% epiboly	ZF50_WT_DS2	3	dorsal_organizer	0.6857	4.586	ancestor
+axial_mesoderm	50% epiboly	ZF50_WT_DS2	3	margin	0.2857	0.5363	ancestor
+axial_mesoderm	50% epiboly	ZF50_WT_DS2	3	neural_crest	0.02857	9.171	unrelated
+axial_mesoderm	50% epiboly	ZF50_WT_DS3	24	dorsal_organizer	0.8182	8.538	ancestor
+axial_mesoderm	50% epiboly	ZF50_WT_DS3	24	state:blastomere	0.06061	0.3269	ancestor
+axial_mesoderm	50% epiboly	ZF50_WT_DS3	24	forebrain_eye	0.04545	10.91	unrelated
+axial_mesoderm	50% epiboly	ZF50_WT_DS3	24	margin	0.04545	0.1247	ancestor
+axial_mesoderm	50% epiboly	ZF50_WT_DS3	24	midbrain_hindbrain_boundary	0.01515	0.4848	unrelated
+axial_mesoderm	50% epiboly	ZF50_WT_DS3	24	PGC	0.01515	1.455	unrelated
+axial_mesoderm	50% epiboly	ZF50_WT_DS4	10	dorsal_organizer	0.5789	6.536	ancestor
+axial_mesoderm	50% epiboly	ZF50_WT_DS4	10	margin	0.2368	0.4456	ancestor
+axial_mesoderm	50% epiboly	ZF50_WT_DS4	10	state:maternal	0.07895	0.5942	ancestor
+axial_mesoderm	50% epiboly	ZF50_WT_DS4	10	PGC	0.07895	4.234	unrelated
+axial_mesoderm	50% epiboly	ZF50_WT_DS4	10	midbrain_hindbrain_boundary	0.02632	0.5942	unrelated
+axial_mesoderm	50% epiboly	ZF50_WT_DS4b	14	margin	0.6915	1.386	ancestor
+axial_mesoderm	50% epiboly	ZF50_WT_DS4b	14	dorsal_organizer	0.266	2.005	ancestor
+axial_mesoderm	50% epiboly	ZF50_WT_DS4b	14	notochord	0.04255	17.32	descendant
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	forebrain_eye	0.2338	1.787	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	tailbud	0.1791	3.872	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	endoderm	0.1244	3.914	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	axial_mesoderm	0.0995	17.74	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	state:blastomere	0.09453	1.7	ancestor
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	intermediate_mesoderm	0.04975	1.936	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	PGC	0.04478	5.989	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	margin	0.0398	0.5678	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	lateral_plate	0.03483	0.8469	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	heart	0.03483	2.07	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	neural_crest	0.02985	0.6518	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	midbrain_hindbrain_boundary	0.01493	0.1068	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	mesoderm	0.004975	0.5604	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	presomitic_mesoderm	0.004975	0.03789	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	notochord	0.004975	0.273	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5	19	neural_plate	0.004975	5.323	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5b	10	state:blastomere	0.5	7.165	ancestor
+dorsal_forerunner	6-somite	ZF6S_WT_DS5b	10	forebrain_eye	0.2456	2.196	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5b	10	tailbud	0.1228	2.394	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5b	10	hindbrain	0.0614	1.088	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5b	10	midbrain_hindbrain_boundary	0.04386	0.4384	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5b	10	primary_neurons	0.01754	0.7433	unrelated
+dorsal_forerunner	6-somite	ZF6S_WT_DS5b	10	heart	0.008772	1.006	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS2	1	state:blastomere	0.3571	5.969	ancestor
+dorsal_forerunner	bud	ZFB_WT_DS2	1	tailbud	0.2143	3.582	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS2	1	midbrain_hindbrain_boundary	0.1429	1.238	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS2	1	non_neural_ectoderm	0.07143	0.5392	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS2	1	hindbrain	0.07143	0.9832	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS2	1	margin	0.07143	8.357	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS2	1	neural_crest	0.07143	4.179	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS2b	1	state:blastomere	0.75	10.86	ancestor
+dorsal_forerunner	bud	ZFB_WT_DS2b	1	hindbrain	0.1667	2.339	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS2b	1	midbrain_hindbrain_boundary	0.08333	0.5423	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS3	28	state:blastomere	0.378	7.919	ancestor
+dorsal_forerunner	bud	ZFB_WT_DS3	28	endoderm	0.2642	6.674	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS3	28	tailbud	0.1463	2.875	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS3	28	axial_mesoderm	0.08537	15.72	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS3	28	presomitic_mesoderm	0.04878	0.385	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS3	28	forebrain_eye	0.02439	0.1607	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS3	28	dorsal_organizer	0.02033	11.23	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS3	28	primary_neurons	0.0122	1.123	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS3	28	neural_plate	0.00813	7.187	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS3	28	margin	0.00813	0.1461	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS3	28	hindbrain	0.004065	0.05316	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS4	7	state:blastomere	0.4773	9.857	ancestor
+dorsal_forerunner	bud	ZFB_WT_DS4	7	tailbud	0.2273	5.588	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS4	7	axial_mesoderm	0.1136	14.67	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS4	7	dorsal_organizer	0.06818	9.601	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS4	7	margin	0.04545	0.6343	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS4	7	endoderm	0.02273	1.035	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS4	7	primary_neurons	0.02273	1.467	unrelated
+dorsal_forerunner	bud	ZFB_WT_DS4	7	midbrain_hindbrain_boundary	0.02273	0.1769	unrelated
+dorsal_organizer	30% epiboly	ZF30_WT_DS5	10	state:maternal	0.6154	4.118	ancestor
+dorsal_organizer	30% epiboly	ZF30_WT_DS5	10	margin	0.3846	0.7436	ancestor
+dorsal_organizer	30% epiboly	ZF30_WT_DS5b	13	margin	0.5843	1	ancestor
+dorsal_organizer	30% epiboly	ZF30_WT_DS5b	13	axial_mesoderm	0.382	8.175	descendant
+dorsal_organizer	30% epiboly	ZF30_WT_DS5b	13	PGC	0.03371	0.5549	unrelated
+dorsal_organizer	50% epiboly	ZF50_WT_DS2	48	margin	0.7132	1.151	ancestor
+dorsal_organizer	50% epiboly	ZF50_WT_DS2	48	axial_mesoderm	0.25	23	descendant
+dorsal_organizer	50% epiboly	ZF50_WT_DS2	48	dorsal_forerunner	0.007353	2.029	unrelated
+dorsal_organizer	50% epiboly	ZF50_WT_DS2	48	neural_crest	0.007353	2.029	unrelated
+dorsal_organizer	50% epiboly	ZF50_WT_DS2	48	state:maternal	0.007353	0.2255	ancestor
+dorsal_organizer	50% epiboly	ZF50_WT_DS2	48	endoderm	0.007353	2.029	sibling
+dorsal_organizer	50% epiboly	ZF50_WT_DS2	48	midbrain_hindbrain_boundary	0.007353	0.4059	unrelated
+dorsal_organizer	50% epiboly	ZF50_WT_DS3	46	axial_mesoderm	0.5795	11.06	descendant
+dorsal_organizer	50% epiboly	ZF50_WT_DS3	46	margin	0.267	0.6989	ancestor
+dorsal_organizer	50% epiboly	ZF50_WT_DS3	46	presomitic_mesoderm	0.07386	0.8674	sibling
+dorsal_organizer	50% epiboly	ZF50_WT_DS3	46	endoderm	0.05682	1.531	sibling
+dorsal_organizer	50% epiboly	ZF50_WT_DS3	46	state:blastomere	0.01136	0.05848	ancestor
+dorsal_organizer	50% epiboly	ZF50_WT_DS3	46	PGC	0.005682	0.5205	unrelated
+dorsal_organizer	50% epiboly	ZF50_WT_DS3	46	mesoderm	0.005682	0.09294	sibling
+dorsal_organizer	50% epiboly	ZF50_WT_DS4	38	axial_mesoderm	0.5393	21.63	descendant
+dorsal_organizer	50% epiboly	ZF50_WT_DS4	38	margin	0.3708	0.6521	ancestor
+dorsal_organizer	50% epiboly	ZF50_WT_DS4	38	state:maternal	0.07865	0.5533	ancestor
+dorsal_organizer	50% epiboly	ZF50_WT_DS4	38	PGC	0.01124	0.5632	unrelated
+dorsal_organizer	50% epiboly	ZF50_WT_DS4b	54	margin	0.5956	1.077	ancestor
+dorsal_organizer	50% epiboly	ZF50_WT_DS4b	54	axial_mesoderm	0.2941	7.71	descendant
+dorsal_organizer	50% epiboly	ZF50_WT_DS4b	54	presomitic_mesoderm	0.05147	3.778	sibling
+dorsal_organizer	50% epiboly	ZF50_WT_DS4b	54	notochord	0.04412	16.19	descendant
+dorsal_organizer	50% epiboly	ZF50_WT_DS4b	54	mesoderm	0.01471	0.4906	sibling
+dorsal_organizer	dome	ZFDOME_WT_DS5	20	margin	0.4458	1.259	ancestor
+dorsal_organizer	dome	ZFDOME_WT_DS5	20	PGC	0.3253	1.793	unrelated
+dorsal_organizer	dome	ZFDOME_WT_DS5	20	axial_mesoderm	0.1205	27.23	descendant
+dorsal_organizer	dome	ZFDOME_WT_DS5	20	state:maternal	0.1084	0.5977	ancestor
+endoderm	50% epiboly	ZF50_WT_DS2	1	margin	0.9167	1.731	ancestor
+endoderm	50% epiboly	ZF50_WT_DS2	1	dorsal_organizer	0.08333	0.5608	sibling
+endoderm	50% epiboly	ZF50_WT_DS3	17	margin	0.8671	2.413	ancestor
+endoderm	50% epiboly	ZF50_WT_DS3	17	mesoderm	0.09091	1.581	sibling
+endoderm	50% epiboly	ZF50_WT_DS3	17	presomitic_mesoderm	0.02797	0.3493	sibling
+endoderm	50% epiboly	ZF50_WT_DS3	17	dorsal_organizer	0.01399	0.1481	sibling
+endoderm	50% epiboly	ZF50_WT_DS4b	2	margin	0.9231	1.905	ancestor
+endoderm	50% epiboly	ZF50_WT_DS4b	2	dorsal_organizer	0.03846	0.2984	sibling
+endoderm	50% epiboly	ZF50_WT_DS4b	2	presomitic_mesoderm	0.03846	3.223	sibling
+forebrain_eye	60% epiboly	ZF60_WT_DS2	58	midbrain_hindbrain_boundary	0.9587	5.678	sibling
+forebrain_eye	60% epiboly	ZF60_WT_DS2	58	state:blastomere	0.01475	0.2082	ancestor
+forebrain_eye	60% epiboly	ZF60_WT_DS2	58	primary_neurons	0.0118	3.331	sibling
+forebrain_eye	60% epiboly	ZF60_WT_DS2	58	dorsal_forerunner	0.00885	1.874	unrelated
+forebrain_eye	60% epiboly	ZF60_WT_DS2	58	state:maternal	0.0059	0.6246	ancestor
+forebrain_eye	60% epiboly	ZF60_WT_DS3	109	midbrain_hindbrain_boundary	0.8447	9.655	sibling
+forebrain_eye	60% epiboly	ZF60_WT_DS3	109	state:blastomere	0.08495	0.7438	ancestor
+forebrain_eye	60% epiboly	ZF60_WT_DS3	109	neural_plate	0.02913	4.794	ancestor
+forebrain_eye	60% epiboly	ZF60_WT_DS3	109	state:maternal	0.01699	1.398	ancestor
+forebrain_eye	60% epiboly	ZF60_WT_DS3	109	non_neural_ectoderm	0.01214	0.06794	unrelated
+forebrain_eye	60% epiboly	ZF60_WT_DS3	109	neural_crest	0.004854	0.799	sibling
+forebrain_eye	60% epiboly	ZF60_WT_DS3	109	hindbrain	0.002427	0.1998	sibling
+forebrain_eye	60% epiboly	ZF60_WT_DS3	109	EVL	0.002427	0.3995	unrelated
+forebrain_eye	60% epiboly	ZF60_WT_DS3	109	placodes	0.002427	0.08323	sibling
+forebrain_eye	60% epiboly	ZF60_WT_DS4	139	midbrain_hindbrain_boundary	0.5827	8.731	sibling
+forebrain_eye	60% epiboly	ZF60_WT_DS4	139	state:blastomere	0.3083	2.109	ancestor
+forebrain_eye	60% epiboly	ZF60_WT_DS4	139	placodes	0.04135	0.5445	sibling
+forebrain_eye	60% epiboly	ZF60_WT_DS4	139	non_neural_ectoderm	0.03008	0.242	unrelated
+forebrain_eye	60% epiboly	ZF60_WT_DS4	139	dorsal_forerunner	0.01504	2.614	unrelated
+forebrain_eye	60% epiboly	ZF60_WT_DS4	139	neural_plate	0.01504	6.534	ancestor
+forebrain_eye	60% epiboly	ZF60_WT_DS4	139	axial_mesoderm	0.007519	0.2841	unrelated
+forebrain_eye	shield	ZFS_WT_DS5	32	neural_plate	0.5094	17.98	ancestor
+forebrain_eye	shield	ZFS_WT_DS5	32	midbrain_hindbrain_boundary	0.434	6.128	sibling
+forebrain_eye	shield	ZFS_WT_DS5	32	state:blastomere	0.03774	1.025	ancestor
+forebrain_eye	shield	ZFS_WT_DS5	32	PGC	0.01887	0.8325	unrelated
+heart	75% epiboly	ZF75_WT_DS2	4	mesoderm	0.5893	6.433	ancestor
+heart	75% epiboly	ZF75_WT_DS2	4	endoderm	0.3929	8.986	sibling
+heart	75% epiboly	ZF75_WT_DS2	4	intermediate_mesoderm	0.01786	2.144	sibling
+heart	75% epiboly	ZF75_WT_DS3	4	mesoderm	0.4444	4.958	ancestor
+heart	75% epiboly	ZF75_WT_DS3	4	intermediate_mesoderm	0.4259	42.35	sibling
+heart	75% epiboly	ZF75_WT_DS3	4	lateral_plate	0.1111	7.059	ancestor
+heart	75% epiboly	ZF75_WT_DS3	4	adaxial_somite	0.01852	8.47	sibling
+heart	75% epiboly	ZF75_WT_DS4	17	mesoderm	0.5904	8.316	ancestor
+heart	75% epiboly	ZF75_WT_DS4	17	lateral_plate	0.2394	27.98	ancestor
+heart	75% epiboly	ZF75_WT_DS4	17	intermediate_mesoderm	0.04787	13.99	sibling
+heart	75% epiboly	ZF75_WT_DS4	17	non_neural_ectoderm	0.04255	0.2415	unrelated
+heart	75% epiboly	ZF75_WT_DS4	17	margin	0.0266	0.2801	ancestor
+heart	75% epiboly	ZF75_WT_DS4	17	presomitic_mesoderm	0.02128	0.199	sibling
+heart	75% epiboly	ZF75_WT_DS4	17	adaxial_somite	0.02128	3.553	sibling
+heart	75% epiboly	ZF75_WT_DS4	17	endoderm	0.005319	0.1382	sibling
+heart	75% epiboly	ZF75_WT_DS4	17	dorsal_organizer	0.005319	0.1943	sibling
+hindbrain	75% epiboly	ZF75_WT_DS2	10	state:blastomere	0.7531	6.927	ancestor
+hindbrain	75% epiboly	ZF75_WT_DS2	10	midbrain_hindbrain_boundary	0.1728	2.12	sibling
+hindbrain	75% epiboly	ZF75_WT_DS2	10	dorsal_forerunner	0.04938	14.17	unrelated
+hindbrain	75% epiboly	ZF75_WT_DS2	10	forebrain_eye	0.02469	0.2286	sibling
+hindbrain	75% epiboly	ZF75_WT_DS3	22	state:blastomere	0.63	7.256	ancestor
+hindbrain	75% epiboly	ZF75_WT_DS3	22	midbrain_hindbrain_boundary	0.195	2.892	sibling
+hindbrain	75% epiboly	ZF75_WT_DS3	22	presomitic_mesoderm	0.04	0.3477	unrelated
+hindbrain	75% epiboly	ZF75_WT_DS3	22	forebrain_eye	0.04	0.2493	sibling
+hindbrain	75% epiboly	ZF75_WT_DS3	22	primary_neurons	0.035	79.42	sibling
+hindbrain	75% epiboly	ZF75_WT_DS3	22	dorsal_organizer	0.025	1.207	unrelated
+hindbrain	75% epiboly	ZF75_WT_DS3	22	mesoderm	0.015	0.166	unrelated
+hindbrain	75% epiboly	ZF75_WT_DS3	22	placodes	0.01	0.8727	sibling
+hindbrain	75% epiboly	ZF75_WT_DS3	22	adaxial_somite	0.005	2.269	unrelated
+hindbrain	75% epiboly	ZF75_WT_DS3	22	neural_plate	0.005	1.418	ancestor
+hindbrain	75% epiboly	ZF75_WT_DS4	24	state:blastomere	0.6195	5.999	ancestor
+hindbrain	75% epiboly	ZF75_WT_DS4	24	midbrain_hindbrain_boundary	0.3122	3.986	sibling
+hindbrain	75% epiboly	ZF75_WT_DS4	24	forebrain_eye	0.03902	0.2061	sibling
+hindbrain	75% epiboly	ZF75_WT_DS4	24	non_neural_ectoderm	0.009756	0.05503	unrelated
+hindbrain	75% epiboly	ZF75_WT_DS4	24	neural_crest	0.009756	1.889	sibling
+hindbrain	75% epiboly	ZF75_WT_DS4	24	placodes	0.009756	0.7558	sibling
+hindbrain	90% epiboly	ZF90_WT_DS2	9	midbrain_hindbrain_boundary	0.5185	7.354	sibling
+hindbrain	90% epiboly	ZF90_WT_DS2	9	state:blastomere	0.4568	5	ancestor
+hindbrain	90% epiboly	ZF90_WT_DS2	9	dorsal_forerunner	0.01235	12.43	unrelated
+hindbrain	90% epiboly	ZF90_WT_DS2	9	forebrain_eye	0.01235	0.07722	sibling
+hindbrain	90% epiboly	ZF90_WT_DS3	103	state:blastomere	0.669	6.704	ancestor
+hindbrain	90% epiboly	ZF90_WT_DS3	103	midbrain_hindbrain_boundary	0.2823	2.817	sibling
+hindbrain	90% epiboly	ZF90_WT_DS3	103	forebrain_eye	0.02643	0.1476	sibling
+hindbrain	90% epiboly	ZF90_WT_DS3	103	intermediate_mesoderm	0.005563	0.4639	unrelated
+hindbrain	90% epiboly	ZF90_WT_DS3	103	mesoderm	0.005563	0.08119	unrelated
+hindbrain	90% epiboly	ZF90_WT_DS3	103	lateral_plate	0.004172	0.174	unrelated
+hindbrain	90% epiboly	ZF90_WT_DS3	103	placodes	0.004172	0.3045	sibling
+hindbrain	90% epiboly	ZF90_WT_DS3	103	non_neural_ectoderm	0.001391	0.009723	unrelated
+hindbrain	90% epiboly	ZF90_WT_DS3	103	heart	0.001391	0.5413	unrelated
+hindbrain	90% epiboly	ZF90_WT_DS4	77	state:blastomere	0.454	5.149	ancestor
+hindbrain	90% epiboly	ZF90_WT_DS4	77	midbrain_hindbrain_boundary	0.4372	4.417	sibling
+hindbrain	90% epiboly	ZF90_WT_DS4	77	placodes	0.03766	2.117	sibling
+hindbrain	90% epiboly	ZF90_WT_DS4	77	forebrain_eye	0.03556	0.2081	sibling
+hindbrain	90% epiboly	ZF90_WT_DS4	77	non_neural_ectoderm	0.01674	0.1151	unrelated
+hindbrain	90% epiboly	ZF90_WT_DS4	77	tailbud	0.006276	0.3121	unrelated
+hindbrain	90% epiboly	ZF90_WT_DS4	77	primary_neurons	0.006276	4.058	sibling
+hindbrain	90% epiboly	ZF90_WT_DS4	77	lateral_plate	0.004184	0.1202	unrelated
+hindbrain	90% epiboly	ZF90_WT_DS4	77	neural_crest	0.002092	0.541	sibling
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS2	12	mesoderm	0.5935	6.443	ancestor
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS2	12	adaxial_somite	0.2439	31.77	sibling
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS2	12	hatching_gland	0.09756	3.779	sibling
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS2	12	lateral_plate	0.02439	17.48	sibling
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS2	12	endoderm	0.01626	0.3699	sibling
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS2	12	presomitic_mesoderm	0.01626	0.1421	sibling
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS2	12	heart	0.00813	2.913	sibling
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS3	23	mesoderm	0.8077	8.936	ancestor
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS3	23	heart	0.1106	62.7	sibling
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS3	23	adaxial_somite	0.03365	15.27	sibling
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS3	23	presomitic_mesoderm	0.02404	0.2089	sibling
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS3	23	dorsal_organizer	0.01442	0.696	sibling
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS3	23	lateral_plate	0.009615	0.6058	sibling
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS4	4	mesoderm	0.7308	10.41	ancestor
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS4	4	adaxial_somite	0.1346	22.73	sibling
+intermediate_mesoderm	75% epiboly	ZF75_WT_DS4	4	heart	0.1346	9.36	sibling
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS2	15	mesoderm	0.754	9.553	ancestor
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS2	15	dorsal_organizer	0.07937	9.931	sibling
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS2	15	lateral_plate	0.07143	3.972	sibling
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS2	15	adaxial_somite	0.05556	7.944	sibling
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS2	15	non_neural_ectoderm	0.02381	0.1394	unrelated
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS2	15	state:blastomere	0.007937	0.08635	ancestor
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS2	15	EVL	0.007937	0.7944	unrelated
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS3	28	mesoderm	0.5943	8.952	ancestor
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS3	28	lateral_plate	0.2642	11.37	sibling
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS3	28	heart	0.07075	28.42	sibling
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS3	28	dorsal_organizer	0.03774	3.368	sibling
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS3	28	hatching_gland	0.01887	0.6787	sibling
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS3	28	presomitic_mesoderm	0.004717	0.05121	sibling
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS3	28	adaxial_somite	0.004717	1.895	sibling
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS3	28	hindbrain	0.004717	0.1104	unrelated
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS4	4	lateral_plate	0.434	13.17	sibling
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS4	4	mesoderm	0.3962	8.873	ancestor
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS4	4	heart	0.1321	20.05	sibling
+intermediate_mesoderm	90% epiboly	ZF90_WT_DS4	4	non_neural_ectoderm	0.03774	0.2742	unrelated
+intermediate_mesoderm	bud	ZFB_WT_DS2	1	lateral_plate	0.5	6.158	sibling
+intermediate_mesoderm	bud	ZFB_WT_DS2	1	forebrain_eye	0.2143	1.519	unrelated
+intermediate_mesoderm	bud	ZFB_WT_DS2	1	presomitic_mesoderm	0.1429	0.6429	sibling
+intermediate_mesoderm	bud	ZFB_WT_DS2	1	hindbrain	0.07143	0.9832	unrelated
+intermediate_mesoderm	bud	ZFB_WT_DS2	1	midbrain_hindbrain_boundary	0.07143	0.619	unrelated
+intermediate_mesoderm	bud	ZFB_WT_DS2b	2	lateral_plate	0.5714	14.22	sibling
+intermediate_mesoderm	bud	ZFB_WT_DS2b	2	mesoderm	0.2857	7.111	ancestor
+intermediate_mesoderm	bud	ZFB_WT_DS2b	2	heart	0.1429	32	sibling
+intermediate_mesoderm	bud	ZFB_WT_DS3	64	lateral_plate	0.4466	13.79	sibling
+intermediate_mesoderm	bud	ZFB_WT_DS3	64	mesoderm	0.2206	7.384	ancestor
+intermediate_mesoderm	bud	ZFB_WT_DS3	64	hatching_gland	0.1228	5.549	sibling
+intermediate_mesoderm	bud	ZFB_WT_DS3	64	heart	0.08185	8.155	sibling
+intermediate_mesoderm	bud	ZFB_WT_DS3	64	adaxial_somite	0.06406	3.9	sibling
+intermediate_mesoderm	bud	ZFB_WT_DS3	64	placodes	0.01779	0.3805	unrelated
+intermediate_mesoderm	bud	ZFB_WT_DS3	64	midbrain_hindbrain_boundary	0.01601	0.1385	unrelated
+intermediate_mesoderm	bud	ZFB_WT_DS3	64	forebrain_eye	0.008897	0.05813	unrelated
+intermediate_mesoderm	bud	ZFB_WT_DS3	64	non_neural_ectoderm	0.007117	0.06474	unrelated
+intermediate_mesoderm	bud	ZFB_WT_DS3	64	tailbud	0.005338	0.104	sibling
+intermediate_mesoderm	bud	ZFB_WT_DS3	64	dorsal_organizer	0.003559	1.95	sibling
+intermediate_mesoderm	bud	ZFB_WT_DS3	64	notochord	0.003559	0.188	sibling
+intermediate_mesoderm	bud	ZFB_WT_DS3	64	presomitic_mesoderm	0.001779	0.01393	sibling
+intermediate_mesoderm	bud	ZFB_WT_DS4	7	lateral_plate	0.4947	17.03	sibling
+intermediate_mesoderm	bud	ZFB_WT_DS4	7	mesoderm	0.4421	7.609	ancestor
+intermediate_mesoderm	bud	ZFB_WT_DS4	7	heart	0.05263	4.291	sibling
+intermediate_mesoderm	bud	ZFB_WT_DS4	7	hatching_gland	0.01053	0.3792	sibling
+lateral_plate	75% epiboly	ZF75_WT_DS2	2	mesoderm	0.5357	5.856	ancestor
+lateral_plate	75% epiboly	ZF75_WT_DS2	2	intermediate_mesoderm	0.3571	42.95	sibling
+lateral_plate	75% epiboly	ZF75_WT_DS2	2	endoderm	0.07143	1.636	sibling
+lateral_plate	75% epiboly	ZF75_WT_DS2	2	adaxial_somite	0.03571	4.685	sibling
+lateral_plate	75% epiboly	ZF75_WT_DS3	36	mesoderm	0.9683	10.65	ancestor
+lateral_plate	75% epiboly	ZF75_WT_DS3	36	intermediate_mesoderm	0.01408	1.381	sibling
+lateral_plate	75% epiboly	ZF75_WT_DS3	36	heart	0.007042	3.97	descendant
+lateral_plate	75% epiboly	ZF75_WT_DS3	36	non_neural_ectoderm	0.007042	0.04399	unrelated
+lateral_plate	75% epiboly	ZF75_WT_DS3	36	presomitic_mesoderm	0.003521	0.03042	sibling
+lateral_plate	75% epiboly	ZF75_WT_DS4	10	heart	0.5769	39.91	descendant
+lateral_plate	75% epiboly	ZF75_WT_DS4	10	mesoderm	0.4038	5.722	ancestor
+lateral_plate	75% epiboly	ZF75_WT_DS4	10	margin	0.009615	0.1019	ancestor
+lateral_plate	75% epiboly	ZF75_WT_DS4	10	intermediate_mesoderm	0.009615	2.827	sibling
+lateral_plate	90% epiboly	ZF90_WT_DS2	18	mesoderm	0.6532	8.252	ancestor
+lateral_plate	90% epiboly	ZF90_WT_DS2	18	intermediate_mesoderm	0.2903	19.32	sibling
+lateral_plate	90% epiboly	ZF90_WT_DS2	18	non_neural_ectoderm	0.05645	0.3295	unrelated
+lateral_plate	90% epiboly	ZF90_WT_DS3	56	mesoderm	0.7431	11.06	ancestor
+lateral_plate	90% epiboly	ZF90_WT_DS3	56	intermediate_mesoderm	0.1529	13.01	sibling
+lateral_plate	90% epiboly	ZF90_WT_DS3	56	heart	0.05505	21.85	descendant
+lateral_plate	90% epiboly	ZF90_WT_DS3	56	non_neural_ectoderm	0.02141	0.1527	unrelated
+lateral_plate	90% epiboly	ZF90_WT_DS3	56	endoderm	0.009174	0.2665	sibling
+lateral_plate	90% epiboly	ZF90_WT_DS3	56	margin	0.006116	0.06418	ancestor
+lateral_plate	90% epiboly	ZF90_WT_DS3	56	presomitic_mesoderm	0.006116	0.06563	sibling
+lateral_plate	90% epiboly	ZF90_WT_DS3	56	dorsal_organizer	0.003058	0.2698	sibling
+lateral_plate	90% epiboly	ZF90_WT_DS3	56	placodes	0.003058	0.2276	unrelated
+lateral_plate	90% epiboly	ZF90_WT_DS4	45	mesoderm	0.6187	13.44	ancestor
+lateral_plate	90% epiboly	ZF90_WT_DS4	45	heart	0.2218	32.65	descendant
+lateral_plate	90% epiboly	ZF90_WT_DS4	45	intermediate_mesoderm	0.1051	34.8	sibling
+lateral_plate	90% epiboly	ZF90_WT_DS4	45	non_neural_ectoderm	0.03891	0.2742	unrelated
+lateral_plate	90% epiboly	ZF90_WT_DS4	45	adaxial_somite	0.01167	1.19	sibling
+lateral_plate	90% epiboly	ZF90_WT_DS4	45	presomitic_mesoderm	0.003891	0.03202	sibling
+mesoderm	50% epiboly	ZF50_WT_DS2	1	margin	1	1.889	ancestor
+mesoderm	50% epiboly	ZF50_WT_DS3	28	margin	0.7638	2.077	ancestor
+mesoderm	50% epiboly	ZF50_WT_DS3	28	presomitic_mesoderm	0.1974	2.409	descendant
+mesoderm	50% epiboly	ZF50_WT_DS3	28	endoderm	0.03883	1.087	sibling
+mesoderm	50% epiboly	ZF50_WT_DS4	2	margin	0.7	1.342	ancestor
+mesoderm	50% epiboly	ZF50_WT_DS4	2	PGC	0.2	10.93	unrelated
+mesoderm	50% epiboly	ZF50_WT_DS4	2	state:maternal	0.1	0.7667	ancestor
+mesoderm	50% epiboly	ZF50_WT_DS4b	11	margin	0.9741	1.967	ancestor
+mesoderm	50% epiboly	ZF50_WT_DS4b	11	PGC	0.01724	0.7854	unrelated
+mesoderm	50% epiboly	ZF50_WT_DS4b	11	presomitic_mesoderm	0.008621	0.7069	descendant
+midbrain_hindbrain_boundary	50% epiboly	ZF50_WT_DS2	5	state:blastomere	1	8.622	ancestor
+midbrain_hindbrain_boundary	50% epiboly	ZF50_WT_DS3	15	primary_neurons	0.3333	32.6	sibling
+midbrain_hindbrain_boundary	50% epiboly	ZF50_WT_DS3	15	neural_plate	0.3333	40.75	ancestor
+midbrain_hindbrain_boundary	50% epiboly	ZF50_WT_DS3	15	state:blastomere	0.1111	0.6105	ancestor
+midbrain_hindbrain_boundary	50% epiboly	ZF50_WT_DS3	15	axial_mesoderm	0.1111	2.264	unrelated
+midbrain_hindbrain_boundary	50% epiboly	ZF50_WT_DS3	15	forebrain_eye	0.1111	27.17	sibling
+midbrain_hindbrain_boundary	50% epiboly	ZF50_WT_DS4	19	state:blastomere	0.4286	5.806	ancestor
+midbrain_hindbrain_boundary	50% epiboly	ZF50_WT_DS4	19	forebrain_eye	0.381	26.67	sibling
+midbrain_hindbrain_boundary	50% epiboly	ZF50_WT_DS4	19	neural_plate	0.1429	20	ancestor
+midbrain_hindbrain_boundary	50% epiboly	ZF50_WT_DS4	19	state:maternal	0.04762	0.3509	ancestor
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS2	143	forebrain_eye	0.8401	11.04	sibling
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS2	143	state:blastomere	0.1279	1.624	ancestor
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS2	143	dorsal_forerunner	0.01453	2.769	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS2	143	primary_neurons	0.005814	1.477	sibling
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS2	143	notochord	0.005814	2.215	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS2	143	neural_crest	0.002907	2.215	sibling
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS2	143	state:maternal	0.002907	0.2769	ancestor
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS3	72	forebrain_eye	0.7192	5.675	sibling
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS3	72	state:blastomere	0.1102	1.008	ancestor
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS3	72	neural_plate	0.03456	5.944	ancestor
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS3	72	intermediate_mesoderm	0.02592	2.477	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS3	72	state:maternal	0.02592	2.229	ancestor
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS3	72	adaxial_somite	0.0216	1.548	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS3	72	hindbrain	0.01728	1.486	sibling
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS3	72	mesoderm	0.01512	0.153	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS3	72	non_neural_ectoderm	0.008639	0.05054	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS3	72	hatching_gland	0.008639	0.2654	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS3	72	endoderm	0.00432	0.09525	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS3	72	placodes	0.00216	0.07739	sibling
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS3	72	dorsal_organizer	0.00216	0.06634	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS3	72	presomitic_mesoderm	0.00216	0.01689	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS3	72	neural_crest	0.00216	0.3715	sibling
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS4	58	forebrain_eye	0.7418	5.07	sibling
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS4	58	state:blastomere	0.1566	1.171	ancestor
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS4	58	presomitic_mesoderm	0.02747	0.2663	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS4	58	mesoderm	0.02198	0.1832	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS4	58	dorsal_forerunner	0.01923	3.654	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS4	58	endoderm	0.01374	0.2008	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS4	58	dorsal_organizer	0.01099	0.3164	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS4	58	EVL	0.005495	0.7457	unrelated
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS4	58	placodes	0.002747	0.03954	sibling
+midbrain_hindbrain_boundary	shield	ZFS_WT_DS5	25	forebrain_eye	0.5946	6.689	sibling
+midbrain_hindbrain_boundary	shield	ZFS_WT_DS5	25	neural_plate	0.2568	9.243	ancestor
+midbrain_hindbrain_boundary	shield	ZFS_WT_DS5	25	dorsal_forerunner	0.05405	6.486	unrelated
+midbrain_hindbrain_boundary	shield	ZFS_WT_DS5	25	PGC	0.05405	2.432	unrelated
+midbrain_hindbrain_boundary	shield	ZFS_WT_DS5	25	primary_neurons	0.02703	1.622	sibling
+midbrain_hindbrain_boundary	shield	ZFS_WT_DS5	25	state:blastomere	0.01351	0.3742	ancestor
+neural_crest	90% epiboly	ZF90_WT_DS2	2	non_neural_ectoderm	0.6875	4.077	ancestor
+neural_crest	90% epiboly	ZF90_WT_DS2	2	placodes	0.25	9.75	sibling
+neural_crest	90% epiboly	ZF90_WT_DS2	2	EVL	0.0625	6.338	unrelated
+neural_crest	90% epiboly	ZF90_WT_DS3	16	non_neural_ectoderm	0.7786	5.646	ancestor
+neural_crest	90% epiboly	ZF90_WT_DS3	16	placodes	0.08397	6.355	sibling
+neural_crest	90% epiboly	ZF90_WT_DS3	16	tailbud	0.06107	1.896	unrelated
+neural_crest	90% epiboly	ZF90_WT_DS3	16	margin	0.05344	0.5701	unrelated
+neural_crest	90% epiboly	ZF90_WT_DS3	16	forebrain_eye	0.01527	0.08846	sibling
+neural_crest	90% epiboly	ZF90_WT_DS3	16	hindbrain	0.007634	0.1795	sibling
+neural_crest	90% epiboly	ZF90_WT_DS4	5	non_neural_ectoderm	0.8182	5.941	ancestor
+neural_crest	90% epiboly	ZF90_WT_DS4	5	tailbud	0.09091	4.773	unrelated
+neural_crest	90% epiboly	ZF90_WT_DS4	5	hindbrain	0.06061	1.074	sibling
+neural_crest	90% epiboly	ZF90_WT_DS4	5	placodes	0.0303	1.798	sibling
+neural_crest	bud	ZFB_WT_DS2	4	non_neural_ectoderm	0.275	2.049	ancestor
+neural_crest	bud	ZFB_WT_DS2	4	tailbud	0.15	2.475	unrelated
+neural_crest	bud	ZFB_WT_DS2	4	state:blastomere	0.15	2.475	ancestor
+neural_crest	bud	ZFB_WT_DS2	4	placodes	0.125	3.609	sibling
+neural_crest	bud	ZFB_WT_DS2	4	hindbrain	0.1	1.359	sibling
+neural_crest	bud	ZFB_WT_DS2	4	forebrain_eye	0.1	0.7	sibling
+neural_crest	bud	ZFB_WT_DS2	4	midbrain_hindbrain_boundary	0.1	0.8556	sibling
+neural_crest	bud	ZFB_WT_DS3	40	midbrain_hindbrain_boundary	0.3924	3.411	sibling
+neural_crest	bud	ZFB_WT_DS3	40	hindbrain	0.2207	2.878	sibling
+neural_crest	bud	ZFB_WT_DS3	40	placodes	0.1308	2.812	sibling
+neural_crest	bud	ZFB_WT_DS3	40	forebrain_eye	0.08719	0.5728	sibling
+neural_crest	bud	ZFB_WT_DS3	40	non_neural_ectoderm	0.08447	0.7725	ancestor
+neural_crest	bud	ZFB_WT_DS3	40	tailbud	0.04087	0.8007	unrelated
+neural_crest	bud	ZFB_WT_DS3	40	neural_plate	0.01635	14.41	ancestor
+neural_crest	bud	ZFB_WT_DS3	40	state:blastomere	0.0109	0.2277	ancestor
+neural_crest	bud	ZFB_WT_DS3	40	margin	0.0109	0.1953	unrelated
+neural_crest	bud	ZFB_WT_DS3	40	primary_neurons	0.00545	0.5005	sibling
+neural_crest	bud	ZFB_WT_DS4	11	non_neural_ectoderm	0.4872	4.376	ancestor
+neural_crest	bud	ZFB_WT_DS4	11	midbrain_hindbrain_boundary	0.2308	1.792	sibling
+neural_crest	bud	ZFB_WT_DS4	11	placodes	0.1453	2.551	sibling
+neural_crest	bud	ZFB_WT_DS4	11	primary_neurons	0.07692	4.952	sibling
+neural_crest	bud	ZFB_WT_DS4	11	PGC	0.05128	6.095	unrelated
+neural_crest	bud	ZFB_WT_DS4	11	forebrain_eye	0.008547	0.05572	sibling
+placodes	60% epiboly	ZF60_WT_DS2	3	non_neural_ectoderm	0.85	5.438	ancestor
+placodes	60% epiboly	ZF60_WT_DS2	3	state:blastomere	0.15	2.255	ancestor
+placodes	60% epiboly	ZF60_WT_DS3	24	non_neural_ectoderm	0.9107	5.625	ancestor
+placodes	60% epiboly	ZF60_WT_DS3	24	state:blastomere	0.03125	0.3019	ancestor
+placodes	60% epiboly	ZF60_WT_DS3	24	neural_crest	0.02679	4.864	sibling
+placodes	60% epiboly	ZF60_WT_DS3	24	forebrain_eye	0.02232	0.1859	sibling
+placodes	60% epiboly	ZF60_WT_DS3	24	state:maternal	0.004464	0.4054	ancestor
+placodes	60% epiboly	ZF60_WT_DS3	24	hindbrain	0.004464	0.4054	sibling
+placodes	60% epiboly	ZF60_WT_DS4	66	non_neural_ectoderm	0.7275	6.346	ancestor
+placodes	60% epiboly	ZF60_WT_DS4	66	state:blastomere	0.1938	1.438	ancestor
+placodes	60% epiboly	ZF60_WT_DS4	66	mesoderm	0.02809	0.2321	unrelated
+placodes	60% epiboly	ZF60_WT_DS4	66	neural_crest	0.02528	7.938	sibling
+placodes	60% epiboly	ZF60_WT_DS4	66	primary_neurons	0.01124	10.58	sibling
+placodes	60% epiboly	ZF60_WT_DS4	66	forebrain_eye	0.005618	0.03807	sibling
+placodes	60% epiboly	ZF60_WT_DS4	66	heart	0.002809	2.646	unrelated
+placodes	60% epiboly	ZF60_WT_DS4	66	margin	0.002809	0.02321	unrelated
+placodes	60% epiboly	ZF60_WT_DS4	66	midbrain_hindbrain_boundary	0.002809	0.04562	sibling
+placodes	75% epiboly	ZF75_WT_DS2	24	non_neural_ectoderm	0.9059	4.768	ancestor
+placodes	75% epiboly	ZF75_WT_DS2	24	state:blastomere	0.07451	0.6787	ancestor
+placodes	75% epiboly	ZF75_WT_DS2	24	neural_crest	0.01176	5.573	sibling
+placodes	75% epiboly	ZF75_WT_DS2	24	tailbud	0.007843	0.5573	unrelated
+placodes	75% epiboly	ZF75_WT_DS3	26	non_neural_ectoderm	0.8655	5.43	ancestor
+placodes	75% epiboly	ZF75_WT_DS3	26	forebrain_eye	0.08072	0.5023	sibling
+placodes	75% epiboly	ZF75_WT_DS3	26	state:blastomere	0.04036	0.464	ancestor
+placodes	75% epiboly	ZF75_WT_DS3	26	midbrain_hindbrain_boundary	0.01345	0.1992	sibling
+placodes	75% epiboly	ZF75_WT_DS4	15	non_neural_ectoderm	0.869	4.94	ancestor
+placodes	75% epiboly	ZF75_WT_DS4	15	neural_crest	0.04828	9.422	sibling
+placodes	75% epiboly	ZF75_WT_DS4	15	state:blastomere	0.02759	0.2692	ancestor
+placodes	75% epiboly	ZF75_WT_DS4	15	primary_neurons	0.02069	24.23	sibling
+placodes	75% epiboly	ZF75_WT_DS4	15	midbrain_hindbrain_boundary	0.01379	0.1775	sibling
+placodes	75% epiboly	ZF75_WT_DS4	15	margin	0.01379	0.1455	unrelated
+placodes	75% epiboly	ZF75_WT_DS4	15	forebrain_eye	0.006897	0.03671	sibling
+presomitic_mesoderm	50% epiboly	ZF50_WT_DS3	39	margin	0.721	1.916	ancestor
+presomitic_mesoderm	50% epiboly	ZF50_WT_DS3	39	mesoderm	0.2754	4.573	ancestor
+presomitic_mesoderm	50% epiboly	ZF50_WT_DS3	39	axial_mesoderm	0.003623	0.0702	sibling
+presomitic_mesoderm	50% epiboly	ZF50_WT_DS4	1	margin	1	1.921	ancestor
+presomitic_mesoderm	50% epiboly	ZF50_WT_DS4b	5	margin	0.9861	2.021	ancestor
+presomitic_mesoderm	50% epiboly	ZF50_WT_DS4b	5	dorsal_organizer	0.01389	0.107	sibling
+primary_neurons	bud	ZFB_WT_DS2	1	hindbrain	0.5833	8.029	sibling
+primary_neurons	bud	ZFB_WT_DS2	1	neural_crest	0.1667	9.75	sibling
+primary_neurons	bud	ZFB_WT_DS2	1	state:blastomere	0.08333	1.393	ancestor
+primary_neurons	bud	ZFB_WT_DS2	1	non_neural_ectoderm	0.08333	0.629	unrelated
+primary_neurons	bud	ZFB_WT_DS2	1	midbrain_hindbrain_boundary	0.08333	0.7222	sibling
+primary_neurons	bud	ZFB_WT_DS2b	4	non_neural_ectoderm	0.3548	2.638	unrelated
+primary_neurons	bud	ZFB_WT_DS2b	4	state:blastomere	0.2903	4.177	ancestor
+primary_neurons	bud	ZFB_WT_DS2b	4	hindbrain	0.1613	2.248	sibling
+primary_neurons	bud	ZFB_WT_DS2b	4	axial_mesoderm	0.09677	2.539	unrelated
+primary_neurons	bud	ZFB_WT_DS2b	4	dorsal_forerunner	0.03226	14.39	unrelated
+primary_neurons	bud	ZFB_WT_DS2b	4	tailbud	0.03226	0.7194	unrelated
+primary_neurons	bud	ZFB_WT_DS2b	4	endoderm	0.03226	1.028	unrelated
+primary_neurons	bud	ZFB_WT_DS3	48	hindbrain	0.58	7.55	sibling
+primary_neurons	bud	ZFB_WT_DS3	48	state:blastomere	0.2467	5.144	ancestor
+primary_neurons	bud	ZFB_WT_DS3	48	forebrain_eye	0.05667	0.3716	sibling
+primary_neurons	bud	ZFB_WT_DS3	48	midbrain_hindbrain_boundary	0.03667	0.3182	sibling
+primary_neurons	bud	ZFB_WT_DS3	48	tailbud	0.02	0.3911	unrelated
+primary_neurons	bud	ZFB_WT_DS3	48	dorsal_forerunner	0.01667	2.619	unrelated
+primary_neurons	bud	ZFB_WT_DS3	48	placodes	0.01333	0.2862	sibling
+primary_neurons	bud	ZFB_WT_DS3	48	neural_crest	0.01333	1.467	sibling
+primary_neurons	bud	ZFB_WT_DS3	48	endoderm	0.006667	0.1676	unrelated
+primary_neurons	bud	ZFB_WT_DS3	48	non_neural_ectoderm	0.006667	0.06086	unrelated
+primary_neurons	bud	ZFB_WT_DS3	48	EVL	0.003333	0.8148	unrelated
+primary_neurons	bud	ZFB_WT_DS4	24	hindbrain	0.5376	7.996	sibling
+primary_neurons	bud	ZFB_WT_DS4	24	state:blastomere	0.185	3.778	ancestor
+primary_neurons	bud	ZFB_WT_DS4	24	placodes	0.09827	1.711	sibling
+primary_neurons	bud	ZFB_WT_DS4	24	neural_crest	0.04624	6.44	sibling
+primary_neurons	bud	ZFB_WT_DS4	24	midbrain_hindbrain_boundary	0.04624	0.356	sibling
+primary_neurons	bud	ZFB_WT_DS4	24	PGC	0.04046	4.768	unrelated
+primary_neurons	bud	ZFB_WT_DS4	24	non_neural_ectoderm	0.0289	0.2574	unrelated
+primary_neurons	bud	ZFB_WT_DS4	24	neural_plate	0.00578	4.428	ancestor
+primary_neurons	bud	ZFB_WT_DS4	24	forebrain_eye	0.00578	0.03736	sibling
+primary_neurons	bud	ZFB_WT_DS4	24	tailbud	0.00578	0.1406	unrelated
+state:blastomere	50% epiboly	ZF50_WT_DS2	37	heart	0.5714	164	descendant
+state:blastomere	50% epiboly	ZF50_WT_DS2	37	midbrain_hindbrain_boundary	0.2857	16.4	descendant
+state:blastomere	50% epiboly	ZF50_WT_DS2	37	state:maternal	0.1429	4.556	ancestor
+state:blastomere	50% epiboly	ZF50_WT_DS3	89	state:maternal	0.5	17.29	ancestor
+state:blastomere	50% epiboly	ZF50_WT_DS3	89	placodes	0.1282	13.3	descendant
+state:blastomere	50% epiboly	ZF50_WT_DS3	89	non_neural_ectoderm	0.1026	3.869	descendant
+state:blastomere	50% epiboly	ZF50_WT_DS3	89	PGC	0.08974	7.449	unrelated
+state:blastomere	50% epiboly	ZF50_WT_DS3	89	primary_neurons	0.05128	4.256	descendant
+state:blastomere	50% epiboly	ZF50_WT_DS3	89	midbrain_hindbrain_boundary	0.03846	1.064	descendant
+state:blastomere	50% epiboly	ZF50_WT_DS3	89	axial_mesoderm	0.03846	0.6651	descendant
+state:blastomere	50% epiboly	ZF50_WT_DS3	89	dorsal_organizer	0.02564	0.2313	descendant
+state:blastomere	50% epiboly	ZF50_WT_DS3	89	neural_plate	0.02564	2.66	descendant
+state:blastomere	50% epiboly	ZF50_WT_DS4	31	state:maternal	0.5	3.579	ancestor
+state:blastomere	50% epiboly	ZF50_WT_DS4	31	midbrain_hindbrain_boundary	0.2308	4.955	descendant
+state:blastomere	50% epiboly	ZF50_WT_DS4	31	forebrain_eye	0.1154	7.846	descendant
+state:blastomere	50% epiboly	ZF50_WT_DS4	31	neural_plate	0.1154	15.69	descendant
+state:blastomere	50% epiboly	ZF50_WT_DS4	31	placodes	0.03846	15.69	descendant
+state:blastomere	50% epiboly	ZF50_WT_DS4b	29	state:maternal	0.8182	8.909	ancestor
+state:blastomere	50% epiboly	ZF50_WT_DS4b	29	non_neural_ectoderm	0.09091	17.82	descendant
+state:blastomere	50% epiboly	ZF50_WT_DS4b	29	placodes	0.09091	11.88	descendant
+tailbud	75% epiboly	ZF75_WT_DS2	20	margin	0.5119	5.611	ancestor
+tailbud	75% epiboly	ZF75_WT_DS2	20	state:blastomere	0.2083	1.903	ancestor
+tailbud	75% epiboly	ZF75_WT_DS2	20	axial_mesoderm	0.1548	2.827	sibling
+tailbud	75% epiboly	ZF75_WT_DS2	20	non_neural_ectoderm	0.07143	0.377	unrelated
+tailbud	75% epiboly	ZF75_WT_DS2	20	EVL	0.03571	6.362	unrelated
+tailbud	75% epiboly	ZF75_WT_DS2	20	placodes	0.01786	1.06	unrelated
+tailbud	75% epiboly	ZF75_WT_DS3	49	margin	0.7645	7.686	ancestor
+tailbud	75% epiboly	ZF75_WT_DS3	49	state:blastomere	0.09302	1.059	ancestor
+tailbud	75% epiboly	ZF75_WT_DS3	49	axial_mesoderm	0.04651	1.213	sibling
+tailbud	75% epiboly	ZF75_WT_DS3	49	non_neural_ectoderm	0.03488	0.2166	unrelated
+tailbud	75% epiboly	ZF75_WT_DS3	49	presomitic_mesoderm	0.03198	0.2747	sibling
+tailbud	75% epiboly	ZF75_WT_DS3	49	state:maternal	0.01744	13.03	ancestor
+tailbud	75% epiboly	ZF75_WT_DS3	49	placodes	0.002907	0.2507	unrelated
+tailbud	75% epiboly	ZF75_WT_DS3	49	dorsal_forerunner	0.002907	3.259	unrelated
+tailbud	75% epiboly	ZF75_WT_DS3	49	forebrain_eye	0.002907	0.01791	unrelated
+tailbud	75% epiboly	ZF75_WT_DS3	49	dorsal_organizer	0.002907	0.1387	sibling
+tailbud	75% epiboly	ZF75_WT_DS4	8	margin	0.7123	7.56	ancestor
+tailbud	75% epiboly	ZF75_WT_DS4	8	state:blastomere	0.1918	1.883	ancestor
+tailbud	75% epiboly	ZF75_WT_DS4	8	axial_mesoderm	0.08219	4.21	sibling
+tailbud	75% epiboly	ZF75_WT_DS4	8	hindbrain	0.0137	0.6724	unrelated
+tailbud	90% epiboly	ZF90_WT_DS2	7	axial_mesoderm	0.4655	10.21	sibling
+tailbud	90% epiboly	ZF90_WT_DS2	7	margin	0.3621	6.299	ancestor
+tailbud	90% epiboly	ZF90_WT_DS2	7	endoderm	0.1207	1.818	sibling
+tailbud	90% epiboly	ZF90_WT_DS2	7	neural_crest	0.01724	8.698	unrelated
+tailbud	90% epiboly	ZF90_WT_DS2	7	mesoderm	0.01724	0.2202	sibling
+tailbud	90% epiboly	ZF90_WT_DS2	7	intermediate_mesoderm	0.01724	1.16	sibling
+tailbud	90% epiboly	ZF90_WT_DS3	78	margin	0.7264	7.552	ancestor
+tailbud	90% epiboly	ZF90_WT_DS3	78	presomitic_mesoderm	0.09685	1.03	sibling
+tailbud	90% epiboly	ZF90_WT_DS3	78	axial_mesoderm	0.08475	3.226	sibling
+tailbud	90% epiboly	ZF90_WT_DS3	78	non_neural_ectoderm	0.03148	0.2224	unrelated
+tailbud	90% epiboly	ZF90_WT_DS3	78	neural_crest	0.02179	3.214	unrelated
+tailbud	90% epiboly	ZF90_WT_DS3	78	dorsal_forerunner	0.01937	15.24	unrelated
+tailbud	90% epiboly	ZF90_WT_DS3	78	state:blastomere	0.01211	0.1226	ancestor
+tailbud	90% epiboly	ZF90_WT_DS3	78	PGC	0.002421	0.4762	unrelated
+tailbud	90% epiboly	ZF90_WT_DS3	78	mesoderm	0.002421	0.03571	sibling
+tailbud	90% epiboly	ZF90_WT_DS3	78	placodes	0.002421	0.1786	unrelated
+tailbud	90% epiboly	ZF90_WT_DS4	26	margin	0.837	8.789	ancestor
+tailbud	90% epiboly	ZF90_WT_DS4	26	presomitic_mesoderm	0.09251	0.7723	sibling
+tailbud	90% epiboly	ZF90_WT_DS4	26	mesoderm	0.01762	0.3882	sibling
+tailbud	90% epiboly	ZF90_WT_DS4	26	axial_mesoderm	0.01762	0.4014	sibling
+tailbud	90% epiboly	ZF90_WT_DS4	26	state:blastomere	0.01322	0.1558	ancestor
+tailbud	90% epiboly	ZF90_WT_DS4	26	hindbrain	0.008811	0.1538	unrelated
+tailbud	90% epiboly	ZF90_WT_DS4	26	non_neural_ectoderm	0.008811	0.06299	unrelated
+tailbud	90% epiboly	ZF90_WT_DS4	26	neural_crest	0.004405	1.184	unrelated
