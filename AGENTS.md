@@ -99,7 +99,7 @@ coherence part only); delete the cache directory to start over.
 | `23_signal_atlas.py` | readouts vs expected programs on the atlas (exploration) | 17, 19, 21 | few min | `plot`; caches `signal_atlas_*` |
 | `24_program_overview.py` | report figures and tables: curated-program timeline (heterogeneous genes per stage vs the ZFIN window, derivations as indentation and arrows), programs per stage of the sets, Farrell modules named by the curated programs, the curated program table (from `data/curated/curated_programs.tsv`), the signalling evidence table and the genes removed to make the curated programs disjoint; the relative-coherence map in the rows of the timeline | 01b, 16, 17 | seconds | |
 | `25_program_pseudobulk.py` | pseudobulk program strength per library (mean gene level relative to its peak, CP10k; the only library-level measure), in the layout of the timeline of 24 (squares) | 16, 24 | ~1 min | |
-| `26_cell_programs.py` | per cell: the identity programs against their own permutation null (z, active), the top program and its margin, split-half reliability; stress cells excluded (p53, dissociation, heat shock on top with margin >= 2); YSL/yolk and quality checks (nothing excluded); aligned stage UMAPs | 16, 17 | cold ~20 min; cached runs ~1 min | `plot`; cache `cache/26` |
+| `26_cell_programs.py` | per cell: all identity programs (supported or not) against their own permutation null (z, active), random gene sets as chance level, the top program and its margin, split-half reliability, which program wins where one is active but not on top (descendant/ancestor/sibling/unrelated); stress cells excluded (p53, dissociation, heat shock on top with margin >= 2); YSL/yolk and quality checks (nothing excluded); aligned stage UMAPs; per-program UMAPs of its active cells over all stages (`cell_programs_trajectories.pdf`); top programs vs the ZFIN windows (`cell_programs_zfin*.tsv`) | 16, 17 | cold ~30 min; cached runs ~2 min | `plot`; cache `cache/26` |
 
 Shared modules:
 - `pipeline_utils.py`: paths, stages and batches, plot style,
@@ -192,7 +192,10 @@ populations (26; populations still to come). 19 and 23 are exploration only.
   gene-wise permutation null (z = standardised excess; active above the
   99.9% quantile), smoothed over 10 neighbours found without the scored
   programs' genes (unsmoothed calls find an identity in only ~30-40% of the
-  cells). Competing: supported identity programs + maternal + blastomere;
+  cells). Competing: all identity programs + maternal + blastomere, supported
+  or not (since 2026-11-02: unsupported programs mark emerging progenitors,
+  e.g. forebrain at 60% epiboly; random gene sets almost never win); support
+  is still reported;
   top = active program with the largest z, margin = top z - next z (floored
   at 0). Low margins are mostly parent/child ties. Heat shock, dissociation
   and cell-cycle genes are left out of neighbourhoods and features, not

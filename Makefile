@@ -74,7 +74,7 @@ $(T)/alignment_stages.tsv: $(S)/15_alignment.py $(S)/02_replicate_mixing.py $(UT
 	$(PY) $<
 $(T)/cell_programs.tsv: $(S)/26_cell_programs.py $(S)/program_utils.py $(UTILS) \
 		$(T)/programs.tsv $(T)/program_support.tsv $(T)/heterogeneous_genes.tsv.gz \
-		data/curated/curated_programs.tsv
+		data/curated/curated_programs.tsv $(T)/curated_zfin_windows.tsv
 	$(PY) $<
 $(T)/program_atlas.tsv: $(S)/19_program_atlas.py $(S)/15_alignment.py $(S)/program_utils.py \
 		$(UTILS) $(T)/cell_programs.tsv $(T)/alignment_stages.tsv $(T)/programs.tsv \

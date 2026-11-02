@@ -1,136 +1,320 @@
-stage	program	active	top	top_of_active	margin
-high	EVL	0.028	0.028	1.000	8.143
-high	PGC	0.046	0.046	1.000	5.197
-high	margin	0.012	0.008	0.667	5.360
-oblong	EVL	0.053	0.053	1.000	5.464
-oblong	PGC	0.033	0.033	1.000	4.170
-oblong	non_neural_ectoderm	0.034	0.000	0.000	
-dome	EVL	0.049	0.048	0.982	51.399
-dome	PGC	0.057	0.057	1.000	5.675
-30% epiboly	EVL	0.035	0.033	0.950	57.934
-30% epiboly	PGC	0.009	0.005	0.583	14.633
-30% epiboly	margin	0.136	0.131	0.964	12.542
-50% epiboly	EVL	0.028	0.027	0.966	83.584
-50% epiboly	PGC	0.016	0.006	0.360	15.058
-50% epiboly	margin	0.193	0.189	0.993	11.329
-shield	EVL	0.014	0.014	1.000	22.095
-shield	PGC	0.014	0.009	0.643	4.306
-shield	dorsal_organizer	0.068	0.039	0.580	7.141
-shield	endoderm	0.108	0.021	0.191	6.887
-shield	margin	0.266	0.088	0.332	1.528
-shield	mesoderm	0.217	0.070	0.321	1.198
-shield	presomitic_mesoderm	0.194	0.050	0.259	1.163
-60% epiboly	EVL	0.029	0.006	0.222	3.391
-60% epiboly	PGC	0.009	0.001	0.154	15.867
-60% epiboly	adaxial_somite	0.210	0.000	0.000	1.681
-60% epiboly	axial_mesoderm	0.171	0.021	0.129	1.491
-60% epiboly	dorsal_organizer	0.104	0.024	0.234	2.833
-60% epiboly	endoderm	0.114	0.043	0.405	16.267
-60% epiboly	hatching_gland	0.057	0.026	0.414	3.983
-60% epiboly	margin	0.343	0.080	0.231	2.348
-60% epiboly	mesoderm	0.254	0.084	0.314	1.556
-60% epiboly	non_neural_ectoderm	0.125	0.124	0.984	4.550
-60% epiboly	notochord	0.105	0.000	0.000	0.132
-60% epiboly	prechordal_plate	0.055	0.001	0.008	0.588
-60% epiboly	presomitic_mesoderm	0.238	0.075	0.325	2.149
-60% epiboly	state:blastomere	0.104	0.096	0.897	3.324
-75% epiboly	EVL	0.027	0.006	0.228	62.936
-75% epiboly	PGC	0.005	0.004	0.933	46.275
-75% epiboly	adaxial_somite	0.197	0.005	0.023	0.633
-75% epiboly	axial_mesoderm	0.136	0.040	0.298	2.202
-75% epiboly	dorsal_organizer	0.077	0.019	0.243	2.761
-75% epiboly	endoderm	0.072	0.034	0.479	15.761
-75% epiboly	forebrain_eye	0.171	0.128	0.748	4.167
-75% epiboly	hatching_gland	0.055	0.015	0.284	3.091
-75% epiboly	margin	0.334	0.088	0.263	2.318
-75% epiboly	mesoderm	0.253	0.087	0.335	3.054
-75% epiboly	midbrain_hindbrain_boundary	0.160	0.062	0.463	2.966
-75% epiboly	non_neural_ectoderm	0.140	0.137	0.973	8.004
-75% epiboly	notochord	0.098	0.000	0.000	0.032
-75% epiboly	prechordal_plate	0.034	0.001	0.025	0.534
-75% epiboly	presomitic_mesoderm	0.232	0.091	0.390	3.167
-75% epiboly	state:blastomere	0.120	0.100	0.832	3.776
-90% epiboly	EVL	0.028	0.007	0.302	70.253
-90% epiboly	PGC	0.005	0.002	0.500	18.148
-90% epiboly	adaxial_somite	0.146	0.008	0.057	0.712
-90% epiboly	axial_mesoderm	0.131	0.039	0.298	3.518
-90% epiboly	dorsal_organizer	0.081	0.006	0.070	1.471
-90% epiboly	endoderm	0.074	0.042	0.562	17.640
-90% epiboly	forebrain_eye	0.174	0.156	0.908	7.937
-90% epiboly	hatching_gland	0.061	0.025	0.406	7.013
-90% epiboly	margin	0.305	0.093	0.296	2.471
-90% epiboly	mesoderm	0.244	0.082	0.334	3.136
-90% epiboly	non_neural_ectoderm	0.149	0.128	0.889	3.130
-90% epiboly	notochord	0.095	0.000	0.000	1.547
-90% epiboly	placodes	0.143	0.016	0.115	0.689
-90% epiboly	prechordal_plate	0.051	0.000	0.000	
-90% epiboly	presomitic_mesoderm	0.199	0.105	0.478	3.909
-90% epiboly	state:blastomere	0.137	0.123	0.894	4.925
-bud	EVL	0.083	0.004	0.046	52.246
-bud	PGC	0.003	0.002	0.802	46.302
-bud	adaxial_somite	0.150	0.005	0.026	0.630
-bud	axial_mesoderm	0.112	0.011	0.102	2.035
-bud	dorsal_organizer	0.066	0.002	0.030	0.445
-bud	endoderm	0.064	0.025	0.486	14.298
-bud	forebrain_eye	0.154	0.131	0.816	8.583
-bud	hatching_gland	0.091	0.017	0.164	10.068
-bud	heart	0.041	0.007	0.128	1.063
-bud	hindbrain	0.117	0.074	0.503	2.618
-bud	lateral_plate	0.103	0.038	0.405	2.255
-bud	margin	0.265	0.042	0.157	1.050
-bud	mesoderm	0.257	0.039	0.155	1.333
-bud	midbrain_hindbrain_boundary	0.188	0.116	0.710	4.056
-bud	non_neural_ectoderm	0.141	0.110	0.784	5.880
-bud	notochord	0.046	0.009	0.161	4.284
-bud	placodes	0.161	0.043	0.268	2.210
-bud	prechordal_plate	0.071	0.000	0.004	0.189
-bud	presomitic_mesoderm	0.201	0.121	0.634	4.044
-bud	state:blastomere	0.151	0.061	0.351	1.855
-bud	tailbud	0.183	0.040	0.220	2.030
-3-somite	EVL	0.133	0.023	0.175	5.590
-3-somite	adaxial_somite	0.137	0.021	0.152	1.986
-3-somite	axial_mesoderm	0.081	0.001	0.008	0.920
-3-somite	dorsal_organizer	0.050	0.000	0.000	
-3-somite	endoderm	0.063	0.039	0.621	6.457
-3-somite	forebrain_eye	0.134	0.107	0.803	4.953
-3-somite	hatching_gland	0.112	0.010	0.093	26.506
-3-somite	heart	0.047	0.006	0.130	0.852
-3-somite	hindbrain	0.090	0.047	0.527	2.240
-3-somite	intermediate_mesoderm	0.082	0.021	0.263	2.721
-3-somite	lateral_plate	0.101	0.055	0.549	2.642
-3-somite	margin	0.217	0.066	0.302	2.385
-3-somite	mesoderm	0.221	0.009	0.039	0.744
-3-somite	midbrain_hindbrain_boundary	0.143	0.099	0.692	3.685
-3-somite	neural_crest	0.071	0.045	0.643	4.451
-3-somite	non_neural_ectoderm	0.113	0.072	0.638	3.529
-3-somite	notochord	0.048	0.017	0.346	12.295
-3-somite	placodes	0.134	0.055	0.406	3.360
-3-somite	prechordal_plate	0.084	0.002	0.022	0.672
-3-somite	presomitic_mesoderm	0.162	0.088	0.540	5.176
-3-somite	primary_neurons	0.037	0.025	0.672	9.660
-3-somite	state:blastomere	0.101	0.056	0.561	2.241
-3-somite	tailbud	0.135	0.053	0.395	2.224
-6-somite	EVL	0.125	0.014	0.115	40.506
-6-somite	PGC	0.008	0.004	0.392	5.202
-6-somite	adaxial_somite	0.160	0.022	0.139	2.896
-6-somite	axial_mesoderm	0.073	0.006	0.084	2.732
-6-somite	dorsal_organizer	0.055	0.002	0.026	0.788
-6-somite	endoderm	0.077	0.032	0.418	5.401
-6-somite	forebrain_eye	0.152	0.124	0.816	4.898
-6-somite	hatching_gland	0.130	0.024	0.183	2.227
-6-somite	heart	0.054	0.011	0.209	1.520
-6-somite	hindbrain	0.081	0.043	0.525	2.019
-6-somite	intermediate_mesoderm	0.065	0.019	0.284	1.772
-6-somite	lateral_plate	0.098	0.049	0.500	4.313
-6-somite	margin	0.219	0.057	0.260	2.271
-6-somite	mesoderm	0.219	0.003	0.014	0.523
-6-somite	midbrain_hindbrain_boundary	0.130	0.096	0.737	4.641
-6-somite	neural_crest	0.067	0.049	0.734	7.062
-6-somite	non_neural_ectoderm	0.124	0.065	0.519	2.283
-6-somite	notochord	0.081	0.013	0.163	12.431
-6-somite	placodes	0.116	0.056	0.476	4.124
-6-somite	prechordal_plate	0.082	0.001	0.011	0.325
-6-somite	presomitic_mesoderm	0.186	0.112	0.602	5.327
-6-somite	primary_neurons	0.039	0.022	0.577	7.597
-6-somite	state:blastomere	0.124	0.059	0.485	2.376
-6-somite	tailbud	0.136	0.050	0.366	2.338
+stage	program	supported	active	top	top_of_active	margin
+high	EVL	True	0.028	0.028	1.000	4.509
+high	PGC	True	0.032	0.032	1.000	4.209
+high	adaxial_somite	False	0.010	0.000	0.000	
+high	axial_mesoderm	False	0.010	0.000	0.000	
+high	dorsal_forerunner	False	0.002	0.000	0.000	
+high	dorsal_organizer	False	0.002	0.000	0.000	
+high	endoderm	False	0.002	0.000	0.000	
+high	forebrain_eye	False	0.008	0.006	0.750	0.747
+high	hatching_gland	False	0.006	0.000	0.000	
+high	hindbrain	False	0.004	0.000	0.000	
+high	intermediate_mesoderm	False	0.002	0.000	0.000	
+high	lateral_plate	False	0.000	0.000		
+high	margin	True	0.022	0.004	0.182	0.846
+high	mesoderm	False	0.002	0.000	0.000	
+high	midbrain_hindbrain_boundary	False	0.004	0.004	1.000	1.040
+high	neural_crest	False	0.006	0.004	0.667	0.528
+high	neural_plate	False	0.027	0.010	0.250	0.699
+high	non_neural_ectoderm	False	0.014	0.000	0.000	
+high	notochord	False	0.000	0.000		
+high	placodes	False	0.008	0.004	0.500	1.854
+high	prechordal_plate	False	0.000	0.000		
+high	presomitic_mesoderm	False	0.006	0.000	0.000	
+high	primary_neurons	False	0.000	0.000		
+high	state:blastomere	False	0.002	0.000	0.000	
+high	state:maternal	False	0.034	0.034	1.000	2.514
+high	tailbud	False	0.010	0.010	1.000	0.209
+oblong	EVL	True	0.063	0.063	1.000	7.098
+oblong	PGC	True	0.127	0.127	1.000	2.604
+oblong	adaxial_somite	False	0.047	0.000	0.000	
+oblong	axial_mesoderm	False	0.020	0.000	0.000	
+oblong	dorsal_forerunner	False	0.004	0.000	0.000	
+oblong	dorsal_organizer	False	0.012	0.008	0.500	1.282
+oblong	endoderm	False	0.000	0.000		
+oblong	forebrain_eye	False	0.000	0.000		
+oblong	hatching_gland	False	0.000	0.000		
+oblong	hindbrain	False	0.000	0.000		
+oblong	intermediate_mesoderm	False	0.012	0.000	0.000	
+oblong	lateral_plate	False	0.000	0.000		
+oblong	margin	False	0.016	0.000	0.000	
+oblong	mesoderm	False	0.020	0.020	1.000	0.675
+oblong	midbrain_hindbrain_boundary	False	0.000	0.000		
+oblong	neural_crest	False	0.000	0.000		
+oblong	neural_plate	False	0.000	0.000		
+oblong	non_neural_ectoderm	True	0.055	0.000	0.000	
+oblong	notochord	False	0.000	0.000		
+oblong	placodes	False	0.020	0.000	0.000	
+oblong	prechordal_plate	False	0.000	0.000		
+oblong	presomitic_mesoderm	False	0.016	0.000	0.000	
+oblong	primary_neurons	False	0.012	0.012	1.000	1.690
+oblong	state:blastomere	False	0.012	0.004	0.333	0.030
+oblong	state:maternal	False	0.016	0.016	1.000	2.244
+oblong	tailbud	False	0.000	0.000		
+dome	EVL	True	0.044	0.043	0.981	42.744
+dome	PGC	True	0.057	0.035	0.612	3.952
+dome	adaxial_somite	False	0.048	0.000	0.000	
+dome	axial_mesoderm	False	0.106	0.001	0.008	1.959
+dome	dorsal_forerunner	False	0.037	0.000	0.000	
+dome	dorsal_organizer	False	0.074	0.017	0.230	2.734
+dome	endoderm	False	0.053	0.000	0.000	
+dome	forebrain_eye	False	0.034	0.000	0.000	
+dome	hatching_gland	False	0.042	0.000	0.000	
+dome	hindbrain	False	0.006	0.000	0.000	
+dome	intermediate_mesoderm	False	0.055	0.000	0.000	
+dome	lateral_plate	False	0.009	0.000	0.000	
+dome	margin	False	0.103	0.068	0.661	3.674
+dome	mesoderm	False	0.068	0.003	0.050	0.663
+dome	midbrain_hindbrain_boundary	False	0.007	0.000	0.000	
+dome	neural_crest	False	0.037	0.001	0.023	2.222
+dome	neural_plate	False	0.027	0.000	0.000	
+dome	non_neural_ectoderm	False	0.041	0.000	0.000	
+dome	notochord	False	0.048	0.000	0.000	
+dome	placodes	False	0.024	0.000	0.000	
+dome	prechordal_plate	False	0.032	0.000	0.000	
+dome	presomitic_mesoderm	False	0.091	0.000	0.000	
+dome	primary_neurons	False	0.001	0.001	1.000	4.224
+dome	state:blastomere	False	0.004	0.004	1.000	1.549
+dome	state:maternal	False	0.043	0.035	0.820	2.047
+dome	tailbud	False	0.009	0.001	0.091	2.752
+30% epiboly	EVL	True	0.028	0.026	0.942	69.682
+30% epiboly	PGC	True	0.017	0.008	0.491	4.165
+30% epiboly	adaxial_somite	False	0.089	0.005	0.055	0.918
+30% epiboly	axial_mesoderm	False	0.101	0.005	0.046	1.749
+30% epiboly	dorsal_forerunner	False	0.029	0.000	0.020	1.643
+30% epiboly	dorsal_organizer	False	0.064	0.017	0.266	3.983
+30% epiboly	endoderm	False	0.086	0.000	0.000	
+30% epiboly	forebrain_eye	False	0.024	0.001	0.056	2.219
+30% epiboly	hatching_gland	False	0.031	0.000	0.000	
+30% epiboly	hindbrain	False	0.037	0.011	0.324	1.206
+30% epiboly	intermediate_mesoderm	False	0.069	0.000	0.000	
+30% epiboly	lateral_plate	False	0.035	0.000	0.000	
+30% epiboly	margin	True	0.124	0.109	0.891	3.115
+30% epiboly	mesoderm	False	0.105	0.001	0.012	0.324
+30% epiboly	midbrain_hindbrain_boundary	False	0.004	0.000	0.000	
+30% epiboly	neural_crest	False	0.022	0.000	0.026	1.583
+30% epiboly	neural_plate	False	0.047	0.000	0.000	
+30% epiboly	non_neural_ectoderm	False	0.022	0.000	0.000	
+30% epiboly	notochord	False	0.059	0.000	0.009	0.528
+30% epiboly	placodes	False	0.022	0.001	0.042	2.703
+30% epiboly	prechordal_plate	False	0.060	0.000	0.000	
+30% epiboly	presomitic_mesoderm	False	0.112	0.001	0.012	0.423
+30% epiboly	primary_neurons	False	0.006	0.006	1.000	2.663
+30% epiboly	state:blastomere	False	0.005	0.005	1.000	1.476
+30% epiboly	state:maternal	False	0.038	0.016	0.355	2.863
+30% epiboly	tailbud	False	0.045	0.000	0.000	
+50% epiboly	EVL	True	0.025	0.024	0.970	65.160
+50% epiboly	PGC	True	0.017	0.004	0.348	4.142
+50% epiboly	adaxial_somite	False	0.111	0.000	0.000	
+50% epiboly	axial_mesoderm	False	0.143	0.008	0.052	0.894
+50% epiboly	dorsal_forerunner	False	0.022	0.000	0.000	0.181
+50% epiboly	dorsal_organizer	False	0.097	0.034	0.332	3.974
+50% epiboly	endoderm	False	0.121	0.001	0.009	1.622
+50% epiboly	forebrain_eye	False	0.037	0.001	0.018	0.839
+50% epiboly	hatching_gland	False	0.045	0.000	0.000	1.687
+50% epiboly	heart	False	0.010	0.000	0.026	2.854
+50% epiboly	hindbrain	False	0.054	0.000	0.000	
+50% epiboly	intermediate_mesoderm	False	0.085	0.000	0.000	
+50% epiboly	lateral_plate	False	0.068	0.000	0.000	
+50% epiboly	margin	True	0.173	0.133	0.785	2.424
+50% epiboly	mesoderm	False	0.153	0.004	0.028	0.432
+50% epiboly	midbrain_hindbrain_boundary	False	0.035	0.007	0.151	1.339
+50% epiboly	neural_crest	False	0.020	0.000	0.014	1.685
+50% epiboly	neural_plate	False	0.077	0.002	0.031	0.479
+50% epiboly	non_neural_ectoderm	False	0.025	0.001	0.027	1.733
+50% epiboly	notochord	False	0.077	0.000	0.000	0.061
+50% epiboly	placodes	False	0.023	0.001	0.070	1.284
+50% epiboly	prechordal_plate	False	0.073	0.000	0.000	
+50% epiboly	presomitic_mesoderm	False	0.154	0.002	0.015	0.294
+50% epiboly	primary_neurons	False	0.017	0.001	0.059	1.722
+50% epiboly	state:blastomere	False	0.027	0.025	0.930	2.068
+50% epiboly	state:maternal	False	0.057	0.016	0.359	2.267
+50% epiboly	tailbud	False	0.092	0.000	0.003	0.891
+shield	EVL	True	0.011	0.010	0.909	49.860
+shield	PGC	True	0.009	0.008	0.889	3.437
+shield	adaxial_somite	False	0.149	0.000	0.000	
+shield	axial_mesoderm	False	0.111	0.008	0.070	1.400
+shield	dorsal_forerunner	False	0.009	0.003	0.333	1.568
+shield	dorsal_organizer	True	0.064	0.037	0.576	2.902
+shield	endoderm	True	0.090	0.012	0.129	1.848
+shield	forebrain_eye	False	0.057	0.031	0.542	1.125
+shield	hatching_gland	False	0.040	0.000	0.000	
+shield	hindbrain	False	0.020	0.000	0.000	
+shield	intermediate_mesoderm	False	0.059	0.000	0.000	
+shield	lateral_plate	False	0.050	0.000	0.000	
+shield	margin	True	0.232	0.093	0.398	0.960
+shield	mesoderm	True	0.197	0.043	0.221	0.761
+shield	midbrain_hindbrain_boundary	False	0.059	0.024	0.410	0.897
+shield	neural_crest	False	0.008	0.001	0.125	0.159
+shield	neural_plate	False	0.051	0.010	0.189	0.749
+shield	non_neural_ectoderm	False	0.018	0.010	0.526	1.548
+shield	notochord	False	0.087	0.003	0.033	0.429
+shield	placodes	False	0.023	0.012	0.500	1.127
+shield	prechordal_plate	False	0.044	0.000	0.000	
+shield	presomitic_mesoderm	True	0.178	0.050	0.281	1.387
+shield	primary_neurons	False	0.007	0.006	0.857	2.661
+shield	state:blastomere	False	0.014	0.013	0.929	1.868
+shield	state:maternal	False	0.025	0.001	0.038	1.947
+shield	tailbud	False	0.109	0.000	0.000	
+60% epiboly	EVL	True	0.023	0.004	0.172	6.347
+60% epiboly	PGC	True	0.008	0.001	0.182	14.040
+60% epiboly	adaxial_somite	True	0.205	0.000	0.000	1.039
+60% epiboly	axial_mesoderm	True	0.172	0.016	0.093	1.647
+60% epiboly	dorsal_forerunner	False	0.044	0.003	0.079	0.593
+60% epiboly	dorsal_organizer	True	0.090	0.023	0.269	4.020
+60% epiboly	endoderm	True	0.116	0.044	0.392	13.668
+60% epiboly	forebrain_eye	False	0.149	0.088	0.589	1.368
+60% epiboly	hatching_gland	True	0.056	0.025	0.418	4.253
+60% epiboly	heart	False	0.002	0.000	0.000	1.363
+60% epiboly	hindbrain	False	0.016	0.001	0.045	0.335
+60% epiboly	intermediate_mesoderm	False	0.053	0.000	0.000	0.274
+60% epiboly	lateral_plate	False	0.099	0.000	0.000	1.501
+60% epiboly	margin	True	0.333	0.079	0.239	1.965
+60% epiboly	mesoderm	True	0.249	0.068	0.276	1.349
+60% epiboly	midbrain_hindbrain_boundary	False	0.169	0.058	0.343	1.199
+60% epiboly	neural_crest	False	0.020	0.002	0.094	0.920
+60% epiboly	neural_plate	False	0.120	0.001	0.013	0.336
+60% epiboly	non_neural_ectoderm	True	0.105	0.100	0.891	2.017
+60% epiboly	notochord	True	0.119	0.001	0.006	0.384
+60% epiboly	placodes	False	0.103	0.019	0.174	0.688
+60% epiboly	prechordal_plate	True	0.056	0.001	0.008	0.699
+60% epiboly	presomitic_mesoderm	True	0.241	0.068	0.291	2.018
+60% epiboly	primary_neurons	False	0.003	0.001	0.125	1.558
+60% epiboly	state:blastomere	True	0.093	0.076	0.810	1.527
+60% epiboly	state:maternal	False	0.018	0.006	0.308	1.453
+60% epiboly	tailbud	False	0.191	0.002	0.010	0.912
+75% epiboly	EVL	True	0.027	0.006	0.221	65.949
+75% epiboly	PGC	True	0.006	0.004	0.778	35.987
+75% epiboly	adaxial_somite	True	0.190	0.005	0.027	0.657
+75% epiboly	axial_mesoderm	True	0.129	0.030	0.253	2.278
+75% epiboly	dorsal_forerunner	False	0.039	0.001	0.017	0.712
+75% epiboly	dorsal_organizer	True	0.073	0.019	0.222	2.416
+75% epiboly	endoderm	True	0.074	0.033	0.459	13.325
+75% epiboly	forebrain_eye	True	0.170	0.125	0.737	3.012
+75% epiboly	hatching_gland	True	0.056	0.019	0.296	4.165
+75% epiboly	heart	False	0.016	0.002	0.125	1.541
+75% epiboly	hindbrain	False	0.041	0.008	0.213	1.142
+75% epiboly	intermediate_mesoderm	False	0.066	0.006	0.092	0.909
+75% epiboly	lateral_plate	False	0.079	0.007	0.094	1.283
+75% epiboly	margin	True	0.327	0.077	0.234	1.646
+75% epiboly	mesoderm	True	0.248	0.067	0.285	1.833
+75% epiboly	midbrain_hindbrain_boundary	True	0.153	0.059	0.387	1.720
+75% epiboly	neural_crest	False	0.055	0.002	0.041	1.615
+75% epiboly	neural_plate	False	0.092	0.000	0.000	1.318
+75% epiboly	non_neural_ectoderm	True	0.149	0.136	0.915	2.281
+75% epiboly	notochord	True	0.093	0.000	0.000	0.189
+75% epiboly	placodes	False	0.124	0.011	0.076	0.674
+75% epiboly	prechordal_plate	True	0.034	0.000	0.000	
+75% epiboly	presomitic_mesoderm	True	0.224	0.090	0.394	2.911
+75% epiboly	primary_neurons	False	0.015	0.000	0.023	1.582
+75% epiboly	state:blastomere	True	0.098	0.079	0.714	1.892
+75% epiboly	state:maternal	False	0.006	0.000	0.000	1.775
+75% epiboly	tailbud	False	0.181	0.010	0.055	0.687
+90% epiboly	EVL	True	0.027	0.008	0.238	23.810
+90% epiboly	PGC	True	0.006	0.002	0.400	5.665
+90% epiboly	adaxial_somite	True	0.133	0.006	0.035	0.461
+90% epiboly	axial_mesoderm	True	0.129	0.038	0.291	3.330
+90% epiboly	dorsal_forerunner	False	0.046	0.001	0.014	0.341
+90% epiboly	dorsal_organizer	True	0.078	0.007	0.083	0.902
+90% epiboly	endoderm	True	0.076	0.042	0.548	13.160
+90% epiboly	forebrain_eye	True	0.185	0.146	0.785	5.659
+90% epiboly	hatching_gland	True	0.060	0.024	0.450	7.819
+90% epiboly	heart	False	0.012	0.002	0.176	0.869
+90% epiboly	hindbrain	False	0.101	0.037	0.364	1.109
+90% epiboly	intermediate_mesoderm	False	0.078	0.010	0.156	1.149
+90% epiboly	lateral_plate	False	0.067	0.020	0.249	1.951
+90% epiboly	margin	True	0.293	0.081	0.276	1.321
+90% epiboly	mesoderm	True	0.243	0.057	0.245	1.413
+90% epiboly	midbrain_hindbrain_boundary	False	0.135	0.083	0.624	2.806
+90% epiboly	neural_crest	False	0.095	0.003	0.050	1.028
+90% epiboly	neural_plate	False	0.111	0.001	0.009	0.628
+90% epiboly	non_neural_ectoderm	True	0.139	0.124	0.881	3.416
+90% epiboly	notochord	True	0.085	0.000	0.000	1.422
+90% epiboly	placodes	True	0.137	0.015	0.111	0.724
+90% epiboly	prechordal_plate	True	0.047	0.000	0.000	
+90% epiboly	presomitic_mesoderm	True	0.190	0.105	0.492	3.542
+90% epiboly	primary_neurons	False	0.016	0.001	0.029	1.270
+90% epiboly	state:blastomere	True	0.119	0.075	0.630	2.241
+90% epiboly	state:maternal	False	0.005	0.000	0.000	4.171
+90% epiboly	tailbud	False	0.189	0.017	0.091	1.203
+bud	EVL	True	0.085	0.004	0.049	63.560
+bud	PGC	True	0.003	0.003	0.771	31.453
+bud	adaxial_somite	True	0.147	0.004	0.023	0.777
+bud	axial_mesoderm	True	0.112	0.010	0.094	1.940
+bud	dorsal_forerunner	False	0.047	0.004	0.083	1.255
+bud	dorsal_organizer	True	0.064	0.001	0.012	0.546
+bud	endoderm	True	0.064	0.024	0.465	11.421
+bud	forebrain_eye	True	0.165	0.137	0.786	5.035
+bud	hatching_gland	True	0.092	0.016	0.160	9.768
+bud	heart	True	0.038	0.007	0.205	1.333
+bud	hindbrain	True	0.131	0.066	0.482	1.711
+bud	intermediate_mesoderm	False	0.078	0.004	0.054	1.251
+bud	lateral_plate	True	0.096	0.033	0.356	1.645
+bud	margin	True	0.265	0.035	0.129	1.225
+bud	mesoderm	True	0.256	0.032	0.135	1.238
+bud	midbrain_hindbrain_boundary	True	0.190	0.114	0.676	3.873
+bud	neural_crest	False	0.071	0.008	0.108	1.633
+bud	neural_plate	False	0.132	0.001	0.004	0.292
+bud	non_neural_ectoderm	True	0.138	0.112	0.803	5.983
+bud	notochord	True	0.044	0.009	0.177	4.796
+bud	placodes	True	0.163	0.038	0.250	1.823
+bud	prechordal_plate	True	0.071	0.000	0.000	
+bud	presomitic_mesoderm	True	0.197	0.123	0.664	3.515
+bud	primary_neurons	False	0.026	0.009	0.410	3.896
+bud	state:blastomere	True	0.137	0.051	0.331	1.654
+bud	state:maternal	False	0.005	0.000	0.000	
+bud	tailbud	True	0.195	0.043	0.221	1.754
+3-somite	EVL	True	0.111	0.018	0.160	8.131
+3-somite	PGC	False	0.003	0.000	0.000	
+3-somite	adaxial_somite	True	0.140	0.021	0.148	2.450
+3-somite	axial_mesoderm	True	0.068	0.000	0.000	
+3-somite	dorsal_forerunner	False	0.045	0.010	0.219	3.049
+3-somite	dorsal_organizer	True	0.042	0.000	0.000	
+3-somite	endoderm	True	0.058	0.029	0.495	6.488
+3-somite	forebrain_eye	True	0.147	0.106	0.724	3.988
+3-somite	hatching_gland	True	0.104	0.012	0.112	22.937
+3-somite	heart	True	0.053	0.007	0.138	0.680
+3-somite	hindbrain	True	0.083	0.045	0.541	1.727
+3-somite	intermediate_mesoderm	True	0.069	0.022	0.321	2.018
+3-somite	lateral_plate	True	0.104	0.048	0.467	2.630
+3-somite	margin	True	0.216	0.065	0.301	1.648
+3-somite	mesoderm	True	0.199	0.006	0.031	0.815
+3-somite	midbrain_hindbrain_boundary	True	0.151	0.111	0.736	3.020
+3-somite	neural_crest	True	0.057	0.040	0.699	3.787
+3-somite	neural_plate	False	0.059	0.001	0.021	0.176
+3-somite	non_neural_ectoderm	True	0.099	0.077	0.776	3.370
+3-somite	notochord	True	0.047	0.017	0.351	12.246
+3-somite	placodes	True	0.123	0.044	0.355	4.350
+3-somite	prechordal_plate	True	0.085	0.002	0.022	1.312
+3-somite	presomitic_mesoderm	True	0.162	0.093	0.570	5.098
+3-somite	primary_neurons	True	0.040	0.027	0.677	7.533
+3-somite	state:blastomere	True	0.085	0.043	0.507	2.143
+3-somite	state:maternal	False	0.008	0.001	0.077	0.118
+3-somite	tailbud	True	0.139	0.052	0.374	1.765
+6-somite	EVL	True	0.122	0.014	0.121	42.014
+6-somite	PGC	True	0.011	0.005	0.438	3.495
+6-somite	adaxial_somite	True	0.162	0.021	0.126	3.227
+6-somite	axial_mesoderm	True	0.076	0.005	0.074	2.495
+6-somite	dorsal_forerunner	False	0.049	0.006	0.130	2.953
+6-somite	dorsal_organizer	True	0.052	0.001	0.021	1.043
+6-somite	endoderm	True	0.073	0.028	0.388	3.603
+6-somite	forebrain_eye	True	0.137	0.111	0.811	4.268
+6-somite	hatching_gland	True	0.131	0.023	0.179	2.658
+6-somite	heart	True	0.054	0.012	0.231	1.485
+6-somite	hindbrain	True	0.090	0.042	0.477	1.734
+6-somite	intermediate_mesoderm	True	0.062	0.017	0.278	2.146
+6-somite	lateral_plate	True	0.088	0.041	0.467	4.674
+6-somite	margin	True	0.220	0.058	0.263	2.179
+6-somite	mesoderm	True	0.222	0.005	0.024	0.793
+6-somite	midbrain_hindbrain_boundary	True	0.142	0.110	0.771	4.449
+6-somite	neural_crest	True	0.071	0.049	0.690	6.152
+6-somite	neural_plate	False	0.068	0.001	0.010	0.883
+6-somite	non_neural_ectoderm	True	0.123	0.065	0.525	2.681
+6-somite	notochord	True	0.086	0.013	0.157	13.285
+6-somite	placodes	True	0.114	0.053	0.458	3.744
+6-somite	prechordal_plate	True	0.081	0.000	0.006	1.989
+6-somite	presomitic_mesoderm	True	0.189	0.116	0.616	5.143
+6-somite	primary_neurons	True	0.038	0.022	0.569	7.297
+6-somite	state:blastomere	True	0.121	0.058	0.481	2.144
+6-somite	state:maternal	False	0.017	0.003	0.127	0.963
+6-somite	tailbud	True	0.135	0.045	0.334	2.474
