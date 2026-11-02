@@ -1,0 +1,718 @@
+program	stage	gene	libraries	of	conclusive_libraries	drivers	ubiquitous	state	owner
+endoderm	bud	KRT18	1	1	1	15.0	False	False	EVL
+endoderm	bud	HBAE3	1	1	1	14.0	False	False	mesoderm
+endoderm	bud	VED	1	1	1	13.0	True	False	adaxial_somite;margin;mesoderm
+endoderm	bud	CYP26C1	1	1	1	12.0	False	False	hindbrain
+endoderm	bud	SI:DKEY-43P13.5	1	1	1	11.0	False	False	
+endoderm	bud	ATF3	1	1	1	10.0	False	True	control:dissociation
+endoderm	bud	CDH11	1	1	1	10.0	False	False	
+endoderm	bud	FDX1	1	1	1	10.0	False	False	
+endoderm	bud	HOXB7A	1	1	1	10.0	False	False	
+endoderm	bud	SOX19A	1	1	1	10.0	False	False	state:blastomere
+forebrain_eye	60% epiboly	APOC1	2	2	2	15.5	True	False	
+forebrain_eye	60% epiboly	HISTH1L	2	2	2	15.5	True	False	
+forebrain_eye	60% epiboly	APOEB	2	2	2	14.5	True	False	control:YSL
+forebrain_eye	60% epiboly	RRM2	2	2	2	10.5	False	True	state:cell_cycle_s
+forebrain_eye	60% epiboly	ZGC:110425	1	2	2	14.0	True	False	
+forebrain_eye	60% epiboly	HESX1	1	2	2	13.0	False	False	forebrain_eye;neural_plate
+forebrain_eye	60% epiboly	HSPB1	1	2	2	12.0	False	False	neural_plate
+forebrain_eye	60% epiboly	TDGF1	1	2	2	12.0	False	False	forebrain_eye;neural_plate
+forebrain_eye	60% epiboly	HER3	1	2	2	11.0	False	False	midbrain_hindbrain_boundary;neural_plate
+forebrain_eye	60% epiboly	MARCKSL1B	1	2	2	11.0	True	False	
+forebrain_eye	60% epiboly	ADMP	1	2	2	10.0	False	False	sending:BMP_organizer
+forebrain_eye	75% epiboly	APOC1	3	3	3	26.0	True	False	
+forebrain_eye	75% epiboly	ADMP	3	3	3	21.0	False	False	sending:BMP_organizer
+forebrain_eye	75% epiboly	APOEB	3	3	3	20.0	True	False	control:YSL
+forebrain_eye	75% epiboly	DBX1A	3	3	3	20.0	False	False	hindbrain
+forebrain_eye	75% epiboly	HISTH1L	3	3	3	20.0	True	False	
+forebrain_eye	75% epiboly	RX3	2	3	3	23.5	False	False	forebrain_eye;neural_plate
+forebrain_eye	75% epiboly	ZGC:110425	2	3	3	20.0	True	False	
+forebrain_eye	75% epiboly	GSC	2	3	3	19.5	False	False	dorsal_organizer;hatching_gland;margin;prechordal_plate
+forebrain_eye	75% epiboly	HESX1	2	3	3	19.0	False	False	forebrain_eye;neural_plate
+forebrain_eye	75% epiboly	IRX7	2	3	3	18.5	True	False	hindbrain;neural_plate
+forebrain_eye	75% epiboly	HER3	2	3	3	18.0	False	False	midbrain_hindbrain_boundary;neural_plate
+forebrain_eye	75% epiboly	IGFBP1A	2	3	3	17.5	False	False	adaxial_somite
+forebrain_eye	75% epiboly	DLX3B	2	3	3	16.5	False	False	neural_plate;placodes
+forebrain_eye	75% epiboly	MARCKSL1B	2	3	3	16.0	True	False	
+forebrain_eye	75% epiboly	TDGF1	2	3	3	16.0	False	False	forebrain_eye;neural_plate
+forebrain_eye	75% epiboly	VOX	2	3	3	16.0	False	False	margin;tailbud
+forebrain_eye	75% epiboly	FOSAB	2	3	3	15.0	True	True	control:dissociation
+forebrain_eye	75% epiboly	SERPINH1B	2	3	3	12.5	False	False	axial_mesoderm;margin;notochord
+forebrain_eye	75% epiboly	SP5L	2	3	3	12.5	False	False	signal:Wnt
+forebrain_eye	75% epiboly	CHD	2	3	3	10.5	False	False	blocking:BMP
+forebrain_eye	90% epiboly	ZGC:110425	3	3	3	32.0	True	False	
+forebrain_eye	90% epiboly	RX3	3	3	3	22.0	False	False	forebrain_eye;neural_plate
+forebrain_eye	90% epiboly	APOEB	3	3	3	19.0	True	False	control:YSL
+forebrain_eye	90% epiboly	ADMP	3	3	3	17.0	False	False	sending:BMP_organizer
+forebrain_eye	90% epiboly	GSC	3	3	3	16.0	False	False	dorsal_organizer;hatching_gland;margin;prechordal_plate
+forebrain_eye	90% epiboly	IRX7	3	3	3	16.0	True	False	hindbrain;neural_plate
+forebrain_eye	90% epiboly	APOC1	3	3	3	15.0	True	False	
+forebrain_eye	90% epiboly	DBX1A	3	3	3	14.0	False	False	hindbrain
+forebrain_eye	90% epiboly	SI:CH73-281N10.2	2	3	3	26.0	False	False	
+forebrain_eye	90% epiboly	DLX3B	2	3	3	21.0	False	False	neural_plate;placodes
+forebrain_eye	90% epiboly	H3F3A	2	3	3	18.5	False	False	
+forebrain_eye	90% epiboly	NKX2.9	2	3	3	17.0	False	False	neural_plate
+forebrain_eye	90% epiboly	HISTH1L	2	3	3	15.5	True	False	
+forebrain_eye	90% epiboly	SI:DKEY-108K21.10	2	3	3	15.5	False	False	
+forebrain_eye	90% epiboly	SI:CH211-113A14.18	2	3	3	14.5	False	False	
+forebrain_eye	90% epiboly	HESX1	2	3	3	14.0	False	False	forebrain_eye;neural_plate
+forebrain_eye	90% epiboly	H1FX	2	3	3	13.5	False	False	
+forebrain_eye	90% epiboly	MARCKSL1B	2	3	3	13.5	True	False	
+forebrain_eye	90% epiboly	SIX3B	2	3	3	13.5	False	False	forebrain_eye
+forebrain_eye	90% epiboly	HER9	2	3	3	13.0	False	False	forebrain_eye;neural_plate
+forebrain_eye	90% epiboly	FOSAB	2	3	3	12.0	True	True	control:dissociation
+forebrain_eye	90% epiboly	RIMS2B	2	3	3	10.5	False	False	
+forebrain_eye	bud	RX3	2	2	2	53.5	False	False	forebrain_eye;neural_plate
+forebrain_eye	bud	DLX3B	2	2	2	44.5	False	False	neural_plate;placodes
+forebrain_eye	bud	GSC	2	2	2	39.0	False	False	dorsal_organizer;hatching_gland;margin;prechordal_plate
+forebrain_eye	bud	HESX1	2	2	2	35.5	False	False	forebrain_eye;neural_plate
+forebrain_eye	bud	DBX1A	2	2	2	35.0	False	False	hindbrain
+forebrain_eye	bud	LFT1	2	2	2	34.5	False	False	signal:Nodal
+forebrain_eye	bud	NKX2.4B	2	2	2	34.5	False	False	forebrain_eye
+forebrain_eye	bud	NKX2.9	2	2	2	32.0	False	False	neural_plate
+forebrain_eye	bud	FOSAB	2	2	2	29.0	True	True	control:dissociation
+forebrain_eye	bud	LFT2	2	2	2	27.0	False	False	signal:Nodal
+forebrain_eye	bud	SHHA	2	2	2	25.5	False	False	sending:Hedgehog
+forebrain_eye	bud	IRX7	2	2	2	24.5	True	False	hindbrain;neural_plate
+forebrain_eye	bud	OLIG2	2	2	2	23.5	False	False	forebrain_eye;neural_plate
+forebrain_eye	bud	SHHB	2	2	2	23.0	False	False	sending:Hedgehog
+forebrain_eye	bud	NOTO	2	2	2	22.0	False	False	axial_mesoderm;dorsal_organizer
+forebrain_eye	bud	NKX2.2B	2	2	2	20.5	False	False	prechordal_plate
+forebrain_eye	bud	FOXD5	1	2	2	39.0	False	False	tailbud
+forebrain_eye	bud	RIMS2B	1	2	2	37.0	False	False	
+forebrain_eye	bud	APOC1	1	2	2	35.0	True	False	
+forebrain_eye	bud	NKX2.1	1	2	2	32.0	False	False	
+forebrain_eye	bud	ID2A	1	2	2	31.0	False	False	neural_plate
+forebrain_eye	bud	RRBP1B	1	2	2	29.0	False	False	hatching_gland
+forebrain_eye	bud	TFAP2A	1	2	2	29.0	False	False	neural_crest;non_neural_ectoderm
+forebrain_eye	bud	ADMP	1	2	2	27.0	False	False	sending:BMP_organizer
+forebrain_eye	bud	ELOVL6	1	2	2	26.0	False	False	prechordal_plate
+forebrain_eye	bud	FOXB1B	1	2	2	26.0	False	False	forebrain_eye
+forebrain_eye	bud	NKX2.4A	1	2	2	26.0	False	False	
+forebrain_eye	bud	VOX	1	2	2	26.0	False	False	margin;tailbud
+forebrain_eye	bud	HER2	1	2	2	25.0	False	False	hindbrain;neural_plate
+forebrain_eye	bud	SI:DKEY-238C7.12	1	2	2	25.0	False	False	
+forebrain_eye	bud	H1FX	1	2	2	24.0	False	False	
+forebrain_eye	bud	SOX3	1	2	2	24.0	False	False	state:blastomere
+forebrain_eye	bud	FOXA2	1	2	2	23.0	False	False	endoderm;margin
+forebrain_eye	bud	HISTH1L	1	2	2	23.0	True	False	
+forebrain_eye	bud	HTATIP2	1	2	2	23.0	False	False	
+forebrain_eye	bud	SOX21A	1	2	2	23.0	False	False	midbrain_hindbrain_boundary
+forebrain_eye	bud	FOXD3	1	2	2	21.0	False	False	neural_crest
+forebrain_eye	bud	IGFBP1A	1	2	2	21.0	False	False	adaxial_somite
+forebrain_eye	bud	NOG1	1	2	2	21.0	False	False	blocking:BMP
+forebrain_eye	bud	TP63	1	2	2	21.0	False	False	non_neural_ectoderm;placodes
+forebrain_eye	bud	CDX4	1	2	2	20.0	True	False	margin
+forebrain_eye	bud	GATM	1	2	2	20.0	False	False	
+forebrain_eye	bud	CXCR4B	1	2	2	19.0	False	False	
+forebrain_eye	bud	FOXG1A	1	2	2	19.0	False	False	
+forebrain_eye	bud	IRX1B	1	2	2	18.0	False	False	neural_plate
+forebrain_eye	bud	TAGLN2	1	2	2	18.0	False	False	hatching_gland;prechordal_plate
+forebrain_eye	bud	ZGC:110425	1	2	2	18.0	True	False	
+forebrain_eye	bud	HOXB1B	1	2	2	17.0	False	False	hindbrain;neural_plate
+forebrain_eye	bud	TBX16	1	2	2	17.0	False	False	margin;mesoderm;presomitic_mesoderm
+forebrain_eye	bud	TOB1A	1	2	2	17.0	False	False	axial_mesoderm;margin
+forebrain_eye	bud	CST14B.1	1	2	2	16.0	False	False	
+forebrain_eye	bud	FRZB	1	2	2	16.0	False	False	blocking:Wnt
+forebrain_eye	bud	HER5	1	2	2	16.0	False	False	midbrain_hindbrain_boundary;neural_plate
+forebrain_eye	bud	SST1.2	1	2	2	16.0	False	False	
+forebrain_eye	bud	TPM4A	1	2	2	16.0	False	False	lateral_plate
+forebrain_eye	bud	DPP7	1	2	2	15.0	False	False	
+forebrain_eye	bud	HER3	1	2	2	15.0	False	False	midbrain_hindbrain_boundary;neural_plate
+forebrain_eye	bud	PAX2A	1	2	2	15.0	False	False	midbrain_hindbrain_boundary
+forebrain_eye	bud	PPL	1	2	2	14.0	False	False	EVL
+forebrain_eye	bud	VED	1	2	2	14.0	True	False	adaxial_somite;margin;mesoderm
+forebrain_eye	bud	ZGC:101000	1	2	2	14.0	False	False	EVL
+forebrain_eye	bud	DKK1B	1	2	2	13.0	False	False	blocking:Wnt
+forebrain_eye	bud	SETBP1	1	2	2	12.0	False	False	
+forebrain_eye	bud	ATP6V1E1B	1	2	2	11.0	False	False	
+forebrain_eye	bud	H1F0	1	2	2	11.0	False	False	
+forebrain_eye	bud	SI:DKEY-261H17.1	1	2	2	11.0	False	False	notochord
+forebrain_eye	bud	GLULA	1	2	2	10.0	False	False	control:YSL
+forebrain_eye	bud	MVP	1	2	2	10.0	False	False	
+forebrain_eye	bud	NEUROG1	1	2	2	10.0	False	False	
+forebrain_eye	bud	SST1.1	1	2	2	10.0	False	False	
+forebrain_eye	bud	TWIST1A	1	2	2	10.0	False	False	intermediate_mesoderm;mesoderm
+forebrain_eye	3-somite	DBX1A	1	1	1	16.0	False	False	hindbrain
+forebrain_eye	3-somite	NKX2.4B	1	1	1	16.0	False	False	forebrain_eye
+forebrain_eye	3-somite	SHHA	1	1	1	16.0	False	False	sending:Hedgehog
+forebrain_eye	3-somite	NKX2.9	1	1	1	15.0	False	False	neural_plate
+forebrain_eye	3-somite	SHHB	1	1	1	12.0	False	False	sending:Hedgehog
+forebrain_eye	3-somite	LFT1	1	1	1	11.0	False	False	signal:Nodal
+forebrain_eye	3-somite	NKX2.1	1	1	1	11.0	False	False	
+forebrain_eye	3-somite	NKX2.4A	1	1	1	11.0	False	False	
+forebrain_eye	3-somite	CU019646.2	1	1	1	10.0	False	False	
+forebrain_eye	3-somite	ID3	1	1	1	10.0	False	False	signal:BMP
+forebrain_eye	3-somite	IRX7	1	1	1	10.0	True	False	hindbrain;neural_plate
+forebrain_eye	3-somite	NKX2.2B	1	1	1	10.0	False	False	prechordal_plate
+forebrain_eye	3-somite	RIMS2B	1	1	1	10.0	False	False	
+forebrain_eye	3-somite	SI:DKEY-108K21.23	1	1	1	10.0	False	False	
+forebrain_eye	6-somite	DBX1A	2	2	2	22.0	False	False	hindbrain
+forebrain_eye	6-somite	NKX2.4B	2	2	2	20.0	False	False	forebrain_eye
+forebrain_eye	6-somite	HER2	2	2	2	14.0	False	False	hindbrain;neural_plate
+forebrain_eye	6-somite	DLX3B	1	2	2	18.0	False	False	neural_plate;placodes
+forebrain_eye	6-somite	SHHA	1	2	2	18.0	False	False	sending:Hedgehog
+forebrain_eye	6-somite	SST1.2	1	2	2	16.0	False	False	
+forebrain_eye	6-somite	RIMS2B	1	2	2	14.0	False	False	
+hindbrain	90% epiboly	APOC1	1	1	0	14.0	True	False	
+hindbrain	90% epiboly	CDX4	1	1	0	12.0	True	False	margin
+hindbrain	90% epiboly	HER3	1	1	0	10.0	False	False	midbrain_hindbrain_boundary;neural_plate
+hindbrain	90% epiboly	OLIG3	1	1	0	10.0	False	False	hindbrain
+hindbrain	90% epiboly	OLIG4	1	1	0	10.0	False	False	hindbrain
+hindbrain	bud	OLIG3	2	2	1	24.0	False	False	hindbrain
+hindbrain	bud	HER3	2	2	1	22.0	False	False	midbrain_hindbrain_boundary;neural_plate
+hindbrain	bud	CDX4	2	2	1	21.0	True	False	margin
+hindbrain	bud	OLIG4	2	2	1	20.5	False	False	hindbrain
+hindbrain	bud	APOC1	1	2	1	42.0	True	False	
+hindbrain	bud	IRX7	1	2	1	25.0	True	False	hindbrain;neural_plate
+hindbrain	bud	FOSAB	1	2	1	24.0	True	True	control:dissociation
+hindbrain	bud	CYP26B1	1	2	1	22.0	False	False	hindbrain
+hindbrain	bud	CYP26C1	1	2	1	21.0	False	False	hindbrain
+hindbrain	bud	DUSP2	1	2	1	20.0	False	False	hindbrain
+hindbrain	bud	VOX	1	2	1	20.0	False	False	margin;tailbud
+hindbrain	bud	APOEB	1	2	1	19.0	True	False	control:YSL
+hindbrain	bud	FGF8A	1	2	1	19.0	False	False	signal:FGF
+hindbrain	bud	ZGC:110425	1	2	1	19.0	True	False	
+hindbrain	bud	NEUROG1	1	2	1	18.0	False	False	
+hindbrain	bud	VGLL3	1	2	1	18.0	False	False	
+hindbrain	bud	MAFBA	1	2	1	17.0	False	False	hindbrain
+hindbrain	bud	HER2	1	2	1	16.0	False	False	hindbrain;neural_plate
+hindbrain	bud	MALAT1	1	2	1	16.0	False	False	
+hindbrain	bud	CDH11	1	2	1	15.0	False	False	
+hindbrain	bud	MSX1B	1	2	1	15.0	False	False	signal:BMP
+hindbrain	bud	NKX6.1	1	2	1	15.0	False	False	endoderm
+hindbrain	bud	PAX6A	1	2	1	15.0	False	False	forebrain_eye
+hindbrain	bud	DLX3B	1	2	1	14.0	False	False	neural_plate;placodes
+hindbrain	bud	HOXD4A	1	2	1	14.0	False	False	
+hindbrain	bud	NOTO	1	2	1	14.0	False	False	axial_mesoderm;dorsal_organizer
+hindbrain	bud	PNX	1	2	1	14.0	False	False	primary_neurons
+hindbrain	bud	TDGF1	1	2	1	14.0	False	False	forebrain_eye;neural_plate
+hindbrain	bud	PAX6B	1	2	1	13.0	False	False	forebrain_eye;neural_plate
+hindbrain	bud	TFAP2A	1	2	1	13.0	False	False	neural_crest;non_neural_ectoderm
+hindbrain	bud	POU3F1	1	2	1	11.0	False	False	
+hindbrain	bud	TFAP2C	1	2	1	11.0	False	False	non_neural_ectoderm;placodes
+hindbrain	bud	ALCAMA	1	2	1	10.0	False	False	adaxial_somite
+hindbrain	bud	CTBP1	1	2	1	10.0	False	False	
+hindbrain	bud	FOXD3	1	2	1	10.0	False	False	neural_crest
+hindbrain	bud	PCDH18A	1	2	1	10.0	False	False	primary_neurons
+hindbrain	bud	SHISA2	1	2	1	10.0	False	False	midbrain_hindbrain_boundary;neural_plate
+lateral_plate	bud	BLF	1	1	1	11.0	False	False	lateral_plate;mesoderm
+lateral_plate	bud	TBX16	1	1	1	11.0	False	False	margin;mesoderm;presomitic_mesoderm
+lateral_plate	bud	LBX2	1	1	1	10.0	False	False	adaxial_somite;mesoderm;presomitic_mesoderm
+margin	30% epiboly	DKK1B	1	1	0	14.0	False	False	blocking:Wnt
+margin	30% epiboly	SOX32	1	1	0	14.0	False	False	endoderm;margin
+margin	30% epiboly	LFT2	1	1	0	13.0	False	False	signal:Nodal
+margin	30% epiboly	LYE	1	1	0	12.0	False	False	EVL
+margin	30% epiboly	TAGLN2	1	1	0	11.0	False	False	hatching_gland;prechordal_plate
+margin	50% epiboly	SOX32	4	4	4	22.0	False	False	endoderm;margin
+margin	50% epiboly	RND1L	4	4	4	21.5	False	False	hindbrain
+margin	50% epiboly	DKK1B	3	4	4	18.0	False	False	blocking:Wnt
+margin	50% epiboly	KRT18	3	4	4	13.0	False	False	EVL
+margin	50% epiboly	GSC	3	4	4	11.0	False	False	dorsal_organizer;hatching_gland;margin;prechordal_plate
+margin	50% epiboly	LYE	3	4	4	11.0	False	False	EVL
+margin	50% epiboly	LFT2	2	4	4	17.5	False	False	signal:Nodal
+margin	50% epiboly	SOX3	2	4	4	13.5	False	False	state:blastomere
+margin	50% epiboly	CHD	2	4	4	12.5	False	False	blocking:BMP
+margin	50% epiboly	TAGLN2	2	4	4	12.0	False	False	hatching_gland;prechordal_plate
+margin	60% epiboly	MSGN1	2	2	1	19.5	True	False	margin;presomitic_mesoderm
+margin	60% epiboly	MALAT1	1	2	1	27.0	False	False	
+margin	75% epiboly	MSGN1	2	3	3	23.5	True	False	margin;presomitic_mesoderm
+margin	75% epiboly	FOXD3	2	3	3	13.5	False	False	neural_crest
+margin	90% epiboly	MSGN1	2	2	2	33.0	True	False	margin;presomitic_mesoderm
+margin	90% epiboly	APOC1	1	2	2	23.0	True	False	
+margin	90% epiboly	ZGC:110425	1	2	2	22.0	True	False	
+margin	90% epiboly	TBX16	1	2	2	21.0	False	False	margin;mesoderm;presomitic_mesoderm
+margin	90% epiboly	EVE1	1	2	2	17.0	False	False	margin;mesoderm
+margin	90% epiboly	FOXD3	1	2	2	17.0	False	False	neural_crest
+margin	90% epiboly	SI:CH211-113A14.18	1	2	2	17.0	False	False	
+margin	90% epiboly	SI:CH73-281N10.2	1	2	2	17.0	False	False	
+margin	90% epiboly	HISTH1L	1	2	2	16.0	True	False	
+margin	90% epiboly	SZL	1	2	2	16.0	False	False	signal:BMP
+margin	90% epiboly	H1F0	1	2	2	15.0	False	False	
+margin	90% epiboly	VED	1	2	2	15.0	True	False	adaxial_somite;margin;mesoderm
+margin	90% epiboly	H1FX	1	2	2	13.0	False	False	
+margin	90% epiboly	HSPB1	1	2	2	13.0	False	False	neural_plate
+margin	90% epiboly	RNFT2	1	2	2	13.0	False	False	
+margin	90% epiboly	ANGPTL7	1	2	2	12.0	False	False	adaxial_somite;mesoderm
+margin	90% epiboly	CCNG1	1	2	2	12.0	False	False	
+margin	90% epiboly	MSX1B	1	2	2	12.0	False	False	signal:BMP
+margin	90% epiboly	FOSAB	1	2	2	11.0	True	True	control:dissociation
+margin	90% epiboly	SI:CH211-152C2.3	1	2	2	11.0	False	False	dorsal_forerunner
+margin	90% epiboly	ASB11	1	2	2	10.0	False	False	hatching_gland;prechordal_plate
+margin	bud	SZL	2	2	2	11.0	False	False	signal:BMP
+margin	bud	MSGN1	1	2	2	29.0	True	False	margin;presomitic_mesoderm
+margin	bud	APOC1	1	2	2	25.0	True	False	
+margin	bud	VED	1	2	2	18.0	True	False	adaxial_somite;margin;mesoderm
+margin	bud	APOEB	1	2	2	15.0	True	False	control:YSL
+margin	bud	HSPB1	1	2	2	15.0	False	False	neural_plate
+margin	bud	MARCKSL1B	1	2	2	15.0	True	False	
+margin	bud	MYF5	1	2	2	15.0	False	False	adaxial_somite;presomitic_mesoderm
+margin	bud	FOSAB	1	2	2	14.0	True	True	control:dissociation
+margin	bud	HISTH1L	1	2	2	14.0	True	False	
+margin	bud	CDKN1CA	1	2	2	13.0	False	False	adaxial_somite
+margin	bud	GID8B	1	2	2	13.0	False	False	endoderm
+margin	bud	SI:CH211-152C2.3	1	2	2	12.0	False	False	dorsal_forerunner
+margin	bud	H1FX	1	2	2	11.0	False	False	
+margin	bud	MYOD1	1	2	2	10.0	False	False	adaxial_somite;mesoderm;presomitic_mesoderm
+margin	bud	SOX3	1	2	2	10.0	False	False	state:blastomere
+mesoderm	60% epiboly	RRM2	1	1	0	15.0	False	True	state:cell_cycle_s
+mesoderm	75% epiboly	CDX4	2	2	2	22.5	True	False	margin
+mesoderm	75% epiboly	MSGN1	2	2	2	21.5	True	False	margin;presomitic_mesoderm
+mesoderm	75% epiboly	RIPPLY1	2	2	2	20.5	False	False	adaxial_somite;margin;presomitic_mesoderm
+mesoderm	75% epiboly	APOC1	2	2	2	17.5	True	False	
+mesoderm	75% epiboly	VED	2	2	2	17.0	True	False	adaxial_somite;margin;mesoderm
+mesoderm	75% epiboly	TBX16	2	2	2	16.5	False	False	margin;mesoderm;presomitic_mesoderm
+mesoderm	75% epiboly	IRX7	2	2	2	14.5	True	False	hindbrain;neural_plate
+mesoderm	75% epiboly	DHRS3B	2	2	2	10.5	False	False	
+mesoderm	75% epiboly	RRM2	2	2	2	10.0	False	True	state:cell_cycle_s
+mesoderm	75% epiboly	MARCKSL1B	1	2	2	22.0	True	False	
+mesoderm	75% epiboly	SI:CH211-133N4.4	1	2	2	16.0	False	False	
+mesoderm	75% epiboly	HER7	1	2	2	15.0	False	False	margin;mesoderm;presomitic_mesoderm
+mesoderm	75% epiboly	SI:CH211-152C2.3	1	2	2	15.0	False	False	dorsal_forerunner
+mesoderm	75% epiboly	FSTA	1	2	2	14.0	False	False	blocking:BMP
+mesoderm	75% epiboly	ID1	1	2	2	14.0	False	False	signal:BMP
+mesoderm	75% epiboly	TWIST1A	1	2	2	14.0	False	False	intermediate_mesoderm;mesoderm
+mesoderm	75% epiboly	ZGC:110425	1	2	2	14.0	True	False	
+mesoderm	75% epiboly	FOSAB	1	2	2	13.0	True	True	control:dissociation
+mesoderm	75% epiboly	RDH10A	1	2	2	13.0	False	False	adaxial_somite;margin;mesoderm;presomitic_mesoderm
+mesoderm	75% epiboly	ANGPTL5	1	2	2	12.0	False	False	
+mesoderm	75% epiboly	BLF	1	2	2	12.0	False	False	lateral_plate;mesoderm
+mesoderm	75% epiboly	H1F0	1	2	2	12.0	False	False	
+mesoderm	75% epiboly	HES6	1	2	2	12.0	False	False	margin;tailbud
+mesoderm	75% epiboly	IRX1B	1	2	2	12.0	False	False	neural_plate
+mesoderm	75% epiboly	TA	1	2	2	12.0	False	False	axial_mesoderm;margin;notochord
+mesoderm	75% epiboly	INSB	1	2	2	11.0	False	False	dorsal_organizer
+mesoderm	75% epiboly	B2M	1	2	2	10.0	False	False	
+mesoderm	75% epiboly	CST3	1	2	2	10.0	False	False	
+mesoderm	75% epiboly	FOXA	1	2	2	10.0	False	False	margin
+mesoderm	75% epiboly	GATA6	1	2	2	10.0	False	False	lateral_plate;margin
+mesoderm	75% epiboly	HISTH1L	1	2	2	10.0	True	False	
+mesoderm	75% epiboly	NOG1	1	2	2	10.0	False	False	blocking:BMP
+mesoderm	75% epiboly	RNFT2	1	2	2	10.0	False	False	
+mesoderm	75% epiboly	SI:CH211-113A14.18	1	2	2	10.0	False	False	
+mesoderm	75% epiboly	STM	1	2	2	10.0	False	False	forebrain_eye
+mesoderm	75% epiboly	TBX1	1	2	2	10.0	False	False	lateral_plate;mesoderm
+mesoderm	90% epiboly	MSGN1	1	1	1	23.0	True	False	margin;presomitic_mesoderm
+mesoderm	90% epiboly	APOC1	1	1	1	22.0	True	False	
+mesoderm	90% epiboly	IRX7	1	1	1	22.0	True	False	hindbrain;neural_plate
+mesoderm	90% epiboly	CDX4	1	1	1	19.0	True	False	margin
+mesoderm	90% epiboly	VED	1	1	1	19.0	True	False	adaxial_somite;margin;mesoderm
+mesoderm	90% epiboly	MARCKSL1B	1	1	1	18.0	True	False	
+mesoderm	90% epiboly	FSTA	1	1	1	16.0	False	False	blocking:BMP
+mesoderm	90% epiboly	TWIST1A	1	1	1	14.0	False	False	intermediate_mesoderm;mesoderm
+mesoderm	90% epiboly	TBX16	1	1	1	13.0	False	False	margin;mesoderm;presomitic_mesoderm
+mesoderm	90% epiboly	RIPPLY1	1	1	1	12.0	False	False	adaxial_somite;margin;presomitic_mesoderm
+mesoderm	90% epiboly	APOEB	1	1	1	11.0	True	False	control:YSL
+mesoderm	90% epiboly	LSP1	1	1	1	11.0	False	False	
+mesoderm	90% epiboly	RDH10A	1	1	1	11.0	False	False	adaxial_somite;margin;mesoderm;presomitic_mesoderm
+mesoderm	90% epiboly	SI:DKEY-108K21.10	1	1	1	11.0	False	False	
+mesoderm	90% epiboly	ZGC:110425	1	1	1	11.0	True	False	
+mesoderm	90% epiboly	DKK1B	1	1	1	10.0	False	False	blocking:Wnt
+mesoderm	90% epiboly	H1FX	1	1	1	10.0	False	False	
+mesoderm	90% epiboly	RNFT2	1	1	1	10.0	False	False	
+mesoderm	bud	MSGN1	1	1	1	12.0	True	False	margin;presomitic_mesoderm
+midbrain_hindbrain_boundary	60% epiboly	MALAT1	1	1	1	32.0	False	False	
+midbrain_hindbrain_boundary	60% epiboly	APOEB	1	1	1	23.0	True	False	control:YSL
+midbrain_hindbrain_boundary	60% epiboly	ADMP	1	1	1	16.0	False	False	sending:BMP_organizer
+midbrain_hindbrain_boundary	60% epiboly	APOC1	1	1	1	16.0	True	False	
+midbrain_hindbrain_boundary	60% epiboly	HISTH1L	1	1	1	11.0	True	False	
+midbrain_hindbrain_boundary	60% epiboly	NOTO	1	1	1	10.0	False	False	axial_mesoderm;dorsal_organizer
+midbrain_hindbrain_boundary	75% epiboly	APOEB	2	2	1	16.5	True	False	control:YSL
+midbrain_hindbrain_boundary	75% epiboly	ADMP	1	2	1	13.0	False	False	sending:BMP_organizer
+midbrain_hindbrain_boundary	75% epiboly	HISTH1L	1	2	1	12.0	True	False	
+midbrain_hindbrain_boundary	75% epiboly	ZGC:110425	1	2	1	12.0	True	False	
+midbrain_hindbrain_boundary	75% epiboly	CHD	1	2	1	10.0	False	False	blocking:BMP
+midbrain_hindbrain_boundary	75% epiboly	IRX7	1	2	1	10.0	True	False	hindbrain;neural_plate
+midbrain_hindbrain_boundary	90% epiboly	FOSAB	2	2	2	12.0	True	True	control:dissociation
+midbrain_hindbrain_boundary	90% epiboly	APOEB	1	2	2	22.0	True	False	control:YSL
+midbrain_hindbrain_boundary	90% epiboly	APOC1	1	2	2	21.0	True	False	
+midbrain_hindbrain_boundary	90% epiboly	ZGC:110425	1	2	2	21.0	True	False	
+midbrain_hindbrain_boundary	90% epiboly	SI:CH211-113A14.18	1	2	2	19.0	False	False	
+midbrain_hindbrain_boundary	90% epiboly	HER3	1	2	2	16.0	False	False	midbrain_hindbrain_boundary;neural_plate
+midbrain_hindbrain_boundary	90% epiboly	HISTH1L	1	2	2	16.0	True	False	
+midbrain_hindbrain_boundary	90% epiboly	OLIG3	1	2	2	14.0	False	False	hindbrain
+midbrain_hindbrain_boundary	90% epiboly	DLX3B	1	2	2	12.0	False	False	neural_plate;placodes
+midbrain_hindbrain_boundary	90% epiboly	PAX2A	1	2	2	12.0	False	False	midbrain_hindbrain_boundary
+midbrain_hindbrain_boundary	90% epiboly	DBX1A	1	2	2	11.0	False	False	hindbrain
+midbrain_hindbrain_boundary	90% epiboly	IGFBP1A	1	2	2	10.0	False	False	adaxial_somite
+midbrain_hindbrain_boundary	90% epiboly	KRT4	1	2	2	10.0	False	False	EVL
+midbrain_hindbrain_boundary	bud	HER3	2	2	2	26.5	False	False	midbrain_hindbrain_boundary;neural_plate
+midbrain_hindbrain_boundary	bud	OLIG3	2	2	2	24.5	False	False	hindbrain
+midbrain_hindbrain_boundary	bud	ENG2A	2	2	2	24.0	False	False	midbrain_hindbrain_boundary
+midbrain_hindbrain_boundary	bud	HER6	2	2	2	20.5	False	False	neural_plate
+midbrain_hindbrain_boundary	bud	ZGC:110425	2	2	2	20.5	True	False	
+midbrain_hindbrain_boundary	bud	CYP26C1	2	2	2	20.0	False	False	hindbrain
+midbrain_hindbrain_boundary	bud	DLX3B	2	2	2	20.0	False	False	neural_plate;placodes
+midbrain_hindbrain_boundary	bud	FOXD3	2	2	2	20.0	False	False	neural_crest
+midbrain_hindbrain_boundary	bud	SOX21A	2	2	2	19.0	False	False	midbrain_hindbrain_boundary
+midbrain_hindbrain_boundary	bud	NEUROG1	2	2	2	16.0	False	False	
+midbrain_hindbrain_boundary	bud	OLIG2	2	2	2	15.0	False	False	forebrain_eye;neural_plate
+midbrain_hindbrain_boundary	bud	HOXB1B	2	2	2	13.5	False	False	hindbrain;neural_plate
+midbrain_hindbrain_boundary	bud	PAX2A	1	2	2	36.0	False	False	midbrain_hindbrain_boundary
+midbrain_hindbrain_boundary	bud	FOSAB	1	2	2	33.0	True	True	control:dissociation
+midbrain_hindbrain_boundary	bud	HER5	1	2	2	33.0	False	False	midbrain_hindbrain_boundary;neural_plate
+midbrain_hindbrain_boundary	bud	NKX6.2	1	2	2	31.0	False	False	endoderm
+midbrain_hindbrain_boundary	bud	ID1	1	2	2	30.0	False	False	signal:BMP
+midbrain_hindbrain_boundary	bud	IRX7	1	2	2	30.0	True	False	hindbrain;neural_plate
+midbrain_hindbrain_boundary	bud	FOXD5	1	2	2	28.0	False	False	tailbud
+midbrain_hindbrain_boundary	bud	PTGDSB	1	2	2	28.0	False	False	
+midbrain_hindbrain_boundary	bud	APOC1	1	2	2	27.0	True	False	
+midbrain_hindbrain_boundary	bud	PAX6B	1	2	2	26.0	False	False	forebrain_eye;neural_plate
+midbrain_hindbrain_boundary	bud	HISTH1L	1	2	2	25.0	True	False	
+midbrain_hindbrain_boundary	bud	DBX1A	1	2	2	24.0	False	False	hindbrain
+midbrain_hindbrain_boundary	bud	HER9	1	2	2	24.0	False	False	forebrain_eye;neural_plate
+midbrain_hindbrain_boundary	bud	IRX1B	1	2	2	24.0	False	False	neural_plate
+midbrain_hindbrain_boundary	bud	PAX6A	1	2	2	24.0	False	False	forebrain_eye
+midbrain_hindbrain_boundary	bud	TFAP2A	1	2	2	24.0	False	False	neural_crest;non_neural_ectoderm
+midbrain_hindbrain_boundary	bud	APOEB	1	2	2	23.0	True	False	control:YSL
+midbrain_hindbrain_boundary	bud	H1F0	1	2	2	23.0	False	False	
+midbrain_hindbrain_boundary	bud	ID2A	1	2	2	23.0	False	False	neural_plate
+midbrain_hindbrain_boundary	bud	NKX2.9	1	2	2	23.0	False	False	neural_plate
+midbrain_hindbrain_boundary	bud	H1FX	1	2	2	21.0	False	False	
+midbrain_hindbrain_boundary	bud	SI:DKEY-238C7.12	1	2	2	21.0	False	False	
+midbrain_hindbrain_boundary	bud	CEP131	1	2	2	20.0	False	False	
+midbrain_hindbrain_boundary	bud	HESX1	1	2	2	20.0	False	False	forebrain_eye;neural_plate
+midbrain_hindbrain_boundary	bud	CDH6	1	2	2	19.0	False	False	neural_crest;neural_plate
+midbrain_hindbrain_boundary	bud	KRT4	1	2	2	19.0	False	False	EVL
+midbrain_hindbrain_boundary	bud	NKX6.1	1	2	2	19.0	False	False	endoderm
+midbrain_hindbrain_boundary	bud	DUSP2	1	2	2	18.0	False	False	hindbrain
+midbrain_hindbrain_boundary	bud	FEZF2	1	2	2	18.0	False	False	forebrain_eye;neural_plate
+midbrain_hindbrain_boundary	bud	BARHL2	1	2	2	17.0	False	False	forebrain_eye
+midbrain_hindbrain_boundary	bud	NOTO	1	2	2	17.0	False	False	axial_mesoderm;dorsal_organizer
+midbrain_hindbrain_boundary	bud	SIX3B	1	2	2	17.0	False	False	forebrain_eye
+midbrain_hindbrain_boundary	bud	TBX16	1	2	2	17.0	False	False	margin;mesoderm;presomitic_mesoderm
+midbrain_hindbrain_boundary	bud	VGLL3	1	2	2	16.0	False	False	
+midbrain_hindbrain_boundary	bud	DLB	1	2	2	15.0	False	False	sending:Notch
+midbrain_hindbrain_boundary	bud	EMX3	1	2	2	15.0	False	False	forebrain_eye
+midbrain_hindbrain_boundary	bud	EPCAM	1	2	2	15.0	False	False	EVL
+midbrain_hindbrain_boundary	bud	CDH11	1	2	2	14.0	False	False	
+midbrain_hindbrain_boundary	bud	KRT92	1	2	2	14.0	False	False	
+midbrain_hindbrain_boundary	bud	MSGN1	1	2	2	14.0	True	False	margin;presomitic_mesoderm
+midbrain_hindbrain_boundary	bud	TAGLN2	1	2	2	14.0	False	False	hatching_gland;prechordal_plate
+midbrain_hindbrain_boundary	bud	CDX4	1	2	2	13.0	True	False	margin
+midbrain_hindbrain_boundary	bud	CRACR2AB	1	2	2	12.0	False	False	
+midbrain_hindbrain_boundary	bud	CXCL12A	1	2	2	12.0	False	False	mesoderm
+midbrain_hindbrain_boundary	bud	CXCR4A	1	2	2	12.0	False	False	dorsal_forerunner
+midbrain_hindbrain_boundary	bud	ENG2B	1	2	2	12.0	False	False	midbrain_hindbrain_boundary
+midbrain_hindbrain_boundary	bud	IGFBP1A	1	2	2	12.0	False	False	adaxial_somite
+midbrain_hindbrain_boundary	bud	KLF17	1	2	2	11.0	False	False	hatching_gland
+midbrain_hindbrain_boundary	bud	NKX2.2B	1	2	2	11.0	False	False	prechordal_plate
+midbrain_hindbrain_boundary	bud	RX3	1	2	2	11.0	False	False	forebrain_eye;neural_plate
+midbrain_hindbrain_boundary	bud	HER2	1	2	2	10.0	False	False	hindbrain;neural_plate
+midbrain_hindbrain_boundary	3-somite	ENG2B	1	1	1	22.0	False	False	midbrain_hindbrain_boundary
+midbrain_hindbrain_boundary	3-somite	ZGC:110425	1	1	1	18.0	True	False	
+midbrain_hindbrain_boundary	3-somite	ENG2A	1	1	1	16.0	False	False	midbrain_hindbrain_boundary
+midbrain_hindbrain_boundary	3-somite	HER5	1	1	1	16.0	False	False	midbrain_hindbrain_boundary;neural_plate
+midbrain_hindbrain_boundary	3-somite	CYP26C1	1	1	1	14.0	False	False	hindbrain
+midbrain_hindbrain_boundary	3-somite	IRX7	1	1	1	13.0	True	False	hindbrain;neural_plate
+midbrain_hindbrain_boundary	3-somite	SI:DKEY-108K21.10	1	1	1	13.0	False	False	
+midbrain_hindbrain_boundary	3-somite	PAX6A	1	1	1	12.0	False	False	forebrain_eye
+midbrain_hindbrain_boundary	3-somite	SI:CH211-113A14.18	1	1	1	12.0	False	False	
+midbrain_hindbrain_boundary	3-somite	HER2	1	1	1	11.0	False	False	hindbrain;neural_plate
+midbrain_hindbrain_boundary	6-somite	ENG2B	1	2	2	27.0	False	False	midbrain_hindbrain_boundary
+midbrain_hindbrain_boundary	6-somite	HER5	1	2	2	18.0	False	False	midbrain_hindbrain_boundary;neural_plate
+midbrain_hindbrain_boundary	6-somite	ENG2A	1	2	2	17.0	False	False	midbrain_hindbrain_boundary
+midbrain_hindbrain_boundary	6-somite	FOSAB	1	2	2	16.0	True	True	control:dissociation
+midbrain_hindbrain_boundary	6-somite	HER3	1	2	2	16.0	False	False	midbrain_hindbrain_boundary;neural_plate
+midbrain_hindbrain_boundary	6-somite	CYP26C1	1	2	2	12.0	False	False	hindbrain
+midbrain_hindbrain_boundary	6-somite	EGR2B	1	2	2	11.0	False	False	hindbrain
+midbrain_hindbrain_boundary	6-somite	MAFBA	1	2	2	11.0	False	False	hindbrain
+midbrain_hindbrain_boundary	6-somite	RX3	1	2	2	10.0	False	False	forebrain_eye;neural_plate
+neural_crest	6-somite	GUCA2B	1	1	0	12.0	False	False	
+non_neural_ectoderm	60% epiboly	VED	2	3	2	15.5	True	False	adaxial_somite;margin;mesoderm
+non_neural_ectoderm	60% epiboly	FOSAB	2	3	2	11.0	True	True	control:dissociation
+non_neural_ectoderm	75% epiboly	CDX4	3	3	3	35.0	True	False	margin
+non_neural_ectoderm	75% epiboly	VED	3	3	3	27.0	True	False	adaxial_somite;margin;mesoderm
+non_neural_ectoderm	75% epiboly	SZL	3	3	3	23.0	False	False	signal:BMP
+non_neural_ectoderm	75% epiboly	HISTH1L	3	3	3	22.0	True	False	
+non_neural_ectoderm	75% epiboly	TAGLN2	3	3	3	21.0	False	False	hatching_gland;prechordal_plate
+non_neural_ectoderm	75% epiboly	FOSAB	3	3	3	20.0	True	True	control:dissociation
+non_neural_ectoderm	75% epiboly	EVE1	3	3	3	18.0	False	False	margin;mesoderm
+non_neural_ectoderm	75% epiboly	RRM2	3	3	3	18.0	False	True	state:cell_cycle_s
+non_neural_ectoderm	75% epiboly	IRX7	3	3	3	17.0	True	False	hindbrain;neural_plate
+non_neural_ectoderm	75% epiboly	H1F0	3	3	3	12.0	False	False	
+non_neural_ectoderm	75% epiboly	TA	3	3	3	10.0	False	False	axial_mesoderm;margin;notochord
+non_neural_ectoderm	75% epiboly	MARCKSL1B	2	3	3	28.0	True	False	
+non_neural_ectoderm	75% epiboly	APOC1	2	3	3	26.0	True	False	
+non_neural_ectoderm	75% epiboly	ZGC:110425	2	3	3	24.5	True	False	
+non_neural_ectoderm	75% epiboly	CCNG1	2	3	3	18.0	False	False	
+non_neural_ectoderm	75% epiboly	SP5L	2	3	3	16.0	False	False	signal:Wnt
+non_neural_ectoderm	75% epiboly	SOX3	2	3	3	15.5	False	False	state:blastomere
+non_neural_ectoderm	75% epiboly	PTMAA	2	3	3	15.0	False	False	
+non_neural_ectoderm	75% epiboly	SI:CH1073-80I24.3	2	3	3	14.0	False	False	
+non_neural_ectoderm	75% epiboly	ZGC:65851	2	3	3	14.0	False	False	
+non_neural_ectoderm	75% epiboly	HOXB1B	2	3	3	13.5	False	False	hindbrain;neural_plate
+non_neural_ectoderm	75% epiboly	H1FX	2	3	3	12.5	False	False	
+non_neural_ectoderm	75% epiboly	SERPINH1B	2	3	3	12.5	False	False	axial_mesoderm;margin;notochord
+non_neural_ectoderm	75% epiboly	HESX1	2	3	3	11.5	False	False	forebrain_eye;neural_plate
+non_neural_ectoderm	90% epiboly	CDX4	3	3	3	32.0	True	False	margin
+non_neural_ectoderm	90% epiboly	APOC1	3	3	3	30.0	True	False	
+non_neural_ectoderm	90% epiboly	ZGC:110425	3	3	3	29.0	True	False	
+non_neural_ectoderm	90% epiboly	TAGLN2	3	3	3	27.0	False	False	hatching_gland;prechordal_plate
+non_neural_ectoderm	90% epiboly	MARCKSL1B	3	3	3	20.0	True	False	
+non_neural_ectoderm	90% epiboly	SI:DKEY-108K21.10	3	3	3	17.0	False	False	
+non_neural_ectoderm	90% epiboly	VED	3	3	3	17.0	True	False	adaxial_somite;margin;mesoderm
+non_neural_ectoderm	90% epiboly	SI:CH211-113A14.12	3	3	3	16.0	False	False	
+non_neural_ectoderm	90% epiboly	SZL	3	3	3	14.0	False	False	signal:BMP
+non_neural_ectoderm	90% epiboly	HISTH1L	3	3	3	13.0	True	False	
+non_neural_ectoderm	90% epiboly	SHISA2	3	3	3	13.0	False	False	midbrain_hindbrain_boundary;neural_plate
+non_neural_ectoderm	90% epiboly	IRX7	3	3	3	12.0	True	False	hindbrain;neural_plate
+non_neural_ectoderm	90% epiboly	SOX3	3	3	3	11.0	False	False	state:blastomere
+non_neural_ectoderm	90% epiboly	SI:CH73-281N10.2	2	3	3	23.5	False	False	
+non_neural_ectoderm	90% epiboly	APOEB	2	3	3	20.5	True	False	control:YSL
+non_neural_ectoderm	90% epiboly	MALAT1	2	3	3	17.0	False	False	
+non_neural_ectoderm	90% epiboly	ZGC:153405	2	3	3	16.5	False	False	
+non_neural_ectoderm	90% epiboly	CYP26A1	2	3	3	16.0	False	False	blocking:RA
+non_neural_ectoderm	90% epiboly	SI:CH211-113A14.18	2	3	3	15.5	False	False	
+non_neural_ectoderm	90% epiboly	HSPB1	2	3	3	15.0	False	False	neural_plate
+non_neural_ectoderm	90% epiboly	H1F0	2	3	3	14.0	False	False	
+non_neural_ectoderm	90% epiboly	CCNG1	2	3	3	13.5	False	False	
+non_neural_ectoderm	90% epiboly	OTX1B	2	3	3	13.5	False	False	midbrain_hindbrain_boundary;neural_plate
+non_neural_ectoderm	90% epiboly	VOX	2	3	3	13.5	False	False	margin;tailbud
+non_neural_ectoderm	90% epiboly	HOXB1B	2	3	3	13.0	False	False	hindbrain;neural_plate
+non_neural_ectoderm	90% epiboly	IRX1B	2	3	3	11.0	False	False	neural_plate
+non_neural_ectoderm	bud	CDX4	2	2	2	45.5	True	False	margin
+non_neural_ectoderm	bud	APOC1	2	2	2	43.5	True	False	
+non_neural_ectoderm	bud	MARCKSL1B	2	2	2	42.0	True	False	
+non_neural_ectoderm	bud	VED	2	2	2	41.5	True	False	adaxial_somite;margin;mesoderm
+non_neural_ectoderm	bud	TAGLN2	2	2	2	36.0	False	False	hatching_gland;prechordal_plate
+non_neural_ectoderm	bud	APOEB	2	2	2	33.0	True	False	control:YSL
+non_neural_ectoderm	bud	SZL	2	2	2	27.5	False	False	signal:BMP
+non_neural_ectoderm	bud	ZGC:110425	2	2	2	25.5	True	False	
+non_neural_ectoderm	bud	HISTH1L	2	2	2	21.0	True	False	
+non_neural_ectoderm	bud	MALAT1	2	2	2	19.5	False	False	
+non_neural_ectoderm	bud	AKAP12B	1	2	2	33.0	False	False	neural_plate
+non_neural_ectoderm	bud	IRX7	1	2	2	32.0	True	False	hindbrain;neural_plate
+non_neural_ectoderm	bud	H1F0	1	2	2	31.0	False	False	
+non_neural_ectoderm	bud	SOX4A	1	2	2	30.0	False	False	forebrain_eye
+non_neural_ectoderm	bud	VOX	1	2	2	29.0	False	False	margin;tailbud
+non_neural_ectoderm	bud	APELA	1	2	2	28.0	False	False	dorsal_forerunner
+non_neural_ectoderm	bud	H1FX	1	2	2	28.0	False	False	
+non_neural_ectoderm	bud	IRX1B	1	2	2	28.0	False	False	neural_plate
+non_neural_ectoderm	bud	PFN1	1	2	2	28.0	False	False	hatching_gland
+non_neural_ectoderm	bud	KRT18	1	2	2	25.0	False	False	EVL
+non_neural_ectoderm	bud	CRABP2A	1	2	2	23.0	False	False	
+non_neural_ectoderm	bud	KRT4	1	2	2	23.0	False	False	EVL
+non_neural_ectoderm	bud	CLDNB	1	2	2	21.0	False	False	EVL
+non_neural_ectoderm	bud	EVE1	1	2	2	21.0	False	False	margin;mesoderm
+non_neural_ectoderm	bud	SHISA2	1	2	2	21.0	False	False	midbrain_hindbrain_boundary;neural_plate
+non_neural_ectoderm	bud	HOXD9A	1	2	2	20.0	False	False	
+non_neural_ectoderm	bud	MSX1B	1	2	2	20.0	False	False	signal:BMP
+non_neural_ectoderm	bud	CDH6	1	2	2	19.0	False	False	neural_crest;neural_plate
+non_neural_ectoderm	bud	DLC	1	2	2	19.0	False	False	sending:Notch
+non_neural_ectoderm	bud	OTX1A	1	2	2	19.0	False	False	midbrain_hindbrain_boundary
+non_neural_ectoderm	bud	ATF3	1	2	2	18.0	False	True	control:dissociation
+non_neural_ectoderm	bud	CXCL12A	1	2	2	18.0	False	False	mesoderm
+non_neural_ectoderm	bud	FOXI3A	1	2	2	18.0	False	False	non_neural_ectoderm
+non_neural_ectoderm	bud	PKDCCB	1	2	2	18.0	False	False	
+non_neural_ectoderm	bud	SP5L	1	2	2	18.0	False	False	signal:Wnt
+non_neural_ectoderm	bud	HOXB1B	1	2	2	17.0	False	False	hindbrain;neural_plate
+non_neural_ectoderm	bud	EPPK1	1	2	2	16.0	False	False	EVL
+non_neural_ectoderm	bud	LSP1	1	2	2	16.0	False	False	
+non_neural_ectoderm	bud	SP8B	1	2	2	16.0	False	False	
+non_neural_ectoderm	bud	VCANA	1	2	2	16.0	False	False	
+non_neural_ectoderm	bud	ZGC:65851	1	2	2	16.0	False	False	
+non_neural_ectoderm	bud	DLA	1	2	2	15.0	False	False	sending:Notch
+non_neural_ectoderm	bud	ISL2A	1	2	2	15.0	False	False	
+non_neural_ectoderm	bud	MSGN1	1	2	2	15.0	True	False	margin;presomitic_mesoderm
+non_neural_ectoderm	bud	PPP1R14C	1	2	2	15.0	False	False	
+non_neural_ectoderm	bud	SI:DKEY-85K7.7	1	2	2	15.0	False	False	
+non_neural_ectoderm	bud	B3GALT2	1	2	2	14.0	False	False	
+non_neural_ectoderm	bud	CBFB	1	2	2	14.0	False	False	primary_neurons
+non_neural_ectoderm	bud	HOXC3A	1	2	2	14.0	False	False	
+non_neural_ectoderm	bud	RIPPLY1	1	2	2	14.0	False	False	adaxial_somite;margin;presomitic_mesoderm
+non_neural_ectoderm	bud	SI:CH211-113A14.18	1	2	2	14.0	False	False	
+non_neural_ectoderm	bud	SI:CH211-152F23.5	1	2	2	14.0	False	False	
+non_neural_ectoderm	bud	SOX2	1	2	2	14.0	False	False	forebrain_eye
+non_neural_ectoderm	bud	CLDNA	1	2	2	13.0	False	False	placodes
+non_neural_ectoderm	bud	CYP26B1	1	2	2	13.0	False	False	hindbrain
+non_neural_ectoderm	bud	DKK1B	1	2	2	13.0	False	False	blocking:Wnt
+non_neural_ectoderm	bud	HOXD10A	1	2	2	13.0	False	False	
+non_neural_ectoderm	bud	PITX3	1	2	2	13.0	False	False	placodes
+non_neural_ectoderm	bud	SOX3	1	2	2	13.0	False	False	state:blastomere
+non_neural_ectoderm	bud	ST14A	1	2	2	13.0	False	False	
+non_neural_ectoderm	bud	HOXB7A	1	2	2	12.0	False	False	
+non_neural_ectoderm	bud	HSPB1	1	2	2	12.0	False	False	neural_plate
+non_neural_ectoderm	bud	KRT97	1	2	2	12.0	False	False	EVL
+non_neural_ectoderm	bud	PPL	1	2	2	12.0	False	False	EVL
+non_neural_ectoderm	bud	TBX16	1	2	2	12.0	False	False	margin;mesoderm;presomitic_mesoderm
+non_neural_ectoderm	bud	CABZ01064972.2	1	2	2	11.0	False	False	
+non_neural_ectoderm	bud	GCM2	1	2	2	11.0	False	False	
+non_neural_ectoderm	bud	PAX6B	1	2	2	11.0	False	False	forebrain_eye;neural_plate
+non_neural_ectoderm	bud	SPNA2	1	2	2	11.0	False	False	
+non_neural_ectoderm	bud	CHD	1	2	2	10.0	False	False	blocking:BMP
+non_neural_ectoderm	bud	CXCL12B	1	2	2	10.0	False	False	adaxial_somite;mesoderm
+non_neural_ectoderm	bud	FGF8A	1	2	2	10.0	False	False	signal:FGF
+non_neural_ectoderm	bud	TTNB	1	2	2	10.0	False	False	adaxial_somite;mesoderm;presomitic_mesoderm
+non_neural_ectoderm	3-somite	CYP26A1	1	1	0	11.0	False	False	blocking:RA
+non_neural_ectoderm	3-somite	CRABP2A	1	1	0	10.0	False	False	
+non_neural_ectoderm	3-somite	H1F0	1	1	0	10.0	False	False	
+non_neural_ectoderm	3-somite	MDKB	1	1	0	10.0	False	False	midbrain_hindbrain_boundary;neural_plate
+placodes	bud	TAGLN2	1	1	1	27.0	False	False	hatching_gland;prechordal_plate
+placodes	bud	MARCKSL1B	1	1	1	18.0	True	False	
+placodes	bud	HOXB1B	1	1	1	14.0	False	False	hindbrain;neural_plate
+placodes	bud	GSC	1	1	1	13.0	False	False	dorsal_organizer;hatching_gland;margin;prechordal_plate
+placodes	bud	HESX1	1	1	1	10.0	False	False	forebrain_eye;neural_plate
+presomitic_mesoderm	60% epiboly	APOC1	1	1	1	21.0	True	False	
+presomitic_mesoderm	60% epiboly	CHD	1	1	1	15.0	False	False	blocking:BMP
+presomitic_mesoderm	60% epiboly	CDX4	1	1	1	13.0	True	False	margin
+presomitic_mesoderm	60% epiboly	MSGN1	1	1	1	12.0	True	False	margin;presomitic_mesoderm
+presomitic_mesoderm	60% epiboly	APOEB	1	1	1	11.0	True	False	control:YSL
+presomitic_mesoderm	60% epiboly	MESPAA	1	1	1	11.0	False	False	adaxial_somite;margin;mesoderm;presomitic_mesoderm
+presomitic_mesoderm	60% epiboly	RDH10A	1	1	1	11.0	False	False	adaxial_somite;margin;mesoderm;presomitic_mesoderm
+presomitic_mesoderm	60% epiboly	HER7	1	1	1	10.0	False	False	margin;mesoderm;presomitic_mesoderm
+presomitic_mesoderm	60% epiboly	MYF5	1	1	1	10.0	False	False	adaxial_somite;presomitic_mesoderm
+presomitic_mesoderm	60% epiboly	RRM2	1	1	1	10.0	False	True	state:cell_cycle_s
+presomitic_mesoderm	60% epiboly	TA	1	1	1	10.0	False	False	axial_mesoderm;margin;notochord
+presomitic_mesoderm	60% epiboly	VED	1	1	1	10.0	True	False	adaxial_somite;margin;mesoderm
+presomitic_mesoderm	75% epiboly	CHD	3	3	3	26.0	False	False	blocking:BMP
+presomitic_mesoderm	75% epiboly	APOC1	3	3	3	25.0	True	False	
+presomitic_mesoderm	75% epiboly	VED	3	3	3	19.0	True	False	adaxial_somite;margin;mesoderm
+presomitic_mesoderm	75% epiboly	APOEB	3	3	3	17.0	True	False	control:YSL
+presomitic_mesoderm	75% epiboly	CDKN1CA	3	3	3	16.0	False	False	adaxial_somite
+presomitic_mesoderm	75% epiboly	MSGN1	3	3	3	16.0	True	False	margin;presomitic_mesoderm
+presomitic_mesoderm	75% epiboly	HER1	3	3	3	12.0	False	False	margin;mesoderm;presomitic_mesoderm
+presomitic_mesoderm	75% epiboly	RIPPLY2	3	3	3	12.0	False	False	adaxial_somite;presomitic_mesoderm
+presomitic_mesoderm	75% epiboly	TA	3	3	3	12.0	False	False	axial_mesoderm;margin;notochord
+presomitic_mesoderm	75% epiboly	HISTH1L	3	3	3	11.0	True	False	
+presomitic_mesoderm	75% epiboly	INSB	3	3	3	11.0	False	False	dorsal_organizer
+presomitic_mesoderm	75% epiboly	MYF5	3	3	3	11.0	False	False	adaxial_somite;presomitic_mesoderm
+presomitic_mesoderm	75% epiboly	RDH10A	3	3	3	11.0	False	False	adaxial_somite;margin;mesoderm;presomitic_mesoderm
+presomitic_mesoderm	75% epiboly	CDX4	2	3	3	19.5	True	False	margin
+presomitic_mesoderm	75% epiboly	RNFT2	2	3	3	15.0	False	False	
+presomitic_mesoderm	75% epiboly	HER7	2	3	3	14.0	False	False	margin;mesoderm;presomitic_mesoderm
+presomitic_mesoderm	75% epiboly	SI:CH211-133N4.4	2	3	3	14.0	False	False	
+presomitic_mesoderm	75% epiboly	CST3	2	3	3	13.5	False	False	
+presomitic_mesoderm	75% epiboly	MARCKSL1B	2	3	3	13.5	True	False	
+presomitic_mesoderm	75% epiboly	IRX7	2	3	3	11.5	True	False	hindbrain;neural_plate
+presomitic_mesoderm	75% epiboly	H1F0	2	3	3	11.0	False	False	
+presomitic_mesoderm	75% epiboly	TWIST1A	2	3	3	11.0	False	False	intermediate_mesoderm;mesoderm
+presomitic_mesoderm	75% epiboly	ANGPTL5	2	3	3	10.5	False	False	
+presomitic_mesoderm	75% epiboly	FOXA	2	3	3	10.5	False	False	margin
+presomitic_mesoderm	90% epiboly	RIPPLY2	3	3	3	13.0	False	False	adaxial_somite;presomitic_mesoderm
+presomitic_mesoderm	90% epiboly	ZGC:110425	2	3	3	22.0	True	False	
+presomitic_mesoderm	90% epiboly	APOC1	2	3	3	21.0	True	False	
+presomitic_mesoderm	90% epiboly	RDH10A	2	3	3	20.0	False	False	adaxial_somite;margin;mesoderm;presomitic_mesoderm
+presomitic_mesoderm	90% epiboly	CHD	2	3	3	16.5	False	False	blocking:BMP
+presomitic_mesoderm	90% epiboly	RIPPLY1	2	3	3	14.5	False	False	adaxial_somite;margin;presomitic_mesoderm
+presomitic_mesoderm	90% epiboly	MYL10	2	3	3	14.0	False	False	
+presomitic_mesoderm	90% epiboly	APOEB	2	3	3	13.5	True	False	control:YSL
+presomitic_mesoderm	90% epiboly	VED	2	3	3	13.5	True	False	adaxial_somite;margin;mesoderm
+presomitic_mesoderm	90% epiboly	FSTA	2	3	3	10.5	False	False	blocking:BMP
+presomitic_mesoderm	bud	MYOD1	2	2	2	36.0	False	False	adaxial_somite;mesoderm;presomitic_mesoderm
+presomitic_mesoderm	bud	MYL10	2	2	2	33.5	False	False	
+presomitic_mesoderm	bud	RIPPLY1	2	2	2	27.0	False	False	adaxial_somite;margin;presomitic_mesoderm
+presomitic_mesoderm	bud	FSTA	2	2	2	26.0	False	False	blocking:BMP
+presomitic_mesoderm	bud	RIPPLY2	2	2	2	26.0	False	False	adaxial_somite;presomitic_mesoderm
+presomitic_mesoderm	bud	MSGN1	1	2	2	73.0	True	False	margin;presomitic_mesoderm
+presomitic_mesoderm	bud	APOC1	1	2	2	67.0	True	False	
+presomitic_mesoderm	bud	RDH10A	1	2	2	53.0	False	False	adaxial_somite;margin;mesoderm;presomitic_mesoderm
+presomitic_mesoderm	bud	APOEB	1	2	2	39.0	True	False	control:YSL
+presomitic_mesoderm	bud	MESPAB	1	2	2	30.0	False	False	margin;mesoderm;presomitic_mesoderm
+presomitic_mesoderm	bud	MDKA	1	2	2	27.0	False	False	presomitic_mesoderm
+presomitic_mesoderm	bud	TAGLN2	1	2	2	26.0	False	False	hatching_gland;prechordal_plate
+presomitic_mesoderm	bud	NOG1	1	2	2	25.0	False	False	blocking:BMP
+presomitic_mesoderm	bud	H1FX	1	2	2	24.0	False	False	
+presomitic_mesoderm	bud	CYP26A1	1	2	2	23.0	False	False	blocking:RA
+presomitic_mesoderm	bud	ID3	1	2	2	22.0	False	False	signal:BMP
+presomitic_mesoderm	bud	MESPBA	1	2	2	20.0	False	False	presomitic_mesoderm
+presomitic_mesoderm	bud	PAX8	1	2	2	20.0	False	False	placodes
+presomitic_mesoderm	bud	SI:CH211-152C2.3	1	2	2	20.0	False	False	dorsal_forerunner
+presomitic_mesoderm	bud	CHD	1	2	2	16.0	False	False	blocking:BMP
+presomitic_mesoderm	bud	MESPBB	1	2	2	16.0	False	False	presomitic_mesoderm
+presomitic_mesoderm	bud	DLX3B	1	2	2	15.0	False	False	neural_plate;placodes
+presomitic_mesoderm	bud	SI:DKEY-85K7.7	1	2	2	15.0	False	False	
+presomitic_mesoderm	bud	ACTA1A	1	2	2	14.0	False	False	
+presomitic_mesoderm	bud	RGCC	1	2	2	14.0	False	False	neural_plate
+presomitic_mesoderm	bud	CHGA	1	2	2	12.0	False	False	
+presomitic_mesoderm	bud	OTX2	1	2	2	12.0	False	False	forebrain_eye
+presomitic_mesoderm	bud	SOX3	1	2	2	12.0	False	False	state:blastomere
+presomitic_mesoderm	bud	TDGF1	1	2	2	12.0	False	False	forebrain_eye;neural_plate
+presomitic_mesoderm	bud	SOX2	1	2	2	11.0	False	False	forebrain_eye
+presomitic_mesoderm	bud	SOX4A	1	2	2	11.0	False	False	forebrain_eye
+presomitic_mesoderm	bud	TWIST2	1	2	2	11.0	False	False	axial_mesoderm;dorsal_organizer;notochord
+presomitic_mesoderm	bud	NOTO	1	2	2	10.0	False	False	axial_mesoderm;dorsal_organizer
+presomitic_mesoderm	bud	SHISA2	1	2	2	10.0	False	False	midbrain_hindbrain_boundary;neural_plate
+presomitic_mesoderm	bud	TFAP2A	1	2	2	10.0	False	False	neural_crest;non_neural_ectoderm
+presomitic_mesoderm	3-somite	FSTL1A	1	1	0	11.0	False	False	adaxial_somite
+presomitic_mesoderm	6-somite	APOC1	2	2	2	37.0	True	False	
+presomitic_mesoderm	6-somite	MSGN1	1	2	2	45.0	True	False	margin;presomitic_mesoderm
+presomitic_mesoderm	6-somite	HSPB1	1	2	2	26.0	False	False	neural_plate
+presomitic_mesoderm	6-somite	CDX4	1	2	2	22.0	True	False	margin
+presomitic_mesoderm	6-somite	RIPPLY1	1	2	2	22.0	False	False	adaxial_somite;margin;presomitic_mesoderm
+presomitic_mesoderm	6-somite	TBX16	1	2	2	19.0	False	False	margin;mesoderm;presomitic_mesoderm
+presomitic_mesoderm	6-somite	RIPPLY2	1	2	2	18.0	False	False	adaxial_somite;presomitic_mesoderm
+presomitic_mesoderm	6-somite	MYOD1	1	2	2	17.0	False	False	adaxial_somite;mesoderm;presomitic_mesoderm
+presomitic_mesoderm	6-somite	APOEB	1	2	2	15.0	True	False	control:YSL
+presomitic_mesoderm	6-somite	TOB1A	1	2	2	15.0	False	False	axial_mesoderm;margin
+presomitic_mesoderm	6-somite	MESPAB	1	2	2	14.0	False	False	margin;mesoderm;presomitic_mesoderm
+presomitic_mesoderm	6-somite	FOSAB	1	2	2	13.0	True	True	control:dissociation
+presomitic_mesoderm	6-somite	VED	1	2	2	13.0	True	False	adaxial_somite;margin;mesoderm
+presomitic_mesoderm	6-somite	HER7	1	2	2	12.0	False	False	margin;mesoderm;presomitic_mesoderm
+presomitic_mesoderm	6-somite	MESPBA	1	2	2	12.0	False	False	presomitic_mesoderm
+presomitic_mesoderm	6-somite	ALPI.1	1	2	2	11.0	False	False	adaxial_somite
+presomitic_mesoderm	6-somite	H1FX	1	2	2	11.0	False	False	
+presomitic_mesoderm	6-somite	HER2	1	2	2	11.0	False	False	hindbrain;neural_plate
+presomitic_mesoderm	6-somite	HER6	1	2	2	11.0	False	False	neural_plate
+presomitic_mesoderm	6-somite	MESPBB	1	2	2	11.0	False	False	presomitic_mesoderm
+state:blastomere	60% epiboly	APOC1	1	1	1	27.0	True	False	
+state:blastomere	60% epiboly	VED	1	1	1	20.0	True	False	adaxial_somite;margin;mesoderm
+state:blastomere	60% epiboly	CDX4	1	1	1	16.0	True	False	margin
+state:blastomere	60% epiboly	HSPB1	1	1	1	16.0	False	False	neural_plate
+state:blastomere	60% epiboly	RRM2	1	1	1	14.0	False	True	state:cell_cycle_s
+state:blastomere	60% epiboly	ZGC:110425	1	1	1	13.0	True	False	
+state:blastomere	60% epiboly	APOEB	1	1	1	12.0	True	False	control:YSL
+state:blastomere	60% epiboly	DLX3B	1	1	1	12.0	False	False	neural_plate;placodes
+state:blastomere	60% epiboly	HER3	1	1	1	12.0	False	False	midbrain_hindbrain_boundary;neural_plate
+state:blastomere	60% epiboly	MALAT1	1	1	1	12.0	False	False	
+state:blastomere	60% epiboly	EVE1	1	1	1	11.0	False	False	margin;mesoderm
+state:blastomere	60% epiboly	HISTH1L	1	1	1	10.0	True	False	
+state:blastomere	60% epiboly	NOTO	1	1	1	10.0	False	False	axial_mesoderm;dorsal_organizer
+state:blastomere	60% epiboly	TA	1	1	1	10.0	False	False	axial_mesoderm;margin;notochord
+state:blastomere	60% epiboly	TDGF1	1	1	1	10.0	False	False	forebrain_eye;neural_plate
+state:blastomere	75% epiboly	APOC1	3	3	3	31.0	True	False	
+state:blastomere	75% epiboly	APOEB	3	3	3	30.0	True	False	control:YSL
+state:blastomere	75% epiboly	CDX4	3	3	3	18.0	True	False	margin
+state:blastomere	75% epiboly	VED	3	3	3	17.0	True	False	adaxial_somite;margin;mesoderm
+state:blastomere	75% epiboly	HSPB1	2	3	3	19.5	False	False	neural_plate
+state:blastomere	75% epiboly	NOTO	2	3	3	15.0	False	False	axial_mesoderm;dorsal_organizer
+state:blastomere	75% epiboly	IRX7	2	3	3	14.0	True	False	hindbrain;neural_plate
+state:blastomere	75% epiboly	HISTH1L	2	3	3	13.5	True	False	
+state:blastomere	75% epiboly	ADMP	2	3	3	13.0	False	False	sending:BMP_organizer
+state:blastomere	75% epiboly	HER3	2	3	3	13.0	False	False	midbrain_hindbrain_boundary;neural_plate
+state:blastomere	75% epiboly	VOX	2	3	3	13.0	False	False	margin;tailbud
+state:blastomere	75% epiboly	MARCKSL1B	2	3	3	12.5	True	False	
+state:blastomere	75% epiboly	CHD	2	3	3	12.0	False	False	blocking:BMP
+state:blastomere	75% epiboly	FOXD3	2	3	3	12.0	False	False	neural_crest
+state:blastomere	75% epiboly	BAMBIA	2	3	3	11.5	False	False	signal:BMP
+state:blastomere	90% epiboly	CDX4	2	2	1	30.5	True	False	margin
+state:blastomere	90% epiboly	IRX7	2	2	1	17.5	True	False	hindbrain;neural_plate
+state:blastomere	90% epiboly	HSPB1	1	2	1	25.0	False	False	neural_plate
+state:blastomere	90% epiboly	APOC1	1	2	1	24.0	True	False	
+state:blastomere	90% epiboly	SI:CH73-281N10.2	1	2	1	22.0	False	False	
+state:blastomere	90% epiboly	ZGC:110425	1	2	1	22.0	True	False	
+state:blastomere	90% epiboly	APOEB	1	2	1	20.0	True	False	control:YSL
+state:blastomere	90% epiboly	HER3	1	2	1	16.0	False	False	midbrain_hindbrain_boundary;neural_plate
+state:blastomere	90% epiboly	NKX1.2LA	1	2	1	16.0	False	False	neural_plate
+state:blastomere	90% epiboly	NOTO	1	2	1	15.0	False	False	axial_mesoderm;dorsal_organizer
+state:blastomere	90% epiboly	FOSAB	1	2	1	14.0	True	True	control:dissociation
+state:blastomere	90% epiboly	MSX1B	1	2	1	13.0	False	False	signal:BMP
+state:blastomere	90% epiboly	NKX6.1	1	2	1	13.0	False	False	endoderm
+state:blastomere	90% epiboly	OLIG4	1	2	1	13.0	False	False	hindbrain
+state:blastomere	90% epiboly	CDH11	1	2	1	12.0	False	False	
+state:blastomere	90% epiboly	OLIG2	1	2	1	12.0	False	False	forebrain_eye;neural_plate
+state:blastomere	90% epiboly	PHOX2A	1	2	1	12.0	False	False	midbrain_hindbrain_boundary
+state:blastomere	90% epiboly	OLIG3	1	2	1	10.0	False	False	hindbrain
+state:blastomere	90% epiboly	PRDM8	1	2	1	10.0	False	False	
+state:blastomere	bud	CDX4	1	1	1	34.0	True	False	margin
+state:blastomere	bud	APOC1	1	1	1	15.0	True	False	
+state:blastomere	bud	IRX7	1	1	1	13.0	True	False	hindbrain;neural_plate
+state:blastomere	bud	OLIG3	1	1	1	10.0	False	False	hindbrain
+state:blastomere	6-somite	CDX4	1	2	0	24.0	True	False	margin
+tailbud	bud	APOC1	1	1	1	38.0	True	False	
+tailbud	bud	TBX16	1	1	1	24.0	False	False	margin;mesoderm;presomitic_mesoderm
+tailbud	bud	MSGN1	1	1	1	22.0	True	False	margin;presomitic_mesoderm
+tailbud	bud	HER3	1	1	1	18.0	False	False	midbrain_hindbrain_boundary;neural_plate
+tailbud	6-somite	TBX16	1	1	0	15.0	False	False	margin;mesoderm;presomitic_mesoderm
+tailbud	6-somite	AKAP12B	1	1	0	11.0	False	False	neural_plate
+tailbud	6-somite	DLA	1	1	0	10.0	False	False	sending:Notch

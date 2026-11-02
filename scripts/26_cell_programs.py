@@ -133,7 +133,7 @@ YOLK_GENES = ["APOA1A", "APOA1B", "APOA2", "APOA4B.1", "APOBB.1", "AFP4", "ITIH2
 YOLK_MIN = 3  # yolk genes detected, at least, to count a cell as yolk-like
 EXCLUDE_MARGIN = 2.0
 ONSET_SHARE = 0.01  # on top in this share of the cells (median library): the program has started
-MIN_LOST = 10  # active-but-not-top cells of a library, at least, for the winner shares
+MIN_LOST = 10  # active (and active-but-not-top) cells of a library, at least, for winner shares
 RELATIONS = ["descendant", "ancestor", "sibling", "unrelated"]
 MARGIN_BINS = [0, 1, 2, 3, 5, np.inf]
 MARGIN_LEVELS = (1, 3)  # shares of cells with margins below / above (figure)
@@ -499,32 +499,41 @@ def relation(winner: str, program: str, anc: dict) -> str:
 
 
 def winners(cells, active, programs, support, anc) -> pd.DataFrame:
-    """For every identity program and stage: in the kept cells in which it is
-    active but not on top, which program is on top, by its relation to it
-    (descendant, ancestor, sibling = a common ancestor other than the maternal
-    and blastomere states, from which every lineage derives; unrelated); shares per
-    library (libraries with at least MIN_LOST such cells), median over the
-    stage's libraries, and the most frequent winners (pooled)."""
+    """For every identity program and stage, which program is on top in the
+    kept cells in which it is active: itself, or a descendant, an ancestor, a
+    sibling (a common ancestor other than the maternal and blastomere states,
+    from which every lineage derives) or an unrelated program.
+      of_active_*: shares of all its active cells (libraries with at least
+        MIN_LOST active cells, mean over the stage's libraries: they add up to 1);
+      descendant ... unrelated: shares of the active cells in which it is not
+        on top (libraries with at least MIN_LOST such cells, median);
+      not_top: median share of the active cells in which it is not on top;
+      winners: the most frequent winners (pooled over the libraries)."""
     kept = cells[cells["excluded"] == ""]
     rows = []
     for stage, cs in kept.groupby("stage", sort=False):
         for p in stage_programs(programs, support, stage)["identity"]:
-            per_lib, pooled = [], []
+            split, cond, pooled = [], [], []
             for lib, c in cs.groupby("library"):
                 on = active.loc[c.index, p] == 1
+                if on.sum() < MIN_LOST:
+                    continue
+                kind = c.loc[on, "top"].map(lambda w: "itself" if w == p else relation(w, p, anc))
+                split.append({k: (kind == k).mean() for k in ["itself"] + RELATIONS})
                 lost = c.loc[on & (c["top"] != p), "top"]
                 pooled.append(lost)
                 if len(lost) >= MIN_LOST:
-                    kind = lost.map(lambda w: relation(w, p, anc))
-                    per_lib.append(dict(lost=len(lost) / on.sum(), **{
-                        k: (kind == k).mean() for k in RELATIONS}))
-            lost = pd.concat(pooled)
-            if not per_lib:
+                    cond.append({k: (kind[kind != "itself"] == k).mean() for k in RELATIONS})
+            if not split:
                 continue
-            med = pd.DataFrame(per_lib).median()
+            lost = pd.concat(pooled)
+            mean = pd.DataFrame(split).mean()
+            med = pd.DataFrame(cond).median() if cond else pd.Series(np.nan, index=RELATIONS)
             top = lost.value_counts(normalize=True).head(3)
-            rows.append(dict(stage=stage, program=p, libraries=len(per_lib), cells=len(lost),
-                             not_top=med["lost"], **{k: med[k] for k in RELATIONS},
+            rows.append(dict(stage=stage, program=p, libraries=len(split), cells=len(lost),
+                             not_top=1 - pd.DataFrame(split)["itself"].median(),
+                             **{f"of_active_{k}": mean[k] for k in ["itself"] + RELATIONS},
+                             **{k: med[k] for k in RELATIONS},
                              winners=", ".join(f"{w} {x:.0%}" for w, x in top.items())))
     return pd.DataFrame(rows)
 
@@ -655,44 +664,61 @@ def program_order(names) -> list[str]:
 
 
 def fig_top(table: pd.DataFrame) -> None:
+    """Heatmap: share of the cells with a program on top (median library), the
+    value printed from 1%; hatched: not supported at the stage; box: the ZFIN
+    window. (How often a program wins its active cells: fig_winners.)"""
+    from matplotlib.colors import PowerNorm
     progs = program_order(table["program"].unique())
-    fig, ax = plt.subplots(figsize=(REPORT_WIDTH_IN, 0.13 * len(progs) + 1.0),
+    share = table.pivot(index="program", columns="stage", values="top").reindex(
+        index=progs, columns=STAGES)
+    sup = table.pivot(index="program", columns="stage", values="supported").reindex(
+        index=progs, columns=STAGES)
+    fig, ax = plt.subplots(figsize=(REPORT_WIDTH_IN, 0.16 * len(progs) + 1.1),
                            constrained_layout=True)
-    x = table["stage"].map({s: k for k, s in enumerate(STAGES)})
-    y = table["program"].map({p: k for k, p in enumerate(progs)})
+    im = ax.imshow(share.to_numpy(dtype=float), cmap="Blues", aspect="auto",
+                   norm=PowerNorm(0.5, vmin=0, vmax=0.3), interpolation="none")
+    for i, p in enumerate(progs):
+        for j, st in enumerate(STAGES):
+            v = share.iloc[i, j]
+            if pd.isna(v):
+                continue
+            if sup.iloc[i, j] is False or sup.iloc[i, j] == False:  # noqa: E712
+                ax.add_patch(plt.Rectangle((j - 0.5, i - 0.5), 1, 1, fill=False, hatch="////",
+                                           edgecolor="#C8C8C8", linewidth=0))
+            if v >= ONSET_SHARE:
+                ax.text(j, i, f"{100 * v:.0f}", ha="center", va="center", fontsize=5,
+                        color="white" if v > 0.12 else "black")
     win = pd.read_csv(ZFIN_WINDOWS, sep="\t").set_index("program")
-    for k, p in enumerate(progs):
+    for i, p in enumerate(progs):
         if p in win.index:
             a, b = STAGES.index(win.loc[p, "first"]), STAGES.index(win.loc[p, "last"])
-            ax.add_patch(plt.Rectangle((a - 0.45, k - 0.42), b - a + 0.9, 0.84, fill=False,
-                                       edgecolor="#BBBBBB", linewidth=0.6, zorder=0))
-    sup = table["supported"].astype(bool).to_numpy()
-    sc_ = ax.scatter(x, y, s=400 * table["top"].clip(upper=0.5), c=table["top_of_active"],
-                     cmap="viridis", vmin=0, vmax=1, linewidths=np.where(sup, 0, 0.7),
-                     edgecolors="black")
-    ax.scatter(x[sup], y[sup], s=4, facecolors="none", edgecolors="#999999", linewidths=0.4)
+            ax.add_patch(plt.Rectangle((a - 0.5, i - 0.5), b - a + 1, 1, fill=False,
+                                       edgecolor="#D55E00", linewidth=0.9))
     ax.set_xticks(range(len(STAGES)), STAGES, rotation=45, ha="right")
     ax.set_yticks(range(len(progs)), [p.removeprefix("state:").replace("_", " ") for p in progs])
-    ax.set_ylim(len(progs) - 0.5, -0.5)
-    ax.set_xlim(-0.5, len(STAGES) - 0.5)
-    fig.colorbar(sc_, ax=ax, shrink=0.4, label="share of its active cells\nwith it on top")
-    for share in (0.05, 0.2, 0.5):
-        ax.scatter([], [], s=400 * share, c="#777777", label=f"{share:.0%}")
-    ax.scatter([], [], s=400 * 0.2, c="#777777", edgecolors="black", linewidths=0.7,
-               label="not supported")
-    ax.legend(title="cells with it\non top", frameon=False, loc="upper left",
-              bbox_to_anchor=(1.0, 0.35), labelspacing=1.2)
+    ax.tick_params(length=0)
+    for side in ax.spines.values():
+        side.set_visible(False)
+    cb = fig.colorbar(im, ax=ax, shrink=0.35, ticks=[0, 0.01, 0.05, 0.1, 0.2, 0.3])
+    cb.ax.set_yticklabels(["0", "1%", "5%", "10%", "20%", "≥30%"])
+    cb.set_label("cells with it on top")
+    handles = [plt.Rectangle((0, 0), 1, 1, fill=False, edgecolor="#D55E00", linewidth=0.9,
+                             label="ZFIN window"),
+               plt.Rectangle((0, 0), 1, 1, fill=False, hatch="////", edgecolor="#C8C8C8",
+                             linewidth=0, label="not supported")]
+    fig.legend(handles=handles, loc="outside lower center", ncol=2, frameon=False)
     save_report_figure(fig, "cell_programs_top")
     plt.close(fig)
 
 
-RELATION_COLOURS = {"descendant": "#0072B2", "ancestor": "#56B4E9", "sibling": "#E69F00",
-                    "unrelated": "#BBBBBB"}
+RELATION_COLOURS = {"itself": "#009E73", "descendant": "#0072B2", "ancestor": "#56B4E9",
+                    "sibling": "#E69F00", "unrelated": "#BBBBBB"}
 
 
 def fig_winners(w: pd.DataFrame) -> None:
-    """Per program and stage (from shield on): the share of its active cells
-    in which it is not on top (bar length), split by how the winner relates to it."""
+    """Per program and stage (from shield on): which program is on top in its
+    active cells, itself or one related to it in a given way (bars add up to 1;
+    no bar: fewer than MIN_LOST active cells in every library)."""
     w = w[w["stage"].isin(STAGES[STAGES.index("shield"):])]
     progs = program_order(w["program"].unique())
     stages = [s for s in STAGES if s in set(w["stage"])]
@@ -701,10 +727,10 @@ def fig_winners(w: pd.DataFrame) -> None:
     for ax, stage in zip(axes, stages):
         d = w[w["stage"] == stage].set_index("program").reindex(progs)
         left = np.zeros(len(progs))
-        for k in RELATIONS:
-            v = (d[k] * d["not_top"]).fillna(0).to_numpy()
+        for k in ["itself"] + RELATIONS:
+            v = d[f"of_active_{k}"].fillna(0).to_numpy()
             ax.barh(range(len(progs)), v, left=left, color=RELATION_COLOURS[k], height=0.75,
-                    label=k)
+                    label=k if k == "itself" else f"a {k}")
             left += v
         ax.set_xlim(0, 1)
         ax.set_xticks([0, 1], ["0", "1"])
@@ -713,8 +739,8 @@ def fig_winners(w: pd.DataFrame) -> None:
     axes[0].set_yticks(range(len(progs)),
                        [p.removeprefix("state:").replace("_", " ") for p in progs])
     axes[0].set_ylim(len(progs) - 0.5, -0.5)
-    fig.supxlabel("share of the active cells in which the program is not on top", fontsize=7)
-    axes[-1].legend(title="top program is a", frameon=False, loc="upper left",
+    fig.supxlabel("share of the cells in which the program is active", fontsize=7)
+    axes[-1].legend(title="on top:", frameon=False, loc="upper left",
                     bbox_to_anchor=(1.0, 1.0))
     save_report_figure(fig, "cell_programs_winners")
     plt.close(fig)

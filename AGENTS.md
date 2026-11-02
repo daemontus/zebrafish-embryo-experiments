@@ -100,6 +100,7 @@ coherence part only); delete the cache directory to start over.
 | `24_program_overview.py` | report figures and tables: curated-program timeline (heterogeneous genes per stage vs the ZFIN window, derivations as indentation and arrows), programs per stage of the sets, Farrell modules named by the curated programs, the curated program table (from `data/curated/curated_programs.tsv`), the signalling evidence table and the genes removed to make the curated programs disjoint; the relative-coherence map in the rows of the timeline | 01b, 16, 17 | seconds | |
 | `25_program_pseudobulk.py` | pseudobulk program strength per library (mean gene level relative to its peak, CP10k; the only library-level measure), in the layout of the timeline of 24 (squares) | 16, 24 | ~1 min | |
 | `26_cell_programs.py` | per cell: all identity programs (supported or not) against their own permutation null (z, active), random gene sets as chance level, the top program and its margin, split-half reliability, which program wins where one is active but not on top (descendant/ancestor/sibling/unrelated); stress cells excluded (p53, dissociation, heat shock on top with margin >= 2); YSL/yolk and quality checks (nothing excluded); aligned stage UMAPs; per-program UMAPs of its active cells over all stages (`cell_programs_trajectories.pdf`); top programs vs the ZFIN windows (`cell_programs_zfin*.tsv`) | 16, 17 | cold ~30 min; cached runs ~2 min | `plot`; cache `cache/26` |
+| `28_population_heterogeneity.py` | heterogeneous genes (01b's test) within top-program populations (one library, >= 100 cells) vs as many random cells of the library; calls count with >= 10 driver cells (residual > 3); power from the control (recovered share of the library's strong genes detectable at that size; < 5 detectable = inconclusive); ubiquitous genes (>= 1/4 of conclusive populations, >= 4 programs) | 01b, 26 | ~30 min cold (8 workers); cached seconds | `plot`; cache `cache/28` |
 
 Shared modules:
 - `pipeline_utils.py`: paths, stages and batches, plot style,
@@ -123,7 +124,7 @@ Report sections: 3 dataset (01), 4 heterogeneous genes (01b–01d),
 5 a/b libraries (02, 03), 6 alignment (15), 7 programs: sets, structure,
 pseudobulk (16, 24, 25), 8 programs vs cells: support, prediction, levels
 (17, 22; the coherence map is drawn by 24), 9 programs and signals (21), 10 cells and
-populations (26; populations still to come). 19 and 23 are exploration only.
+populations (26, 28; populations still to come). 19 and 23 are exploration only.
 
 ## Conventions and conclusions that affect downstream work
 
@@ -202,6 +203,13 @@ populations (26; populations still to come). 19 and 23 are exploration only.
   cells; only stress cells (p53/dissociation/heat shock on top, margin >= 2)
   are excluded. The YSL control is not YSL (yolk-specific genes are nearly
   absent); doublets and low-quality cells need no filter beyond GEO's.
+- **Top-program populations** (28) are largely homogeneous (median 0.19x the
+  heterogeneous genes of random cells, in the 71 of 93 populations with power;
+  small somite-stage populations are inconclusive); in groups of ~100
+  cells a third of 01b's calls are carried by <= 3 cells, so count only calls
+  with >= 10 driver cells. Ubiquitous genes: generic (apoc1, apoeb, histh1l,
+  zgc:110425, marcksl1b, fosab; also h1f0, h1fx, malat1, hspb1) and positional
+  (cdx4, ved, irx7, msgn1); ignore them when describing populations.
 - **Signalling readouts**: Hedgehog readouts are never heterogeneous; the RA
   readouts (cyp26a1, dhrs3a) do not measure RA activity well (cyp26a1 is used
   as RA blocking; dhrs3b was dropped: no evidence); nkd1 and nrarpb

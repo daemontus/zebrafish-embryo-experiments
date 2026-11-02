@@ -1,242 +1,260 @@
-stage	program	libraries	cells	not_top	descendant	ancestor	sibling	unrelated	winners
-dome	PGC	1	26	0.388	0.000	0.000	0.000	1.000	margin 81%, dorsal_organizer 19%
-dome	adaxial_somite	1	56	1.000	0.000	0.393	0.000	0.607	EVL 61%, margin 38%, mesoderm 2%
-dome	axial_mesoderm	1	124	0.992	0.000	0.653	0.000	0.347	margin 55%, EVL 35%, dorsal_organizer 10%
-dome	dorsal_forerunner	1	44	1.000	0.000	0.977	0.000	0.023	EVL 98%, dorsal_organizer 2%
-dome	dorsal_organizer	1	67	0.770	0.000	0.940	0.000	0.060	margin 94%, PGC 4%, EVL 1%
-dome	endoderm	1	62	1.000	0.000	0.823	0.129	0.048	margin 82%, dorsal_organizer 13%, EVL 5%
-dome	forebrain_eye	1	40	1.000	0.000	0.000	0.000	1.000	EVL 90%, margin 10%
-dome	hatching_gland	1	49	1.000	0.000	0.041	0.000	0.959	EVL 96%, margin 4%
-dome	intermediate_mesoderm	1	64	1.000	0.000	0.297	0.047	0.656	EVL 66%, margin 30%, dorsal_organizer 5%
-dome	lateral_plate	1	11	1.000	0.000	1.000	0.000	0.000	margin 100%
-dome	margin	1	41	0.339	0.317	0.000	0.000	0.683	EVL 68%, dorsal_organizer 29%, mesoderm 2%
-dome	mesoderm	1	76	0.950	0.000	0.987	0.013	0.000	margin 99%, dorsal_organizer 1%
-dome	neural_crest	1	42	0.977	0.000	0.000	0.000	1.000	EVL 100%
-dome	neural_plate	1	32	1.000	0.000	0.000	0.000	1.000	EVL 78%, margin 19%, dorsal_organizer 3%
-dome	non_neural_ectoderm	1	48	1.000	0.000	0.000	0.000	1.000	EVL 100%
-dome	notochord	1	56	1.000	0.000	0.286	0.000	0.714	EVL 71%, margin 23%, dorsal_organizer 5%
-dome	placodes	1	28	1.000	0.000	0.000	0.000	1.000	EVL 100%
-dome	prechordal_plate	1	37	1.000	0.000	0.703	0.000	0.297	margin 54%, EVL 30%, dorsal_organizer 16%
-dome	presomitic_mesoderm	1	107	1.000	0.000	0.589	0.065	0.346	margin 59%, EVL 35%, dorsal_organizer 7%
-dome	tailbud	1	10	0.909	0.000	1.000	0.000	0.000	margin 100%
-30% epiboly	PGC	1	16	0.519	0.000	0.000	0.000	1.000	margin 69%, dorsal_organizer 31%
-30% epiboly	adaxial_somite	2	122	0.945	0.000	0.675	0.043	0.282	margin 67%, EVL 24%, dorsal_organizer 6%
-30% epiboly	axial_mesoderm	2	143	0.954	0.005	0.769	0.010	0.216	margin 66%, EVL 20%, dorsal_organizer 11%
-30% epiboly	dorsal_forerunner	2	39	0.980	0.000	0.850	0.000	0.150	EVL 85%, margin 10%, dorsal_organizer 5%
-30% epiboly	dorsal_organizer	2	68	0.734	0.022	0.978	0.000	0.000	margin 97%, axial_mesoderm 3%
-30% epiboly	endoderm	2	139	1.000	0.000	0.903	0.081	0.016	margin 88%, dorsal_organizer 10%, EVL 1%
-30% epiboly	forebrain_eye	2	34	0.944	0.000	0.000	0.000	1.000	EVL 79%, dorsal_organizer 15%, margin 6%
-30% epiboly	hatching_gland	2	47	1.000	0.000	0.167	0.000	0.833	EVL 77%, dorsal_organizer 17%, margin 6%
-30% epiboly	hindbrain	1	46	0.952	0.000	0.000	0.000	1.000	margin 76%, adaxial_somite 17%, dorsal_organizer 7%
-30% epiboly	intermediate_mesoderm	2	103	1.000	0.000	0.617	0.049	0.335	margin 63%, EVL 30%, dorsal_organizer 7%
-30% epiboly	lateral_plate	2	58	1.000	0.000	0.935	0.000	0.065	margin 90%, EVL 10%
-30% epiboly	margin	1	26	0.155	0.739	0.000	0.000	0.261	dorsal_organizer 58%, EVL 27%, presomitic_mesoderm 8%
-30% epiboly	mesoderm	2	165	0.988	0.016	0.948	0.036	0.000	margin 92%, dorsal_organizer 5%, presomitic_mesoderm 1%
-30% epiboly	neural_crest	2	30	0.974	0.000	0.000	0.000	1.000	EVL 100%
-30% epiboly	neural_plate	2	78	1.000	0.000	0.000	0.000	1.000	margin 60%, EVL 28%, dorsal_organizer 12%
-30% epiboly	non_neural_ectoderm	2	30	1.000	0.000	0.000	0.000	1.000	EVL 100%
-30% epiboly	notochord	2	85	0.991	0.000	0.641	0.009	0.350	margin 48%, EVL 34%, dorsal_organizer 15%
-30% epiboly	placodes	2	29	0.958	0.000	0.000	0.000	1.000	EVL 100%
-30% epiboly	prechordal_plate	2	92	1.000	0.000	0.651	0.000	0.349	margin 54%, EVL 33%, dorsal_organizer 13%
-30% epiboly	presomitic_mesoderm	2	172	0.988	0.000	0.760	0.047	0.193	margin 76%, EVL 17%, dorsal_organizer 7%
-30% epiboly	state:maternal	2	29	0.645	1.000	0.000	0.000	0.000	margin 69%, dorsal_organizer 17%, PGC 14%
-30% epiboly	tailbud	2	58	1.000	0.000	1.000	0.000	0.000	margin 100%
-50% epiboly	PGC	3	62	0.778	0.000	0.000	0.000	1.000	margin 97%, state:maternal 2%, axial_mesoderm 2%
-50% epiboly	adaxial_somite	4	680	1.000	0.000	0.681	0.173	0.122	margin 57%, dorsal_organizer 15%, EVL 14%
-50% epiboly	axial_mesoderm	4	762	0.948	0.000	0.820	0.017	0.158	margin 61%, dorsal_organizer 21%, EVL 14%
-50% epiboly	dorsal_forerunner	4	125	1.000	0.000	0.956	0.000	0.044	EVL 95%, dorsal_organizer 3%, margin 1%
-50% epiboly	dorsal_organizer	4	363	0.668	0.045	0.897	0.046	0.010	margin 79%, presomitic_mesoderm 8%, axial_mesoderm 6%
-50% epiboly	endoderm	4	668	0.991	0.000	0.753	0.244	0.003	margin 69%, dorsal_organizer 21%, presomitic_mesoderm 6%
-50% epiboly	forebrain_eye	4	217	0.982	0.000	0.000	0.009	0.991	EVL 41%, dorsal_organizer 40%, margin 16%
-50% epiboly	hatching_gland	4	255	1.000	0.000	0.530	0.007	0.463	EVL 47%, dorsal_organizer 43%, margin 9%
-50% epiboly	heart	3	58	1.000	0.000	0.222	0.000	0.778	EVL 40%, margin 38%, endoderm 17%
-50% epiboly	hindbrain	4	322	1.000	0.000	0.000	0.000	1.000	margin 62%, dorsal_organizer 24%, presomitic_mesoderm 8%
-50% epiboly	intermediate_mesoderm	4	467	1.000	0.000	0.562	0.209	0.256	margin 54%, EVL 24%, dorsal_organizer 15%
-50% epiboly	lateral_plate	4	385	1.000	0.000	0.722	0.204	0.050	margin 64%, dorsal_organizer 16%, EVL 6%
-50% epiboly	margin	4	275	0.215	0.964	0.000	0.000	0.036	dorsal_organizer 53%, presomitic_mesoderm 16%, mesoderm 14%
-50% epiboly	mesoderm	4	880	0.972	0.014	0.864	0.110	0.007	margin 81%, dorsal_organizer 11%, presomitic_mesoderm 5%
-50% epiboly	midbrain_hindbrain_boundary	4	189	0.849	0.000	0.034	0.000	0.966	dorsal_organizer 48%, margin 40%, presomitic_mesoderm 4%
-50% epiboly	neural_crest	4	107	0.986	0.000	0.000	0.000	1.000	EVL 100%
-50% epiboly	neural_plate	4	431	0.969	0.017	0.000	0.000	0.983	margin 45%, dorsal_organizer 23%, EVL 20%
-50% epiboly	non_neural_ectoderm	4	111	0.973	0.000	0.000	0.000	1.000	EVL 99%, placodes 1%
-50% epiboly	notochord	4	445	1.000	0.000	0.712	0.015	0.273	margin 44%, EVL 26%, dorsal_organizer 25%
-50% epiboly	placodes	4	109	0.930	0.000	0.000	0.000	1.000	EVL 98%, state:blastomere 1%, non_neural_ectoderm 1%
-50% epiboly	prechordal_plate	4	405	1.000	0.000	0.676	0.010	0.255	margin 39%, dorsal_organizer 29%, EVL 27%
-50% epiboly	presomitic_mesoderm	4	838	0.985	0.000	0.742	0.150	0.089	margin 69%, dorsal_organizer 15%, EVL 9%
-50% epiboly	primary_neurons	4	80	0.941	0.000	0.000	0.000	1.000	EVL 100%
-50% epiboly	state:maternal	4	185	0.641	1.000	0.000	0.000	0.000	margin 54%, dorsal_organizer 32%, PGC 7%
-50% epiboly	tailbud	4	530	0.997	0.000	0.960	0.040	0.000	margin 87%, presomitic_mesoderm 6%, mesoderm 4%
-shield	adaxial_somite	1	154	1.000	0.000	0.734	0.240	0.026	presomitic_mesoderm 32%, mesoderm 24%, margin 18%
-shield	axial_mesoderm	1	107	0.930	0.019	0.692	0.234	0.056	margin 36%, dorsal_organizer 33%, presomitic_mesoderm 19%
-shield	dorsal_organizer	1	28	0.424	0.107	0.179	0.643	0.071	endoderm 36%, margin 18%, presomitic_mesoderm 18%
-shield	endoderm	1	81	0.871	0.000	0.235	0.741	0.025	dorsal_organizer 37%, margin 23%, mesoderm 20%
-shield	forebrain_eye	1	27	0.458	0.000	0.111	0.074	0.815	dorsal_organizer 78%, neural_plate 11%, midbrain_hindbrain_boundary 7%
-shield	hatching_gland	1	41	1.000	0.000	0.732	0.049	0.220	dorsal_organizer 73%, EVL 22%, axial_mesoderm 2%
-shield	hindbrain	1	21	1.000	0.000	0.000	0.000	1.000	presomitic_mesoderm 43%, margin 19%, mesoderm 19%
-shield	intermediate_mesoderm	1	61	1.000	0.000	0.230	0.672	0.098	dorsal_organizer 34%, presomitic_mesoderm 33%, margin 13%
-shield	lateral_plate	1	52	1.000	0.000	0.423	0.577	0.000	mesoderm 29%, dorsal_organizer 29%, endoderm 15%
-shield	margin	1	145	0.602	0.993	0.000	0.000	0.007	presomitic_mesoderm 36%, mesoderm 29%, dorsal_organizer 22%
-shield	mesoderm	1	159	0.779	0.327	0.465	0.208	0.000	margin 47%, presomitic_mesoderm 33%, dorsal_organizer 14%
-shield	midbrain_hindbrain_boundary	1	36	0.590	0.000	0.083	0.083	0.833	dorsal_organizer 72%, neural_plate 8%, forebrain_eye 8%
-shield	neural_plate	1	43	0.811	0.256	0.000	0.000	0.744	dorsal_organizer 56%, forebrain_eye 16%, midbrain_hindbrain_boundary 9%
-shield	notochord	1	87	0.967	0.000	0.690	0.207	0.103	dorsal_organizer 41%, margin 22%, presomitic_mesoderm 11%
-shield	placodes	1	12	0.500	0.000	0.417	0.000	0.583	EVL 58%, non_neural_ectoderm 42%
-shield	prechordal_plate	1	46	1.000	0.000	0.630	0.217	0.152	dorsal_organizer 61%, EVL 15%, endoderm 13%
-shield	presomitic_mesoderm	1	133	0.719	0.000	0.707	0.293	0.000	margin 40%, mesoderm 31%, dorsal_organizer 21%
-shield	state:maternal	1	25	0.962	1.000	0.000	0.000	0.000	dorsal_organizer 92%, margin 4%, presomitic_mesoderm 4%
-shield	tailbud	1	113	1.000	0.000	0.354	0.646	0.000	margin 35%, presomitic_mesoderm 35%, mesoderm 24%
-60% epiboly	EVL	3	78	0.828	0.000	0.000	0.000	1.000	hatching_gland 77%, endoderm 13%, mesoderm 4%
-60% epiboly	PGC	1	28	0.941	0.000	0.000	0.000	1.000	mesoderm 32%, EVL 21%, endoderm 14%
-60% epiboly	adaxial_somite	3	805	1.000	0.000	0.772	0.221	0.007	presomitic_mesoderm 36%, mesoderm 32%, hatching_gland 12%
-60% epiboly	axial_mesoderm	3	595	0.907	0.004	0.502	0.473	0.000	margin 29%, presomitic_mesoderm 28%, dorsal_organizer 19%
-60% epiboly	dorsal_forerunner	3	160	0.921	0.000	0.121	0.000	0.879	endoderm 84%, state:blastomere 8%, EVL 2%
-60% epiboly	dorsal_organizer	3	278	0.731	0.579	0.000	0.368	0.021	hatching_gland 37%, presomitic_mesoderm 22%, axial_mesoderm 15%
-60% epiboly	endoderm	3	318	0.608	0.000	0.000	0.994	0.000	dorsal_organizer 34%, hatching_gland 30%, mesoderm 21%
-60% epiboly	forebrain_eye	3	270	0.411	0.000	0.038	0.395	0.500	midbrain_hindbrain_boundary 47%, hatching_gland 37%, dorsal_organizer 9%
-60% epiboly	hatching_gland	3	143	0.582	0.000	0.729	0.203	0.068	dorsal_organizer 71%, endoderm 8%, axial_mesoderm 6%
-60% epiboly	hindbrain	3	80	0.955	0.000	0.000	0.020	0.980	mesoderm 36%, presomitic_mesoderm 22%, hatching_gland 15%
-60% epiboly	intermediate_mesoderm	3	224	1.000	0.000	0.242	0.727	0.053	hatching_gland 35%, mesoderm 25%, presomitic_mesoderm 16%
-60% epiboly	lateral_plate	3	394	1.000	0.000	0.521	0.462	0.007	mesoderm 49%, endoderm 22%, presomitic_mesoderm 11%
-60% epiboly	margin	3	1024	0.761	0.992	0.000	0.000	0.008	presomitic_mesoderm 29%, mesoderm 28%, endoderm 15%
-60% epiboly	mesoderm	3	713	0.724	0.403	0.331	0.198	0.012	presomitic_mesoderm 42%, margin 35%, endoderm 14%
-60% epiboly	midbrain_hindbrain_boundary	3	390	0.657	0.000	0.022	0.518	0.460	forebrain_eye 45%, hatching_gland 25%, endoderm 9%
-60% epiboly	neural_crest	3	101	0.906	0.000	0.769	0.042	0.125	non_neural_ectoderm 78%, endoderm 11%, EVL 5%
-60% epiboly	neural_plate	3	479	0.987	0.571	0.000	0.000	0.429	forebrain_eye 32%, hatching_gland 21%, endoderm 18%
-60% epiboly	non_neural_ectoderm	2	66	0.197	0.919	0.081	0.000	0.000	placodes 82%, state:blastomere 15%, neural_crest 3%
-60% epiboly	notochord	3	485	0.994	0.000	0.529	0.451	0.006	dorsal_organizer 24%, hatching_gland 20%, margin 20%
-60% epiboly	placodes	3	249	0.826	0.000	0.988	0.000	0.012	non_neural_ectoderm 96%, EVL 2%, state:blastomere 2%
-60% epiboly	prechordal_plate	3	247	0.992	0.474	0.214	0.222	0.034	hatching_gland 42%, dorsal_organizer 24%, endoderm 14%
-60% epiboly	presomitic_mesoderm	3	668	0.709	0.000	0.726	0.238	0.008	mesoderm 42%, margin 29%, hatching_gland 15%
-60% epiboly	state:blastomere	3	87	0.190	0.923	0.051	0.000	0.000	midbrain_hindbrain_boundary 28%, non_neural_ectoderm 26%, forebrain_eye 11%
-60% epiboly	state:maternal	3	49	0.692	1.000	0.000	0.000	0.000	mesoderm 35%, dorsal_organizer 22%, presomitic_mesoderm 10%
-60% epiboly	tailbud	3	731	0.990	0.000	0.328	0.672	0.000	margin 34%, presomitic_mesoderm 27%, mesoderm 27%
-75% epiboly	EVL	3	143	0.779	0.000	0.000	0.000	1.000	hatching_gland 75%, presomitic_mesoderm 19%, axial_mesoderm 2%
-75% epiboly	adaxial_somite	3	1050	0.973	0.000	0.784	0.216	0.012	presomitic_mesoderm 45%, mesoderm 29%, hatching_gland 8%
-75% epiboly	axial_mesoderm	3	656	0.747	0.000	0.415	0.562	0.034	presomitic_mesoderm 30%, margin 27%, hatching_gland 18%
-75% epiboly	dorsal_forerunner	3	236	0.983	0.000	0.137	0.000	0.863	endoderm 78%, EVL 9%, axial_mesoderm 4%
-75% epiboly	dorsal_organizer	3	374	0.778	0.649	0.000	0.331	0.020	axial_mesoderm 40%, hatching_gland 33%, endoderm 8%
-75% epiboly	endoderm	3	280	0.541	0.000	0.000	0.981	0.019	axial_mesoderm 36%, dorsal_organizer 28%, hatching_gland 19%
-75% epiboly	forebrain_eye	3	285	0.263	0.000	0.000	0.411	0.589	hatching_gland 42%, midbrain_hindbrain_boundary 36%, dorsal_organizer 12%
-75% epiboly	hatching_gland	3	222	0.704	0.000	0.382	0.481	0.203	dorsal_organizer 36%, axial_mesoderm 29%, EVL 12%
-75% epiboly	heart	3	90	0.875	0.000	0.857	0.143	0.000	mesoderm 62%, lateral_plate 27%, intermediate_mesoderm 9%
-75% epiboly	hindbrain	3	183	0.787	0.000	0.700	0.229	0.081	state:blastomere 61%, midbrain_hindbrain_boundary 22%, dorsal_organizer 6%
-75% epiboly	intermediate_mesoderm	3	364	0.908	0.000	0.280	0.626	0.071	mesoderm 38%, hatching_gland 13%, lateral_plate 11%
-75% epiboly	lateral_plate	3	405	0.906	0.034	0.677	0.229	0.000	mesoderm 66%, intermediate_mesoderm 8%, endoderm 7%
-75% epiboly	margin	3	1566	0.766	0.996	0.000	0.000	0.004	presomitic_mesoderm 35%, mesoderm 21%, endoderm 13%
-75% epiboly	mesoderm	3	1091	0.715	0.622	0.317	0.058	0.000	presomitic_mesoderm 50%, margin 32%, endoderm 5%
-75% epiboly	midbrain_hindbrain_boundary	3	602	0.613	0.000	0.115	0.594	0.235	forebrain_eye 55%, state:blastomere 13%, endoderm 8%
-75% epiboly	neural_crest	3	335	0.959	0.000	0.783	0.013	0.198	non_neural_ectoderm 79%, endoderm 11%, EVL 5%
-75% epiboly	neural_plate	3	594	1.000	0.746	0.028	0.000	0.208	forebrain_eye 59%, midbrain_hindbrain_boundary 12%, endoderm 12%
-75% epiboly	non_neural_ectoderm	3	73	0.085	0.650	0.071	0.000	0.300	placodes 58%, EVL 23%, state:blastomere 7%
-75% epiboly	notochord	3	585	1.000	0.000	0.484	0.456	0.043	axial_mesoderm 28%, hatching_gland 20%, presomitic_mesoderm 17%
-75% epiboly	placodes	3	732	0.924	0.000	0.974	0.000	0.026	non_neural_ectoderm 96%, EVL 3%, state:blastomere 0%
-75% epiboly	prechordal_plate	3	232	1.000	0.568	0.100	0.270	0.120	hatching_gland 53%, dorsal_organizer 16%, endoderm 14%
-75% epiboly	presomitic_mesoderm	3	850	0.606	0.037	0.740	0.220	0.000	mesoderm 43%, margin 32%, hatching_gland 13%
-75% epiboly	primary_neurons	2	68	0.966	0.000	0.060	0.048	0.893	hatching_gland 78%, non_neural_ectoderm 10%, state:blastomere 7%
-75% epiboly	state:blastomere	3	181	0.286	0.949	0.000	0.000	0.051	midbrain_hindbrain_boundary 41%, forebrain_eye 20%, hindbrain 17%
-75% epiboly	state:maternal	2	37	0.912	1.000	0.000	0.000	0.000	PGC 65%, axial_mesoderm 11%, dorsal_organizer 8%
-75% epiboly	tailbud	3	1030	0.945	0.000	0.417	0.583	0.012	margin 40%, presomitic_mesoderm 30%, mesoderm 19%
-90% epiboly	EVL	3	111	0.762	0.000	0.000	0.000	1.000	hatching_gland 90%, non_neural_ectoderm 6%, endoderm 2%
-90% epiboly	adaxial_somite	3	718	0.965	0.000	0.734	0.239	0.027	presomitic_mesoderm 51%, mesoderm 20%, hatching_gland 7%
-90% epiboly	axial_mesoderm	3	516	0.709	0.000	0.223	0.732	0.051	presomitic_mesoderm 36%, hatching_gland 23%, margin 18%
-90% epiboly	dorsal_forerunner	3	258	0.986	0.000	0.174	0.000	0.826	endoderm 72%, EVL 10%, state:blastomere 8%
-90% epiboly	dorsal_organizer	3	385	0.917	0.712	0.000	0.187	0.058	axial_mesoderm 38%, hatching_gland 31%, forebrain_eye 8%
-90% epiboly	endoderm	3	167	0.452	0.000	0.024	0.904	0.077	axial_mesoderm 65%, dorsal_organizer 10%, notochord 8%
-90% epiboly	forebrain_eye	3	208	0.215	0.000	0.023	0.525	0.475	midbrain_hindbrain_boundary 45%, hatching_gland 37%, EVL 6%
-90% epiboly	hatching_gland	3	206	0.550	0.000	0.073	0.634	0.293	axial_mesoderm 53%, non_neural_ectoderm 14%, EVL 13%
-90% epiboly	heart	3	77	0.824	0.000	0.964	0.036	0.000	lateral_plate 65%, mesoderm 23%, presomitic_mesoderm 9%
-90% epiboly	hindbrain	3	315	0.636	0.000	0.786	0.143	0.061	state:blastomere 77%, midbrain_hindbrain_boundary 11%, forebrain_eye 5%
-90% epiboly	intermediate_mesoderm	3	352	0.844	0.000	0.416	0.483	0.062	mesoderm 36%, lateral_plate 27%, axial_mesoderm 8%
-90% epiboly	lateral_plate	3	284	0.751	0.036	0.704	0.154	0.018	mesoderm 69%, presomitic_mesoderm 7%, intermediate_mesoderm 6%
-90% epiboly	margin	3	1218	0.724	0.997	0.000	0.000	0.003	presomitic_mesoderm 40%, mesoderm 16%, axial_mesoderm 12%
-90% epiboly	mesoderm	3	1026	0.755	0.727	0.235	0.038	0.000	presomitic_mesoderm 49%, margin 27%, lateral_plate 11%
-90% epiboly	midbrain_hindbrain_boundary	3	328	0.376	0.000	0.208	0.647	0.158	forebrain_eye 45%, state:blastomere 22%, hindbrain 13%
-90% epiboly	neural_crest	3	510	0.950	0.000	0.748	0.030	0.217	non_neural_ectoderm 76%, endoderm 15%, EVL 5%
-90% epiboly	neural_plate	3	602	0.991	0.855	0.006	0.000	0.139	forebrain_eye 76%, endoderm 14%, midbrain_hindbrain_boundary 7%
-90% epiboly	non_neural_ectoderm	3	91	0.119	0.667	0.000	0.000	0.333	placodes 66%, EVL 19%, neural_crest 8%
-90% epiboly	notochord	3	430	1.000	0.000	0.394	0.550	0.055	axial_mesoderm 34%, hatching_gland 27%, presomitic_mesoderm 20%
-90% epiboly	placodes	3	676	0.889	0.000	0.962	0.005	0.033	non_neural_ectoderm 95%, EVL 4%, neural_crest 0%
-90% epiboly	prechordal_plate	3	255	1.000	0.511	0.076	0.069	0.344	hatching_gland 48%, non_neural_ectoderm 19%, EVL 10%
-90% epiboly	presomitic_mesoderm	3	570	0.508	0.053	0.754	0.143	0.006	margin 44%, mesoderm 36%, hatching_gland 9%
-90% epiboly	primary_neurons	3	103	0.971	0.000	0.077	0.045	0.853	hatching_gland 73%, non_neural_ectoderm 12%, state:blastomere 8%
-90% epiboly	state:blastomere	3	252	0.370	1.000	0.000	0.000	0.000	hindbrain 48%, forebrain_eye 23%, midbrain_hindbrain_boundary 23%
-90% epiboly	tailbud	3	940	0.909	0.000	0.429	0.513	0.058	margin 40%, presomitic_mesoderm 26%, mesoderm 15%
-bud	EVL	4	592	0.951	0.000	0.000	0.000	1.000	non_neural_ectoderm 72%, hatching_gland 19%, placodes 7%
-bud	adaxial_somite	4	978	0.977	0.000	0.835	0.154	0.002	presomitic_mesoderm 67%, mesoderm 12%, margin 6%
-bud	axial_mesoderm	4	739	0.906	0.083	0.046	0.854	0.029	presomitic_mesoderm 38%, hatching_gland 19%, notochord 17%
-bud	dorsal_forerunner	3	368	0.935	0.000	0.150	0.000	0.850	endoderm 59%, non_neural_ectoderm 16%, state:blastomere 11%
-bud	dorsal_organizer	3	486	0.976	0.655	0.000	0.221	0.137	hatching_gland 30%, notochord 26%, forebrain_eye 15%
-bud	endoderm	3	235	0.611	0.000	0.000	0.953	0.047	notochord 49%, axial_mesoderm 14%, lateral_plate 6%
-bud	forebrain_eye	3	221	0.233	0.000	0.045	0.849	0.091	midbrain_hindbrain_boundary 57%, placodes 26%, dorsal_organizer 7%
-bud	hatching_gland	4	521	0.840	0.000	0.000	0.377	0.619	non_neural_ectoderm 56%, notochord 23%, EVL 5%
-bud	heart	4	189	0.795	0.000	0.698	0.202	0.118	lateral_plate 33%, mesoderm 21%, non_neural_ectoderm 18%
-bud	hindbrain	4	418	0.518	0.000	0.418	0.457	0.125	state:blastomere 42%, midbrain_hindbrain_boundary 27%, primary_neurons 13%
-bud	intermediate_mesoderm	4	442	0.946	0.000	0.259	0.703	0.022	lateral_plate 28%, mesoderm 26%, notochord 16%
-bud	lateral_plate	3	393	0.679	0.136	0.474	0.294	0.091	mesoderm 45%, heart 16%, presomitic_mesoderm 10%
-bud	margin	4	1600	0.871	0.999	0.000	0.000	0.001	presomitic_mesoderm 48%, tailbud 13%, endoderm 10%
-bud	mesoderm	4	1582	0.865	0.841	0.120	0.038	0.000	presomitic_mesoderm 51%, margin 21%, lateral_plate 11%
-bud	midbrain_hindbrain_boundary	4	340	0.324	0.000	0.107	0.861	0.019	forebrain_eye 39%, hindbrain 36%, placodes 10%
-bud	neural_crest	3	498	0.896	0.000	0.750	0.071	0.182	non_neural_ectoderm 55%, endoderm 22%, placodes 11%
-bud	neural_plate	4	965	0.996	0.929	0.003	0.000	0.062	forebrain_eye 77%, placodes 7%, midbrain_hindbrain_boundary 7%
-bud	non_neural_ectoderm	3	180	0.204	0.955	0.000	0.000	0.045	placodes 90%, endoderm 5%, EVL 1%
-bud	notochord	3	253	0.647	0.000	0.240	0.667	0.093	hatching_gland 49%, axial_mesoderm 19%, presomitic_mesoderm 10%
-bud	placodes	4	794	0.750	0.000	0.890	0.080	0.034	non_neural_ectoderm 90%, forebrain_eye 6%, neural_crest 1%
-bud	prechordal_plate	4	510	1.000	0.208	0.010	0.044	0.625	non_neural_ectoderm 38%, hatching_gland 28%, forebrain_eye 16%
-bud	presomitic_mesoderm	3	603	0.411	0.087	0.783	0.130	0.000	margin 50%, mesoderm 24%, adaxial_somite 13%
-bud	primary_neurons	2	196	0.714	0.000	0.048	0.237	0.716	hatching_gland 63%, hindbrain 19%, endoderm 6%
-bud	state:blastomere	4	628	0.669	1.000	0.000	0.000	0.000	hindbrain 48%, midbrain_hindbrain_boundary 28%, forebrain_eye 13%
-bud	state:maternal	1	37	1.000	1.000	0.000	0.000	0.000	PGC 62%, presomitic_mesoderm 14%, tailbud 8%
-bud	tailbud	4	1058	0.779	0.000	0.229	0.572	0.102	margin 34%, presomitic_mesoderm 30%, non_neural_ectoderm 12%
-3-somite	EVL	1	152	0.840	0.000	0.000	0.000	1.000	non_neural_ectoderm 68%, hatching_gland 11%, endoderm 7%
-3-somite	adaxial_somite	1	195	0.852	0.000	0.851	0.123	0.026	presomitic_mesoderm 71%, margin 11%, lateral_plate 7%
-3-somite	axial_mesoderm	1	111	1.000	0.243	0.135	0.586	0.036	notochord 24%, presomitic_mesoderm 23%, tailbud 15%
-3-somite	dorsal_forerunner	1	57	0.781	0.000	0.140	0.000	0.860	endoderm 74%, EVL 12%, tailbud 5%
-3-somite	dorsal_organizer	1	69	1.000	0.623	0.000	0.246	0.130	notochord 39%, hatching_gland 20%, EVL 7%
-3-somite	endoderm	1	48	0.505	0.000	0.000	0.792	0.208	notochord 54%, dorsal_forerunner 21%, lateral_plate 15%
-3-somite	forebrain_eye	1	66	0.276	0.000	0.045	0.879	0.076	midbrain_hindbrain_boundary 62%, placodes 18%, neural_crest 6%
-3-somite	hatching_gland	1	150	0.888	0.000	0.013	0.200	0.787	non_neural_ectoderm 65%, notochord 18%, EVL 7%
-3-somite	heart	1	75	0.862	0.000	0.427	0.400	0.173	lateral_plate 37%, adaxial_somite 25%, non_neural_ectoderm 15%
-3-somite	hindbrain	1	62	0.459	0.000	0.177	0.823	0.000	primary_neurons 32%, midbrain_hindbrain_boundary 32%, state:blastomere 18%
-3-somite	intermediate_mesoderm	1	76	0.679	0.000	0.026	0.882	0.092	lateral_plate 54%, notochord 28%, EVL 8%
-3-somite	lateral_plate	1	90	0.533	0.133	0.156	0.600	0.111	intermediate_mesoderm 26%, adaxial_somite 20%, heart 13%
-3-somite	margin	1	246	0.699	0.984	0.004	0.000	0.012	presomitic_mesoderm 50%, tailbud 24%, notochord 11%
-3-somite	mesoderm	1	315	0.969	0.689	0.286	0.025	0.000	presomitic_mesoderm 46%, margin 28%, adaxial_somite 10%
-3-somite	midbrain_hindbrain_boundary	1	65	0.264	0.000	0.138	0.862	0.000	forebrain_eye 51%, neural_crest 22%, hindbrain 12%
-3-somite	neural_crest	1	28	0.301	0.000	0.107	0.500	0.393	midbrain_hindbrain_boundary 25%, placodes 21%, notochord 14%
-3-somite	neural_plate	1	94	0.979	0.734	0.032	0.000	0.234	forebrain_eye 39%, endoderm 23%, midbrain_hindbrain_boundary 18%
-3-somite	non_neural_ectoderm	1	36	0.224	0.694	0.000	0.000	0.306	placodes 69%, EVL 14%, hatching_gland 11%
-3-somite	notochord	1	50	0.649	0.000	0.000	0.540	0.460	non_neural_ectoderm 28%, hatching_gland 24%, EVL 18%
-3-somite	placodes	1	129	0.645	0.000	0.783	0.132	0.085	non_neural_ectoderm 78%, primary_neurons 7%, neural_crest 6%
-3-somite	prechordal_plate	1	136	0.978	0.110	0.000	0.125	0.765	non_neural_ectoderm 46%, forebrain_eye 17%, hatching_gland 11%
-3-somite	presomitic_mesoderm	1	114	0.430	0.272	0.640	0.088	0.000	margin 61%, adaxial_somite 27%, lateral_plate 5%
-3-somite	primary_neurons	1	21	0.323	0.000	0.000	0.190	0.810	hatching_gland 62%, non_neural_ectoderm 19%, hindbrain 10%
-3-somite	state:blastomere	1	68	0.493	1.000	0.000	0.000	0.000	hindbrain 44%, midbrain_hindbrain_boundary 24%, primary_neurons 15%
-3-somite	state:maternal	1	12	0.923	1.000	0.000	0.000	0.000	lateral_plate 75%, intermediate_mesoderm 17%, presomitic_mesoderm 8%
-3-somite	tailbud	1	142	0.626	0.000	0.690	0.218	0.092	margin 68%, presomitic_mesoderm 15%, non_neural_ectoderm 6%
-6-somite	EVL	2	474	0.879	0.000	0.000	0.000	1.000	non_neural_ectoderm 56%, placodes 24%, hatching_gland 12%
-6-somite	PGC	1	28	0.579	0.000	0.000	0.000	1.000	forebrain_eye 32%, placodes 25%, dorsal_forerunner 18%
-6-somite	adaxial_somite	2	631	0.874	0.000	0.898	0.083	0.019	presomitic_mesoderm 79%, margin 8%, intermediate_mesoderm 4%
-6-somite	axial_mesoderm	2	308	0.926	0.221	0.047	0.675	0.057	notochord 19%, presomitic_mesoderm 19%, hatching_gland 14%
-6-somite	dorsal_forerunner	2	190	0.870	0.000	0.243	0.000	0.757	endoderm 58%, EVL 21%, notochord 4%
-6-somite	dorsal_organizer	2	223	0.979	0.570	0.000	0.302	0.128	notochord 26%, hatching_gland 20%, endoderm 13%
-6-somite	endoderm	2	201	0.612	0.000	0.038	0.849	0.113	lateral_plate 35%, notochord 29%, dorsal_forerunner 8%
-6-somite	forebrain_eye	2	114	0.189	0.000	0.044	0.790	0.166	midbrain_hindbrain_boundary 33%, placodes 27%, primary_neurons 14%
-6-somite	hatching_gland	2	479	0.821	0.000	0.012	0.232	0.756	non_neural_ectoderm 56%, notochord 12%, EVL 10%
-6-somite	heart	2	187	0.769	0.000	0.460	0.382	0.157	lateral_plate 43%, endoderm 19%, non_neural_ectoderm 11%
-6-somite	hindbrain	2	209	0.523	0.000	0.216	0.601	0.183	primary_neurons 25%, state:blastomere 21%, midbrain_hindbrain_boundary 18%
-6-somite	intermediate_mesoderm	2	199	0.722	0.000	0.116	0.663	0.220	lateral_plate 51%, EVL 19%, mesoderm 8%
-6-somite	lateral_plate	2	208	0.533	0.210	0.111	0.480	0.199	heart 21%, intermediate_mesoderm 19%, non_neural_ectoderm 17%
-6-somite	margin	2	728	0.737	0.998	0.000	0.000	0.002	presomitic_mesoderm 54%, tailbud 17%, notochord 8%
-6-somite	mesoderm	2	965	0.976	0.681	0.247	0.072	0.000	presomitic_mesoderm 53%, margin 25%, adaxial_somite 9%
-6-somite	midbrain_hindbrain_boundary	2	141	0.229	0.000	0.199	0.773	0.028	hindbrain 30%, forebrain_eye 23%, state:blastomere 20%
-6-somite	neural_crest	2	97	0.310	0.000	0.121	0.439	0.439	placodes 19%, endoderm 19%, non_neural_ectoderm 13%
-6-somite	neural_plate	2	297	0.990	0.666	0.010	0.000	0.324	forebrain_eye 47%, endoderm 23%, midbrain_hindbrain_boundary 8%
-6-somite	non_neural_ectoderm	2	258	0.475	0.591	0.000	0.000	0.409	placodes 58%, hatching_gland 22%, EVL 17%
-6-somite	notochord	2	321	0.843	0.000	0.078	0.444	0.478	non_neural_ectoderm 33%, hatching_gland 22%, EVL 14%
-6-somite	placodes	2	275	0.542	0.000	0.611	0.185	0.203	non_neural_ectoderm 59%, primary_neurons 14%, EVL 11%
-6-somite	prechordal_plate	2	356	0.994	0.233	0.011	0.134	0.621	non_neural_ectoderm 39%, hatching_gland 23%, EVL 12%
-6-somite	presomitic_mesoderm	2	324	0.384	0.248	0.672	0.077	0.003	margin 66%, adaxial_somite 24%, tailbud 3%
-6-somite	primary_neurons	2	73	0.431	0.000	0.052	0.280	0.668	hatching_gland 49%, placodes 19%, endoderm 12%
-6-somite	state:blastomere	2	277	0.519	1.000	0.000	0.000	0.000	midbrain_hindbrain_boundary 29%, hindbrain 29%, forebrain_eye 23%
-6-somite	state:maternal	2	62	0.873	1.000	0.000	0.000	0.000	lateral_plate 58%, heart 18%, tailbud 11%
-6-somite	tailbud	2	403	0.666	0.000	0.617	0.346	0.037	margin 60%, presomitic_mesoderm 24%, endoderm 3%
+stage	program	libraries	cells	not_top	of_active_itself	of_active_descendant	of_active_ancestor	of_active_sibling	of_active_unrelated	descendant	ancestor	sibling	unrelated	winners
+high	PGC	1	0	0.000	1.000	0.000	0.000	0.000	0.000					
+high	margin	1	9	0.818	0.182	0.000	0.000	0.000	0.818					EVL 78%, forebrain_eye 11%, neural_crest 11%
+high	state:maternal	1	0	0.000	1.000	0.000	0.000	0.000	0.000					
+oblong	EVL	1	0	0.000	1.000	0.000	0.000	0.000	0.000					
+oblong	PGC	1	0	0.000	1.000	0.000	0.000	0.000	0.000					
+dome	EVL	1	1	0.019	0.981	0.000	0.000	0.000	0.019					margin 100%
+dome	PGC	1	26	0.388	0.612	0.000	0.000	0.000	0.388	0.000	0.000	0.000	1.000	margin 81%, dorsal_organizer 19%
+dome	adaxial_somite	1	56	1.000	0.000	0.000	0.393	0.000	0.607	0.000	0.393	0.000	0.607	EVL 61%, margin 38%, mesoderm 2%
+dome	axial_mesoderm	1	124	0.992	0.008	0.000	0.648	0.000	0.344	0.000	0.653	0.000	0.347	margin 55%, EVL 35%, dorsal_organizer 10%
+dome	dorsal_forerunner	1	44	1.000	0.000	0.000	0.977	0.000	0.023	0.000	0.977	0.000	0.023	EVL 98%, dorsal_organizer 2%
+dome	dorsal_organizer	1	67	0.770	0.230	0.000	0.724	0.000	0.046	0.000	0.940	0.000	0.060	margin 94%, PGC 4%, EVL 1%
+dome	endoderm	1	62	1.000	0.000	0.000	0.823	0.129	0.048	0.000	0.823	0.129	0.048	margin 82%, dorsal_organizer 13%, EVL 5%
+dome	forebrain_eye	1	40	1.000	0.000	0.000	0.000	0.000	1.000	0.000	0.000	0.000	1.000	EVL 90%, margin 10%
+dome	hatching_gland	1	49	1.000	0.000	0.000	0.041	0.000	0.959	0.000	0.041	0.000	0.959	EVL 96%, margin 4%
+dome	intermediate_mesoderm	1	64	1.000	0.000	0.000	0.297	0.047	0.656	0.000	0.297	0.047	0.656	EVL 66%, margin 30%, dorsal_organizer 5%
+dome	lateral_plate	1	11	1.000	0.000	0.000	1.000	0.000	0.000	0.000	1.000	0.000	0.000	margin 100%
+dome	margin	1	41	0.339	0.661	0.107	0.000	0.000	0.231	0.317	0.000	0.000	0.683	EVL 68%, dorsal_organizer 29%, mesoderm 2%
+dome	mesoderm	1	76	0.950	0.050	0.000	0.938	0.013	0.000	0.000	0.987	0.013	0.000	margin 99%, dorsal_organizer 1%
+dome	neural_crest	1	42	0.977	0.023	0.000	0.000	0.000	0.977	0.000	0.000	0.000	1.000	EVL 100%
+dome	neural_plate	1	32	1.000	0.000	0.000	0.000	0.000	1.000	0.000	0.000	0.000	1.000	EVL 78%, margin 19%, dorsal_organizer 3%
+dome	non_neural_ectoderm	1	48	1.000	0.000	0.000	0.000	0.000	1.000	0.000	0.000	0.000	1.000	EVL 100%
+dome	notochord	1	56	1.000	0.000	0.000	0.286	0.000	0.714	0.000	0.286	0.000	0.714	EVL 71%, margin 23%, dorsal_organizer 5%
+dome	placodes	1	28	1.000	0.000	0.000	0.000	0.000	1.000	0.000	0.000	0.000	1.000	EVL 100%
+dome	prechordal_plate	1	37	1.000	0.000	0.000	0.703	0.000	0.297	0.000	0.703	0.000	0.297	margin 54%, EVL 30%, dorsal_organizer 16%
+dome	presomitic_mesoderm	1	107	1.000	0.000	0.000	0.589	0.065	0.346	0.000	0.589	0.065	0.346	margin 59%, EVL 35%, dorsal_organizer 7%
+dome	state:maternal	1	9	0.180	0.820	0.180	0.000	0.000	0.000					margin 56%, PGC 33%, dorsal_organizer 11%
+dome	tailbud	1	10	0.909	0.091	0.000	0.909	0.000	0.000	0.000	1.000	0.000	0.000	margin 100%
+30% epiboly	EVL	2	3	0.058	0.942	0.000	0.000	0.000	0.058					margin 100%
+30% epiboly	PGC	1	14	0.519	0.481	0.000	0.000	0.000	0.519	0.000	0.000	0.000	1.000	margin 64%, dorsal_organizer 36%
+30% epiboly	adaxial_somite	2	122	0.945	0.055	0.000	0.638	0.038	0.268	0.000	0.675	0.043	0.282	margin 67%, EVL 24%, dorsal_organizer 6%
+30% epiboly	axial_mesoderm	2	143	0.954	0.046	0.005	0.733	0.009	0.208	0.005	0.769	0.010	0.216	margin 66%, EVL 20%, dorsal_organizer 11%
+30% epiboly	dorsal_forerunner	2	39	0.980	0.020	0.000	0.833	0.000	0.147	0.000	0.850	0.000	0.150	EVL 85%, margin 10%, dorsal_organizer 5%
+30% epiboly	dorsal_organizer	2	68	0.734	0.266	0.017	0.717	0.000	0.000	0.022	0.978	0.000	0.000	margin 97%, axial_mesoderm 3%
+30% epiboly	endoderm	2	139	1.000	0.000	0.000	0.903	0.081	0.016	0.000	0.903	0.081	0.016	margin 88%, dorsal_organizer 10%, EVL 1%
+30% epiboly	forebrain_eye	2	34	0.944	0.056	0.000	0.000	0.000	0.944	0.000	0.000	0.000	1.000	EVL 79%, dorsal_organizer 15%, margin 6%
+30% epiboly	hatching_gland	2	47	1.000	0.000	0.000	0.167	0.000	0.833	0.000	0.167	0.000	0.833	EVL 77%, dorsal_organizer 17%, margin 6%
+30% epiboly	hindbrain	2	46	0.676	0.324	0.000	0.000	0.000	0.676	0.000	0.000	0.000	1.000	margin 76%, adaxial_somite 17%, dorsal_organizer 7%
+30% epiboly	intermediate_mesoderm	2	103	1.000	0.000	0.000	0.617	0.049	0.335	0.000	0.617	0.049	0.335	margin 63%, EVL 30%, dorsal_organizer 7%
+30% epiboly	lateral_plate	2	58	1.000	0.000	0.000	0.935	0.000	0.065	0.000	0.935	0.000	0.065	margin 90%, EVL 10%
+30% epiboly	margin	2	26	0.109	0.891	0.078	0.000	0.000	0.031	0.739	0.000	0.000	0.261	dorsal_organizer 58%, EVL 27%, presomitic_mesoderm 8%
+30% epiboly	mesoderm	2	165	0.988	0.012	0.016	0.938	0.035	0.000	0.016	0.948	0.036	0.000	margin 92%, dorsal_organizer 5%, presomitic_mesoderm 1%
+30% epiboly	neural_crest	2	30	0.974	0.026	0.000	0.000	0.000	0.974	0.000	0.000	0.000	1.000	EVL 100%
+30% epiboly	neural_plate	2	78	1.000	0.000	0.000	0.000	0.000	1.000	0.000	0.000	0.000	1.000	margin 60%, EVL 28%, dorsal_organizer 12%
+30% epiboly	non_neural_ectoderm	2	30	1.000	0.000	0.000	0.000	0.000	1.000	0.000	0.000	0.000	1.000	EVL 100%
+30% epiboly	notochord	2	85	0.991	0.009	0.000	0.635	0.009	0.348	0.000	0.641	0.009	0.350	margin 48%, EVL 34%, dorsal_organizer 15%
+30% epiboly	placodes	2	29	0.958	0.042	0.000	0.000	0.000	0.958	0.000	0.000	0.000	1.000	EVL 100%
+30% epiboly	prechordal_plate	2	92	1.000	0.000	0.000	0.651	0.000	0.349	0.000	0.651	0.000	0.349	margin 54%, EVL 33%, dorsal_organizer 13%
+30% epiboly	presomitic_mesoderm	2	172	0.988	0.012	0.000	0.751	0.046	0.191	0.000	0.760	0.047	0.193	margin 76%, EVL 17%, dorsal_organizer 7%
+30% epiboly	primary_neurons	1	0	0.000	1.000	0.000	0.000	0.000	0.000					
+30% epiboly	state:maternal	2	29	0.645	0.355	0.645	0.000	0.000	0.000	1.000	0.000	0.000	0.000	margin 69%, dorsal_organizer 17%, PGC 14%
+30% epiboly	tailbud	2	58	1.000	0.000	0.000	1.000	0.000	0.000	0.000	1.000	0.000	0.000	margin 100%
+50% epiboly	EVL	4	4	0.030	0.974	0.000	0.000	0.000	0.026					margin 75%, endoderm 25%
+50% epiboly	PGC	3	61	0.778	0.281	0.000	0.012	0.000	0.706	0.000	0.000	0.000	1.000	margin 97%, state:maternal 2%, axial_mesoderm 2%
+50% epiboly	adaxial_somite	4	680	1.000	0.000	0.000	0.684	0.172	0.144	0.000	0.681	0.173	0.122	margin 57%, dorsal_organizer 15%, EVL 14%
+50% epiboly	axial_mesoderm	4	762	0.948	0.067	0.001	0.764	0.029	0.140	0.000	0.820	0.017	0.158	margin 61%, dorsal_organizer 21%, EVL 14%
+50% epiboly	dorsal_forerunner	4	125	1.000	0.006	0.000	0.953	0.000	0.041	0.000	0.956	0.000	0.044	EVL 95%, dorsal_organizer 3%, margin 1%
+50% epiboly	dorsal_organizer	4	363	0.668	0.341	0.041	0.526	0.086	0.006	0.045	0.897	0.046	0.010	margin 79%, presomitic_mesoderm 8%, axial_mesoderm 6%
+50% epiboly	endoderm	4	668	0.991	0.027	0.000	0.679	0.291	0.003	0.000	0.753	0.244	0.003	margin 69%, dorsal_organizer 21%, presomitic_mesoderm 6%
+50% epiboly	forebrain_eye	4	217	0.982	0.039	0.000	0.000	0.024	0.937	0.000	0.000	0.009	0.991	EVL 41%, dorsal_organizer 40%, margin 16%
+50% epiboly	hatching_gland	4	255	1.000	0.009	0.000	0.525	0.007	0.459	0.000	0.530	0.007	0.463	EVL 47%, dorsal_organizer 43%, margin 9%
+50% epiboly	heart	3	57	1.000	0.018	0.000	0.333	0.131	0.518	0.000	0.222	0.000	0.778	EVL 40%, margin 37%, endoderm 18%
+50% epiboly	hindbrain	4	322	1.000	0.000	0.000	0.000	0.000	1.000	0.000	0.000	0.000	1.000	margin 62%, dorsal_organizer 24%, presomitic_mesoderm 8%
+50% epiboly	intermediate_mesoderm	4	467	1.000	0.000	0.000	0.544	0.214	0.242	0.000	0.562	0.209	0.256	margin 54%, EVL 24%, dorsal_organizer 15%
+50% epiboly	lateral_plate	4	385	1.000	0.000	0.000	0.699	0.239	0.062	0.000	0.722	0.204	0.050	margin 64%, dorsal_organizer 16%, EVL 6%
+50% epiboly	margin	4	275	0.215	0.748	0.243	0.000	0.000	0.009	0.964	0.000	0.000	0.036	dorsal_organizer 53%, presomitic_mesoderm 16%, mesoderm 14%
+50% epiboly	mesoderm	4	880	0.972	0.041	0.042	0.790	0.119	0.008	0.014	0.864	0.110	0.007	margin 81%, dorsal_organizer 11%, presomitic_mesoderm 5%
+50% epiboly	midbrain_hindbrain_boundary	4	189	0.849	0.177	0.000	0.035	0.005	0.783	0.000	0.034	0.000	0.966	dorsal_organizer 48%, margin 40%, presomitic_mesoderm 4%
+50% epiboly	neural_crest	4	107	0.986	0.021	0.000	0.000	0.000	0.979	0.000	0.000	0.000	1.000	EVL 100%
+50% epiboly	neural_plate	4	431	0.969	0.028	0.033	0.000	0.000	0.940	0.017	0.000	0.000	0.983	margin 45%, dorsal_organizer 23%, EVL 20%
+50% epiboly	non_neural_ectoderm	4	111	0.973	0.090	0.007	0.000	0.000	0.903	0.000	0.000	0.000	1.000	EVL 99%, placodes 1%
+50% epiboly	notochord	4	445	1.000	0.002	0.000	0.720	0.022	0.256	0.000	0.712	0.015	0.273	margin 44%, EVL 26%, dorsal_organizer 25%
+50% epiboly	placodes	4	109	0.930	0.076	0.000	0.017	0.000	0.908	0.000	0.000	0.000	1.000	EVL 98%, state:blastomere 1%, non_neural_ectoderm 1%
+50% epiboly	prechordal_plate	4	405	1.000	0.000	0.000	0.686	0.048	0.267	0.000	0.676	0.010	0.255	margin 39%, dorsal_organizer 29%, EVL 27%
+50% epiboly	presomitic_mesoderm	4	838	0.985	0.046	0.000	0.698	0.165	0.090	0.000	0.742	0.150	0.089	margin 69%, dorsal_organizer 15%, EVL 9%
+50% epiboly	primary_neurons	4	80	0.941	0.082	0.000	0.000	0.000	0.918	0.000	0.000	0.000	1.000	EVL 100%
+50% epiboly	state:blastomere	4	11	0.070	0.934	0.013	0.054	0.000	0.000					state:maternal 82%, midbrain_hindbrain_boundary 18%
+50% epiboly	state:maternal	4	185	0.641	0.359	0.641	0.000	0.000	0.000	1.000	0.000	0.000	0.000	margin 54%, dorsal_organizer 32%, PGC 7%
+50% epiboly	tailbud	4	530	0.997	0.004	0.000	0.876	0.121	0.000	0.000	0.960	0.040	0.000	margin 87%, presomitic_mesoderm 6%, mesoderm 4%
+shield	EVL	1	1	0.091	0.909	0.000	0.000	0.000	0.091					PGC 100%
+shield	adaxial_somite	1	154	1.000	0.000	0.000	0.734	0.240	0.026	0.000	0.734	0.240	0.026	presomitic_mesoderm 32%, mesoderm 24%, margin 18%
+shield	axial_mesoderm	1	107	0.930	0.070	0.017	0.643	0.217	0.052	0.019	0.692	0.234	0.056	margin 36%, dorsal_organizer 33%, presomitic_mesoderm 19%
+shield	dorsal_organizer	1	28	0.424	0.576	0.045	0.076	0.273	0.030	0.107	0.179	0.643	0.071	endoderm 36%, margin 18%, presomitic_mesoderm 18%
+shield	endoderm	1	81	0.871	0.129	0.000	0.204	0.645	0.022	0.000	0.235	0.741	0.025	dorsal_organizer 37%, margin 23%, mesoderm 20%
+shield	forebrain_eye	1	27	0.458	0.542	0.000	0.051	0.034	0.373	0.000	0.111	0.074	0.815	dorsal_organizer 78%, neural_plate 11%, midbrain_hindbrain_boundary 7%
+shield	hatching_gland	1	41	1.000	0.000	0.000	0.732	0.049	0.220	0.000	0.732	0.049	0.220	dorsal_organizer 73%, EVL 22%, axial_mesoderm 2%
+shield	hindbrain	1	21	1.000	0.000	0.000	0.000	0.000	1.000	0.000	0.000	0.000	1.000	presomitic_mesoderm 43%, margin 19%, mesoderm 19%
+shield	intermediate_mesoderm	1	61	1.000	0.000	0.000	0.230	0.672	0.098	0.000	0.230	0.672	0.098	dorsal_organizer 34%, presomitic_mesoderm 33%, margin 13%
+shield	lateral_plate	1	52	1.000	0.000	0.000	0.423	0.577	0.000	0.000	0.423	0.577	0.000	mesoderm 29%, dorsal_organizer 29%, endoderm 15%
+shield	margin	1	145	0.602	0.398	0.598	0.000	0.000	0.004	0.993	0.000	0.000	0.007	presomitic_mesoderm 36%, mesoderm 29%, dorsal_organizer 22%
+shield	mesoderm	1	159	0.779	0.221	0.255	0.363	0.162	0.000	0.327	0.465	0.208	0.000	margin 47%, presomitic_mesoderm 33%, dorsal_organizer 14%
+shield	midbrain_hindbrain_boundary	1	36	0.590	0.410	0.000	0.049	0.049	0.492	0.000	0.083	0.083	0.833	dorsal_organizer 72%, neural_plate 8%, forebrain_eye 8%
+shield	neural_plate	1	43	0.811	0.189	0.208	0.000	0.000	0.604	0.256	0.000	0.000	0.744	dorsal_organizer 56%, forebrain_eye 16%, midbrain_hindbrain_boundary 9%
+shield	non_neural_ectoderm	1	9	0.474	0.526	0.211	0.000	0.000	0.263					EVL 56%, placodes 44%
+shield	notochord	1	87	0.967	0.033	0.000	0.667	0.200	0.100	0.000	0.690	0.207	0.103	dorsal_organizer 41%, margin 22%, presomitic_mesoderm 11%
+shield	placodes	1	12	0.500	0.500	0.000	0.208	0.000	0.292	0.000	0.417	0.000	0.583	EVL 58%, non_neural_ectoderm 42%
+shield	prechordal_plate	1	46	1.000	0.000	0.000	0.630	0.217	0.152	0.000	0.630	0.217	0.152	dorsal_organizer 61%, EVL 15%, endoderm 13%
+shield	presomitic_mesoderm	1	133	0.719	0.281	0.000	0.508	0.211	0.000	0.000	0.707	0.293	0.000	margin 40%, mesoderm 31%, dorsal_organizer 21%
+shield	state:blastomere	1	1	0.071	0.929	0.071	0.000	0.000	0.000					midbrain_hindbrain_boundary 100%
+shield	state:maternal	1	25	0.962	0.038	0.962	0.000	0.000	0.000	1.000	0.000	0.000	0.000	dorsal_organizer 92%, margin 4%, presomitic_mesoderm 4%
+shield	tailbud	1	113	1.000	0.000	0.000	0.354	0.646	0.000	0.000	0.354	0.646	0.000	margin 35%, presomitic_mesoderm 35%, mesoderm 24%
+60% epiboly	EVL	3	78	0.828	0.169	0.000	0.000	0.000	0.831	0.000	0.000	0.000	1.000	hatching_gland 77%, endoderm 13%, mesoderm 4%
+60% epiboly	PGC	2	25	0.880	0.120	0.000	0.000	0.000	0.880	0.000	0.000	0.000	1.000	mesoderm 32%, EVL 20%, endoderm 16%
+60% epiboly	adaxial_somite	3	805	1.000	0.015	0.000	0.761	0.216	0.009	0.000	0.772	0.221	0.007	presomitic_mesoderm 36%, mesoderm 32%, hatching_gland 12%
+60% epiboly	axial_mesoderm	3	595	0.907	0.107	0.004	0.418	0.466	0.005	0.004	0.502	0.473	0.000	margin 29%, presomitic_mesoderm 28%, dorsal_organizer 19%
+60% epiboly	dorsal_forerunner	3	160	0.921	0.082	0.000	0.097	0.000	0.821	0.000	0.121	0.000	0.879	endoderm 84%, state:blastomere 8%, EVL 2%
+60% epiboly	dorsal_organizer	3	278	0.731	0.292	0.388	0.000	0.303	0.018	0.579	0.000	0.368	0.021	hatching_gland 37%, presomitic_mesoderm 22%, axial_mesoderm 15%
+60% epiboly	endoderm	3	318	0.608	0.357	0.000	0.002	0.635	0.006	0.000	0.000	0.994	0.000	dorsal_organizer 34%, hatching_gland 30%, mesoderm 21%
+60% epiboly	forebrain_eye	3	270	0.411	0.521	0.000	0.019	0.227	0.233	0.000	0.038	0.395	0.500	midbrain_hindbrain_boundary 47%, hatching_gland 37%, dorsal_organizer 9%
+60% epiboly	hatching_gland	3	143	0.582	0.420	0.000	0.424	0.115	0.041	0.000	0.729	0.203	0.068	dorsal_organizer 71%, endoderm 8%, axial_mesoderm 6%
+60% epiboly	heart	1	9	0.900	0.100	0.000	0.800	0.100	0.000					mesoderm 89%, endoderm 11%
+60% epiboly	hindbrain	3	80	0.955	0.182	0.000	0.050	0.040	0.728	0.000	0.000	0.020	0.980	mesoderm 36%, presomitic_mesoderm 22%, hatching_gland 15%
+60% epiboly	intermediate_mesoderm	3	224	1.000	0.033	0.000	0.238	0.679	0.050	0.000	0.242	0.727	0.053	hatching_gland 35%, mesoderm 25%, presomitic_mesoderm 16%
+60% epiboly	lateral_plate	3	394	1.000	0.016	0.000	0.489	0.487	0.008	0.000	0.521	0.462	0.007	mesoderm 49%, endoderm 22%, presomitic_mesoderm 11%
+60% epiboly	margin	3	1024	0.761	0.239	0.756	0.001	0.000	0.005	0.992	0.000	0.000	0.008	presomitic_mesoderm 29%, mesoderm 28%, endoderm 15%
+60% epiboly	mesoderm	3	713	0.724	0.287	0.323	0.245	0.137	0.008	0.403	0.331	0.198	0.012	presomitic_mesoderm 42%, margin 35%, endoderm 14%
+60% epiboly	midbrain_hindbrain_boundary	3	390	0.657	0.398	0.000	0.032	0.281	0.289	0.000	0.022	0.518	0.460	forebrain_eye 45%, hatching_gland 25%, endoderm 9%
+60% epiboly	neural_crest	3	101	0.906	0.078	0.000	0.708	0.047	0.167	0.000	0.769	0.042	0.125	non_neural_ectoderm 78%, endoderm 11%, EVL 5%
+60% epiboly	neural_plate	3	479	0.987	0.015	0.492	0.007	0.000	0.486	0.571	0.000	0.000	0.429	forebrain_eye 32%, hatching_gland 21%, endoderm 18%
+60% epiboly	non_neural_ectoderm	3	66	0.109	0.857	0.120	0.022	0.000	0.000	0.919	0.081	0.000	0.000	placodes 82%, state:blastomere 15%, neural_crest 3%
+60% epiboly	notochord	3	485	0.994	0.005	0.000	0.538	0.449	0.008	0.000	0.529	0.451	0.006	dorsal_organizer 24%, hatching_gland 20%, margin 20%
+60% epiboly	placodes	3	249	0.826	0.225	0.000	0.743	0.000	0.032	0.000	0.988	0.000	0.012	non_neural_ectoderm 96%, EVL 2%, state:blastomere 2%
+60% epiboly	prechordal_plate	3	247	0.992	0.019	0.433	0.239	0.271	0.038	0.474	0.214	0.222	0.034	hatching_gland 42%, dorsal_organizer 24%, endoderm 14%
+60% epiboly	presomitic_mesoderm	3	668	0.709	0.309	0.011	0.492	0.183	0.005	0.000	0.726	0.238	0.008	mesoderm 42%, margin 29%, hatching_gland 15%
+60% epiboly	state:blastomere	3	87	0.190	0.749	0.230	0.018	0.000	0.003	0.923	0.051	0.000	0.000	midbrain_hindbrain_boundary 28%, non_neural_ectoderm 26%, forebrain_eye 11%
+60% epiboly	state:maternal	3	49	0.692	0.231	0.769	0.000	0.000	0.000	1.000	0.000	0.000	0.000	mesoderm 35%, dorsal_organizer 22%, presomitic_mesoderm 10%
+60% epiboly	tailbud	3	731	0.990	0.018	0.000	0.343	0.639	0.000	0.000	0.328	0.672	0.000	margin 34%, presomitic_mesoderm 27%, mesoderm 27%
+75% epiboly	EVL	3	143	0.779	0.233	0.000	0.000	0.000	0.767	0.000	0.000	0.000	1.000	hatching_gland 75%, presomitic_mesoderm 19%, axial_mesoderm 2%
+75% epiboly	PGC	2	11	0.403	0.597	0.000	0.000	0.000	0.403					presomitic_mesoderm 64%, EVL 27%, adaxial_somite 9%
+75% epiboly	adaxial_somite	3	1050	0.973	0.023	0.000	0.759	0.206	0.012	0.000	0.784	0.216	0.012	presomitic_mesoderm 45%, mesoderm 29%, hatching_gland 8%
+75% epiboly	axial_mesoderm	3	656	0.747	0.217	0.001	0.321	0.435	0.025	0.000	0.415	0.562	0.034	presomitic_mesoderm 30%, margin 27%, hatching_gland 18%
+75% epiboly	dorsal_forerunner	3	236	0.983	0.027	0.000	0.123	0.000	0.850	0.000	0.137	0.000	0.863	endoderm 78%, EVL 9%, axial_mesoderm 4%
+75% epiboly	dorsal_organizer	3	374	0.778	0.259	0.520	0.002	0.206	0.013	0.649	0.000	0.331	0.020	axial_mesoderm 40%, hatching_gland 33%, endoderm 8%
+75% epiboly	endoderm	3	280	0.541	0.444	0.000	0.000	0.548	0.008	0.000	0.000	0.981	0.019	axial_mesoderm 36%, dorsal_organizer 28%, hatching_gland 19%
+75% epiboly	forebrain_eye	3	285	0.263	0.718	0.000	0.005	0.107	0.171	0.000	0.000	0.411	0.589	hatching_gland 42%, midbrain_hindbrain_boundary 36%, dorsal_organizer 12%
+75% epiboly	hatching_gland	3	222	0.704	0.342	0.000	0.240	0.286	0.132	0.000	0.382	0.481	0.203	dorsal_organizer 36%, axial_mesoderm 29%, EVL 12%
+75% epiboly	heart	3	90	0.875	0.205	0.000	0.712	0.083	0.000	0.000	0.857	0.143	0.000	mesoderm 62%, lateral_plate 27%, intermediate_mesoderm 9%
+75% epiboly	hindbrain	3	183	0.787	0.241	0.000	0.495	0.182	0.082	0.000	0.700	0.229	0.081	state:blastomere 61%, midbrain_hindbrain_boundary 22%, dorsal_organizer 6%
+75% epiboly	intermediate_mesoderm	3	364	0.908	0.088	0.000	0.322	0.530	0.060	0.000	0.280	0.626	0.071	mesoderm 38%, hatching_gland 13%, lateral_plate 11%
+75% epiboly	lateral_plate	3	405	0.906	0.090	0.061	0.610	0.221	0.018	0.034	0.677	0.229	0.000	mesoderm 66%, intermediate_mesoderm 8%, endoderm 7%
+75% epiboly	margin	3	1566	0.766	0.231	0.765	0.001	0.000	0.003	0.996	0.000	0.000	0.004	presomitic_mesoderm 35%, mesoderm 21%, endoderm 13%
+75% epiboly	mesoderm	3	1091	0.715	0.274	0.450	0.229	0.047	0.000	0.622	0.317	0.058	0.000	presomitic_mesoderm 50%, margin 32%, endoderm 5%
+75% epiboly	midbrain_hindbrain_boundary	3	602	0.613	0.372	0.000	0.080	0.359	0.189	0.000	0.115	0.594	0.235	forebrain_eye 55%, state:blastomere 13%, endoderm 8%
+75% epiboly	neural_crest	3	335	0.959	0.033	0.000	0.744	0.010	0.212	0.000	0.783	0.013	0.198	non_neural_ectoderm 79%, endoderm 11%, EVL 5%
+75% epiboly	neural_plate	3	594	1.000	0.010	0.698	0.026	0.000	0.265	0.746	0.028	0.000	0.208	forebrain_eye 59%, midbrain_hindbrain_boundary 12%, endoderm 12%
+75% epiboly	non_neural_ectoderm	3	73	0.085	0.918	0.053	0.005	0.000	0.023	0.650	0.071	0.000	0.300	placodes 58%, EVL 23%, state:blastomere 7%
+75% epiboly	notochord	3	585	1.000	0.002	0.000	0.515	0.438	0.045	0.000	0.484	0.456	0.043	axial_mesoderm 28%, hatching_gland 20%, presomitic_mesoderm 17%
+75% epiboly	placodes	3	732	0.924	0.082	0.000	0.892	0.000	0.026	0.000	0.974	0.000	0.026	non_neural_ectoderm 96%, EVL 3%, state:blastomere 0%
+75% epiboly	prechordal_plate	3	232	1.000	0.000	0.539	0.128	0.225	0.108	0.568	0.100	0.270	0.120	hatching_gland 53%, dorsal_organizer 16%, endoderm 14%
+75% epiboly	presomitic_mesoderm	3	850	0.606	0.395	0.018	0.453	0.134	0.001	0.037	0.740	0.220	0.000	mesoderm 43%, margin 32%, hatching_gland 13%
+75% epiboly	primary_neurons	2	63	0.966	0.034	0.000	0.058	0.046	0.862	0.000	0.060	0.048	0.893	hatching_gland 84%, state:blastomere 8%, non_neural_ectoderm 3%
+75% epiboly	state:blastomere	3	181	0.286	0.723	0.258	0.001	0.000	0.017	0.949	0.000	0.000	0.051	midbrain_hindbrain_boundary 41%, forebrain_eye 20%, hindbrain 17%
+75% epiboly	state:maternal	2	30	0.912	0.088	0.912	0.000	0.000	0.000	1.000	0.000	0.000	0.000	PGC 60%, axial_mesoderm 13%, dorsal_organizer 10%
+75% epiboly	tailbud	3	1030	0.945	0.062	0.000	0.369	0.556	0.013	0.000	0.417	0.583	0.012	margin 40%, presomitic_mesoderm 30%, mesoderm 19%
+90% epiboly	EVL	3	111	0.762	0.282	0.000	0.000	0.000	0.718	0.000	0.000	0.000	1.000	hatching_gland 90%, non_neural_ectoderm 6%, endoderm 2%
+90% epiboly	PGC	1	5	0.294	0.706	0.000	0.000	0.000	0.294					mesoderm 40%, axial_mesoderm 20%, dorsal_organizer 20%
+90% epiboly	adaxial_somite	3	718	0.965	0.039	0.000	0.698	0.236	0.027	0.000	0.734	0.239	0.027	presomitic_mesoderm 51%, mesoderm 20%, hatching_gland 7%
+90% epiboly	axial_mesoderm	3	516	0.709	0.285	0.011	0.155	0.510	0.038	0.000	0.223	0.732	0.051	presomitic_mesoderm 36%, hatching_gland 23%, margin 18%
+90% epiboly	dorsal_forerunner	3	258	0.986	0.013	0.000	0.173	0.000	0.814	0.000	0.174	0.000	0.826	endoderm 72%, EVL 10%, state:blastomere 8%
+90% epiboly	dorsal_organizer	3	385	0.917	0.084	0.676	0.003	0.173	0.064	0.712	0.000	0.187	0.058	axial_mesoderm 38%, hatching_gland 31%, forebrain_eye 8%
+90% epiboly	endoderm	3	167	0.452	0.575	0.000	0.014	0.385	0.026	0.000	0.024	0.904	0.077	axial_mesoderm 65%, dorsal_organizer 10%, notochord 8%
+90% epiboly	forebrain_eye	3	208	0.215	0.790	0.000	0.004	0.089	0.118	0.000	0.023	0.525	0.475	midbrain_hindbrain_boundary 45%, hatching_gland 37%, EVL 6%
+90% epiboly	hatching_gland	3	206	0.550	0.375	0.000	0.045	0.398	0.181	0.000	0.073	0.634	0.293	axial_mesoderm 53%, non_neural_ectoderm 14%, EVL 13%
+90% epiboly	heart	3	77	0.824	0.123	0.000	0.811	0.067	0.000	0.000	0.964	0.036	0.000	lateral_plate 65%, mesoderm 23%, presomitic_mesoderm 9%
+90% epiboly	hindbrain	3	315	0.636	0.331	0.000	0.516	0.113	0.040	0.000	0.786	0.143	0.061	state:blastomere 77%, midbrain_hindbrain_boundary 11%, forebrain_eye 5%
+90% epiboly	intermediate_mesoderm	3	352	0.844	0.115	0.000	0.322	0.499	0.064	0.000	0.416	0.483	0.062	mesoderm 36%, lateral_plate 27%, axial_mesoderm 8%
+90% epiboly	lateral_plate	3	284	0.751	0.309	0.038	0.518	0.105	0.030	0.036	0.704	0.154	0.018	mesoderm 69%, presomitic_mesoderm 7%, intermediate_mesoderm 6%
+90% epiboly	margin	3	1218	0.724	0.241	0.757	0.000	0.000	0.002	0.997	0.000	0.000	0.003	presomitic_mesoderm 40%, mesoderm 16%, axial_mesoderm 12%
+90% epiboly	mesoderm	3	1026	0.755	0.224	0.545	0.196	0.033	0.002	0.727	0.235	0.038	0.000	presomitic_mesoderm 49%, margin 27%, lateral_plate 11%
+90% epiboly	midbrain_hindbrain_boundary	3	328	0.376	0.546	0.000	0.104	0.255	0.095	0.000	0.208	0.647	0.158	forebrain_eye 45%, state:blastomere 22%, hindbrain 13%
+90% epiboly	neural_crest	3	510	0.950	0.039	0.000	0.727	0.024	0.209	0.000	0.748	0.030	0.217	non_neural_ectoderm 76%, endoderm 15%, EVL 5%
+90% epiboly	neural_plate	3	602	0.991	0.007	0.804	0.010	0.000	0.179	0.855	0.006	0.000	0.139	forebrain_eye 76%, endoderm 14%, midbrain_hindbrain_boundary 7%
+90% epiboly	non_neural_ectoderm	3	91	0.119	0.885	0.088	0.000	0.000	0.028	0.667	0.000	0.000	0.333	placodes 66%, EVL 19%, neural_crest 8%
+90% epiboly	notochord	3	430	1.000	0.018	0.000	0.454	0.471	0.057	0.000	0.394	0.550	0.055	axial_mesoderm 34%, hatching_gland 27%, presomitic_mesoderm 20%
+90% epiboly	placodes	3	676	0.889	0.112	0.000	0.850	0.005	0.032	0.000	0.962	0.005	0.033	non_neural_ectoderm 95%, EVL 4%, neural_crest 0%
+90% epiboly	prechordal_plate	3	255	1.000	0.000	0.504	0.059	0.101	0.335	0.511	0.076	0.069	0.344	hatching_gland 48%, non_neural_ectoderm 19%, EVL 10%
+90% epiboly	presomitic_mesoderm	3	570	0.508	0.490	0.028	0.387	0.090	0.005	0.053	0.754	0.143	0.006	margin 44%, mesoderm 36%, hatching_gland 9%
+90% epiboly	primary_neurons	3	103	0.971	0.037	0.000	0.095	0.047	0.820	0.000	0.077	0.045	0.853	hatching_gland 73%, non_neural_ectoderm 12%, state:blastomere 8%
+90% epiboly	state:blastomere	3	252	0.370	0.656	0.344	0.000	0.000	0.001	1.000	0.000	0.000	0.000	hindbrain 48%, forebrain_eye 23%, midbrain_hindbrain_boundary 23%
+90% epiboly	tailbud	3	940	0.909	0.088	0.000	0.347	0.527	0.038	0.000	0.429	0.513	0.058	margin 40%, presomitic_mesoderm 26%, mesoderm 15%
+bud	EVL	4	592	0.951	0.060	0.000	0.000	0.000	0.940	0.000	0.000	0.000	1.000	non_neural_ectoderm 72%, hatching_gland 19%, placodes 7%
+bud	PGC	2	10	0.229	0.771	0.000	0.000	0.000	0.229					presomitic_mesoderm 30%, adaxial_somite 20%, EVL 20%
+bud	adaxial_somite	4	978	0.977	0.038	0.000	0.815	0.142	0.006	0.000	0.835	0.154	0.002	presomitic_mesoderm 67%, mesoderm 12%, margin 6%
+bud	axial_mesoderm	4	739	0.906	0.132	0.093	0.038	0.715	0.022	0.083	0.046	0.854	0.029	presomitic_mesoderm 38%, hatching_gland 19%, notochord 17%
+bud	dorsal_forerunner	3	367	0.935	0.074	0.000	0.139	0.000	0.787	0.000	0.150	0.000	0.850	endoderm 59%, non_neural_ectoderm 16%, state:blastomere 11%
+bud	dorsal_organizer	3	477	0.976	0.037	0.654	0.000	0.182	0.128	0.655	0.000	0.221	0.137	hatching_gland 30%, notochord 26%, forebrain_eye 15%
+bud	endoderm	3	234	0.611	0.426	0.000	0.011	0.519	0.044	0.000	0.000	0.953	0.047	notochord 50%, axial_mesoderm 14%, lateral_plate 5%
+bud	forebrain_eye	4	221	0.214	0.789	0.000	0.006	0.187	0.018	0.000	0.045	0.849	0.091	midbrain_hindbrain_boundary 57%, placodes 26%, dorsal_organizer 7%
+bud	hatching_gland	4	521	0.840	0.193	0.000	0.002	0.266	0.539	0.000	0.000	0.377	0.619	non_neural_ectoderm 56%, notochord 23%, EVL 5%
+bud	heart	4	189	0.795	0.176	0.000	0.556	0.166	0.101	0.000	0.698	0.202	0.118	lateral_plate 33%, mesoderm 21%, non_neural_ectoderm 18%
+bud	hindbrain	4	418	0.518	0.480	0.000	0.232	0.235	0.053	0.000	0.418	0.457	0.125	state:blastomere 42%, midbrain_hindbrain_boundary 27%, primary_neurons 13%
+bud	intermediate_mesoderm	4	442	0.946	0.089	0.000	0.193	0.692	0.025	0.000	0.259	0.703	0.022	lateral_plate 28%, mesoderm 26%, notochord 16%
+bud	lateral_plate	4	393	0.644	0.468	0.064	0.255	0.176	0.037	0.136	0.474	0.294	0.091	mesoderm 45%, heart 16%, presomitic_mesoderm 10%
+bud	margin	4	1600	0.871	0.133	0.866	0.000	0.000	0.001	0.999	0.000	0.000	0.001	presomitic_mesoderm 48%, tailbud 13%, endoderm 10%
+bud	mesoderm	4	1582	0.865	0.121	0.722	0.121	0.036	0.000	0.841	0.120	0.038	0.000	presomitic_mesoderm 51%, margin 21%, lateral_plate 11%
+bud	midbrain_hindbrain_boundary	4	340	0.324	0.639	0.000	0.050	0.306	0.005	0.000	0.107	0.861	0.019	forebrain_eye 39%, hindbrain 36%, placodes 10%
+bud	neural_crest	4	498	0.892	0.131	0.000	0.593	0.114	0.162	0.000	0.750	0.071	0.182	non_neural_ectoderm 55%, endoderm 22%, placodes 11%
+bud	neural_plate	4	965	0.996	0.004	0.935	0.006	0.000	0.055	0.929	0.003	0.000	0.062	forebrain_eye 77%, placodes 7%, midbrain_hindbrain_boundary 7%
+bud	non_neural_ectoderm	4	180	0.197	0.809	0.143	0.000	0.000	0.048	0.955	0.000	0.000	0.045	placodes 90%, endoderm 5%, EVL 1%
+bud	notochord	3	244	0.647	0.237	0.000	0.314	0.405	0.045	0.000	0.240	0.667	0.093	hatching_gland 51%, axial_mesoderm 18%, EVL 10%
+bud	placodes	4	794	0.750	0.251	0.000	0.666	0.056	0.027	0.000	0.890	0.080	0.034	non_neural_ectoderm 90%, forebrain_eye 6%, neural_crest 1%
+bud	prechordal_plate	4	510	1.000	0.000	0.236	0.030	0.086	0.648	0.208	0.010	0.044	0.625	non_neural_ectoderm 38%, hatching_gland 28%, forebrain_eye 16%
+bud	presomitic_mesoderm	4	603	0.336	0.666	0.029	0.256	0.049	0.000	0.087	0.783	0.130	0.000	margin 50%, mesoderm 24%, adaxial_somite 13%
+bud	primary_neurons	2	193	0.714	0.286	0.000	0.034	0.168	0.511	0.000	0.048	0.237	0.716	hatching_gland 64%, hindbrain 20%, endoderm 5%
+bud	state:blastomere	4	628	0.669	0.358	0.642	0.000	0.000	0.000	1.000	0.000	0.000	0.000	hindbrain 48%, midbrain_hindbrain_boundary 28%, forebrain_eye 13%
+bud	state:maternal	1	27	1.000	0.000	1.000	0.000	0.000	0.000	1.000	0.000	0.000	0.000	PGC 78%, tailbud 11%, margin 7%
+bud	tailbud	4	1058	0.779	0.231	0.000	0.179	0.485	0.105	0.000	0.229	0.572	0.102	margin 34%, presomitic_mesoderm 30%, non_neural_ectoderm 12%
+3-somite	EVL	1	152	0.840	0.160	0.000	0.000	0.000	0.840	0.000	0.000	0.000	1.000	non_neural_ectoderm 68%, hatching_gland 11%, endoderm 7%
+3-somite	adaxial_somite	1	195	0.852	0.148	0.000	0.725	0.105	0.022	0.000	0.851	0.123	0.026	presomitic_mesoderm 71%, margin 11%, lateral_plate 7%
+3-somite	axial_mesoderm	1	111	1.000	0.000	0.243	0.135	0.586	0.036	0.243	0.135	0.586	0.036	notochord 24%, presomitic_mesoderm 23%, tailbud 15%
+3-somite	dorsal_forerunner	1	57	0.781	0.219	0.000	0.110	0.000	0.671	0.000	0.140	0.000	0.860	endoderm 74%, EVL 12%, tailbud 5%
+3-somite	dorsal_organizer	1	69	1.000	0.000	0.623	0.000	0.246	0.130	0.623	0.000	0.246	0.130	notochord 39%, hatching_gland 20%, EVL 7%
+3-somite	endoderm	1	48	0.505	0.495	0.000	0.000	0.400	0.105	0.000	0.000	0.792	0.208	notochord 54%, dorsal_forerunner 21%, lateral_plate 15%
+3-somite	forebrain_eye	1	66	0.276	0.724	0.000	0.013	0.243	0.021	0.000	0.045	0.879	0.076	midbrain_hindbrain_boundary 62%, placodes 18%, neural_crest 6%
+3-somite	hatching_gland	1	150	0.888	0.112	0.000	0.012	0.178	0.698	0.000	0.013	0.200	0.787	non_neural_ectoderm 65%, notochord 18%, EVL 7%
+3-somite	heart	1	75	0.862	0.138	0.000	0.368	0.345	0.149	0.000	0.427	0.400	0.173	lateral_plate 37%, adaxial_somite 25%, non_neural_ectoderm 15%
+3-somite	hindbrain	1	62	0.459	0.541	0.000	0.081	0.378	0.000	0.000	0.177	0.823	0.000	primary_neurons 32%, midbrain_hindbrain_boundary 32%, state:blastomere 18%
+3-somite	intermediate_mesoderm	1	76	0.679	0.321	0.000	0.018	0.598	0.062	0.000	0.026	0.882	0.092	lateral_plate 54%, notochord 28%, EVL 8%
+3-somite	lateral_plate	1	90	0.533	0.467	0.071	0.083	0.320	0.059	0.133	0.156	0.600	0.111	intermediate_mesoderm 26%, adaxial_somite 20%, heart 13%
+3-somite	margin	1	246	0.699	0.301	0.688	0.003	0.000	0.009	0.984	0.004	0.000	0.012	presomitic_mesoderm 50%, tailbud 24%, notochord 11%
+3-somite	mesoderm	1	315	0.969	0.031	0.668	0.277	0.025	0.000	0.689	0.286	0.025	0.000	presomitic_mesoderm 46%, margin 28%, adaxial_somite 10%
+3-somite	midbrain_hindbrain_boundary	1	65	0.264	0.736	0.000	0.037	0.228	0.000	0.000	0.138	0.862	0.000	forebrain_eye 51%, neural_crest 22%, hindbrain 12%
+3-somite	neural_crest	1	28	0.301	0.699	0.000	0.032	0.151	0.118	0.000	0.107	0.500	0.393	midbrain_hindbrain_boundary 25%, placodes 21%, notochord 14%
+3-somite	neural_plate	1	94	0.979	0.021	0.719	0.031	0.000	0.229	0.734	0.032	0.000	0.234	forebrain_eye 39%, endoderm 23%, midbrain_hindbrain_boundary 18%
+3-somite	non_neural_ectoderm	1	36	0.224	0.776	0.155	0.000	0.000	0.068	0.694	0.000	0.000	0.306	placodes 69%, EVL 14%, hatching_gland 11%
+3-somite	notochord	1	50	0.649	0.351	0.000	0.000	0.351	0.299	0.000	0.000	0.540	0.460	non_neural_ectoderm 28%, hatching_gland 24%, EVL 18%
+3-somite	placodes	1	129	0.645	0.355	0.000	0.505	0.085	0.055	0.000	0.783	0.132	0.085	non_neural_ectoderm 78%, primary_neurons 7%, neural_crest 6%
+3-somite	prechordal_plate	1	136	0.978	0.022	0.108	0.000	0.122	0.748	0.110	0.000	0.125	0.765	non_neural_ectoderm 46%, forebrain_eye 17%, hatching_gland 11%
+3-somite	presomitic_mesoderm	1	114	0.430	0.570	0.117	0.275	0.038	0.000	0.272	0.640	0.088	0.000	margin 61%, adaxial_somite 27%, lateral_plate 5%
+3-somite	primary_neurons	1	21	0.323	0.677	0.000	0.000	0.062	0.262	0.000	0.000	0.190	0.810	hatching_gland 62%, non_neural_ectoderm 19%, hindbrain 10%
+3-somite	state:blastomere	1	68	0.493	0.507	0.493	0.000	0.000	0.000	1.000	0.000	0.000	0.000	hindbrain 44%, midbrain_hindbrain_boundary 24%, primary_neurons 15%
+3-somite	state:maternal	1	12	0.923	0.077	0.923	0.000	0.000	0.000	1.000	0.000	0.000	0.000	lateral_plate 75%, intermediate_mesoderm 17%, presomitic_mesoderm 8%
+3-somite	tailbud	1	142	0.626	0.374	0.000	0.432	0.137	0.057	0.000	0.690	0.218	0.092	margin 68%, presomitic_mesoderm 15%, non_neural_ectoderm 6%
+6-somite	EVL	2	474	0.879	0.121	0.000	0.000	0.000	0.879	0.000	0.000	0.000	1.000	non_neural_ectoderm 56%, placodes 24%, hatching_gland 12%
+6-somite	PGC	2	28	0.562	0.438	0.000	0.000	0.000	0.562	0.000	0.000	0.000	1.000	forebrain_eye 32%, placodes 25%, dorsal_forerunner 18%
+6-somite	adaxial_somite	2	631	0.874	0.126	0.000	0.785	0.072	0.017	0.000	0.898	0.083	0.019	presomitic_mesoderm 79%, margin 8%, intermediate_mesoderm 4%
+6-somite	axial_mesoderm	2	308	0.926	0.074	0.203	0.044	0.626	0.053	0.221	0.047	0.675	0.057	notochord 19%, presomitic_mesoderm 19%, hatching_gland 14%
+6-somite	dorsal_forerunner	2	190	0.870	0.130	0.000	0.210	0.000	0.661	0.000	0.243	0.000	0.757	endoderm 58%, EVL 21%, notochord 4%
+6-somite	dorsal_organizer	2	223	0.979	0.021	0.561	0.000	0.294	0.124	0.570	0.000	0.302	0.128	notochord 26%, hatching_gland 20%, endoderm 13%
+6-somite	endoderm	2	201	0.612	0.388	0.000	0.023	0.520	0.069	0.000	0.038	0.849	0.113	lateral_plate 35%, notochord 29%, dorsal_forerunner 8%
+6-somite	forebrain_eye	2	114	0.189	0.811	0.000	0.006	0.156	0.027	0.000	0.044	0.790	0.166	midbrain_hindbrain_boundary 33%, placodes 27%, primary_neurons 14%
+6-somite	hatching_gland	2	479	0.821	0.179	0.000	0.010	0.190	0.621	0.000	0.012	0.232	0.756	non_neural_ectoderm 56%, notochord 12%, EVL 10%
+6-somite	heart	2	187	0.769	0.231	0.000	0.351	0.298	0.120	0.000	0.460	0.382	0.157	lateral_plate 43%, endoderm 19%, non_neural_ectoderm 11%
+6-somite	hindbrain	2	209	0.523	0.477	0.000	0.112	0.315	0.096	0.000	0.216	0.601	0.183	primary_neurons 25%, state:blastomere 21%, midbrain_hindbrain_boundary 18%
+6-somite	intermediate_mesoderm	2	199	0.722	0.278	0.000	0.083	0.487	0.152	0.000	0.116	0.663	0.220	lateral_plate 51%, EVL 19%, mesoderm 8%
+6-somite	lateral_plate	2	208	0.533	0.467	0.113	0.059	0.256	0.105	0.210	0.111	0.480	0.199	heart 21%, intermediate_mesoderm 19%, non_neural_ectoderm 17%
+6-somite	margin	2	728	0.737	0.263	0.735	0.000	0.000	0.002	0.998	0.000	0.000	0.002	presomitic_mesoderm 54%, tailbud 17%, notochord 8%
+6-somite	mesoderm	2	965	0.976	0.024	0.664	0.241	0.070	0.000	0.681	0.247	0.072	0.000	presomitic_mesoderm 53%, margin 25%, adaxial_somite 9%
+6-somite	midbrain_hindbrain_boundary	2	141	0.229	0.771	0.000	0.045	0.177	0.007	0.000	0.199	0.773	0.028	hindbrain 30%, forebrain_eye 23%, state:blastomere 20%
+6-somite	neural_crest	2	97	0.310	0.690	0.000	0.042	0.144	0.124	0.000	0.121	0.439	0.439	placodes 19%, endoderm 19%, non_neural_ectoderm 13%
+6-somite	neural_plate	2	297	0.990	0.010	0.659	0.010	0.000	0.321	0.666	0.010	0.000	0.324	forebrain_eye 47%, endoderm 23%, midbrain_hindbrain_boundary 8%
+6-somite	non_neural_ectoderm	2	258	0.475	0.525	0.278	0.000	0.000	0.197	0.591	0.000	0.000	0.409	placodes 58%, hatching_gland 22%, EVL 17%
+6-somite	notochord	2	321	0.843	0.157	0.000	0.066	0.377	0.400	0.000	0.078	0.444	0.478	non_neural_ectoderm 33%, hatching_gland 22%, EVL 14%
+6-somite	placodes	2	275	0.542	0.458	0.000	0.321	0.105	0.116	0.000	0.611	0.185	0.203	non_neural_ectoderm 59%, primary_neurons 14%, EVL 11%
+6-somite	prechordal_plate	2	356	0.994	0.006	0.232	0.011	0.133	0.618	0.233	0.011	0.134	0.621	non_neural_ectoderm 39%, hatching_gland 23%, EVL 12%
+6-somite	presomitic_mesoderm	2	324	0.384	0.616	0.095	0.258	0.030	0.001	0.248	0.672	0.077	0.003	margin 66%, adaxial_somite 24%, tailbud 3%
+6-somite	primary_neurons	2	73	0.431	0.569	0.000	0.023	0.123	0.284	0.000	0.052	0.280	0.668	hatching_gland 49%, placodes 19%, endoderm 12%
+6-somite	state:blastomere	2	277	0.519	0.481	0.519	0.000	0.000	0.000	1.000	0.000	0.000	0.000	midbrain_hindbrain_boundary 29%, hindbrain 29%, forebrain_eye 23%
+6-somite	state:maternal	2	62	0.873	0.127	0.873	0.000	0.000	0.000	1.000	0.000	0.000	0.000	lateral_plate 58%, heart 18%, tailbud 11%
+6-somite	tailbud	2	403	0.666	0.334	0.000	0.411	0.231	0.025	0.000	0.617	0.346	0.037	margin 60%, presomitic_mesoderm 24%, endoderm 3%

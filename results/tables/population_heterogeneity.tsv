@@ -1,0 +1,94 @@
+program	stage	library	cells	detectable	power	conclusive	calls_all	calls	control_all	control	null_moderate	ratio	in_program	control_in_program
+endoderm	75% epiboly	ZF75_WT_DS3	117	4	1.000	False	114	0	358	8	0	0.000		1.000
+endoderm	bud	ZFB_WT_DS3	175	10	1.000	True	132	10	82	19	1	0.526	0.500	1.000
+forebrain_eye	3-somite	ZF3S_WT_DS5	173	8	0.125	True	135	14	330	16	1	0.875	0.615	0.857
+forebrain_eye	6-somite	ZF6S_WT_DS5	280	22	0.864	True	10	4	115	34	0	0.118	0.750	0.786
+forebrain_eye	6-somite	ZF6S_WT_DS5b	218	18	1.000	True	13	6	460	146	0	0.041	0.833	0.647
+forebrain_eye	60% epiboly	ZF60_WT_DS3	109	6	0.833	True	39	5	88	13	1	0.385		0.750
+forebrain_eye	60% epiboly	ZF60_WT_DS4	139	6	1.000	True	58	10	97	44	2	0.227	1.000	0.861
+forebrain_eye	75% epiboly	ZF75_WT_DS2	155	10	1.000	True	55	16	181	53	7	0.302	0.636	0.864
+forebrain_eye	75% epiboly	ZF75_WT_DS3	364	75	0.960	True	115	82	294	212	1	0.387	0.643	0.721
+forebrain_eye	75% epiboly	ZF75_WT_DS4	220	44	1.000	True	43	15	251	137	1	0.109	0.800	0.762
+forebrain_eye	90% epiboly	ZF90_WT_DS2	161	15	1.000	True	109	30	197	63	6	0.476	0.545	0.796
+forebrain_eye	90% epiboly	ZF90_WT_DS3	418	143	0.965	True	45	29	428	291	2	0.100	0.875	0.649
+forebrain_eye	90% epiboly	ZF90_WT_DS4	221	26	1.000	True	59	29	431	127	3	0.228	0.714	0.716
+forebrain_eye	bud	ZFB_WT_DS3	671	233	0.828	True	86	66	331	307	1	0.215	0.721	0.697
+forebrain_eye	bud	ZFB_WT_DS4	237	50	1.000	True	43	21	342	138	1	0.152	0.882	0.787
+hindbrain	6-somite	ZF6S_WT_DS5b	110	2	0.000	False	104	0	287	6	2	0.000		0.600
+hindbrain	90% epiboly	ZF90_WT_DS3	103	2	0.500	False	69	5	317	9	2	0.556	1.000	0.800
+hindbrain	bud	ZFB_WT_DS3	338	76	0.882	True	61	37	345	187	2	0.198	0.774	0.721
+hindbrain	bud	ZFB_WT_DS4	103	3	0.000	False	9	4	138	0	0	4.000	1.000	
+lateral_plate	bud	ZFB_WT_DS3	142	5	0.800	True	109	3	328	30	3	0.100	1.000	0.800
+margin	3-somite	ZF3S_WT_DS5	106	2	0.000	False	80	0	109	0	4	0.000		
+margin	30% epiboly	ZF30_WT_DS5b	125	0		False	26	5	39	4	0	1.250	1.000	1.000
+margin	50% epiboly	ZF50_WT_DS2	171	9	0.333	True	19	8	155	9	0	0.889	1.000	1.000
+margin	50% epiboly	ZF50_WT_DS3	175	8	1.000	True	23	5	180	26	0	0.192	1.000	1.000
+margin	50% epiboly	ZF50_WT_DS4	228	17	0.235	True	24	14	120	17	0	0.824	1.000	0.857
+margin	50% epiboly	ZF50_WT_DS4b	203	12	1.000	True	27	11	349	64	0	0.172	1.000	0.804
+margin	6-somite	ZF6S_WT_DS5	150	2	0.000	False	47	0	69	0	4	0.000		
+margin	6-somite	ZF6S_WT_DS5b	110	2	0.000	False	70	0	308	6	1	0.000		0.600
+margin	60% epiboly	ZF60_WT_DS2	108	5	1.000	True	5	2	73	16	0	0.125	0.000	0.923
+margin	60% epiboly	ZF60_WT_DS4	114	4	1.000	False	4	1	156	12	0	0.083		1.000
+margin	75% epiboly	ZF75_WT_DS2	130	7	1.000	True	2	1	107	22	0	0.045	1.000	0.875
+margin	75% epiboly	ZF75_WT_DS3	223	19	0.947	True	47	12	127	66	3	0.182	0.833	0.845
+margin	75% epiboly	ZF75_WT_DS4	111	6	1.000	True	15	2	153	21	1	0.095	1.000	0.923
+margin	90% epiboly	ZF90_WT_DS3	227	32	0.969	True	51	21	247	122	2	0.172	0.600	0.761
+margin	90% epiboly	ZF90_WT_DS4	128	5	1.000	True	7	1	174	25	0	0.040		0.889
+margin	bud	ZFB_WT_DS3	246	29	0.931	True	35	16	231	102	1	0.157	0.889	0.837
+margin	bud	ZFB_WT_DS4	111	5	1.000	True	140	1	82	17	3	0.059	1.000	0.778
+mesoderm	60% epiboly	ZF60_WT_DS4	114	4	1.000	False	12	1	47	8	0	0.125		1.000
+mesoderm	75% epiboly	ZF75_WT_DS2	132	7	1.000	True	61	16	257	32	2	0.500	0.250	0.870
+mesoderm	75% epiboly	ZF75_WT_DS3	205	14	1.000	True	98	29	246	68	3	0.426	0.857	0.833
+mesoderm	90% epiboly	ZF90_WT_DS3	160	11	1.000	True	76	18	416	49	2	0.367	0.600	0.868
+mesoderm	bud	ZFB_WT_DS3	131	5	0.200	True	85	1	181	5	2	0.200		1.000
+midbrain_hindbrain_boundary	3-somite	ZF3S_WT_DS5	181	8	0.750	True	25	10	63	15	0	0.667	0.750	0.889
+midbrain_hindbrain_boundary	6-somite	ZF6S_WT_DS5	299	25	0.960	True	10	2	324	142	0	0.014	1.000	0.649
+midbrain_hindbrain_boundary	6-somite	ZF6S_WT_DS5b	195	15	1.000	True	20	7	270	97	0	0.072	1.000	0.648
+midbrain_hindbrain_boundary	60% epiboly	ZF60_WT_DS2	143	12	0.583	True	11	6	58	29	1	0.207	0.667	0.880
+midbrain_hindbrain_boundary	75% epiboly	ZF75_WT_DS2	117	4	1.000	False	60	6	50	13	1	0.462	1.000	0.889
+midbrain_hindbrain_boundary	75% epiboly	ZF75_WT_DS3	153	9	0.889	True	3	1	295	28	0	0.036		0.850
+midbrain_hindbrain_boundary	90% epiboly	ZF90_WT_DS3	234	34	1.000	True	30	13	349	128	2	0.102	0.875	0.746
+midbrain_hindbrain_boundary	90% epiboly	ZF90_WT_DS4	128	5	1.000	True	15	1	208	21	2	0.048		0.750
+midbrain_hindbrain_boundary	bud	ZFB_WT_DS3	507	178	0.809	True	78	62	314	252	3	0.246	0.815	0.715
+midbrain_hindbrain_boundary	bud	ZFB_WT_DS4	199	32	0.875	True	36	13	241	71	0	0.183	0.917	0.787
+neural_crest	6-somite	ZF6S_WT_DS5b	119	3	0.000	False	102	1	203	0	0	1.000	0.000	
+non_neural_ectoderm	3-somite	ZF3S_WT_DS5	125	3	0.000	False	140	4	132	1	0	4.000	0.500	
+non_neural_ectoderm	6-somite	ZF6S_WT_DS5	126	1	0.000	False	109	0	69	0	5	0.000		
+non_neural_ectoderm	6-somite	ZF6S_WT_DS5b	162	6	0.833	True	7	0	171	24	0	0.000		0.706
+non_neural_ectoderm	60% epiboly	ZF60_WT_DS2	141	11	0.818	True	22	5	87	35	1	0.143	0.500	0.871
+non_neural_ectoderm	60% epiboly	ZF60_WT_DS3	147	11	1.000	True	6	4	107	39	0	0.103	1.000	0.867
+non_neural_ectoderm	60% epiboly	ZF60_WT_DS4	108	4	1.000	False	3	0	19	6	0	0.000		1.000
+non_neural_ectoderm	75% epiboly	ZF75_WT_DS2	270	78	1.000	True	49	30	229	172	5	0.174	0.478	0.736
+non_neural_ectoderm	75% epiboly	ZF75_WT_DS3	361	73	1.000	True	48	40	264	190	2	0.211	0.483	0.687
+non_neural_ectoderm	75% epiboly	ZF75_WT_DS4	206	33	1.000	True	79	35	390	114	6	0.307	0.423	0.731
+non_neural_ectoderm	90% epiboly	ZF90_WT_DS2	171	22	1.000	True	74	28	292	98	1	0.286	0.550	0.795
+non_neural_ectoderm	90% epiboly	ZF90_WT_DS3	334	94	0.798	True	63	45	292	160	2	0.281	0.639	0.753
+non_neural_ectoderm	90% epiboly	ZF90_WT_DS4	188	17	1.000	True	71	23	389	83	3	0.277	0.500	0.808
+non_neural_ectoderm	bud	ZFB_WT_DS3	482	162	0.920	True	95	73	369	313	2	0.233	0.635	0.674
+non_neural_ectoderm	bud	ZFB_WT_DS4	172	15	0.933	True	26	10	273	70	0	0.143	0.667	0.817
+placodes	6-somite	ZF6S_WT_DS5	101	0		False	48	0	7	0	3	0.000		
+placodes	6-somite	ZF6S_WT_DS5b	132	3	0.333	False	142	0	434	20	3	0.000		0.750
+placodes	bud	ZFB_WT_DS3	205	14	0.929	True	8	5	128	41	0	0.122	1.000	0.941
+presomitic_mesoderm	3-somite	ZF3S_WT_DS5	151	4	0.000	False	89	1	167	1	4	1.000	1.000	1.000
+presomitic_mesoderm	6-somite	ZF6S_WT_DS5	281	23	1.000	True	7	1	212	82	0	0.012		0.697
+presomitic_mesoderm	6-somite	ZF6S_WT_DS5b	238	22	1.000	True	42	20	365	104	1	0.192	0.929	0.708
+presomitic_mesoderm	60% epiboly	ZF60_WT_DS3	110	6	1.000	True	56	12	73	13	2	0.923	1.000	1.000
+presomitic_mesoderm	75% epiboly	ZF75_WT_DS2	164	12	1.000	True	113	32	215	68	5	0.471	0.583	0.746
+presomitic_mesoderm	75% epiboly	ZF75_WT_DS3	261	37	1.000	True	54	35	387	124	5	0.282	0.778	0.713
+presomitic_mesoderm	75% epiboly	ZF75_WT_DS4	125	8	1.000	True	82	18	243	35	3	0.514	0.917	0.821
+presomitic_mesoderm	90% epiboly	ZF90_WT_DS2	129	10	1.000	True	31	10	231	40	1	0.250	1.000	0.781
+presomitic_mesoderm	90% epiboly	ZF90_WT_DS3	222	27	0.963	True	50	21	267	120	1	0.175	0.875	0.725
+presomitic_mesoderm	90% epiboly	ZF90_WT_DS4	161	13	1.000	True	16	6	192	59	0	0.102	0.667	0.800
+presomitic_mesoderm	bud	ZFB_WT_DS3	560	197	0.929	True	49	35	401	320	1	0.109	0.844	0.666
+presomitic_mesoderm	bud	ZFB_WT_DS4	136	9	1.000	True	8	5	73	16	0	0.312	0.800	1.000
+state:blastomere	6-somite	ZF6S_WT_DS5	119	1	0.000	False	24	0	153	1	0	0.000		1.000
+state:blastomere	6-somite	ZF6S_WT_DS5b	136	4	1.000	False	3	1	158	14	0	0.071		0.875
+state:blastomere	60% epiboly	ZF60_WT_DS4	127	5	1.000	True	34	15	31	9	1	1.667	0.875	1.000
+state:blastomere	75% epiboly	ZF75_WT_DS2	156	10	1.000	True	51	19	226	64	1	0.297	0.909	0.815
+state:blastomere	75% epiboly	ZF75_WT_DS3	197	13	1.000	True	44	21	299	77	2	0.273	0.857	0.826
+state:blastomere	75% epiboly	ZF75_WT_DS4	120	7	1.000	True	18	6	284	32	0	0.188	1.000	0.760
+state:blastomere	90% epiboly	ZF90_WT_DS3	233	33	1.000	True	42	19	277	102	1	0.186	0.769	0.811
+state:blastomere	90% epiboly	ZF90_WT_DS4	114	4	1.000	False	6	2	43	11	0	0.182		1.000
+state:blastomere	bud	ZFB_WT_DS3	211	17	1.000	True	8	4	216	69	0	0.058	1.000	0.869
+tailbud	6-somite	ZF6S_WT_DS5b	100	1	0.000	False	103	3	254	2	0	1.500	1.000	1.000
+tailbud	bud	ZFB_WT_DS3	225	21	1.000	True	12	4	357	87	0	0.046	1.000	0.833

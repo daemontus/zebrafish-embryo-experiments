@@ -4,7 +4,8 @@
 #
 #   make heterogeneity   01-03 (dataset, heterogeneous genes, a/b libraries)
 #   make programs        16, 17, 21, 22, 24, 25 (program sets and their tests)
-#   make populations     15, 26 (cell programs and exclusions), 19, 23 (exploration)
+#   make populations     15, 26 (cell programs and exclusions), 28 (population
+#                        heterogeneity), 19, 23 (exploration)
 #   make report          the report PDF (copied to report/main.pdf)
 #   make all             everything
 #
@@ -24,7 +25,7 @@ heterogeneity: $(T)/libraries.tsv $(T)/heterogeneity_zfin.tsv $(T)/hvg_flavours.
 programs: $(T)/programs.tsv $(T)/program_support.tsv $(T)/signal_coupling.tsv \
 	$(T)/program_levels.tsv $(T)/program_overlap.tsv $(T)/program_pseudobulk.tsv
 populations: $(T)/alignment_stages.tsv $(T)/cell_programs.tsv $(T)/program_atlas.tsv \
-	$(T)/signal_atlas.tsv
+	$(T)/signal_atlas.tsv $(T)/population_heterogeneity.tsv
 
 # --- dataset and heterogeneous genes (01-03) -------------------------------------------------
 $(T)/libraries.tsv: $(S)/01_dataset_structure.py $(UTILS)
@@ -68,13 +69,17 @@ $(T)/program_pseudobulk.tsv: $(S)/25_program_pseudobulk.py $(S)/24_program_overv
 		$(UTILS) $(T)/programs.tsv data/curated/curated_programs.tsv
 	$(PY) $<
 
-# --- cells and populations (15, 26; 19 and 23: exploration) ---------------------------------
+# --- cells and populations (15, 26, 28; 19 and 23: exploration) ---------------------------------
 $(T)/alignment_stages.tsv: $(S)/15_alignment.py $(S)/02_replicate_mixing.py $(UTILS) \
 		$(T)/heterogeneous_genes.tsv.gz
 	$(PY) $<
 $(T)/cell_programs.tsv: $(S)/26_cell_programs.py $(S)/program_utils.py $(UTILS) \
 		$(T)/programs.tsv $(T)/program_support.tsv $(T)/heterogeneous_genes.tsv.gz \
 		data/curated/curated_programs.tsv $(T)/curated_zfin_windows.tsv
+	$(PY) $<
+$(T)/population_heterogeneity.tsv: $(S)/28_population_heterogeneity.py \
+		$(S)/26_cell_programs.py $(S)/01b_heterogeneous_genes.py $(UTILS) \
+		$(T)/cell_programs.tsv $(T)/programs.tsv
 	$(PY) $<
 $(T)/program_atlas.tsv: $(S)/19_program_atlas.py $(S)/15_alignment.py $(S)/program_utils.py \
 		$(UTILS) $(T)/cell_programs.tsv $(T)/alignment_stages.tsv $(T)/programs.tsv \
