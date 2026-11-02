@@ -1,6 +1,7 @@
 """Shared helpers of the program analyses (scripts 16-23).
 
-Smoothing over library neighbourhoods, the held-out prediction test (one
+Smoothing over library neighbourhoods, smoothed program scores with active
+calls (ProgramSpace), the held-out prediction test (one
 logistic regression per evaluation gene; floor, feature sets and the knn
 ceiling) and the gene modules of Farrell et al. (Table S2). Moved here from
 the earlier scripts 04-06 (removed 2026-10-28).
@@ -12,12 +13,13 @@ import warnings
 import numpy as np
 import pandas as pd
 import scanpy as sc
+from sklearn.decomposition import PCA
 from sklearn.exceptions import ConvergenceWarning
 from sklearn.linear_model import LogisticRegressionCV
 from sklearn.neighbors import NearestNeighbors
 from sklearn.preprocessing import StandardScaler
 
-from pipeline_utils import ROOT
+from pipeline_utils import ROOT, pearson_residuals
 
 N_PCS = 30
 K_SMOOTH = 10  # neighbours for smoothing scores
@@ -36,6 +38,13 @@ CS = [0.003, 0.03, 0.3, 3.0]
 TARGETS = ["neighbourhood"]
 Y_MIN = -0.2  # lower limit of figures (lower values are drawn at the limit)
 MIN_SHARE = 0.04  # explainable share of the floor loss below which `explained` is NaN
+
+# Active calls: smoothed score above the ACTIVE_QUANTILE of ACTIVE_N_PERM
+# gene-wise permutations of the library (ProgramSpace, script 21).
+PROGRAM_SET = "curated"
+ACTIVE_N_PERM = 5
+ACTIVE_QUANTILE = 0.999
+SEED = 0
 
 FARRELL_S2 = ROOT / "paper" / "aar3131_farrell_table-s2.xlsx"  # not versioned
 FARRELL_SHEETS = {
@@ -169,3 +178,64 @@ def farrell_modules() -> dict[str, list[pd.Series]]:
             modules.append(top / top.sum() if top.sum() > 0 else top)
         out[FARRELL_SHEETS[sheet]] = modules
     return out
+
+
+class ProgramSpace:
+    """Smoothed program scores and active calls per library (moved here from
+    script 18, removed 2026-11-02; used by 19 and 23)."""
+
+    def __init__(self, programs: pd.DataFrame, support: pd.DataFrame, genes_table: pd.DataFrame,
+                 supported_only: bool = True):
+        self.supported_only = supported_only
+        self.programs = programs
+        self.support = support
+        self.genes_table = genes_table
+        self.active: dict[str, np.ndarray] = {}
+        self.names: dict[str, list[str]] = {}
+
+    def stage_programs(self, stage: str) -> pd.Series:
+        ok = set(self.support.loc[(self.support["set"] == PROGRAM_SET)
+                                  & (self.support["stage"] == stage)
+                                  & self.support["supported"], "program"])
+        p = self.programs[(self.programs["set"] == PROGRAM_SET) & (self.programs["stage"] == stage)
+                          & self.programs["kept"]]
+        if self.supported_only:
+            p = p[p["program"].isin(ok)]
+        return p.groupby("program", sort=False)["gene"].agg(list)
+
+    def __call__(self, sub, libs: list[str], stage: str):
+        rng = np.random.default_rng(SEED)
+        progs = self.stage_programs(stage)
+        het = self.genes_table.loc[(self.genes_table["stage"] == stage)
+                                   & self.genes_table["heterogeneous"], "gene"]
+        het_idx = np.flatnonzero(sub.var_names.isin(het))
+        genes = sorted({g for gs in progs for g in gs})
+        col = {g: i for i, g in enumerate(genes)}
+        g_idx = sub.var_names.get_indexer(genes)
+        X = sub.X.tocsr()
+        lib_of = sub.obs["library"].to_numpy()
+        raw, smoothed = {}, {}
+        for lib in libs:
+            rows = np.flatnonzero(lib_of == lib)
+            counts = X[rows]
+            coords = PCA(min(N_PCS, len(rows) - 1), random_state=SEED).fit_transform(
+                pearson_residuals(counts, het_idx))
+            res = pearson_residuals(counts, g_idx)
+            library = np.full(len(rows), lib)
+            score = np.column_stack([res[:, [col[g] for g in gs]].mean(axis=1) for gs in progs])
+            smoothed[lib] = smooth(score, library, coords)
+            # active: above the gene-wise permutation null of the library
+            threshold = []
+            for gs in progs:
+                r = res[:, [col[g] for g in gs]]
+                null = np.concatenate([smooth(
+                    rng.permuted(r, axis=0).mean(axis=1)[:, None], library, coords)[:, 0]
+                    for _ in range(ACTIVE_N_PERM)])
+                threshold.append(np.quantile(null, ACTIVE_QUANTILE))
+            self.active[lib] = smoothed[lib] > np.array(threshold)[None, :]
+            self.names[lib] = list(progs.index)
+            raw[lib] = smoothed[lib]
+        sd = np.vstack([smoothed[lib] for lib in libs]).std(axis=0)
+        sd[sd == 0] = 1
+        coords = {lib: smoothed[lib] / sd for lib in libs}
+        return raw, coords, [p.removeprefix("state:") for p in progs.index]

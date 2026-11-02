@@ -11,7 +11,8 @@ A **Boolean model of cell differentiation in early zebrafish development
 shield: hypoblast/epiblast, dorsal–ventral). The data is the single-cell atlas
 of Farrell et al. 2018 (GEO GSE106587). The analysis so far: calibrated
 heterogeneous genes (replacing HVGs), library alignment, expression programs
-and replicated cell populations, written up in `report/main.tex`.
+and per-cell program calls (populations to follow), written up in
+`report/main.tex`.
 
 Checkouts: the server (`/home/xpastva/zebrafish-early`; 30 CPUs, ~125 GB RAM)
 and a local macOS checkout.
@@ -46,7 +47,7 @@ and a local macOS checkout.
 Local macOS: `.venv` (Python 3.13; pandas 3.0.6, numpy 2.5.4, matplotlib
 3.11.2, scanpy 1.12.4, openpyxl 3.1.5, ...). Run scripts from the repository
 root: `.venv/bin/python scripts/17_program_tests.py`. Scripts import each
-other via `importlib.import_module("14_replicated_populations")`; to import
+other via `importlib.import_module("17_program_tests")`; to import
 them elsewhere, put `scripts/` on `PYTHONPATH`.
 
 The download/metadata scripts (`download_*.sh`, `build_metadata.py`,
@@ -89,18 +90,16 @@ coherence part only); delete the cache directory to start over.
 | `01d_hvg_flavours.py` | vs newer HVG methods (seurat_v3, Pearson residuals) | 01b, 01c | min | `plot` |
 | `02_replicate_mixing.py` | do a/b libraries mix? (no) | 01b | min | |
 | `03_replicate_differences.py` | why a/b libraries differ (genes, timing) | counts | min | |
-| `14_replicated_populations.py` | per-library clusters replicated in another library; tracks across stages | 01b, 01c | few min | `[stages]`, `--seed`, `--tag`, `--tracks-only` |
 | `15_alignment.py` | checks of the per-library alignment; UMAPs | 01b, 02 | ~20 min | `markers` (~2 min); cache `atlas_umap.tsv.gz` |
 | `16_program_sets.py` | program sets → `programs.tsv`, plus readable gene lists per set in `results/tables/program_sets/<set>.tsv` | 01b, 01c, ZFIN, `data/curated`, Farrell S2 | min | `tables` (rewrites the gene lists from `programs.tsv`) |
 | `17_program_tests.py` | coherence/support (and relative coherence) and prediction tests of the sets (per stage and per library; explainable share per heterogeneity tier) | 01, 01b, 16 | cold ~1 h (coherence ~20 min); cached runs seconds to minutes | `summarise`; cache `cache/17` |
-| `18_program_populations.py` | populations in program space vs 14 | 14, 17 | few min | |
-| `19_program_atlas.py` | per-program UMAPs (exploration) | 14, 15, 17, 18, 25 | min | `plot`, `atlas`, `combined`; caches `program_{scores,active}.tsv.gz` |
-| `20_program_views.py` | dot plots, co-activity, tracks, genes (exploration) | 14, 19 | min | |
-| `21_signal_coupling.py` | signalling profiles vs programs per library, relative to random gene sets (reading profiles: `signal_coupling`; all profiles: `signal_outputs`); expected senders, receivers and blockers as hypotheses (`HYPOTHESES`; AUROC on active cells against the parent programs); signals of every derivation at its emergence (phenotype transitions) | 17, 18 | ~10 min | `plot` |
+| `19_program_atlas.py` | per-program UMAPs (exploration; stage UMAPs of 26) | 15, 17, 25, 26 | min | `plot`, `atlas`, `combined`; caches `program_{scores,active}.tsv.gz` |
+| `21_signal_coupling.py` | signalling profiles vs programs per library, relative to random gene sets (reading profiles: `signal_coupling`; all profiles: `signal_outputs`); expected senders, receivers and blockers as hypotheses (`HYPOTHESES`; AUROC on active cells against the parent programs); signals of every derivation at its emergence (phenotype transitions) | 17 | ~10 min | `plot` |
 | `22_program_levels.py` | discretised program levels in the prediction test (own evaluation genes: in no curated program, may be in other sets) | 17 | cold ~30 min; cached runs seconds to minutes | `summarise`; cache `cache/22` |
-| `23_signal_atlas.py` | readouts vs expected programs on the atlas (exploration) | 17, 18, 19, 21 | few min | `plot`; caches `signal_atlas_*` |
+| `23_signal_atlas.py` | readouts vs expected programs on the atlas (exploration) | 17, 19, 21 | few min | `plot`; caches `signal_atlas_*` |
 | `24_program_overview.py` | report figures and tables: curated-program timeline (heterogeneous genes per stage vs the ZFIN window, derivations as indentation and arrows), programs per stage of the sets, Farrell modules named by the curated programs, the curated program table (from `data/curated/curated_programs.tsv`), the signalling evidence table and the genes removed to make the curated programs disjoint; the relative-coherence map in the rows of the timeline | 01b, 16, 17 | seconds | |
 | `25_program_pseudobulk.py` | pseudobulk program strength per library (mean gene level relative to its peak, CP10k; the only library-level measure), in the layout of the timeline of 24 (squares) | 16, 24 | ~1 min | |
+| `26_cell_programs.py` | per cell: the identity programs against their own permutation null (z, active), the top program and its margin, split-half reliability; stress cells excluded (p53, dissociation, heat shock on top with margin >= 2); YSL/yolk and quality checks (nothing excluded); aligned stage UMAPs | 16, 17 | cold ~20 min; cached runs ~1 min | `plot`; cache `cache/26` |
 
 Shared modules:
 - `pipeline_utils.py`: paths, stages and batches, plot style,
@@ -110,7 +109,8 @@ Shared modules:
   (per-library residuals under that model, clipped at ±10, optionally
   centred = the alignment), the cache helpers (`digest`, `cached`,
   `load_cached`, `save_cached`) and `GZIP` (timestamp-free gzip for `to_csv`).
-- `program_utils.py`: kNN smoothing, the held-out prediction test (target:
+- `program_utils.py`: kNN smoothing, `ProgramSpace` (smoothed scores and
+  active calls of 19 and 23, constants of 21), the held-out prediction test (target:
   neighbourhood detection frequency only since 2026-10-29; floor /
   feature sets / ceiling; `fit_model_losses` keeps the loss per test cell) and the Farrell et al. Table S2 loader (all 30
   genes per module; reads `paper/aar3131_farrell_table-s2.xlsx`, not
@@ -122,8 +122,8 @@ Shared modules:
 Report sections: 3 dataset (01), 4 heterogeneous genes (01b–01d),
 5 a/b libraries (02, 03), 6 alignment (15), 7 programs: sets, structure,
 pseudobulk (16, 24, 25), 8 programs vs cells: support, prediction, levels
-(17, 22; the coherence map is drawn by 24), 9 programs and signals (21), 10 populations (14, 18). 19, 20 and
-23 are exploration only.
+(17, 22; the coherence map is drawn by 24), 9 programs and signals (21), 10 cells and
+populations (26; populations still to come). 19 and 23 are exploration only.
 
 ## Conventions and conclusions that affect downstream work
 
@@ -188,9 +188,17 @@ pseudobulk (16, 24, 25), 8 programs vs cells: support, prediction, levels
   to be in no curated program only (more and stronger genes); its explained
   fractions are therefore not those of 17. With few heterogeneous
   evaluation genes (shield: 49 in 17) the test has little to explain.
-- **Populations** (14): robust = found at >= 2 Leiden resolutions;
-  single-library stages (dome, shield, 3-somite) are matched against adjacent
-  stages, which is weaker evidence.
+- **Cell programs** (26): a cell's programs are scored against their own
+  gene-wise permutation null (z = standardised excess; active above the
+  99.9% quantile), smoothed over 10 neighbours found without the scored
+  programs' genes (unsmoothed calls find an identity in only ~30-40% of the
+  cells). Competing: supported identity programs + maternal + blastomere;
+  top = active program with the largest z, margin = top z - next z (floored
+  at 0). Low margins are mostly parent/child ties. Heat shock, dissociation
+  and cell-cycle genes are left out of neighbourhoods and features, not
+  cells; only stress cells (p53/dissociation/heat shock on top, margin >= 2)
+  are excluded. The YSL control is not YSL (yolk-specific genes are nearly
+  absent); doublets and low-quality cells need no filter beyond GEO's.
 - **Signalling readouts**: Hedgehog readouts are never heterogeneous; the RA
   readouts (cyp26a1, dhrs3a) do not measure RA activity well (cyp26a1 is used
   as RA blocking; dhrs3b was dropped: no evidence); nkd1 and nrarpb
@@ -204,7 +212,11 @@ pseudobulk (16, 24, 25), 8 programs vs cells: support, prediction, levels
   changing between adjacent stages of one batch; 2026-11-01: few genes,
   none from 60% epiboly to bud, and the only coherent list was the
   si:ch211-113a14 gene family, not age); a per-library prediction script
-  (merged into 17); keeping a gene shared along a derivation only in the
+  (merged into 17); replicated per-library clusters and program-space
+  populations (14, 18, 20; removed 2026-11-02, in git history: Leiden
+  clusters fragment graded populations; restarted from per-cell program
+  calls, 26); closed frequent program patterns (27, never committed,
+  archived in `data/processed/exploration/program_patterns/`); keeping a gene shared along a derivation only in the
   derived program (the parent programs lost their markers, e.g. the margin
   27 of 30 genes).
 
@@ -271,13 +283,18 @@ can only be seen through their consequences. Sampling is uneven across stages.
   (GTRD ChIP), CollecTRI via HCOP orthology and CellOracle promoter motifs
   into `out/core_network.tsv` and `out/extended_network.tsv`, annotated
   with atlas correlation per library and, for repressions, a check in the
-  replicated populations of 14 (`inhibition_*`; see the docstring). When
+  replicated populations of the removed script 14 (`inhibition_*`; see the
+  docstring; its tables are kept in `data/processed/archive/populations_2026-11-02/`,
+  but `build_prior.py` and `model/` still read them from `results/tables`). When
   correlating genes within small groups, require >= 10 UMIs per gene in
   the group: a gene with no UMIs has Pearson residuals that only track
   depth, so undetected genes correlate spuriously. `model/` holds the first
   partially specified Boolean module (`dv_nodal.aeon`, literature edges only;
   `dv_nodal.md` lists its choices and expected attractors; `check_model.py`
-  counts admissible functions with biodivine_aeon, which is not in `.venv`).
+  counts admissible functions with biodivine_aeon, which is not in `.venv`;
+  `dv_nodal_v2.{aeon,md}` is the accepted revision: run any script with `DV_MODEL=v2`
+  (`model_version.py`) for the v2 model, phenotypes and `results/v2/`; v1 stays the default;
+  `PHENOTYPE_PROGRAMS.md` maps phenotypes to atlas programs; `REPORT.md` has the results).
 
 ### Download and metadata
 

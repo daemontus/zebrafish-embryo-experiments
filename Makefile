@@ -4,7 +4,7 @@
 #
 #   make heterogeneity   01-03 (dataset, heterogeneous genes, a/b libraries)
 #   make programs        16, 17, 21, 22, 24, 25 (program sets and their tests)
-#   make populations     14, 15, 18, 19, 20, 23
+#   make populations     15, 26 (cell programs and exclusions), 19, 23 (exploration)
 #   make report          the report PDF (copied to report/main.pdf)
 #   make all             everything
 #
@@ -23,8 +23,7 @@ heterogeneity: $(T)/libraries.tsv $(T)/heterogeneity_zfin.tsv $(T)/hvg_flavours.
 	$(T)/replicate_mixing.tsv $(T)/replicate_timing.tsv
 programs: $(T)/programs.tsv $(T)/program_support.tsv $(T)/signal_coupling.tsv \
 	$(T)/program_levels.tsv $(T)/program_overlap.tsv $(T)/program_pseudobulk.tsv
-populations: $(T)/replicated_populations.tsv $(T)/alignment_stages.tsv \
-	$(T)/program_populations.tsv $(T)/program_atlas.tsv results/figures/program_tracks.pdf \
+populations: $(T)/alignment_stages.tsv $(T)/cell_programs.tsv $(T)/program_atlas.tsv \
 	$(T)/signal_atlas.tsv
 
 # --- dataset and heterogeneous genes (01-03) -------------------------------------------------
@@ -54,8 +53,7 @@ $(T)/program_support.tsv: $(S)/17_program_tests.py $(S)/program_utils.py $(UTILS
 		$(T)/programs.tsv $(T)/heterogeneous_genes.tsv.gz $(T)/libraries.tsv \
 		$(T)/heterogeneity_libraries.tsv
 	$(PY) $<
-$(T)/signal_coupling.tsv: $(S)/21_signal_coupling.py $(S)/18_program_populations.py \
-		$(S)/14_replicated_populations.py $(S)/program_utils.py $(UTILS) \
+$(T)/signal_coupling.tsv: $(S)/21_signal_coupling.py $(S)/program_utils.py $(UTILS) \
 		$(T)/programs.tsv $(T)/program_support.tsv $(T)/heterogeneous_genes.tsv.gz \
 		data/curated/curated_programs.tsv
 	$(PY) $<
@@ -70,27 +68,20 @@ $(T)/program_pseudobulk.tsv: $(S)/25_program_pseudobulk.py $(S)/24_program_overv
 		$(UTILS) $(T)/programs.tsv data/curated/curated_programs.tsv
 	$(PY) $<
 
-# --- populations (14, 15, 18, 19, 20, 23) ----------------------------------------------------
-$(T)/replicated_populations.tsv: $(S)/14_replicated_populations.py \
-		$(S)/01c_heterogeneity_zfin.py $(UTILS) $(T)/heterogeneous_genes.tsv.gz
-	$(PY) $<
+# --- cells and populations (15, 26; 19 and 23: exploration) ---------------------------------
 $(T)/alignment_stages.tsv: $(S)/15_alignment.py $(S)/02_replicate_mixing.py $(UTILS) \
 		$(T)/heterogeneous_genes.tsv.gz
 	$(PY) $<
-$(T)/program_populations.tsv: $(S)/18_program_populations.py \
-		$(S)/14_replicated_populations.py $(S)/program_utils.py $(UTILS) \
-		$(T)/replicated_populations.tsv $(T)/programs.tsv $(T)/program_support.tsv
+$(T)/cell_programs.tsv: $(S)/26_cell_programs.py $(S)/program_utils.py $(UTILS) \
+		$(T)/programs.tsv $(T)/program_support.tsv $(T)/heterogeneous_genes.tsv.gz \
+		data/curated/curated_programs.tsv
 	$(PY) $<
-$(T)/program_atlas.tsv: $(S)/19_program_atlas.py $(S)/15_alignment.py \
-		$(S)/18_program_populations.py $(UTILS) $(T)/replicated_populations.tsv \
-		$(T)/alignment_stages.tsv $(T)/programs.tsv $(T)/program_support.tsv \
-		$(T)/program_pseudobulk.tsv
+$(T)/program_atlas.tsv: $(S)/19_program_atlas.py $(S)/15_alignment.py $(S)/program_utils.py \
+		$(UTILS) $(T)/cell_programs.tsv $(T)/alignment_stages.tsv $(T)/programs.tsv \
+		$(T)/program_support.tsv $(T)/program_pseudobulk.tsv
 	$(PY) $<
-results/figures/program_tracks.pdf: $(S)/20_program_views.py $(S)/19_program_atlas.py \
-		$(UTILS) $(T)/program_atlas.tsv $(T)/replicated_populations.tsv
-	$(PY) $<
-$(T)/signal_atlas.tsv: $(S)/23_signal_atlas.py $(S)/18_program_populations.py \
-		$(S)/19_program_atlas.py $(UTILS) $(T)/program_support.tsv $(T)/program_atlas.tsv
+$(T)/signal_atlas.tsv: $(S)/23_signal_atlas.py $(S)/program_utils.py $(S)/19_program_atlas.py \
+		$(UTILS) $(T)/program_support.tsv $(T)/program_atlas.tsv
 	$(PY) $<
 
 # --- report ----------------------------------------------------------------------------------

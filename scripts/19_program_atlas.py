@@ -4,9 +4,7 @@ An exploration figure (not in the report) for every curated program of
 script 16, at every stage where it is defined:
   * the score of the program (mean centred Pearson residual of its genes,
     smoothed over each cell and its 10 nearest neighbours in its library,
-    as in script 18) on the per-stage UMAPs of script 14 (aligned data, so
-    the panels of one stage are comparable with the population pages of
-    results/figures/replicated_populations.pdf);
+    program_utils.ProgramSpace) on the per-stage aligned UMAPs of script 26;
   * the share of the stage's cells in which the program is active (smoothed
     score above the 99.9% quantile of a gene-wise permutation within the
     library; median over the stage's libraries), whether it is supported
@@ -55,9 +53,9 @@ from matplotlib.backends.backend_pdf import PdfPages
 from matplotlib.colors import TwoSlopeNorm
 
 from pipeline_utils import PROCESSED, ROOT, STAGES, TABLES, ensure_dirs, load_dropseq_counts
+import program_utils
 
 warnings.filterwarnings("ignore", category=FutureWarning)
-program_populations = importlib.import_module("18_program_populations")
 alignment = importlib.import_module("15_alignment")
 
 FIGURES = ROOT / "results" / "figures"
@@ -298,9 +296,9 @@ def main() -> None:
     support = support[support["set"] == "curated"].set_index(["stage", "program"])["supported"]
     genes_table = pd.read_csv(TABLES / "heterogeneous_genes.tsv.gz", sep="\t",
                               usecols=["stage", "gene", "heterogeneous"])
-    cells = pd.read_csv(TABLES / "replicated_populations_cells.tsv.gz", sep="\t", index_col=0,
-                        usecols=["Unnamed: 0", "stage", "library", "umap_1", "umap_2"])
-    space = program_populations.ProgramSpace(programs, support.reset_index().assign(
+    cells = pd.read_csv(TABLES / "cell_programs_cells.tsv.gz", sep="\t", index_col=0,
+                        usecols=["cell", "stage", "library", "umap_1", "umap_2"])
+    space = program_utils.ProgramSpace(programs, support.reset_index().assign(
         set="curated"), genes_table, supported_only=False)
 
     columns, active_cols, active_rows = {}, {}, []
@@ -370,8 +368,8 @@ def plot(curated, cells, scores, info, atlas) -> None:
 def replot() -> None:
     programs = pd.read_csv(TABLES / "programs.tsv", sep="\t")
     curated = programs[(programs["set"] == "curated") & programs["kept"]]
-    cells = pd.read_csv(TABLES / "replicated_populations_cells.tsv.gz", sep="\t", index_col=0,
-                        usecols=["Unnamed: 0", "stage", "library", "umap_1", "umap_2"])
+    cells = pd.read_csv(TABLES / "cell_programs_cells.tsv.gz", sep="\t", index_col=0,
+                        usecols=["cell", "stage", "library", "umap_1", "umap_2"])
     scores = pd.read_csv(SCORES, sep="\t", index_col=0)
     info = pd.read_csv(TABLES / "program_atlas.tsv", sep="\t").set_index(["stage", "program"])
     genes_table = pd.read_csv(TABLES / "heterogeneous_genes.tsv.gz", sep="\t",

@@ -1,7 +1,7 @@
 """Which programs are co-active with which signalling profiles, at which stage?
 
-Per stage and library, the smoothed scores of the curated programs (as in
-script 18; the curated programs are disjoint, script 16, so no correlation
+Per stage and library, the smoothed scores of the curated programs (as
+program_utils.ProgramSpace; the curated programs are disjoint, script 16, so no correlation
 comes from shared genes) are correlated over the library's cells: every
 signalling profile with every other program. Smoothing and the few shared
 axes of variation of a stage make any two sets of heterogeneous genes
@@ -18,7 +18,7 @@ HYPOTHESES lists expected couplings (which tissue sends, receives or blocks
 which signal). Each is tested on the cells: the AUROC of the profile's score
 for the cells in which the identity partner is active (signalling partners:
 of the partner's score for the cells in which the profile is active; active
-calls as in script 18), against the cells active in the partner's parent
+calls of program_utils.ProgramSpace), against the cells active in the partner's parent
 programs (derives_from of curated_programs.tsv) where it has any, otherwise
 against all other cells, and against random sets as above (relative AUROC).
 Tested at the stages where the identity partner is supported (script 17).
@@ -48,7 +48,6 @@ Outputs:
 """
 from __future__ import annotations
 
-import importlib
 
 import matplotlib
 
@@ -76,7 +75,6 @@ from pipeline_utils import (
 
 import program_utils as prediction
 
-program_populations = importlib.import_module("18_program_populations")
 
 ANNOTATION = ROOT / "data" / "curated" / "curated_programs.tsv"  # derives_from
 N_RANDOM = 100  # random sets of background genes per library and program size
@@ -142,12 +140,12 @@ def standardise(x: np.ndarray) -> np.ndarray:
 
 def library_scores(counts, het_idx: np.ndarray, prog_idx: dict, background: np.ndarray,
                    sizes: set, rng) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
-    """Smoothed scores and active calls of the programs of one library (as in
-    script 18), and the smoothed scores of N_RANDOM random sets of background
+    """Smoothed scores and active calls of the programs of one library (as
+    program_utils.ProgramSpace), and the smoothed scores of N_RANDOM random sets of background
     genes for every program size."""
-    seed = program_populations.SEED
+    seed = prediction.SEED
     n = counts.shape[0]
-    coords = PCA(min(program_populations.N_PCS, n - 1), random_state=seed).fit_transform(
+    coords = PCA(min(prediction.N_PCS, n - 1), random_state=seed).fit_transform(
         pearson_residuals(counts, het_idx))
     library = np.zeros(n, dtype=int)
     genes = sorted({g for gs in prog_idx.values() for g in gs})
@@ -161,8 +159,8 @@ def library_scores(counts, het_idx: np.ndarray, prog_idx: dict, background: np.n
         r = res[:, [col[g] for g in prog_idx[p]]]
         null = np.concatenate([prediction.smooth(rng.permuted(r, axis=0).mean(axis=1)[:, None],
                                                  library, coords)[:, 0]
-                               for _ in range(program_populations.N_PERM)])
-        threshold.append(np.quantile(null, program_populations.ACTIVE_QUANTILE))
+                               for _ in range(prediction.ACTIVE_N_PERM)])
+        threshold.append(np.quantile(null, prediction.ACTIVE_QUANTILE))
     active = score > np.array(threshold)[None, :]
     bres = pearson_residuals(counts, background)
     random = {}
@@ -213,7 +211,7 @@ def coupling(adata, programs: pd.DataFrame, het_table: pd.DataFrame,
         X = sub.X.tocsr()
         lib_of = sub.obs["library"].astype(str).to_numpy()
         for lib in sorted(set(lib_of)):
-            rng = np.random.default_rng([program_populations.SEED, STAGES.index(stage),
+            rng = np.random.default_rng([prediction.SEED, STAGES.index(stage),
                                          sorted(set(lib_of)).index(lib)])
             score, active, random = library_scores(X[lib_of == lib], het_idx, prog_idx,
                                                    background, sizes, rng)

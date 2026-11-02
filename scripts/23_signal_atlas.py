@@ -4,8 +4,8 @@ An exploration figure (not in the report). For every pathway, two curated
 programs: one expected where the pathway is active (A) and one where it is
 not (B), at stages where both and the readouts are defined (PAIRS). Cells in
 which exactly one of A and B is active (smoothed score above the 99.9%
-quantile of a gene-wise permutation within the library, as in scripts 18 and
-19) are coloured by the pathway's readout score:
+quantile of a gene-wise permutation within the library, as in
+program_utils.ProgramSpace) are coloured by the pathway's readout score:
   A active, readouts high   expected
   B active, readouts low    expected
   A active, readouts low    against expectation
@@ -40,9 +40,9 @@ import pandas as pd
 from matplotlib.backends.backend_pdf import PdfPages
 
 from pipeline_utils import PROCESSED, ROOT, STAGES, TABLES, ensure_dirs, load_dropseq_counts
+import program_utils
 
 warnings.filterwarnings("ignore", category=FutureWarning)
-program_populations = importlib.import_module("18_program_populations")
 atlas_figures = importlib.import_module("19_program_atlas")
 
 FIGURES = ROOT / "results" / "figures"
@@ -66,8 +66,7 @@ def compute() -> tuple[pd.DataFrame, pd.DataFrame]:
     support = pd.read_csv(TABLES / "program_support.tsv", sep="\t")
     genes_table = pd.read_csv(TABLES / "heterogeneous_genes.tsv.gz", sep="\t",
                               usecols=["stage", "gene", "heterogeneous"])
-    space = program_populations.ProgramSpace(programs, support, genes_table,
-                                             supported_only=False)
+    space = program_utils.ProgramSpace(programs, support, genes_table, supported_only=False)
     wanted = set(PAIRS) | {p for pair in PAIRS.values() for p in pair}
     scores, active = {}, {}
     for stage in STAGES:
