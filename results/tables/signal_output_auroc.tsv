@@ -1,269 +1,984 @@
-stage	output	partner	active_cells	auc
-high	signal:Nodal	margin	15	0.839
-high	signal:Nodal	endoderm	1	
-high	signal:BMP	non_neural_ectoderm	9	
-high	sending:BMP_organizer	dorsal_organizer	9	
-high	sending:BMP_organizer	signal:BMP	0	
-high	blocking:BMP	dorsal_organizer	9	
-high	blocking:BMP	signal:BMP	1	
-high	signal:Wnt	margin	15	0.638
-high	signal:Wnt	tailbud	0	
-high	blocking:Wnt	dorsal_organizer	9	
-high	blocking:Wnt	prechordal_plate	3	
-high	blocking:Wnt	signal:Wnt	0	
-high	signal:FGF	margin	15	0.751
-high	signal:FGF	tailbud	0	
-high	signal:FGF	midbrain_hindbrain_boundary	0	
-high	blocking:RA	tailbud	0	
-high	blocking:RA	forebrain_eye	2	
-oblong	signal:Nodal	margin	3	
-oblong	signal:Nodal	endoderm	0	
-oblong	signal:BMP	non_neural_ectoderm	9	
-oblong	sending:BMP_organizer	dorsal_organizer	2	
-oblong	sending:BMP_organizer	signal:BMP	5	
-oblong	blocking:BMP	dorsal_organizer	2	
-oblong	blocking:BMP	signal:BMP	1	
-oblong	signal:Wnt	margin	3	
-oblong	signal:Wnt	tailbud	0	
-oblong	blocking:Wnt	dorsal_organizer	2	
-oblong	blocking:Wnt	prechordal_plate	0	
-oblong	blocking:Wnt	signal:Wnt	0	
-oblong	signal:FGF	margin	3	
-oblong	signal:FGF	tailbud	0	
-oblong	signal:FGF	midbrain_hindbrain_boundary	0	
-oblong	blocking:RA	tailbud	0	
-oblong	blocking:RA	forebrain_eye	2	
-dome	signal:Nodal	margin	136	0.958
-dome	signal:Nodal	endoderm	71	0.982
-dome	signal:BMP	non_neural_ectoderm	51	0.0796
-dome	sending:BMP_organizer	dorsal_organizer	82	0.589
-dome	sending:BMP_organizer	signal:BMP	20	0.13
-dome	blocking:BMP	dorsal_organizer	82	0.85
-dome	blocking:BMP	signal:BMP	47	0.161
-dome	signal:Wnt	margin	136	0.77
-dome	signal:Wnt	tailbud	12	0.853
-dome	blocking:Wnt	dorsal_organizer	82	0.756
-dome	blocking:Wnt	prechordal_plate	52	0.832
-dome	blocking:Wnt	signal:Wnt	32	0.773
-dome	signal:FGF	margin	136	0.918
-dome	signal:FGF	tailbud	12	0.858
-dome	signal:FGF	midbrain_hindbrain_boundary	18	0.877
-dome	blocking:RA	tailbud	12	0.239
-dome	blocking:RA	forebrain_eye	36	0.0716
-dome	sending:Notch	presomitic_mesoderm	130	0.525
-dome	sending:Notch	primary_neurons	0	
-dome	sending:Notch	receiving:Notch	6	
-30% epiboly	signal:Nodal	margin	237	0.952
-30% epiboly	signal:Nodal	endoderm	149	0.997
-30% epiboly	signal:BMP	non_neural_ectoderm	34	0.0687
-30% epiboly	sending:BMP_organizer	dorsal_organizer	118	0.577
-30% epiboly	sending:BMP_organizer	signal:BMP	71	0.119
-30% epiboly	blocking:BMP	dorsal_organizer	118	0.82
-30% epiboly	blocking:BMP	signal:BMP	63	0.138
-30% epiboly	signal:Wnt	margin	237	0.886
-30% epiboly	signal:Wnt	tailbud	94	0.879
-30% epiboly	blocking:Wnt	dorsal_organizer	118	0.816
-30% epiboly	blocking:Wnt	prechordal_plate	77	0.71
-30% epiboly	blocking:Wnt	signal:Wnt	70	0.991
-30% epiboly	signal:FGF	margin	237	0.957
-30% epiboly	signal:FGF	tailbud	94	0.909
-30% epiboly	signal:FGF	midbrain_hindbrain_boundary	19	0.906
-30% epiboly	sending:RA	presomitic_mesoderm	192	0.741
-30% epiboly	sending:RA	blocking:RA	21	0.675
-30% epiboly	blocking:RA	tailbud	94	0.796
-30% epiboly	blocking:RA	forebrain_eye	39	0.283
-30% epiboly	sending:Notch	presomitic_mesoderm	192	0.645
-30% epiboly	sending:Notch	primary_neurons	6	
-30% epiboly	sending:Notch	receiving:Notch	12	0.62
-50% epiboly	signal:Nodal	margin	1206	0.939
-50% epiboly	signal:Nodal	endoderm	755	0.995
-50% epiboly	signal:BMP	non_neural_ectoderm	176	0.308
-50% epiboly	sending:BMP_organizer	dorsal_organizer	572	0.556
-50% epiboly	sending:BMP_organizer	signal:BMP	287	0.143
-50% epiboly	blocking:BMP	dorsal_organizer	572	0.837
-50% epiboly	blocking:BMP	signal:BMP	272	0.341
-50% epiboly	signal:Wnt	margin	1206	0.927
-50% epiboly	signal:Wnt	tailbud	558	0.969
-50% epiboly	blocking:Wnt	dorsal_organizer	572	0.856
-50% epiboly	blocking:Wnt	prechordal_plate	440	0.749
-50% epiboly	blocking:Wnt	signal:Wnt	354	0.831
-50% epiboly	signal:FGF	margin	1206	0.961
-50% epiboly	signal:FGF	tailbud	558	0.94
-50% epiboly	signal:FGF	midbrain_hindbrain_boundary	322	0.766
-50% epiboly	sending:RA	presomitic_mesoderm	892	0.865
-50% epiboly	sending:RA	blocking:RA	250	0.574
-50% epiboly	blocking:RA	tailbud	558	0.634
-50% epiboly	blocking:RA	forebrain_eye	267	0.315
-50% epiboly	sending:Hedgehog	axial_mesoderm	812	0.524
-50% epiboly	sending:Hedgehog	notochord	571	0.524
-50% epiboly	sending:Notch	presomitic_mesoderm	892	0.49
-50% epiboly	sending:Notch	primary_neurons	82	0.0387
-50% epiboly	sending:Notch	receiving:Notch	86	0.396
-shield	signal:Nodal	margin	285	0.937
-shield	signal:Nodal	endoderm	114	0.943
-shield	signal:BMP	non_neural_ectoderm	61	0.811
-shield	sending:BMP_organizer	dorsal_organizer	79	0.676
-shield	sending:BMP_organizer	signal:BMP	39	0.173
-shield	blocking:BMP	dorsal_organizer	79	0.889
-shield	blocking:BMP	signal:BMP	39	0.47
-shield	signal:Wnt	margin	285	0.946
-shield	signal:Wnt	tailbud	163	0.951
-shield	blocking:Wnt	dorsal_organizer	79	0.771
-shield	blocking:Wnt	prechordal_plate	55	0.916
-shield	blocking:Wnt	signal:Wnt	33	0.698
-shield	signal:FGF	margin	285	0.961
-shield	signal:FGF	tailbud	163	0.9
-shield	signal:FGF	midbrain_hindbrain_boundary	108	0.524
-shield	sending:RA	presomitic_mesoderm	214	0.954
-shield	sending:RA	blocking:RA	57	0.622
-shield	blocking:RA	tailbud	163	0.683
-shield	blocking:RA	forebrain_eye	78	0.688
-shield	sending:Hedgehog	axial_mesoderm	102	0.499
-shield	sending:Hedgehog	notochord	110	0.508
-shield	sending:Notch	presomitic_mesoderm	214	0.578
-shield	sending:Notch	primary_neurons	11	0.207
-shield	sending:Notch	receiving:Notch	4	
-60% epiboly	signal:Nodal	margin	1407	0.922
-60% epiboly	signal:Nodal	endoderm	484	0.854
-60% epiboly	signal:BMP	non_neural_ectoderm	502	0.904
-60% epiboly	sending:BMP_organizer	dorsal_organizer	429	0.743
-60% epiboly	sending:BMP_organizer	signal:BMP	268	0.163
-60% epiboly	blocking:BMP	dorsal_organizer	429	0.933
-60% epiboly	blocking:BMP	signal:BMP	303	0.423
-60% epiboly	signal:Wnt	margin	1407	0.894
-60% epiboly	signal:Wnt	tailbud	814	0.938
-60% epiboly	blocking:Wnt	dorsal_organizer	429	0.855
-60% epiboly	blocking:Wnt	prechordal_plate	269	0.957
-60% epiboly	blocking:Wnt	signal:Wnt	194	0.49
-60% epiboly	signal:FGF	margin	1407	0.913
-60% epiboly	signal:FGF	tailbud	814	0.88
-60% epiboly	signal:FGF	midbrain_hindbrain_boundary	740	0.444
-60% epiboly	sending:RA	presomitic_mesoderm	933	0.929
-60% epiboly	sending:RA	blocking:RA	308	0.386
-60% epiboly	blocking:RA	tailbud	814	0.571
-60% epiboly	blocking:RA	forebrain_eye	561	0.771
-60% epiboly	sending:Hedgehog	axial_mesoderm	702	0.644
-60% epiboly	sending:Hedgehog	notochord	511	0.702
-60% epiboly	sending:Notch	presomitic_mesoderm	933	0.659
-60% epiboly	sending:Notch	primary_neurons	23	0.447
-60% epiboly	sending:Notch	receiving:Notch	264	0.69
-75% epiboly	signal:Nodal	margin	2050	0.812
-75% epiboly	signal:Nodal	endoderm	531	0.761
-75% epiboly	signal:BMP	non_neural_ectoderm	818	0.92
-75% epiboly	sending:BMP_organizer	dorsal_organizer	515	0.779
-75% epiboly	sending:BMP_organizer	signal:BMP	434	0.163
-75% epiboly	blocking:BMP	dorsal_organizer	515	0.919
-75% epiboly	blocking:BMP	signal:BMP	451	0.319
-75% epiboly	signal:Wnt	margin	2050	0.81
-75% epiboly	signal:Wnt	tailbud	1181	0.869
-75% epiboly	blocking:Wnt	dorsal_organizer	515	0.81
-75% epiboly	blocking:Wnt	prechordal_plate	258	0.852
-75% epiboly	blocking:Wnt	signal:Wnt	264	0.351
-75% epiboly	signal:FGF	margin	2050	0.851
-75% epiboly	signal:FGF	tailbud	1181	0.862
-75% epiboly	signal:FGF	midbrain_hindbrain_boundary	852	0.436
-75% epiboly	sending:RA	presomitic_mesoderm	1386	0.919
-75% epiboly	sending:RA	blocking:RA	443	0.326
-75% epiboly	blocking:RA	tailbud	1181	0.635
-75% epiboly	blocking:RA	forebrain_eye	990	0.799
-75% epiboly	sending:Hedgehog	axial_mesoderm	939	0.713
-75% epiboly	sending:Hedgehog	notochord	570	0.769
-75% epiboly	sending:Notch	presomitic_mesoderm	1386	0.713
-75% epiboly	sending:Notch	primary_neurons	89	0.327
-75% epiboly	sending:Notch	receiving:Notch	301	0.705
-90% epiboly	signal:Nodal	margin	1664	0.753
-90% epiboly	signal:Nodal	endoderm	389	0.624
-90% epiboly	signal:BMP	non_neural_ectoderm	782	0.921
-90% epiboly	sending:BMP_organizer	dorsal_organizer	446	0.759
-90% epiboly	sending:BMP_organizer	signal:BMP	306	0.16
-90% epiboly	blocking:BMP	dorsal_organizer	446	0.843
-90% epiboly	blocking:BMP	signal:BMP	400	0.212
-90% epiboly	signal:Wnt	margin	1664	0.738
-90% epiboly	signal:Wnt	tailbud	1113	0.776
-90% epiboly	blocking:Wnt	dorsal_organizer	446	0.697
-90% epiboly	blocking:Wnt	prechordal_plate	285	0.624
-90% epiboly	blocking:Wnt	signal:Wnt	228	0.303
-90% epiboly	signal:FGF	margin	1664	0.779
-90% epiboly	signal:FGF	tailbud	1113	0.796
-90% epiboly	signal:FGF	midbrain_hindbrain_boundary	654	0.355
-90% epiboly	sending:RA	presomitic_mesoderm	1112	0.891
-90% epiboly	sending:RA	blocking:RA	305	0.234
-90% epiboly	blocking:RA	tailbud	1113	0.564
-90% epiboly	blocking:RA	forebrain_eye	860	0.823
-90% epiboly	sending:Hedgehog	axial_mesoderm	696	0.713
-90% epiboly	sending:Hedgehog	notochord	486	0.797
-90% epiboly	sending:Notch	presomitic_mesoderm	1112	0.766
-90% epiboly	sending:Notch	primary_neurons	123	0.32
-90% epiboly	sending:Notch	receiving:Notch	255	0.732
-bud	signal:Nodal	margin	1904	0.63
-bud	signal:Nodal	endoderm	501	0.62
-bud	signal:BMP	non_neural_ectoderm	960	0.917
-bud	sending:BMP_organizer	dorsal_organizer	534	0.746
-bud	sending:BMP_organizer	signal:BMP	176	0.202
-bud	blocking:BMP	dorsal_organizer	534	0.759
-bud	blocking:BMP	signal:BMP	546	0.237
-bud	signal:Wnt	margin	1904	0.71
-bud	signal:Wnt	tailbud	1379	0.816
-bud	blocking:Wnt	dorsal_organizer	534	0.73
-bud	blocking:Wnt	prechordal_plate	544	0.524
-bud	blocking:Wnt	signal:Wnt	323	0.414
-bud	signal:FGF	margin	1904	0.765
-bud	signal:FGF	tailbud	1379	0.742
-bud	signal:FGF	midbrain_hindbrain_boundary	887	0.333
-bud	sending:RA	presomitic_mesoderm	1394	0.878
-bud	sending:RA	blocking:RA	372	0.197
-bud	blocking:RA	tailbud	1379	0.602
-bud	blocking:RA	forebrain_eye	1110	0.796
-bud	sending:Hedgehog	axial_mesoderm	928	0.641
-bud	sending:Hedgehog	notochord	434	0.769
-bud	sending:Notch	presomitic_mesoderm	1394	0.811
-bud	sending:Notch	primary_neurons	302	0.557
-bud	sending:Notch	receiving:Notch	428	0.775
-3-somite	signal:Nodal	margin	358	0.516
-3-somite	signal:Nodal	endoderm	124	0.627
-3-somite	signal:BMP	non_neural_ectoderm	190	0.857
-3-somite	sending:BMP_organizer	dorsal_organizer	89	0.495
-3-somite	sending:BMP_organizer	signal:BMP	11	0.224
-3-somite	blocking:BMP	dorsal_organizer	89	0.803
-3-somite	blocking:BMP	signal:BMP	120	0.373
-3-somite	signal:Wnt	margin	358	0.801
-3-somite	signal:Wnt	tailbud	243	0.927
-3-somite	blocking:Wnt	dorsal_organizer	89	0.579
-3-somite	blocking:Wnt	prechordal_plate	155	0.367
-3-somite	blocking:Wnt	signal:Wnt	13	0.0684
-3-somite	signal:FGF	margin	358	0.776
-3-somite	signal:FGF	tailbud	243	0.819
-3-somite	signal:FGF	midbrain_hindbrain_boundary	144	0.428
-3-somite	sending:RA	presomitic_mesoderm	249	0.781
-3-somite	sending:RA	blocking:RA	54	0.599
-3-somite	blocking:RA	tailbud	243	0.898
-3-somite	blocking:RA	forebrain_eye	216	0.516
-3-somite	sending:Hedgehog	axial_mesoderm	140	0.578
-3-somite	sending:Hedgehog	notochord	106	0.63
-3-somite	sending:Notch	presomitic_mesoderm	249	0.822
-3-somite	sending:Notch	primary_neurons	73	0.716
-3-somite	sending:Notch	receiving:Notch	67	0.837
-6-somite	signal:Nodal	margin	927	0.512
-6-somite	signal:Nodal	endoderm	363	0.62
-6-somite	signal:BMP	non_neural_ectoderm	553	0.85
-6-somite	sending:BMP_organizer	dorsal_organizer	249	0.51
-6-somite	sending:BMP_organizer	signal:BMP	50	0.291
-6-somite	blocking:BMP	dorsal_organizer	249	0.634
-6-somite	blocking:BMP	signal:BMP	299	0.512
-6-somite	signal:Wnt	margin	927	0.741
-6-somite	signal:Wnt	tailbud	623	0.919
-6-somite	blocking:Wnt	dorsal_organizer	249	0.521
-6-somite	blocking:Wnt	prechordal_plate	367	0.346
-6-somite	blocking:Wnt	signal:Wnt	71	0.317
-6-somite	signal:FGF	margin	927	0.746
-6-somite	signal:FGF	tailbud	623	0.831
-6-somite	signal:FGF	midbrain_hindbrain_boundary	368	0.372
-6-somite	sending:RA	presomitic_mesoderm	808	0.706
-6-somite	sending:RA	blocking:RA	146	0.598
-6-somite	blocking:RA	tailbud	623	0.879
-6-somite	blocking:RA	forebrain_eye	638	0.336
-6-somite	sending:Hedgehog	axial_mesoderm	402	0.428
-6-somite	sending:Hedgehog	notochord	378	0.519
-6-somite	sending:Notch	presomitic_mesoderm	808	0.843
-6-somite	sending:Notch	primary_neurons	167	0.766
-6-somite	sending:Notch	receiving:Notch	176	0.863
+stage	library	output	partner	contrast	active_cells	auc	null_median	relative
+high	ZFHIGH_WT_DS5	signal:Nodal	margin	all	15	0.833	0.696	0.564
+high	ZFHIGH_WT_DS5	signal:Wnt	margin	all	15	0.59	0.696	-0.431
+high	ZFHIGH_WT_DS5	signal:FGF	margin	all	15	0.768	0.697	0.326
+dome	ZFDOME_WT_DS5	signal:Nodal	margin	all	136	0.958	0.536	1.88
+dome	ZFDOME_WT_DS5	signal:Nodal	margin	parents	136	0.961	0.546	1.61
+dome	ZFDOME_WT_DS5	signal:Nodal	endoderm	all	71	0.982	0.498	1.58
+dome	ZFDOME_WT_DS5	signal:Nodal	endoderm	parents	71	0.772	0.41	1.3
+dome	ZFDOME_WT_DS5	signal:BMP	non_neural_ectoderm	all	51	0.0796	0.971	-4.62
+dome	ZFDOME_WT_DS5	signal:BMP	non_neural_ectoderm	parents	51	0.0715	0.972	-3.88
+dome	ZFDOME_WT_DS5	sending:BMP_organizer	dorsal_organizer	all	93	0.591	0.414	0.712
+dome	ZFDOME_WT_DS5	sending:BMP_organizer	dorsal_organizer	parents	93	0.763	0.417	1.19
+dome	ZFDOME_WT_DS5	sending:BMP_organizer	signal:BMP	all	26	0.188	0.497	-1.21
+dome	ZFDOME_WT_DS5	blocking:BMP	dorsal_organizer	all	93	0.845	0.463	1.42
+dome	ZFDOME_WT_DS5	blocking:BMP	dorsal_organizer	parents	93	0.804	0.365	1.21
+dome	ZFDOME_WT_DS5	blocking:BMP	signal:BMP	all	46	0.163	0.504	-1.6
+dome	ZFDOME_WT_DS5	signal:Wnt	margin	all	136	0.77	0.586	0.857
+dome	ZFDOME_WT_DS5	signal:Wnt	margin	parents	136	0.66	0.586	0.244
+dome	ZFDOME_WT_DS5	signal:Wnt	tailbud	all	15	0.821	0.539	1.17
+dome	ZFDOME_WT_DS5	signal:Wnt	tailbud	parents	15	0.634	0.46	0.99
+dome	ZFDOME_WT_DS5	blocking:Wnt	dorsal_organizer	all	93	0.732	0.467	0.892
+dome	ZFDOME_WT_DS5	blocking:Wnt	dorsal_organizer	parents	93	0.705	0.407	0.936
+dome	ZFDOME_WT_DS5	blocking:Wnt	prechordal_plate	all	42	0.87	0.537	1.36
+dome	ZFDOME_WT_DS5	blocking:Wnt	prechordal_plate	parents	42	0.787	0.559	1.13
+dome	ZFDOME_WT_DS5	blocking:Wnt	signal:Wnt	all	32	0.773	0.519	0.75
+dome	ZFDOME_WT_DS5	signal:FGF	margin	all	136	0.918	0.576	1.23
+dome	ZFDOME_WT_DS5	signal:FGF	margin	parents	136	0.917	0.559	0.968
+dome	ZFDOME_WT_DS5	signal:FGF	tailbud	all	15	0.874	0.462	1.03
+dome	ZFDOME_WT_DS5	signal:FGF	tailbud	parents	15	0.531	0.401	0.792
+dome	ZFDOME_WT_DS5	signal:FGF	midbrain_hindbrain_boundary	all	25	0.825	0.546	1.19
+dome	ZFDOME_WT_DS5	signal:FGF	midbrain_hindbrain_boundary	parents	25	0.582	0.16	1.33
+dome	ZFDOME_WT_DS5	blocking:RA	tailbud	all	15	0.295	0.46	-0.687
+dome	ZFDOME_WT_DS5	blocking:RA	tailbud	parents	15	0.438	0.473	-0.189
+dome	ZFDOME_WT_DS5	blocking:RA	forebrain_eye	all	43	0.0925	0.573	-1.01
+dome	ZFDOME_WT_DS5	sending:Notch	presomitic_mesoderm	all	127	0.526	0.631	-0.347
+dome	ZFDOME_WT_DS5	sending:Notch	presomitic_mesoderm	parents	127	0.498	0.596	-0.295
+30% epiboly	ZF30_WT_DS5	signal:Nodal	margin	all	57	0.957	0.54	1.4
+30% epiboly	ZF30_WT_DS5	signal:Nodal	margin	parents	57	0.979	0.559	1.16
+30% epiboly	ZF30_WT_DS5	signal:Nodal	endoderm	all	39	0.999	0.549	1.19
+30% epiboly	ZF30_WT_DS5	signal:Nodal	endoderm	parents	39	0.974	0.491	1.16
+30% epiboly	ZF30_WT_DS5	signal:BMP	non_neural_ectoderm	all	14	0.0648	0.956	-32.7
+30% epiboly	ZF30_WT_DS5	signal:BMP	non_neural_ectoderm	parents	14	0.05	0.957	-31.7
+30% epiboly	ZF30_WT_DS5	sending:BMP_organizer	dorsal_organizer	all	39	0.515	0.374	0.387
+30% epiboly	ZF30_WT_DS5	sending:BMP_organizer	dorsal_organizer	parents	39	0.539	0.397	0.394
+30% epiboly	ZF30_WT_DS5	sending:BMP_organizer	signal:BMP	all	15	0.209	0.466	-0.7
+30% epiboly	ZF30_WT_DS5	blocking:BMP	dorsal_organizer	all	39	0.828	0.5	1.41
+30% epiboly	ZF30_WT_DS5	blocking:BMP	dorsal_organizer	parents	39	0.896	0.493	1.35
+30% epiboly	ZF30_WT_DS5	blocking:BMP	signal:BMP	all	18	0.184	0.47	-0.962
+30% epiboly	ZF30_WT_DS5	signal:Wnt	margin	all	57	0.931	0.506	1.16
+30% epiboly	ZF30_WT_DS5	signal:Wnt	margin	parents	57	0.918	0.501	0.971
+30% epiboly	ZF30_WT_DS5	signal:Wnt	tailbud	all	41	0.887	0.487	1.17
+30% epiboly	ZF30_WT_DS5	signal:Wnt	tailbud	parents	41	0.485	0.441	0.187
+30% epiboly	ZF30_WT_DS5	blocking:Wnt	dorsal_organizer	all	39	0.926	0.527	1.09
+30% epiboly	ZF30_WT_DS5	blocking:Wnt	dorsal_organizer	parents	39	0.887	0.544	1.01
+30% epiboly	ZF30_WT_DS5	blocking:Wnt	prechordal_plate	all	16	0.634	0.731	-0.3
+30% epiboly	ZF30_WT_DS5	blocking:Wnt	prechordal_plate	parents	16	0.513	0.689	-0.618
+30% epiboly	ZF30_WT_DS5	blocking:Wnt	signal:Wnt	all	27	0.999	0.543	1.1
+30% epiboly	ZF30_WT_DS5	signal:FGF	margin	all	57	0.988	0.569	1.47
+30% epiboly	ZF30_WT_DS5	signal:FGF	margin	parents	57	1	0.639	1.31
+30% epiboly	ZF30_WT_DS5	signal:FGF	tailbud	all	41	0.973	0.543	1.56
+30% epiboly	ZF30_WT_DS5	signal:FGF	tailbud	parents	41	0.631	0.475	0.941
+30% epiboly	ZF30_WT_DS5	sending:RA	presomitic_mesoderm	all	52	0.762	0.543	1.24
+30% epiboly	ZF30_WT_DS5	blocking:RA	tailbud	all	41	0.919	0.41	1.77
+30% epiboly	ZF30_WT_DS5	blocking:RA	tailbud	parents	41	0.847	0.373	1.76
+30% epiboly	ZF30_WT_DS5	blocking:RA	forebrain_eye	all	10	0.0929	0.897	-0.956
+30% epiboly	ZF30_WT_DS5	blocking:RA	forebrain_eye	parents	10	0.0875	0.866	-0.932
+30% epiboly	ZF30_WT_DS5	sending:Notch	presomitic_mesoderm	all	52	0.506	0.668	-0.503
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	margin	all	170	0.968	0.537	1.39
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	endoderm	all	113	0.997	0.547	1.37
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	endoderm	parents	113	0.968	0.534	1.59
+30% epiboly	ZF30_WT_DS5b	signal:BMP	non_neural_ectoderm	all	21	0.11	0.954	-21.8
+30% epiboly	ZF30_WT_DS5b	sending:BMP_organizer	dorsal_organizer	all	71	0.611	0.461	0.435
+30% epiboly	ZF30_WT_DS5b	sending:BMP_organizer	dorsal_organizer	parents	71	0.675	0.471	0.925
+30% epiboly	ZF30_WT_DS5b	sending:BMP_organizer	signal:BMP	all	52	0.0969	0.513	-1.4
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	dorsal_organizer	all	71	0.818	0.511	1.11
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	dorsal_organizer	parents	71	0.855	0.512	1.59
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	signal:BMP	all	51	0.139	0.547	-1.35
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	margin	all	170	0.891	0.544	1.09
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	tailbud	all	48	0.887	0.502	1.11
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	tailbud	parents	48	0.557	0.443	0.697
+30% epiboly	ZF30_WT_DS5b	blocking:Wnt	dorsal_organizer	all	71	0.767	0.562	0.783
+30% epiboly	ZF30_WT_DS5b	blocking:Wnt	dorsal_organizer	parents	71	0.711	0.541	0.753
+30% epiboly	ZF30_WT_DS5b	blocking:Wnt	prechordal_plate	all	64	0.735	0.707	0.13
+30% epiboly	ZF30_WT_DS5b	blocking:Wnt	prechordal_plate	parents	64	0.594	0.692	-0.378
+30% epiboly	ZF30_WT_DS5b	blocking:Wnt	signal:Wnt	all	44	0.99	0.566	1.12
+30% epiboly	ZF30_WT_DS5b	signal:FGF	margin	all	170	0.952	0.556	1.43
+30% epiboly	ZF30_WT_DS5b	signal:FGF	tailbud	all	48	0.864	0.517	1.21
+30% epiboly	ZF30_WT_DS5b	signal:FGF	tailbud	parents	48	0.407	0.447	-0.23
+30% epiboly	ZF30_WT_DS5b	signal:FGF	midbrain_hindbrain_boundary	all	15	0.924	0.638	1.2
+30% epiboly	ZF30_WT_DS5b	signal:FGF	midbrain_hindbrain_boundary	parents	15	0.559	0.354	0.968
+30% epiboly	ZF30_WT_DS5b	sending:RA	presomitic_mesoderm	all	137	0.745	0.465	0.866
+30% epiboly	ZF30_WT_DS5b	sending:RA	presomitic_mesoderm	parents	137	0.71	0.507	0.804
+30% epiboly	ZF30_WT_DS5b	sending:RA	blocking:RA	all	25	0.616	0.343	0.622
+30% epiboly	ZF30_WT_DS5b	blocking:RA	tailbud	all	48	0.72	0.386	1.04
+30% epiboly	ZF30_WT_DS5b	blocking:RA	tailbud	parents	48	0.669	0.397	1.47
+30% epiboly	ZF30_WT_DS5b	blocking:RA	forebrain_eye	all	34	0.342	0.685	-0.681
+30% epiboly	ZF30_WT_DS5b	blocking:RA	forebrain_eye	parents	34	0.293	0.702	-0.742
+30% epiboly	ZF30_WT_DS5b	sending:Notch	presomitic_mesoderm	all	137	0.698	0.593	0.347
+30% epiboly	ZF30_WT_DS5b	sending:Notch	presomitic_mesoderm	parents	137	0.434	0.615	-0.771
+30% epiboly	ZF30_WT_DS5b	sending:Notch	primary_neurons	all	15	0.299	0.479	-1.04
+30% epiboly	ZF30_WT_DS5b	sending:Notch	primary_neurons	parents	15	0.308	0.311	-0.0112
+30% epiboly	ZF30_WT_DS5b	sending:Notch	receiving:Notch	all	12	0.597	0.488	0.439
+50% epiboly	ZF50_WT_DS2	signal:Nodal	margin	all	230	0.966	0.484	1.42
+50% epiboly	ZF50_WT_DS2	signal:Nodal	margin	parents	230	0.986	0.551	1.34
+50% epiboly	ZF50_WT_DS2	signal:Nodal	endoderm	all	184	0.997	0.489	1.41
+50% epiboly	ZF50_WT_DS2	signal:Nodal	endoderm	parents	184	0.949	0.566	1.45
+50% epiboly	ZF50_WT_DS2	signal:BMP	non_neural_ectoderm	all	46	0.184	0.855	-6.15
+50% epiboly	ZF50_WT_DS2	signal:BMP	non_neural_ectoderm	parents	46	0.141	0.897	-4.96
+50% epiboly	ZF50_WT_DS2	sending:BMP_organizer	dorsal_organizer	all	142	0.535	0.475	0.155
+50% epiboly	ZF50_WT_DS2	sending:BMP_organizer	dorsal_organizer	parents	142	0.642	0.499	0.671
+50% epiboly	ZF50_WT_DS2	sending:BMP_organizer	signal:BMP	all	71	0.111	0.472	-1.56
+50% epiboly	ZF50_WT_DS2	blocking:BMP	dorsal_organizer	all	142	0.847	0.505	1.09
+50% epiboly	ZF50_WT_DS2	blocking:BMP	dorsal_organizer	parents	142	0.822	0.546	1.24
+50% epiboly	ZF50_WT_DS2	blocking:BMP	signal:BMP	all	71	0.271	0.532	-0.779
+50% epiboly	ZF50_WT_DS2	signal:Wnt	margin	all	230	0.958	0.547	1.24
+50% epiboly	ZF50_WT_DS2	signal:Wnt	margin	parents	230	0.936	0.621	1.07
+50% epiboly	ZF50_WT_DS2	signal:Wnt	tailbud	all	117	0.958	0.502	1.38
+50% epiboly	ZF50_WT_DS2	signal:Wnt	tailbud	parents	117	0.756	0.437	1.48
+50% epiboly	ZF50_WT_DS2	blocking:Wnt	dorsal_organizer	all	142	0.808	0.505	0.967
+50% epiboly	ZF50_WT_DS2	blocking:Wnt	dorsal_organizer	parents	142	0.834	0.546	1.3
+50% epiboly	ZF50_WT_DS2	blocking:Wnt	prechordal_plate	all	112	0.67	0.626	0.149
+50% epiboly	ZF50_WT_DS2	blocking:Wnt	prechordal_plate	parents	112	0.564	0.609	-0.266
+50% epiboly	ZF50_WT_DS2	blocking:Wnt	signal:Wnt	all	90	0.971	0.596	1.12
+50% epiboly	ZF50_WT_DS2	signal:FGF	margin	all	230	0.976	0.547	1.3
+50% epiboly	ZF50_WT_DS2	signal:FGF	margin	parents	230	0.992	0.621	1.26
+50% epiboly	ZF50_WT_DS2	signal:FGF	tailbud	all	117	0.95	0.502	1.36
+50% epiboly	ZF50_WT_DS2	signal:FGF	tailbud	parents	117	0.594	0.437	0.731
+50% epiboly	ZF50_WT_DS2	signal:FGF	midbrain_hindbrain_boundary	all	73	0.76	0.585	0.781
+50% epiboly	ZF50_WT_DS2	signal:FGF	midbrain_hindbrain_boundary	parents	73	0.371	0.364	0.0468
+50% epiboly	ZF50_WT_DS2	sending:RA	presomitic_mesoderm	all	224	0.827	0.527	1.13
+50% epiboly	ZF50_WT_DS2	sending:RA	presomitic_mesoderm	parents	224	0.797	0.566	1.67
+50% epiboly	ZF50_WT_DS2	sending:RA	blocking:RA	all	58	0.583	0.381	0.397
+50% epiboly	ZF50_WT_DS2	blocking:RA	tailbud	all	117	0.653	0.399	0.623
+50% epiboly	ZF50_WT_DS2	blocking:RA	tailbud	parents	117	0.695	0.37	1.16
+50% epiboly	ZF50_WT_DS2	blocking:RA	forebrain_eye	all	66	0.271	0.665	-0.835
+50% epiboly	ZF50_WT_DS2	blocking:RA	forebrain_eye	parents	66	0.334	0.666	-0.729
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	axial_mesoderm	all	182	0.501	0.54	-0.186
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	axial_mesoderm	parents	182	0.384	0.485	-0.665
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	notochord	all	131	0.514	0.599	-0.326
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	notochord	parents	131	0.511	0.64	-0.482
+50% epiboly	ZF50_WT_DS2	sending:Notch	presomitic_mesoderm	all	224	0.503	0.549	-0.145
+50% epiboly	ZF50_WT_DS2	sending:Notch	presomitic_mesoderm	parents	224	0.239	0.579	-1.25
+50% epiboly	ZF50_WT_DS2	sending:Notch	primary_neurons	all	20	0.00876	0.999	-1.67
+50% epiboly	ZF50_WT_DS2	sending:Notch	primary_neurons	parents	20	0.0541	0.991	-1.5
+50% epiboly	ZF50_WT_DS2	sending:Notch	receiving:Notch	all	46	0.335	0.424	-0.412
+50% epiboly	ZF50_WT_DS3	signal:Nodal	margin	all	342	0.953	0.5	1.46
+50% epiboly	ZF50_WT_DS3	signal:Nodal	margin	parents	342	0.973	0.522	1.18
+50% epiboly	ZF50_WT_DS3	signal:Nodal	endoderm	all	223	0.995	0.505	1.27
+50% epiboly	ZF50_WT_DS3	signal:Nodal	endoderm	parents	223	0.947	0.547	1.42
+50% epiboly	ZF50_WT_DS3	signal:BMP	non_neural_ectoderm	all	42	0.328	0.82	-5.94
+50% epiboly	ZF50_WT_DS3	signal:BMP	non_neural_ectoderm	parents	42	0.366	0.82	-4.68
+50% epiboly	ZF50_WT_DS3	sending:BMP_organizer	dorsal_organizer	all	155	0.594	0.434	0.602
+50% epiboly	ZF50_WT_DS3	sending:BMP_organizer	dorsal_organizer	parents	155	0.67	0.417	0.957
+50% epiboly	ZF50_WT_DS3	sending:BMP_organizer	signal:BMP	all	92	0.168	0.47	-1.32
+50% epiboly	ZF50_WT_DS3	blocking:BMP	dorsal_organizer	all	155	0.775	0.509	0.923
+50% epiboly	ZF50_WT_DS3	blocking:BMP	dorsal_organizer	parents	155	0.785	0.522	0.962
+50% epiboly	ZF50_WT_DS3	blocking:BMP	signal:BMP	all	66	0.427	0.606	-0.427
+50% epiboly	ZF50_WT_DS3	signal:Wnt	margin	all	342	0.923	0.565	1.42
+50% epiboly	ZF50_WT_DS3	signal:Wnt	margin	parents	342	0.945	0.613	1.14
+50% epiboly	ZF50_WT_DS3	signal:Wnt	tailbud	all	171	0.98	0.55	1.44
+50% epiboly	ZF50_WT_DS3	signal:Wnt	tailbud	parents	171	0.882	0.487	2.04
+50% epiboly	ZF50_WT_DS3	blocking:Wnt	dorsal_organizer	all	155	0.861	0.509	1.22
+50% epiboly	ZF50_WT_DS3	blocking:Wnt	dorsal_organizer	parents	155	0.871	0.522	1.28
+50% epiboly	ZF50_WT_DS3	blocking:Wnt	prechordal_plate	all	102	0.762	0.647	0.454
+50% epiboly	ZF50_WT_DS3	blocking:Wnt	prechordal_plate	parents	102	0.678	0.646	0.201
+50% epiboly	ZF50_WT_DS3	blocking:Wnt	signal:Wnt	all	81	0.71	0.587	0.359
+50% epiboly	ZF50_WT_DS3	signal:FGF	margin	all	342	0.962	0.565	1.57
+50% epiboly	ZF50_WT_DS3	signal:FGF	margin	parents	342	0.988	0.613	1.29
+50% epiboly	ZF50_WT_DS3	signal:FGF	tailbud	all	171	0.937	0.55	1.29
+50% epiboly	ZF50_WT_DS3	signal:FGF	tailbud	parents	171	0.64	0.487	0.791
+50% epiboly	ZF50_WT_DS3	signal:FGF	midbrain_hindbrain_boundary	all	96	0.781	0.535	0.969
+50% epiboly	ZF50_WT_DS3	signal:FGF	midbrain_hindbrain_boundary	parents	96	0.631	0.301	2.66
+50% epiboly	ZF50_WT_DS3	sending:RA	presomitic_mesoderm	all	266	0.894	0.482	2
+50% epiboly	ZF50_WT_DS3	sending:RA	presomitic_mesoderm	parents	266	0.768	0.509	1.36
+50% epiboly	ZF50_WT_DS3	sending:RA	blocking:RA	all	80	0.597	0.398	0.757
+50% epiboly	ZF50_WT_DS3	blocking:RA	tailbud	all	171	0.622	0.405	0.971
+50% epiboly	ZF50_WT_DS3	blocking:RA	tailbud	parents	171	0.512	0.377	0.543
+50% epiboly	ZF50_WT_DS3	blocking:RA	forebrain_eye	all	73	0.31	0.548	-0.946
+50% epiboly	ZF50_WT_DS3	blocking:RA	forebrain_eye	parents	73	0.372	0.602	-0.869
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	axial_mesoderm	all	180	0.489	0.494	-0.0192
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	axial_mesoderm	parents	180	0.431	0.508	-0.262
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	notochord	all	121	0.511	0.513	-0.00818
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	notochord	parents	121	0.53	0.53	-0.00199
+50% epiboly	ZF50_WT_DS3	sending:Notch	presomitic_mesoderm	all	266	0.544	0.517	0.0766
+50% epiboly	ZF50_WT_DS3	sending:Notch	presomitic_mesoderm	parents	266	0.305	0.525	-0.866
+50% epiboly	ZF50_WT_DS3	sending:Notch	primary_neurons	all	23	0.0085	0.916	-3.73
+50% epiboly	ZF50_WT_DS3	sending:Notch	primary_neurons	parents	23	0.0806	0.894	-1.86
+50% epiboly	ZF50_WT_DS3	sending:Notch	receiving:Notch	all	18	0.657	0.479	0.57
+50% epiboly	ZF50_WT_DS4	signal:Nodal	margin	all	302	0.946	0.517	1.43
+50% epiboly	ZF50_WT_DS4	signal:Nodal	margin	parents	302	0.973	0.548	1.38
+50% epiboly	ZF50_WT_DS4	signal:Nodal	endoderm	all	175	0.994	0.554	1.32
+50% epiboly	ZF50_WT_DS4	signal:Nodal	endoderm	parents	175	0.944	0.58	1.24
+50% epiboly	ZF50_WT_DS4	signal:BMP	non_neural_ectoderm	all	42	0.468	0.778	-1.18
+50% epiboly	ZF50_WT_DS4	signal:BMP	non_neural_ectoderm	parents	42	0.441	0.795	-1.19
+50% epiboly	ZF50_WT_DS4	sending:BMP_organizer	dorsal_organizer	all	162	0.482	0.497	-0.112
+50% epiboly	ZF50_WT_DS4	sending:BMP_organizer	dorsal_organizer	parents	162	0.586	0.601	-0.0654
+50% epiboly	ZF50_WT_DS4	sending:BMP_organizer	signal:BMP	all	62	0.144	0.52	-1.87
+50% epiboly	ZF50_WT_DS4	blocking:BMP	dorsal_organizer	all	162	0.808	0.503	0.894
+50% epiboly	ZF50_WT_DS4	blocking:BMP	dorsal_organizer	parents	162	0.854	0.548	1.08
+50% epiboly	ZF50_WT_DS4	blocking:BMP	signal:BMP	all	52	0.441	0.618	-0.5
+50% epiboly	ZF50_WT_DS4	signal:Wnt	margin	all	302	0.924	0.541	1.36
+50% epiboly	ZF50_WT_DS4	signal:Wnt	margin	parents	302	0.931	0.571	1.19
+50% epiboly	ZF50_WT_DS4	signal:Wnt	tailbud	all	136	0.971	0.507	1.58
+50% epiboly	ZF50_WT_DS4	signal:Wnt	tailbud	parents	136	0.795	0.474	1.63
+50% epiboly	ZF50_WT_DS4	blocking:Wnt	dorsal_organizer	all	162	0.883	0.503	1.12
+50% epiboly	ZF50_WT_DS4	blocking:Wnt	dorsal_organizer	parents	162	0.916	0.548	1.3
+50% epiboly	ZF50_WT_DS4	blocking:Wnt	prechordal_plate	all	88	0.813	0.599	0.747
+50% epiboly	ZF50_WT_DS4	blocking:Wnt	prechordal_plate	parents	88	0.695	0.604	0.467
+50% epiboly	ZF50_WT_DS4	blocking:Wnt	signal:Wnt	all	98	0.859	0.604	0.809
+50% epiboly	ZF50_WT_DS4	signal:FGF	margin	all	302	0.968	0.541	1.51
+50% epiboly	ZF50_WT_DS4	signal:FGF	margin	parents	302	0.993	0.571	1.4
+50% epiboly	ZF50_WT_DS4	signal:FGF	tailbud	all	136	0.943	0.507	1.49
+50% epiboly	ZF50_WT_DS4	signal:FGF	tailbud	parents	136	0.622	0.474	0.751
+50% epiboly	ZF50_WT_DS4	signal:FGF	midbrain_hindbrain_boundary	all	77	0.695	0.507	1.07
+50% epiboly	ZF50_WT_DS4	signal:FGF	midbrain_hindbrain_boundary	parents	77	0.288	0.326	-0.191
+50% epiboly	ZF50_WT_DS4	sending:RA	presomitic_mesoderm	all	205	0.809	0.468	1.08
+50% epiboly	ZF50_WT_DS4	sending:RA	presomitic_mesoderm	parents	205	0.625	0.549	0.367
+50% epiboly	ZF50_WT_DS4	sending:RA	blocking:RA	all	50	0.615	0.381	0.626
+50% epiboly	ZF50_WT_DS4	blocking:RA	tailbud	all	136	0.644	0.401	0.756
+50% epiboly	ZF50_WT_DS4	blocking:RA	tailbud	parents	136	0.625	0.407	0.891
+50% epiboly	ZF50_WT_DS4	blocking:RA	forebrain_eye	all	70	0.414	0.45	-0.268
+50% epiboly	ZF50_WT_DS4	blocking:RA	forebrain_eye	parents	70	0.418	0.441	-0.174
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	axial_mesoderm	all	198	0.507	0.511	-0.0159
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	axial_mesoderm	parents	198	0.356	0.469	-0.544
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	notochord	all	124	0.448	0.531	-0.36
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	notochord	parents	124	0.389	0.514	-1.17
+50% epiboly	ZF50_WT_DS4	sending:Notch	presomitic_mesoderm	all	205	0.514	0.584	-0.215
+50% epiboly	ZF50_WT_DS4	sending:Notch	presomitic_mesoderm	parents	205	0.235	0.595	-1.35
+50% epiboly	ZF50_WT_DS4	sending:Notch	primary_neurons	all	17	0.0924	0.789	-2.56
+50% epiboly	ZF50_WT_DS4	sending:Notch	primary_neurons	parents	17	0.162	0.767	-2.36
+50% epiboly	ZF50_WT_DS4	sending:Notch	receiving:Notch	all	14	0.73	0.483	0.932
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	margin	all	321	0.904	0.528	1.33
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	margin	parents	321	0.965	0.58	1.3
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	endoderm	all	169	0.996	0.523	1.39
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	endoderm	parents	169	0.966	0.502	1.54
+50% epiboly	ZF50_WT_DS4b	signal:BMP	non_neural_ectoderm	all	55	0.357	0.787	-4.98
+50% epiboly	ZF50_WT_DS4b	signal:BMP	non_neural_ectoderm	parents	55	0.39	0.81	-4.47
+50% epiboly	ZF50_WT_DS4b	sending:BMP_organizer	dorsal_organizer	all	132	0.607	0.405	0.491
+50% epiboly	ZF50_WT_DS4b	sending:BMP_organizer	dorsal_organizer	parents	132	0.671	0.407	0.793
+50% epiboly	ZF50_WT_DS4b	sending:BMP_organizer	signal:BMP	all	83	0.148	0.504	-1.39
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	dorsal_organizer	all	132	0.91	0.467	1.1
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	dorsal_organizer	parents	132	0.907	0.512	1.37
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	signal:BMP	all	79	0.293	0.597	-0.858
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	margin	all	321	0.915	0.538	1.44
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	margin	parents	321	0.94	0.594	1.2
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	tailbud	all	137	0.975	0.523	1.42
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	tailbud	parents	137	0.849	0.492	1.86
+50% epiboly	ZF50_WT_DS4b	blocking:Wnt	dorsal_organizer	all	132	0.862	0.467	0.978
+50% epiboly	ZF50_WT_DS4b	blocking:Wnt	dorsal_organizer	parents	132	0.867	0.512	1.24
+50% epiboly	ZF50_WT_DS4b	blocking:Wnt	prechordal_plate	all	115	0.764	0.615	0.482
+50% epiboly	ZF50_WT_DS4b	blocking:Wnt	prechordal_plate	parents	115	0.618	0.642	-0.0899
+50% epiboly	ZF50_WT_DS4b	blocking:Wnt	signal:Wnt	all	100	0.807	0.604	0.644
+50% epiboly	ZF50_WT_DS4b	signal:FGF	margin	all	321	0.947	0.538	1.56
+50% epiboly	ZF50_WT_DS4b	signal:FGF	margin	parents	321	0.989	0.594	1.37
+50% epiboly	ZF50_WT_DS4b	signal:FGF	tailbud	all	137	0.947	0.523	1.34
+50% epiboly	ZF50_WT_DS4b	signal:FGF	tailbud	parents	137	0.696	0.492	1.07
+50% epiboly	ZF50_WT_DS4b	signal:FGF	midbrain_hindbrain_boundary	all	84	0.824	0.565	1.24
+50% epiboly	ZF50_WT_DS4b	signal:FGF	midbrain_hindbrain_boundary	parents	84	0.621	0.324	2.27
+50% epiboly	ZF50_WT_DS4b	sending:RA	presomitic_mesoderm	all	205	0.879	0.443	1.77
+50% epiboly	ZF50_WT_DS4b	sending:RA	presomitic_mesoderm	parents	205	0.744	0.417	1.21
+50% epiboly	ZF50_WT_DS4b	sending:RA	blocking:RA	all	75	0.542	0.382	0.432
+50% epiboly	ZF50_WT_DS4b	blocking:RA	tailbud	all	137	0.614	0.382	0.75
+50% epiboly	ZF50_WT_DS4b	blocking:RA	tailbud	parents	137	0.559	0.343	0.803
+50% epiboly	ZF50_WT_DS4b	blocking:RA	forebrain_eye	all	65	0.238	0.531	-0.981
+50% epiboly	ZF50_WT_DS4b	blocking:RA	forebrain_eye	parents	65	0.25	0.562	-0.842
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	axial_mesoderm	all	229	0.483	0.495	-0.0444
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	axial_mesoderm	parents	229	0.429	0.483	-0.208
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	notochord	all	182	0.493	0.526	-0.11
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	notochord	parents	182	0.498	0.567	-0.352
+50% epiboly	ZF50_WT_DS4b	sending:Notch	presomitic_mesoderm	all	205	0.393	0.583	-0.598
+50% epiboly	ZF50_WT_DS4b	sending:Notch	presomitic_mesoderm	parents	205	0.19	0.567	-1.72
+50% epiboly	ZF50_WT_DS4b	sending:Notch	primary_neurons	all	34	0.112	0.949	-3.92
+50% epiboly	ZF50_WT_DS4b	sending:Notch	primary_neurons	parents	34	0.291	0.938	-1.54
+shield	ZFS_WT_DS5	signal:Nodal	margin	all	283	0.939	0.554	1.18
+shield	ZFS_WT_DS5	signal:Nodal	margin	parents	283	0.964	0.531	1.12
+shield	ZFS_WT_DS5	signal:Nodal	endoderm	all	119	0.943	0.554	1.18
+shield	ZFS_WT_DS5	signal:Nodal	endoderm	parents	119	0.728	0.512	0.998
+shield	ZFS_WT_DS5	signal:BMP	non_neural_ectoderm	all	65	0.811	0.519	1.03
+shield	ZFS_WT_DS5	signal:BMP	non_neural_ectoderm	parents	65	0.808	0.49	0.889
+shield	ZFS_WT_DS5	sending:BMP_organizer	dorsal_organizer	all	71	0.691	0.447	0.812
+shield	ZFS_WT_DS5	sending:BMP_organizer	dorsal_organizer	parents	71	0.693	0.426	0.843
+shield	ZFS_WT_DS5	sending:BMP_organizer	signal:BMP	all	46	0.155	0.464	-0.753
+shield	ZFS_WT_DS5	blocking:BMP	dorsal_organizer	all	71	0.923	0.486	1.19
+shield	ZFS_WT_DS5	blocking:BMP	dorsal_organizer	parents	71	0.934	0.467	1.37
+shield	ZFS_WT_DS5	blocking:BMP	signal:BMP	all	39	0.47	0.565	-0.22
+shield	ZFS_WT_DS5	signal:Wnt	margin	all	283	0.945	0.589	1.26
+shield	ZFS_WT_DS5	signal:Wnt	margin	parents	283	0.983	0.589	1.22
+shield	ZFS_WT_DS5	signal:Wnt	tailbud	all	143	0.946	0.549	1.29
+shield	ZFS_WT_DS5	signal:Wnt	tailbud	parents	143	0.789	0.48	1.58
+shield	ZFS_WT_DS5	blocking:Wnt	dorsal_organizer	all	71	0.79	0.528	0.834
+shield	ZFS_WT_DS5	blocking:Wnt	dorsal_organizer	parents	71	0.756	0.465	1.07
+shield	ZFS_WT_DS5	blocking:Wnt	prechordal_plate	all	60	0.904	0.583	1
+shield	ZFS_WT_DS5	blocking:Wnt	prechordal_plate	parents	60	0.835	0.575	1.13
+shield	ZFS_WT_DS5	blocking:Wnt	signal:Wnt	all	34	0.707	0.568	0.389
+shield	ZFS_WT_DS5	signal:FGF	margin	all	283	0.961	0.589	1.32
+shield	ZFS_WT_DS5	signal:FGF	margin	parents	283	0.989	0.589	1.24
+shield	ZFS_WT_DS5	signal:FGF	tailbud	all	143	0.903	0.549	1.15
+shield	ZFS_WT_DS5	signal:FGF	tailbud	parents	143	0.569	0.48	0.456
+shield	ZFS_WT_DS5	signal:FGF	midbrain_hindbrain_boundary	all	107	0.525	0.455	0.305
+shield	ZFS_WT_DS5	signal:FGF	midbrain_hindbrain_boundary	parents	107	0.353	0.39	-0.168
+shield	ZFS_WT_DS5	sending:RA	presomitic_mesoderm	all	216	0.954	0.479	1.19
+shield	ZFS_WT_DS5	sending:RA	presomitic_mesoderm	parents	216	0.873	0.466	1.08
+shield	ZFS_WT_DS5	sending:RA	blocking:RA	all	62	0.616	0.351	0.497
+shield	ZFS_WT_DS5	blocking:RA	tailbud	all	143	0.681	0.407	0.736
+shield	ZFS_WT_DS5	blocking:RA	tailbud	parents	143	0.496	0.364	0.54
+shield	ZFS_WT_DS5	blocking:RA	forebrain_eye	all	71	0.686	0.427	1.95
+shield	ZFS_WT_DS5	blocking:RA	forebrain_eye	parents	71	0.522	0.547	-0.122
+shield	ZFS_WT_DS5	sending:Hedgehog	axial_mesoderm	all	106	0.502	0.436	0.235
+shield	ZFS_WT_DS5	sending:Hedgehog	axial_mesoderm	parents	106	0.545	0.516	0.129
+shield	ZFS_WT_DS5	sending:Hedgehog	notochord	all	109	0.513	0.438	0.359
+shield	ZFS_WT_DS5	sending:Hedgehog	notochord	parents	109	0.542	0.448	0.589
+shield	ZFS_WT_DS5	sending:Notch	presomitic_mesoderm	all	216	0.578	0.542	0.0943
+shield	ZFS_WT_DS5	sending:Notch	presomitic_mesoderm	parents	216	0.242	0.516	-0.887
+shield	ZFS_WT_DS5	sending:Notch	primary_neurons	all	11	0.207	0.387	-0.83
+shield	ZFS_WT_DS5	sending:Notch	primary_neurons	parents	11	0.298	0.465	-0.608
+60% epiboly	ZF60_WT_DS2	signal:Nodal	margin	all	475	0.938	0.562	1.05
+60% epiboly	ZF60_WT_DS2	signal:Nodal	margin	parents	475	0.959	0.586	1.05
+60% epiboly	ZF60_WT_DS2	signal:Nodal	endoderm	all	218	0.888	0.561	0.958
+60% epiboly	ZF60_WT_DS2	signal:Nodal	endoderm	parents	218	0.625	0.524	0.328
+60% epiboly	ZF60_WT_DS2	signal:BMP	non_neural_ectoderm	all	183	0.894	0.465	1.44
+60% epiboly	ZF60_WT_DS2	signal:BMP	non_neural_ectoderm	parents	183	0.824	0.482	0.981
+60% epiboly	ZF60_WT_DS2	sending:BMP_organizer	dorsal_organizer	all	180	0.796	0.528	0.768
+60% epiboly	ZF60_WT_DS2	sending:BMP_organizer	dorsal_organizer	parents	180	0.827	0.526	1.73
+60% epiboly	ZF60_WT_DS2	sending:BMP_organizer	signal:BMP	all	100	0.196	0.494	-0.964
+60% epiboly	ZF60_WT_DS2	blocking:BMP	dorsal_organizer	all	180	0.904	0.577	1.05
+60% epiboly	ZF60_WT_DS2	blocking:BMP	dorsal_organizer	parents	180	0.901	0.515	1.34
+60% epiboly	ZF60_WT_DS2	blocking:BMP	signal:BMP	all	116	0.462	0.642	-0.329
+60% epiboly	ZF60_WT_DS2	signal:Wnt	margin	all	475	0.922	0.656	0.956
+60% epiboly	ZF60_WT_DS2	signal:Wnt	margin	parents	475	0.904	0.661	0.856
+60% epiboly	ZF60_WT_DS2	signal:Wnt	tailbud	all	284	0.967	0.597	1.36
+60% epiboly	ZF60_WT_DS2	signal:Wnt	tailbud	parents	284	0.898	0.461	1.49
+60% epiboly	ZF60_WT_DS2	blocking:Wnt	dorsal_organizer	all	180	0.862	0.577	0.914
+60% epiboly	ZF60_WT_DS2	blocking:Wnt	dorsal_organizer	parents	180	0.812	0.515	1.03
+60% epiboly	ZF60_WT_DS2	blocking:Wnt	prechordal_plate	all	136	0.941	0.595	1
+60% epiboly	ZF60_WT_DS2	blocking:Wnt	prechordal_plate	parents	136	0.812	0.527	1.01
+60% epiboly	ZF60_WT_DS2	blocking:Wnt	signal:Wnt	all	83	0.606	0.637	-0.0799
+60% epiboly	ZF60_WT_DS2	signal:FGF	margin	all	475	0.951	0.656	1.06
+60% epiboly	ZF60_WT_DS2	signal:FGF	margin	parents	475	0.951	0.661	1.02
+60% epiboly	ZF60_WT_DS2	signal:FGF	tailbud	all	284	0.921	0.597	1.19
+60% epiboly	ZF60_WT_DS2	signal:FGF	tailbud	parents	284	0.683	0.461	0.76
+60% epiboly	ZF60_WT_DS2	signal:FGF	midbrain_hindbrain_boundary	all	215	0.497	0.49	0.0268
+60% epiboly	ZF60_WT_DS2	signal:FGF	midbrain_hindbrain_boundary	parents	215	0.269	0.349	-0.468
+60% epiboly	ZF60_WT_DS2	sending:RA	presomitic_mesoderm	all	296	0.95	0.514	1.37
+60% epiboly	ZF60_WT_DS2	sending:RA	presomitic_mesoderm	parents	296	0.865	0.552	1.71
+60% epiboly	ZF60_WT_DS2	sending:RA	blocking:RA	all	109	0.471	0.431	0.106
+60% epiboly	ZF60_WT_DS2	blocking:RA	tailbud	all	284	0.657	0.429	0.64
+60% epiboly	ZF60_WT_DS2	blocking:RA	tailbud	parents	284	0.632	0.409	0.76
+60% epiboly	ZF60_WT_DS2	blocking:RA	forebrain_eye	all	194	0.78	0.422	1.67
+60% epiboly	ZF60_WT_DS2	blocking:RA	forebrain_eye	parents	194	0.767	0.505	0.981
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	axial_mesoderm	all	241	0.669	0.534	0.531
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	axial_mesoderm	parents	241	0.537	0.435	0.338
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	notochord	all	209	0.724	0.553	0.7
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	notochord	parents	209	0.773	0.526	1.13
+60% epiboly	ZF60_WT_DS2	sending:Notch	presomitic_mesoderm	all	296	0.67	0.558	0.326
+60% epiboly	ZF60_WT_DS2	sending:Notch	presomitic_mesoderm	parents	296	0.544	0.475	0.228
+60% epiboly	ZF60_WT_DS2	sending:Notch	receiving:Notch	all	129	0.631	0.545	0.261
+60% epiboly	ZF60_WT_DS3	signal:Nodal	margin	all	438	0.893	0.619	0.965
+60% epiboly	ZF60_WT_DS3	signal:Nodal	margin	parents	438	0.928	0.618	1.1
+60% epiboly	ZF60_WT_DS3	signal:Nodal	endoderm	all	93	0.804	0.613	0.682
+60% epiboly	ZF60_WT_DS3	signal:Nodal	endoderm	parents	93	0.627	0.547	0.297
+60% epiboly	ZF60_WT_DS3	signal:BMP	non_neural_ectoderm	all	142	0.949	0.42	1.44
+60% epiboly	ZF60_WT_DS3	signal:BMP	non_neural_ectoderm	parents	142	0.93	0.47	1.06
+60% epiboly	ZF60_WT_DS3	sending:BMP_organizer	dorsal_organizer	all	117	0.724	0.512	0.63
+60% epiboly	ZF60_WT_DS3	sending:BMP_organizer	dorsal_organizer	parents	117	0.762	0.514	1.02
+60% epiboly	ZF60_WT_DS3	sending:BMP_organizer	signal:BMP	all	88	0.145	0.479	-1.18
+60% epiboly	ZF60_WT_DS3	blocking:BMP	dorsal_organizer	all	117	0.947	0.561	1.16
+60% epiboly	ZF60_WT_DS3	blocking:BMP	dorsal_organizer	parents	117	0.95	0.478	1.58
+60% epiboly	ZF60_WT_DS3	blocking:BMP	signal:BMP	all	87	0.378	0.584	-0.474
+60% epiboly	ZF60_WT_DS3	signal:Wnt	margin	all	438	0.841	0.659	0.685
+60% epiboly	ZF60_WT_DS3	signal:Wnt	margin	parents	438	0.67	0.66	0.0362
+60% epiboly	ZF60_WT_DS3	signal:Wnt	tailbud	all	235	0.9	0.623	1.17
+60% epiboly	ZF60_WT_DS3	signal:Wnt	tailbud	parents	235	0.814	0.463	1.22
+60% epiboly	ZF60_WT_DS3	blocking:Wnt	dorsal_organizer	all	117	0.845	0.561	0.853
+60% epiboly	ZF60_WT_DS3	blocking:Wnt	dorsal_organizer	parents	117	0.829	0.478	1.18
+60% epiboly	ZF60_WT_DS3	blocking:Wnt	prechordal_plate	all	50	0.996	0.581	1.13
+60% epiboly	ZF60_WT_DS3	blocking:Wnt	prechordal_plate	parents	50	0.967	0.523	1.31
+60% epiboly	ZF60_WT_DS3	blocking:Wnt	signal:Wnt	all	49	0.379	0.63	-0.451
+60% epiboly	ZF60_WT_DS3	signal:FGF	margin	all	438	0.852	0.659	0.725
+60% epiboly	ZF60_WT_DS3	signal:FGF	margin	parents	438	0.714	0.66	0.202
+60% epiboly	ZF60_WT_DS3	signal:FGF	tailbud	all	235	0.852	0.623	0.968
+60% epiboly	ZF60_WT_DS3	signal:FGF	tailbud	parents	235	0.696	0.463	0.811
+60% epiboly	ZF60_WT_DS3	signal:FGF	midbrain_hindbrain_boundary	all	235	0.384	0.431	-0.289
+60% epiboly	ZF60_WT_DS3	signal:FGF	midbrain_hindbrain_boundary	parents	235	0.393	0.383	0.0299
+60% epiboly	ZF60_WT_DS3	sending:RA	presomitic_mesoderm	all	305	0.925	0.508	1.05
+60% epiboly	ZF60_WT_DS3	sending:RA	presomitic_mesoderm	parents	305	0.832	0.524	1.98
+60% epiboly	ZF60_WT_DS3	sending:RA	blocking:RA	all	103	0.256	0.444	-0.937
+60% epiboly	ZF60_WT_DS3	blocking:RA	tailbud	all	235	0.48	0.456	0.0661
+60% epiboly	ZF60_WT_DS3	blocking:RA	tailbud	parents	235	0.55	0.417	0.476
+60% epiboly	ZF60_WT_DS3	blocking:RA	forebrain_eye	all	171	0.802	0.429	1.2
+60% epiboly	ZF60_WT_DS3	blocking:RA	forebrain_eye	parents	171	0.786	0.452	1.08
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	axial_mesoderm	all	203	0.505	0.513	-0.0302
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	axial_mesoderm	parents	203	0.455	0.426	0.0887
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	notochord	all	145	0.576	0.536	0.186
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	notochord	parents	145	0.619	0.521	0.546
+60% epiboly	ZF60_WT_DS3	sending:Notch	presomitic_mesoderm	all	305	0.646	0.621	0.0889
+60% epiboly	ZF60_WT_DS3	sending:Notch	presomitic_mesoderm	parents	305	0.461	0.482	-0.0663
+60% epiboly	ZF60_WT_DS3	sending:Notch	receiving:Notch	all	81	0.735	0.546	0.633
+60% epiboly	ZF60_WT_DS4	signal:Nodal	margin	all	504	0.927	0.626	1.14
+60% epiboly	ZF60_WT_DS4	signal:Nodal	margin	parents	504	0.925	0.617	1.15
+60% epiboly	ZF60_WT_DS4	signal:Nodal	endoderm	all	152	0.826	0.596	0.778
+60% epiboly	ZF60_WT_DS4	signal:Nodal	endoderm	parents	152	0.645	0.502	0.446
+60% epiboly	ZF60_WT_DS4	signal:BMP	non_neural_ectoderm	all	164	0.878	0.387	1.31
+60% epiboly	ZF60_WT_DS4	signal:BMP	non_neural_ectoderm	parents	164	0.797	0.464	1.21
+60% epiboly	ZF60_WT_DS4	sending:BMP_organizer	dorsal_organizer	all	136	0.689	0.474	0.594
+60% epiboly	ZF60_WT_DS4	sending:BMP_organizer	dorsal_organizer	parents	136	0.71	0.418	0.933
+60% epiboly	ZF60_WT_DS4	sending:BMP_organizer	signal:BMP	all	84	0.131	0.504	-1.41
+60% epiboly	ZF60_WT_DS4	blocking:BMP	dorsal_organizer	all	136	0.974	0.583	1.39
+60% epiboly	ZF60_WT_DS4	blocking:BMP	dorsal_organizer	parents	136	0.971	0.498	1.92
+60% epiboly	ZF60_WT_DS4	blocking:BMP	signal:BMP	all	107	0.397	0.629	-0.593
+60% epiboly	ZF60_WT_DS4	signal:Wnt	margin	all	504	0.913	0.651	1.03
+60% epiboly	ZF60_WT_DS4	signal:Wnt	margin	parents	504	0.891	0.67	0.852
+60% epiboly	ZF60_WT_DS4	signal:Wnt	tailbud	all	287	0.94	0.626	1.42
+60% epiboly	ZF60_WT_DS4	signal:Wnt	tailbud	parents	287	0.814	0.486	1.14
+60% epiboly	ZF60_WT_DS4	blocking:Wnt	dorsal_organizer	all	136	0.862	0.583	0.991
+60% epiboly	ZF60_WT_DS4	blocking:Wnt	dorsal_organizer	parents	136	0.85	0.498	1.43
+60% epiboly	ZF60_WT_DS4	blocking:Wnt	prechordal_plate	all	84	0.961	0.598	1.14
+60% epiboly	ZF60_WT_DS4	blocking:Wnt	prechordal_plate	parents	84	0.896	0.511	1.03
+60% epiboly	ZF60_WT_DS4	blocking:Wnt	signal:Wnt	all	65	0.433	0.587	-0.311
+60% epiboly	ZF60_WT_DS4	signal:FGF	margin	all	504	0.923	0.651	1.08
+60% epiboly	ZF60_WT_DS4	signal:FGF	margin	parents	504	0.898	0.67	0.879
+60% epiboly	ZF60_WT_DS4	signal:FGF	tailbud	all	287	0.858	0.626	1.05
+60% epiboly	ZF60_WT_DS4	signal:FGF	tailbud	parents	287	0.582	0.486	0.334
+60% epiboly	ZF60_WT_DS4	signal:FGF	midbrain_hindbrain_boundary	all	238	0.45	0.502	-0.309
+60% epiboly	ZF60_WT_DS4	signal:FGF	midbrain_hindbrain_boundary	parents	238	0.491	0.448	0.229
+60% epiboly	ZF60_WT_DS4	sending:RA	presomitic_mesoderm	all	324	0.919	0.548	1.06
+60% epiboly	ZF60_WT_DS4	sending:RA	presomitic_mesoderm	parents	324	0.819	0.574	1.5
+60% epiboly	ZF60_WT_DS4	sending:RA	blocking:RA	all	106	0.44	0.468	-0.139
+60% epiboly	ZF60_WT_DS4	blocking:RA	tailbud	all	287	0.565	0.516	0.136
+60% epiboly	ZF60_WT_DS4	blocking:RA	tailbud	parents	287	0.645	0.494	0.557
+60% epiboly	ZF60_WT_DS4	blocking:RA	forebrain_eye	all	214	0.742	0.43	1.31
+60% epiboly	ZF60_WT_DS4	blocking:RA	forebrain_eye	parents	214	0.749	0.425	0.889
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	axial_mesoderm	all	265	0.698	0.537	0.626
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	axial_mesoderm	parents	265	0.534	0.433	0.323
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	notochord	all	196	0.708	0.519	0.711
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	notochord	parents	196	0.606	0.474	0.764
+60% epiboly	ZF60_WT_DS4	sending:Notch	presomitic_mesoderm	all	324	0.665	0.613	0.198
+60% epiboly	ZF60_WT_DS4	sending:Notch	presomitic_mesoderm	parents	324	0.446	0.534	-0.329
+60% epiboly	ZF60_WT_DS4	sending:Notch	receiving:Notch	all	102	0.701	0.557	0.56
+75% epiboly	ZF75_WT_DS2	signal:Nodal	margin	all	661	0.84	0.585	0.869
+75% epiboly	ZF75_WT_DS2	signal:Nodal	margin	parents	661	0.817	0.577	0.784
+75% epiboly	ZF75_WT_DS2	signal:Nodal	endoderm	all	167	0.805	0.556	0.829
+75% epiboly	ZF75_WT_DS2	signal:Nodal	endoderm	parents	167	0.688	0.489	0.64
+75% epiboly	ZF75_WT_DS2	signal:BMP	non_neural_ectoderm	all	251	0.929	0.421	1.36
+75% epiboly	ZF75_WT_DS2	signal:BMP	non_neural_ectoderm	parents	251	0.939	0.475	1.15
+75% epiboly	ZF75_WT_DS2	sending:BMP_organizer	dorsal_organizer	all	187	0.792	0.467	1.01
+75% epiboly	ZF75_WT_DS2	sending:BMP_organizer	dorsal_organizer	parents	187	0.833	0.48	0.879
+75% epiboly	ZF75_WT_DS2	sending:BMP_organizer	signal:BMP	all	151	0.2	0.491	-1.28
+75% epiboly	ZF75_WT_DS2	blocking:BMP	dorsal_organizer	all	187	0.966	0.499	1.52
+75% epiboly	ZF75_WT_DS2	blocking:BMP	dorsal_organizer	parents	187	0.961	0.463	1.9
+75% epiboly	ZF75_WT_DS2	blocking:BMP	signal:BMP	all	144	0.437	0.668	-0.491
+75% epiboly	ZF75_WT_DS2	signal:Wnt	margin	all	661	0.816	0.644	0.722
+75% epiboly	ZF75_WT_DS2	signal:Wnt	margin	parents	661	0.526	0.608	-0.196
+75% epiboly	ZF75_WT_DS2	signal:Wnt	tailbud	all	399	0.891	0.595	1.23
+75% epiboly	ZF75_WT_DS2	signal:Wnt	tailbud	parents	399	0.84	0.439	1.44
+75% epiboly	ZF75_WT_DS2	blocking:Wnt	dorsal_organizer	all	187	0.824	0.499	1.06
+75% epiboly	ZF75_WT_DS2	blocking:Wnt	dorsal_organizer	parents	187	0.838	0.463	1.43
+75% epiboly	ZF75_WT_DS2	blocking:Wnt	prechordal_plate	all	103	0.958	0.534	1.36
+75% epiboly	ZF75_WT_DS2	blocking:Wnt	prechordal_plate	parents	103	0.937	0.557	1.37
+75% epiboly	ZF75_WT_DS2	blocking:Wnt	signal:Wnt	all	115	0.399	0.646	-0.576
+75% epiboly	ZF75_WT_DS2	signal:FGF	margin	all	661	0.882	0.599	0.938
+75% epiboly	ZF75_WT_DS2	signal:FGF	margin	parents	661	0.727	0.593	0.46
+75% epiboly	ZF75_WT_DS2	signal:FGF	tailbud	all	399	0.849	0.555	0.978
+75% epiboly	ZF75_WT_DS2	signal:FGF	tailbud	parents	399	0.636	0.541	0.507
+75% epiboly	ZF75_WT_DS2	signal:FGF	midbrain_hindbrain_boundary	all	319	0.483	0.464	0.0936
+75% epiboly	ZF75_WT_DS2	signal:FGF	midbrain_hindbrain_boundary	parents	319	0.412	0.474	-0.427
+75% epiboly	ZF75_WT_DS2	sending:RA	presomitic_mesoderm	all	435	0.937	0.514	1.58
+75% epiboly	ZF75_WT_DS2	sending:RA	presomitic_mesoderm	parents	435	0.885	0.585	1.58
+75% epiboly	ZF75_WT_DS2	sending:RA	blocking:RA	all	158	0.316	0.451	-0.633
+75% epiboly	ZF75_WT_DS2	blocking:RA	tailbud	all	399	0.61	0.437	0.551
+75% epiboly	ZF75_WT_DS2	blocking:RA	tailbud	parents	399	0.719	0.418	1.04
+75% epiboly	ZF75_WT_DS2	blocking:RA	forebrain_eye	all	322	0.788	0.433	1.64
+75% epiboly	ZF75_WT_DS2	blocking:RA	forebrain_eye	parents	322	0.79	0.581	1.06
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	axial_mesoderm	all	313	0.73	0.499	0.773
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	axial_mesoderm	parents	313	0.696	0.511	0.662
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	notochord	all	222	0.769	0.53	0.828
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	notochord	parents	222	0.736	0.543	0.946
+75% epiboly	ZF75_WT_DS2	sending:Notch	presomitic_mesoderm	all	435	0.675	0.578	0.31
+75% epiboly	ZF75_WT_DS2	sending:Notch	presomitic_mesoderm	parents	435	0.54	0.486	0.181
+75% epiboly	ZF75_WT_DS2	sending:Notch	primary_neurons	all	17	0.563	0.468	0.293
+75% epiboly	ZF75_WT_DS2	sending:Notch	primary_neurons	parents	17	0.748	0.501	0.815
+75% epiboly	ZF75_WT_DS2	sending:Notch	receiving:Notch	all	107	0.741	0.599	0.528
+75% epiboly	ZF75_WT_DS3	signal:Nodal	margin	all	922	0.79	0.542	0.852
+75% epiboly	ZF75_WT_DS3	signal:Nodal	margin	parents	922	0.834	0.599	0.784
+75% epiboly	ZF75_WT_DS3	signal:Nodal	endoderm	all	234	0.714	0.557	0.545
+75% epiboly	ZF75_WT_DS3	signal:Nodal	endoderm	parents	234	0.557	0.528	0.114
+75% epiboly	ZF75_WT_DS3	signal:BMP	non_neural_ectoderm	all	364	0.903	0.467	1.25
+75% epiboly	ZF75_WT_DS3	signal:BMP	non_neural_ectoderm	parents	364	0.919	0.485	1.05
+75% epiboly	ZF75_WT_DS3	sending:BMP_organizer	dorsal_organizer	all	229	0.769	0.486	1.11
+75% epiboly	ZF75_WT_DS3	sending:BMP_organizer	dorsal_organizer	parents	229	0.79	0.48	1.68
+75% epiboly	ZF75_WT_DS3	sending:BMP_organizer	signal:BMP	all	171	0.149	0.475	-1.33
+75% epiboly	ZF75_WT_DS3	blocking:BMP	dorsal_organizer	all	229	0.86	0.545	1.04
+75% epiboly	ZF75_WT_DS3	blocking:BMP	dorsal_organizer	parents	229	0.901	0.507	1.08
+75% epiboly	ZF75_WT_DS3	blocking:BMP	signal:BMP	all	182	0.245	0.6	-1.21
+75% epiboly	ZF75_WT_DS3	signal:Wnt	margin	all	922	0.8	0.56	0.868
+75% epiboly	ZF75_WT_DS3	signal:Wnt	margin	parents	922	0.532	0.56	-0.0982
+75% epiboly	ZF75_WT_DS3	signal:Wnt	tailbud	all	514	0.854	0.499	1.34
+75% epiboly	ZF75_WT_DS3	signal:Wnt	tailbud	parents	514	0.764	0.433	1.77
+75% epiboly	ZF75_WT_DS3	blocking:Wnt	dorsal_organizer	all	229	0.769	0.545	0.736
+75% epiboly	ZF75_WT_DS3	blocking:Wnt	dorsal_organizer	parents	229	0.774	0.507	0.734
+75% epiboly	ZF75_WT_DS3	blocking:Wnt	prechordal_plate	all	121	0.768	0.541	0.666
+75% epiboly	ZF75_WT_DS3	blocking:Wnt	prechordal_plate	parents	121	0.753	0.487	0.849
+75% epiboly	ZF75_WT_DS3	blocking:Wnt	signal:Wnt	all	117	0.312	0.616	-0.852
+75% epiboly	ZF75_WT_DS3	signal:FGF	margin	all	922	0.831	0.576	0.989
+75% epiboly	ZF75_WT_DS3	signal:FGF	margin	parents	922	0.756	0.582	0.62
+75% epiboly	ZF75_WT_DS3	signal:FGF	tailbud	all	514	0.872	0.534	1.28
+75% epiboly	ZF75_WT_DS3	signal:FGF	tailbud	parents	514	0.781	0.482	1.5
+75% epiboly	ZF75_WT_DS3	signal:FGF	midbrain_hindbrain_boundary	all	366	0.382	0.432	-0.259
+75% epiboly	ZF75_WT_DS3	signal:FGF	midbrain_hindbrain_boundary	parents	366	0.306	0.487	-1.48
+75% epiboly	ZF75_WT_DS3	sending:RA	presomitic_mesoderm	all	654	0.906	0.49	1.43
+75% epiboly	ZF75_WT_DS3	sending:RA	presomitic_mesoderm	parents	654	0.781	0.538	1.85
+75% epiboly	ZF75_WT_DS3	sending:RA	blocking:RA	all	167	0.29	0.502	-1.05
+75% epiboly	ZF75_WT_DS3	blocking:RA	tailbud	all	514	0.676	0.442	0.796
+75% epiboly	ZF75_WT_DS3	blocking:RA	tailbud	parents	514	0.861	0.421	2.27
+75% epiboly	ZF75_WT_DS3	blocking:RA	forebrain_eye	all	473	0.773	0.458	1.55
+75% epiboly	ZF75_WT_DS3	blocking:RA	forebrain_eye	parents	473	0.755	0.567	1.59
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	axial_mesoderm	all	381	0.668	0.524	0.584
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	axial_mesoderm	parents	381	0.391	0.529	-0.471
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	notochord	all	292	0.7	0.526	0.741
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	notochord	parents	292	0.673	0.494	0.74
+75% epiboly	ZF75_WT_DS3	sending:Notch	presomitic_mesoderm	all	654	0.71	0.546	0.585
+75% epiboly	ZF75_WT_DS3	sending:Notch	presomitic_mesoderm	parents	654	0.641	0.522	0.755
+75% epiboly	ZF75_WT_DS3	sending:Notch	primary_neurons	all	47	0.378	0.479	-0.338
+75% epiboly	ZF75_WT_DS3	sending:Notch	primary_neurons	parents	47	0.445	0.541	-0.255
+75% epiboly	ZF75_WT_DS3	sending:Notch	receiving:Notch	all	122	0.701	0.57	0.485
+75% epiboly	ZF75_WT_DS4	signal:Nodal	margin	all	451	0.835	0.638	0.835
+75% epiboly	ZF75_WT_DS4	signal:Nodal	margin	parents	451	0.822	0.648	0.631
+75% epiboly	ZF75_WT_DS4	signal:Nodal	endoderm	all	94	0.769	0.61	0.582
+75% epiboly	ZF75_WT_DS4	signal:Nodal	endoderm	parents	94	0.573	0.506	0.171
+75% epiboly	ZF75_WT_DS4	signal:BMP	non_neural_ectoderm	all	201	0.937	0.408	1.24
+75% epiboly	ZF75_WT_DS4	signal:BMP	non_neural_ectoderm	parents	201	0.964	0.454	1.09
+75% epiboly	ZF75_WT_DS4	sending:BMP_organizer	dorsal_organizer	all	93	0.816	0.502	0.99
+75% epiboly	ZF75_WT_DS4	sending:BMP_organizer	dorsal_organizer	parents	93	0.836	0.417	1.15
+75% epiboly	ZF75_WT_DS4	sending:BMP_organizer	signal:BMP	all	100	0.151	0.479	-1.38
+75% epiboly	ZF75_WT_DS4	blocking:BMP	dorsal_organizer	all	93	0.956	0.52	1.39
+75% epiboly	ZF75_WT_DS4	blocking:BMP	dorsal_organizer	parents	93	0.966	0.501	1.31
+75% epiboly	ZF75_WT_DS4	blocking:BMP	signal:BMP	all	109	0.296	0.604	-1.1
+75% epiboly	ZF75_WT_DS4	signal:Wnt	margin	all	451	0.825	0.636	0.766
+75% epiboly	ZF75_WT_DS4	signal:Wnt	margin	parents	451	0.497	0.627	-0.293
+75% epiboly	ZF75_WT_DS4	signal:Wnt	tailbud	all	242	0.868	0.584	1.19
+75% epiboly	ZF75_WT_DS4	signal:Wnt	tailbud	parents	242	0.788	0.448	1.31
+75% epiboly	ZF75_WT_DS4	blocking:Wnt	dorsal_organizer	all	93	0.858	0.52	1.07
+75% epiboly	ZF75_WT_DS4	blocking:Wnt	dorsal_organizer	parents	93	0.841	0.501	0.96
+75% epiboly	ZF75_WT_DS4	blocking:Wnt	prechordal_plate	all	39	0.813	0.604	0.729
+75% epiboly	ZF75_WT_DS4	blocking:Wnt	prechordal_plate	parents	39	0.749	0.609	0.594
+75% epiboly	ZF75_WT_DS4	blocking:Wnt	signal:Wnt	all	41	0.401	0.699	-0.552
+75% epiboly	ZF75_WT_DS4	signal:FGF	margin	all	451	0.839	0.632	0.923
+75% epiboly	ZF75_WT_DS4	signal:FGF	margin	parents	451	0.738	0.629	0.391
+75% epiboly	ZF75_WT_DS4	signal:FGF	tailbud	all	242	0.871	0.566	1.09
+75% epiboly	ZF75_WT_DS4	signal:FGF	tailbud	parents	242	0.75	0.449	1.14
+75% epiboly	ZF75_WT_DS4	signal:FGF	midbrain_hindbrain_boundary	all	161	0.481	0.444	0.145
+75% epiboly	ZF75_WT_DS4	signal:FGF	midbrain_hindbrain_boundary	parents	161	0.479	0.547	-0.238
+75% epiboly	ZF75_WT_DS4	sending:RA	presomitic_mesoderm	all	299	0.924	0.546	1.21
+75% epiboly	ZF75_WT_DS4	sending:RA	presomitic_mesoderm	parents	299	0.757	0.479	1.35
+75% epiboly	ZF75_WT_DS4	sending:RA	blocking:RA	all	101	0.367	0.542	-0.52
+75% epiboly	ZF75_WT_DS4	blocking:RA	tailbud	all	242	0.611	0.528	0.295
+75% epiboly	ZF75_WT_DS4	blocking:RA	tailbud	parents	242	0.742	0.412	1.26
+75% epiboly	ZF75_WT_DS4	blocking:RA	forebrain_eye	all	250	0.864	0.45	1.45
+75% epiboly	ZF75_WT_DS4	blocking:RA	forebrain_eye	parents	250	0.844	0.528	1.62
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	axial_mesoderm	all	237	0.705	0.559	0.641
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	axial_mesoderm	parents	237	0.431	0.594	-0.49
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	notochord	all	120	0.755	0.552	0.849
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	notochord	parents	120	0.694	0.508	0.85
+75% epiboly	ZF75_WT_DS4	sending:Notch	presomitic_mesoderm	all	299	0.764	0.603	0.523
+75% epiboly	ZF75_WT_DS4	sending:Notch	presomitic_mesoderm	parents	299	0.609	0.479	0.437
+75% epiboly	ZF75_WT_DS4	sending:Notch	primary_neurons	all	26	0.186	0.568	-0.995
+75% epiboly	ZF75_WT_DS4	sending:Notch	primary_neurons	parents	26	0.301	0.676	-0.653
+75% epiboly	ZF75_WT_DS4	sending:Notch	receiving:Notch	all	53	0.656	0.546	0.363
+90% epiboly	ZF90_WT_DS2	signal:Nodal	margin	all	367	0.763	0.546	0.992
+90% epiboly	ZF90_WT_DS2	signal:Nodal	margin	parents	367	0.769	0.575	0.756
+90% epiboly	ZF90_WT_DS2	signal:Nodal	endoderm	all	103	0.537	0.571	-0.108
+90% epiboly	ZF90_WT_DS2	signal:Nodal	endoderm	parents	103	0.378	0.514	-0.482
+90% epiboly	ZF90_WT_DS2	signal:BMP	non_neural_ectoderm	all	178	0.939	0.447	1.33
+90% epiboly	ZF90_WT_DS2	signal:BMP	non_neural_ectoderm	parents	178	0.985	0.51	1.13
+90% epiboly	ZF90_WT_DS2	sending:BMP_organizer	dorsal_organizer	all	98	0.718	0.431	0.697
+90% epiboly	ZF90_WT_DS2	sending:BMP_organizer	dorsal_organizer	parents	98	0.732	0.472	0.682
+90% epiboly	ZF90_WT_DS2	sending:BMP_organizer	signal:BMP	all	69	0.187	0.482	-1.14
+90% epiboly	ZF90_WT_DS2	blocking:BMP	dorsal_organizer	all	98	0.871	0.569	0.947
+90% epiboly	ZF90_WT_DS2	blocking:BMP	dorsal_organizer	parents	98	0.91	0.568	1.1
+90% epiboly	ZF90_WT_DS2	blocking:BMP	signal:BMP	all	115	0.245	0.599	-1.45
+90% epiboly	ZF90_WT_DS2	signal:Wnt	margin	all	367	0.743	0.612	0.534
+90% epiboly	ZF90_WT_DS2	signal:Wnt	margin	parents	367	0.5	0.647	-0.322
+90% epiboly	ZF90_WT_DS2	signal:Wnt	tailbud	all	200	0.784	0.549	0.787
+90% epiboly	ZF90_WT_DS2	signal:Wnt	tailbud	parents	200	0.658	0.414	0.694
+90% epiboly	ZF90_WT_DS2	blocking:Wnt	dorsal_organizer	all	98	0.708	0.544	0.469
+90% epiboly	ZF90_WT_DS2	blocking:Wnt	dorsal_organizer	parents	98	0.731	0.573	0.482
+90% epiboly	ZF90_WT_DS2	blocking:Wnt	prechordal_plate	all	49	0.941	0.569	0.909
+90% epiboly	ZF90_WT_DS2	blocking:Wnt	prechordal_plate	parents	49	0.947	0.566	1.04
+90% epiboly	ZF90_WT_DS2	blocking:Wnt	signal:Wnt	all	69	0.277	0.663	-0.989
+90% epiboly	ZF90_WT_DS2	signal:FGF	margin	all	367	0.79	0.582	0.876
+90% epiboly	ZF90_WT_DS2	signal:FGF	margin	parents	367	0.67	0.588	0.274
+90% epiboly	ZF90_WT_DS2	signal:FGF	tailbud	all	200	0.819	0.539	1.16
+90% epiboly	ZF90_WT_DS2	signal:FGF	tailbud	parents	200	0.709	0.416	0.829
+90% epiboly	ZF90_WT_DS2	signal:FGF	midbrain_hindbrain_boundary	all	148	0.503	0.499	0.0235
+90% epiboly	ZF90_WT_DS2	signal:FGF	midbrain_hindbrain_boundary	parents	148	0.541	0.527	0.1
+90% epiboly	ZF90_WT_DS2	sending:RA	presomitic_mesoderm	all	260	0.866	0.48	1.81
+90% epiboly	ZF90_WT_DS2	sending:RA	presomitic_mesoderm	parents	260	0.734	0.489	1.52
+90% epiboly	ZF90_WT_DS2	sending:RA	blocking:RA	all	65	0.238	0.504	-1.03
+90% epiboly	ZF90_WT_DS2	blocking:RA	tailbud	all	200	0.544	0.431	0.343
+90% epiboly	ZF90_WT_DS2	blocking:RA	tailbud	parents	200	0.766	0.44	1.25
+90% epiboly	ZF90_WT_DS2	blocking:RA	forebrain_eye	all	193	0.806	0.43	1.91
+90% epiboly	ZF90_WT_DS2	blocking:RA	forebrain_eye	parents	193	0.834	0.586	1.43
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	axial_mesoderm	all	186	0.679	0.525	0.683
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	axial_mesoderm	parents	186	0.531	0.541	-0.0535
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	notochord	all	118	0.798	0.547	0.967
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	notochord	parents	118	0.808	0.548	1.09
+90% epiboly	ZF90_WT_DS2	sending:Notch	presomitic_mesoderm	all	260	0.656	0.51	0.409
+90% epiboly	ZF90_WT_DS2	sending:Notch	presomitic_mesoderm	parents	260	0.655	0.479	0.603
+90% epiboly	ZF90_WT_DS2	sending:Notch	primary_neurons	all	10	0.477	0.518	-0.122
+90% epiboly	ZF90_WT_DS2	sending:Notch	primary_neurons	parents	10	0.503	0.556	-0.135
+90% epiboly	ZF90_WT_DS2	sending:Notch	receiving:Notch	all	72	0.734	0.527	0.676
+90% epiboly	ZF90_WT_DS3	signal:Nodal	margin	all	859	0.733	0.549	0.704
+90% epiboly	ZF90_WT_DS3	signal:Nodal	margin	parents	859	0.765	0.62	0.531
+90% epiboly	ZF90_WT_DS3	signal:Nodal	endoderm	all	178	0.611	0.576	0.173
+90% epiboly	ZF90_WT_DS3	signal:Nodal	endoderm	parents	178	0.442	0.524	-0.289
+90% epiboly	ZF90_WT_DS3	signal:BMP	non_neural_ectoderm	all	386	0.912	0.49	1.39
+90% epiboly	ZF90_WT_DS3	signal:BMP	non_neural_ectoderm	parents	386	0.98	0.574	1.19
+90% epiboly	ZF90_WT_DS3	sending:BMP_organizer	dorsal_organizer	all	241	0.728	0.452	1.14
+90% epiboly	ZF90_WT_DS3	sending:BMP_organizer	dorsal_organizer	parents	241	0.724	0.447	1.08
+90% epiboly	ZF90_WT_DS3	sending:BMP_organizer	signal:BMP	all	147	0.129	0.495	-1.65
+90% epiboly	ZF90_WT_DS3	blocking:BMP	dorsal_organizer	all	241	0.841	0.546	1.2
+90% epiboly	ZF90_WT_DS3	blocking:BMP	dorsal_organizer	parents	241	0.914	0.528	1.67
+90% epiboly	ZF90_WT_DS3	blocking:BMP	signal:BMP	all	198	0.192	0.609	-1.63
+90% epiboly	ZF90_WT_DS3	signal:Wnt	margin	all	859	0.728	0.611	0.517
+90% epiboly	ZF90_WT_DS3	signal:Wnt	margin	parents	859	0.46	0.649	-0.419
+90% epiboly	ZF90_WT_DS3	signal:Wnt	tailbud	all	572	0.779	0.567	0.738
+90% epiboly	ZF90_WT_DS3	signal:Wnt	tailbud	parents	572	0.738	0.449	1.08
+90% epiboly	ZF90_WT_DS3	blocking:Wnt	dorsal_organizer	all	241	0.701	0.529	0.66
+90% epiboly	ZF90_WT_DS3	blocking:Wnt	dorsal_organizer	parents	241	0.714	0.524	0.635
+90% epiboly	ZF90_WT_DS3	blocking:Wnt	prechordal_plate	all	152	0.64	0.553	0.335
+90% epiboly	ZF90_WT_DS3	blocking:Wnt	prechordal_plate	parents	152	0.606	0.495	0.387
+90% epiboly	ZF90_WT_DS3	blocking:Wnt	signal:Wnt	all	119	0.323	0.589	-0.741
+90% epiboly	ZF90_WT_DS3	signal:FGF	margin	all	859	0.75	0.567	0.659
+90% epiboly	ZF90_WT_DS3	signal:FGF	margin	parents	859	0.656	0.638	0.0732
+90% epiboly	ZF90_WT_DS3	signal:FGF	tailbud	all	572	0.785	0.527	0.956
+90% epiboly	ZF90_WT_DS3	signal:FGF	tailbud	parents	572	0.72	0.427	0.92
+90% epiboly	ZF90_WT_DS3	signal:FGF	midbrain_hindbrain_boundary	all	312	0.345	0.417	-0.428
+90% epiboly	ZF90_WT_DS3	signal:FGF	midbrain_hindbrain_boundary	parents	312	0.234	0.509	-1.11
+90% epiboly	ZF90_WT_DS3	sending:RA	presomitic_mesoderm	all	560	0.9	0.538	1.4
+90% epiboly	ZF90_WT_DS3	sending:RA	presomitic_mesoderm	parents	560	0.71	0.55	0.862
+90% epiboly	ZF90_WT_DS3	sending:RA	blocking:RA	all	166	0.237	0.535	-1.66
+90% epiboly	ZF90_WT_DS3	blocking:RA	tailbud	all	572	0.568	0.459	0.46
+90% epiboly	ZF90_WT_DS3	blocking:RA	tailbud	parents	572	0.806	0.383	1.81
+90% epiboly	ZF90_WT_DS3	blocking:RA	forebrain_eye	all	470	0.817	0.44	2.05
+90% epiboly	ZF90_WT_DS3	blocking:RA	forebrain_eye	parents	470	0.681	0.508	0.873
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	axial_mesoderm	all	369	0.659	0.513	0.696
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	axial_mesoderm	parents	369	0.371	0.577	-0.709
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	notochord	all	268	0.73	0.517	0.785
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	notochord	parents	268	0.703	0.568	0.707
+90% epiboly	ZF90_WT_DS3	sending:Notch	presomitic_mesoderm	all	560	0.807	0.526	0.937
+90% epiboly	ZF90_WT_DS3	sending:Notch	presomitic_mesoderm	parents	560	0.811	0.489	1.38
+90% epiboly	ZF90_WT_DS3	sending:Notch	primary_neurons	all	98	0.342	0.562	-0.738
+90% epiboly	ZF90_WT_DS3	sending:Notch	primary_neurons	parents	98	0.442	0.623	-0.483
+90% epiboly	ZF90_WT_DS3	sending:Notch	receiving:Notch	all	114	0.756	0.574	0.822
+90% epiboly	ZF90_WT_DS4	signal:Nodal	margin	all	453	0.787	0.553	0.78
+90% epiboly	ZF90_WT_DS4	signal:Nodal	margin	parents	453	0.797	0.58	0.634
+90% epiboly	ZF90_WT_DS4	signal:Nodal	endoderm	all	107	0.741	0.605	0.649
+90% epiboly	ZF90_WT_DS4	signal:Nodal	endoderm	parents	107	0.566	0.54	0.089
+90% epiboly	ZF90_WT_DS4	signal:BMP	non_neural_ectoderm	all	223	0.921	0.48	1.16
+90% epiboly	ZF90_WT_DS4	signal:BMP	non_neural_ectoderm	parents	223	0.988	0.581	1.05
+90% epiboly	ZF90_WT_DS4	sending:BMP_organizer	dorsal_organizer	all	104	0.826	0.505	1.05
+90% epiboly	ZF90_WT_DS4	sending:BMP_organizer	dorsal_organizer	parents	104	0.829	0.473	1.22
+90% epiboly	ZF90_WT_DS4	sending:BMP_organizer	signal:BMP	all	92	0.191	0.545	-1.32
+90% epiboly	ZF90_WT_DS4	blocking:BMP	dorsal_organizer	all	104	0.829	0.603	0.912
+90% epiboly	ZF90_WT_DS4	blocking:BMP	dorsal_organizer	parents	104	0.899	0.578	1.28
+90% epiboly	ZF90_WT_DS4	blocking:BMP	signal:BMP	all	106	0.222	0.604	-1.24
+90% epiboly	ZF90_WT_DS4	signal:Wnt	margin	all	453	0.755	0.55	0.656
+90% epiboly	ZF90_WT_DS4	signal:Wnt	margin	parents	453	0.497	0.587	-0.19
+90% epiboly	ZF90_WT_DS4	signal:Wnt	tailbud	all	329	0.768	0.525	0.79
+90% epiboly	ZF90_WT_DS4	signal:Wnt	tailbud	parents	329	0.693	0.409	0.858
+90% epiboly	ZF90_WT_DS4	blocking:Wnt	dorsal_organizer	all	104	0.69	0.54	0.443
+90% epiboly	ZF90_WT_DS4	blocking:Wnt	dorsal_organizer	parents	104	0.64	0.503	0.387
+90% epiboly	ZF90_WT_DS4	blocking:Wnt	prechordal_plate	all	92	0.363	0.538	-0.711
+90% epiboly	ZF90_WT_DS4	blocking:Wnt	prechordal_plate	parents	92	0.319	0.48	-0.494
+90% epiboly	ZF90_WT_DS4	blocking:Wnt	signal:Wnt	all	33	0.249	0.584	-0.839
+90% epiboly	ZF90_WT_DS4	signal:FGF	margin	all	453	0.814	0.552	0.986
+90% epiboly	ZF90_WT_DS4	signal:FGF	margin	parents	453	0.712	0.619	0.354
+90% epiboly	ZF90_WT_DS4	signal:FGF	tailbud	all	329	0.8	0.537	1.14
+90% epiboly	ZF90_WT_DS4	signal:FGF	tailbud	parents	329	0.701	0.419	0.874
+90% epiboly	ZF90_WT_DS4	signal:FGF	midbrain_hindbrain_boundary	all	177	0.262	0.408	-0.792
+90% epiboly	ZF90_WT_DS4	signal:FGF	midbrain_hindbrain_boundary	parents	177	0.198	0.456	-1.38
+90% epiboly	ZF90_WT_DS4	sending:RA	presomitic_mesoderm	all	290	0.904	0.56	1.49
+90% epiboly	ZF90_WT_DS4	sending:RA	presomitic_mesoderm	parents	290	0.707	0.461	1.12
+90% epiboly	ZF90_WT_DS4	sending:RA	blocking:RA	all	84	0.223	0.632	-1.09
+90% epiboly	ZF90_WT_DS4	blocking:RA	tailbud	all	329	0.559	0.477	0.393
+90% epiboly	ZF90_WT_DS4	blocking:RA	tailbud	parents	329	0.8	0.407	1.63
+90% epiboly	ZF90_WT_DS4	blocking:RA	forebrain_eye	all	228	0.804	0.441	3.51
+90% epiboly	ZF90_WT_DS4	blocking:RA	forebrain_eye	parents	228	0.843	0.501	1.75
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	axial_mesoderm	all	144	0.818	0.552	1.13
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	axial_mesoderm	parents	144	0.38	0.519	-0.349
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	notochord	all	108	0.857	0.549	0.968
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	notochord	parents	108	0.804	0.535	0.816
+90% epiboly	ZF90_WT_DS4	sending:Notch	presomitic_mesoderm	all	290	0.781	0.531	0.835
+90% epiboly	ZF90_WT_DS4	sending:Notch	presomitic_mesoderm	parents	290	0.79	0.493	1.03
+90% epiboly	ZF90_WT_DS4	sending:Notch	primary_neurons	all	25	0.327	0.469	-0.497
+90% epiboly	ZF90_WT_DS4	sending:Notch	primary_neurons	parents	25	0.377	0.581	-0.454
+90% epiboly	ZF90_WT_DS4	sending:Notch	receiving:Notch	all	56	0.653	0.531	0.508
+bud	ZFB_WT_DS2	signal:Nodal	margin	all	64	0.697	0.431	0.506
+bud	ZFB_WT_DS2	signal:Nodal	margin	parents	64	0.827	0.56	0.668
+bud	ZFB_WT_DS2	signal:BMP	non_neural_ectoderm	all	39	0.977	0.557	1.01
+bud	ZFB_WT_DS2	signal:BMP	non_neural_ectoderm	parents	39	0.997	0.609	1.05
+bud	ZFB_WT_DS2	sending:BMP_organizer	dorsal_organizer	all	12	0.902	0.575	1.41
+bud	ZFB_WT_DS2	sending:BMP_organizer	dorsal_organizer	parents	12	0.756	0.603	0.545
+bud	ZFB_WT_DS2	blocking:BMP	dorsal_organizer	all	12	0.825	0.584	1.02
+bud	ZFB_WT_DS2	blocking:BMP	dorsal_organizer	parents	12	0.91	0.56	0.964
+bud	ZFB_WT_DS2	blocking:BMP	signal:BMP	all	17	0.323	0.606	-0.949
+bud	ZFB_WT_DS2	signal:Wnt	margin	all	64	0.661	0.486	0.38
+bud	ZFB_WT_DS2	signal:Wnt	margin	parents	64	0.672	0.584	0.224
+bud	ZFB_WT_DS2	signal:Wnt	tailbud	all	37	0.803	0.487	0.765
+bud	ZFB_WT_DS2	signal:Wnt	tailbud	parents	37	0.81	0.466	0.968
+bud	ZFB_WT_DS2	blocking:Wnt	dorsal_organizer	all	12	0.831	0.568	1.04
+bud	ZFB_WT_DS2	blocking:Wnt	dorsal_organizer	parents	12	0.695	0.604	0.378
+bud	ZFB_WT_DS2	blocking:Wnt	prechordal_plate	all	29	0.359	0.614	-0.66
+bud	ZFB_WT_DS2	signal:FGF	margin	all	64	0.786	0.486	0.649
+bud	ZFB_WT_DS2	signal:FGF	margin	parents	64	0.535	0.584	-0.101
+bud	ZFB_WT_DS2	signal:FGF	tailbud	all	37	0.872	0.487	0.931
+bud	ZFB_WT_DS2	signal:FGF	tailbud	parents	37	0.818	0.466	0.989
+bud	ZFB_WT_DS2	signal:FGF	midbrain_hindbrain_boundary	all	55	0.425	0.429	-0.0153
+bud	ZFB_WT_DS2	signal:FGF	midbrain_hindbrain_boundary	parents	55	0.14	0.622	-0.849
+bud	ZFB_WT_DS2	sending:RA	presomitic_mesoderm	all	56	0.987	0.51	1.05
+bud	ZFB_WT_DS2	sending:RA	presomitic_mesoderm	parents	56	0.916	0.554	0.875
+bud	ZFB_WT_DS2	sending:RA	blocking:RA	all	27	0.296	0.562	-0.76
+bud	ZFB_WT_DS2	blocking:RA	tailbud	all	37	0.526	0.421	0.219
+bud	ZFB_WT_DS2	blocking:RA	tailbud	parents	37	0.709	0.309	0.93
+bud	ZFB_WT_DS2	blocking:RA	forebrain_eye	all	32	0.868	0.337	1.22
+bud	ZFB_WT_DS2	sending:Hedgehog	axial_mesoderm	all	33	0.615	0.533	0.268
+bud	ZFB_WT_DS2	sending:Hedgehog	notochord	all	12	0.454	0.505	-0.144
+bud	ZFB_WT_DS2	sending:Hedgehog	notochord	parents	12	0.329	0.47	-0.534
+bud	ZFB_WT_DS2	sending:Notch	presomitic_mesoderm	all	56	0.876	0.477	0.918
+bud	ZFB_WT_DS2	sending:Notch	presomitic_mesoderm	parents	56	0.98	0.405	1.05
+bud	ZFB_WT_DS2b	signal:Nodal	margin	all	130	0.728	0.567	0.527
+bud	ZFB_WT_DS2b	signal:Nodal	margin	parents	130	0.703	0.668	0.134
+bud	ZFB_WT_DS2b	signal:Nodal	endoderm	all	44	0.798	0.584	0.727
+bud	ZFB_WT_DS2b	signal:Nodal	endoderm	parents	44	0.686	0.53	0.435
+bud	ZFB_WT_DS2b	signal:BMP	non_neural_ectoderm	all	73	0.97	0.528	1.21
+bud	ZFB_WT_DS2b	signal:BMP	non_neural_ectoderm	parents	73	0.997	0.481	1.03
+bud	ZFB_WT_DS2b	sending:BMP_organizer	dorsal_organizer	all	30	0.868	0.487	1.08
+bud	ZFB_WT_DS2b	sending:BMP_organizer	dorsal_organizer	parents	30	0.865	0.42	1.04
+bud	ZFB_WT_DS2b	sending:BMP_organizer	signal:BMP	all	18	0.284	0.803	-0.735
+bud	ZFB_WT_DS2b	blocking:BMP	dorsal_organizer	all	30	0.962	0.656	1.37
+bud	ZFB_WT_DS2b	blocking:BMP	dorsal_organizer	parents	30	0.986	0.594	1.22
+bud	ZFB_WT_DS2b	blocking:BMP	signal:BMP	all	33	0.313	0.754	-0.827
+bud	ZFB_WT_DS2b	signal:Wnt	margin	all	130	0.734	0.552	0.545
+bud	ZFB_WT_DS2b	signal:Wnt	margin	parents	130	0.448	0.607	-0.367
+bud	ZFB_WT_DS2b	signal:Wnt	tailbud	all	133	0.664	0.578	0.334
+bud	ZFB_WT_DS2b	signal:Wnt	tailbud	parents	133	0.535	0.414	0.288
+bud	ZFB_WT_DS2b	blocking:Wnt	dorsal_organizer	all	30	0.822	0.566	0.863
+bud	ZFB_WT_DS2b	blocking:Wnt	dorsal_organizer	parents	30	0.681	0.534	0.43
+bud	ZFB_WT_DS2b	blocking:Wnt	prechordal_plate	all	23	0.633	0.493	0.607
+bud	ZFB_WT_DS2b	blocking:Wnt	prechordal_plate	parents	23	0.449	0.338	0.18
+bud	ZFB_WT_DS2b	blocking:Wnt	signal:Wnt	all	31	0.466	0.564	-0.318
+bud	ZFB_WT_DS2b	signal:FGF	margin	all	130	0.835	0.552	0.845
+bud	ZFB_WT_DS2b	signal:FGF	margin	parents	130	0.694	0.607	0.248
+bud	ZFB_WT_DS2b	signal:FGF	tailbud	all	133	0.631	0.578	0.206
+bud	ZFB_WT_DS2b	signal:FGF	tailbud	parents	133	0.421	0.414	0.0166
+bud	ZFB_WT_DS2b	signal:FGF	midbrain_hindbrain_boundary	all	76	0.31	0.336	-0.173
+bud	ZFB_WT_DS2b	signal:FGF	midbrain_hindbrain_boundary	parents	76	0.177	0.475	-0.802
+bud	ZFB_WT_DS2b	sending:RA	presomitic_mesoderm	all	93	0.923	0.547	1.1
+bud	ZFB_WT_DS2b	sending:RA	presomitic_mesoderm	parents	93	0.786	0.502	0.754
+bud	ZFB_WT_DS2b	sending:RA	blocking:RA	all	33	0.24	0.595	-1.21
+bud	ZFB_WT_DS2b	blocking:RA	tailbud	all	133	0.476	0.506	-0.147
+bud	ZFB_WT_DS2b	blocking:RA	tailbud	parents	133	0.718	0.437	0.899
+bud	ZFB_WT_DS2b	blocking:RA	forebrain_eye	all	67	0.902	0.352	1.32
+bud	ZFB_WT_DS2b	sending:Hedgehog	axial_mesoderm	all	74	0.719	0.534	0.695
+bud	ZFB_WT_DS2b	sending:Hedgehog	axial_mesoderm	parents	74	0.413	0.549	-0.29
+bud	ZFB_WT_DS2b	sending:Hedgehog	notochord	all	19	0.878	0.545	0.817
+bud	ZFB_WT_DS2b	sending:Hedgehog	notochord	parents	19	0.838	0.563	0.744
+bud	ZFB_WT_DS2b	sending:Notch	presomitic_mesoderm	all	93	0.754	0.56	0.563
+bud	ZFB_WT_DS2b	sending:Notch	presomitic_mesoderm	parents	93	0.885	0.396	0.958
+bud	ZFB_WT_DS2b	sending:Notch	receiving:Notch	all	30	0.824	0.549	0.818
+bud	ZFB_WT_DS3	signal:Nodal	margin	all	1255	0.627	0.529	0.358
+bud	ZFB_WT_DS3	signal:Nodal	margin	parents	1255	0.702	0.589	0.413
+bud	ZFB_WT_DS3	signal:Nodal	endoderm	all	343	0.636	0.538	0.464
+bud	ZFB_WT_DS3	signal:Nodal	endoderm	parents	343	0.565	0.53	0.129
+bud	ZFB_WT_DS3	signal:BMP	non_neural_ectoderm	all	619	0.905	0.557	1.07
+bud	ZFB_WT_DS3	signal:BMP	non_neural_ectoderm	parents	619	0.995	0.603	1.06
+bud	ZFB_WT_DS3	sending:BMP_organizer	dorsal_organizer	all	356	0.713	0.464	0.901
+bud	ZFB_WT_DS3	sending:BMP_organizer	dorsal_organizer	parents	356	0.684	0.456	0.768
+bud	ZFB_WT_DS3	sending:BMP_organizer	signal:BMP	all	114	0.197	0.596	-1.62
+bud	ZFB_WT_DS3	blocking:BMP	dorsal_organizer	all	356	0.729	0.571	0.579
+bud	ZFB_WT_DS3	blocking:BMP	dorsal_organizer	parents	356	0.803	0.534	0.842
+bud	ZFB_WT_DS3	blocking:BMP	signal:BMP	all	367	0.239	0.603	-1.37
+bud	ZFB_WT_DS3	signal:Wnt	margin	all	1255	0.7	0.579	0.526
+bud	ZFB_WT_DS3	signal:Wnt	margin	parents	1255	0.654	0.608	0.16
+bud	ZFB_WT_DS3	signal:Wnt	tailbud	all	902	0.851	0.555	1.32
+bud	ZFB_WT_DS3	signal:Wnt	tailbud	parents	902	0.827	0.429	1.29
+bud	ZFB_WT_DS3	blocking:Wnt	dorsal_organizer	all	356	0.743	0.474	1.02
+bud	ZFB_WT_DS3	blocking:Wnt	dorsal_organizer	parents	356	0.681	0.468	0.697
+bud	ZFB_WT_DS3	blocking:Wnt	prechordal_plate	all	396	0.512	0.535	-0.0934
+bud	ZFB_WT_DS3	blocking:Wnt	prechordal_plate	parents	396	0.453	0.513	-0.18
+bud	ZFB_WT_DS3	blocking:Wnt	signal:Wnt	all	210	0.415	0.556	-0.552
+bud	ZFB_WT_DS3	signal:FGF	margin	all	1255	0.739	0.579	0.695
+bud	ZFB_WT_DS3	signal:FGF	margin	parents	1255	0.602	0.608	-0.0165
+bud	ZFB_WT_DS3	signal:FGF	tailbud	all	902	0.734	0.555	0.799
+bud	ZFB_WT_DS3	signal:FGF	tailbud	parents	902	0.647	0.429	0.703
+bud	ZFB_WT_DS3	signal:FGF	midbrain_hindbrain_boundary	all	536	0.333	0.388	-0.323
+bud	ZFB_WT_DS3	signal:FGF	midbrain_hindbrain_boundary	parents	536	0.244	0.491	-0.93
+bud	ZFB_WT_DS3	sending:RA	presomitic_mesoderm	all	926	0.878	0.517	1.11
+bud	ZFB_WT_DS3	sending:RA	presomitic_mesoderm	parents	926	0.72	0.508	0.886
+bud	ZFB_WT_DS3	sending:RA	blocking:RA	all	254	0.182	0.493	-1.2
+bud	ZFB_WT_DS3	blocking:RA	tailbud	all	902	0.638	0.489	0.486
+bud	ZFB_WT_DS3	blocking:RA	tailbud	parents	902	0.82	0.475	1.66
+bud	ZFB_WT_DS3	blocking:RA	forebrain_eye	all	740	0.772	0.423	0.977
+bud	ZFB_WT_DS3	blocking:RA	forebrain_eye	parents	740	0.622	0.528	0.685
+bud	ZFB_WT_DS3	sending:Hedgehog	axial_mesoderm	all	604	0.643	0.56	0.431
+bud	ZFB_WT_DS3	sending:Hedgehog	axial_mesoderm	parents	604	0.265	0.548	-1.08
+bud	ZFB_WT_DS3	sending:Hedgehog	notochord	all	261	0.823	0.579	0.795
+bud	ZFB_WT_DS3	sending:Hedgehog	notochord	parents	261	0.831	0.532	0.879
+bud	ZFB_WT_DS3	sending:Notch	presomitic_mesoderm	all	926	0.82	0.52	0.894
+bud	ZFB_WT_DS3	sending:Notch	presomitic_mesoderm	parents	926	0.861	0.475	1.24
+bud	ZFB_WT_DS3	sending:Notch	primary_neurons	all	213	0.543	0.515	0.125
+bud	ZFB_WT_DS3	sending:Notch	primary_neurons	parents	213	0.609	0.577	0.152
+bud	ZFB_WT_DS3	sending:Notch	receiving:Notch	all	285	0.767	0.487	1.5
+bud	ZFB_WT_DS4	signal:Nodal	margin	all	441	0.632	0.52	0.345
+bud	ZFB_WT_DS4	signal:Nodal	margin	parents	441	0.738	0.577	0.487
+bud	ZFB_WT_DS4	signal:Nodal	endoderm	all	109	0.538	0.613	-0.269
+bud	ZFB_WT_DS4	signal:Nodal	endoderm	parents	109	0.439	0.599	-0.411
+bud	ZFB_WT_DS4	signal:BMP	non_neural_ectoderm	all	237	0.916	0.533	1.27
+bud	ZFB_WT_DS4	signal:BMP	non_neural_ectoderm	parents	237	0.995	0.509	1.1
+bud	ZFB_WT_DS4	sending:BMP_organizer	dorsal_organizer	all	141	0.757	0.482	0.746
+bud	ZFB_WT_DS4	sending:BMP_organizer	dorsal_organizer	parents	141	0.715	0.502	0.635
+bud	ZFB_WT_DS4	sending:BMP_organizer	signal:BMP	all	44	0.224	0.588	-1.2
+bud	ZFB_WT_DS4	blocking:BMP	dorsal_organizer	all	141	0.772	0.608	0.699
+bud	ZFB_WT_DS4	blocking:BMP	dorsal_organizer	parents	141	0.866	0.589	0.956
+bud	ZFB_WT_DS4	blocking:BMP	signal:BMP	all	135	0.202	0.609	-1.49
+bud	ZFB_WT_DS4	signal:Wnt	margin	all	441	0.732	0.603	0.485
+bud	ZFB_WT_DS4	signal:Wnt	margin	parents	441	0.634	0.654	-0.0448
+bud	ZFB_WT_DS4	signal:Wnt	tailbud	all	317	0.799	0.567	0.842
+bud	ZFB_WT_DS4	signal:Wnt	tailbud	parents	317	0.758	0.415	0.976
+bud	ZFB_WT_DS4	blocking:Wnt	dorsal_organizer	all	141	0.673	0.555	0.455
+bud	ZFB_WT_DS4	blocking:Wnt	dorsal_organizer	parents	141	0.611	0.582	0.11
+bud	ZFB_WT_DS4	blocking:Wnt	prechordal_plate	all	129	0.502	0.562	-0.248
+bud	ZFB_WT_DS4	blocking:Wnt	prechordal_plate	parents	129	0.489	0.412	0.235
+bud	ZFB_WT_DS4	blocking:Wnt	signal:Wnt	all	73	0.369	0.585	-0.495
+bud	ZFB_WT_DS4	signal:FGF	margin	all	441	0.803	0.603	0.754
+bud	ZFB_WT_DS4	signal:FGF	margin	parents	441	0.702	0.654	0.17
+bud	ZFB_WT_DS4	signal:FGF	tailbud	all	317	0.801	0.567	0.847
+bud	ZFB_WT_DS4	signal:FGF	tailbud	parents	317	0.667	0.415	0.717
+bud	ZFB_WT_DS4	signal:FGF	midbrain_hindbrain_boundary	all	216	0.364	0.362	0.00347
+bud	ZFB_WT_DS4	signal:FGF	midbrain_hindbrain_boundary	parents	216	0.253	0.489	-0.823
+bud	ZFB_WT_DS4	sending:RA	presomitic_mesoderm	all	315	0.816	0.501	1.05
+bud	ZFB_WT_DS4	sending:RA	presomitic_mesoderm	parents	315	0.555	0.478	0.251
+bud	ZFB_WT_DS4	sending:RA	blocking:RA	all	65	0.203	0.585	-1.48
+bud	ZFB_WT_DS4	blocking:RA	tailbud	all	317	0.576	0.452	0.367
+bud	ZFB_WT_DS4	blocking:RA	tailbud	parents	317	0.829	0.368	1.44
+bud	ZFB_WT_DS4	blocking:RA	forebrain_eye	all	271	0.821	0.426	1.88
+bud	ZFB_WT_DS4	blocking:RA	forebrain_eye	parents	271	0.571	0.424	0.611
+bud	ZFB_WT_DS4	sending:Hedgehog	axial_mesoderm	all	209	0.619	0.559	0.23
+bud	ZFB_WT_DS4	sending:Hedgehog	axial_mesoderm	parents	209	0.164	0.595	-1.01
+bud	ZFB_WT_DS4	sending:Hedgehog	notochord	all	122	0.714	0.565	0.426
+bud	ZFB_WT_DS4	sending:Hedgehog	notochord	parents	122	0.727	0.561	0.51
+bud	ZFB_WT_DS4	sending:Notch	presomitic_mesoderm	all	315	0.802	0.517	0.973
+bud	ZFB_WT_DS4	sending:Notch	presomitic_mesoderm	parents	315	0.881	0.57	1.24
+bud	ZFB_WT_DS4	sending:Notch	primary_neurons	all	86	0.52	0.53	-0.0408
+bud	ZFB_WT_DS4	sending:Notch	primary_neurons	parents	86	0.617	0.62	-0.00695
+bud	ZFB_WT_DS4	sending:Notch	receiving:Notch	all	110	0.776	0.513	1.29
+3-somite	ZF3S_WT_DS5	signal:Nodal	margin	all	364	0.516	0.521	-0.0246
+3-somite	ZF3S_WT_DS5	signal:Nodal	margin	parents	364	0.687	0.62	0.219
+3-somite	ZF3S_WT_DS5	signal:Nodal	endoderm	all	126	0.623	0.596	0.141
+3-somite	ZF3S_WT_DS5	signal:Nodal	endoderm	parents	126	0.622	0.61	0.0488
+3-somite	ZF3S_WT_DS5	signal:BMP	non_neural_ectoderm	all	194	0.855	0.657	0.9
+3-somite	ZF3S_WT_DS5	signal:BMP	non_neural_ectoderm	parents	194	0.973	0.716	0.964
+3-somite	ZF3S_WT_DS5	sending:BMP_organizer	dorsal_organizer	all	86	0.501	0.46	0.128
+3-somite	ZF3S_WT_DS5	sending:BMP_organizer	dorsal_organizer	parents	86	0.442	0.46	-0.0633
+3-somite	ZF3S_WT_DS5	sending:BMP_organizer	signal:BMP	all	11	0.224	0.477	-0.962
+3-somite	ZF3S_WT_DS5	blocking:BMP	dorsal_organizer	all	86	0.811	0.637	0.692
+3-somite	ZF3S_WT_DS5	blocking:BMP	dorsal_organizer	parents	86	0.905	0.625	0.993
+3-somite	ZF3S_WT_DS5	blocking:BMP	signal:BMP	all	110	0.362	0.61	-1.03
+3-somite	ZF3S_WT_DS5	signal:Wnt	margin	all	364	0.802	0.524	0.94
+3-somite	ZF3S_WT_DS5	signal:Wnt	margin	parents	364	0.87	0.58	0.876
+3-somite	ZF3S_WT_DS5	signal:Wnt	tailbud	all	243	0.927	0.469	1.34
+3-somite	ZF3S_WT_DS5	signal:Wnt	tailbud	parents	243	0.881	0.426	1.85
+3-somite	ZF3S_WT_DS5	blocking:Wnt	dorsal_organizer	all	86	0.579	0.606	-0.0732
+3-somite	ZF3S_WT_DS5	blocking:Wnt	dorsal_organizer	parents	86	0.594	0.614	-0.0433
+3-somite	ZF3S_WT_DS5	blocking:Wnt	prechordal_plate	all	167	0.368	0.589	-0.704
+3-somite	ZF3S_WT_DS5	blocking:Wnt	prechordal_plate	parents	167	0.327	0.523	-0.456
+3-somite	ZF3S_WT_DS5	blocking:Wnt	signal:Wnt	all	14	0.102	0.857	-0.944
+3-somite	ZF3S_WT_DS5	signal:FGF	margin	all	364	0.779	0.524	0.864
+3-somite	ZF3S_WT_DS5	signal:FGF	margin	parents	364	0.705	0.58	0.377
+3-somite	ZF3S_WT_DS5	signal:FGF	tailbud	all	243	0.819	0.469	1.02
+3-somite	ZF3S_WT_DS5	signal:FGF	tailbud	parents	243	0.682	0.426	1.04
+3-somite	ZF3S_WT_DS5	signal:FGF	midbrain_hindbrain_boundary	all	130	0.42	0.363	0.191
+3-somite	ZF3S_WT_DS5	signal:FGF	midbrain_hindbrain_boundary	parents	130	0.562	0.395	0.634
+3-somite	ZF3S_WT_DS5	sending:RA	presomitic_mesoderm	all	252	0.777	0.498	0.935
+3-somite	ZF3S_WT_DS5	sending:RA	presomitic_mesoderm	parents	252	0.775	0.578	1.65
+3-somite	ZF3S_WT_DS5	sending:RA	blocking:RA	all	52	0.606	0.377	0.743
+3-somite	ZF3S_WT_DS5	blocking:RA	tailbud	all	243	0.898	0.481	1.19
+3-somite	ZF3S_WT_DS5	blocking:RA	tailbud	parents	243	0.905	0.435	1.07
+3-somite	ZF3S_WT_DS5	blocking:RA	forebrain_eye	all	219	0.518	0.42	0.478
+3-somite	ZF3S_WT_DS5	blocking:RA	forebrain_eye	parents	219	0.73	0.569	1.02
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	axial_mesoderm	all	149	0.575	0.525	0.202
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	axial_mesoderm	parents	149	0.544	0.47	0.206
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	notochord	all	93	0.654	0.612	0.185
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	notochord	parents	93	0.675	0.594	0.274
+3-somite	ZF3S_WT_DS5	sending:Notch	presomitic_mesoderm	all	252	0.815	0.447	0.96
+3-somite	ZF3S_WT_DS5	sending:Notch	presomitic_mesoderm	parents	252	0.788	0.451	0.938
+3-somite	ZF3S_WT_DS5	sending:Notch	primary_neurons	all	70	0.733	0.566	0.858
+3-somite	ZF3S_WT_DS5	sending:Notch	primary_neurons	parents	70	0.75	0.584	0.712
+3-somite	ZF3S_WT_DS5	sending:Notch	receiving:Notch	all	66	0.837	0.493	1.89
+6-somite	ZF6S_WT_DS5	signal:Nodal	margin	all	524	0.519	0.482	0.149
+6-somite	ZF6S_WT_DS5	signal:Nodal	margin	parents	524	0.614	0.568	0.204
+6-somite	ZF6S_WT_DS5	signal:Nodal	endoderm	all	197	0.615	0.579	0.278
+6-somite	ZF6S_WT_DS5	signal:Nodal	endoderm	parents	197	0.614	0.604	0.0528
+6-somite	ZF6S_WT_DS5	signal:BMP	non_neural_ectoderm	all	282	0.833	0.746	0.483
+6-somite	ZF6S_WT_DS5	signal:BMP	non_neural_ectoderm	parents	282	0.929	0.786	0.84
+6-somite	ZF6S_WT_DS5	sending:BMP_organizer	dorsal_organizer	all	106	0.589	0.425	0.584
+6-somite	ZF6S_WT_DS5	sending:BMP_organizer	dorsal_organizer	parents	106	0.564	0.433	0.426
+6-somite	ZF6S_WT_DS5	sending:BMP_organizer	signal:BMP	all	29	0.32	0.652	-0.93
+6-somite	ZF6S_WT_DS5	blocking:BMP	dorsal_organizer	all	106	0.681	0.575	0.387
+6-somite	ZF6S_WT_DS5	blocking:BMP	dorsal_organizer	parents	106	0.702	0.601	0.342
+6-somite	ZF6S_WT_DS5	blocking:BMP	signal:BMP	all	148	0.529	0.601	-0.365
+6-somite	ZF6S_WT_DS5	signal:Wnt	margin	all	524	0.723	0.456	0.783
+6-somite	ZF6S_WT_DS5	signal:Wnt	margin	parents	524	0.72	0.55	0.548
+6-somite	ZF6S_WT_DS5	signal:Wnt	tailbud	all	335	0.907	0.443	1.19
+6-somite	ZF6S_WT_DS5	signal:Wnt	tailbud	parents	335	0.861	0.455	2.02
+6-somite	ZF6S_WT_DS5	blocking:Wnt	dorsal_organizer	all	106	0.611	0.536	0.251
+6-somite	ZF6S_WT_DS5	blocking:Wnt	dorsal_organizer	parents	106	0.515	0.555	-0.154
+6-somite	ZF6S_WT_DS5	blocking:Wnt	prechordal_plate	all	176	0.294	0.613	-1.07
+6-somite	ZF6S_WT_DS5	blocking:Wnt	prechordal_plate	parents	176	0.317	0.527	-0.648
+6-somite	ZF6S_WT_DS5	blocking:Wnt	signal:Wnt	all	43	0.325	0.493	-0.455
+6-somite	ZF6S_WT_DS5	signal:FGF	margin	all	524	0.723	0.456	0.783
+6-somite	ZF6S_WT_DS5	signal:FGF	margin	parents	524	0.618	0.55	0.22
+6-somite	ZF6S_WT_DS5	signal:FGF	tailbud	all	335	0.805	0.443	0.932
+6-somite	ZF6S_WT_DS5	signal:FGF	tailbud	parents	335	0.693	0.455	1.19
+6-somite	ZF6S_WT_DS5	signal:FGF	midbrain_hindbrain_boundary	all	179	0.353	0.411	-0.307
+6-somite	ZF6S_WT_DS5	signal:FGF	midbrain_hindbrain_boundary	parents	179	0.282	0.413	-0.645
+6-somite	ZF6S_WT_DS5	sending:RA	presomitic_mesoderm	all	426	0.617	0.497	1.73
+6-somite	ZF6S_WT_DS5	sending:RA	presomitic_mesoderm	parents	426	0.508	0.437	0.947
+6-somite	ZF6S_WT_DS5	sending:RA	blocking:RA	all	52	0.737	0.529	0.718
+6-somite	ZF6S_WT_DS5	blocking:RA	tailbud	all	335	0.889	0.495	4.37
+6-somite	ZF6S_WT_DS5	blocking:RA	tailbud	parents	335	0.875	0.513	2.94
+6-somite	ZF6S_WT_DS5	blocking:RA	forebrain_eye	all	307	0.274	0.359	-1.67
+6-somite	ZF6S_WT_DS5	blocking:RA	forebrain_eye	parents	307	0.408	0.377	0.127
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	axial_mesoderm	all	166	0.581	0.464	0.512
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	axial_mesoderm	parents	166	0.517	0.451	0.293
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	notochord	all	189	0.603	0.53	0.284
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	notochord	parents	189	0.649	0.626	0.0909
+6-somite	ZF6S_WT_DS5	sending:Notch	presomitic_mesoderm	all	426	0.858	0.436	1.4
+6-somite	ZF6S_WT_DS5	sending:Notch	presomitic_mesoderm	parents	426	0.876	0.433	1.84
+6-somite	ZF6S_WT_DS5	sending:Notch	primary_neurons	all	80	0.737	0.486	0.989
+6-somite	ZF6S_WT_DS5	sending:Notch	primary_neurons	parents	80	0.734	0.501	0.884
+6-somite	ZF6S_WT_DS5	sending:Notch	receiving:Notch	all	84	0.844	0.498	1.49
+6-somite	ZF6S_WT_DS5b	signal:Nodal	margin	all	397	0.475	0.432	0.168
+6-somite	ZF6S_WT_DS5b	signal:Nodal	margin	parents	397	0.609	0.539	0.238
+6-somite	ZF6S_WT_DS5b	signal:Nodal	endoderm	all	185	0.595	0.549	0.239
+6-somite	ZF6S_WT_DS5b	signal:Nodal	endoderm	parents	185	0.639	0.634	0.0295
+6-somite	ZF6S_WT_DS5b	signal:BMP	non_neural_ectoderm	all	279	0.858	0.751	0.573
+6-somite	ZF6S_WT_DS5b	signal:BMP	non_neural_ectoderm	parents	279	0.974	0.806	0.987
+6-somite	ZF6S_WT_DS5b	sending:BMP_organizer	dorsal_organizer	all	130	0.508	0.543	-0.13
+6-somite	ZF6S_WT_DS5b	sending:BMP_organizer	dorsal_organizer	parents	130	0.491	0.59	-0.281
+6-somite	ZF6S_WT_DS5b	sending:BMP_organizer	signal:BMP	all	23	0.247	0.685	-1.05
+6-somite	ZF6S_WT_DS5b	blocking:BMP	dorsal_organizer	all	130	0.613	0.617	-0.0184
+6-somite	ZF6S_WT_DS5b	blocking:BMP	dorsal_organizer	parents	130	0.69	0.661	0.104
+6-somite	ZF6S_WT_DS5b	blocking:BMP	signal:BMP	all	127	0.496	0.535	-0.272
+6-somite	ZF6S_WT_DS5b	signal:Wnt	margin	all	397	0.757	0.458	1.08
+6-somite	ZF6S_WT_DS5b	signal:Wnt	margin	parents	397	0.806	0.515	1
+6-somite	ZF6S_WT_DS5b	signal:Wnt	tailbud	all	281	0.943	0.442	1.41
+6-somite	ZF6S_WT_DS5b	signal:Wnt	tailbud	parents	281	0.943	0.464	1.62
+6-somite	ZF6S_WT_DS5b	blocking:Wnt	dorsal_organizer	all	130	0.481	0.621	-0.472
+6-somite	ZF6S_WT_DS5b	blocking:Wnt	dorsal_organizer	parents	130	0.406	0.671	-0.559
+6-somite	ZF6S_WT_DS5b	blocking:Wnt	prechordal_plate	all	191	0.388	0.639	-0.818
+6-somite	ZF6S_WT_DS5b	blocking:Wnt	prechordal_plate	parents	191	0.503	0.51	-0.0229
+6-somite	ZF6S_WT_DS5b	blocking:Wnt	signal:Wnt	all	29	0.284	0.524	-0.609
+6-somite	ZF6S_WT_DS5b	signal:FGF	margin	all	397	0.768	0.458	1.12
+6-somite	ZF6S_WT_DS5b	signal:FGF	margin	parents	397	0.72	0.515	0.708
+6-somite	ZF6S_WT_DS5b	signal:FGF	tailbud	all	281	0.866	0.442	1.19
+6-somite	ZF6S_WT_DS5b	signal:FGF	tailbud	parents	281	0.769	0.464	1.03
+6-somite	ZF6S_WT_DS5b	signal:FGF	midbrain_hindbrain_boundary	all	178	0.387	0.423	-0.21
+6-somite	ZF6S_WT_DS5b	signal:FGF	midbrain_hindbrain_boundary	parents	178	0.232	0.401	-1.05
+6-somite	ZF6S_WT_DS5b	sending:RA	presomitic_mesoderm	all	384	0.752	0.442	1.03
+6-somite	ZF6S_WT_DS5b	sending:RA	presomitic_mesoderm	parents	384	0.625	0.485	0.631
+6-somite	ZF6S_WT_DS5b	sending:RA	blocking:RA	all	79	0.566	0.383	0.389
+6-somite	ZF6S_WT_DS5b	blocking:RA	tailbud	all	281	0.881	0.401	2.12
+6-somite	ZF6S_WT_DS5b	blocking:RA	tailbud	parents	281	0.895	0.429	2.2
+6-somite	ZF6S_WT_DS5b	blocking:RA	forebrain_eye	all	306	0.373	0.414	-0.319
+6-somite	ZF6S_WT_DS5b	blocking:RA	forebrain_eye	parents	306	0.452	0.473	-0.113
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	axial_mesoderm	all	212	0.379	0.434	-0.354
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	axial_mesoderm	parents	212	0.351	0.333	0.0621
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	notochord	all	229	0.485	0.602	-0.482
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	notochord	parents	229	0.627	0.682	-0.15
+6-somite	ZF6S_WT_DS5b	sending:Notch	presomitic_mesoderm	all	384	0.835	0.431	1.2
+6-somite	ZF6S_WT_DS5b	sending:Notch	presomitic_mesoderm	parents	384	0.883	0.428	1.45
+6-somite	ZF6S_WT_DS5b	sending:Notch	primary_neurons	all	82	0.797	0.494	1.27
+6-somite	ZF6S_WT_DS5b	sending:Notch	primary_neurons	parents	82	0.802	0.527	1.14
+6-somite	ZF6S_WT_DS5b	sending:Notch	receiving:Notch	all	102	0.874	0.485	1.7

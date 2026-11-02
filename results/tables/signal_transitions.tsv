@@ -1,0 +1,29 @@
+parent	program	stages	higher	lower
+margin	mesoderm	shield,60% epiboly,75% epiboly	sending:RA	sending:Hedgehog;blocking:BMP
+state:maternal	state:blastomere	60% epiboly,75% epiboly,90% epiboly		
+state:blastomere	EVL	high,oblong,dome		
+state:maternal	PGC	high,oblong,dome		
+state:blastomere	margin	high,30% epiboly,50% epiboly	signal:Nodal;signal:FGF;sending:Wnt/PCP;sending:RA	
+margin	dorsal_organizer	shield,60% epiboly,75% epiboly	sending:BMP_organizer;sending:Hedgehog;blocking:BMP;blocking:Wnt	signal:Wnt;sending:Wnt/PCP;sending:Notch
+EVL	dorsal_forerunner			
+margin	endoderm	shield,60% epiboly,75% epiboly	blocking:Wnt	blocking:RA;sending:Wnt/PCP;sending:RA;sending:Notch
+mesoderm	presomitic_mesoderm	shield,60% epiboly,75% epiboly	signal:Nodal;sending:RA;blocking:Wnt	signal:BMP;blocking:RA
+margin	tailbud	bud,3-somite,6-somite	signal:BMP;signal:Wnt;signal:FGF;blocking:RA;receiving:Notch;sending:Wnt/PCP	sending:RA
+presomitic_mesoderm	adaxial_somite	60% epiboly,75% epiboly,90% epiboly	blocking:Wnt	blocking:RA
+mesoderm	lateral_plate	bud,3-somite,6-somite		blocking:RA;receiving:Notch;sending:Notch
+mesoderm	intermediate_mesoderm	3-somite,6-somite		signal:FGF;blocking:RA;receiving:Notch;sending:Notch
+dorsal_organizer	prechordal_plate	60% epiboly,75% epiboly,90% epiboly		signal:Wnt;signal:FGF;sending:BMP_organizer;sending:Wnt/PCP;sending:RA
+prechordal_plate	hatching_gland	60% epiboly,75% epiboly,90% epiboly		sending:Notch
+dorsal_organizer	axial_mesoderm	60% epiboly,75% epiboly,90% epiboly		
+axial_mesoderm	notochord	60% epiboly,75% epiboly,90% epiboly	signal:Nodal	signal:Wnt;sending:Notch
+state:blastomere	neural_plate			
+neural_plate	midbrain_hindbrain_boundary	75% epiboly,bud,3-somite	signal:Wnt	
+neural_plate	hindbrain	bud,3-somite,6-somite		blocking:RA
+state:blastomere	non_neural_ectoderm	oblong,60% epiboly,75% epiboly	signal:BMP	signal:Wnt;signal:FGF;blocking:BMP
+neural_plate	neural_crest	3-somite,6-somite	signal:BMP;signal:Wnt	
+non_neural_ectoderm	neural_crest	3-somite,6-somite	signal:Wnt	
+neural_plate	placodes	90% epiboly,bud,3-somite	signal:BMP	signal:FGF;blocking:RA;blocking:BMP;blocking:Wnt
+non_neural_ectoderm	placodes	90% epiboly,bud,3-somite		signal:Nodal;signal:Wnt;signal:FGF
+neural_plate	forebrain_eye	75% epiboly,90% epiboly,bud	blocking:RA	signal:Wnt
+neural_plate	primary_neurons	3-somite,6-somite		
+lateral_plate	heart	bud,3-somite,6-somite		signal:Wnt

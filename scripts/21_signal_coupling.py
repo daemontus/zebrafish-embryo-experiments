@@ -1,33 +1,47 @@
 """Which programs are co-active with which signalling profiles, at which stage?
 
-For every stage, the smoothed scores of the curated programs (as in scripts
-18 and 19) are correlated over the stage's cells (scores are centred per
-library, so this is co-variation within libraries). The curated programs are
-disjoint (script 16), so no correlation comes from shared genes. First, the
-profiles that read a signal (general `signal:` and `receiving:`) against
-the identity and state programs: a correlation means that the pathway's genes
-are expressed in the cells of a program at that stage; it does not show that
-the signal causes the program. Smoothing over neighbouring cells inflates
-absolute values; changes over time and signs are more informative.
+Per stage and library, the smoothed scores of the curated programs (as in
+script 18; the curated programs are disjoint, script 16, so no correlation
+comes from shared genes) are correlated over the library's cells: every
+signalling profile with every other program. Smoothing and the few shared
+axes of variation of a stage make any two sets of heterogeneous genes
+correlate, so each correlation is compared with N_RANDOM random sets of
+background genes (heterogeneous at the stage, in no curated program) of the
+profile's size, scored and smoothed in the same way: relative coupling 0 =
+as coupled as random genes, +1 / -1 = at the 95% / 5% quantile of the random
+sets. Per stage: the median over the libraries, the range, and whether every
+library is beyond the null on the same side. A coupling means that a
+pathway's genes are expressed in the cells of a program, not that the
+signal causes the program.
 
-Second, HYPOTHESES lists the expected couplings of the signalling profiles
-(which tissue sends, receives or blocks which signal, and whether senders
-also receive it), correlated in the same way with all other curated
-programs. A correlation over all cells misses small source populations (e.g.
-the organizer among all gastrula cells) and pathways with several source
-tissues (FGF at the margin, tailbud and MHB), so each hypothesis is also
-tested on the cells: the AUROC of the profile's score for the cells in which
-the partner program is active (identity partners), or of the partner
-profile's score for the cells in which the profile is active (signalling
-partners); active calls as in scripts 18-19. A hypothesis is consistent if
-the AUROC is on the expected side of 0.5 by >= MIN_AUC_GAP at one or more
-stages and never by as much on the other side; correlations are reported
-alongside.
+HYPOTHESES lists expected couplings (which tissue sends, receives or blocks
+which signal). Each is tested on the cells: the AUROC of the profile's score
+for the cells in which the identity partner is active (signalling partners:
+of the partner's score for the cells in which the profile is active; active
+calls as in script 18), against the cells active in the partner's parent
+programs (derives_from of curated_programs.tsv) where it has any, otherwise
+against all other cells, and against random sets as above (relative AUROC).
+Tested at the stages where the identity partner is supported (script 17).
+
+Transitions: for every derivation (parent -> program), every signalling
+profile is compared in the same way between the program's active cells and
+the parent's other active cells: a profile higher in the program's cells is a
+candidate input of the transition (e.g. blastomere + Nodal -> margin), a
+lower one a candidate inhibitor. Summarised at the program's emergence: the
+first TRANSITION_STAGES stages at which it is supported, at >=
+TRANSITION_HITS of which the profile must be beyond the null, never opposite.
+A hypothesis is consistent if the relative AUROC (median over the libraries)
+is beyond the null on the expected side at one or more stages and never on
+the other side.
 
 Outputs:
-  results/tables/signal_coupling.tsv          (stage, signal, program, r; reading profiles)
-  results/tables/signal_outputs.tsv           (stage, signal, program, r; all profiles)
-  results/tables/signal_output_auroc.tsv      (stage, output, partner, AUROC)
+  results/tables/signal_outputs_libraries.tsv (stage, library, signal, program, r, relative)
+  results/tables/signal_outputs.tsv           (per stage: median r and relative, range)
+  results/tables/signal_coupling.tsv          (the same, reading profiles only)
+  results/tables/signal_output_auroc.tsv      (stage, library, output, partner, contrast, AUROC)
+  results/tables/signal_transitions_auroc.tsv (the same for every derivation and profile)
+  results/tables/signal_transitions.tsv       (per derivation: higher / lower profiles)
+  report/tables/signal_transitions.tex
   results/tables/signal_output_hypotheses.tsv (one row per hypothesis)
   report/figures/signal_coupling.pdf, report/figures/signal_outputs.pdf
   report/tables/signal_output_hypotheses.tex
@@ -44,25 +58,35 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from matplotlib.colors import TwoSlopeNorm
+from sklearn.decomposition import PCA
 from sklearn.metrics import roc_auc_score
 
 from pipeline_utils import (
     REPORT_TABLES,
+    ROOT,
     REPORT_WIDTH_IN,
     STAGES,
     TABLES,
     ensure_dirs,
     load_dropseq_counts,
+    pearson_residuals,
     report_style,
     save_report_figure,
 )
 
+import program_utils as prediction
+
 program_populations = importlib.import_module("18_program_populations")
 
-MIN_R = 0.3  # programs shown: |r| >= MIN_R at some stage of their ZFIN window (or any stage)
-MIN_R_OUTPUTS = 0.4  # the same for the sending and blocking profiles (more of them; one page)
-MIN_AUC_GAP = 0.15  # hypothesis verdicts: AUROC >= 0.65 or <= 0.35
-MIN_ACTIVE = 10  # cells with the program active, at least, for an AUROC
+ANNOTATION = ROOT / "data" / "curated" / "curated_programs.tsv"  # derives_from
+N_RANDOM = 100  # random sets of background genes per library and program size
+NULL_QUANTILE = 0.95  # relative = +-1 at the 95% / 5% quantile of the random sets
+REL_LIMIT = 3.0  # colour scale of the figures (clipped)
+N_COLUMNS = 3  # columns of panels in the coupling figures
+ROW_HEIGHT = 0.105  # inches per program row
+MIN_ACTIVE = 10  # active cells (and other cells), at least, for an AUROC
+TRANSITION_STAGES = 3  # transitions: the first stages at which the program is supported
+TRANSITION_HITS = 2  # ... at which a profile must be beyond the null (and never opposite)
 SIGNAL_PREFIXES = ("signal:", "receiving:", "sending:", "blocking:")  # signalling profiles
 READING = ("signal:", "receiving:")  # profiles that contain readouts
 SIGNALS = ["signal:Nodal", "signal:BMP", "signal:Wnt", "signal:FGF", "receiving:Notch",
@@ -98,37 +122,216 @@ HYPOTHESES = [
 ]
 
 
-def coupling(adata, programs: pd.DataFrame, support: pd.DataFrame,
-             genes_table: pd.DataFrame) -> tuple[pd.DataFrame, pd.DataFrame]:
-    """Correlation of every signalling profile with every other curated program
-    per stage, and the AUROCs of HYPOTHESES."""
-    space = program_populations.ProgramSpace(programs, support, genes_table,
-                                             supported_only=False)
-    rows, aucs = [], []
+def relative(obs: np.ndarray, null: np.ndarray) -> np.ndarray:
+    """Position of obs (one value per column) against a random null (rows:
+    random sets): 0 = the median, +1 = the NULL_QUANTILE quantile, -1 = the
+    1 - NULL_QUANTILE quantile."""
+    med = np.nanmedian(null, axis=0)
+    hi = np.nanquantile(null, NULL_QUANTILE, axis=0)
+    lo = np.nanquantile(null, 1 - NULL_QUANTILE, axis=0)
+    with np.errstate(divide="ignore", invalid="ignore"):
+        return np.where(obs >= med, (obs - med) / (hi - med), (obs - med) / (med - lo))
+
+
+def standardise(x: np.ndarray) -> np.ndarray:
+    x = x - x.mean(axis=0)
+    sd = x.std(axis=0)
+    sd[sd == 0] = np.nan
+    return x / sd
+
+
+def library_scores(counts, het_idx: np.ndarray, prog_idx: dict, background: np.ndarray,
+                   sizes: set, rng) -> tuple[pd.DataFrame, pd.DataFrame, dict]:
+    """Smoothed scores and active calls of the programs of one library (as in
+    script 18), and the smoothed scores of N_RANDOM random sets of background
+    genes for every program size."""
+    seed = program_populations.SEED
+    n = counts.shape[0]
+    coords = PCA(min(program_populations.N_PCS, n - 1), random_state=seed).fit_transform(
+        pearson_residuals(counts, het_idx))
+    library = np.zeros(n, dtype=int)
+    genes = sorted({g for gs in prog_idx.values() for g in gs})
+    col = {g: k for k, g in enumerate(genes)}
+    res = pearson_residuals(counts, np.array(genes))
+    names = list(prog_idx)
+    score = prediction.smooth(np.column_stack([res[:, [col[g] for g in prog_idx[p]]].mean(axis=1)
+                                               for p in names]), library, coords)
+    threshold = []
+    for p in names:
+        r = res[:, [col[g] for g in prog_idx[p]]]
+        null = np.concatenate([prediction.smooth(rng.permuted(r, axis=0).mean(axis=1)[:, None],
+                                                 library, coords)[:, 0]
+                               for _ in range(program_populations.N_PERM)])
+        threshold.append(np.quantile(null, program_populations.ACTIVE_QUANTILE))
+    active = score > np.array(threshold)[None, :]
+    bres = pearson_residuals(counts, background)
+    random = {}
+    for size in sizes:
+        k = min(size, len(background))
+        sets = [rng.choice(len(background), k, replace=False) for _ in range(N_RANDOM)]
+        random[size] = prediction.smooth(np.column_stack([bres[:, s].mean(axis=1) for s in sets]),
+                                         library, coords)
+    return (pd.DataFrame(score, columns=names), pd.DataFrame(active, columns=names), random)
+
+
+def auroc_rows(stage, lib, output, partner, contrast, on, base, score, random_scores):
+    """AUROC of `score` for the `on` cells among the `on | base` cells, and the
+    same for random sets of the same size (null)."""
+    use = on | base
+    if on.sum() < MIN_ACTIVE or (base & ~on).sum() < MIN_ACTIVE:
+        return []
+    y = on[use]
+    auc = roc_auc_score(y, score[use])
+    null = np.array([roc_auc_score(y, random_scores[use, k])
+                     for k in range(random_scores.shape[1])])
+    return [dict(stage=stage, library=lib, output=output, partner=partner, contrast=contrast,
+                 active_cells=int(y.sum()), auc=auc, null_median=np.median(null),
+                 relative=float(relative(np.array([auc]), null[:, None])[0]))]
+
+
+def coupling(adata, programs: pd.DataFrame, het_table: pd.DataFrame,
+             parents: dict) -> tuple[pd.DataFrame, pd.DataFrame, pd.DataFrame]:
+    """Per stage and library: the correlation of every signalling profile with
+    every other curated program, against random sets of background genes of
+    the profile's size; and the AUROCs of HYPOTHESES (against all other cells
+    and against the cells of the partner's parent programs), with the same
+    null; and, for every derivation (parent -> program, derives_from), the
+    AUROC of every signalling profile for the program's active cells against
+    the parent's other active cells (transitions)."""
+    rows, aucs, trans = [], [], []
     for stage in STAGES:
         sub = adata[adata.obs["stage"] == stage]
-        libs = sorted(sub.obs["library"].unique())
-        raw, _, _ = space(sub, libs, stage)
-        names = list(space.stage_programs(stage).index)
-        scores = pd.DataFrame(np.vstack([raw[lib] for lib in libs]), columns=names)
-        active = pd.DataFrame(np.vstack([space.active[lib] for lib in libs]), columns=names)
-        corr = scores.corr()
-        for o in [n for n in names if n.startswith(SIGNAL_PREFIXES)]:
-            rows += [dict(stage=stage, signal=o, program=p.removeprefix("state:"),
-                          r=corr.loc[o, p]) for p in names if p != o]
-        for o, partner, _, _ in HYPOTHESES:
-            if o not in names or partner not in names:
-                continue
-            # cells active in the identity partner (or in the profile, for signalling partners)
-            group, score = ((o, partner) if partner.startswith(SIGNAL_PREFIXES)
-                            else (partner, o))
-            on = active[group].to_numpy()
-            auc = (roc_auc_score(on, scores[score]) if MIN_ACTIVE <= on.sum() < len(on)
-                   else np.nan)
-            aucs.append(dict(stage=stage, output=o, partner=partner, active_cells=int(on.sum()),
-                             auc=auc))
+        p = programs[programs["stage"] == stage]
+        prog_genes = p.groupby("program", sort=False)["gene"].agg(list)
+        het = set(het_table.loc[(het_table["stage"] == stage) & het_table["heterogeneous"],
+                                "gene"])
+        het_idx = np.flatnonzero(sub.var_names.isin(het))
+        background = np.flatnonzero(sub.var_names.isin(het - set(p["gene"])))
+        prog_idx = {k: list(sub.var_names.get_indexer(v)) for k, v in prog_genes.items()}
+        signals = [k for k in prog_idx if k.startswith(SIGNAL_PREFIXES)]
+        sizes = {len(prog_idx[k]) for k in prog_idx}
+        X = sub.X.tocsr()
+        lib_of = sub.obs["library"].astype(str).to_numpy()
+        for lib in sorted(set(lib_of)):
+            rng = np.random.default_rng([program_populations.SEED, STAGES.index(stage),
+                                         sorted(set(lib_of)).index(lib)])
+            score, active, random = library_scores(X[lib_of == lib], het_idx, prog_idx,
+                                                   background, sizes, rng)
+            z = standardise(score.to_numpy())
+            names = list(score.columns)
+            for o in signals:
+                n_cells = len(score)
+                r_obs = z[:, names.index(o)] @ z / n_cells
+                null = standardise(random[len(prog_idx[o])]).T @ z / n_cells
+                rel = relative(r_obs, null)
+                rows += [dict(stage=stage, library=lib, signal=o,
+                              program=q.removeprefix("state:"), r=r_obs[k],
+                              null_median=np.nanmedian(null[:, k]), relative=rel[k])
+                         for k, q in enumerate(names) if q != o]
+            for o, partner, _, _ in HYPOTHESES:
+                if o not in names or partner not in names:
+                    continue
+                # cells active in the identity partner (or in the profile, for signalling
+                # partners), scored by the other one
+                group, scored = ((o, partner) if partner.startswith(SIGNAL_PREFIXES)
+                                 else (partner, o))
+                on = active[group].to_numpy()
+                s, null = score[scored].to_numpy(), random[len(prog_idx[scored])]
+                aucs += auroc_rows(stage, lib, o, partner, "all", on, ~on, s, null)
+                ups = [q for q in parents.get(partner, []) if q in names]
+                if ups:
+                    base = active[ups].to_numpy().any(axis=1)
+                    aucs += auroc_rows(stage, lib, o, partner, "parents", on, base & ~on, s, null)
+            for child, ups in parents.items():
+                for parent in [q for q in ups if q in names and child in names]:
+                    on = active[child].to_numpy()
+                    base = active[parent].to_numpy() & ~on
+                    for o in signals:
+                        if o in (child, parent):
+                            continue
+                        trans += auroc_rows(stage, lib, o, f"{parent}>{child}", "transition", on,
+                                            base, score[o].to_numpy(), random[len(prog_idx[o])])
         print(stage, flush=True)
-    return pd.DataFrame(rows), pd.DataFrame(aucs)
+    return pd.DataFrame(rows), pd.DataFrame(aucs), pd.DataFrame(trans)
+
+
+def transitions(trans: pd.DataFrame, support: pd.DataFrame) -> pd.DataFrame:
+    """Per derivation: the signalling profiles that are higher (relative AUROC
+    >= 1, median over the libraries) or lower (<= -1) in the program's active
+    cells than in the parent's other active cells at >= TRANSITION_HITS of
+    the first TRANSITION_STAGES stages at which the program is supported (its
+    emergence), and never on the other side there."""
+    c = support[(support["set"] == "curated") & support["supported"]]
+    first = {p: [s for s in STAGES if s in set(g["stage"])][:TRANSITION_STAGES]
+             for p, g in c.groupby("program")}
+    a = trans.groupby(["stage", "output", "partner"], sort=False).agg(
+        relative=("relative", "median"), auc=("auc", "median")).reset_index()
+    rows = []
+    for edge in dict.fromkeys(trans["partner"]):
+        parent, child = edge.split(">")
+        window = first.get(child, [])
+        t = a[(a["partner"] == edge) & a["stage"].isin(window)]
+        higher, lower = [], []
+        for signal, g in t.groupby("output", sort=False):
+            up, down = (g["relative"] >= 1).sum(), (g["relative"] <= -1).sum()
+            if up >= TRANSITION_HITS and not down:
+                higher.append(signal)
+            elif down >= TRANSITION_HITS and not up:
+                lower.append(signal)
+        rows.append(dict(parent=parent, program=child, stages=",".join(window),
+                         higher=";".join(higher), lower=";".join(lower)))
+    return pd.DataFrame(rows)
+
+
+def latex_transitions(tr: pd.DataFrame, notes: pd.DataFrame) -> None:
+    """Report table of the transitions, with the signals expected from the
+    annotation (curated_programs.tsv, column location_signals)."""
+    expected = notes.set_index("program")["location_signals"]
+    order = {p: k for k, p in enumerate(notes["program"])}
+    def tex(s):
+        return str(s).replace("%", "\\%").replace("_", " ")
+    def short(names):
+        return ", ".join(tex(n.split(":")[1] + ("" if n.startswith("signal:") else
+                                               " (" + n.split(":")[0] + ")"))
+                         for n in names.split(";") if n) or "--"
+    lines = ["\\begin{longtable}{@{}" + "".join(
+                 f">{{\\raggedright\\arraybackslash}}p{{{w}cm}}" for w in (3.3, 2.0, 4.0, 3.4, 3.3))
+             + "@{}}",
+             "\\caption{Phenotype transitions (\\protect\\nolinkurl{scripts/21_signal_coupling.py}): "
+             "for every presumed derivation (parent $\\rightarrow$ program), the signalling "
+             "profiles that are higher or lower in the program's active cells than in the parent's "
+             "other active cells, beyond random genes, at two or more of the first three stages at "
+             "which the program is supported (Stages), and never on the other side there. "
+             "Expected: where and under which signals the program arises, from the annotation "
+             "(Table~\\ref{tab:curated-programs}). Profiles: general unless marked (sending, "
+             "blocking, receiving).}\\label{tab:transitions}\\\\",
+             "\\toprule", "Transition & Stages & Expected & Higher & Lower \\\\", "\\midrule",
+             "\\endfirsthead", "\\toprule",
+             "Transition & Stages & Expected & Higher & Lower \\\\", "\\midrule", "\\endhead",
+             "\\bottomrule", "\\endlastfoot"]
+    tr = tr.assign(_o=tr["program"].map(order)).sort_values("_o", kind="stable")
+    for i, r in enumerate(tr.itertuples()):
+        st = r.stages.split(",") if r.stages else []
+        span = "not supported" if not st else st[0] if len(st) == 1 else f"{st[0]} -- {st[-1]}"
+        lines.append(("\\rowcolor{gray!10}" if i % 2 else "")
+                     + f"{tex(r.parent.removeprefix('state:'))} $\\rightarrow$ "
+                       f"{tex(r.program.removeprefix('state:'))} & {tex(span)} & "
+                       f"{tex(expected.get(r.program, ''))} & {short(r.higher)} & "
+                       f"{short(r.lower)} \\\\")
+    lines.append("\\end{longtable}")
+    (REPORT_TABLES / "signal_transitions.tex").write_text(
+        "% Generated by scripts/21_signal_coupling.py; do not edit.\n" + "\n".join(lines) + "\n")
+
+
+def per_stage(table: pd.DataFrame) -> pd.DataFrame:
+    """Median over the libraries of a stage, the range, and whether every
+    library is beyond the null on the same side."""
+    g = table.groupby(["stage", "signal", "program"], sort=False)
+    out = g.agg(r=("r", "median"), relative=("relative", "median"),
+                relative_min=("relative", "min"), relative_max=("relative", "max"),
+                libraries=("library", "size")).reset_index()
+    out["every_library"] = (out["relative_min"] >= 1) | (out["relative_max"] <= -1)
+    return out
 
 
 def reading(table: pd.DataFrame) -> pd.DataFrame:
@@ -138,34 +341,42 @@ def reading(table: pd.DataFrame) -> pd.DataFrame:
 
 
 def plot(table: pd.DataFrame, signals=SIGNALS, stem="signal_coupling",
-         label="correlation with the profile (within libraries)", min_r: float = MIN_R) -> None:
-    w = pd.read_csv(TABLES / "curated_zfin_windows.tsv", sep="\t")
-    zfin = {p: STAGES[STAGES.index(a):STAGES.index(b) + 1]
-            for p, a, b in zip(w["program"], w["first"], w["last"])}
+         n_columns: int = N_COLUMNS, row_height: float = ROW_HEIGHT) -> None:
+    """Relative coupling (median over the libraries) of each profile with the
+    programs that are beyond the null at some stage; circle: in every library."""
     panels = []
     for signal in signals:
-        if signal not in set(table["signal"]):
+        t = table[table["signal"] == signal]
+        if t.empty:
             continue
-        t = table[table["signal"] == signal].pivot(index="program", columns="stage", values="r")
-        t = t.reindex(columns=STAGES)
-        recorded = pd.DataFrame([[s in zfin.get(p, STAGES) for s in STAGES] for p in t.index],
-                                index=t.index, columns=STAGES)
-        t = t[(t.abs().where(recorded) >= min_r).any(axis=1)]
-        t = t.loc[t.abs().max(axis=1).sort_values(ascending=False).index]
-        panels.append((signal, t))
-    left, right = panels[0::2], panels[1::2]
-    heights = [max(sum(len(t) for _, t in col), 1) for col in (left, right)]
-    fig = plt.figure(figsize=(REPORT_WIDTH_IN, 0.13 * max(heights) + 1.6))
-    for c, col in enumerate((left, right)):
-        grid = fig.add_gridspec(len(col), 1, height_ratios=[max(len(t), 1) for _, t in col],
-                                left=0.17 + 0.5 * c, right=0.47 + 0.5 * c, top=0.96,
-                                bottom=0.15, hspace=0.45)
-        for k, (signal, t) in enumerate(col):
+        rel = t.pivot(index="program", columns="stage", values="relative").reindex(columns=STAGES)
+        every = t.pivot(index="program", columns="stage", values="every_library") \
+            .reindex(columns=STAGES).fillna(False).astype(bool)
+        keep = rel.index[(rel.abs() >= 1).any(axis=1)]
+        rel = rel.loc[rel.loc[keep].abs().max(axis=1).sort_values(ascending=False).index]
+        panels.append((signal, rel, every.loc[rel.index]))
+    columns = [[] for _ in range(n_columns)]  # balanced: each panel to the shortest column
+    for panel in sorted(panels, key=lambda x: -len(x[1])):
+        min(columns, key=lambda col: sum(len(t) for _, t, _ in col)).append(panel)
+    columns = [sorted(col, key=lambda x: signals.index(x[0])) for col in columns if col]
+    heights = [max(sum(len(t) for _, t, _ in col), 1) for col in columns]
+    fig = plt.figure(figsize=(REPORT_WIDTH_IN, row_height * max(heights) + 1.4))
+    norm = TwoSlopeNorm(0, -REL_LIMIT, REL_LIMIT)
+    width = 1 / len(columns)
+    for c, col in enumerate(columns):
+        grid = fig.add_gridspec(len(col), 1, height_ratios=[max(len(t), 1) for _, t, _ in col],
+                                left=width * c + 0.39 * width, right=width * (c + 1) - 0.01,
+                                top=0.97,
+                                bottom=0.13, hspace=0.35)
+        for k, (signal, rel, every) in enumerate(col):
             ax = fig.add_subplot(grid[k])
             ax.set_facecolor("#F2F2F2")
-            im = ax.imshow(t.to_numpy(dtype=float), aspect="auto", cmap="RdBu_r",
-                           norm=TwoSlopeNorm(0, -1, 1))
-            ax.set_yticks(range(len(t)), [p.replace("_", " ") for p in t.index], fontsize=5)
+            im = ax.imshow(rel.to_numpy(dtype=float).clip(-REL_LIMIT, REL_LIMIT), aspect="auto",
+                           cmap="RdBu_r", norm=norm)
+            yy, xx = np.nonzero(every.to_numpy())
+            ax.scatter(xx, yy, s=5, color="white", edgecolors="#222222", linewidths=0.4)
+            ax.set_yticks(range(len(rel)), [p.replace("_", " ") for p in rel.index],
+                          fontsize=5 if row_height >= 0.1 else 4)
             last = k == len(col) - 1
             ax.set_xticks(range(len(STAGES)), STAGES if last else [], rotation=60, ha="right",
                           fontsize=5)
@@ -174,30 +385,44 @@ def plot(table: pd.DataFrame, signals=SIGNALS, stem="signal_coupling",
                 ax.spines[side].set_visible(False)
     cax = fig.add_axes([0.35, 0.025, 0.3, 0.01])
     fig.colorbar(im, cax=cax, orientation="horizontal").ax.tick_params(labelsize=5)
-    cax.set_title(label, fontsize=6)
+    cax.set_title("relative coupling (0: random genes, ±1: 95% beyond; median over "
+                  "libraries; circle: every library)", fontsize=6)
     save_report_figure(fig, stem)
     plt.close(fig)
 
 
-def hypotheses(table: pd.DataFrame, aucs: pd.DataFrame) -> pd.DataFrame:
+def hypotheses(table: pd.DataFrame, aucs: pd.DataFrame, support: pd.DataFrame) -> pd.DataFrame:
+    """Verdict per hypothesis from the AUROCs relative to random sets (median
+    over the libraries; against the partner's parent programs where it has
+    any, otherwise against all other cells), at the stages where the identity
+    partner is supported (signalling partners: every stage with an AUROC)."""
+    supported = set(zip(*support.loc[(support["set"] == "curated") & support["supported"],
+                                     ["program", "stage"]].T.to_numpy()))
+    a = aucs.groupby(["stage", "output", "partner", "contrast"], sort=False).agg(
+        auc=("auc", "median"), relative=("relative", "median"),
+        libraries=("library", "size")).reset_index()
     rows = []
     for output, partner, sign, reason in HYPOTHESES:
-        t = table[(table["signal"] == output) & (table["program"] == partner)].set_index("stage")
-        r = t["r"].reindex([s for s in STAGES if s in t.index]).dropna()
-        a = aucs[(aucs["output"] == output) & (aucs["partner"] == partner)].set_index("stage")
-        a = a["auc"].reindex([s for s in STAGES if s in a.index]).dropna()
-        gap = sign * (a - 0.5)
-        pro, con = gap >= MIN_AUC_GAP, gap <= -MIN_AUC_GAP
-        best = a.index[np.argmax(gap.to_numpy())] if len(a) else ""
+        t = a[(a["output"] == output) & (a["partner"] == partner)]
+        contrast = "parents" if (t["contrast"] == "parents").any() else "all"
+        t = t[t["contrast"] == contrast].set_index("stage")
+        stages = [s for s in STAGES if s in t.index and (partner.startswith(SIGNAL_PREFIXES)
+                                                          or (partner, s) in supported)]
+        t = t.reindex(stages)
+        r = table[(table["signal"] == output) & (table["program"] == partner)] \
+            .set_index("stage")["r"]
+        gap = sign * t["relative"]
+        pro, con = gap >= 1, gap <= -1
+        best = t.index[np.argmax(gap.to_numpy())] if len(t) else ""
         rows.append(dict(output=output, partner=partner, expected="+" if sign > 0 else "-",
-                         reason=reason, stages=len(a),
-                         first=a.index[0] if len(a) else "", last=a.index[-1] if len(a) else "",
-                         best_stage=best, best_auc=a.get(best, np.nan),
-                         median_auc=a.median() if len(a) else np.nan,
-                         consistent_stages=",".join(a.index[pro]),
-                         opposite_stages=",".join(a.index[con]),
-                         median_r=r.median() if len(r) else np.nan,
-                         verdict=("not testable" if not len(a) else
+                         reason=reason, contrast=contrast, stages=len(t),
+                         first=stages[0] if stages else "", last=stages[-1] if stages else "",
+                         best_stage=best, best_auc=t["auc"].get(best, np.nan),
+                         median_auc=t["auc"].median() if len(t) else np.nan,
+                         consistent_stages=",".join(t.index[pro]),
+                         opposite_stages=",".join(t.index[con]),
+                         median_r=r.reindex(stages).median() if stages else np.nan,
+                         verdict=("not testable" if not len(t) else
                                   "mixed" if pro.any() and con.any() else
                                   "consistent" if pro.any() else
                                   "opposite" if con.any() else "weak")))
@@ -209,10 +434,11 @@ def latex_hypotheses(h: pd.DataFrame) -> None:
     def tex(s):
         return str(s).replace("%", "\\%").replace("_", " ")
     lines = ["\\begin{tabular}{@{}>{\\raggedright\\arraybackslash}p{2.2cm}"
-             ">{\\raggedright\\arraybackslash}p{2.3cm}c>{\\raggedright\\arraybackslash}p{2.5cm}"
-             "rrr>{\\raggedright\\arraybackslash}p{1.5cm}@{}}",
+             ">{\\raggedright\\arraybackslash}p{2.3cm}cl>{\\raggedright\\arraybackslash}p{2.3cm}"
+             "rrr>{\\raggedright\\arraybackslash}p{1.4cm}@{}}",
              "\\toprule",
-             "Profile & Partner & Exp. & Stages & Best AUROC & Median & Median $r$ & Verdict \\\\",
+             "Profile & Partner & Exp. & Against & Stages & Best AUROC & Median & Median $r$ & "
+             "Verdict \\\\",
              "\\midrule"]
     for i, r in enumerate(h.itertuples()):
         span = "--" if not r.stages else (r.first if r.first == r.last else f"{r.first} -- {r.last}")
@@ -220,7 +446,8 @@ def latex_hypotheses(h: pd.DataFrame) -> None:
         med = "--" if pd.isna(r.median_auc) else f"{r.median_auc:.2f}"
         mr = "--" if pd.isna(r.median_r) else f"{r.median_r:.2f}"
         name = lambda s: tex(s).replace(":", ":\\allowbreak ")  # e.g. sending:Hedgehog
-        lines.append(("\\rowcolor{gray!10}" if i % 2 else "") + f"{name(r.output)} & {name(r.partner)} & {r.expected} & {tex(span)} & "
+        lines.append(("\\rowcolor{gray!10}" if i % 2 else "") + f"{name(r.output)} & {name(r.partner)} & {r.expected} & "
+                     f"{'parents' if r.contrast == 'parents' else 'all'} & {tex(span)} & "
                      f"{best} & {med} & {mr} & {r.verdict} \\\\")
     lines += ["\\bottomrule", "\\end{tabular}"]
     (REPORT_TABLES / "signal_output_hypotheses.tex").write_text(
@@ -228,8 +455,7 @@ def latex_hypotheses(h: pd.DataFrame) -> None:
 
 
 def plot_outputs(table: pd.DataFrame) -> None:
-    plot(table, OUTPUTS, "signal_outputs", "correlation with the profile (within libraries)",
-         MIN_R_OUTPUTS)
+    plot(table, OUTPUTS, "signal_outputs", row_height=0.075)  # one page
 
 
 def main() -> None:
@@ -239,19 +465,32 @@ def main() -> None:
     programs = pd.read_csv(TABLES / "programs.tsv", sep="\t")
     curated = programs[(programs["set"] == "curated") & programs["kept"]]
     support = pd.read_csv(TABLES / "program_support.tsv", sep="\t")
-    genes_table = pd.read_csv(TABLES / "heterogeneous_genes.tsv.gz", sep="\t",
-                              usecols=["stage", "gene", "heterogeneous"])
-    table, aucs = coupling(adata, curated, support, genes_table)
+    het = pd.read_csv(TABLES / "heterogeneous_genes.tsv.gz", sep="\t",
+                      usecols=["stage", "gene", "heterogeneous"])
+    notes = pd.read_csv(ANNOTATION, sep="\t", keep_default_na=False)
+    parents = {p: [q for q in d.split(";") if q] for p, d in zip(notes["program"],
+                                                                 notes["derives_from"])}
+    libraries, aucs, trans = coupling(adata, curated, het, parents)
+    trans.to_csv(TABLES / "signal_transitions_auroc.tsv", sep="\t", index=False,
+                 float_format="%.3g")
+    tr = transitions(trans, support)
+    tr.to_csv(TABLES / "signal_transitions.tsv", sep="\t", index=False)
+    print(tr.to_string(index=False))
+    latex_transitions(tr, notes)
+    libraries.to_csv(TABLES / "signal_outputs_libraries.tsv", sep="\t", index=False,
+                     float_format="%.3g")
+    table = per_stage(libraries)
+    table.to_csv(TABLES / "signal_outputs.tsv", sep="\t", index=False, float_format="%.3g")
     reading(table).to_csv(TABLES / "signal_coupling.tsv", sep="\t", index=False,
                           float_format="%.3g")
-    plot(reading(table))
-    table.to_csv(TABLES / "signal_outputs.tsv", sep="\t", index=False, float_format="%.3g")
     aucs.to_csv(TABLES / "signal_output_auroc.tsv", sep="\t", index=False, float_format="%.3g")
-    h = hypotheses(table, aucs)
+    h = hypotheses(table, aucs, support)
     h.to_csv(TABLES / "signal_output_hypotheses.tsv", sep="\t", index=False, float_format="%.3g")
-    print(h[["output", "partner", "expected", "stages", "best_auc", "median_auc", "median_r",
+    print(h[["output", "partner", "expected", "contrast", "stages", "best_auc", "median_auc",
              "consistent_stages", "opposite_stages", "verdict"]].to_string(index=False))
+    print(h["verdict"].value_counts().to_string())
     latex_hypotheses(h)
+    plot(reading(table))
     plot_outputs(table)
 
 
@@ -260,10 +499,16 @@ if __name__ == "__main__":
 
     if sys.argv[1:] == ["plot"]:
         report_style()
-        plot(pd.read_csv(TABLES / "signal_coupling.tsv", sep="\t"))
-        outputs = pd.read_csv(TABLES / "signal_outputs.tsv", sep="\t")
-        aucs = pd.read_csv(TABLES / "signal_output_auroc.tsv", sep="\t")
-        latex_hypotheses(hypotheses(outputs, aucs))
-        plot_outputs(outputs)
+        table = pd.read_csv(TABLES / "signal_outputs.tsv", sep="\t")
+        plot(reading(table))
+        latex_hypotheses(hypotheses(table, pd.read_csv(TABLES / "signal_output_auroc.tsv",
+                                                       sep="\t"),
+                                    pd.read_csv(TABLES / "program_support.tsv", sep="\t")))
+        plot_outputs(table)
+        notes = pd.read_csv(ANNOTATION, sep="\t", keep_default_na=False)
+        latex_transitions(transitions(pd.read_csv(TABLES / "signal_transitions_auroc.tsv",
+                                                  sep="\t"),
+                                      pd.read_csv(TABLES / "program_support.tsv", sep="\t")),
+                          notes)
     else:
         main()

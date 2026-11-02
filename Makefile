@@ -56,7 +56,8 @@ $(T)/program_support.tsv: $(S)/17_program_tests.py $(S)/program_utils.py $(UTILS
 	$(PY) $<
 $(T)/signal_coupling.tsv: $(S)/21_signal_coupling.py $(S)/18_program_populations.py \
 		$(S)/14_replicated_populations.py $(S)/program_utils.py $(UTILS) \
-		$(T)/programs.tsv $(T)/program_support.tsv
+		$(T)/programs.tsv $(T)/program_support.tsv $(T)/heterogeneous_genes.tsv.gz \
+		data/curated/curated_programs.tsv
 	$(PY) $<
 $(T)/program_levels.tsv: $(S)/22_program_levels.py $(S)/17_program_tests.py \
 		$(S)/program_utils.py $(UTILS) $(T)/program_support.tsv
