@@ -1,0 +1,322 @@
+stage	library	profile	cells	axes_correlation	r1	r2	rel1	rel2
+dome	ZFDOME_WT_DS5	signal:Nodal	1174	0.157	-0.395	0.330	-1.892	1.557
+dome	ZFDOME_WT_DS5	signal:FGF	1174	0.157	-0.253	0.349	-1.293	1.675
+dome	ZFDOME_WT_DS5	signal:Wnt	1174	0.157	-0.201	0.179	-1.077	0.659
+dome	ZFDOME_WT_DS5	signal:BMP	1174	0.157	-0.278	-0.364	-1.399	-2.113
+dome	ZFDOME_WT_DS5	blocking:BMP	1174	0.157	-0.230	0.274	-1.198	1.227
+dome	ZFDOME_WT_DS5	sending:BMP_organizer	1174	0.157	0.030	0.000	-0.103	-0.335
+dome	ZFDOME_WT_DS5	blocking:Wnt	1174	0.157	-0.110	0.108	-0.692	0.233
+dome	ZFDOME_WT_DS5	sending:Wnt/PCP	1174	0.157	-0.378	0.392	-1.820	1.930
+dome	ZFDOME_WT_DS5	receiving:Notch	1174	0.157	0.025	0.059	-0.125	-0.048
+dome	ZFDOME_WT_DS5	sending:Notch	1174	0.157	-0.117	0.118	-0.723	0.295
+dome	ZFDOME_WT_DS5	blocking:RA	1174	0.157	-0.048	-0.055	-0.434	-0.606
+30% epiboly	ZF30_WT_DS5	signal:Nodal	448	0.223	-0.368	0.231	-2.020	0.817
+30% epiboly	ZF30_WT_DS5	signal:FGF	448	0.223	-0.534	0.218	-2.865	0.746
+30% epiboly	ZF30_WT_DS5	signal:Wnt	448	0.223	-0.391	0.172	-2.139	0.490
+30% epiboly	ZF30_WT_DS5	signal:BMP	448	0.223	-0.095	-0.289	-0.629	-2.603
+30% epiboly	ZF30_WT_DS5	blocking:BMP	448	0.223	-0.281	0.310	-1.579	1.263
+30% epiboly	ZF30_WT_DS5	sending:BMP_organizer	448	0.223	-0.044	0.348	-0.369	1.474
+30% epiboly	ZF30_WT_DS5	blocking:Wnt	448	0.223	-0.191	0.174	-1.118	0.499
+30% epiboly	ZF30_WT_DS5	sending:Wnt/PCP	448	0.223	-0.594	0.134	-3.173	0.277
+30% epiboly	ZF30_WT_DS5	receiving:Notch	448	0.223	0.160	0.062	0.490	-0.155
+30% epiboly	ZF30_WT_DS5	sending:Notch	448	0.223	-0.265	0.050	-1.494	-0.245
+30% epiboly	ZF30_WT_DS5	sending:RA	448	0.223	-0.273	0.036	-1.536	-0.339
+30% epiboly	ZF30_WT_DS5	blocking:RA	448	0.223	-0.177	-0.047	-1.046	-0.915
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	1058	0.234	-0.544	0.034	-2.091	-0.178
+30% epiboly	ZF30_WT_DS5b	signal:FGF	1058	0.234	-0.424	0.297	-1.666	1.183
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	1058	0.234	-0.433	0.050	-1.698	-0.069
+30% epiboly	ZF30_WT_DS5b	signal:BMP	1058	0.234	-0.225	-0.538	-0.956	-3.988
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	1058	0.234	-0.234	0.259	-0.990	0.992
+30% epiboly	ZF30_WT_DS5b	sending:BMP_organizer	1058	0.234	0.059	0.381	0.074	1.607
+30% epiboly	ZF30_WT_DS5b	blocking:Wnt	1058	0.234	-0.110	0.166	-0.548	0.527
+30% epiboly	ZF30_WT_DS5b	sending:Wnt/PCP	1058	0.234	-0.623	0.079	-2.374	0.090
+30% epiboly	ZF30_WT_DS5b	receiving:Notch	1058	0.234	0.019	-0.072	-0.089	-0.883
+30% epiboly	ZF30_WT_DS5b	sending:Notch	1058	0.234	-0.358	0.100	-1.430	0.194
+30% epiboly	ZF30_WT_DS5b	sending:RA	1058	0.234	-0.329	0.035	-1.328	-0.173
+30% epiboly	ZF30_WT_DS5b	blocking:RA	1058	0.234	-0.226	-0.261	-0.961	-2.144
+50% epiboly	ZF50_WT_DS2	signal:Nodal	1257	0.142	-0.524	0.181	-1.590	0.627
+50% epiboly	ZF50_WT_DS2	signal:FGF	1257	0.142	-0.434	0.390	-1.319	1.822
+50% epiboly	ZF50_WT_DS2	signal:Wnt	1257	0.142	-0.347	0.292	-1.054	1.263
+50% epiboly	ZF50_WT_DS2	signal:BMP	1257	0.142	-0.249	-0.464	-0.757	-3.457
+50% epiboly	ZF50_WT_DS2	blocking:BMP	1257	0.142	-0.323	0.469	-0.982	2.279
+50% epiboly	ZF50_WT_DS2	sending:BMP_organizer	1257	0.142	0.088	0.455	0.380	2.199
+50% epiboly	ZF50_WT_DS2	blocking:Wnt	1257	0.142	-0.194	0.022	-0.593	-0.324
+50% epiboly	ZF50_WT_DS2	sending:Wnt/PCP	1257	0.142	-0.571	0.223	-1.734	0.868
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	1257	0.142	-0.321	0.074	-0.976	0.010
+50% epiboly	ZF50_WT_DS2	receiving:Notch	1257	0.142	0.016	0.081	0.062	0.050
+50% epiboly	ZF50_WT_DS2	sending:Notch	1257	0.142	-0.258	0.070	-0.787	-0.015
+50% epiboly	ZF50_WT_DS2	sending:RA	1257	0.142	-0.524	0.131	-1.590	0.336
+50% epiboly	ZF50_WT_DS2	blocking:RA	1257	0.142	-0.028	-0.171	-0.089	-1.567
+50% epiboly	ZF50_WT_DS3	signal:Nodal	1401	0.405	-0.670	-0.018	-1.810	-0.356
+50% epiboly	ZF50_WT_DS3	signal:FGF	1401	0.405	-0.604	0.150	-1.629	0.702
+50% epiboly	ZF50_WT_DS3	signal:Wnt	1401	0.405	-0.690	-0.036	-1.867	-0.466
+50% epiboly	ZF50_WT_DS3	signal:BMP	1401	0.405	-0.376	-0.665	-0.993	-4.230
+50% epiboly	ZF50_WT_DS3	blocking:BMP	1401	0.405	-0.189	0.462	-0.472	2.715
+50% epiboly	ZF50_WT_DS3	sending:BMP_organizer	1401	0.405	0.230	0.641	0.807	3.867
+50% epiboly	ZF50_WT_DS3	blocking:Wnt	1401	0.405	0.070	0.223	0.288	1.172
+50% epiboly	ZF50_WT_DS3	sending:Wnt/PCP	1401	0.405	-0.749	-0.060	-2.030	-0.606
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	1401	0.405	-0.169	0.120	-0.416	0.504
+50% epiboly	ZF50_WT_DS3	receiving:Notch	1401	0.405	-0.029	0.015	-0.026	-0.160
+50% epiboly	ZF50_WT_DS3	sending:Notch	1401	0.405	-0.354	-0.137	-0.930	-1.071
+50% epiboly	ZF50_WT_DS3	sending:RA	1401	0.405	-0.725	-0.116	-1.963	-0.944
+50% epiboly	ZF50_WT_DS3	blocking:RA	1401	0.405	-0.203	-0.130	-0.511	-1.026
+50% epiboly	ZF50_WT_DS4	signal:Nodal	1529	0.237	-0.578	0.052	-2.370	-0.019
+50% epiboly	ZF50_WT_DS4	signal:FGF	1529	0.237	-0.585	0.178	-2.401	0.845
+50% epiboly	ZF50_WT_DS4	signal:Wnt	1529	0.237	-0.409	0.156	-1.679	0.697
+50% epiboly	ZF50_WT_DS4	signal:BMP	1529	0.237	-0.196	-0.466	-0.809	-2.948
+50% epiboly	ZF50_WT_DS4	blocking:BMP	1529	0.237	-0.307	0.453	-1.264	2.727
+50% epiboly	ZF50_WT_DS4	sending:BMP_organizer	1529	0.237	0.127	0.446	0.486	2.684
+50% epiboly	ZF50_WT_DS4	blocking:Wnt	1529	0.237	-0.079	0.113	-0.331	0.400
+50% epiboly	ZF50_WT_DS4	sending:Wnt/PCP	1529	0.237	-0.725	0.020	-2.972	-0.197
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	1529	0.237	-0.200	0.216	-0.824	1.103
+50% epiboly	ZF50_WT_DS4	receiving:Notch	1529	0.237	-0.134	0.107	-0.555	0.356
+50% epiboly	ZF50_WT_DS4	sending:Notch	1529	0.237	-0.213	0.009	-0.877	-0.259
+50% epiboly	ZF50_WT_DS4	sending:RA	1529	0.237	-0.526	0.053	-2.157	-0.012
+50% epiboly	ZF50_WT_DS4	blocking:RA	1529	0.237	0.114	0.080	0.437	0.175
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	1560	0.320	-0.561	0.008	-1.481	-0.460
+50% epiboly	ZF50_WT_DS4b	signal:FGF	1560	0.320	-0.532	0.266	-1.406	1.233
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	1560	0.320	-0.555	0.041	-1.465	-0.179
+50% epiboly	ZF50_WT_DS4b	signal:BMP	1560	0.320	-0.323	-0.626	-0.854	-5.834
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	1560	0.320	-0.309	0.406	-0.816	2.074
+50% epiboly	ZF50_WT_DS4b	sending:BMP_organizer	1560	0.320	0.100	0.577	0.386	3.109
+50% epiboly	ZF50_WT_DS4b	blocking:Wnt	1560	0.320	0.059	0.149	0.228	0.521
+50% epiboly	ZF50_WT_DS4b	sending:Wnt/PCP	1560	0.320	-0.709	0.087	-1.874	0.148
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	1560	0.320	-0.144	0.057	-0.379	-0.041
+50% epiboly	ZF50_WT_DS4b	receiving:Notch	1560	0.320	0.073	0.016	0.281	-0.392
+50% epiboly	ZF50_WT_DS4b	sending:Notch	1560	0.320	-0.253	-0.033	-0.668	-0.810
+50% epiboly	ZF50_WT_DS4b	sending:RA	1560	0.320	-0.613	-0.021	-1.621	-0.702
+50% epiboly	ZF50_WT_DS4b	blocking:RA	1560	0.320	0.025	-0.087	0.099	-1.268
+shield	ZFS_WT_DS5	signal:Nodal	1037	0.427	-0.651	-0.021	-1.276	-0.351
+shield	ZFS_WT_DS5	signal:FGF	1037	0.427	-0.689	0.015	-1.358	-0.152
+shield	ZFS_WT_DS5	signal:Wnt	1037	0.427	-0.745	-0.113	-1.479	-0.857
+shield	ZFS_WT_DS5	signal:BMP	1037	0.427	-0.417	-0.636	-0.768	-3.749
+shield	ZFS_WT_DS5	blocking:BMP	1037	0.427	-0.057	0.489	0.022	3.026
+shield	ZFS_WT_DS5	sending:BMP_organizer	1037	0.427	0.120	0.593	0.618	3.732
+shield	ZFS_WT_DS5	blocking:Wnt	1037	0.427	-0.091	0.224	-0.060	1.233
+shield	ZFS_WT_DS5	sending:Wnt/PCP	1037	0.427	-0.769	-0.173	-1.532	-1.191
+shield	ZFS_WT_DS5	sending:Hedgehog	1037	0.427	-0.138	0.206	-0.161	1.108
+shield	ZFS_WT_DS5	receiving:Notch	1037	0.427	-0.095	0.056	-0.069	0.092
+shield	ZFS_WT_DS5	sending:Notch	1037	0.427	-0.274	-0.253	-0.456	-1.634
+shield	ZFS_WT_DS5	sending:RA	1037	0.427	-0.702	-0.207	-1.387	-1.374
+shield	ZFS_WT_DS5	blocking:RA	1037	0.427	-0.121	0.087	-0.125	0.302
+60% epiboly	ZF60_WT_DS2	signal:Nodal	1406	0.321	-0.749	0.110		
+60% epiboly	ZF60_WT_DS2	signal:FGF	1406	0.321	-0.729	0.152		
+60% epiboly	ZF60_WT_DS2	signal:Wnt	1406	0.321	-0.782	-0.043		
+60% epiboly	ZF60_WT_DS2	signal:BMP	1406	0.321	-0.359	-0.735		
+60% epiboly	ZF60_WT_DS2	blocking:BMP	1406	0.321	-0.155	0.638		
+60% epiboly	ZF60_WT_DS2	sending:BMP_organizer	1406	0.321	0.006	0.649		
+60% epiboly	ZF60_WT_DS2	blocking:Wnt	1406	0.321	-0.115	0.316		
+60% epiboly	ZF60_WT_DS2	sending:Wnt/PCP	1406	0.321	-0.782	-0.129		
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	1406	0.321	-0.300	0.320		
+60% epiboly	ZF60_WT_DS2	receiving:Notch	1406	0.321	-0.213	-0.121		
+60% epiboly	ZF60_WT_DS2	sending:Notch	1406	0.321	-0.510	-0.353		
+60% epiboly	ZF60_WT_DS2	sending:RA	1406	0.321	-0.733	-0.051		
+60% epiboly	ZF60_WT_DS2	blocking:RA	1406	0.321	0.084	0.424		
+60% epiboly	ZF60_WT_DS3	signal:Nodal	1241	0.512	-0.723	-0.161	-1.208	-0.319
+60% epiboly	ZF60_WT_DS3	signal:FGF	1241	0.512	-0.708	-0.074	-1.175	-0.023
+60% epiboly	ZF60_WT_DS3	signal:Wnt	1241	0.512	-0.701	-0.279	-1.157	-0.724
+60% epiboly	ZF60_WT_DS3	signal:BMP	1241	0.512	-0.262	-0.677	-0.153	-2.090
+60% epiboly	ZF60_WT_DS3	blocking:BMP	1241	0.512	-0.047	0.537	0.196	1.290
+60% epiboly	ZF60_WT_DS3	sending:BMP_organizer	1241	0.512	0.251	0.617	0.590	1.462
+60% epiboly	ZF60_WT_DS3	blocking:Wnt	1241	0.512	0.027	0.413	0.293	1.025
+60% epiboly	ZF60_WT_DS3	sending:Wnt/PCP	1241	0.512	-0.756	-0.403	-1.285	-1.148
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	1241	0.512	-0.105	0.159	0.120	0.483
+60% epiboly	ZF60_WT_DS3	receiving:Notch	1241	0.512	-0.334	-0.142	-0.317	-0.254
+60% epiboly	ZF60_WT_DS3	sending:Notch	1241	0.512	-0.505	-0.524	-0.710	-1.564
+60% epiboly	ZF60_WT_DS3	sending:RA	1241	0.512	-0.782	-0.381	-1.345	-1.072
+60% epiboly	ZF60_WT_DS3	blocking:RA	1241	0.512	0.399	0.367	0.786	0.928
+60% epiboly	ZF60_WT_DS4	signal:Nodal	1434	0.431	-0.727	-0.019	-1.167	-0.080
+60% epiboly	ZF60_WT_DS4	signal:FGF	1434	0.431	-0.734	0.038	-1.182	0.141
+60% epiboly	ZF60_WT_DS4	signal:Wnt	1434	0.431	-0.778	-0.181	-1.273	-0.656
+60% epiboly	ZF60_WT_DS4	signal:BMP	1434	0.431	-0.320	-0.738	-0.318	-2.634
+60% epiboly	ZF60_WT_DS4	blocking:BMP	1434	0.431	-0.095	0.593	0.106	2.438
+60% epiboly	ZF60_WT_DS4	sending:BMP_organizer	1434	0.431	0.158	0.614	0.477	2.527
+60% epiboly	ZF60_WT_DS4	blocking:Wnt	1434	0.431	0.064	0.405	0.339	1.659
+60% epiboly	ZF60_WT_DS4	sending:Wnt/PCP	1434	0.431	-0.780	-0.299	-1.278	-1.074
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	1434	0.431	-0.368	0.112	-0.419	0.447
+60% epiboly	ZF60_WT_DS4	receiving:Notch	1434	0.431	-0.353	-0.198	-0.387	-0.715
+60% epiboly	ZF60_WT_DS4	sending:Notch	1434	0.431	-0.427	-0.247	-0.540	-0.891
+60% epiboly	ZF60_WT_DS4	sending:RA	1434	0.431	-0.759	-0.238	-1.233	-0.858
+60% epiboly	ZF60_WT_DS4	blocking:RA	1434	0.431	0.329	0.357	0.728	1.460
+75% epiboly	ZF75_WT_DS2	signal:Nodal	1980	0.513	-0.594	0.095	-0.974	0.304
+75% epiboly	ZF75_WT_DS2	signal:FGF	1980	0.513	-0.595	0.091	-0.976	0.292
+75% epiboly	ZF75_WT_DS2	signal:Wnt	1980	0.513	-0.590	-0.163	-0.964	-0.460
+75% epiboly	ZF75_WT_DS2	signal:BMP	1980	0.513	-0.350	-0.711	-0.393	-2.087
+75% epiboly	ZF75_WT_DS2	blocking:BMP	1980	0.513	-0.009	0.565	0.337	1.702
+75% epiboly	ZF75_WT_DS2	sending:BMP_organizer	1980	0.513	0.201	0.646	0.738	1.944
+75% epiboly	ZF75_WT_DS2	blocking:Wnt	1980	0.513	0.221	0.560	0.777	1.687
+75% epiboly	ZF75_WT_DS2	sending:Wnt/PCP	1980	0.513	-0.761	-0.359	-1.372	-1.042
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	1980	0.513	-0.195	0.258	-0.025	0.791
+75% epiboly	ZF75_WT_DS2	receiving:Notch	1980	0.513	-0.351	-0.118	-0.396	-0.329
+75% epiboly	ZF75_WT_DS2	sending:Notch	1980	0.513	-0.474	-0.527	-0.689	-1.541
+75% epiboly	ZF75_WT_DS2	sending:RA	1980	0.513	-0.672	-0.236	-1.159	-0.677
+75% epiboly	ZF75_WT_DS2	receiving:RA	1980	0.513				
+75% epiboly	ZF75_WT_DS2	blocking:RA	1980	0.513	0.315	0.392	0.956	1.188
+75% epiboly	ZF75_WT_DS3	signal:Nodal	2903	0.566	-0.410	0.129	-0.673	0.653
+75% epiboly	ZF75_WT_DS3	signal:FGF	2903	0.566	-0.554	-0.067	-0.979	-0.121
+75% epiboly	ZF75_WT_DS3	signal:Wnt	2903	0.566	-0.578	-0.289	-1.032	-0.744
+75% epiboly	ZF75_WT_DS3	signal:BMP	2903	0.566	-0.302	-0.664	-0.440	-1.796
+75% epiboly	ZF75_WT_DS3	blocking:BMP	2903	0.566	0.135	0.587	0.477	2.606
+75% epiboly	ZF75_WT_DS3	sending:BMP_organizer	2903	0.566	0.158	0.487	0.524	2.179
+75% epiboly	ZF75_WT_DS3	blocking:Wnt	2903	0.566	0.069	0.508	0.342	2.269
+75% epiboly	ZF75_WT_DS3	sending:Wnt/PCP	2903	0.566	-0.683	-0.479	-1.257	-1.275
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	2903	0.566	-0.138	0.233	-0.089	1.098
+75% epiboly	ZF75_WT_DS3	receiving:Notch	2903	0.566	-0.388	-0.302	-0.626	-0.780
+75% epiboly	ZF75_WT_DS3	sending:Notch	2903	0.566	-0.427	-0.456	-0.709	-1.213
+75% epiboly	ZF75_WT_DS3	sending:RA	2903	0.566	-0.630	-0.333	-1.142	-0.866
+75% epiboly	ZF75_WT_DS3	receiving:RA	2903	0.566	0.054	0.116	0.311	0.596
+75% epiboly	ZF75_WT_DS3	blocking:RA	2903	0.566	0.266	0.269	0.748	1.248
+75% epiboly	ZF75_WT_DS4	signal:Nodal	1346	0.597	-0.513	-0.048	-0.721	-0.032
+75% epiboly	ZF75_WT_DS4	signal:FGF	1346	0.597	-0.540	0.042	-0.781	0.145
+75% epiboly	ZF75_WT_DS4	signal:Wnt	1346	0.597	-0.629	-0.285	-0.980	-0.737
+75% epiboly	ZF75_WT_DS4	signal:BMP	1346	0.597	-0.366	-0.737	-0.394	-2.076
+75% epiboly	ZF75_WT_DS4	blocking:BMP	1346	0.597	0.069	0.560	0.366	1.101
+75% epiboly	ZF75_WT_DS4	sending:BMP_organizer	1346	0.597	0.252	0.644	0.626	1.256
+75% epiboly	ZF75_WT_DS4	blocking:Wnt	1346	0.597	0.016	0.408	0.291	0.821
+75% epiboly	ZF75_WT_DS4	sending:Wnt/PCP	1346	0.597	-0.773	-0.450	-1.300	-1.225
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	1346	0.597	-0.313	0.166	-0.277	0.375
+75% epiboly	ZF75_WT_DS4	receiving:Notch	1346	0.597	-0.466	-0.284	-0.616	-0.732
+75% epiboly	ZF75_WT_DS4	sending:Notch	1346	0.597	-0.564	-0.582	-0.835	-1.618
+75% epiboly	ZF75_WT_DS4	sending:RA	1346	0.597	-0.717	-0.334	-1.174	-0.881
+75% epiboly	ZF75_WT_DS4	receiving:RA	1346	0.597	-0.241	-0.048	-0.115	-0.034
+75% epiboly	ZF75_WT_DS4	blocking:RA	1346	0.597	0.338	0.373	0.748	0.756
+90% epiboly	ZF90_WT_DS2	signal:Nodal	1226	0.545	-0.418	0.047	-0.685	0.104
+90% epiboly	ZF90_WT_DS2	signal:FGF	1226	0.545	-0.486	0.054	-0.834	0.124
+90% epiboly	ZF90_WT_DS2	signal:Wnt	1226	0.545	-0.531	-0.261	-0.932	-0.801
+90% epiboly	ZF90_WT_DS2	signal:BMP	1226	0.545	-0.304	-0.661	-0.436	-1.979
+90% epiboly	ZF90_WT_DS2	blocking:BMP	1226	0.545	0.145	0.640	0.786	1.852
+90% epiboly	ZF90_WT_DS2	sending:BMP_organizer	1226	0.545	0.202	0.498	0.963	1.435
+90% epiboly	ZF90_WT_DS2	blocking:Wnt	1226	0.545	0.198	0.577	0.949	1.666
+90% epiboly	ZF90_WT_DS2	sending:Wnt/PCP	1226	0.545	-0.734	-0.485	-1.377	-1.463
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	1226	0.545	-0.177	0.188	-0.156	0.520
+90% epiboly	ZF90_WT_DS2	receiving:Notch	1226	0.545	-0.470	-0.361	-0.799	-1.096
+90% epiboly	ZF90_WT_DS2	sending:Notch	1226	0.545	-0.316	-0.338	-0.462	-1.029
+90% epiboly	ZF90_WT_DS2	sending:RA	1226	0.545	-0.649	-0.354	-1.192	-1.076
+90% epiboly	ZF90_WT_DS2	receiving:RA	1226	0.545	0.039	0.064	0.453	0.153
+90% epiboly	ZF90_WT_DS2	blocking:RA	1226	0.545	0.416	0.367	1.634	1.049
+90% epiboly	ZF90_WT_DS3	signal:Nodal	2808	0.629	-0.395	0.014	-0.584	0.217
+90% epiboly	ZF90_WT_DS3	signal:FGF	2808	0.629	-0.346	-0.037	-0.454	0.080
+90% epiboly	ZF90_WT_DS3	signal:Wnt	2808	0.629	-0.538	-0.412	-0.962	-0.952
+90% epiboly	ZF90_WT_DS3	signal:BMP	2808	0.629	-0.407	-0.677	-0.616	-1.679
+90% epiboly	ZF90_WT_DS3	blocking:BMP	2808	0.629	0.250	0.567	1.013	1.727
+90% epiboly	ZF90_WT_DS3	sending:BMP_organizer	2808	0.629	0.119	0.392	0.699	1.248
+90% epiboly	ZF90_WT_DS3	blocking:Wnt	2808	0.629	0.160	0.468	0.799	1.455
+90% epiboly	ZF90_WT_DS3	sending:Wnt/PCP	2808	0.629	-0.622	-0.523	-1.184	-1.256
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	2808	0.629	-0.192	0.170	-0.046	0.644
+90% epiboly	ZF90_WT_DS3	receiving:Notch	2808	0.629	-0.549	-0.568	-0.989	-1.380
+90% epiboly	ZF90_WT_DS3	sending:Notch	2808	0.629	-0.517	-0.444	-0.906	-1.041
+90% epiboly	ZF90_WT_DS3	sending:RA	2808	0.629	-0.586	-0.376	-1.088	-0.854
+90% epiboly	ZF90_WT_DS3	receiving:RA	2808	0.629	-0.029	0.018	0.346	0.230
+90% epiboly	ZF90_WT_DS3	blocking:RA	2808	0.629	0.407	0.329	1.386	1.076
+90% epiboly	ZF90_WT_DS4	signal:Nodal	1515	0.620	-0.413	0.034	-0.549	0.373
+90% epiboly	ZF90_WT_DS4	signal:FGF	1515	0.620	-0.455	-0.052	-0.650	0.023
+90% epiboly	ZF90_WT_DS4	signal:Wnt	1515	0.620	-0.538	-0.352	-0.849	-0.882
+90% epiboly	ZF90_WT_DS4	signal:BMP	1515	0.620	-0.320	-0.686	-0.324	-1.882
+90% epiboly	ZF90_WT_DS4	blocking:BMP	1515	0.620	0.104	0.485	0.824	2.203
+90% epiboly	ZF90_WT_DS4	sending:BMP_organizer	1515	0.620	0.202	0.557	1.102	2.492
+90% epiboly	ZF90_WT_DS4	blocking:Wnt	1515	0.620	-0.054	0.341	0.374	1.617
+90% epiboly	ZF90_WT_DS4	sending:Wnt/PCP	1515	0.620	-0.614	-0.545	-1.034	-1.459
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	1515	0.620	-0.228	0.179	-0.101	0.961
+90% epiboly	ZF90_WT_DS4	receiving:Notch	1515	0.620	-0.477	-0.423	-0.702	-1.095
+90% epiboly	ZF90_WT_DS4	sending:Notch	1515	0.620	-0.464	-0.429	-0.670	-1.112
+90% epiboly	ZF90_WT_DS4	sending:RA	1515	0.620	-0.552	-0.323	-0.884	-0.794
+90% epiboly	ZF90_WT_DS4	receiving:RA	1515	0.620	-0.015	0.051	0.484	0.444
+90% epiboly	ZF90_WT_DS4	blocking:RA	1515	0.620	0.461	0.394	1.838	1.831
+bud	ZFB_WT_DS2	signal:Nodal	250	0.208	-0.110	0.008	0.019	0.322
+bud	ZFB_WT_DS2	signal:FGF	250	0.208	-0.343	0.611	-0.410	1.495
+bud	ZFB_WT_DS2	signal:Wnt	250	0.208	-0.653	-0.016	-0.981	0.274
+bud	ZFB_WT_DS2	signal:BMP	250	0.208	-0.006	-0.810	0.207	-1.437
+bud	ZFB_WT_DS2	blocking:BMP	250	0.208	0.148	0.466	0.489	1.212
+bud	ZFB_WT_DS2	sending:BMP_organizer	250	0.208	-0.342	0.293	-0.408	0.876
+bud	ZFB_WT_DS2	blocking:Wnt	250	0.208	-0.414	0.114	-0.541	0.527
+bud	ZFB_WT_DS2	sending:Wnt/PCP	250	0.208	-0.681	-0.361	-1.031	-0.447
+bud	ZFB_WT_DS2	sending:Hedgehog	250	0.208	-0.021	-0.030	0.181	0.247
+bud	ZFB_WT_DS2	receiving:Notch	250	0.208	-0.779	-0.219	-1.212	-0.135
+bud	ZFB_WT_DS2	sending:Notch	250	0.208	-0.621	0.192	-0.921	0.680
+bud	ZFB_WT_DS2	sending:RA	250	0.208	-0.720	-0.180	-1.104	-0.051
+bud	ZFB_WT_DS2	receiving:RA	250	0.208	0.051	-0.015	0.312	0.277
+bud	ZFB_WT_DS2	blocking:RA	250	0.208	0.428	0.668	1.000	1.606
+bud	ZFB_WT_DS2b	signal:Nodal	505	0.537	-0.152	0.238		
+bud	ZFB_WT_DS2b	signal:FGF	505	0.537	-0.409	0.370		
+bud	ZFB_WT_DS2b	signal:Wnt	505	0.537	-0.599	0.029		
+bud	ZFB_WT_DS2b	signal:BMP	505	0.537	-0.340	-0.805		
+bud	ZFB_WT_DS2b	blocking:BMP	505	0.537	0.355	0.628		
+bud	ZFB_WT_DS2b	sending:BMP_organizer	505	0.537	0.074	0.536		
+bud	ZFB_WT_DS2b	blocking:Wnt	505	0.537	0.008	0.254		
+bud	ZFB_WT_DS2b	sending:Wnt/PCP	505	0.537	-0.702	-0.521		
+bud	ZFB_WT_DS2b	sending:Hedgehog	505	0.537	-0.033	0.376		
+bud	ZFB_WT_DS2b	receiving:Notch	505	0.537	-0.756	-0.382		
+bud	ZFB_WT_DS2b	sending:Notch	505	0.537	-0.663	-0.172		
+bud	ZFB_WT_DS2b	sending:RA	505	0.537	-0.485	-0.147		
+bud	ZFB_WT_DS2b	receiving:RA	505	0.537	-0.112	0.232		
+bud	ZFB_WT_DS2b	blocking:RA	505	0.537	0.423	0.481		
+bud	ZFB_WT_DS3	signal:Nodal	4758	0.554	-0.099	0.064	0.023	0.411
+bud	ZFB_WT_DS3	signal:FGF	4758	0.554	-0.335	0.314	-0.660	0.945
+bud	ZFB_WT_DS3	signal:Wnt	4758	0.554	-0.634	-0.175	-1.545	-0.170
+bud	ZFB_WT_DS3	signal:BMP	4758	0.554	-0.316	-0.705	-0.605	-2.085
+bud	ZFB_WT_DS3	blocking:BMP	4758	0.554	0.265	0.485	0.686	1.311
+bud	ZFB_WT_DS3	sending:BMP_organizer	4758	0.554	-0.162	0.109	-0.148	0.506
+bud	ZFB_WT_DS3	blocking:Wnt	4758	0.554	-0.194	0.026	-0.244	0.330
+bud	ZFB_WT_DS3	sending:Wnt/PCP	4758	0.554	-0.615	-0.447	-1.490	-1.151
+bud	ZFB_WT_DS3	sending:Hedgehog	4758	0.554	-0.033	0.095	0.144	0.476
+bud	ZFB_WT_DS3	receiving:Notch	4758	0.554	-0.615	-0.281	-1.488	-0.554
+bud	ZFB_WT_DS3	sending:Notch	4758	0.554	-0.539	-0.064	-1.265	0.137
+bud	ZFB_WT_DS3	sending:RA	4758	0.554	-0.567	-0.348	-1.347	-0.794
+bud	ZFB_WT_DS3	receiving:RA	4758	0.554	-0.144	-0.070	-0.096	0.125
+bud	ZFB_WT_DS3	blocking:RA	4758	0.554	0.276	0.383	0.706	1.093
+bud	ZFB_WT_DS4	signal:Nodal	1646	0.558	0.028	0.045	0.287	0.279
+bud	ZFB_WT_DS4	signal:FGF	1646	0.558	-0.377	0.336	-0.722	0.817
+bud	ZFB_WT_DS4	signal:Wnt	1646	0.558	-0.678	-0.213	-1.543	-0.355
+bud	ZFB_WT_DS4	signal:BMP	1646	0.558	-0.397	-0.802	-0.776	-2.290
+bud	ZFB_WT_DS4	blocking:BMP	1646	0.558	0.301	0.560	0.843	1.233
+bud	ZFB_WT_DS4	sending:BMP_organizer	1646	0.558	-0.069	0.208	0.090	0.580
+bud	ZFB_WT_DS4	blocking:Wnt	1646	0.558	0.086	0.146	0.405	0.466
+bud	ZFB_WT_DS4	sending:Wnt/PCP	1646	0.558	-0.711	-0.519	-1.632	-1.357
+bud	ZFB_WT_DS4	sending:Hedgehog	1646	0.558	-0.069	0.080	0.090	0.343
+bud	ZFB_WT_DS4	receiving:Notch	1646	0.558	-0.680	-0.356	-1.548	-0.822
+bud	ZFB_WT_DS4	sending:Notch	1646	0.558	-0.572	-0.148	-1.255	-0.139
+bud	ZFB_WT_DS4	sending:RA	1646	0.558	-0.413	-0.307	-0.819	-0.663
+bud	ZFB_WT_DS4	receiving:RA	1646	0.558	-0.052	-0.025	0.124	0.148
+bud	ZFB_WT_DS4	blocking:RA	1646	0.558	0.366	0.409	0.975	0.953
+3-somite	ZF3S_WT_DS5	signal:Nodal	1631	0.390	-0.078	-0.140	0.014	0.164
+3-somite	ZF3S_WT_DS5	signal:FGF	1631	0.390	-0.512	0.000	-1.235	0.608
+3-somite	ZF3S_WT_DS5	signal:Wnt	1631	0.390	-0.690	-0.217	-1.746	-0.126
+3-somite	ZF3S_WT_DS5	signal:BMP	1631	0.390	-0.200	-0.508	-0.340	-1.583
+3-somite	ZF3S_WT_DS5	blocking:BMP	1631	0.390	-0.019	0.148	0.220	1.077
+3-somite	ZF3S_WT_DS5	sending:BMP_organizer	1631	0.390	-0.292	-0.154	-0.604	0.119
+3-somite	ZF3S_WT_DS5	blocking:Wnt	1631	0.390	-0.057	0.033	0.086	0.711
+3-somite	ZF3S_WT_DS5	sending:Wnt/PCP	1631	0.390	-0.666	-0.396	-1.676	-1.022
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	1631	0.390	-0.102	-0.057	-0.058	0.427
+3-somite	ZF3S_WT_DS5	receiving:Notch	1631	0.390	-0.522	-0.130	-1.265	0.196
+3-somite	ZF3S_WT_DS5	sending:Notch	1631	0.390	-0.512	-0.116	-1.236	0.242
+3-somite	ZF3S_WT_DS5	sending:RA	1631	0.390	-0.405	-0.355	-0.929	-0.819
+3-somite	ZF3S_WT_DS5	receiving:RA	1631	0.390	-0.205	-0.240	-0.353	-0.240
+3-somite	ZF3S_WT_DS5	blocking:RA	1631	0.390	-0.382	-0.199	-0.863	-0.033
+6-somite	ZF6S_WT_DS5	signal:Nodal	2375	0.385	-0.111	-0.027	-0.042	0.498
+6-somite	ZF6S_WT_DS5	signal:FGF	2375	0.385	-0.441	0.059	-1.482	0.810
+6-somite	ZF6S_WT_DS5	signal:Wnt	2375	0.385	-0.523	-0.123	-1.842	0.151
+6-somite	ZF6S_WT_DS5	signal:BMP	2375	0.385	-0.109	-0.403	-0.034	-1.220
+6-somite	ZF6S_WT_DS5	blocking:BMP	2375	0.385	-0.064	0.252	0.117	1.511
+6-somite	ZF6S_WT_DS5	sending:BMP_organizer	2375	0.385	-0.297	-0.080	-0.853	0.306
+6-somite	ZF6S_WT_DS5	blocking:Wnt	2375	0.385	-0.156	0.196	-0.242	1.306
+6-somite	ZF6S_WT_DS5	sending:Wnt/PCP	2375	0.385	-0.652	-0.369	-2.401	-1.046
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	2375	0.385	-0.097	0.079	0.012	0.884
+6-somite	ZF6S_WT_DS5	receiving:Notch	2375	0.385	-0.501	-0.034	-1.742	0.475
+6-somite	ZF6S_WT_DS5	sending:Notch	2375	0.385	-0.543	-0.051	-1.925	0.413
+6-somite	ZF6S_WT_DS5	sending:RA	2375	0.385	-0.280	-0.184	-0.782	-0.097
+6-somite	ZF6S_WT_DS5	receiving:RA	2375	0.385	-0.196	-0.157	-0.413	0.031
+6-somite	ZF6S_WT_DS5	blocking:RA	2375	0.385	-0.520	-0.323	-1.827	-0.807
+6-somite	ZF6S_WT_DS5b	signal:Nodal	2085	0.331	0.108	-0.040	0.306	0.332
+6-somite	ZF6S_WT_DS5b	signal:FGF	2085	0.331	-0.479	0.105	-1.639	0.748
+6-somite	ZF6S_WT_DS5b	signal:Wnt	2085	0.331	-0.538	-0.062	-1.829	0.271
+6-somite	ZF6S_WT_DS5b	signal:BMP	2085	0.331	-0.091	-0.361	-0.395	-0.730
+6-somite	ZF6S_WT_DS5b	blocking:BMP	2085	0.331	0.008	0.307	-0.076	1.323
+6-somite	ZF6S_WT_DS5b	sending:BMP_organizer	2085	0.331	-0.146	-0.108	-0.571	0.139
+6-somite	ZF6S_WT_DS5b	blocking:Wnt	2085	0.331	-0.076	0.175	-0.347	0.946
+6-somite	ZF6S_WT_DS5b	sending:Wnt/PCP	2085	0.331	-0.686	-0.357	-2.305	-0.718
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	2085	0.331	0.130	0.073	0.399	0.656
+6-somite	ZF6S_WT_DS5b	receiving:Notch	2085	0.331	-0.441	0.123	-1.517	0.797
+6-somite	ZF6S_WT_DS5b	sending:Notch	2085	0.331	-0.528	0.057	-1.799	0.611
+6-somite	ZF6S_WT_DS5b	sending:RA	2085	0.331	-0.259	-0.324	-0.934	-0.598
+6-somite	ZF6S_WT_DS5b	receiving:RA	2085	0.331	-0.066	-0.207	-0.316	-0.180
+6-somite	ZF6S_WT_DS5b	blocking:RA	2085	0.331	-0.446	-0.243	-1.534	-0.310

@@ -1,0 +1,3283 @@
+stage	library	profile	bin1	bin2	mean
+dome	ZFDOME_WT_DS5	signal:Nodal	0	0	-0.186
+dome	ZFDOME_WT_DS5	signal:Nodal	0	1	0.130
+dome	ZFDOME_WT_DS5	signal:Nodal	0	2	0.454
+dome	ZFDOME_WT_DS5	signal:Nodal	0	3	0.596
+dome	ZFDOME_WT_DS5	signal:Nodal	0	4	0.663
+dome	ZFDOME_WT_DS5	signal:Nodal	0	5	2.162
+dome	ZFDOME_WT_DS5	signal:Nodal	1	0	-0.332
+dome	ZFDOME_WT_DS5	signal:Nodal	1	1	-0.328
+dome	ZFDOME_WT_DS5	signal:Nodal	1	2	-0.310
+dome	ZFDOME_WT_DS5	signal:Nodal	1	3	-0.166
+dome	ZFDOME_WT_DS5	signal:Nodal	1	4	0.025
+dome	ZFDOME_WT_DS5	signal:Nodal	1	5	-0.102
+dome	ZFDOME_WT_DS5	signal:Nodal	2	0	-0.379
+dome	ZFDOME_WT_DS5	signal:Nodal	2	1	-0.360
+dome	ZFDOME_WT_DS5	signal:Nodal	2	2	-0.295
+dome	ZFDOME_WT_DS5	signal:Nodal	2	3	-0.303
+dome	ZFDOME_WT_DS5	signal:Nodal	2	4	-0.247
+dome	ZFDOME_WT_DS5	signal:Nodal	2	5	-0.076
+dome	ZFDOME_WT_DS5	signal:Nodal	3	0	-0.444
+dome	ZFDOME_WT_DS5	signal:Nodal	3	1	-0.443
+dome	ZFDOME_WT_DS5	signal:Nodal	3	2	-0.401
+dome	ZFDOME_WT_DS5	signal:Nodal	3	3	-0.343
+dome	ZFDOME_WT_DS5	signal:Nodal	3	4	-0.361
+dome	ZFDOME_WT_DS5	signal:Nodal	3	5	0.367
+dome	ZFDOME_WT_DS5	signal:FGF	0	0	-0.347
+dome	ZFDOME_WT_DS5	signal:FGF	0	1	0.037
+dome	ZFDOME_WT_DS5	signal:FGF	0	2	0.299
+dome	ZFDOME_WT_DS5	signal:FGF	0	3	0.489
+dome	ZFDOME_WT_DS5	signal:FGF	0	4	0.395
+dome	ZFDOME_WT_DS5	signal:FGF	0	5	2.103
+dome	ZFDOME_WT_DS5	signal:FGF	1	0	-0.358
+dome	ZFDOME_WT_DS5	signal:FGF	1	1	-0.283
+dome	ZFDOME_WT_DS5	signal:FGF	1	2	-0.266
+dome	ZFDOME_WT_DS5	signal:FGF	1	3	-0.157
+dome	ZFDOME_WT_DS5	signal:FGF	1	4	-0.027
+dome	ZFDOME_WT_DS5	signal:FGF	1	5	0.345
+dome	ZFDOME_WT_DS5	signal:FGF	2	0	-0.482
+dome	ZFDOME_WT_DS5	signal:FGF	2	1	-0.391
+dome	ZFDOME_WT_DS5	signal:FGF	2	2	-0.226
+dome	ZFDOME_WT_DS5	signal:FGF	2	3	-0.354
+dome	ZFDOME_WT_DS5	signal:FGF	2	4	-0.194
+dome	ZFDOME_WT_DS5	signal:FGF	2	5	0.142
+dome	ZFDOME_WT_DS5	signal:FGF	3	0	-0.367
+dome	ZFDOME_WT_DS5	signal:FGF	3	1	-0.470
+dome	ZFDOME_WT_DS5	signal:FGF	3	2	-0.356
+dome	ZFDOME_WT_DS5	signal:FGF	3	3	-0.290
+dome	ZFDOME_WT_DS5	signal:FGF	3	4	-0.281
+dome	ZFDOME_WT_DS5	signal:FGF	3	5	0.507
+dome	ZFDOME_WT_DS5	signal:Wnt	0	0	-0.161
+dome	ZFDOME_WT_DS5	signal:Wnt	0	1	0.065
+dome	ZFDOME_WT_DS5	signal:Wnt	0	2	0.310
+dome	ZFDOME_WT_DS5	signal:Wnt	0	3	0.302
+dome	ZFDOME_WT_DS5	signal:Wnt	0	4	0.314
+dome	ZFDOME_WT_DS5	signal:Wnt	0	5	1.564
+dome	ZFDOME_WT_DS5	signal:Wnt	1	0	-0.271
+dome	ZFDOME_WT_DS5	signal:Wnt	1	1	-0.218
+dome	ZFDOME_WT_DS5	signal:Wnt	1	2	-0.180
+dome	ZFDOME_WT_DS5	signal:Wnt	1	3	0.018
+dome	ZFDOME_WT_DS5	signal:Wnt	1	4	-0.021
+dome	ZFDOME_WT_DS5	signal:Wnt	1	5	-0.118
+dome	ZFDOME_WT_DS5	signal:Wnt	2	0	-0.338
+dome	ZFDOME_WT_DS5	signal:Wnt	2	1	-0.162
+dome	ZFDOME_WT_DS5	signal:Wnt	2	2	-0.161
+dome	ZFDOME_WT_DS5	signal:Wnt	2	3	0.008
+dome	ZFDOME_WT_DS5	signal:Wnt	2	4	0.076
+dome	ZFDOME_WT_DS5	signal:Wnt	2	5	-0.080
+dome	ZFDOME_WT_DS5	signal:Wnt	3	0	-0.522
+dome	ZFDOME_WT_DS5	signal:Wnt	3	1	0.075
+dome	ZFDOME_WT_DS5	signal:Wnt	3	2	-0.284
+dome	ZFDOME_WT_DS5	signal:Wnt	3	3	-0.447
+dome	ZFDOME_WT_DS5	signal:Wnt	3	4	-0.236
+dome	ZFDOME_WT_DS5	signal:Wnt	3	5	0.027
+dome	ZFDOME_WT_DS5	signal:BMP	0	0	0.561
+dome	ZFDOME_WT_DS5	signal:BMP	0	1	0.670
+dome	ZFDOME_WT_DS5	signal:BMP	0	2	0.165
+dome	ZFDOME_WT_DS5	signal:BMP	0	3	0.554
+dome	ZFDOME_WT_DS5	signal:BMP	0	4	0.077
+dome	ZFDOME_WT_DS5	signal:BMP	0	5	-0.036
+dome	ZFDOME_WT_DS5	signal:BMP	1	0	0.506
+dome	ZFDOME_WT_DS5	signal:BMP	1	1	0.447
+dome	ZFDOME_WT_DS5	signal:BMP	1	2	0.010
+dome	ZFDOME_WT_DS5	signal:BMP	1	3	-0.045
+dome	ZFDOME_WT_DS5	signal:BMP	1	4	-0.090
+dome	ZFDOME_WT_DS5	signal:BMP	1	5	-0.479
+dome	ZFDOME_WT_DS5	signal:BMP	2	0	0.571
+dome	ZFDOME_WT_DS5	signal:BMP	2	1	0.183
+dome	ZFDOME_WT_DS5	signal:BMP	2	2	0.016
+dome	ZFDOME_WT_DS5	signal:BMP	2	3	-0.212
+dome	ZFDOME_WT_DS5	signal:BMP	2	4	-0.181
+dome	ZFDOME_WT_DS5	signal:BMP	2	5	-0.176
+dome	ZFDOME_WT_DS5	signal:BMP	3	0	0.217
+dome	ZFDOME_WT_DS5	signal:BMP	3	1	0.202
+dome	ZFDOME_WT_DS5	signal:BMP	3	2	0.088
+dome	ZFDOME_WT_DS5	signal:BMP	3	3	-0.253
+dome	ZFDOME_WT_DS5	signal:BMP	3	4	-0.396
+dome	ZFDOME_WT_DS5	signal:BMP	3	5	-1.717
+dome	ZFDOME_WT_DS5	blocking:BMP	0	0	-0.274
+dome	ZFDOME_WT_DS5	blocking:BMP	0	1	-0.140
+dome	ZFDOME_WT_DS5	blocking:BMP	0	2	0.034
+dome	ZFDOME_WT_DS5	blocking:BMP	0	3	0.298
+dome	ZFDOME_WT_DS5	blocking:BMP	0	4	0.298
+dome	ZFDOME_WT_DS5	blocking:BMP	0	5	2.156
+dome	ZFDOME_WT_DS5	blocking:BMP	1	0	-0.247
+dome	ZFDOME_WT_DS5	blocking:BMP	1	1	-0.312
+dome	ZFDOME_WT_DS5	blocking:BMP	1	2	-0.150
+dome	ZFDOME_WT_DS5	blocking:BMP	1	3	-0.232
+dome	ZFDOME_WT_DS5	blocking:BMP	1	4	0.094
+dome	ZFDOME_WT_DS5	blocking:BMP	1	5	0.751
+dome	ZFDOME_WT_DS5	blocking:BMP	2	0	-0.284
+dome	ZFDOME_WT_DS5	blocking:BMP	2	1	-0.403
+dome	ZFDOME_WT_DS5	blocking:BMP	2	2	-0.207
+dome	ZFDOME_WT_DS5	blocking:BMP	2	3	-0.099
+dome	ZFDOME_WT_DS5	blocking:BMP	2	4	-0.139
+dome	ZFDOME_WT_DS5	blocking:BMP	2	5	-0.178
+dome	ZFDOME_WT_DS5	blocking:BMP	3	0	-0.429
+dome	ZFDOME_WT_DS5	blocking:BMP	3	1	-0.312
+dome	ZFDOME_WT_DS5	blocking:BMP	3	2	-0.298
+dome	ZFDOME_WT_DS5	blocking:BMP	3	3	-0.282
+dome	ZFDOME_WT_DS5	blocking:BMP	3	4	-0.252
+dome	ZFDOME_WT_DS5	blocking:BMP	3	5	0.070
+30% epiboly	ZF30_WT_DS5	signal:Nodal	0	0	0.063
+30% epiboly	ZF30_WT_DS5	signal:Nodal	0	1	0.041
+30% epiboly	ZF30_WT_DS5	signal:Nodal	0	2	0.041
+30% epiboly	ZF30_WT_DS5	signal:Nodal	0	3	1.156
+30% epiboly	ZF30_WT_DS5	signal:Nodal	0	4	1.168
+30% epiboly	ZF30_WT_DS5	signal:Nodal	0	5	2.091
+30% epiboly	ZF30_WT_DS5	signal:Nodal	1	0	-0.308
+30% epiboly	ZF30_WT_DS5	signal:Nodal	1	1	-0.277
+30% epiboly	ZF30_WT_DS5	signal:Nodal	1	2	-0.256
+30% epiboly	ZF30_WT_DS5	signal:Nodal	1	3	-0.245
+30% epiboly	ZF30_WT_DS5	signal:Nodal	1	4	-0.253
+30% epiboly	ZF30_WT_DS5	signal:Nodal	1	5	-0.284
+30% epiboly	ZF30_WT_DS5	signal:Nodal	2	0	-0.340
+30% epiboly	ZF30_WT_DS5	signal:Nodal	2	1	-0.307
+30% epiboly	ZF30_WT_DS5	signal:Nodal	2	2	-0.317
+30% epiboly	ZF30_WT_DS5	signal:Nodal	2	3	-0.306
+30% epiboly	ZF30_WT_DS5	signal:Nodal	2	4	-0.241
+30% epiboly	ZF30_WT_DS5	signal:Nodal	2	5	-0.108
+30% epiboly	ZF30_WT_DS5	signal:Nodal	3	0	-0.336
+30% epiboly	ZF30_WT_DS5	signal:Nodal	3	1	-0.344
+30% epiboly	ZF30_WT_DS5	signal:Nodal	3	2	-0.315
+30% epiboly	ZF30_WT_DS5	signal:Nodal	3	3	-0.304
+30% epiboly	ZF30_WT_DS5	signal:Nodal	3	4	-0.319
+30% epiboly	ZF30_WT_DS5	signal:Nodal	3	5	-0.212
+30% epiboly	ZF30_WT_DS5	signal:FGF	0	0	0.466
+30% epiboly	ZF30_WT_DS5	signal:FGF	0	1	0.215
+30% epiboly	ZF30_WT_DS5	signal:FGF	0	2	0.180
+30% epiboly	ZF30_WT_DS5	signal:FGF	0	3	1.778
+30% epiboly	ZF30_WT_DS5	signal:FGF	0	4	1.347
+30% epiboly	ZF30_WT_DS5	signal:FGF	0	5	1.926
+30% epiboly	ZF30_WT_DS5	signal:FGF	1	0	-0.470
+30% epiboly	ZF30_WT_DS5	signal:FGF	1	1	-0.334
+30% epiboly	ZF30_WT_DS5	signal:FGF	1	2	-0.272
+30% epiboly	ZF30_WT_DS5	signal:FGF	1	3	-0.151
+30% epiboly	ZF30_WT_DS5	signal:FGF	1	4	-0.047
+30% epiboly	ZF30_WT_DS5	signal:FGF	1	5	0.132
+30% epiboly	ZF30_WT_DS5	signal:FGF	2	0	-0.524
+30% epiboly	ZF30_WT_DS5	signal:FGF	2	1	-0.499
+30% epiboly	ZF30_WT_DS5	signal:FGF	2	2	-0.427
+30% epiboly	ZF30_WT_DS5	signal:FGF	2	3	-0.384
+30% epiboly	ZF30_WT_DS5	signal:FGF	2	4	-0.099
+30% epiboly	ZF30_WT_DS5	signal:FGF	2	5	0.078
+30% epiboly	ZF30_WT_DS5	signal:FGF	3	0	-0.401
+30% epiboly	ZF30_WT_DS5	signal:FGF	3	1	-0.500
+30% epiboly	ZF30_WT_DS5	signal:FGF	3	2	-0.425
+30% epiboly	ZF30_WT_DS5	signal:FGF	3	3	-0.397
+30% epiboly	ZF30_WT_DS5	signal:FGF	3	4	-0.466
+30% epiboly	ZF30_WT_DS5	signal:FGF	3	5	-0.338
+30% epiboly	ZF30_WT_DS5	signal:Wnt	0	0	0.249
+30% epiboly	ZF30_WT_DS5	signal:Wnt	0	1	0.076
+30% epiboly	ZF30_WT_DS5	signal:Wnt	0	2	0.237
+30% epiboly	ZF30_WT_DS5	signal:Wnt	0	3	1.231
+30% epiboly	ZF30_WT_DS5	signal:Wnt	0	4	1.252
+30% epiboly	ZF30_WT_DS5	signal:Wnt	0	5	1.831
+30% epiboly	ZF30_WT_DS5	signal:Wnt	1	0	-0.305
+30% epiboly	ZF30_WT_DS5	signal:Wnt	1	1	-0.337
+30% epiboly	ZF30_WT_DS5	signal:Wnt	1	2	-0.253
+30% epiboly	ZF30_WT_DS5	signal:Wnt	1	3	-0.216
+30% epiboly	ZF30_WT_DS5	signal:Wnt	1	4	-0.037
+30% epiboly	ZF30_WT_DS5	signal:Wnt	1	5	-0.422
+30% epiboly	ZF30_WT_DS5	signal:Wnt	2	0	-0.381
+30% epiboly	ZF30_WT_DS5	signal:Wnt	2	1	-0.328
+30% epiboly	ZF30_WT_DS5	signal:Wnt	2	2	-0.305
+30% epiboly	ZF30_WT_DS5	signal:Wnt	2	3	-0.244
+30% epiboly	ZF30_WT_DS5	signal:Wnt	2	4	-0.215
+30% epiboly	ZF30_WT_DS5	signal:Wnt	2	5	-0.077
+30% epiboly	ZF30_WT_DS5	signal:Wnt	3	0	-0.287
+30% epiboly	ZF30_WT_DS5	signal:Wnt	3	1	-0.292
+30% epiboly	ZF30_WT_DS5	signal:Wnt	3	2	-0.334
+30% epiboly	ZF30_WT_DS5	signal:Wnt	3	3	-0.252
+30% epiboly	ZF30_WT_DS5	signal:Wnt	3	4	-0.304
+30% epiboly	ZF30_WT_DS5	signal:Wnt	3	5	-0.412
+30% epiboly	ZF30_WT_DS5	signal:BMP	0	0	0.875
+30% epiboly	ZF30_WT_DS5	signal:BMP	0	1	0.506
+30% epiboly	ZF30_WT_DS5	signal:BMP	0	2	0.665
+30% epiboly	ZF30_WT_DS5	signal:BMP	0	3	-0.067
+30% epiboly	ZF30_WT_DS5	signal:BMP	0	4	-0.349
+30% epiboly	ZF30_WT_DS5	signal:BMP	0	5	-0.503
+30% epiboly	ZF30_WT_DS5	signal:BMP	1	0	0.151
+30% epiboly	ZF30_WT_DS5	signal:BMP	1	1	0.140
+30% epiboly	ZF30_WT_DS5	signal:BMP	1	2	0.229
+30% epiboly	ZF30_WT_DS5	signal:BMP	1	3	-0.280
+30% epiboly	ZF30_WT_DS5	signal:BMP	1	4	-0.156
+30% epiboly	ZF30_WT_DS5	signal:BMP	1	5	-0.037
+30% epiboly	ZF30_WT_DS5	signal:BMP	2	0	-0.156
+30% epiboly	ZF30_WT_DS5	signal:BMP	2	1	0.057
+30% epiboly	ZF30_WT_DS5	signal:BMP	2	2	0.150
+30% epiboly	ZF30_WT_DS5	signal:BMP	2	3	0.122
+30% epiboly	ZF30_WT_DS5	signal:BMP	2	4	0.085
+30% epiboly	ZF30_WT_DS5	signal:BMP	2	5	-0.042
+30% epiboly	ZF30_WT_DS5	signal:BMP	3	0	-0.092
+30% epiboly	ZF30_WT_DS5	signal:BMP	3	1	-0.130
+30% epiboly	ZF30_WT_DS5	signal:BMP	3	2	-0.331
+30% epiboly	ZF30_WT_DS5	signal:BMP	3	3	0.048
+30% epiboly	ZF30_WT_DS5	signal:BMP	3	4	0.296
+30% epiboly	ZF30_WT_DS5	signal:BMP	3	5	-1.368
+30% epiboly	ZF30_WT_DS5	blocking:BMP	0	0	-0.175
+30% epiboly	ZF30_WT_DS5	blocking:BMP	0	1	-0.084
+30% epiboly	ZF30_WT_DS5	blocking:BMP	0	2	-0.181
+30% epiboly	ZF30_WT_DS5	blocking:BMP	0	3	0.236
+30% epiboly	ZF30_WT_DS5	blocking:BMP	0	4	1.291
+30% epiboly	ZF30_WT_DS5	blocking:BMP	0	5	2.134
+30% epiboly	ZF30_WT_DS5	blocking:BMP	1	0	-0.310
+30% epiboly	ZF30_WT_DS5	blocking:BMP	1	1	-0.391
+30% epiboly	ZF30_WT_DS5	blocking:BMP	1	2	-0.330
+30% epiboly	ZF30_WT_DS5	blocking:BMP	1	3	-0.181
+30% epiboly	ZF30_WT_DS5	blocking:BMP	1	4	0.193
+30% epiboly	ZF30_WT_DS5	blocking:BMP	1	5	0.830
+30% epiboly	ZF30_WT_DS5	blocking:BMP	2	0	-0.319
+30% epiboly	ZF30_WT_DS5	blocking:BMP	2	1	-0.327
+30% epiboly	ZF30_WT_DS5	blocking:BMP	2	2	-0.327
+30% epiboly	ZF30_WT_DS5	blocking:BMP	2	3	-0.271
+30% epiboly	ZF30_WT_DS5	blocking:BMP	2	4	-0.036
+30% epiboly	ZF30_WT_DS5	blocking:BMP	2	5	0.095
+30% epiboly	ZF30_WT_DS5	blocking:BMP	3	0	-0.199
+30% epiboly	ZF30_WT_DS5	blocking:BMP	3	1	-0.213
+30% epiboly	ZF30_WT_DS5	blocking:BMP	3	2	-0.348
+30% epiboly	ZF30_WT_DS5	blocking:BMP	3	3	-0.269
+30% epiboly	ZF30_WT_DS5	blocking:BMP	3	4	-0.272
+30% epiboly	ZF30_WT_DS5	blocking:BMP	3	5	-0.248
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	0	0	0.400
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	0	1	0.376
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	0	2	0.508
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	0	3	1.058
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	0	4	0.914
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	0	5	2.316
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	1	0	-0.340
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	1	1	-0.275
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	1	2	-0.273
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	1	3	-0.302
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	1	4	-0.212
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	1	5	-0.167
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	2	0	-0.410
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	2	1	-0.332
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	2	2	-0.338
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	2	3	-0.338
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	2	4	-0.346
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	2	5	-0.245
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	3	0	-0.411
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	3	1	-0.401
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	3	2	-0.385
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	3	3	-0.385
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	3	4	-0.376
+30% epiboly	ZF30_WT_DS5b	signal:Nodal	3	5	-0.356
+30% epiboly	ZF30_WT_DS5b	signal:FGF	0	0	0.236
+30% epiboly	ZF30_WT_DS5b	signal:FGF	0	1	0.363
+30% epiboly	ZF30_WT_DS5b	signal:FGF	0	2	0.452
+30% epiboly	ZF30_WT_DS5b	signal:FGF	0	3	1.201
+30% epiboly	ZF30_WT_DS5b	signal:FGF	0	4	1.319
+30% epiboly	ZF30_WT_DS5b	signal:FGF	0	5	2.326
+30% epiboly	ZF30_WT_DS5b	signal:FGF	1	0	-0.439
+30% epiboly	ZF30_WT_DS5b	signal:FGF	1	1	-0.355
+30% epiboly	ZF30_WT_DS5b	signal:FGF	1	2	-0.221
+30% epiboly	ZF30_WT_DS5b	signal:FGF	1	3	-0.286
+30% epiboly	ZF30_WT_DS5b	signal:FGF	1	4	-0.042
+30% epiboly	ZF30_WT_DS5b	signal:FGF	1	5	0.147
+30% epiboly	ZF30_WT_DS5b	signal:FGF	2	0	-0.597
+30% epiboly	ZF30_WT_DS5b	signal:FGF	2	1	-0.417
+30% epiboly	ZF30_WT_DS5b	signal:FGF	2	2	-0.445
+30% epiboly	ZF30_WT_DS5b	signal:FGF	2	3	-0.393
+30% epiboly	ZF30_WT_DS5b	signal:FGF	2	4	-0.269
+30% epiboly	ZF30_WT_DS5b	signal:FGF	2	5	-0.087
+30% epiboly	ZF30_WT_DS5b	signal:FGF	3	0	-0.552
+30% epiboly	ZF30_WT_DS5b	signal:FGF	3	1	-0.586
+30% epiboly	ZF30_WT_DS5b	signal:FGF	3	2	-0.437
+30% epiboly	ZF30_WT_DS5b	signal:FGF	3	3	-0.389
+30% epiboly	ZF30_WT_DS5b	signal:FGF	3	4	-0.310
+30% epiboly	ZF30_WT_DS5b	signal:FGF	3	5	-0.157
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	0	0	0.375
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	0	1	0.380
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	0	2	0.545
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	0	3	1.472
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	0	4	0.959
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	0	5	1.923
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	1	0	-0.227
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	1	1	-0.366
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	1	2	-0.259
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	1	3	-0.329
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	1	4	-0.238
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	1	5	-0.029
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	2	0	-0.202
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	2	1	-0.322
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	2	2	-0.315
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	2	3	-0.340
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	2	4	-0.349
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	2	5	-0.092
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	3	0	-0.228
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	3	1	-0.384
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	3	2	-0.380
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	3	3	-0.422
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	3	4	-0.311
+30% epiboly	ZF30_WT_DS5b	signal:Wnt	3	5	-0.370
+30% epiboly	ZF30_WT_DS5b	signal:BMP	0	0	0.846
+30% epiboly	ZF30_WT_DS5b	signal:BMP	0	1	0.445
+30% epiboly	ZF30_WT_DS5b	signal:BMP	0	2	0.315
+30% epiboly	ZF30_WT_DS5b	signal:BMP	0	3	-0.417
+30% epiboly	ZF30_WT_DS5b	signal:BMP	0	4	-0.681
+30% epiboly	ZF30_WT_DS5b	signal:BMP	0	5	-0.482
+30% epiboly	ZF30_WT_DS5b	signal:BMP	1	0	0.883
+30% epiboly	ZF30_WT_DS5b	signal:BMP	1	1	0.421
+30% epiboly	ZF30_WT_DS5b	signal:BMP	1	2	0.247
+30% epiboly	ZF30_WT_DS5b	signal:BMP	1	3	0.087
+30% epiboly	ZF30_WT_DS5b	signal:BMP	1	4	-0.367
+30% epiboly	ZF30_WT_DS5b	signal:BMP	1	5	-1.021
+30% epiboly	ZF30_WT_DS5b	signal:BMP	2	0	0.843
+30% epiboly	ZF30_WT_DS5b	signal:BMP	2	1	0.366
+30% epiboly	ZF30_WT_DS5b	signal:BMP	2	2	0.402
+30% epiboly	ZF30_WT_DS5b	signal:BMP	2	3	-0.073
+30% epiboly	ZF30_WT_DS5b	signal:BMP	2	4	-0.309
+30% epiboly	ZF30_WT_DS5b	signal:BMP	2	5	-0.557
+30% epiboly	ZF30_WT_DS5b	signal:BMP	3	0	0.123
+30% epiboly	ZF30_WT_DS5b	signal:BMP	3	1	0.306
+30% epiboly	ZF30_WT_DS5b	signal:BMP	3	2	-0.144
+30% epiboly	ZF30_WT_DS5b	signal:BMP	3	3	-0.485
+30% epiboly	ZF30_WT_DS5b	signal:BMP	3	4	-0.580
+30% epiboly	ZF30_WT_DS5b	signal:BMP	3	5	-1.056
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	0	0	-0.257
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	0	1	-0.156
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	0	2	-0.153
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	0	3	0.273
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	0	4	0.541
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	0	5	2.292
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	1	0	-0.153
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	1	1	-0.295
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	1	2	-0.120
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	1	3	-0.196
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	1	4	0.097
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	1	5	0.994
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	2	0	-0.317
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	2	1	-0.243
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	2	2	-0.292
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	2	3	-0.251
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	2	4	-0.156
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	2	5	0.391
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	3	0	-0.229
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	3	1	-0.389
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	3	2	-0.318
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	3	3	-0.283
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	3	4	-0.271
+30% epiboly	ZF30_WT_DS5b	blocking:BMP	3	5	-0.149
+50% epiboly	ZF50_WT_DS2	signal:Nodal	0	0	0.532
+50% epiboly	ZF50_WT_DS2	signal:Nodal	0	1	0.350
+50% epiboly	ZF50_WT_DS2	signal:Nodal	0	2	0.821
+50% epiboly	ZF50_WT_DS2	signal:Nodal	0	3	0.652
+50% epiboly	ZF50_WT_DS2	signal:Nodal	0	4	1.322
+50% epiboly	ZF50_WT_DS2	signal:Nodal	0	5	2.087
+50% epiboly	ZF50_WT_DS2	signal:Nodal	1	0	-0.356
+50% epiboly	ZF50_WT_DS2	signal:Nodal	1	1	-0.356
+50% epiboly	ZF50_WT_DS2	signal:Nodal	1	2	-0.344
+50% epiboly	ZF50_WT_DS2	signal:Nodal	1	3	-0.325
+50% epiboly	ZF50_WT_DS2	signal:Nodal	1	4	-0.288
+50% epiboly	ZF50_WT_DS2	signal:Nodal	1	5	-0.428
+50% epiboly	ZF50_WT_DS2	signal:Nodal	2	0	-0.420
+50% epiboly	ZF50_WT_DS2	signal:Nodal	2	1	-0.387
+50% epiboly	ZF50_WT_DS2	signal:Nodal	2	2	-0.377
+50% epiboly	ZF50_WT_DS2	signal:Nodal	2	3	-0.349
+50% epiboly	ZF50_WT_DS2	signal:Nodal	2	4	-0.367
+50% epiboly	ZF50_WT_DS2	signal:Nodal	2	5	-0.300
+50% epiboly	ZF50_WT_DS2	signal:Nodal	3	0	-0.429
+50% epiboly	ZF50_WT_DS2	signal:Nodal	3	1	-0.426
+50% epiboly	ZF50_WT_DS2	signal:Nodal	3	2	-0.361
+50% epiboly	ZF50_WT_DS2	signal:Nodal	3	3	-0.395
+50% epiboly	ZF50_WT_DS2	signal:Nodal	3	4	-0.390
+50% epiboly	ZF50_WT_DS2	signal:Nodal	3	5	-0.381
+50% epiboly	ZF50_WT_DS2	signal:FGF	0	0	0.715
+50% epiboly	ZF50_WT_DS2	signal:FGF	0	1	0.428
+50% epiboly	ZF50_WT_DS2	signal:FGF	0	2	0.945
+50% epiboly	ZF50_WT_DS2	signal:FGF	0	3	0.910
+50% epiboly	ZF50_WT_DS2	signal:FGF	0	4	1.192
+50% epiboly	ZF50_WT_DS2	signal:FGF	0	5	2.167
+50% epiboly	ZF50_WT_DS2	signal:FGF	1	0	-0.506
+50% epiboly	ZF50_WT_DS2	signal:FGF	1	1	-0.450
+50% epiboly	ZF50_WT_DS2	signal:FGF	1	2	-0.478
+50% epiboly	ZF50_WT_DS2	signal:FGF	1	3	-0.336
+50% epiboly	ZF50_WT_DS2	signal:FGF	1	4	-0.263
+50% epiboly	ZF50_WT_DS2	signal:FGF	1	5	0.165
+50% epiboly	ZF50_WT_DS2	signal:FGF	2	0	-0.581
+50% epiboly	ZF50_WT_DS2	signal:FGF	2	1	-0.513
+50% epiboly	ZF50_WT_DS2	signal:FGF	2	2	-0.458
+50% epiboly	ZF50_WT_DS2	signal:FGF	2	3	-0.395
+50% epiboly	ZF50_WT_DS2	signal:FGF	2	4	-0.307
+50% epiboly	ZF50_WT_DS2	signal:FGF	2	5	-0.156
+50% epiboly	ZF50_WT_DS2	signal:FGF	3	0	-0.561
+50% epiboly	ZF50_WT_DS2	signal:FGF	3	1	-0.575
+50% epiboly	ZF50_WT_DS2	signal:FGF	3	2	-0.475
+50% epiboly	ZF50_WT_DS2	signal:FGF	3	3	-0.414
+50% epiboly	ZF50_WT_DS2	signal:FGF	3	4	-0.316
+50% epiboly	ZF50_WT_DS2	signal:FGF	3	5	-0.220
+50% epiboly	ZF50_WT_DS2	signal:Wnt	0	0	0.850
+50% epiboly	ZF50_WT_DS2	signal:Wnt	0	1	0.448
+50% epiboly	ZF50_WT_DS2	signal:Wnt	0	2	1.047
+50% epiboly	ZF50_WT_DS2	signal:Wnt	0	3	0.764
+50% epiboly	ZF50_WT_DS2	signal:Wnt	0	4	1.289
+50% epiboly	ZF50_WT_DS2	signal:Wnt	0	5	1.649
+50% epiboly	ZF50_WT_DS2	signal:Wnt	1	0	-0.429
+50% epiboly	ZF50_WT_DS2	signal:Wnt	1	1	-0.385
+50% epiboly	ZF50_WT_DS2	signal:Wnt	1	2	-0.440
+50% epiboly	ZF50_WT_DS2	signal:Wnt	1	3	-0.317
+50% epiboly	ZF50_WT_DS2	signal:Wnt	1	4	-0.281
+50% epiboly	ZF50_WT_DS2	signal:Wnt	1	5	-0.320
+50% epiboly	ZF50_WT_DS2	signal:Wnt	2	0	-0.466
+50% epiboly	ZF50_WT_DS2	signal:Wnt	2	1	-0.454
+50% epiboly	ZF50_WT_DS2	signal:Wnt	2	2	-0.407
+50% epiboly	ZF50_WT_DS2	signal:Wnt	2	3	-0.387
+50% epiboly	ZF50_WT_DS2	signal:Wnt	2	4	-0.387
+50% epiboly	ZF50_WT_DS2	signal:Wnt	2	5	-0.263
+50% epiboly	ZF50_WT_DS2	signal:Wnt	3	0	-0.434
+50% epiboly	ZF50_WT_DS2	signal:Wnt	3	1	-0.405
+50% epiboly	ZF50_WT_DS2	signal:Wnt	3	2	-0.369
+50% epiboly	ZF50_WT_DS2	signal:Wnt	3	3	-0.320
+50% epiboly	ZF50_WT_DS2	signal:Wnt	3	4	-0.247
+50% epiboly	ZF50_WT_DS2	signal:Wnt	3	5	-0.233
+50% epiboly	ZF50_WT_DS2	signal:BMP	0	0	0.741
+50% epiboly	ZF50_WT_DS2	signal:BMP	0	1	0.464
+50% epiboly	ZF50_WT_DS2	signal:BMP	0	2	0.395
+50% epiboly	ZF50_WT_DS2	signal:BMP	0	3	0.068
+50% epiboly	ZF50_WT_DS2	signal:BMP	0	4	0.126
+50% epiboly	ZF50_WT_DS2	signal:BMP	0	5	0.029
+50% epiboly	ZF50_WT_DS2	signal:BMP	1	0	0.453
+50% epiboly	ZF50_WT_DS2	signal:BMP	1	1	0.330
+50% epiboly	ZF50_WT_DS2	signal:BMP	1	2	-0.016
+50% epiboly	ZF50_WT_DS2	signal:BMP	1	3	-0.229
+50% epiboly	ZF50_WT_DS2	signal:BMP	1	4	-0.416
+50% epiboly	ZF50_WT_DS2	signal:BMP	1	5	-1.094
+50% epiboly	ZF50_WT_DS2	signal:BMP	2	0	0.905
+50% epiboly	ZF50_WT_DS2	signal:BMP	2	1	0.407
+50% epiboly	ZF50_WT_DS2	signal:BMP	2	2	0.088
+50% epiboly	ZF50_WT_DS2	signal:BMP	2	3	-0.050
+50% epiboly	ZF50_WT_DS2	signal:BMP	2	4	-0.467
+50% epiboly	ZF50_WT_DS2	signal:BMP	2	5	-0.675
+50% epiboly	ZF50_WT_DS2	signal:BMP	3	0	0.621
+50% epiboly	ZF50_WT_DS2	signal:BMP	3	1	0.479
+50% epiboly	ZF50_WT_DS2	signal:BMP	3	2	0.023
+50% epiboly	ZF50_WT_DS2	signal:BMP	3	3	-0.413
+50% epiboly	ZF50_WT_DS2	signal:BMP	3	4	-0.533
+50% epiboly	ZF50_WT_DS2	signal:BMP	3	5	-1.246
+50% epiboly	ZF50_WT_DS2	blocking:BMP	0	0	-0.264
+50% epiboly	ZF50_WT_DS2	blocking:BMP	0	1	-0.079
+50% epiboly	ZF50_WT_DS2	blocking:BMP	0	2	-0.066
+50% epiboly	ZF50_WT_DS2	blocking:BMP	0	3	0.360
+50% epiboly	ZF50_WT_DS2	blocking:BMP	0	4	0.693
+50% epiboly	ZF50_WT_DS2	blocking:BMP	0	5	2.577
+50% epiboly	ZF50_WT_DS2	blocking:BMP	1	0	-0.369
+50% epiboly	ZF50_WT_DS2	blocking:BMP	1	1	-0.355
+50% epiboly	ZF50_WT_DS2	blocking:BMP	1	2	-0.313
+50% epiboly	ZF50_WT_DS2	blocking:BMP	1	3	-0.227
+50% epiboly	ZF50_WT_DS2	blocking:BMP	1	4	-0.034
+50% epiboly	ZF50_WT_DS2	blocking:BMP	1	5	1.307
+50% epiboly	ZF50_WT_DS2	blocking:BMP	2	0	-0.443
+50% epiboly	ZF50_WT_DS2	blocking:BMP	2	1	-0.417
+50% epiboly	ZF50_WT_DS2	blocking:BMP	2	2	-0.353
+50% epiboly	ZF50_WT_DS2	blocking:BMP	2	3	-0.290
+50% epiboly	ZF50_WT_DS2	blocking:BMP	2	4	-0.209
+50% epiboly	ZF50_WT_DS2	blocking:BMP	2	5	0.310
+50% epiboly	ZF50_WT_DS2	blocking:BMP	3	0	-0.460
+50% epiboly	ZF50_WT_DS2	blocking:BMP	3	1	-0.467
+50% epiboly	ZF50_WT_DS2	blocking:BMP	3	2	-0.415
+50% epiboly	ZF50_WT_DS2	blocking:BMP	3	3	-0.300
+50% epiboly	ZF50_WT_DS2	blocking:BMP	3	4	-0.315
+50% epiboly	ZF50_WT_DS2	blocking:BMP	3	5	-0.039
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	0	0	0.518
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	0	1	0.185
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	0	2	0.781
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	0	3	0.283
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	0	4	0.443
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	0	5	1.123
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	1	0	-0.212
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	1	1	-0.204
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	1	2	-0.196
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	1	3	-0.175
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	1	4	-0.090
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	1	5	-0.260
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	2	0	-0.247
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	2	1	-0.229
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	2	2	-0.222
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	2	3	-0.205
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	2	4	-0.148
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	2	5	-0.197
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	3	0	-0.266
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	3	1	-0.265
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	3	2	-0.277
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	3	3	-0.253
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	3	4	-0.253
+50% epiboly	ZF50_WT_DS2	sending:Hedgehog	3	5	-0.213
+50% epiboly	ZF50_WT_DS3	signal:Nodal	0	0	1.128
+50% epiboly	ZF50_WT_DS3	signal:Nodal	0	1	0.852
+50% epiboly	ZF50_WT_DS3	signal:Nodal	0	2	0.915
+50% epiboly	ZF50_WT_DS3	signal:Nodal	0	3	0.999
+50% epiboly	ZF50_WT_DS3	signal:Nodal	0	4	1.290
+50% epiboly	ZF50_WT_DS3	signal:Nodal	0	5	1.380
+50% epiboly	ZF50_WT_DS3	signal:Nodal	1	0	-0.436
+50% epiboly	ZF50_WT_DS3	signal:Nodal	1	1	-0.419
+50% epiboly	ZF50_WT_DS3	signal:Nodal	1	2	-0.394
+50% epiboly	ZF50_WT_DS3	signal:Nodal	1	3	-0.401
+50% epiboly	ZF50_WT_DS3	signal:Nodal	1	4	-0.213
+50% epiboly	ZF50_WT_DS3	signal:Nodal	1	5	0.872
+50% epiboly	ZF50_WT_DS3	signal:Nodal	2	0	-0.528
+50% epiboly	ZF50_WT_DS3	signal:Nodal	2	1	-0.477
+50% epiboly	ZF50_WT_DS3	signal:Nodal	2	2	-0.462
+50% epiboly	ZF50_WT_DS3	signal:Nodal	2	3	-0.447
+50% epiboly	ZF50_WT_DS3	signal:Nodal	2	4	-0.432
+50% epiboly	ZF50_WT_DS3	signal:Nodal	2	5	0.217
+50% epiboly	ZF50_WT_DS3	signal:Nodal	3	0	-0.584
+50% epiboly	ZF50_WT_DS3	signal:Nodal	3	1	-0.504
+50% epiboly	ZF50_WT_DS3	signal:Nodal	3	2	-0.486
+50% epiboly	ZF50_WT_DS3	signal:Nodal	3	3	-0.490
+50% epiboly	ZF50_WT_DS3	signal:Nodal	3	4	-0.486
+50% epiboly	ZF50_WT_DS3	signal:Nodal	3	5	-0.369
+50% epiboly	ZF50_WT_DS3	signal:FGF	0	0	1.055
+50% epiboly	ZF50_WT_DS3	signal:FGF	0	1	0.808
+50% epiboly	ZF50_WT_DS3	signal:FGF	0	2	0.981
+50% epiboly	ZF50_WT_DS3	signal:FGF	0	3	1.172
+50% epiboly	ZF50_WT_DS3	signal:FGF	0	4	1.754
+50% epiboly	ZF50_WT_DS3	signal:FGF	0	5	2.324
+50% epiboly	ZF50_WT_DS3	signal:FGF	1	0	-0.601
+50% epiboly	ZF50_WT_DS3	signal:FGF	1	1	-0.486
+50% epiboly	ZF50_WT_DS3	signal:FGF	1	2	-0.415
+50% epiboly	ZF50_WT_DS3	signal:FGF	1	3	-0.360
+50% epiboly	ZF50_WT_DS3	signal:FGF	1	4	0.260
+50% epiboly	ZF50_WT_DS3	signal:FGF	1	5	0.763
+50% epiboly	ZF50_WT_DS3	signal:FGF	2	0	-0.739
+50% epiboly	ZF50_WT_DS3	signal:FGF	2	1	-0.677
+50% epiboly	ZF50_WT_DS3	signal:FGF	2	2	-0.607
+50% epiboly	ZF50_WT_DS3	signal:FGF	2	3	-0.547
+50% epiboly	ZF50_WT_DS3	signal:FGF	2	4	-0.361
+50% epiboly	ZF50_WT_DS3	signal:FGF	2	5	0.181
+50% epiboly	ZF50_WT_DS3	signal:FGF	3	0	-0.883
+50% epiboly	ZF50_WT_DS3	signal:FGF	3	1	-0.717
+50% epiboly	ZF50_WT_DS3	signal:FGF	3	2	-0.685
+50% epiboly	ZF50_WT_DS3	signal:FGF	3	3	-0.579
+50% epiboly	ZF50_WT_DS3	signal:FGF	3	4	-0.508
+50% epiboly	ZF50_WT_DS3	signal:FGF	3	5	-0.303
+50% epiboly	ZF50_WT_DS3	signal:Wnt	0	0	1.646
+50% epiboly	ZF50_WT_DS3	signal:Wnt	0	1	1.184
+50% epiboly	ZF50_WT_DS3	signal:Wnt	0	2	1.454
+50% epiboly	ZF50_WT_DS3	signal:Wnt	0	3	1.462
+50% epiboly	ZF50_WT_DS3	signal:Wnt	0	4	1.271
+50% epiboly	ZF50_WT_DS3	signal:Wnt	0	5	0.740
+50% epiboly	ZF50_WT_DS3	signal:Wnt	1	0	-0.487
+50% epiboly	ZF50_WT_DS3	signal:Wnt	1	1	-0.350
+50% epiboly	ZF50_WT_DS3	signal:Wnt	1	2	-0.366
+50% epiboly	ZF50_WT_DS3	signal:Wnt	1	3	-0.190
+50% epiboly	ZF50_WT_DS3	signal:Wnt	1	4	0.019
+50% epiboly	ZF50_WT_DS3	signal:Wnt	1	5	0.084
+50% epiboly	ZF50_WT_DS3	signal:Wnt	2	0	-0.704
+50% epiboly	ZF50_WT_DS3	signal:Wnt	2	1	-0.568
+50% epiboly	ZF50_WT_DS3	signal:Wnt	2	2	-0.561
+50% epiboly	ZF50_WT_DS3	signal:Wnt	2	3	-0.495
+50% epiboly	ZF50_WT_DS3	signal:Wnt	2	4	-0.381
+50% epiboly	ZF50_WT_DS3	signal:Wnt	2	5	-0.306
+50% epiboly	ZF50_WT_DS3	signal:Wnt	3	0	-0.793
+50% epiboly	ZF50_WT_DS3	signal:Wnt	3	1	-0.644
+50% epiboly	ZF50_WT_DS3	signal:Wnt	3	2	-0.619
+50% epiboly	ZF50_WT_DS3	signal:Wnt	3	3	-0.619
+50% epiboly	ZF50_WT_DS3	signal:Wnt	3	4	-0.592
+50% epiboly	ZF50_WT_DS3	signal:Wnt	3	5	-0.431
+50% epiboly	ZF50_WT_DS3	signal:BMP	0	0	0.701
+50% epiboly	ZF50_WT_DS3	signal:BMP	0	1	0.653
+50% epiboly	ZF50_WT_DS3	signal:BMP	0	2	0.278
+50% epiboly	ZF50_WT_DS3	signal:BMP	0	3	0.077
+50% epiboly	ZF50_WT_DS3	signal:BMP	0	4	-0.443
+50% epiboly	ZF50_WT_DS3	signal:BMP	0	5	-0.939
+50% epiboly	ZF50_WT_DS3	signal:BMP	1	0	0.942
+50% epiboly	ZF50_WT_DS3	signal:BMP	1	1	0.757
+50% epiboly	ZF50_WT_DS3	signal:BMP	1	2	0.372
+50% epiboly	ZF50_WT_DS3	signal:BMP	1	3	0.188
+50% epiboly	ZF50_WT_DS3	signal:BMP	1	4	-0.544
+50% epiboly	ZF50_WT_DS3	signal:BMP	1	5	-0.645
+50% epiboly	ZF50_WT_DS3	signal:BMP	2	0	1.039
+50% epiboly	ZF50_WT_DS3	signal:BMP	2	1	0.438
+50% epiboly	ZF50_WT_DS3	signal:BMP	2	2	0.245
+50% epiboly	ZF50_WT_DS3	signal:BMP	2	3	0.129
+50% epiboly	ZF50_WT_DS3	signal:BMP	2	4	-0.447
+50% epiboly	ZF50_WT_DS3	signal:BMP	2	5	-0.885
+50% epiboly	ZF50_WT_DS3	signal:BMP	3	0	0.578
+50% epiboly	ZF50_WT_DS3	signal:BMP	3	1	0.145
+50% epiboly	ZF50_WT_DS3	signal:BMP	3	2	0.139
+50% epiboly	ZF50_WT_DS3	signal:BMP	3	3	-0.294
+50% epiboly	ZF50_WT_DS3	signal:BMP	3	4	-0.851
+50% epiboly	ZF50_WT_DS3	signal:BMP	3	5	-1.344
+50% epiboly	ZF50_WT_DS3	blocking:BMP	0	0	-0.282
+50% epiboly	ZF50_WT_DS3	blocking:BMP	0	1	-0.192
+50% epiboly	ZF50_WT_DS3	blocking:BMP	0	2	-0.089
+50% epiboly	ZF50_WT_DS3	blocking:BMP	0	3	0.010
+50% epiboly	ZF50_WT_DS3	blocking:BMP	0	4	0.641
+50% epiboly	ZF50_WT_DS3	blocking:BMP	0	5	2.473
+50% epiboly	ZF50_WT_DS3	blocking:BMP	1	0	-0.277
+50% epiboly	ZF50_WT_DS3	blocking:BMP	1	1	-0.270
+50% epiboly	ZF50_WT_DS3	blocking:BMP	1	2	-0.266
+50% epiboly	ZF50_WT_DS3	blocking:BMP	1	3	-0.200
+50% epiboly	ZF50_WT_DS3	blocking:BMP	1	4	0.161
+50% epiboly	ZF50_WT_DS3	blocking:BMP	1	5	1.860
+50% epiboly	ZF50_WT_DS3	blocking:BMP	2	0	-0.341
+50% epiboly	ZF50_WT_DS3	blocking:BMP	2	1	-0.293
+50% epiboly	ZF50_WT_DS3	blocking:BMP	2	2	-0.279
+50% epiboly	ZF50_WT_DS3	blocking:BMP	2	3	-0.241
+50% epiboly	ZF50_WT_DS3	blocking:BMP	2	4	-0.155
+50% epiboly	ZF50_WT_DS3	blocking:BMP	2	5	1.081
+50% epiboly	ZF50_WT_DS3	blocking:BMP	3	0	-0.401
+50% epiboly	ZF50_WT_DS3	blocking:BMP	3	1	-0.321
+50% epiboly	ZF50_WT_DS3	blocking:BMP	3	2	-0.320
+50% epiboly	ZF50_WT_DS3	blocking:BMP	3	3	-0.286
+50% epiboly	ZF50_WT_DS3	blocking:BMP	3	4	-0.284
+50% epiboly	ZF50_WT_DS3	blocking:BMP	3	5	0.038
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	0	0	-0.178
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	0	1	-0.108
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	0	2	-0.089
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	0	3	-0.144
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	0	4	-0.084
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	0	5	2.375
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	1	0	-0.142
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	1	1	-0.146
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	1	2	-0.136
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	1	3	-0.126
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	1	4	-0.124
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	1	5	1.113
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	2	0	-0.206
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	2	1	-0.164
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	2	2	-0.145
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	2	3	-0.130
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	2	4	-0.138
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	2	5	0.385
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	3	0	-0.255
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	3	1	-0.188
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	3	2	-0.190
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	3	3	-0.175
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	3	4	-0.183
+50% epiboly	ZF50_WT_DS3	sending:Hedgehog	3	5	-0.069
+50% epiboly	ZF50_WT_DS4	signal:Nodal	0	0	0.838
+50% epiboly	ZF50_WT_DS4	signal:Nodal	0	1	0.655
+50% epiboly	ZF50_WT_DS4	signal:Nodal	0	2	0.500
+50% epiboly	ZF50_WT_DS4	signal:Nodal	0	3	0.310
+50% epiboly	ZF50_WT_DS4	signal:Nodal	0	4	1.200
+50% epiboly	ZF50_WT_DS4	signal:Nodal	0	5	2.116
+50% epiboly	ZF50_WT_DS4	signal:Nodal	1	0	-0.356
+50% epiboly	ZF50_WT_DS4	signal:Nodal	1	1	-0.318
+50% epiboly	ZF50_WT_DS4	signal:Nodal	1	2	-0.310
+50% epiboly	ZF50_WT_DS4	signal:Nodal	1	3	-0.307
+50% epiboly	ZF50_WT_DS4	signal:Nodal	1	4	-0.285
+50% epiboly	ZF50_WT_DS4	signal:Nodal	1	5	0.174
+50% epiboly	ZF50_WT_DS4	signal:Nodal	2	0	-0.384
+50% epiboly	ZF50_WT_DS4	signal:Nodal	2	1	-0.351
+50% epiboly	ZF50_WT_DS4	signal:Nodal	2	2	-0.329
+50% epiboly	ZF50_WT_DS4	signal:Nodal	2	3	-0.350
+50% epiboly	ZF50_WT_DS4	signal:Nodal	2	4	-0.333
+50% epiboly	ZF50_WT_DS4	signal:Nodal	2	5	-0.328
+50% epiboly	ZF50_WT_DS4	signal:Nodal	3	0	-0.404
+50% epiboly	ZF50_WT_DS4	signal:Nodal	3	1	-0.401
+50% epiboly	ZF50_WT_DS4	signal:Nodal	3	2	-0.358
+50% epiboly	ZF50_WT_DS4	signal:Nodal	3	3	-0.370
+50% epiboly	ZF50_WT_DS4	signal:Nodal	3	4	-0.365
+50% epiboly	ZF50_WT_DS4	signal:Nodal	3	5	-0.371
+50% epiboly	ZF50_WT_DS4	signal:FGF	0	0	1.290
+50% epiboly	ZF50_WT_DS4	signal:FGF	0	1	0.796
+50% epiboly	ZF50_WT_DS4	signal:FGF	0	2	0.765
+50% epiboly	ZF50_WT_DS4	signal:FGF	0	3	0.698
+50% epiboly	ZF50_WT_DS4	signal:FGF	0	4	1.204
+50% epiboly	ZF50_WT_DS4	signal:FGF	0	5	2.017
+50% epiboly	ZF50_WT_DS4	signal:FGF	1	0	-0.497
+50% epiboly	ZF50_WT_DS4	signal:FGF	1	1	-0.403
+50% epiboly	ZF50_WT_DS4	signal:FGF	1	2	-0.399
+50% epiboly	ZF50_WT_DS4	signal:FGF	1	3	-0.353
+50% epiboly	ZF50_WT_DS4	signal:FGF	1	4	-0.213
+50% epiboly	ZF50_WT_DS4	signal:FGF	1	5	0.479
+50% epiboly	ZF50_WT_DS4	signal:FGF	2	0	-0.625
+50% epiboly	ZF50_WT_DS4	signal:FGF	2	1	-0.519
+50% epiboly	ZF50_WT_DS4	signal:FGF	2	2	-0.395
+50% epiboly	ZF50_WT_DS4	signal:FGF	2	3	-0.459
+50% epiboly	ZF50_WT_DS4	signal:FGF	2	4	-0.386
+50% epiboly	ZF50_WT_DS4	signal:FGF	2	5	-0.224
+50% epiboly	ZF50_WT_DS4	signal:FGF	3	0	-0.666
+50% epiboly	ZF50_WT_DS4	signal:FGF	3	1	-0.592
+50% epiboly	ZF50_WT_DS4	signal:FGF	3	2	-0.491
+50% epiboly	ZF50_WT_DS4	signal:FGF	3	3	-0.521
+50% epiboly	ZF50_WT_DS4	signal:FGF	3	4	-0.439
+50% epiboly	ZF50_WT_DS4	signal:FGF	3	5	-0.281
+50% epiboly	ZF50_WT_DS4	signal:Wnt	0	0	1.493
+50% epiboly	ZF50_WT_DS4	signal:Wnt	0	1	0.844
+50% epiboly	ZF50_WT_DS4	signal:Wnt	0	2	0.671
+50% epiboly	ZF50_WT_DS4	signal:Wnt	0	3	0.470
+50% epiboly	ZF50_WT_DS4	signal:Wnt	0	4	1.101
+50% epiboly	ZF50_WT_DS4	signal:Wnt	0	5	1.359
+50% epiboly	ZF50_WT_DS4	signal:Wnt	1	0	-0.438
+50% epiboly	ZF50_WT_DS4	signal:Wnt	1	1	-0.427
+50% epiboly	ZF50_WT_DS4	signal:Wnt	1	2	-0.345
+50% epiboly	ZF50_WT_DS4	signal:Wnt	1	3	-0.329
+50% epiboly	ZF50_WT_DS4	signal:Wnt	1	4	-0.319
+50% epiboly	ZF50_WT_DS4	signal:Wnt	1	5	-0.107
+50% epiboly	ZF50_WT_DS4	signal:Wnt	2	0	-0.538
+50% epiboly	ZF50_WT_DS4	signal:Wnt	2	1	-0.420
+50% epiboly	ZF50_WT_DS4	signal:Wnt	2	2	-0.339
+50% epiboly	ZF50_WT_DS4	signal:Wnt	2	3	-0.393
+50% epiboly	ZF50_WT_DS4	signal:Wnt	2	4	-0.430
+50% epiboly	ZF50_WT_DS4	signal:Wnt	2	5	-0.271
+50% epiboly	ZF50_WT_DS4	signal:Wnt	3	0	-0.521
+50% epiboly	ZF50_WT_DS4	signal:Wnt	3	1	-0.516
+50% epiboly	ZF50_WT_DS4	signal:Wnt	3	2	-0.424
+50% epiboly	ZF50_WT_DS4	signal:Wnt	3	3	-0.386
+50% epiboly	ZF50_WT_DS4	signal:Wnt	3	4	-0.272
+50% epiboly	ZF50_WT_DS4	signal:Wnt	3	5	-0.153
+50% epiboly	ZF50_WT_DS4	signal:BMP	0	0	0.558
+50% epiboly	ZF50_WT_DS4	signal:BMP	0	1	0.501
+50% epiboly	ZF50_WT_DS4	signal:BMP	0	2	0.304
+50% epiboly	ZF50_WT_DS4	signal:BMP	0	3	-0.230
+50% epiboly	ZF50_WT_DS4	signal:BMP	0	4	-0.253
+50% epiboly	ZF50_WT_DS4	signal:BMP	0	5	-0.165
+50% epiboly	ZF50_WT_DS4	signal:BMP	1	0	0.512
+50% epiboly	ZF50_WT_DS4	signal:BMP	1	1	0.213
+50% epiboly	ZF50_WT_DS4	signal:BMP	1	2	0.283
+50% epiboly	ZF50_WT_DS4	signal:BMP	1	3	-0.000
+50% epiboly	ZF50_WT_DS4	signal:BMP	1	4	-0.360
+50% epiboly	ZF50_WT_DS4	signal:BMP	1	5	-0.703
+50% epiboly	ZF50_WT_DS4	signal:BMP	2	0	0.663
+50% epiboly	ZF50_WT_DS4	signal:BMP	2	1	0.506
+50% epiboly	ZF50_WT_DS4	signal:BMP	2	2	0.315
+50% epiboly	ZF50_WT_DS4	signal:BMP	2	3	0.009
+50% epiboly	ZF50_WT_DS4	signal:BMP	2	4	-0.098
+50% epiboly	ZF50_WT_DS4	signal:BMP	2	5	-0.686
+50% epiboly	ZF50_WT_DS4	signal:BMP	3	0	0.416
+50% epiboly	ZF50_WT_DS4	signal:BMP	3	1	0.311
+50% epiboly	ZF50_WT_DS4	signal:BMP	3	2	-0.210
+50% epiboly	ZF50_WT_DS4	signal:BMP	3	3	-0.203
+50% epiboly	ZF50_WT_DS4	signal:BMP	3	4	-0.485
+50% epiboly	ZF50_WT_DS4	signal:BMP	3	5	-1.147
+50% epiboly	ZF50_WT_DS4	blocking:BMP	0	0	-0.236
+50% epiboly	ZF50_WT_DS4	blocking:BMP	0	1	-0.184
+50% epiboly	ZF50_WT_DS4	blocking:BMP	0	2	-0.159
+50% epiboly	ZF50_WT_DS4	blocking:BMP	0	3	0.049
+50% epiboly	ZF50_WT_DS4	blocking:BMP	0	4	0.711
+50% epiboly	ZF50_WT_DS4	blocking:BMP	0	5	2.963
+50% epiboly	ZF50_WT_DS4	blocking:BMP	1	0	-0.284
+50% epiboly	ZF50_WT_DS4	blocking:BMP	1	1	-0.255
+50% epiboly	ZF50_WT_DS4	blocking:BMP	1	2	-0.228
+50% epiboly	ZF50_WT_DS4	blocking:BMP	1	3	-0.181
+50% epiboly	ZF50_WT_DS4	blocking:BMP	1	4	-0.027
+50% epiboly	ZF50_WT_DS4	blocking:BMP	1	5	1.377
+50% epiboly	ZF50_WT_DS4	blocking:BMP	2	0	-0.304
+50% epiboly	ZF50_WT_DS4	blocking:BMP	2	1	-0.281
+50% epiboly	ZF50_WT_DS4	blocking:BMP	2	2	-0.247
+50% epiboly	ZF50_WT_DS4	blocking:BMP	2	3	-0.235
+50% epiboly	ZF50_WT_DS4	blocking:BMP	2	4	-0.225
+50% epiboly	ZF50_WT_DS4	blocking:BMP	2	5	-0.022
+50% epiboly	ZF50_WT_DS4	blocking:BMP	3	0	-0.336
+50% epiboly	ZF50_WT_DS4	blocking:BMP	3	1	-0.335
+50% epiboly	ZF50_WT_DS4	blocking:BMP	3	2	-0.311
+50% epiboly	ZF50_WT_DS4	blocking:BMP	3	3	-0.293
+50% epiboly	ZF50_WT_DS4	blocking:BMP	3	4	-0.244
+50% epiboly	ZF50_WT_DS4	blocking:BMP	3	5	-0.163
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	0	0	-0.023
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	0	1	-0.098
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	0	2	-0.023
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	0	3	-0.146
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	0	4	0.449
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	0	5	2.159
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	1	0	-0.166
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	1	1	-0.143
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	1	2	-0.129
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	1	3	-0.127
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	1	4	-0.136
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	1	5	0.197
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	2	0	-0.186
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	2	1	-0.160
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	2	2	-0.143
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	2	3	-0.151
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	2	4	-0.143
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	2	5	-0.135
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	3	0	-0.198
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	3	1	-0.203
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	3	2	-0.183
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	3	3	-0.172
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	3	4	-0.163
+50% epiboly	ZF50_WT_DS4	sending:Hedgehog	3	5	-0.165
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	0	0	0.600
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	0	1	0.798
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	0	2	0.717
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	0	3	0.957
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	0	4	1.080
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	0	5	1.913
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	1	0	-0.362
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	1	1	-0.312
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	1	2	-0.291
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	1	3	-0.270
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	1	4	-0.267
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	1	5	0.226
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	2	0	-0.384
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	2	1	-0.372
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	2	2	-0.340
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	2	3	-0.329
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	2	4	-0.336
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	2	5	-0.242
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	3	0	-0.475
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	3	1	-0.431
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	3	2	-0.415
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	3	3	-0.377
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	3	4	-0.373
+50% epiboly	ZF50_WT_DS4b	signal:Nodal	3	5	-0.336
+50% epiboly	ZF50_WT_DS4b	signal:FGF	0	0	1.031
+50% epiboly	ZF50_WT_DS4b	signal:FGF	0	1	0.659
+50% epiboly	ZF50_WT_DS4b	signal:FGF	0	2	0.600
+50% epiboly	ZF50_WT_DS4b	signal:FGF	0	3	0.969
+50% epiboly	ZF50_WT_DS4b	signal:FGF	0	4	1.070
+50% epiboly	ZF50_WT_DS4b	signal:FGF	0	5	2.248
+50% epiboly	ZF50_WT_DS4b	signal:FGF	1	0	-0.539
+50% epiboly	ZF50_WT_DS4b	signal:FGF	1	1	-0.486
+50% epiboly	ZF50_WT_DS4b	signal:FGF	1	2	-0.394
+50% epiboly	ZF50_WT_DS4b	signal:FGF	1	3	-0.266
+50% epiboly	ZF50_WT_DS4b	signal:FGF	1	4	-0.059
+50% epiboly	ZF50_WT_DS4b	signal:FGF	1	5	0.806
+50% epiboly	ZF50_WT_DS4b	signal:FGF	2	0	-0.628
+50% epiboly	ZF50_WT_DS4b	signal:FGF	2	1	-0.573
+50% epiboly	ZF50_WT_DS4b	signal:FGF	2	2	-0.500
+50% epiboly	ZF50_WT_DS4b	signal:FGF	2	3	-0.459
+50% epiboly	ZF50_WT_DS4b	signal:FGF	2	4	-0.289
+50% epiboly	ZF50_WT_DS4b	signal:FGF	2	5	0.265
+50% epiboly	ZF50_WT_DS4b	signal:FGF	3	0	-0.773
+50% epiboly	ZF50_WT_DS4b	signal:FGF	3	1	-0.676
+50% epiboly	ZF50_WT_DS4b	signal:FGF	3	2	-0.587
+50% epiboly	ZF50_WT_DS4b	signal:FGF	3	3	-0.492
+50% epiboly	ZF50_WT_DS4b	signal:FGF	3	4	-0.427
+50% epiboly	ZF50_WT_DS4b	signal:FGF	3	5	-0.213
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	0	0	1.500
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	0	1	1.011
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	0	2	1.002
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	0	3	1.134
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	0	4	1.220
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	0	5	0.884
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	1	0	-0.431
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	1	1	-0.331
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	1	2	-0.368
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	1	3	-0.373
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	1	4	-0.262
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	1	5	0.161
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	2	0	-0.465
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	2	1	-0.511
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	2	2	-0.433
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	2	3	-0.409
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	2	4	-0.372
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	2	5	-0.241
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	3	0	-0.652
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	3	1	-0.503
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	3	2	-0.418
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	3	3	-0.421
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	3	4	-0.384
+50% epiboly	ZF50_WT_DS4b	signal:Wnt	3	5	-0.425
+50% epiboly	ZF50_WT_DS4b	signal:BMP	0	0	0.790
+50% epiboly	ZF50_WT_DS4b	signal:BMP	0	1	0.412
+50% epiboly	ZF50_WT_DS4b	signal:BMP	0	2	0.537
+50% epiboly	ZF50_WT_DS4b	signal:BMP	0	3	0.293
+50% epiboly	ZF50_WT_DS4b	signal:BMP	0	4	-0.047
+50% epiboly	ZF50_WT_DS4b	signal:BMP	0	5	-0.801
+50% epiboly	ZF50_WT_DS4b	signal:BMP	1	0	1.073
+50% epiboly	ZF50_WT_DS4b	signal:BMP	1	1	0.519
+50% epiboly	ZF50_WT_DS4b	signal:BMP	1	2	0.306
+50% epiboly	ZF50_WT_DS4b	signal:BMP	1	3	0.108
+50% epiboly	ZF50_WT_DS4b	signal:BMP	1	4	-0.439
+50% epiboly	ZF50_WT_DS4b	signal:BMP	1	5	-0.900
+50% epiboly	ZF50_WT_DS4b	signal:BMP	2	0	0.504
+50% epiboly	ZF50_WT_DS4b	signal:BMP	2	1	0.369
+50% epiboly	ZF50_WT_DS4b	signal:BMP	2	2	0.258
+50% epiboly	ZF50_WT_DS4b	signal:BMP	2	3	0.009
+50% epiboly	ZF50_WT_DS4b	signal:BMP	2	4	-0.259
+50% epiboly	ZF50_WT_DS4b	signal:BMP	2	5	-0.958
+50% epiboly	ZF50_WT_DS4b	signal:BMP	3	0	0.667
+50% epiboly	ZF50_WT_DS4b	signal:BMP	3	1	0.358
+50% epiboly	ZF50_WT_DS4b	signal:BMP	3	2	-0.117
+50% epiboly	ZF50_WT_DS4b	signal:BMP	3	3	-0.318
+50% epiboly	ZF50_WT_DS4b	signal:BMP	3	4	-0.646
+50% epiboly	ZF50_WT_DS4b	signal:BMP	3	5	-1.373
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	0	0	-0.281
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	0	1	-0.153
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	0	2	-0.055
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	0	3	-0.038
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	0	4	0.436
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	0	5	3.220
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	1	0	-0.318
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	1	1	-0.276
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	1	2	-0.188
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	1	3	-0.190
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	1	4	0.045
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	1	5	1.677
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	2	0	-0.347
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	2	1	-0.317
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	2	2	-0.278
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	2	3	-0.266
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	2	4	-0.209
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	2	5	0.441
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	3	0	-0.453
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	3	1	-0.400
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	3	2	-0.368
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	3	3	-0.317
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	3	4	-0.283
+50% epiboly	ZF50_WT_DS4b	blocking:BMP	3	5	-0.084
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	0	0	-0.035
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	0	1	0.246
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	0	2	0.799
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	0	3	-0.040
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	0	4	0.069
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	0	5	1.138
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	1	0	-0.180
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	1	1	-0.140
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	1	2	-0.110
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	1	3	-0.077
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	1	4	-0.121
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	1	5	0.677
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	2	0	-0.196
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	2	1	-0.172
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	2	2	-0.144
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	2	3	-0.142
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	2	4	-0.145
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	2	5	0.117
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	3	0	-0.286
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	3	1	-0.247
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	3	2	-0.221
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	3	3	-0.186
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	3	4	-0.178
+50% epiboly	ZF50_WT_DS4b	sending:Hedgehog	3	5	-0.129
+shield	ZFS_WT_DS5	signal:Nodal	0	0	0.465
+shield	ZFS_WT_DS5	signal:Nodal	0	1	0.368
+shield	ZFS_WT_DS5	signal:Nodal	0	2	0.375
+shield	ZFS_WT_DS5	signal:Nodal	0	3	0.535
+shield	ZFS_WT_DS5	signal:Nodal	0	4	0.727
+shield	ZFS_WT_DS5	signal:Nodal	0	5	1.771
+shield	ZFS_WT_DS5	signal:Nodal	1	0	-0.294
+shield	ZFS_WT_DS5	signal:Nodal	1	1	-0.274
+shield	ZFS_WT_DS5	signal:Nodal	1	2	-0.284
+shield	ZFS_WT_DS5	signal:Nodal	1	3	-0.249
+shield	ZFS_WT_DS5	signal:Nodal	1	4	-0.284
+shield	ZFS_WT_DS5	signal:Nodal	1	5	3.172
+shield	ZFS_WT_DS5	signal:Nodal	2	0	-0.365
+shield	ZFS_WT_DS5	signal:Nodal	2	1	-0.359
+shield	ZFS_WT_DS5	signal:Nodal	2	2	-0.351
+shield	ZFS_WT_DS5	signal:Nodal	2	3	-0.326
+shield	ZFS_WT_DS5	signal:Nodal	2	4	-0.301
+shield	ZFS_WT_DS5	signal:Nodal	2	5	0.578
+shield	ZFS_WT_DS5	signal:Nodal	3	0	-0.395
+shield	ZFS_WT_DS5	signal:Nodal	3	1	-0.358
+shield	ZFS_WT_DS5	signal:Nodal	3	2	-0.361
+shield	ZFS_WT_DS5	signal:Nodal	3	3	-0.344
+shield	ZFS_WT_DS5	signal:Nodal	3	4	-0.345
+shield	ZFS_WT_DS5	signal:Nodal	3	5	-0.353
+shield	ZFS_WT_DS5	signal:FGF	0	0	1.235
+shield	ZFS_WT_DS5	signal:FGF	0	1	1.253
+shield	ZFS_WT_DS5	signal:FGF	0	2	0.840
+shield	ZFS_WT_DS5	signal:FGF	0	3	1.044
+shield	ZFS_WT_DS5	signal:FGF	0	4	1.326
+shield	ZFS_WT_DS5	signal:FGF	0	5	2.120
+shield	ZFS_WT_DS5	signal:FGF	1	0	-0.415
+shield	ZFS_WT_DS5	signal:FGF	1	1	-0.408
+shield	ZFS_WT_DS5	signal:FGF	1	2	-0.308
+shield	ZFS_WT_DS5	signal:FGF	1	3	-0.061
+shield	ZFS_WT_DS5	signal:FGF	1	4	0.137
+shield	ZFS_WT_DS5	signal:FGF	1	5	0.969
+shield	ZFS_WT_DS5	signal:FGF	2	0	-0.806
+shield	ZFS_WT_DS5	signal:FGF	2	1	-0.675
+shield	ZFS_WT_DS5	signal:FGF	2	2	-0.754
+shield	ZFS_WT_DS5	signal:FGF	2	3	-0.473
+shield	ZFS_WT_DS5	signal:FGF	2	4	-0.336
+shield	ZFS_WT_DS5	signal:FGF	2	5	0.235
+shield	ZFS_WT_DS5	signal:FGF	3	0	-0.855
+shield	ZFS_WT_DS5	signal:FGF	3	1	-0.962
+shield	ZFS_WT_DS5	signal:FGF	3	2	-0.653
+shield	ZFS_WT_DS5	signal:FGF	3	3	-0.668
+shield	ZFS_WT_DS5	signal:FGF	3	4	-0.638
+shield	ZFS_WT_DS5	signal:FGF	3	5	-0.431
+shield	ZFS_WT_DS5	signal:Wnt	0	0	1.774
+shield	ZFS_WT_DS5	signal:Wnt	0	1	1.390
+shield	ZFS_WT_DS5	signal:Wnt	0	2	1.137
+shield	ZFS_WT_DS5	signal:Wnt	0	3	1.198
+shield	ZFS_WT_DS5	signal:Wnt	0	4	1.037
+shield	ZFS_WT_DS5	signal:Wnt	0	5	0.706
+shield	ZFS_WT_DS5	signal:Wnt	1	0	-0.354
+shield	ZFS_WT_DS5	signal:Wnt	1	1	-0.363
+shield	ZFS_WT_DS5	signal:Wnt	1	2	-0.209
+shield	ZFS_WT_DS5	signal:Wnt	1	3	-0.013
+shield	ZFS_WT_DS5	signal:Wnt	1	4	0.336
+shield	ZFS_WT_DS5	signal:Wnt	1	5	0.077
+shield	ZFS_WT_DS5	signal:Wnt	2	0	-0.759
+shield	ZFS_WT_DS5	signal:Wnt	2	1	-0.663
+shield	ZFS_WT_DS5	signal:Wnt	2	2	-0.718
+shield	ZFS_WT_DS5	signal:Wnt	2	3	-0.491
+shield	ZFS_WT_DS5	signal:Wnt	2	4	-0.360
+shield	ZFS_WT_DS5	signal:Wnt	2	5	-0.252
+shield	ZFS_WT_DS5	signal:Wnt	3	0	-0.878
+shield	ZFS_WT_DS5	signal:Wnt	3	1	-1.014
+shield	ZFS_WT_DS5	signal:Wnt	3	2	-0.885
+shield	ZFS_WT_DS5	signal:Wnt	3	3	-0.794
+shield	ZFS_WT_DS5	signal:Wnt	3	4	-0.708
+shield	ZFS_WT_DS5	signal:Wnt	3	5	-0.455
+shield	ZFS_WT_DS5	signal:BMP	0	0	0.419
+shield	ZFS_WT_DS5	signal:BMP	0	1	0.321
+shield	ZFS_WT_DS5	signal:BMP	0	2	0.703
+shield	ZFS_WT_DS5	signal:BMP	0	3	0.614
+shield	ZFS_WT_DS5	signal:BMP	0	4	0.069
+shield	ZFS_WT_DS5	signal:BMP	0	5	-0.904
+shield	ZFS_WT_DS5	signal:BMP	1	0	1.072
+shield	ZFS_WT_DS5	signal:BMP	1	1	0.909
+shield	ZFS_WT_DS5	signal:BMP	1	2	0.532
+shield	ZFS_WT_DS5	signal:BMP	1	3	0.068
+shield	ZFS_WT_DS5	signal:BMP	1	4	-0.501
+shield	ZFS_WT_DS5	signal:BMP	1	5	0.162
+shield	ZFS_WT_DS5	signal:BMP	2	0	0.851
+shield	ZFS_WT_DS5	signal:BMP	2	1	0.448
+shield	ZFS_WT_DS5	signal:BMP	2	2	0.210
+shield	ZFS_WT_DS5	signal:BMP	2	3	-0.272
+shield	ZFS_WT_DS5	signal:BMP	2	4	-0.598
+shield	ZFS_WT_DS5	signal:BMP	2	5	-0.890
+shield	ZFS_WT_DS5	signal:BMP	3	0	0.577
+shield	ZFS_WT_DS5	signal:BMP	3	1	0.271
+shield	ZFS_WT_DS5	signal:BMP	3	2	0.259
+shield	ZFS_WT_DS5	signal:BMP	3	3	-0.365
+shield	ZFS_WT_DS5	signal:BMP	3	4	-0.813
+shield	ZFS_WT_DS5	signal:BMP	3	5	-1.359
+shield	ZFS_WT_DS5	blocking:BMP	0	0	-0.271
+shield	ZFS_WT_DS5	blocking:BMP	0	1	-0.236
+shield	ZFS_WT_DS5	blocking:BMP	0	2	-0.084
+shield	ZFS_WT_DS5	blocking:BMP	0	3	0.219
+shield	ZFS_WT_DS5	blocking:BMP	0	4	0.528
+shield	ZFS_WT_DS5	blocking:BMP	0	5	2.803
+shield	ZFS_WT_DS5	blocking:BMP	1	0	-0.243
+shield	ZFS_WT_DS5	blocking:BMP	1	1	-0.222
+shield	ZFS_WT_DS5	blocking:BMP	1	2	-0.214
+shield	ZFS_WT_DS5	blocking:BMP	1	3	-0.185
+shield	ZFS_WT_DS5	blocking:BMP	1	4	-0.058
+shield	ZFS_WT_DS5	blocking:BMP	1	5	3.552
+shield	ZFS_WT_DS5	blocking:BMP	2	0	-0.296
+shield	ZFS_WT_DS5	blocking:BMP	2	1	-0.318
+shield	ZFS_WT_DS5	blocking:BMP	2	2	-0.285
+shield	ZFS_WT_DS5	blocking:BMP	2	3	-0.237
+shield	ZFS_WT_DS5	blocking:BMP	2	4	-0.082
+shield	ZFS_WT_DS5	blocking:BMP	2	5	0.813
+shield	ZFS_WT_DS5	blocking:BMP	3	0	-0.333
+shield	ZFS_WT_DS5	blocking:BMP	3	1	-0.329
+shield	ZFS_WT_DS5	blocking:BMP	3	2	-0.293
+shield	ZFS_WT_DS5	blocking:BMP	3	3	-0.242
+shield	ZFS_WT_DS5	blocking:BMP	3	4	-0.199
+shield	ZFS_WT_DS5	blocking:BMP	3	5	-0.064
+shield	ZFS_WT_DS5	sending:Hedgehog	0	0	-0.234
+shield	ZFS_WT_DS5	sending:Hedgehog	0	1	-0.222
+shield	ZFS_WT_DS5	sending:Hedgehog	0	2	0.087
+shield	ZFS_WT_DS5	sending:Hedgehog	0	3	0.642
+shield	ZFS_WT_DS5	sending:Hedgehog	0	4	0.993
+shield	ZFS_WT_DS5	sending:Hedgehog	0	5	3.187
+shield	ZFS_WT_DS5	sending:Hedgehog	1	0	-0.209
+shield	ZFS_WT_DS5	sending:Hedgehog	1	1	-0.203
+shield	ZFS_WT_DS5	sending:Hedgehog	1	2	-0.195
+shield	ZFS_WT_DS5	sending:Hedgehog	1	3	-0.186
+shield	ZFS_WT_DS5	sending:Hedgehog	1	4	-0.060
+shield	ZFS_WT_DS5	sending:Hedgehog	1	5	2.114
+shield	ZFS_WT_DS5	sending:Hedgehog	2	0	-0.241
+shield	ZFS_WT_DS5	sending:Hedgehog	2	1	-0.236
+shield	ZFS_WT_DS5	sending:Hedgehog	2	2	-0.223
+shield	ZFS_WT_DS5	sending:Hedgehog	2	3	-0.100
+shield	ZFS_WT_DS5	sending:Hedgehog	2	4	-0.193
+shield	ZFS_WT_DS5	sending:Hedgehog	2	5	0.097
+shield	ZFS_WT_DS5	sending:Hedgehog	3	0	-0.256
+shield	ZFS_WT_DS5	sending:Hedgehog	3	1	-0.253
+shield	ZFS_WT_DS5	sending:Hedgehog	3	2	-0.228
+shield	ZFS_WT_DS5	sending:Hedgehog	3	3	-0.123
+shield	ZFS_WT_DS5	sending:Hedgehog	3	4	-0.172
+shield	ZFS_WT_DS5	sending:Hedgehog	3	5	-0.223
+60% epiboly	ZF60_WT_DS2	signal:Nodal	0	0	0.984
+60% epiboly	ZF60_WT_DS2	signal:Nodal	0	1	0.194
+60% epiboly	ZF60_WT_DS2	signal:Nodal	0	2	0.257
+60% epiboly	ZF60_WT_DS2	signal:Nodal	0	3	0.154
+60% epiboly	ZF60_WT_DS2	signal:Nodal	0	4	0.501
+60% epiboly	ZF60_WT_DS2	signal:Nodal	0	5	2.160
+60% epiboly	ZF60_WT_DS2	signal:Nodal	1	0	-0.473
+60% epiboly	ZF60_WT_DS2	signal:Nodal	1	1	-0.333
+60% epiboly	ZF60_WT_DS2	signal:Nodal	1	2	-0.289
+60% epiboly	ZF60_WT_DS2	signal:Nodal	1	3	-0.262
+60% epiboly	ZF60_WT_DS2	signal:Nodal	1	4	0.016
+60% epiboly	ZF60_WT_DS2	signal:Nodal	1	5	2.782
+60% epiboly	ZF60_WT_DS2	signal:Nodal	2	0	-0.520
+60% epiboly	ZF60_WT_DS2	signal:Nodal	2	1	-0.462
+60% epiboly	ZF60_WT_DS2	signal:Nodal	2	2	-0.434
+60% epiboly	ZF60_WT_DS2	signal:Nodal	2	3	-0.393
+60% epiboly	ZF60_WT_DS2	signal:Nodal	2	4	-0.388
+60% epiboly	ZF60_WT_DS2	signal:Nodal	2	5	-0.256
+60% epiboly	ZF60_WT_DS2	signal:Nodal	3	0	-0.559
+60% epiboly	ZF60_WT_DS2	signal:Nodal	3	1	-0.535
+60% epiboly	ZF60_WT_DS2	signal:Nodal	3	2	-0.502
+60% epiboly	ZF60_WT_DS2	signal:Nodal	3	3	-0.456
+60% epiboly	ZF60_WT_DS2	signal:Nodal	3	4	-0.452
+60% epiboly	ZF60_WT_DS2	signal:Nodal	3	5	-0.499
+60% epiboly	ZF60_WT_DS2	signal:FGF	0	0	1.417
+60% epiboly	ZF60_WT_DS2	signal:FGF	0	1	0.799
+60% epiboly	ZF60_WT_DS2	signal:FGF	0	2	1.132
+60% epiboly	ZF60_WT_DS2	signal:FGF	0	3	0.857
+60% epiboly	ZF60_WT_DS2	signal:FGF	0	4	1.449
+60% epiboly	ZF60_WT_DS2	signal:FGF	0	5	1.287
+60% epiboly	ZF60_WT_DS2	signal:FGF	1	0	-0.602
+60% epiboly	ZF60_WT_DS2	signal:FGF	1	1	-0.171
+60% epiboly	ZF60_WT_DS2	signal:FGF	1	2	-0.107
+60% epiboly	ZF60_WT_DS2	signal:FGF	1	3	0.200
+60% epiboly	ZF60_WT_DS2	signal:FGF	1	4	1.335
+60% epiboly	ZF60_WT_DS2	signal:FGF	1	5	0.568
+60% epiboly	ZF60_WT_DS2	signal:FGF	2	0	-0.831
+60% epiboly	ZF60_WT_DS2	signal:FGF	2	1	-0.817
+60% epiboly	ZF60_WT_DS2	signal:FGF	2	2	-0.732
+60% epiboly	ZF60_WT_DS2	signal:FGF	2	3	-0.562
+60% epiboly	ZF60_WT_DS2	signal:FGF	2	4	-0.182
+60% epiboly	ZF60_WT_DS2	signal:FGF	2	5	0.642
+60% epiboly	ZF60_WT_DS2	signal:FGF	3	0	-0.925
+60% epiboly	ZF60_WT_DS2	signal:FGF	3	1	-0.945
+60% epiboly	ZF60_WT_DS2	signal:FGF	3	2	-0.850
+60% epiboly	ZF60_WT_DS2	signal:FGF	3	3	-0.738
+60% epiboly	ZF60_WT_DS2	signal:FGF	3	4	-0.606
+60% epiboly	ZF60_WT_DS2	signal:FGF	3	5	-0.475
+60% epiboly	ZF60_WT_DS2	signal:Wnt	0	0	1.697
+60% epiboly	ZF60_WT_DS2	signal:Wnt	0	1	1.374
+60% epiboly	ZF60_WT_DS2	signal:Wnt	0	2	1.277
+60% epiboly	ZF60_WT_DS2	signal:Wnt	0	3	1.234
+60% epiboly	ZF60_WT_DS2	signal:Wnt	0	4	1.280
+60% epiboly	ZF60_WT_DS2	signal:Wnt	0	5	0.026
+60% epiboly	ZF60_WT_DS2	signal:Wnt	1	0	-0.467
+60% epiboly	ZF60_WT_DS2	signal:Wnt	1	1	0.074
+60% epiboly	ZF60_WT_DS2	signal:Wnt	1	2	0.152
+60% epiboly	ZF60_WT_DS2	signal:Wnt	1	3	0.448
+60% epiboly	ZF60_WT_DS2	signal:Wnt	1	4	1.039
+60% epiboly	ZF60_WT_DS2	signal:Wnt	1	5	-0.056
+60% epiboly	ZF60_WT_DS2	signal:Wnt	2	0	-0.914
+60% epiboly	ZF60_WT_DS2	signal:Wnt	2	1	-0.845
+60% epiboly	ZF60_WT_DS2	signal:Wnt	2	2	-0.772
+60% epiboly	ZF60_WT_DS2	signal:Wnt	2	3	-0.527
+60% epiboly	ZF60_WT_DS2	signal:Wnt	2	4	0.050
+60% epiboly	ZF60_WT_DS2	signal:Wnt	2	5	0.318
+60% epiboly	ZF60_WT_DS2	signal:Wnt	3	0	-1.014
+60% epiboly	ZF60_WT_DS2	signal:Wnt	3	1	-1.079
+60% epiboly	ZF60_WT_DS2	signal:Wnt	3	2	-0.908
+60% epiboly	ZF60_WT_DS2	signal:Wnt	3	3	-0.818
+60% epiboly	ZF60_WT_DS2	signal:Wnt	3	4	-0.720
+60% epiboly	ZF60_WT_DS2	signal:Wnt	3	5	-0.659
+60% epiboly	ZF60_WT_DS2	signal:BMP	0	0	0.281
+60% epiboly	ZF60_WT_DS2	signal:BMP	0	1	0.624
+60% epiboly	ZF60_WT_DS2	signal:BMP	0	2	0.114
+60% epiboly	ZF60_WT_DS2	signal:BMP	0	3	0.107
+60% epiboly	ZF60_WT_DS2	signal:BMP	0	4	-0.558
+60% epiboly	ZF60_WT_DS2	signal:BMP	0	5	-0.876
+60% epiboly	ZF60_WT_DS2	signal:BMP	1	0	1.503
+60% epiboly	ZF60_WT_DS2	signal:BMP	1	1	0.887
+60% epiboly	ZF60_WT_DS2	signal:BMP	1	2	0.496
+60% epiboly	ZF60_WT_DS2	signal:BMP	1	3	0.046
+60% epiboly	ZF60_WT_DS2	signal:BMP	1	4	-0.715
+60% epiboly	ZF60_WT_DS2	signal:BMP	1	5	0.224
+60% epiboly	ZF60_WT_DS2	signal:BMP	2	0	1.377
+60% epiboly	ZF60_WT_DS2	signal:BMP	2	1	0.487
+60% epiboly	ZF60_WT_DS2	signal:BMP	2	2	0.158
+60% epiboly	ZF60_WT_DS2	signal:BMP	2	3	-0.219
+60% epiboly	ZF60_WT_DS2	signal:BMP	2	4	-0.794
+60% epiboly	ZF60_WT_DS2	signal:BMP	2	5	-1.447
+60% epiboly	ZF60_WT_DS2	signal:BMP	3	0	1.605
+60% epiboly	ZF60_WT_DS2	signal:BMP	3	1	0.453
+60% epiboly	ZF60_WT_DS2	signal:BMP	3	2	-0.092
+60% epiboly	ZF60_WT_DS2	signal:BMP	3	3	-0.433
+60% epiboly	ZF60_WT_DS2	signal:BMP	3	4	-1.004
+60% epiboly	ZF60_WT_DS2	signal:BMP	3	5	-1.537
+60% epiboly	ZF60_WT_DS2	blocking:BMP	0	0	-0.386
+60% epiboly	ZF60_WT_DS2	blocking:BMP	0	1	-0.350
+60% epiboly	ZF60_WT_DS2	blocking:BMP	0	2	-0.149
+60% epiboly	ZF60_WT_DS2	blocking:BMP	0	3	0.041
+60% epiboly	ZF60_WT_DS2	blocking:BMP	0	4	0.874
+60% epiboly	ZF60_WT_DS2	blocking:BMP	0	5	3.063
+60% epiboly	ZF60_WT_DS2	blocking:BMP	1	0	-0.411
+60% epiboly	ZF60_WT_DS2	blocking:BMP	1	1	-0.345
+60% epiboly	ZF60_WT_DS2	blocking:BMP	1	2	-0.261
+60% epiboly	ZF60_WT_DS2	blocking:BMP	1	3	-0.122
+60% epiboly	ZF60_WT_DS2	blocking:BMP	1	4	0.196
+60% epiboly	ZF60_WT_DS2	blocking:BMP	1	5	3.063
+60% epiboly	ZF60_WT_DS2	blocking:BMP	2	0	-0.452
+60% epiboly	ZF60_WT_DS2	blocking:BMP	2	1	-0.394
+60% epiboly	ZF60_WT_DS2	blocking:BMP	2	2	-0.368
+60% epiboly	ZF60_WT_DS2	blocking:BMP	2	3	-0.314
+60% epiboly	ZF60_WT_DS2	blocking:BMP	2	4	-0.173
+60% epiboly	ZF60_WT_DS2	blocking:BMP	2	5	0.126
+60% epiboly	ZF60_WT_DS2	blocking:BMP	3	0	-0.475
+60% epiboly	ZF60_WT_DS2	blocking:BMP	3	1	-0.465
+60% epiboly	ZF60_WT_DS2	blocking:BMP	3	2	-0.433
+60% epiboly	ZF60_WT_DS2	blocking:BMP	3	3	-0.370
+60% epiboly	ZF60_WT_DS2	blocking:BMP	3	4	-0.297
+60% epiboly	ZF60_WT_DS2	blocking:BMP	3	5	-0.141
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	0	0	-0.270
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	0	1	-0.245
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	0	2	-0.117
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	0	3	-0.124
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	0	4	0.899
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	0	5	4.459
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	1	0	-0.278
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	1	1	-0.241
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	1	2	-0.204
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	1	3	-0.149
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	1	4	0.132
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	1	5	1.017
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	2	0	-0.302
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	2	1	-0.269
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	2	2	-0.254
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	2	3	-0.230
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	2	4	-0.244
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	2	5	-0.172
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	3	0	-0.328
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	3	1	-0.313
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	3	2	-0.261
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	3	3	-0.266
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	3	4	-0.266
+60% epiboly	ZF60_WT_DS2	sending:Hedgehog	3	5	-0.300
+60% epiboly	ZF60_WT_DS3	signal:Nodal	0	0	0.474
+60% epiboly	ZF60_WT_DS3	signal:Nodal	0	1	0.552
+60% epiboly	ZF60_WT_DS3	signal:Nodal	0	2	0.139
+60% epiboly	ZF60_WT_DS3	signal:Nodal	0	3	0.045
+60% epiboly	ZF60_WT_DS3	signal:Nodal	0	4	0.471
+60% epiboly	ZF60_WT_DS3	signal:Nodal	0	5	2.305
+60% epiboly	ZF60_WT_DS3	signal:Nodal	1	0	-0.400
+60% epiboly	ZF60_WT_DS3	signal:Nodal	1	1	-0.327
+60% epiboly	ZF60_WT_DS3	signal:Nodal	1	2	-0.272
+60% epiboly	ZF60_WT_DS3	signal:Nodal	1	3	-0.252
+60% epiboly	ZF60_WT_DS3	signal:Nodal	1	4	-0.073
+60% epiboly	ZF60_WT_DS3	signal:Nodal	1	5	4.380
+60% epiboly	ZF60_WT_DS3	signal:Nodal	2	0	-0.424
+60% epiboly	ZF60_WT_DS3	signal:Nodal	2	1	-0.398
+60% epiboly	ZF60_WT_DS3	signal:Nodal	2	2	-0.391
+60% epiboly	ZF60_WT_DS3	signal:Nodal	2	3	-0.363
+60% epiboly	ZF60_WT_DS3	signal:Nodal	2	4	-0.321
+60% epiboly	ZF60_WT_DS3	signal:Nodal	2	5	0.434
+60% epiboly	ZF60_WT_DS3	signal:Nodal	3	0	-0.482
+60% epiboly	ZF60_WT_DS3	signal:Nodal	3	2	-0.497
+60% epiboly	ZF60_WT_DS3	signal:Nodal	3	3	-0.469
+60% epiboly	ZF60_WT_DS3	signal:Nodal	3	4	-0.415
+60% epiboly	ZF60_WT_DS3	signal:Nodal	3	5	-0.463
+60% epiboly	ZF60_WT_DS3	signal:FGF	0	0	1.123
+60% epiboly	ZF60_WT_DS3	signal:FGF	0	1	0.975
+60% epiboly	ZF60_WT_DS3	signal:FGF	0	2	0.670
+60% epiboly	ZF60_WT_DS3	signal:FGF	0	3	0.394
+60% epiboly	ZF60_WT_DS3	signal:FGF	0	4	1.258
+60% epiboly	ZF60_WT_DS3	signal:FGF	0	5	1.745
+60% epiboly	ZF60_WT_DS3	signal:FGF	1	0	-0.553
+60% epiboly	ZF60_WT_DS3	signal:FGF	1	1	-0.257
+60% epiboly	ZF60_WT_DS3	signal:FGF	1	2	0.115
+60% epiboly	ZF60_WT_DS3	signal:FGF	1	3	0.493
+60% epiboly	ZF60_WT_DS3	signal:FGF	1	4	0.883
+60% epiboly	ZF60_WT_DS3	signal:FGF	1	5	0.275
+60% epiboly	ZF60_WT_DS3	signal:FGF	2	0	-0.876
+60% epiboly	ZF60_WT_DS3	signal:FGF	2	1	-0.789
+60% epiboly	ZF60_WT_DS3	signal:FGF	2	2	-0.748
+60% epiboly	ZF60_WT_DS3	signal:FGF	2	3	-0.562
+60% epiboly	ZF60_WT_DS3	signal:FGF	2	4	0.271
+60% epiboly	ZF60_WT_DS3	signal:FGF	2	5	0.912
+60% epiboly	ZF60_WT_DS3	signal:FGF	3	0	-1.064
+60% epiboly	ZF60_WT_DS3	signal:FGF	3	2	-1.132
+60% epiboly	ZF60_WT_DS3	signal:FGF	3	3	-0.982
+60% epiboly	ZF60_WT_DS3	signal:FGF	3	4	-0.585
+60% epiboly	ZF60_WT_DS3	signal:FGF	3	5	-0.597
+60% epiboly	ZF60_WT_DS3	signal:Wnt	0	0	1.212
+60% epiboly	ZF60_WT_DS3	signal:Wnt	0	1	1.032
+60% epiboly	ZF60_WT_DS3	signal:Wnt	0	2	1.175
+60% epiboly	ZF60_WT_DS3	signal:Wnt	0	3	1.221
+60% epiboly	ZF60_WT_DS3	signal:Wnt	0	4	0.885
+60% epiboly	ZF60_WT_DS3	signal:Wnt	0	5	-0.357
+60% epiboly	ZF60_WT_DS3	signal:Wnt	1	0	-0.317
+60% epiboly	ZF60_WT_DS3	signal:Wnt	1	1	0.065
+60% epiboly	ZF60_WT_DS3	signal:Wnt	1	2	0.296
+60% epiboly	ZF60_WT_DS3	signal:Wnt	1	3	0.586
+60% epiboly	ZF60_WT_DS3	signal:Wnt	1	4	0.708
+60% epiboly	ZF60_WT_DS3	signal:Wnt	1	5	-0.646
+60% epiboly	ZF60_WT_DS3	signal:Wnt	2	0	-0.857
+60% epiboly	ZF60_WT_DS3	signal:Wnt	2	1	-0.736
+60% epiboly	ZF60_WT_DS3	signal:Wnt	2	2	-0.771
+60% epiboly	ZF60_WT_DS3	signal:Wnt	2	3	-0.511
+60% epiboly	ZF60_WT_DS3	signal:Wnt	2	4	0.489
+60% epiboly	ZF60_WT_DS3	signal:Wnt	2	5	0.658
+60% epiboly	ZF60_WT_DS3	signal:Wnt	3	0	-1.116
+60% epiboly	ZF60_WT_DS3	signal:Wnt	3	2	-1.288
+60% epiboly	ZF60_WT_DS3	signal:Wnt	3	3	-1.106
+60% epiboly	ZF60_WT_DS3	signal:Wnt	3	4	-0.610
+60% epiboly	ZF60_WT_DS3	signal:Wnt	3	5	-0.714
+60% epiboly	ZF60_WT_DS3	signal:BMP	0	0	0.227
+60% epiboly	ZF60_WT_DS3	signal:BMP	0	1	-0.019
+60% epiboly	ZF60_WT_DS3	signal:BMP	0	2	-0.344
+60% epiboly	ZF60_WT_DS3	signal:BMP	0	3	-0.762
+60% epiboly	ZF60_WT_DS3	signal:BMP	0	4	-1.021
+60% epiboly	ZF60_WT_DS3	signal:BMP	0	5	-0.892
+60% epiboly	ZF60_WT_DS3	signal:BMP	1	0	1.363
+60% epiboly	ZF60_WT_DS3	signal:BMP	1	1	1.092
+60% epiboly	ZF60_WT_DS3	signal:BMP	1	2	0.476
+60% epiboly	ZF60_WT_DS3	signal:BMP	1	3	-0.226
+60% epiboly	ZF60_WT_DS3	signal:BMP	1	4	-0.446
+60% epiboly	ZF60_WT_DS3	signal:BMP	1	5	0.616
+60% epiboly	ZF60_WT_DS3	signal:BMP	2	0	1.781
+60% epiboly	ZF60_WT_DS3	signal:BMP	2	1	1.146
+60% epiboly	ZF60_WT_DS3	signal:BMP	2	2	0.574
+60% epiboly	ZF60_WT_DS3	signal:BMP	2	3	-0.114
+60% epiboly	ZF60_WT_DS3	signal:BMP	2	4	-0.793
+60% epiboly	ZF60_WT_DS3	signal:BMP	2	5	-1.093
+60% epiboly	ZF60_WT_DS3	signal:BMP	3	0	2.279
+60% epiboly	ZF60_WT_DS3	signal:BMP	3	2	0.628
+60% epiboly	ZF60_WT_DS3	signal:BMP	3	3	-0.298
+60% epiboly	ZF60_WT_DS3	signal:BMP	3	4	-0.847
+60% epiboly	ZF60_WT_DS3	signal:BMP	3	5	-1.156
+60% epiboly	ZF60_WT_DS3	blocking:BMP	0	0	-0.423
+60% epiboly	ZF60_WT_DS3	blocking:BMP	0	1	-0.207
+60% epiboly	ZF60_WT_DS3	blocking:BMP	0	2	0.088
+60% epiboly	ZF60_WT_DS3	blocking:BMP	0	3	1.086
+60% epiboly	ZF60_WT_DS3	blocking:BMP	0	4	1.834
+60% epiboly	ZF60_WT_DS3	blocking:BMP	0	5	3.546
+60% epiboly	ZF60_WT_DS3	blocking:BMP	1	0	-0.432
+60% epiboly	ZF60_WT_DS3	blocking:BMP	1	1	-0.387
+60% epiboly	ZF60_WT_DS3	blocking:BMP	1	2	-0.309
+60% epiboly	ZF60_WT_DS3	blocking:BMP	1	3	-0.012
+60% epiboly	ZF60_WT_DS3	blocking:BMP	1	4	0.413
+60% epiboly	ZF60_WT_DS3	blocking:BMP	1	5	3.840
+60% epiboly	ZF60_WT_DS3	blocking:BMP	2	0	-0.445
+60% epiboly	ZF60_WT_DS3	blocking:BMP	2	1	-0.402
+60% epiboly	ZF60_WT_DS3	blocking:BMP	2	2	-0.390
+60% epiboly	ZF60_WT_DS3	blocking:BMP	2	3	-0.295
+60% epiboly	ZF60_WT_DS3	blocking:BMP	2	4	-0.018
+60% epiboly	ZF60_WT_DS3	blocking:BMP	2	5	0.174
+60% epiboly	ZF60_WT_DS3	blocking:BMP	3	0	-0.474
+60% epiboly	ZF60_WT_DS3	blocking:BMP	3	2	-0.511
+60% epiboly	ZF60_WT_DS3	blocking:BMP	3	3	-0.456
+60% epiboly	ZF60_WT_DS3	blocking:BMP	3	4	-0.182
+60% epiboly	ZF60_WT_DS3	blocking:BMP	3	5	-0.111
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	0	0	-0.247
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	0	1	-0.198
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	0	2	-0.179
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	0	3	0.244
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	0	4	1.202
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	0	5	5.874
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	1	0	-0.223
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	1	1	-0.204
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	1	2	-0.192
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	1	3	-0.190
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	1	4	0.031
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	1	5	1.004
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	2	0	-0.179
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	2	1	-0.180
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	2	2	-0.175
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	2	3	-0.193
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	2	4	-0.153
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	2	5	0.261
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	3	0	-0.240
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	3	2	-0.255
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	3	3	-0.226
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	3	4	-0.194
+60% epiboly	ZF60_WT_DS3	sending:Hedgehog	3	5	-0.207
+60% epiboly	ZF60_WT_DS4	signal:Nodal	0	0	0.397
+60% epiboly	ZF60_WT_DS4	signal:Nodal	0	1	0.459
+60% epiboly	ZF60_WT_DS4	signal:Nodal	0	2	0.353
+60% epiboly	ZF60_WT_DS4	signal:Nodal	0	3	0.476
+60% epiboly	ZF60_WT_DS4	signal:Nodal	0	4	0.278
+60% epiboly	ZF60_WT_DS4	signal:Nodal	0	5	2.516
+60% epiboly	ZF60_WT_DS4	signal:Nodal	1	0	-0.479
+60% epiboly	ZF60_WT_DS4	signal:Nodal	1	1	-0.365
+60% epiboly	ZF60_WT_DS4	signal:Nodal	1	2	-0.352
+60% epiboly	ZF60_WT_DS4	signal:Nodal	1	3	-0.151
+60% epiboly	ZF60_WT_DS4	signal:Nodal	1	4	0.256
+60% epiboly	ZF60_WT_DS4	signal:Nodal	1	5	3.607
+60% epiboly	ZF60_WT_DS4	signal:Nodal	2	0	-0.507
+60% epiboly	ZF60_WT_DS4	signal:Nodal	2	1	-0.473
+60% epiboly	ZF60_WT_DS4	signal:Nodal	2	2	-0.455
+60% epiboly	ZF60_WT_DS4	signal:Nodal	2	3	-0.452
+60% epiboly	ZF60_WT_DS4	signal:Nodal	2	4	-0.318
+60% epiboly	ZF60_WT_DS4	signal:Nodal	2	5	0.123
+60% epiboly	ZF60_WT_DS4	signal:Nodal	3	0	-0.538
+60% epiboly	ZF60_WT_DS4	signal:Nodal	3	1	-0.536
+60% epiboly	ZF60_WT_DS4	signal:Nodal	3	2	-0.523
+60% epiboly	ZF60_WT_DS4	signal:Nodal	3	3	-0.506
+60% epiboly	ZF60_WT_DS4	signal:Nodal	3	4	-0.459
+60% epiboly	ZF60_WT_DS4	signal:Nodal	3	5	-0.485
+60% epiboly	ZF60_WT_DS4	signal:FGF	0	0	0.581
+60% epiboly	ZF60_WT_DS4	signal:FGF	0	1	1.025
+60% epiboly	ZF60_WT_DS4	signal:FGF	0	2	1.040
+60% epiboly	ZF60_WT_DS4	signal:FGF	0	3	1.053
+60% epiboly	ZF60_WT_DS4	signal:FGF	0	4	0.683
+60% epiboly	ZF60_WT_DS4	signal:FGF	0	5	2.031
+60% epiboly	ZF60_WT_DS4	signal:FGF	1	0	-0.300
+60% epiboly	ZF60_WT_DS4	signal:FGF	1	1	-0.030
+60% epiboly	ZF60_WT_DS4	signal:FGF	1	2	0.085
+60% epiboly	ZF60_WT_DS4	signal:FGF	1	3	0.440
+60% epiboly	ZF60_WT_DS4	signal:FGF	1	4	0.842
+60% epiboly	ZF60_WT_DS4	signal:FGF	1	5	0.911
+60% epiboly	ZF60_WT_DS4	signal:FGF	2	0	-0.875
+60% epiboly	ZF60_WT_DS4	signal:FGF	2	1	-0.803
+60% epiboly	ZF60_WT_DS4	signal:FGF	2	2	-0.732
+60% epiboly	ZF60_WT_DS4	signal:FGF	2	3	-0.655
+60% epiboly	ZF60_WT_DS4	signal:FGF	2	4	-0.139
+60% epiboly	ZF60_WT_DS4	signal:FGF	2	5	0.505
+60% epiboly	ZF60_WT_DS4	signal:FGF	3	0	-0.927
+60% epiboly	ZF60_WT_DS4	signal:FGF	3	1	-0.992
+60% epiboly	ZF60_WT_DS4	signal:FGF	3	2	-0.831
+60% epiboly	ZF60_WT_DS4	signal:FGF	3	3	-0.842
+60% epiboly	ZF60_WT_DS4	signal:FGF	3	4	-0.636
+60% epiboly	ZF60_WT_DS4	signal:FGF	3	5	-0.588
+60% epiboly	ZF60_WT_DS4	signal:Wnt	0	0	1.290
+60% epiboly	ZF60_WT_DS4	signal:Wnt	0	1	1.542
+60% epiboly	ZF60_WT_DS4	signal:Wnt	0	2	1.400
+60% epiboly	ZF60_WT_DS4	signal:Wnt	0	3	1.392
+60% epiboly	ZF60_WT_DS4	signal:Wnt	0	4	1.271
+60% epiboly	ZF60_WT_DS4	signal:Wnt	0	5	0.118
+60% epiboly	ZF60_WT_DS4	signal:Wnt	1	0	-0.259
+60% epiboly	ZF60_WT_DS4	signal:Wnt	1	1	-0.047
+60% epiboly	ZF60_WT_DS4	signal:Wnt	1	2	0.089
+60% epiboly	ZF60_WT_DS4	signal:Wnt	1	3	0.515
+60% epiboly	ZF60_WT_DS4	signal:Wnt	1	4	0.749
+60% epiboly	ZF60_WT_DS4	signal:Wnt	1	5	-0.422
+60% epiboly	ZF60_WT_DS4	signal:Wnt	2	0	-0.927
+60% epiboly	ZF60_WT_DS4	signal:Wnt	2	1	-0.856
+60% epiboly	ZF60_WT_DS4	signal:Wnt	2	2	-0.769
+60% epiboly	ZF60_WT_DS4	signal:Wnt	2	3	-0.611
+60% epiboly	ZF60_WT_DS4	signal:Wnt	2	4	0.084
+60% epiboly	ZF60_WT_DS4	signal:Wnt	2	5	0.183
+60% epiboly	ZF60_WT_DS4	signal:Wnt	3	0	-1.017
+60% epiboly	ZF60_WT_DS4	signal:Wnt	3	1	-1.075
+60% epiboly	ZF60_WT_DS4	signal:Wnt	3	2	-0.965
+60% epiboly	ZF60_WT_DS4	signal:Wnt	3	3	-0.851
+60% epiboly	ZF60_WT_DS4	signal:Wnt	3	4	-0.699
+60% epiboly	ZF60_WT_DS4	signal:Wnt	3	5	-0.719
+60% epiboly	ZF60_WT_DS4	signal:BMP	0	0	0.489
+60% epiboly	ZF60_WT_DS4	signal:BMP	0	1	0.156
+60% epiboly	ZF60_WT_DS4	signal:BMP	0	2	0.065
+60% epiboly	ZF60_WT_DS4	signal:BMP	0	3	-0.580
+60% epiboly	ZF60_WT_DS4	signal:BMP	0	4	-1.138
+60% epiboly	ZF60_WT_DS4	signal:BMP	0	5	-1.058
+60% epiboly	ZF60_WT_DS4	signal:BMP	1	0	1.433
+60% epiboly	ZF60_WT_DS4	signal:BMP	1	1	1.177
+60% epiboly	ZF60_WT_DS4	signal:BMP	1	2	0.837
+60% epiboly	ZF60_WT_DS4	signal:BMP	1	3	0.058
+60% epiboly	ZF60_WT_DS4	signal:BMP	1	4	-0.735
+60% epiboly	ZF60_WT_DS4	signal:BMP	1	5	0.139
+60% epiboly	ZF60_WT_DS4	signal:BMP	2	0	1.305
+60% epiboly	ZF60_WT_DS4	signal:BMP	2	1	0.726
+60% epiboly	ZF60_WT_DS4	signal:BMP	2	2	0.407
+60% epiboly	ZF60_WT_DS4	signal:BMP	2	3	-0.082
+60% epiboly	ZF60_WT_DS4	signal:BMP	2	4	-0.745
+60% epiboly	ZF60_WT_DS4	signal:BMP	2	5	-1.093
+60% epiboly	ZF60_WT_DS4	signal:BMP	3	0	1.444
+60% epiboly	ZF60_WT_DS4	signal:BMP	3	1	0.794
+60% epiboly	ZF60_WT_DS4	signal:BMP	3	2	0.415
+60% epiboly	ZF60_WT_DS4	signal:BMP	3	3	-0.407
+60% epiboly	ZF60_WT_DS4	signal:BMP	3	4	-0.976
+60% epiboly	ZF60_WT_DS4	signal:BMP	3	5	-1.400
+60% epiboly	ZF60_WT_DS4	blocking:BMP	0	0	-0.349
+60% epiboly	ZF60_WT_DS4	blocking:BMP	0	1	-0.302
+60% epiboly	ZF60_WT_DS4	blocking:BMP	0	2	-0.154
+60% epiboly	ZF60_WT_DS4	blocking:BMP	0	3	0.297
+60% epiboly	ZF60_WT_DS4	blocking:BMP	0	4	1.526
+60% epiboly	ZF60_WT_DS4	blocking:BMP	0	5	3.137
+60% epiboly	ZF60_WT_DS4	blocking:BMP	1	0	-0.343
+60% epiboly	ZF60_WT_DS4	blocking:BMP	1	1	-0.339
+60% epiboly	ZF60_WT_DS4	blocking:BMP	1	2	-0.284
+60% epiboly	ZF60_WT_DS4	blocking:BMP	1	3	-0.074
+60% epiboly	ZF60_WT_DS4	blocking:BMP	1	4	0.185
+60% epiboly	ZF60_WT_DS4	blocking:BMP	1	5	3.856
+60% epiboly	ZF60_WT_DS4	blocking:BMP	2	0	-0.397
+60% epiboly	ZF60_WT_DS4	blocking:BMP	2	1	-0.369
+60% epiboly	ZF60_WT_DS4	blocking:BMP	2	2	-0.345
+60% epiboly	ZF60_WT_DS4	blocking:BMP	2	3	-0.308
+60% epiboly	ZF60_WT_DS4	blocking:BMP	2	4	-0.163
+60% epiboly	ZF60_WT_DS4	blocking:BMP	2	5	0.127
+60% epiboly	ZF60_WT_DS4	blocking:BMP	3	0	-0.425
+60% epiboly	ZF60_WT_DS4	blocking:BMP	3	1	-0.406
+60% epiboly	ZF60_WT_DS4	blocking:BMP	3	2	-0.390
+60% epiboly	ZF60_WT_DS4	blocking:BMP	3	3	-0.358
+60% epiboly	ZF60_WT_DS4	blocking:BMP	3	4	-0.267
+60% epiboly	ZF60_WT_DS4	blocking:BMP	3	5	-0.155
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	0	0	-0.245
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	0	1	-0.145
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	0	2	-0.007
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	0	3	0.360
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	0	4	0.988
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	0	5	5.001
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	1	0	-0.229
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	1	1	-0.221
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	1	2	-0.198
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	1	3	-0.155
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	1	4	-0.045
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	1	5	1.048
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	2	0	-0.265
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	2	1	-0.249
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	2	2	-0.236
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	2	3	-0.240
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	2	4	-0.228
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	2	5	-0.170
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	3	0	-0.279
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	3	1	-0.277
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	3	2	-0.270
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	3	3	-0.262
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	3	4	-0.257
+60% epiboly	ZF60_WT_DS4	sending:Hedgehog	3	5	-0.276
+75% epiboly	ZF75_WT_DS2	signal:Nodal	0	0	0.155
+75% epiboly	ZF75_WT_DS2	signal:Nodal	0	1	0.062
+75% epiboly	ZF75_WT_DS2	signal:Nodal	0	2	0.148
+75% epiboly	ZF75_WT_DS2	signal:Nodal	0	3	0.095
+75% epiboly	ZF75_WT_DS2	signal:Nodal	0	4	1.432
+75% epiboly	ZF75_WT_DS2	signal:Nodal	0	5	2.589
+75% epiboly	ZF75_WT_DS2	signal:Nodal	1	0	-0.417
+75% epiboly	ZF75_WT_DS2	signal:Nodal	1	1	-0.355
+75% epiboly	ZF75_WT_DS2	signal:Nodal	1	2	-0.232
+75% epiboly	ZF75_WT_DS2	signal:Nodal	1	3	-0.137
+75% epiboly	ZF75_WT_DS2	signal:Nodal	1	4	0.394
+75% epiboly	ZF75_WT_DS2	signal:Nodal	1	5	3.356
+75% epiboly	ZF75_WT_DS2	signal:Nodal	2	0	-0.443
+75% epiboly	ZF75_WT_DS2	signal:Nodal	2	1	-0.414
+75% epiboly	ZF75_WT_DS2	signal:Nodal	2	2	-0.404
+75% epiboly	ZF75_WT_DS2	signal:Nodal	2	3	-0.358
+75% epiboly	ZF75_WT_DS2	signal:Nodal	2	4	-0.240
+75% epiboly	ZF75_WT_DS2	signal:Nodal	2	5	0.649
+75% epiboly	ZF75_WT_DS2	signal:Nodal	3	0	-0.456
+75% epiboly	ZF75_WT_DS2	signal:Nodal	3	1	-0.477
+75% epiboly	ZF75_WT_DS2	signal:Nodal	3	2	-0.376
+75% epiboly	ZF75_WT_DS2	signal:Nodal	3	3	-0.394
+75% epiboly	ZF75_WT_DS2	signal:Nodal	3	4	-0.370
+75% epiboly	ZF75_WT_DS2	signal:Nodal	3	5	-0.335
+75% epiboly	ZF75_WT_DS2	signal:FGF	0	0	0.569
+75% epiboly	ZF75_WT_DS2	signal:FGF	0	1	0.637
+75% epiboly	ZF75_WT_DS2	signal:FGF	0	2	1.301
+75% epiboly	ZF75_WT_DS2	signal:FGF	0	3	0.996
+75% epiboly	ZF75_WT_DS2	signal:FGF	0	4	3.288
+75% epiboly	ZF75_WT_DS2	signal:FGF	0	5	1.387
+75% epiboly	ZF75_WT_DS2	signal:FGF	1	0	-0.662
+75% epiboly	ZF75_WT_DS2	signal:FGF	1	1	-0.402
+75% epiboly	ZF75_WT_DS2	signal:FGF	1	2	0.276
+75% epiboly	ZF75_WT_DS2	signal:FGF	1	3	0.837
+75% epiboly	ZF75_WT_DS2	signal:FGF	1	4	0.958
+75% epiboly	ZF75_WT_DS2	signal:FGF	1	5	0.521
+75% epiboly	ZF75_WT_DS2	signal:FGF	2	0	-0.871
+75% epiboly	ZF75_WT_DS2	signal:FGF	2	1	-0.800
+75% epiboly	ZF75_WT_DS2	signal:FGF	2	2	-0.727
+75% epiboly	ZF75_WT_DS2	signal:FGF	2	3	-0.451
+75% epiboly	ZF75_WT_DS2	signal:FGF	2	4	-0.095
+75% epiboly	ZF75_WT_DS2	signal:FGF	2	5	1.458
+75% epiboly	ZF75_WT_DS2	signal:FGF	3	0	-0.889
+75% epiboly	ZF75_WT_DS2	signal:FGF	3	1	-0.981
+75% epiboly	ZF75_WT_DS2	signal:FGF	3	2	-0.776
+75% epiboly	ZF75_WT_DS2	signal:FGF	3	3	-0.684
+75% epiboly	ZF75_WT_DS2	signal:FGF	3	4	-0.439
+75% epiboly	ZF75_WT_DS2	signal:FGF	3	5	-0.429
+75% epiboly	ZF75_WT_DS2	signal:Wnt	0	0	0.862
+75% epiboly	ZF75_WT_DS2	signal:Wnt	0	1	1.094
+75% epiboly	ZF75_WT_DS2	signal:Wnt	0	2	1.511
+75% epiboly	ZF75_WT_DS2	signal:Wnt	0	3	1.037
+75% epiboly	ZF75_WT_DS2	signal:Wnt	0	4	1.155
+75% epiboly	ZF75_WT_DS2	signal:Wnt	0	5	-0.188
+75% epiboly	ZF75_WT_DS2	signal:Wnt	1	0	-0.562
+75% epiboly	ZF75_WT_DS2	signal:Wnt	1	1	-0.141
+75% epiboly	ZF75_WT_DS2	signal:Wnt	1	2	0.468
+75% epiboly	ZF75_WT_DS2	signal:Wnt	1	3	0.739
+75% epiboly	ZF75_WT_DS2	signal:Wnt	1	4	0.737
+75% epiboly	ZF75_WT_DS2	signal:Wnt	1	5	-0.398
+75% epiboly	ZF75_WT_DS2	signal:Wnt	2	0	-0.984
+75% epiboly	ZF75_WT_DS2	signal:Wnt	2	1	-0.947
+75% epiboly	ZF75_WT_DS2	signal:Wnt	2	2	-0.815
+75% epiboly	ZF75_WT_DS2	signal:Wnt	2	3	-0.426
+75% epiboly	ZF75_WT_DS2	signal:Wnt	2	4	0.222
+75% epiboly	ZF75_WT_DS2	signal:Wnt	2	5	0.773
+75% epiboly	ZF75_WT_DS2	signal:Wnt	3	0	-1.157
+75% epiboly	ZF75_WT_DS2	signal:Wnt	3	1	-0.917
+75% epiboly	ZF75_WT_DS2	signal:Wnt	3	2	-0.753
+75% epiboly	ZF75_WT_DS2	signal:Wnt	3	3	-0.751
+75% epiboly	ZF75_WT_DS2	signal:Wnt	3	4	-0.281
+75% epiboly	ZF75_WT_DS2	signal:Wnt	3	5	-0.602
+75% epiboly	ZF75_WT_DS2	signal:BMP	0	0	0.600
+75% epiboly	ZF75_WT_DS2	signal:BMP	0	1	0.070
+75% epiboly	ZF75_WT_DS2	signal:BMP	0	2	-0.727
+75% epiboly	ZF75_WT_DS2	signal:BMP	0	3	-0.631
+75% epiboly	ZF75_WT_DS2	signal:BMP	0	4	-0.747
+75% epiboly	ZF75_WT_DS2	signal:BMP	0	5	-0.679
+75% epiboly	ZF75_WT_DS2	signal:BMP	1	0	2.060
+75% epiboly	ZF75_WT_DS2	signal:BMP	1	1	1.216
+75% epiboly	ZF75_WT_DS2	signal:BMP	1	2	0.249
+75% epiboly	ZF75_WT_DS2	signal:BMP	1	3	-0.359
+75% epiboly	ZF75_WT_DS2	signal:BMP	1	4	-0.295
+75% epiboly	ZF75_WT_DS2	signal:BMP	1	5	0.180
+75% epiboly	ZF75_WT_DS2	signal:BMP	2	0	1.730
+75% epiboly	ZF75_WT_DS2	signal:BMP	2	1	0.911
+75% epiboly	ZF75_WT_DS2	signal:BMP	2	2	0.272
+75% epiboly	ZF75_WT_DS2	signal:BMP	2	3	-0.332
+75% epiboly	ZF75_WT_DS2	signal:BMP	2	4	-0.703
+75% epiboly	ZF75_WT_DS2	signal:BMP	2	5	-0.981
+75% epiboly	ZF75_WT_DS2	signal:BMP	3	0	2.166
+75% epiboly	ZF75_WT_DS2	signal:BMP	3	1	0.814
+75% epiboly	ZF75_WT_DS2	signal:BMP	3	2	0.359
+75% epiboly	ZF75_WT_DS2	signal:BMP	3	3	-0.452
+75% epiboly	ZF75_WT_DS2	signal:BMP	3	4	-0.792
+75% epiboly	ZF75_WT_DS2	signal:BMP	3	5	-1.124
+75% epiboly	ZF75_WT_DS2	blocking:BMP	0	0	-0.448
+75% epiboly	ZF75_WT_DS2	blocking:BMP	0	1	-0.340
+75% epiboly	ZF75_WT_DS2	blocking:BMP	0	2	0.129
+75% epiboly	ZF75_WT_DS2	blocking:BMP	0	3	0.734
+75% epiboly	ZF75_WT_DS2	blocking:BMP	0	4	0.537
+75% epiboly	ZF75_WT_DS2	blocking:BMP	0	5	3.407
+75% epiboly	ZF75_WT_DS2	blocking:BMP	1	0	-0.423
+75% epiboly	ZF75_WT_DS2	blocking:BMP	1	1	-0.398
+75% epiboly	ZF75_WT_DS2	blocking:BMP	1	2	-0.242
+75% epiboly	ZF75_WT_DS2	blocking:BMP	1	3	0.100
+75% epiboly	ZF75_WT_DS2	blocking:BMP	1	4	0.602
+75% epiboly	ZF75_WT_DS2	blocking:BMP	1	5	2.542
+75% epiboly	ZF75_WT_DS2	blocking:BMP	2	0	-0.487
+75% epiboly	ZF75_WT_DS2	blocking:BMP	2	1	-0.484
+75% epiboly	ZF75_WT_DS2	blocking:BMP	2	2	-0.462
+75% epiboly	ZF75_WT_DS2	blocking:BMP	2	3	-0.308
+75% epiboly	ZF75_WT_DS2	blocking:BMP	2	4	-0.023
+75% epiboly	ZF75_WT_DS2	blocking:BMP	2	5	0.065
+75% epiboly	ZF75_WT_DS2	blocking:BMP	3	0	-0.554
+75% epiboly	ZF75_WT_DS2	blocking:BMP	3	1	-0.620
+75% epiboly	ZF75_WT_DS2	blocking:BMP	3	2	-0.464
+75% epiboly	ZF75_WT_DS2	blocking:BMP	3	3	-0.363
+75% epiboly	ZF75_WT_DS2	blocking:BMP	3	4	-0.080
+75% epiboly	ZF75_WT_DS2	blocking:BMP	3	5	-0.049
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	0	0	-0.258
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	0	1	-0.229
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	0	2	-0.116
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	0	3	0.205
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	0	4	2.903
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	0	5	4.909
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	1	0	-0.247
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	1	1	-0.229
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	1	2	-0.165
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	1	3	-0.038
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	1	4	0.314
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	1	5	0.490
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	2	0	-0.268
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	2	1	-0.249
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	2	2	-0.246
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	2	3	-0.213
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	2	4	-0.183
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	2	5	0.164
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	3	0	-0.288
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	3	1	-0.304
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	3	2	-0.233
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	3	3	-0.239
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	3	4	-0.221
+75% epiboly	ZF75_WT_DS2	sending:Hedgehog	3	5	-0.224
+75% epiboly	ZF75_WT_DS3	signal:Nodal	0	0	0.027
+75% epiboly	ZF75_WT_DS3	signal:Nodal	0	1	0.138
+75% epiboly	ZF75_WT_DS3	signal:Nodal	0	2	-0.046
+75% epiboly	ZF75_WT_DS3	signal:Nodal	0	3	0.034
+75% epiboly	ZF75_WT_DS3	signal:Nodal	0	4	0.584
+75% epiboly	ZF75_WT_DS3	signal:Nodal	0	5	1.974
+75% epiboly	ZF75_WT_DS3	signal:Nodal	1	0	-0.410
+75% epiboly	ZF75_WT_DS3	signal:Nodal	1	1	-0.330
+75% epiboly	ZF75_WT_DS3	signal:Nodal	1	2	-0.277
+75% epiboly	ZF75_WT_DS3	signal:Nodal	1	3	-0.181
+75% epiboly	ZF75_WT_DS3	signal:Nodal	1	4	0.058
+75% epiboly	ZF75_WT_DS3	signal:Nodal	1	5	3.925
+75% epiboly	ZF75_WT_DS3	signal:Nodal	2	0	-0.434
+75% epiboly	ZF75_WT_DS3	signal:Nodal	2	1	-0.421
+75% epiboly	ZF75_WT_DS3	signal:Nodal	2	2	-0.389
+75% epiboly	ZF75_WT_DS3	signal:Nodal	2	3	-0.360
+75% epiboly	ZF75_WT_DS3	signal:Nodal	2	4	-0.148
+75% epiboly	ZF75_WT_DS3	signal:Nodal	2	5	1.892
+75% epiboly	ZF75_WT_DS3	signal:Nodal	3	0	-0.487
+75% epiboly	ZF75_WT_DS3	signal:Nodal	3	2	-0.463
+75% epiboly	ZF75_WT_DS3	signal:Nodal	3	3	-0.404
+75% epiboly	ZF75_WT_DS3	signal:Nodal	3	4	-0.350
+75% epiboly	ZF75_WT_DS3	signal:Nodal	3	5	0.203
+75% epiboly	ZF75_WT_DS3	signal:FGF	0	0	0.914
+75% epiboly	ZF75_WT_DS3	signal:FGF	0	1	1.198
+75% epiboly	ZF75_WT_DS3	signal:FGF	0	2	0.761
+75% epiboly	ZF75_WT_DS3	signal:FGF	0	3	0.631
+75% epiboly	ZF75_WT_DS3	signal:FGF	0	4	1.199
+75% epiboly	ZF75_WT_DS3	signal:FGF	0	5	1.275
+75% epiboly	ZF75_WT_DS3	signal:FGF	1	0	-0.508
+75% epiboly	ZF75_WT_DS3	signal:FGF	1	1	0.082
+75% epiboly	ZF75_WT_DS3	signal:FGF	1	2	0.274
+75% epiboly	ZF75_WT_DS3	signal:FGF	1	3	0.254
+75% epiboly	ZF75_WT_DS3	signal:FGF	1	4	-0.096
+75% epiboly	ZF75_WT_DS3	signal:FGF	1	5	-0.456
+75% epiboly	ZF75_WT_DS3	signal:FGF	2	0	-0.909
+75% epiboly	ZF75_WT_DS3	signal:FGF	2	1	-0.841
+75% epiboly	ZF75_WT_DS3	signal:FGF	2	2	-0.749
+75% epiboly	ZF75_WT_DS3	signal:FGF	2	3	-0.506
+75% epiboly	ZF75_WT_DS3	signal:FGF	2	4	-0.150
+75% epiboly	ZF75_WT_DS3	signal:FGF	2	5	0.526
+75% epiboly	ZF75_WT_DS3	signal:FGF	3	0	-1.036
+75% epiboly	ZF75_WT_DS3	signal:FGF	3	2	-0.938
+75% epiboly	ZF75_WT_DS3	signal:FGF	3	3	-0.571
+75% epiboly	ZF75_WT_DS3	signal:FGF	3	4	-0.446
+75% epiboly	ZF75_WT_DS3	signal:FGF	3	5	-0.376
+75% epiboly	ZF75_WT_DS3	signal:Wnt	0	0	0.778
+75% epiboly	ZF75_WT_DS3	signal:Wnt	0	1	0.998
+75% epiboly	ZF75_WT_DS3	signal:Wnt	0	2	0.935
+75% epiboly	ZF75_WT_DS3	signal:Wnt	0	3	0.773
+75% epiboly	ZF75_WT_DS3	signal:Wnt	0	4	0.645
+75% epiboly	ZF75_WT_DS3	signal:Wnt	0	5	0.368
+75% epiboly	ZF75_WT_DS3	signal:Wnt	1	0	-0.409
+75% epiboly	ZF75_WT_DS3	signal:Wnt	1	1	0.427
+75% epiboly	ZF75_WT_DS3	signal:Wnt	1	2	0.470
+75% epiboly	ZF75_WT_DS3	signal:Wnt	1	3	0.562
+75% epiboly	ZF75_WT_DS3	signal:Wnt	1	4	0.496
+75% epiboly	ZF75_WT_DS3	signal:Wnt	1	5	-0.894
+75% epiboly	ZF75_WT_DS3	signal:Wnt	2	0	-0.856
+75% epiboly	ZF75_WT_DS3	signal:Wnt	2	1	-0.710
+75% epiboly	ZF75_WT_DS3	signal:Wnt	2	2	-0.775
+75% epiboly	ZF75_WT_DS3	signal:Wnt	2	3	-0.405
+75% epiboly	ZF75_WT_DS3	signal:Wnt	2	4	0.035
+75% epiboly	ZF75_WT_DS3	signal:Wnt	2	5	0.291
+75% epiboly	ZF75_WT_DS3	signal:Wnt	3	0	-0.819
+75% epiboly	ZF75_WT_DS3	signal:Wnt	3	2	-1.283
+75% epiboly	ZF75_WT_DS3	signal:Wnt	3	3	-0.296
+75% epiboly	ZF75_WT_DS3	signal:Wnt	3	4	-0.188
+75% epiboly	ZF75_WT_DS3	signal:Wnt	3	5	-0.915
+75% epiboly	ZF75_WT_DS3	signal:BMP	0	0	0.391
+75% epiboly	ZF75_WT_DS3	signal:BMP	0	1	-0.218
+75% epiboly	ZF75_WT_DS3	signal:BMP	0	2	-0.462
+75% epiboly	ZF75_WT_DS3	signal:BMP	0	3	-0.654
+75% epiboly	ZF75_WT_DS3	signal:BMP	0	4	-0.691
+75% epiboly	ZF75_WT_DS3	signal:BMP	0	5	-0.781
+75% epiboly	ZF75_WT_DS3	signal:BMP	1	0	1.361
+75% epiboly	ZF75_WT_DS3	signal:BMP	1	1	0.949
+75% epiboly	ZF75_WT_DS3	signal:BMP	1	2	0.360
+75% epiboly	ZF75_WT_DS3	signal:BMP	1	3	-0.388
+75% epiboly	ZF75_WT_DS3	signal:BMP	1	4	-0.777
+75% epiboly	ZF75_WT_DS3	signal:BMP	1	5	0.625
+75% epiboly	ZF75_WT_DS3	signal:BMP	2	0	2.060
+75% epiboly	ZF75_WT_DS3	signal:BMP	2	1	1.157
+75% epiboly	ZF75_WT_DS3	signal:BMP	2	2	0.466
+75% epiboly	ZF75_WT_DS3	signal:BMP	2	3	-0.149
+75% epiboly	ZF75_WT_DS3	signal:BMP	2	4	-0.648
+75% epiboly	ZF75_WT_DS3	signal:BMP	2	5	-1.056
+75% epiboly	ZF75_WT_DS3	signal:BMP	3	0	2.862
+75% epiboly	ZF75_WT_DS3	signal:BMP	3	2	0.384
+75% epiboly	ZF75_WT_DS3	signal:BMP	3	3	-0.330
+75% epiboly	ZF75_WT_DS3	signal:BMP	3	4	-0.783
+75% epiboly	ZF75_WT_DS3	signal:BMP	3	5	-1.027
+75% epiboly	ZF75_WT_DS3	blocking:BMP	0	0	-0.458
+75% epiboly	ZF75_WT_DS3	blocking:BMP	0	1	-0.323
+75% epiboly	ZF75_WT_DS3	blocking:BMP	0	2	-0.003
+75% epiboly	ZF75_WT_DS3	blocking:BMP	0	3	1.019
+75% epiboly	ZF75_WT_DS3	blocking:BMP	0	4	0.862
+75% epiboly	ZF75_WT_DS3	blocking:BMP	0	5	3.605
+75% epiboly	ZF75_WT_DS3	blocking:BMP	1	0	-0.311
+75% epiboly	ZF75_WT_DS3	blocking:BMP	1	1	-0.230
+75% epiboly	ZF75_WT_DS3	blocking:BMP	1	2	-0.073
+75% epiboly	ZF75_WT_DS3	blocking:BMP	1	3	0.193
+75% epiboly	ZF75_WT_DS3	blocking:BMP	1	4	0.331
+75% epiboly	ZF75_WT_DS3	blocking:BMP	1	5	1.376
+75% epiboly	ZF75_WT_DS3	blocking:BMP	2	0	-0.540
+75% epiboly	ZF75_WT_DS3	blocking:BMP	2	1	-0.509
+75% epiboly	ZF75_WT_DS3	blocking:BMP	2	2	-0.469
+75% epiboly	ZF75_WT_DS3	blocking:BMP	2	3	-0.328
+75% epiboly	ZF75_WT_DS3	blocking:BMP	2	4	0.036
+75% epiboly	ZF75_WT_DS3	blocking:BMP	2	5	0.272
+75% epiboly	ZF75_WT_DS3	blocking:BMP	3	0	-0.584
+75% epiboly	ZF75_WT_DS3	blocking:BMP	3	2	-0.560
+75% epiboly	ZF75_WT_DS3	blocking:BMP	3	3	-0.098
+75% epiboly	ZF75_WT_DS3	blocking:BMP	3	4	0.231
+75% epiboly	ZF75_WT_DS3	blocking:BMP	3	5	-0.048
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	0	0	-0.228
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	0	1	-0.156
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	0	2	-0.121
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	0	3	0.247
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	0	4	1.870
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	0	5	5.339
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	1	0	-0.243
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	1	1	-0.228
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	1	2	-0.190
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	1	3	-0.037
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	1	4	0.175
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	1	5	0.352
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	2	0	-0.264
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	2	1	-0.250
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	2	2	-0.234
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	2	3	-0.218
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	2	4	-0.013
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	2	5	0.563
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	3	0	-0.279
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	3	2	-0.265
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	3	3	-0.233
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	3	4	-0.205
+75% epiboly	ZF75_WT_DS3	sending:Hedgehog	3	5	-0.107
+75% epiboly	ZF75_WT_DS4	signal:Nodal	0	0	0.255
+75% epiboly	ZF75_WT_DS4	signal:Nodal	0	1	0.276
+75% epiboly	ZF75_WT_DS4	signal:Nodal	0	2	0.076
+75% epiboly	ZF75_WT_DS4	signal:Nodal	0	3	-0.049
+75% epiboly	ZF75_WT_DS4	signal:Nodal	0	4	0.642
+75% epiboly	ZF75_WT_DS4	signal:Nodal	0	5	1.801
+75% epiboly	ZF75_WT_DS4	signal:Nodal	1	0	-0.346
+75% epiboly	ZF75_WT_DS4	signal:Nodal	1	1	-0.364
+75% epiboly	ZF75_WT_DS4	signal:Nodal	1	2	-0.226
+75% epiboly	ZF75_WT_DS4	signal:Nodal	1	3	-0.269
+75% epiboly	ZF75_WT_DS4	signal:Nodal	1	4	0.239
+75% epiboly	ZF75_WT_DS4	signal:Nodal	1	5	5.401
+75% epiboly	ZF75_WT_DS4	signal:Nodal	2	0	-0.431
+75% epiboly	ZF75_WT_DS4	signal:Nodal	2	1	-0.408
+75% epiboly	ZF75_WT_DS4	signal:Nodal	2	2	-0.420
+75% epiboly	ZF75_WT_DS4	signal:Nodal	2	3	-0.362
+75% epiboly	ZF75_WT_DS4	signal:Nodal	2	4	-0.164
+75% epiboly	ZF75_WT_DS4	signal:Nodal	2	5	2.448
+75% epiboly	ZF75_WT_DS4	signal:Nodal	3	2	-0.463
+75% epiboly	ZF75_WT_DS4	signal:Nodal	3	3	-0.416
+75% epiboly	ZF75_WT_DS4	signal:Nodal	3	4	-0.318
+75% epiboly	ZF75_WT_DS4	signal:Nodal	3	5	-0.103
+75% epiboly	ZF75_WT_DS4	signal:FGF	0	0	1.003
+75% epiboly	ZF75_WT_DS4	signal:FGF	0	1	1.411
+75% epiboly	ZF75_WT_DS4	signal:FGF	0	2	0.599
+75% epiboly	ZF75_WT_DS4	signal:FGF	0	3	0.451
+75% epiboly	ZF75_WT_DS4	signal:FGF	0	4	0.480
+75% epiboly	ZF75_WT_DS4	signal:FGF	0	5	1.548
+75% epiboly	ZF75_WT_DS4	signal:FGF	1	0	-0.808
+75% epiboly	ZF75_WT_DS4	signal:FGF	1	1	-0.346
+75% epiboly	ZF75_WT_DS4	signal:FGF	1	2	0.190
+75% epiboly	ZF75_WT_DS4	signal:FGF	1	3	0.665
+75% epiboly	ZF75_WT_DS4	signal:FGF	1	4	1.032
+75% epiboly	ZF75_WT_DS4	signal:FGF	1	5	-0.400
+75% epiboly	ZF75_WT_DS4	signal:FGF	2	0	-0.970
+75% epiboly	ZF75_WT_DS4	signal:FGF	2	1	-0.935
+75% epiboly	ZF75_WT_DS4	signal:FGF	2	2	-0.869
+75% epiboly	ZF75_WT_DS4	signal:FGF	2	3	-0.584
+75% epiboly	ZF75_WT_DS4	signal:FGF	2	4	0.002
+75% epiboly	ZF75_WT_DS4	signal:FGF	2	5	0.037
+75% epiboly	ZF75_WT_DS4	signal:FGF	3	2	-0.843
+75% epiboly	ZF75_WT_DS4	signal:FGF	3	3	-0.758
+75% epiboly	ZF75_WT_DS4	signal:FGF	3	4	-0.468
+75% epiboly	ZF75_WT_DS4	signal:FGF	3	5	-0.385
+75% epiboly	ZF75_WT_DS4	signal:Wnt	0	0	0.935
+75% epiboly	ZF75_WT_DS4	signal:Wnt	0	1	1.190
+75% epiboly	ZF75_WT_DS4	signal:Wnt	0	2	0.952
+75% epiboly	ZF75_WT_DS4	signal:Wnt	0	3	0.791
+75% epiboly	ZF75_WT_DS4	signal:Wnt	0	4	0.731
+75% epiboly	ZF75_WT_DS4	signal:Wnt	0	5	0.004
+75% epiboly	ZF75_WT_DS4	signal:Wnt	1	0	-0.290
+75% epiboly	ZF75_WT_DS4	signal:Wnt	1	1	-0.115
+75% epiboly	ZF75_WT_DS4	signal:Wnt	1	2	0.479
+75% epiboly	ZF75_WT_DS4	signal:Wnt	1	3	0.673
+75% epiboly	ZF75_WT_DS4	signal:Wnt	1	4	0.838
+75% epiboly	ZF75_WT_DS4	signal:Wnt	1	5	-0.868
+75% epiboly	ZF75_WT_DS4	signal:Wnt	2	0	-1.037
+75% epiboly	ZF75_WT_DS4	signal:Wnt	2	1	-0.959
+75% epiboly	ZF75_WT_DS4	signal:Wnt	2	2	-0.824
+75% epiboly	ZF75_WT_DS4	signal:Wnt	2	3	-0.196
+75% epiboly	ZF75_WT_DS4	signal:Wnt	2	4	0.467
+75% epiboly	ZF75_WT_DS4	signal:Wnt	2	5	-0.433
+75% epiboly	ZF75_WT_DS4	signal:Wnt	3	2	-0.822
+75% epiboly	ZF75_WT_DS4	signal:Wnt	3	3	-0.908
+75% epiboly	ZF75_WT_DS4	signal:Wnt	3	4	-0.237
+75% epiboly	ZF75_WT_DS4	signal:Wnt	3	5	-0.997
+75% epiboly	ZF75_WT_DS4	signal:BMP	0	0	0.373
+75% epiboly	ZF75_WT_DS4	signal:BMP	0	1	-0.082
+75% epiboly	ZF75_WT_DS4	signal:BMP	0	2	-0.341
+75% epiboly	ZF75_WT_DS4	signal:BMP	0	3	-0.639
+75% epiboly	ZF75_WT_DS4	signal:BMP	0	4	-0.889
+75% epiboly	ZF75_WT_DS4	signal:BMP	0	5	-0.814
+75% epiboly	ZF75_WT_DS4	signal:BMP	1	0	1.696
+75% epiboly	ZF75_WT_DS4	signal:BMP	1	1	1.321
+75% epiboly	ZF75_WT_DS4	signal:BMP	1	2	0.438
+75% epiboly	ZF75_WT_DS4	signal:BMP	1	3	-0.364
+75% epiboly	ZF75_WT_DS4	signal:BMP	1	4	-0.734
+75% epiboly	ZF75_WT_DS4	signal:BMP	1	5	0.633
+75% epiboly	ZF75_WT_DS4	signal:BMP	2	0	1.752
+75% epiboly	ZF75_WT_DS4	signal:BMP	2	1	1.208
+75% epiboly	ZF75_WT_DS4	signal:BMP	2	2	0.760
+75% epiboly	ZF75_WT_DS4	signal:BMP	2	3	-0.203
+75% epiboly	ZF75_WT_DS4	signal:BMP	2	4	-0.807
+75% epiboly	ZF75_WT_DS4	signal:BMP	2	5	-1.109
+75% epiboly	ZF75_WT_DS4	signal:BMP	3	2	0.316
+75% epiboly	ZF75_WT_DS4	signal:BMP	3	3	-0.214
+75% epiboly	ZF75_WT_DS4	signal:BMP	3	4	-0.854
+75% epiboly	ZF75_WT_DS4	signal:BMP	3	5	-1.089
+75% epiboly	ZF75_WT_DS4	blocking:BMP	0	0	-0.535
+75% epiboly	ZF75_WT_DS4	blocking:BMP	0	1	-0.310
+75% epiboly	ZF75_WT_DS4	blocking:BMP	0	2	0.067
+75% epiboly	ZF75_WT_DS4	blocking:BMP	0	3	1.446
+75% epiboly	ZF75_WT_DS4	blocking:BMP	0	4	2.098
+75% epiboly	ZF75_WT_DS4	blocking:BMP	0	5	3.698
+75% epiboly	ZF75_WT_DS4	blocking:BMP	1	0	-0.538
+75% epiboly	ZF75_WT_DS4	blocking:BMP	1	1	-0.463
+75% epiboly	ZF75_WT_DS4	blocking:BMP	1	2	-0.290
+75% epiboly	ZF75_WT_DS4	blocking:BMP	1	3	0.119
+75% epiboly	ZF75_WT_DS4	blocking:BMP	1	4	0.585
+75% epiboly	ZF75_WT_DS4	blocking:BMP	1	5	3.270
+75% epiboly	ZF75_WT_DS4	blocking:BMP	2	0	-0.583
+75% epiboly	ZF75_WT_DS4	blocking:BMP	2	1	-0.535
+75% epiboly	ZF75_WT_DS4	blocking:BMP	2	2	-0.363
+75% epiboly	ZF75_WT_DS4	blocking:BMP	2	3	-0.335
+75% epiboly	ZF75_WT_DS4	blocking:BMP	2	4	0.182
+75% epiboly	ZF75_WT_DS4	blocking:BMP	2	5	0.495
+75% epiboly	ZF75_WT_DS4	blocking:BMP	3	2	-0.326
+75% epiboly	ZF75_WT_DS4	blocking:BMP	3	3	-0.388
+75% epiboly	ZF75_WT_DS4	blocking:BMP	3	4	0.389
+75% epiboly	ZF75_WT_DS4	blocking:BMP	3	5	-0.151
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	0	0	-0.229
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	0	1	-0.125
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	0	2	-0.140
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	0	3	0.027
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	0	4	1.194
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	0	5	5.962
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	1	0	-0.258
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	1	1	-0.201
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	1	2	-0.186
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	1	3	-0.149
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	1	4	0.244
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	1	5	0.751
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	2	0	-0.271
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	2	1	-0.252
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	2	2	-0.254
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	2	3	-0.220
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	2	4	-0.050
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	2	5	0.705
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	3	2	-0.276
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	3	3	-0.232
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	3	4	-0.184
+75% epiboly	ZF75_WT_DS4	sending:Hedgehog	3	5	-0.141
+90% epiboly	ZF90_WT_DS2	signal:Nodal	0	0	0.141
+90% epiboly	ZF90_WT_DS2	signal:Nodal	0	1	0.210
+90% epiboly	ZF90_WT_DS2	signal:Nodal	0	2	-0.321
+90% epiboly	ZF90_WT_DS2	signal:Nodal	0	3	-0.335
+90% epiboly	ZF90_WT_DS2	signal:Nodal	0	4	-0.378
+90% epiboly	ZF90_WT_DS2	signal:Nodal	0	5	1.786
+90% epiboly	ZF90_WT_DS2	signal:Nodal	1	0	-0.369
+90% epiboly	ZF90_WT_DS2	signal:Nodal	1	1	-0.218
+90% epiboly	ZF90_WT_DS2	signal:Nodal	1	2	-0.247
+90% epiboly	ZF90_WT_DS2	signal:Nodal	1	3	-0.092
+90% epiboly	ZF90_WT_DS2	signal:Nodal	1	4	-0.232
+90% epiboly	ZF90_WT_DS2	signal:Nodal	1	5	4.044
+90% epiboly	ZF90_WT_DS2	signal:Nodal	2	0	-0.418
+90% epiboly	ZF90_WT_DS2	signal:Nodal	2	1	-0.373
+90% epiboly	ZF90_WT_DS2	signal:Nodal	2	2	-0.352
+90% epiboly	ZF90_WT_DS2	signal:Nodal	2	3	-0.253
+90% epiboly	ZF90_WT_DS2	signal:Nodal	2	4	-0.080
+90% epiboly	ZF90_WT_DS2	signal:Nodal	3	3	-0.407
+90% epiboly	ZF90_WT_DS2	signal:Nodal	3	4	-0.314
+90% epiboly	ZF90_WT_DS2	signal:Nodal	3	5	-0.169
+90% epiboly	ZF90_WT_DS2	signal:FGF	0	0	0.821
+90% epiboly	ZF90_WT_DS2	signal:FGF	0	1	0.912
+90% epiboly	ZF90_WT_DS2	signal:FGF	0	2	0.204
+90% epiboly	ZF90_WT_DS2	signal:FGF	0	3	0.002
+90% epiboly	ZF90_WT_DS2	signal:FGF	0	4	0.191
+90% epiboly	ZF90_WT_DS2	signal:FGF	0	5	1.996
+90% epiboly	ZF90_WT_DS2	signal:FGF	1	0	-0.598
+90% epiboly	ZF90_WT_DS2	signal:FGF	1	1	0.138
+90% epiboly	ZF90_WT_DS2	signal:FGF	1	2	0.262
+90% epiboly	ZF90_WT_DS2	signal:FGF	1	3	0.224
+90% epiboly	ZF90_WT_DS2	signal:FGF	1	4	0.038
+90% epiboly	ZF90_WT_DS2	signal:FGF	1	5	-0.342
+90% epiboly	ZF90_WT_DS2	signal:FGF	2	0	-0.801
+90% epiboly	ZF90_WT_DS2	signal:FGF	2	1	-0.726
+90% epiboly	ZF90_WT_DS2	signal:FGF	2	2	-0.719
+90% epiboly	ZF90_WT_DS2	signal:FGF	2	3	-0.364
+90% epiboly	ZF90_WT_DS2	signal:FGF	2	4	-0.158
+90% epiboly	ZF90_WT_DS2	signal:FGF	3	3	-0.428
+90% epiboly	ZF90_WT_DS2	signal:FGF	3	4	-0.340
+90% epiboly	ZF90_WT_DS2	signal:FGF	3	5	-0.345
+90% epiboly	ZF90_WT_DS2	signal:Wnt	0	0	0.518
+90% epiboly	ZF90_WT_DS2	signal:Wnt	0	1	1.116
+90% epiboly	ZF90_WT_DS2	signal:Wnt	0	2	0.998
+90% epiboly	ZF90_WT_DS2	signal:Wnt	0	3	0.920
+90% epiboly	ZF90_WT_DS2	signal:Wnt	0	4	0.765
+90% epiboly	ZF90_WT_DS2	signal:Wnt	0	5	0.422
+90% epiboly	ZF90_WT_DS2	signal:Wnt	1	0	-0.362
+90% epiboly	ZF90_WT_DS2	signal:Wnt	1	1	0.606
+90% epiboly	ZF90_WT_DS2	signal:Wnt	1	2	0.404
+90% epiboly	ZF90_WT_DS2	signal:Wnt	1	3	0.242
+90% epiboly	ZF90_WT_DS2	signal:Wnt	1	4	0.169
+90% epiboly	ZF90_WT_DS2	signal:Wnt	1	5	-1.115
+90% epiboly	ZF90_WT_DS2	signal:Wnt	2	0	-0.828
+90% epiboly	ZF90_WT_DS2	signal:Wnt	2	1	-0.799
+90% epiboly	ZF90_WT_DS2	signal:Wnt	2	2	-0.932
+90% epiboly	ZF90_WT_DS2	signal:Wnt	2	3	-0.058
+90% epiboly	ZF90_WT_DS2	signal:Wnt	2	4	0.021
+90% epiboly	ZF90_WT_DS2	signal:Wnt	3	3	0.231
+90% epiboly	ZF90_WT_DS2	signal:Wnt	3	4	-0.026
+90% epiboly	ZF90_WT_DS2	signal:Wnt	3	5	-1.018
+90% epiboly	ZF90_WT_DS2	signal:BMP	0	0	0.381
+90% epiboly	ZF90_WT_DS2	signal:BMP	0	1	-0.114
+90% epiboly	ZF90_WT_DS2	signal:BMP	0	2	-0.176
+90% epiboly	ZF90_WT_DS2	signal:BMP	0	3	-0.830
+90% epiboly	ZF90_WT_DS2	signal:BMP	0	4	-0.929
+90% epiboly	ZF90_WT_DS2	signal:BMP	0	5	-0.701
+90% epiboly	ZF90_WT_DS2	signal:BMP	1	0	1.223
+90% epiboly	ZF90_WT_DS2	signal:BMP	1	1	0.744
+90% epiboly	ZF90_WT_DS2	signal:BMP	1	2	0.302
+90% epiboly	ZF90_WT_DS2	signal:BMP	1	3	-0.236
+90% epiboly	ZF90_WT_DS2	signal:BMP	1	4	-0.763
+90% epiboly	ZF90_WT_DS2	signal:BMP	1	5	0.538
+90% epiboly	ZF90_WT_DS2	signal:BMP	2	0	2.000
+90% epiboly	ZF90_WT_DS2	signal:BMP	2	1	1.332
+90% epiboly	ZF90_WT_DS2	signal:BMP	2	2	0.428
+90% epiboly	ZF90_WT_DS2	signal:BMP	2	3	-0.274
+90% epiboly	ZF90_WT_DS2	signal:BMP	2	4	-0.572
+90% epiboly	ZF90_WT_DS2	signal:BMP	3	3	-0.363
+90% epiboly	ZF90_WT_DS2	signal:BMP	3	4	-0.829
+90% epiboly	ZF90_WT_DS2	signal:BMP	3	5	-1.085
+90% epiboly	ZF90_WT_DS2	blocking:BMP	0	0	-0.561
+90% epiboly	ZF90_WT_DS2	blocking:BMP	0	1	-0.410
+90% epiboly	ZF90_WT_DS2	blocking:BMP	0	2	0.055
+90% epiboly	ZF90_WT_DS2	blocking:BMP	0	3	2.189
+90% epiboly	ZF90_WT_DS2	blocking:BMP	0	4	4.657
+90% epiboly	ZF90_WT_DS2	blocking:BMP	0	5	2.950
+90% epiboly	ZF90_WT_DS2	blocking:BMP	1	0	-0.418
+90% epiboly	ZF90_WT_DS2	blocking:BMP	1	1	-0.341
+90% epiboly	ZF90_WT_DS2	blocking:BMP	1	2	-0.036
+90% epiboly	ZF90_WT_DS2	blocking:BMP	1	3	0.571
+90% epiboly	ZF90_WT_DS2	blocking:BMP	1	4	0.135
+90% epiboly	ZF90_WT_DS2	blocking:BMP	1	5	0.570
+90% epiboly	ZF90_WT_DS2	blocking:BMP	2	0	-0.632
+90% epiboly	ZF90_WT_DS2	blocking:BMP	2	1	-0.568
+90% epiboly	ZF90_WT_DS2	blocking:BMP	2	2	-0.536
+90% epiboly	ZF90_WT_DS2	blocking:BMP	2	3	-0.179
+90% epiboly	ZF90_WT_DS2	blocking:BMP	2	4	0.110
+90% epiboly	ZF90_WT_DS2	blocking:BMP	3	3	0.090
+90% epiboly	ZF90_WT_DS2	blocking:BMP	3	4	0.269
+90% epiboly	ZF90_WT_DS2	blocking:BMP	3	5	-0.145
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	0	0	-0.225
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	0	1	-0.206
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	0	2	-0.204
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	0	3	-0.159
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	0	4	0.939
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	0	5	5.218
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	1	0	-0.219
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	1	1	-0.184
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	1	2	-0.171
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	1	3	-0.052
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	1	4	-0.047
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	1	5	0.186
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	2	0	-0.248
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	2	1	-0.223
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	2	2	-0.209
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	2	3	-0.169
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	2	4	0.032
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	3	3	-0.241
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	3	4	-0.198
+90% epiboly	ZF90_WT_DS2	sending:Hedgehog	3	5	-0.155
+90% epiboly	ZF90_WT_DS3	signal:Nodal	0	0	0.001
+90% epiboly	ZF90_WT_DS3	signal:Nodal	0	1	0.138
+90% epiboly	ZF90_WT_DS3	signal:Nodal	0	2	-0.207
+90% epiboly	ZF90_WT_DS3	signal:Nodal	0	3	0.198
+90% epiboly	ZF90_WT_DS3	signal:Nodal	0	4	0.445
+90% epiboly	ZF90_WT_DS3	signal:Nodal	0	5	0.272
+90% epiboly	ZF90_WT_DS3	signal:Nodal	1	0	-0.279
+90% epiboly	ZF90_WT_DS3	signal:Nodal	1	1	-0.236
+90% epiboly	ZF90_WT_DS3	signal:Nodal	1	2	-0.209
+90% epiboly	ZF90_WT_DS3	signal:Nodal	1	3	0.095
+90% epiboly	ZF90_WT_DS3	signal:Nodal	1	4	1.381
+90% epiboly	ZF90_WT_DS3	signal:Nodal	1	5	2.205
+90% epiboly	ZF90_WT_DS3	signal:Nodal	2	0	-0.341
+90% epiboly	ZF90_WT_DS3	signal:Nodal	2	1	-0.315
+90% epiboly	ZF90_WT_DS3	signal:Nodal	2	2	-0.305
+90% epiboly	ZF90_WT_DS3	signal:Nodal	2	3	-0.269
+90% epiboly	ZF90_WT_DS3	signal:Nodal	2	4	-0.058
+90% epiboly	ZF90_WT_DS3	signal:Nodal	2	5	6.221
+90% epiboly	ZF90_WT_DS3	signal:Nodal	3	2	-0.433
+90% epiboly	ZF90_WT_DS3	signal:Nodal	3	3	-0.331
+90% epiboly	ZF90_WT_DS3	signal:Nodal	3	4	-0.301
+90% epiboly	ZF90_WT_DS3	signal:Nodal	3	5	-0.006
+90% epiboly	ZF90_WT_DS3	signal:FGF	0	0	0.677
+90% epiboly	ZF90_WT_DS3	signal:FGF	0	1	1.193
+90% epiboly	ZF90_WT_DS3	signal:FGF	0	2	0.208
+90% epiboly	ZF90_WT_DS3	signal:FGF	0	3	0.452
+90% epiboly	ZF90_WT_DS3	signal:FGF	0	4	1.355
+90% epiboly	ZF90_WT_DS3	signal:FGF	0	5	0.597
+90% epiboly	ZF90_WT_DS3	signal:FGF	1	0	-0.708
+90% epiboly	ZF90_WT_DS3	signal:FGF	1	1	-0.098
+90% epiboly	ZF90_WT_DS3	signal:FGF	1	2	0.163
+90% epiboly	ZF90_WT_DS3	signal:FGF	1	3	0.353
+90% epiboly	ZF90_WT_DS3	signal:FGF	1	4	0.783
+90% epiboly	ZF90_WT_DS3	signal:FGF	1	5	-0.616
+90% epiboly	ZF90_WT_DS3	signal:FGF	2	0	-0.889
+90% epiboly	ZF90_WT_DS3	signal:FGF	2	1	-0.812
+90% epiboly	ZF90_WT_DS3	signal:FGF	2	2	-0.644
+90% epiboly	ZF90_WT_DS3	signal:FGF	2	3	-0.318
+90% epiboly	ZF90_WT_DS3	signal:FGF	2	4	-0.171
+90% epiboly	ZF90_WT_DS3	signal:FGF	2	5	0.287
+90% epiboly	ZF90_WT_DS3	signal:FGF	3	2	-1.044
+90% epiboly	ZF90_WT_DS3	signal:FGF	3	3	-0.222
+90% epiboly	ZF90_WT_DS3	signal:FGF	3	4	-0.400
+90% epiboly	ZF90_WT_DS3	signal:FGF	3	5	-0.226
+90% epiboly	ZF90_WT_DS3	signal:Wnt	0	0	0.596
+90% epiboly	ZF90_WT_DS3	signal:Wnt	0	1	0.799
+90% epiboly	ZF90_WT_DS3	signal:Wnt	0	2	0.534
+90% epiboly	ZF90_WT_DS3	signal:Wnt	0	3	0.334
+90% epiboly	ZF90_WT_DS3	signal:Wnt	0	4	0.287
+90% epiboly	ZF90_WT_DS3	signal:Wnt	0	5	0.064
+90% epiboly	ZF90_WT_DS3	signal:Wnt	1	0	-0.175
+90% epiboly	ZF90_WT_DS3	signal:Wnt	1	1	0.365
+90% epiboly	ZF90_WT_DS3	signal:Wnt	1	2	0.688
+90% epiboly	ZF90_WT_DS3	signal:Wnt	1	3	0.865
+90% epiboly	ZF90_WT_DS3	signal:Wnt	1	4	0.569
+90% epiboly	ZF90_WT_DS3	signal:Wnt	1	5	-1.062
+90% epiboly	ZF90_WT_DS3	signal:Wnt	2	0	-0.800
+90% epiboly	ZF90_WT_DS3	signal:Wnt	2	1	-0.781
+90% epiboly	ZF90_WT_DS3	signal:Wnt	2	2	-0.519
+90% epiboly	ZF90_WT_DS3	signal:Wnt	2	3	0.082
+90% epiboly	ZF90_WT_DS3	signal:Wnt	2	4	-0.077
+90% epiboly	ZF90_WT_DS3	signal:Wnt	2	5	-1.023
+90% epiboly	ZF90_WT_DS3	signal:Wnt	3	2	-1.563
+90% epiboly	ZF90_WT_DS3	signal:Wnt	3	3	0.078
+90% epiboly	ZF90_WT_DS3	signal:Wnt	3	4	-0.348
+90% epiboly	ZF90_WT_DS3	signal:Wnt	3	5	-1.177
+90% epiboly	ZF90_WT_DS3	signal:BMP	0	0	0.594
+90% epiboly	ZF90_WT_DS3	signal:BMP	0	1	-0.110
+90% epiboly	ZF90_WT_DS3	signal:BMP	0	2	-0.278
+90% epiboly	ZF90_WT_DS3	signal:BMP	0	3	-0.737
+90% epiboly	ZF90_WT_DS3	signal:BMP	0	4	-0.619
+90% epiboly	ZF90_WT_DS3	signal:BMP	0	5	-0.804
+90% epiboly	ZF90_WT_DS3	signal:BMP	1	0	1.685
+90% epiboly	ZF90_WT_DS3	signal:BMP	1	1	1.030
+90% epiboly	ZF90_WT_DS3	signal:BMP	1	2	0.264
+90% epiboly	ZF90_WT_DS3	signal:BMP	1	3	-0.415
+90% epiboly	ZF90_WT_DS3	signal:BMP	1	4	-0.645
+90% epiboly	ZF90_WT_DS3	signal:BMP	1	5	0.672
+90% epiboly	ZF90_WT_DS3	signal:BMP	2	0	2.165
+90% epiboly	ZF90_WT_DS3	signal:BMP	2	1	1.106
+90% epiboly	ZF90_WT_DS3	signal:BMP	2	2	0.474
+90% epiboly	ZF90_WT_DS3	signal:BMP	2	3	-0.324
+90% epiboly	ZF90_WT_DS3	signal:BMP	2	4	-0.663
+90% epiboly	ZF90_WT_DS3	signal:BMP	2	5	-1.109
+90% epiboly	ZF90_WT_DS3	signal:BMP	3	2	1.230
+90% epiboly	ZF90_WT_DS3	signal:BMP	3	3	-0.746
+90% epiboly	ZF90_WT_DS3	signal:BMP	3	4	-0.776
+90% epiboly	ZF90_WT_DS3	signal:BMP	3	5	-0.847
+90% epiboly	ZF90_WT_DS3	blocking:BMP	0	0	-0.524
+90% epiboly	ZF90_WT_DS3	blocking:BMP	0	1	-0.465
+90% epiboly	ZF90_WT_DS3	blocking:BMP	0	2	0.461
+90% epiboly	ZF90_WT_DS3	blocking:BMP	0	3	2.990
+90% epiboly	ZF90_WT_DS3	blocking:BMP	0	4	1.105
+90% epiboly	ZF90_WT_DS3	blocking:BMP	0	5	3.315
+90% epiboly	ZF90_WT_DS3	blocking:BMP	1	0	-0.393
+90% epiboly	ZF90_WT_DS3	blocking:BMP	1	1	-0.105
+90% epiboly	ZF90_WT_DS3	blocking:BMP	1	2	0.041
+90% epiboly	ZF90_WT_DS3	blocking:BMP	1	3	0.605
+90% epiboly	ZF90_WT_DS3	blocking:BMP	1	4	0.974
+90% epiboly	ZF90_WT_DS3	blocking:BMP	1	5	0.241
+90% epiboly	ZF90_WT_DS3	blocking:BMP	2	0	-0.653
+90% epiboly	ZF90_WT_DS3	blocking:BMP	2	1	-0.583
+90% epiboly	ZF90_WT_DS3	blocking:BMP	2	2	-0.530
+90% epiboly	ZF90_WT_DS3	blocking:BMP	2	3	-0.059
+90% epiboly	ZF90_WT_DS3	blocking:BMP	2	4	0.239
+90% epiboly	ZF90_WT_DS3	blocking:BMP	2	5	0.818
+90% epiboly	ZF90_WT_DS3	blocking:BMP	3	2	-0.836
+90% epiboly	ZF90_WT_DS3	blocking:BMP	3	3	0.177
+90% epiboly	ZF90_WT_DS3	blocking:BMP	3	4	0.140
+90% epiboly	ZF90_WT_DS3	blocking:BMP	3	5	-0.134
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	0	0	-0.263
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	0	1	-0.145
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	0	2	-0.105
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	0	3	0.694
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	0	4	4.186
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	0	5	4.462
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	1	0	-0.248
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	1	1	-0.257
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	1	2	-0.195
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	1	3	-0.038
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	1	4	1.136
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	1	5	0.701
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	2	0	-0.298
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	2	1	-0.279
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	2	2	-0.272
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	2	3	-0.207
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	2	4	0.090
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	2	5	3.980
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	3	2	-0.378
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	3	3	-0.270
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	3	4	-0.225
+90% epiboly	ZF90_WT_DS3	sending:Hedgehog	3	5	-0.122
+90% epiboly	ZF90_WT_DS4	signal:Nodal	0	0	0.242
+90% epiboly	ZF90_WT_DS4	signal:Nodal	0	1	0.128
+90% epiboly	ZF90_WT_DS4	signal:Nodal	0	2	-0.234
+90% epiboly	ZF90_WT_DS4	signal:Nodal	0	3	-0.363
+90% epiboly	ZF90_WT_DS4	signal:Nodal	0	4	2.598
+90% epiboly	ZF90_WT_DS4	signal:Nodal	0	5	1.615
+90% epiboly	ZF90_WT_DS4	signal:Nodal	1	0	-0.380
+90% epiboly	ZF90_WT_DS4	signal:Nodal	1	1	-0.226
+90% epiboly	ZF90_WT_DS4	signal:Nodal	1	2	-0.165
+90% epiboly	ZF90_WT_DS4	signal:Nodal	1	3	-0.216
+90% epiboly	ZF90_WT_DS4	signal:Nodal	1	4	3.566
+90% epiboly	ZF90_WT_DS4	signal:Nodal	1	5	3.055
+90% epiboly	ZF90_WT_DS4	signal:Nodal	2	0	-0.407
+90% epiboly	ZF90_WT_DS4	signal:Nodal	2	1	-0.364
+90% epiboly	ZF90_WT_DS4	signal:Nodal	2	2	-0.344
+90% epiboly	ZF90_WT_DS4	signal:Nodal	2	3	-0.290
+90% epiboly	ZF90_WT_DS4	signal:Nodal	2	4	-0.140
+90% epiboly	ZF90_WT_DS4	signal:Nodal	2	5	4.755
+90% epiboly	ZF90_WT_DS4	signal:Nodal	3	2	-0.411
+90% epiboly	ZF90_WT_DS4	signal:Nodal	3	3	-0.383
+90% epiboly	ZF90_WT_DS4	signal:Nodal	3	4	-0.366
+90% epiboly	ZF90_WT_DS4	signal:Nodal	3	5	-0.068
+90% epiboly	ZF90_WT_DS4	signal:FGF	0	0	0.814
+90% epiboly	ZF90_WT_DS4	signal:FGF	0	1	1.101
+90% epiboly	ZF90_WT_DS4	signal:FGF	0	2	0.275
+90% epiboly	ZF90_WT_DS4	signal:FGF	0	3	-0.539
+90% epiboly	ZF90_WT_DS4	signal:FGF	0	4	3.481
+90% epiboly	ZF90_WT_DS4	signal:FGF	0	5	1.661
+90% epiboly	ZF90_WT_DS4	signal:FGF	1	0	-0.741
+90% epiboly	ZF90_WT_DS4	signal:FGF	1	1	-0.153
+90% epiboly	ZF90_WT_DS4	signal:FGF	1	2	0.502
+90% epiboly	ZF90_WT_DS4	signal:FGF	1	3	0.147
+90% epiboly	ZF90_WT_DS4	signal:FGF	1	4	1.596
+90% epiboly	ZF90_WT_DS4	signal:FGF	1	5	-0.410
+90% epiboly	ZF90_WT_DS4	signal:FGF	2	0	-0.982
+90% epiboly	ZF90_WT_DS4	signal:FGF	2	1	-0.836
+90% epiboly	ZF90_WT_DS4	signal:FGF	2	2	-0.689
+90% epiboly	ZF90_WT_DS4	signal:FGF	2	3	-0.158
+90% epiboly	ZF90_WT_DS4	signal:FGF	2	4	-0.398
+90% epiboly	ZF90_WT_DS4	signal:FGF	2	5	-0.561
+90% epiboly	ZF90_WT_DS4	signal:FGF	3	2	-0.953
+90% epiboly	ZF90_WT_DS4	signal:FGF	3	3	-0.475
+90% epiboly	ZF90_WT_DS4	signal:FGF	3	4	-0.589
+90% epiboly	ZF90_WT_DS4	signal:FGF	3	5	-0.220
+90% epiboly	ZF90_WT_DS4	signal:Wnt	0	0	0.577
+90% epiboly	ZF90_WT_DS4	signal:Wnt	0	1	0.923
+90% epiboly	ZF90_WT_DS4	signal:Wnt	0	2	0.388
+90% epiboly	ZF90_WT_DS4	signal:Wnt	0	3	0.041
+90% epiboly	ZF90_WT_DS4	signal:Wnt	0	4	0.877
+90% epiboly	ZF90_WT_DS4	signal:Wnt	0	5	0.369
+90% epiboly	ZF90_WT_DS4	signal:Wnt	1	0	-0.214
+90% epiboly	ZF90_WT_DS4	signal:Wnt	1	1	0.374
+90% epiboly	ZF90_WT_DS4	signal:Wnt	1	2	0.868
+90% epiboly	ZF90_WT_DS4	signal:Wnt	1	3	0.519
+90% epiboly	ZF90_WT_DS4	signal:Wnt	1	4	0.635
+90% epiboly	ZF90_WT_DS4	signal:Wnt	1	5	-0.993
+90% epiboly	ZF90_WT_DS4	signal:Wnt	2	0	-1.001
+90% epiboly	ZF90_WT_DS4	signal:Wnt	2	1	-1.024
+90% epiboly	ZF90_WT_DS4	signal:Wnt	2	2	-0.688
+90% epiboly	ZF90_WT_DS4	signal:Wnt	2	3	0.164
+90% epiboly	ZF90_WT_DS4	signal:Wnt	2	4	-0.175
+90% epiboly	ZF90_WT_DS4	signal:Wnt	2	5	-1.104
+90% epiboly	ZF90_WT_DS4	signal:Wnt	3	2	-1.403
+90% epiboly	ZF90_WT_DS4	signal:Wnt	3	3	-0.206
+90% epiboly	ZF90_WT_DS4	signal:Wnt	3	4	-0.226
+90% epiboly	ZF90_WT_DS4	signal:Wnt	3	5	-1.237
+90% epiboly	ZF90_WT_DS4	signal:BMP	0	0	0.385
+90% epiboly	ZF90_WT_DS4	signal:BMP	0	1	0.011
+90% epiboly	ZF90_WT_DS4	signal:BMP	0	2	-0.664
+90% epiboly	ZF90_WT_DS4	signal:BMP	0	3	-0.685
+90% epiboly	ZF90_WT_DS4	signal:BMP	0	4	-0.703
+90% epiboly	ZF90_WT_DS4	signal:BMP	0	5	-0.827
+90% epiboly	ZF90_WT_DS4	signal:BMP	1	0	1.597
+90% epiboly	ZF90_WT_DS4	signal:BMP	1	1	1.190
+90% epiboly	ZF90_WT_DS4	signal:BMP	1	2	0.407
+90% epiboly	ZF90_WT_DS4	signal:BMP	1	3	-0.300
+90% epiboly	ZF90_WT_DS4	signal:BMP	1	4	-0.716
+90% epiboly	ZF90_WT_DS4	signal:BMP	1	5	0.516
+90% epiboly	ZF90_WT_DS4	signal:BMP	2	0	2.045
+90% epiboly	ZF90_WT_DS4	signal:BMP	2	1	1.038
+90% epiboly	ZF90_WT_DS4	signal:BMP	2	2	0.352
+90% epiboly	ZF90_WT_DS4	signal:BMP	2	3	-0.382
+90% epiboly	ZF90_WT_DS4	signal:BMP	2	4	-0.626
+90% epiboly	ZF90_WT_DS4	signal:BMP	2	5	-0.956
+90% epiboly	ZF90_WT_DS4	signal:BMP	3	2	0.076
+90% epiboly	ZF90_WT_DS4	signal:BMP	3	3	-0.747
+90% epiboly	ZF90_WT_DS4	signal:BMP	3	4	-0.689
+90% epiboly	ZF90_WT_DS4	signal:BMP	3	5	-0.760
+90% epiboly	ZF90_WT_DS4	blocking:BMP	0	0	-0.577
+90% epiboly	ZF90_WT_DS4	blocking:BMP	0	1	-0.336
+90% epiboly	ZF90_WT_DS4	blocking:BMP	0	2	0.548
+90% epiboly	ZF90_WT_DS4	blocking:BMP	0	3	1.780
+90% epiboly	ZF90_WT_DS4	blocking:BMP	0	4	0.169
+90% epiboly	ZF90_WT_DS4	blocking:BMP	0	5	2.727
+90% epiboly	ZF90_WT_DS4	blocking:BMP	1	0	-0.049
+90% epiboly	ZF90_WT_DS4	blocking:BMP	1	1	-0.129
+90% epiboly	ZF90_WT_DS4	blocking:BMP	1	2	-0.030
+90% epiboly	ZF90_WT_DS4	blocking:BMP	1	3	0.214
+90% epiboly	ZF90_WT_DS4	blocking:BMP	1	4	0.109
+90% epiboly	ZF90_WT_DS4	blocking:BMP	1	5	0.477
+90% epiboly	ZF90_WT_DS4	blocking:BMP	2	0	-0.735
+90% epiboly	ZF90_WT_DS4	blocking:BMP	2	1	-0.601
+90% epiboly	ZF90_WT_DS4	blocking:BMP	2	2	-0.567
+90% epiboly	ZF90_WT_DS4	blocking:BMP	2	3	0.007
+90% epiboly	ZF90_WT_DS4	blocking:BMP	2	4	0.196
+90% epiboly	ZF90_WT_DS4	blocking:BMP	2	5	0.451
+90% epiboly	ZF90_WT_DS4	blocking:BMP	3	2	-0.728
+90% epiboly	ZF90_WT_DS4	blocking:BMP	3	3	-0.044
+90% epiboly	ZF90_WT_DS4	blocking:BMP	3	4	0.012
+90% epiboly	ZF90_WT_DS4	blocking:BMP	3	5	-0.179
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	0	0	-0.264
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	0	1	-0.210
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	0	2	-0.213
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	0	3	-0.262
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	0	4	2.775
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	0	5	4.429
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	1	0	-0.276
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	1	1	-0.267
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	1	2	-0.171
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	1	3	-0.129
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	1	4	2.616
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	1	5	0.843
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	2	0	-0.296
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	2	1	-0.262
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	2	2	-0.264
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	2	3	-0.220
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	2	4	-0.039
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	2	5	2.135
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	3	2	-0.293
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	3	3	-0.266
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	3	4	-0.232
+90% epiboly	ZF90_WT_DS4	sending:Hedgehog	3	5	-0.145
+bud	ZFB_WT_DS2	signal:Nodal	0	1	-0.276
+bud	ZFB_WT_DS2	signal:Nodal	0	2	-0.260
+bud	ZFB_WT_DS2	signal:Nodal	0	3	-0.113
+bud	ZFB_WT_DS2	signal:Nodal	0	4	0.145
+bud	ZFB_WT_DS2	signal:Nodal	0	5	-0.201
+bud	ZFB_WT_DS2	signal:Nodal	1	0	-0.321
+bud	ZFB_WT_DS2	signal:Nodal	1	1	-0.247
+bud	ZFB_WT_DS2	signal:Nodal	1	2	-0.163
+bud	ZFB_WT_DS2	signal:Nodal	1	3	0.066
+bud	ZFB_WT_DS2	signal:Nodal	1	4	-0.160
+bud	ZFB_WT_DS2	signal:Nodal	1	5	1.332
+bud	ZFB_WT_DS2	signal:Nodal	2	0	-0.284
+bud	ZFB_WT_DS2	signal:Nodal	2	1	-0.237
+bud	ZFB_WT_DS2	signal:Nodal	2	2	0.510
+bud	ZFB_WT_DS2	signal:Nodal	2	3	0.859
+bud	ZFB_WT_DS2	signal:Nodal	2	4	-0.269
+bud	ZFB_WT_DS2	signal:Nodal	2	5	-0.318
+bud	ZFB_WT_DS2	signal:Nodal	3	1	0.381
+bud	ZFB_WT_DS2	signal:Nodal	3	2	0.015
+bud	ZFB_WT_DS2	signal:Nodal	3	3	0.625
+bud	ZFB_WT_DS2	signal:Nodal	3	4	1.139
+bud	ZFB_WT_DS2	signal:Nodal	3	5	-0.049
+bud	ZFB_WT_DS2	signal:FGF	0	1	0.068
+bud	ZFB_WT_DS2	signal:FGF	0	2	0.297
+bud	ZFB_WT_DS2	signal:FGF	0	3	0.966
+bud	ZFB_WT_DS2	signal:FGF	0	4	1.773
+bud	ZFB_WT_DS2	signal:FGF	0	5	0.614
+bud	ZFB_WT_DS2	signal:FGF	1	0	-0.935
+bud	ZFB_WT_DS2	signal:FGF	1	1	-0.506
+bud	ZFB_WT_DS2	signal:FGF	1	2	-0.068
+bud	ZFB_WT_DS2	signal:FGF	1	3	1.493
+bud	ZFB_WT_DS2	signal:FGF	1	4	2.022
+bud	ZFB_WT_DS2	signal:FGF	1	5	2.344
+bud	ZFB_WT_DS2	signal:FGF	2	0	-0.854
+bud	ZFB_WT_DS2	signal:FGF	2	1	-0.581
+bud	ZFB_WT_DS2	signal:FGF	2	2	-0.258
+bud	ZFB_WT_DS2	signal:FGF	2	3	-0.177
+bud	ZFB_WT_DS2	signal:FGF	2	4	-0.135
+bud	ZFB_WT_DS2	signal:FGF	2	5	0.280
+bud	ZFB_WT_DS2	signal:FGF	3	1	-0.734
+bud	ZFB_WT_DS2	signal:FGF	3	2	-0.433
+bud	ZFB_WT_DS2	signal:FGF	3	3	-0.451
+bud	ZFB_WT_DS2	signal:FGF	3	4	-0.280
+bud	ZFB_WT_DS2	signal:FGF	3	5	-0.069
+bud	ZFB_WT_DS2	signal:Wnt	0	1	0.360
+bud	ZFB_WT_DS2	signal:Wnt	0	2	0.257
+bud	ZFB_WT_DS2	signal:Wnt	0	3	0.820
+bud	ZFB_WT_DS2	signal:Wnt	0	4	1.774
+bud	ZFB_WT_DS2	signal:Wnt	0	5	0.133
+bud	ZFB_WT_DS2	signal:Wnt	1	0	-0.269
+bud	ZFB_WT_DS2	signal:Wnt	1	1	0.488
+bud	ZFB_WT_DS2	signal:Wnt	1	2	0.264
+bud	ZFB_WT_DS2	signal:Wnt	1	3	1.742
+bud	ZFB_WT_DS2	signal:Wnt	1	4	2.138
+bud	ZFB_WT_DS2	signal:Wnt	1	5	0.832
+bud	ZFB_WT_DS2	signal:Wnt	2	0	-0.602
+bud	ZFB_WT_DS2	signal:Wnt	2	1	-0.312
+bud	ZFB_WT_DS2	signal:Wnt	2	2	-0.199
+bud	ZFB_WT_DS2	signal:Wnt	2	3	-0.234
+bud	ZFB_WT_DS2	signal:Wnt	2	4	-0.253
+bud	ZFB_WT_DS2	signal:Wnt	2	5	0.146
+bud	ZFB_WT_DS2	signal:Wnt	3	1	-0.800
+bud	ZFB_WT_DS2	signal:Wnt	3	2	-0.677
+bud	ZFB_WT_DS2	signal:Wnt	3	3	-0.677
+bud	ZFB_WT_DS2	signal:Wnt	3	4	-0.579
+bud	ZFB_WT_DS2	signal:Wnt	3	5	-0.950
+bud	ZFB_WT_DS2	signal:BMP	0	1	-0.275
+bud	ZFB_WT_DS2	signal:BMP	0	2	-0.516
+bud	ZFB_WT_DS2	signal:BMP	0	3	-0.577
+bud	ZFB_WT_DS2	signal:BMP	0	4	-0.578
+bud	ZFB_WT_DS2	signal:BMP	0	5	-0.736
+bud	ZFB_WT_DS2	signal:BMP	1	0	1.910
+bud	ZFB_WT_DS2	signal:BMP	1	1	0.938
+bud	ZFB_WT_DS2	signal:BMP	1	2	-0.428
+bud	ZFB_WT_DS2	signal:BMP	1	3	-0.109
+bud	ZFB_WT_DS2	signal:BMP	1	4	-0.474
+bud	ZFB_WT_DS2	signal:BMP	1	5	-0.560
+bud	ZFB_WT_DS2	signal:BMP	2	0	1.527
+bud	ZFB_WT_DS2	signal:BMP	2	1	0.262
+bud	ZFB_WT_DS2	signal:BMP	2	2	-0.155
+bud	ZFB_WT_DS2	signal:BMP	2	3	-0.463
+bud	ZFB_WT_DS2	signal:BMP	2	4	-0.707
+bud	ZFB_WT_DS2	signal:BMP	2	5	-0.708
+bud	ZFB_WT_DS2	signal:BMP	3	1	-0.170
+bud	ZFB_WT_DS2	signal:BMP	3	2	-0.199
+bud	ZFB_WT_DS2	signal:BMP	3	3	-0.295
+bud	ZFB_WT_DS2	signal:BMP	3	4	-0.617
+bud	ZFB_WT_DS2	signal:BMP	3	5	-0.703
+bud	ZFB_WT_DS2	blocking:BMP	0	1	-0.647
+bud	ZFB_WT_DS2	blocking:BMP	0	2	-0.649
+bud	ZFB_WT_DS2	blocking:BMP	0	3	0.069
+bud	ZFB_WT_DS2	blocking:BMP	0	4	1.077
+bud	ZFB_WT_DS2	blocking:BMP	0	5	1.171
+bud	ZFB_WT_DS2	blocking:BMP	1	0	-0.383
+bud	ZFB_WT_DS2	blocking:BMP	1	1	-0.202
+bud	ZFB_WT_DS2	blocking:BMP	1	2	-0.472
+bud	ZFB_WT_DS2	blocking:BMP	1	3	0.415
+bud	ZFB_WT_DS2	blocking:BMP	1	4	1.508
+bud	ZFB_WT_DS2	blocking:BMP	1	5	0.978
+bud	ZFB_WT_DS2	blocking:BMP	2	0	0.415
+bud	ZFB_WT_DS2	blocking:BMP	2	1	-0.186
+bud	ZFB_WT_DS2	blocking:BMP	2	2	-0.298
+bud	ZFB_WT_DS2	blocking:BMP	2	3	0.408
+bud	ZFB_WT_DS2	blocking:BMP	2	4	0.230
+bud	ZFB_WT_DS2	blocking:BMP	2	5	0.348
+bud	ZFB_WT_DS2	blocking:BMP	3	1	0.230
+bud	ZFB_WT_DS2	blocking:BMP	3	2	-0.464
+bud	ZFB_WT_DS2	blocking:BMP	3	3	-0.433
+bud	ZFB_WT_DS2	blocking:BMP	3	4	0.121
+bud	ZFB_WT_DS2	blocking:BMP	3	5	-0.218
+bud	ZFB_WT_DS2	sending:Hedgehog	0	1	-0.266
+bud	ZFB_WT_DS2	sending:Hedgehog	0	2	-0.288
+bud	ZFB_WT_DS2	sending:Hedgehog	0	3	-0.055
+bud	ZFB_WT_DS2	sending:Hedgehog	0	4	0.045
+bud	ZFB_WT_DS2	sending:Hedgehog	0	5	-0.205
+bud	ZFB_WT_DS2	sending:Hedgehog	1	0	-0.295
+bud	ZFB_WT_DS2	sending:Hedgehog	1	1	-0.253
+bud	ZFB_WT_DS2	sending:Hedgehog	1	2	-0.153
+bud	ZFB_WT_DS2	sending:Hedgehog	1	3	0.351
+bud	ZFB_WT_DS2	sending:Hedgehog	1	4	-0.257
+bud	ZFB_WT_DS2	sending:Hedgehog	1	5	3.963
+bud	ZFB_WT_DS2	sending:Hedgehog	2	0	-0.274
+bud	ZFB_WT_DS2	sending:Hedgehog	2	1	-0.258
+bud	ZFB_WT_DS2	sending:Hedgehog	2	2	0.495
+bud	ZFB_WT_DS2	sending:Hedgehog	2	3	0.957
+bud	ZFB_WT_DS2	sending:Hedgehog	2	4	-0.260
+bud	ZFB_WT_DS2	sending:Hedgehog	2	5	-0.307
+bud	ZFB_WT_DS2	sending:Hedgehog	3	1	-0.274
+bud	ZFB_WT_DS2	sending:Hedgehog	3	2	0.073
+bud	ZFB_WT_DS2	sending:Hedgehog	3	3	0.281
+bud	ZFB_WT_DS2	sending:Hedgehog	3	4	0.890
+bud	ZFB_WT_DS2	sending:Hedgehog	3	5	-0.138
+bud	ZFB_WT_DS2b	signal:Nodal	0	0	-0.361
+bud	ZFB_WT_DS2b	signal:Nodal	0	1	0.165
+bud	ZFB_WT_DS2b	signal:Nodal	0	2	-0.164
+bud	ZFB_WT_DS2b	signal:Nodal	0	3	0.332
+bud	ZFB_WT_DS2b	signal:Nodal	0	5	1.838
+bud	ZFB_WT_DS2b	signal:Nodal	1	0	-0.387
+bud	ZFB_WT_DS2b	signal:Nodal	1	1	-0.107
+bud	ZFB_WT_DS2b	signal:Nodal	1	2	-0.150
+bud	ZFB_WT_DS2b	signal:Nodal	1	3	-0.081
+bud	ZFB_WT_DS2b	signal:Nodal	1	4	0.168
+bud	ZFB_WT_DS2b	signal:Nodal	1	5	1.808
+bud	ZFB_WT_DS2b	signal:Nodal	2	0	-0.442
+bud	ZFB_WT_DS2b	signal:Nodal	2	1	-0.430
+bud	ZFB_WT_DS2b	signal:Nodal	2	2	-0.436
+bud	ZFB_WT_DS2b	signal:Nodal	2	3	-0.338
+bud	ZFB_WT_DS2b	signal:Nodal	2	4	0.504
+bud	ZFB_WT_DS2b	signal:Nodal	2	5	-0.097
+bud	ZFB_WT_DS2b	signal:Nodal	3	0	-0.349
+bud	ZFB_WT_DS2b	signal:Nodal	3	1	-0.423
+bud	ZFB_WT_DS2b	signal:Nodal	3	2	-0.396
+bud	ZFB_WT_DS2b	signal:Nodal	3	3	-0.126
+bud	ZFB_WT_DS2b	signal:Nodal	3	4	-0.017
+bud	ZFB_WT_DS2b	signal:Nodal	3	5	0.510
+bud	ZFB_WT_DS2b	signal:FGF	0	0	-0.460
+bud	ZFB_WT_DS2b	signal:FGF	0	1	0.637
+bud	ZFB_WT_DS2b	signal:FGF	0	2	1.226
+bud	ZFB_WT_DS2b	signal:FGF	0	3	1.518
+bud	ZFB_WT_DS2b	signal:FGF	0	5	2.504
+bud	ZFB_WT_DS2b	signal:FGF	1	0	-0.814
+bud	ZFB_WT_DS2b	signal:FGF	1	1	-0.504
+bud	ZFB_WT_DS2b	signal:FGF	1	2	-0.292
+bud	ZFB_WT_DS2b	signal:FGF	1	3	0.144
+bud	ZFB_WT_DS2b	signal:FGF	1	4	0.268
+bud	ZFB_WT_DS2b	signal:FGF	1	5	1.543
+bud	ZFB_WT_DS2b	signal:FGF	2	0	-0.864
+bud	ZFB_WT_DS2b	signal:FGF	2	1	-0.799
+bud	ZFB_WT_DS2b	signal:FGF	2	2	-0.738
+bud	ZFB_WT_DS2b	signal:FGF	2	3	-0.446
+bud	ZFB_WT_DS2b	signal:FGF	2	4	-0.031
+bud	ZFB_WT_DS2b	signal:FGF	2	5	0.129
+bud	ZFB_WT_DS2b	signal:FGF	3	0	-0.399
+bud	ZFB_WT_DS2b	signal:FGF	3	1	-0.614
+bud	ZFB_WT_DS2b	signal:FGF	3	2	-0.581
+bud	ZFB_WT_DS2b	signal:FGF	3	3	-0.514
+bud	ZFB_WT_DS2b	signal:FGF	3	4	-0.465
+bud	ZFB_WT_DS2b	signal:FGF	3	5	-0.053
+bud	ZFB_WT_DS2b	signal:Wnt	0	0	0.332
+bud	ZFB_WT_DS2b	signal:Wnt	0	1	0.443
+bud	ZFB_WT_DS2b	signal:Wnt	0	2	0.930
+bud	ZFB_WT_DS2b	signal:Wnt	0	3	1.222
+bud	ZFB_WT_DS2b	signal:Wnt	0	5	0.988
+bud	ZFB_WT_DS2b	signal:Wnt	1	0	-0.567
+bud	ZFB_WT_DS2b	signal:Wnt	1	1	0.369
+bud	ZFB_WT_DS2b	signal:Wnt	1	2	0.834
+bud	ZFB_WT_DS2b	signal:Wnt	1	3	1.005
+bud	ZFB_WT_DS2b	signal:Wnt	1	4	1.141
+bud	ZFB_WT_DS2b	signal:Wnt	1	5	0.957
+bud	ZFB_WT_DS2b	signal:Wnt	2	0	-0.972
+bud	ZFB_WT_DS2b	signal:Wnt	2	1	-0.699
+bud	ZFB_WT_DS2b	signal:Wnt	2	2	-0.350
+bud	ZFB_WT_DS2b	signal:Wnt	2	3	-0.346
+bud	ZFB_WT_DS2b	signal:Wnt	2	4	0.262
+bud	ZFB_WT_DS2b	signal:Wnt	2	5	0.644
+bud	ZFB_WT_DS2b	signal:Wnt	3	0	-0.138
+bud	ZFB_WT_DS2b	signal:Wnt	3	1	-0.781
+bud	ZFB_WT_DS2b	signal:Wnt	3	2	-0.680
+bud	ZFB_WT_DS2b	signal:Wnt	3	3	-0.526
+bud	ZFB_WT_DS2b	signal:Wnt	3	4	-0.524
+bud	ZFB_WT_DS2b	signal:Wnt	3	5	-1.176
+bud	ZFB_WT_DS2b	signal:BMP	0	0	0.927
+bud	ZFB_WT_DS2b	signal:BMP	0	1	-0.225
+bud	ZFB_WT_DS2b	signal:BMP	0	2	-0.119
+bud	ZFB_WT_DS2b	signal:BMP	0	3	-0.182
+bud	ZFB_WT_DS2b	signal:BMP	0	5	-0.536
+bud	ZFB_WT_DS2b	signal:BMP	1	0	1.920
+bud	ZFB_WT_DS2b	signal:BMP	1	1	0.993
+bud	ZFB_WT_DS2b	signal:BMP	1	2	0.647
+bud	ZFB_WT_DS2b	signal:BMP	1	3	-0.269
+bud	ZFB_WT_DS2b	signal:BMP	1	4	-0.387
+bud	ZFB_WT_DS2b	signal:BMP	1	5	-0.739
+bud	ZFB_WT_DS2b	signal:BMP	2	0	1.283
+bud	ZFB_WT_DS2b	signal:BMP	2	1	0.468
+bud	ZFB_WT_DS2b	signal:BMP	2	2	-0.057
+bud	ZFB_WT_DS2b	signal:BMP	2	3	-0.432
+bud	ZFB_WT_DS2b	signal:BMP	2	4	-0.728
+bud	ZFB_WT_DS2b	signal:BMP	2	5	-0.716
+bud	ZFB_WT_DS2b	signal:BMP	3	0	0.194
+bud	ZFB_WT_DS2b	signal:BMP	3	1	0.262
+bud	ZFB_WT_DS2b	signal:BMP	3	2	-0.076
+bud	ZFB_WT_DS2b	signal:BMP	3	3	-0.458
+bud	ZFB_WT_DS2b	signal:BMP	3	4	-0.700
+bud	ZFB_WT_DS2b	signal:BMP	3	5	-0.837
+bud	ZFB_WT_DS2b	blocking:BMP	0	0	-0.384
+bud	ZFB_WT_DS2b	blocking:BMP	0	1	-0.525
+bud	ZFB_WT_DS2b	blocking:BMP	0	2	-0.278
+bud	ZFB_WT_DS2b	blocking:BMP	0	3	0.231
+bud	ZFB_WT_DS2b	blocking:BMP	0	5	1.976
+bud	ZFB_WT_DS2b	blocking:BMP	1	0	-0.491
+bud	ZFB_WT_DS2b	blocking:BMP	1	1	-0.262
+bud	ZFB_WT_DS2b	blocking:BMP	1	2	-0.298
+bud	ZFB_WT_DS2b	blocking:BMP	1	3	0.118
+bud	ZFB_WT_DS2b	blocking:BMP	1	4	0.110
+bud	ZFB_WT_DS2b	blocking:BMP	1	5	4.057
+bud	ZFB_WT_DS2b	blocking:BMP	2	0	-0.334
+bud	ZFB_WT_DS2b	blocking:BMP	2	1	-0.271
+bud	ZFB_WT_DS2b	blocking:BMP	2	2	0.235
+bud	ZFB_WT_DS2b	blocking:BMP	2	3	-0.151
+bud	ZFB_WT_DS2b	blocking:BMP	2	4	0.164
+bud	ZFB_WT_DS2b	blocking:BMP	2	5	0.636
+bud	ZFB_WT_DS2b	blocking:BMP	3	0	1.918
+bud	ZFB_WT_DS2b	blocking:BMP	3	1	0.830
+bud	ZFB_WT_DS2b	blocking:BMP	3	2	0.310
+bud	ZFB_WT_DS2b	blocking:BMP	3	3	0.096
+bud	ZFB_WT_DS2b	blocking:BMP	3	4	0.014
+bud	ZFB_WT_DS2b	blocking:BMP	3	5	0.062
+bud	ZFB_WT_DS2b	sending:Hedgehog	0	0	-0.286
+bud	ZFB_WT_DS2b	sending:Hedgehog	0	1	-0.240
+bud	ZFB_WT_DS2b	sending:Hedgehog	0	2	-0.233
+bud	ZFB_WT_DS2b	sending:Hedgehog	0	3	0.014
+bud	ZFB_WT_DS2b	sending:Hedgehog	0	5	2.732
+bud	ZFB_WT_DS2b	sending:Hedgehog	1	0	-0.268
+bud	ZFB_WT_DS2b	sending:Hedgehog	1	1	-0.082
+bud	ZFB_WT_DS2b	sending:Hedgehog	1	2	-0.279
+bud	ZFB_WT_DS2b	sending:Hedgehog	1	3	-0.224
+bud	ZFB_WT_DS2b	sending:Hedgehog	1	4	0.227
+bud	ZFB_WT_DS2b	sending:Hedgehog	1	5	4.915
+bud	ZFB_WT_DS2b	sending:Hedgehog	2	0	-0.315
+bud	ZFB_WT_DS2b	sending:Hedgehog	2	1	-0.307
+bud	ZFB_WT_DS2b	sending:Hedgehog	2	2	-0.282
+bud	ZFB_WT_DS2b	sending:Hedgehog	2	3	-0.225
+bud	ZFB_WT_DS2b	sending:Hedgehog	2	4	0.453
+bud	ZFB_WT_DS2b	sending:Hedgehog	2	5	0.261
+bud	ZFB_WT_DS2b	sending:Hedgehog	3	0	-0.312
+bud	ZFB_WT_DS2b	sending:Hedgehog	3	1	-0.289
+bud	ZFB_WT_DS2b	sending:Hedgehog	3	2	-0.279
+bud	ZFB_WT_DS2b	sending:Hedgehog	3	3	-0.230
+bud	ZFB_WT_DS2b	sending:Hedgehog	3	4	-0.098
+bud	ZFB_WT_DS2b	sending:Hedgehog	3	5	0.044
+bud	ZFB_WT_DS3	signal:Nodal	0	0	-0.246
+bud	ZFB_WT_DS3	signal:Nodal	0	1	-0.137
+bud	ZFB_WT_DS3	signal:Nodal	0	2	-0.157
+bud	ZFB_WT_DS3	signal:Nodal	0	3	-0.081
+bud	ZFB_WT_DS3	signal:Nodal	0	4	0.560
+bud	ZFB_WT_DS3	signal:Nodal	0	5	1.531
+bud	ZFB_WT_DS3	signal:Nodal	1	0	-0.232
+bud	ZFB_WT_DS3	signal:Nodal	1	1	-0.228
+bud	ZFB_WT_DS3	signal:Nodal	1	2	-0.204
+bud	ZFB_WT_DS3	signal:Nodal	1	3	-0.131
+bud	ZFB_WT_DS3	signal:Nodal	1	4	0.220
+bud	ZFB_WT_DS3	signal:Nodal	1	5	0.849
+bud	ZFB_WT_DS3	signal:Nodal	2	0	-0.241
+bud	ZFB_WT_DS3	signal:Nodal	2	1	-0.188
+bud	ZFB_WT_DS3	signal:Nodal	2	2	-0.134
+bud	ZFB_WT_DS3	signal:Nodal	2	3	-0.053
+bud	ZFB_WT_DS3	signal:Nodal	2	4	0.185
+bud	ZFB_WT_DS3	signal:Nodal	2	5	0.355
+bud	ZFB_WT_DS3	signal:Nodal	3	0	-0.233
+bud	ZFB_WT_DS3	signal:Nodal	3	1	-0.219
+bud	ZFB_WT_DS3	signal:Nodal	3	2	-0.226
+bud	ZFB_WT_DS3	signal:Nodal	3	3	-0.108
+bud	ZFB_WT_DS3	signal:Nodal	3	4	0.101
+bud	ZFB_WT_DS3	signal:Nodal	3	5	0.491
+bud	ZFB_WT_DS3	signal:FGF	0	0	-0.488
+bud	ZFB_WT_DS3	signal:FGF	0	1	0.585
+bud	ZFB_WT_DS3	signal:FGF	0	2	0.789
+bud	ZFB_WT_DS3	signal:FGF	0	3	1.594
+bud	ZFB_WT_DS3	signal:FGF	0	4	3.916
+bud	ZFB_WT_DS3	signal:FGF	0	5	4.399
+bud	ZFB_WT_DS3	signal:FGF	1	0	-0.851
+bud	ZFB_WT_DS3	signal:FGF	1	1	-0.432
+bud	ZFB_WT_DS3	signal:FGF	1	2	-0.071
+bud	ZFB_WT_DS3	signal:FGF	1	3	0.779
+bud	ZFB_WT_DS3	signal:FGF	1	4	0.766
+bud	ZFB_WT_DS3	signal:FGF	1	5	1.362
+bud	ZFB_WT_DS3	signal:FGF	2	0	-0.856
+bud	ZFB_WT_DS3	signal:FGF	2	1	-0.609
+bud	ZFB_WT_DS3	signal:FGF	2	2	-0.507
+bud	ZFB_WT_DS3	signal:FGF	2	3	-0.352
+bud	ZFB_WT_DS3	signal:FGF	2	4	-0.271
+bud	ZFB_WT_DS3	signal:FGF	2	5	0.218
+bud	ZFB_WT_DS3	signal:FGF	3	0	-0.796
+bud	ZFB_WT_DS3	signal:FGF	3	1	-0.721
+bud	ZFB_WT_DS3	signal:FGF	3	2	-0.690
+bud	ZFB_WT_DS3	signal:FGF	3	3	-0.635
+bud	ZFB_WT_DS3	signal:FGF	3	4	-0.462
+bud	ZFB_WT_DS3	signal:FGF	3	5	0.141
+bud	ZFB_WT_DS3	signal:Wnt	0	0	0.581
+bud	ZFB_WT_DS3	signal:Wnt	0	1	0.271
+bud	ZFB_WT_DS3	signal:Wnt	0	2	0.745
+bud	ZFB_WT_DS3	signal:Wnt	0	3	1.878
+bud	ZFB_WT_DS3	signal:Wnt	0	4	2.171
+bud	ZFB_WT_DS3	signal:Wnt	0	5	2.446
+bud	ZFB_WT_DS3	signal:Wnt	1	0	-0.061
+bud	ZFB_WT_DS3	signal:Wnt	1	1	0.325
+bud	ZFB_WT_DS3	signal:Wnt	1	2	0.649
+bud	ZFB_WT_DS3	signal:Wnt	1	3	1.059
+bud	ZFB_WT_DS3	signal:Wnt	1	4	0.943
+bud	ZFB_WT_DS3	signal:Wnt	1	5	0.736
+bud	ZFB_WT_DS3	signal:Wnt	2	0	-0.759
+bud	ZFB_WT_DS3	signal:Wnt	2	1	-0.442
+bud	ZFB_WT_DS3	signal:Wnt	2	2	-0.464
+bud	ZFB_WT_DS3	signal:Wnt	2	3	-0.271
+bud	ZFB_WT_DS3	signal:Wnt	2	4	-0.134
+bud	ZFB_WT_DS3	signal:Wnt	2	5	-0.051
+bud	ZFB_WT_DS3	signal:Wnt	3	0	-0.750
+bud	ZFB_WT_DS3	signal:Wnt	3	1	-0.834
+bud	ZFB_WT_DS3	signal:Wnt	3	2	-1.023
+bud	ZFB_WT_DS3	signal:Wnt	3	3	-0.563
+bud	ZFB_WT_DS3	signal:Wnt	3	4	-0.640
+bud	ZFB_WT_DS3	signal:Wnt	3	5	-0.886
+bud	ZFB_WT_DS3	signal:BMP	0	0	1.372
+bud	ZFB_WT_DS3	signal:BMP	0	1	0.182
+bud	ZFB_WT_DS3	signal:BMP	0	2	-0.102
+bud	ZFB_WT_DS3	signal:BMP	0	3	-0.073
+bud	ZFB_WT_DS3	signal:BMP	0	4	-0.533
+bud	ZFB_WT_DS3	signal:BMP	0	5	-0.598
+bud	ZFB_WT_DS3	signal:BMP	1	0	1.677
+bud	ZFB_WT_DS3	signal:BMP	1	1	0.195
+bud	ZFB_WT_DS3	signal:BMP	1	2	-0.002
+bud	ZFB_WT_DS3	signal:BMP	1	3	-0.273
+bud	ZFB_WT_DS3	signal:BMP	1	4	-0.447
+bud	ZFB_WT_DS3	signal:BMP	1	5	-0.915
+bud	ZFB_WT_DS3	signal:BMP	2	0	1.121
+bud	ZFB_WT_DS3	signal:BMP	2	1	-0.027
+bud	ZFB_WT_DS3	signal:BMP	2	2	-0.105
+bud	ZFB_WT_DS3	signal:BMP	2	3	-0.375
+bud	ZFB_WT_DS3	signal:BMP	2	4	-0.598
+bud	ZFB_WT_DS3	signal:BMP	2	5	-0.727
+bud	ZFB_WT_DS3	signal:BMP	3	0	1.090
+bud	ZFB_WT_DS3	signal:BMP	3	1	-0.165
+bud	ZFB_WT_DS3	signal:BMP	3	2	-0.460
+bud	ZFB_WT_DS3	signal:BMP	3	3	-0.347
+bud	ZFB_WT_DS3	signal:BMP	3	4	-0.337
+bud	ZFB_WT_DS3	signal:BMP	3	5	-0.746
+bud	ZFB_WT_DS3	blocking:BMP	0	0	-0.515
+bud	ZFB_WT_DS3	blocking:BMP	0	1	-0.487
+bud	ZFB_WT_DS3	blocking:BMP	0	2	-0.083
+bud	ZFB_WT_DS3	blocking:BMP	0	3	0.342
+bud	ZFB_WT_DS3	blocking:BMP	0	4	-0.412
+bud	ZFB_WT_DS3	blocking:BMP	0	5	-0.194
+bud	ZFB_WT_DS3	blocking:BMP	1	0	-0.429
+bud	ZFB_WT_DS3	blocking:BMP	1	1	0.821
+bud	ZFB_WT_DS3	blocking:BMP	1	2	0.756
+bud	ZFB_WT_DS3	blocking:BMP	1	3	0.587
+bud	ZFB_WT_DS3	blocking:BMP	1	4	1.126
+bud	ZFB_WT_DS3	blocking:BMP	1	5	3.002
+bud	ZFB_WT_DS3	blocking:BMP	2	0	-0.303
+bud	ZFB_WT_DS3	blocking:BMP	2	1	0.142
+bud	ZFB_WT_DS3	blocking:BMP	2	2	-0.258
+bud	ZFB_WT_DS3	blocking:BMP	2	3	-0.019
+bud	ZFB_WT_DS3	blocking:BMP	2	4	-0.054
+bud	ZFB_WT_DS3	blocking:BMP	2	5	-0.004
+bud	ZFB_WT_DS3	blocking:BMP	3	0	0.165
+bud	ZFB_WT_DS3	blocking:BMP	3	1	-0.217
+bud	ZFB_WT_DS3	blocking:BMP	3	2	-0.544
+bud	ZFB_WT_DS3	blocking:BMP	3	3	-0.307
+bud	ZFB_WT_DS3	blocking:BMP	3	4	-0.202
+bud	ZFB_WT_DS3	blocking:BMP	3	5	-0.123
+bud	ZFB_WT_DS3	sending:Hedgehog	0	0	-0.269
+bud	ZFB_WT_DS3	sending:Hedgehog	0	1	-0.246
+bud	ZFB_WT_DS3	sending:Hedgehog	0	2	-0.223
+bud	ZFB_WT_DS3	sending:Hedgehog	0	3	-0.125
+bud	ZFB_WT_DS3	sending:Hedgehog	0	4	1.319
+bud	ZFB_WT_DS3	sending:Hedgehog	0	5	2.313
+bud	ZFB_WT_DS3	sending:Hedgehog	1	0	-0.226
+bud	ZFB_WT_DS3	sending:Hedgehog	1	1	-0.231
+bud	ZFB_WT_DS3	sending:Hedgehog	1	2	-0.174
+bud	ZFB_WT_DS3	sending:Hedgehog	1	3	-0.177
+bud	ZFB_WT_DS3	sending:Hedgehog	1	4	0.241
+bud	ZFB_WT_DS3	sending:Hedgehog	1	5	3.206
+bud	ZFB_WT_DS3	sending:Hedgehog	2	0	-0.236
+bud	ZFB_WT_DS3	sending:Hedgehog	2	1	-0.213
+bud	ZFB_WT_DS3	sending:Hedgehog	2	2	-0.182
+bud	ZFB_WT_DS3	sending:Hedgehog	2	3	-0.080
+bud	ZFB_WT_DS3	sending:Hedgehog	2	4	0.212
+bud	ZFB_WT_DS3	sending:Hedgehog	2	5	0.360
+bud	ZFB_WT_DS3	sending:Hedgehog	3	0	-0.254
+bud	ZFB_WT_DS3	sending:Hedgehog	3	1	-0.272
+bud	ZFB_WT_DS3	sending:Hedgehog	3	2	-0.290
+bud	ZFB_WT_DS3	sending:Hedgehog	3	3	-0.165
+bud	ZFB_WT_DS3	sending:Hedgehog	3	4	-0.041
+bud	ZFB_WT_DS3	sending:Hedgehog	3	5	0.315
+bud	ZFB_WT_DS4	signal:Nodal	0	0	-0.263
+bud	ZFB_WT_DS4	signal:Nodal	0	1	-0.166
+bud	ZFB_WT_DS4	signal:Nodal	0	2	-0.170
+bud	ZFB_WT_DS4	signal:Nodal	0	3	-0.049
+bud	ZFB_WT_DS4	signal:Nodal	0	5	0.627
+bud	ZFB_WT_DS4	signal:Nodal	1	0	-0.251
+bud	ZFB_WT_DS4	signal:Nodal	1	1	-0.242
+bud	ZFB_WT_DS4	signal:Nodal	1	2	-0.108
+bud	ZFB_WT_DS4	signal:Nodal	1	3	-0.100
+bud	ZFB_WT_DS4	signal:Nodal	1	4	0.182
+bud	ZFB_WT_DS4	signal:Nodal	1	5	0.051
+bud	ZFB_WT_DS4	signal:Nodal	2	0	-0.217
+bud	ZFB_WT_DS4	signal:Nodal	2	1	-0.214
+bud	ZFB_WT_DS4	signal:Nodal	2	2	-0.044
+bud	ZFB_WT_DS4	signal:Nodal	2	3	-0.056
+bud	ZFB_WT_DS4	signal:Nodal	2	4	0.023
+bud	ZFB_WT_DS4	signal:Nodal	2	5	0.718
+bud	ZFB_WT_DS4	signal:Nodal	3	0	-0.242
+bud	ZFB_WT_DS4	signal:Nodal	3	1	-0.186
+bud	ZFB_WT_DS4	signal:Nodal	3	3	0.962
+bud	ZFB_WT_DS4	signal:Nodal	3	4	-0.064
+bud	ZFB_WT_DS4	signal:Nodal	3	5	0.376
+bud	ZFB_WT_DS4	signal:FGF	0	0	-0.261
+bud	ZFB_WT_DS4	signal:FGF	0	1	0.589
+bud	ZFB_WT_DS4	signal:FGF	0	2	1.347
+bud	ZFB_WT_DS4	signal:FGF	0	3	0.990
+bud	ZFB_WT_DS4	signal:FGF	0	5	3.303
+bud	ZFB_WT_DS4	signal:FGF	1	0	-0.847
+bud	ZFB_WT_DS4	signal:FGF	1	1	-0.647
+bud	ZFB_WT_DS4	signal:FGF	1	2	0.005
+bud	ZFB_WT_DS4	signal:FGF	1	3	0.719
+bud	ZFB_WT_DS4	signal:FGF	1	4	-0.044
+bud	ZFB_WT_DS4	signal:FGF	1	5	1.398
+bud	ZFB_WT_DS4	signal:FGF	2	0	-0.840
+bud	ZFB_WT_DS4	signal:FGF	2	1	-0.816
+bud	ZFB_WT_DS4	signal:FGF	2	2	-0.733
+bud	ZFB_WT_DS4	signal:FGF	2	3	-0.481
+bud	ZFB_WT_DS4	signal:FGF	2	4	-0.329
+bud	ZFB_WT_DS4	signal:FGF	2	5	0.365
+bud	ZFB_WT_DS4	signal:FGF	3	0	-0.807
+bud	ZFB_WT_DS4	signal:FGF	3	1	-0.813
+bud	ZFB_WT_DS4	signal:FGF	3	3	-0.701
+bud	ZFB_WT_DS4	signal:FGF	3	4	-0.348
+bud	ZFB_WT_DS4	signal:FGF	3	5	-0.074
+bud	ZFB_WT_DS4	signal:Wnt	0	0	0.604
+bud	ZFB_WT_DS4	signal:Wnt	0	1	0.393
+bud	ZFB_WT_DS4	signal:Wnt	0	2	0.931
+bud	ZFB_WT_DS4	signal:Wnt	0	3	1.037
+bud	ZFB_WT_DS4	signal:Wnt	0	5	1.007
+bud	ZFB_WT_DS4	signal:Wnt	1	0	-0.297
+bud	ZFB_WT_DS4	signal:Wnt	1	1	0.549
+bud	ZFB_WT_DS4	signal:Wnt	1	2	0.997
+bud	ZFB_WT_DS4	signal:Wnt	1	3	1.323
+bud	ZFB_WT_DS4	signal:Wnt	1	4	1.043
+bud	ZFB_WT_DS4	signal:Wnt	1	5	0.204
+bud	ZFB_WT_DS4	signal:Wnt	2	0	-0.830
+bud	ZFB_WT_DS4	signal:Wnt	2	1	-0.534
+bud	ZFB_WT_DS4	signal:Wnt	2	2	-0.454
+bud	ZFB_WT_DS4	signal:Wnt	2	3	-0.124
+bud	ZFB_WT_DS4	signal:Wnt	2	4	0.091
+bud	ZFB_WT_DS4	signal:Wnt	2	5	-0.286
+bud	ZFB_WT_DS4	signal:Wnt	3	0	-0.713
+bud	ZFB_WT_DS4	signal:Wnt	3	1	-1.137
+bud	ZFB_WT_DS4	signal:Wnt	3	3	-0.772
+bud	ZFB_WT_DS4	signal:Wnt	3	4	-0.656
+bud	ZFB_WT_DS4	signal:Wnt	3	5	-1.046
+bud	ZFB_WT_DS4	signal:BMP	0	0	1.186
+bud	ZFB_WT_DS4	signal:BMP	0	1	0.418
+bud	ZFB_WT_DS4	signal:BMP	0	2	-0.156
+bud	ZFB_WT_DS4	signal:BMP	0	3	-0.420
+bud	ZFB_WT_DS4	signal:BMP	0	5	-0.654
+bud	ZFB_WT_DS4	signal:BMP	1	0	1.896
+bud	ZFB_WT_DS4	signal:BMP	1	1	0.653
+bud	ZFB_WT_DS4	signal:BMP	1	2	0.002
+bud	ZFB_WT_DS4	signal:BMP	1	3	-0.364
+bud	ZFB_WT_DS4	signal:BMP	1	4	-0.661
+bud	ZFB_WT_DS4	signal:BMP	1	5	-0.984
+bud	ZFB_WT_DS4	signal:BMP	2	0	1.052
+bud	ZFB_WT_DS4	signal:BMP	2	1	0.069
+bud	ZFB_WT_DS4	signal:BMP	2	2	-0.088
+bud	ZFB_WT_DS4	signal:BMP	2	3	-0.306
+bud	ZFB_WT_DS4	signal:BMP	2	4	-0.627
+bud	ZFB_WT_DS4	signal:BMP	2	5	-0.752
+bud	ZFB_WT_DS4	signal:BMP	3	0	0.749
+bud	ZFB_WT_DS4	signal:BMP	3	1	-0.003
+bud	ZFB_WT_DS4	signal:BMP	3	3	-0.007
+bud	ZFB_WT_DS4	signal:BMP	3	4	-0.715
+bud	ZFB_WT_DS4	signal:BMP	3	5	-0.901
+bud	ZFB_WT_DS4	blocking:BMP	0	0	-0.576
+bud	ZFB_WT_DS4	blocking:BMP	0	1	-0.512
+bud	ZFB_WT_DS4	blocking:BMP	0	2	-0.225
+bud	ZFB_WT_DS4	blocking:BMP	0	3	0.967
+bud	ZFB_WT_DS4	blocking:BMP	0	5	0.808
+bud	ZFB_WT_DS4	blocking:BMP	1	0	-0.477
+bud	ZFB_WT_DS4	blocking:BMP	1	1	0.494
+bud	ZFB_WT_DS4	blocking:BMP	1	2	0.942
+bud	ZFB_WT_DS4	blocking:BMP	1	3	0.670
+bud	ZFB_WT_DS4	blocking:BMP	1	4	1.598
+bud	ZFB_WT_DS4	blocking:BMP	1	5	3.139
+bud	ZFB_WT_DS4	blocking:BMP	2	0	-0.378
+bud	ZFB_WT_DS4	blocking:BMP	2	1	-0.103
+bud	ZFB_WT_DS4	blocking:BMP	2	2	-0.264
+bud	ZFB_WT_DS4	blocking:BMP	2	3	-0.209
+bud	ZFB_WT_DS4	blocking:BMP	2	4	-0.027
+bud	ZFB_WT_DS4	blocking:BMP	2	5	0.010
+bud	ZFB_WT_DS4	blocking:BMP	3	0	0.724
+bud	ZFB_WT_DS4	blocking:BMP	3	1	-0.540
+bud	ZFB_WT_DS4	blocking:BMP	3	3	-0.353
+bud	ZFB_WT_DS4	blocking:BMP	3	4	-0.087
+bud	ZFB_WT_DS4	blocking:BMP	3	5	-0.063
+bud	ZFB_WT_DS4	sending:Hedgehog	0	0	-0.281
+bud	ZFB_WT_DS4	sending:Hedgehog	0	1	-0.252
+bud	ZFB_WT_DS4	sending:Hedgehog	0	2	-0.227
+bud	ZFB_WT_DS4	sending:Hedgehog	0	3	0.021
+bud	ZFB_WT_DS4	sending:Hedgehog	0	5	2.912
+bud	ZFB_WT_DS4	sending:Hedgehog	1	0	-0.283
+bud	ZFB_WT_DS4	sending:Hedgehog	1	1	-0.259
+bud	ZFB_WT_DS4	sending:Hedgehog	1	2	-0.039
+bud	ZFB_WT_DS4	sending:Hedgehog	1	3	0.012
+bud	ZFB_WT_DS4	sending:Hedgehog	1	4	0.533
+bud	ZFB_WT_DS4	sending:Hedgehog	1	5	3.277
+bud	ZFB_WT_DS4	sending:Hedgehog	2	0	-0.272
+bud	ZFB_WT_DS4	sending:Hedgehog	2	1	-0.238
+bud	ZFB_WT_DS4	sending:Hedgehog	2	2	0.014
+bud	ZFB_WT_DS4	sending:Hedgehog	2	3	-0.025
+bud	ZFB_WT_DS4	sending:Hedgehog	2	4	0.037
+bud	ZFB_WT_DS4	sending:Hedgehog	2	5	0.702
+bud	ZFB_WT_DS4	sending:Hedgehog	3	0	-0.229
+bud	ZFB_WT_DS4	sending:Hedgehog	3	1	-0.281
+bud	ZFB_WT_DS4	sending:Hedgehog	3	3	-0.158
+bud	ZFB_WT_DS4	sending:Hedgehog	3	4	-0.140
+bud	ZFB_WT_DS4	sending:Hedgehog	3	5	0.208
+3-somite	ZF3S_WT_DS5	signal:Nodal	0	0	-0.134
+3-somite	ZF3S_WT_DS5	signal:Nodal	0	1	-0.157
+3-somite	ZF3S_WT_DS5	signal:Nodal	0	2	-0.152
+3-somite	ZF3S_WT_DS5	signal:Nodal	0	3	-0.170
+3-somite	ZF3S_WT_DS5	signal:Nodal	0	4	-0.182
+3-somite	ZF3S_WT_DS5	signal:Nodal	0	5	-0.154
+3-somite	ZF3S_WT_DS5	signal:Nodal	1	0	-0.156
+3-somite	ZF3S_WT_DS5	signal:Nodal	1	1	-0.150
+3-somite	ZF3S_WT_DS5	signal:Nodal	1	2	-0.048
+3-somite	ZF3S_WT_DS5	signal:Nodal	1	3	-0.041
+3-somite	ZF3S_WT_DS5	signal:Nodal	1	4	0.011
+3-somite	ZF3S_WT_DS5	signal:Nodal	1	5	-0.130
+3-somite	ZF3S_WT_DS5	signal:Nodal	2	0	-0.149
+3-somite	ZF3S_WT_DS5	signal:Nodal	2	1	-0.161
+3-somite	ZF3S_WT_DS5	signal:Nodal	2	2	-0.147
+3-somite	ZF3S_WT_DS5	signal:Nodal	2	3	-0.121
+3-somite	ZF3S_WT_DS5	signal:Nodal	2	4	-0.114
+3-somite	ZF3S_WT_DS5	signal:Nodal	2	5	-0.055
+3-somite	ZF3S_WT_DS5	signal:Nodal	3	0	0.015
+3-somite	ZF3S_WT_DS5	signal:Nodal	3	1	0.132
+3-somite	ZF3S_WT_DS5	signal:Nodal	3	2	0.573
+3-somite	ZF3S_WT_DS5	signal:Nodal	3	3	-0.088
+3-somite	ZF3S_WT_DS5	signal:Nodal	3	4	0.017
+3-somite	ZF3S_WT_DS5	signal:Nodal	3	5	0.873
+3-somite	ZF3S_WT_DS5	signal:FGF	0	0	0.593
+3-somite	ZF3S_WT_DS5	signal:FGF	0	1	0.229
+3-somite	ZF3S_WT_DS5	signal:FGF	0	2	0.970
+3-somite	ZF3S_WT_DS5	signal:FGF	0	3	2.147
+3-somite	ZF3S_WT_DS5	signal:FGF	0	4	2.019
+3-somite	ZF3S_WT_DS5	signal:FGF	0	5	2.229
+3-somite	ZF3S_WT_DS5	signal:FGF	1	0	-0.466
+3-somite	ZF3S_WT_DS5	signal:FGF	1	1	-0.025
+3-somite	ZF3S_WT_DS5	signal:FGF	1	2	-0.063
+3-somite	ZF3S_WT_DS5	signal:FGF	1	3	-0.226
+3-somite	ZF3S_WT_DS5	signal:FGF	1	4	0.505
+3-somite	ZF3S_WT_DS5	signal:FGF	1	5	0.574
+3-somite	ZF3S_WT_DS5	signal:FGF	2	0	-0.682
+3-somite	ZF3S_WT_DS5	signal:FGF	2	1	0.018
+3-somite	ZF3S_WT_DS5	signal:FGF	2	2	-0.350
+3-somite	ZF3S_WT_DS5	signal:FGF	2	3	-0.586
+3-somite	ZF3S_WT_DS5	signal:FGF	2	4	-0.410
+3-somite	ZF3S_WT_DS5	signal:FGF	2	5	0.291
+3-somite	ZF3S_WT_DS5	signal:FGF	3	0	-0.552
+3-somite	ZF3S_WT_DS5	signal:FGF	3	1	0.076
+3-somite	ZF3S_WT_DS5	signal:FGF	3	2	-0.022
+3-somite	ZF3S_WT_DS5	signal:FGF	3	3	-0.618
+3-somite	ZF3S_WT_DS5	signal:FGF	3	4	-0.580
+3-somite	ZF3S_WT_DS5	signal:FGF	3	5	-0.427
+3-somite	ZF3S_WT_DS5	signal:Wnt	0	0	0.174
+3-somite	ZF3S_WT_DS5	signal:Wnt	0	1	0.318
+3-somite	ZF3S_WT_DS5	signal:Wnt	0	2	1.021
+3-somite	ZF3S_WT_DS5	signal:Wnt	0	3	2.724
+3-somite	ZF3S_WT_DS5	signal:Wnt	0	4	2.278
+3-somite	ZF3S_WT_DS5	signal:Wnt	0	5	0.988
+3-somite	ZF3S_WT_DS5	signal:Wnt	1	0	-0.100
+3-somite	ZF3S_WT_DS5	signal:Wnt	1	1	0.015
+3-somite	ZF3S_WT_DS5	signal:Wnt	1	2	0.009
+3-somite	ZF3S_WT_DS5	signal:Wnt	1	3	0.079
+3-somite	ZF3S_WT_DS5	signal:Wnt	1	4	0.478
+3-somite	ZF3S_WT_DS5	signal:Wnt	1	5	-0.312
+3-somite	ZF3S_WT_DS5	signal:Wnt	2	0	-0.478
+3-somite	ZF3S_WT_DS5	signal:Wnt	2	1	-0.362
+3-somite	ZF3S_WT_DS5	signal:Wnt	2	2	-0.130
+3-somite	ZF3S_WT_DS5	signal:Wnt	2	3	-0.440
+3-somite	ZF3S_WT_DS5	signal:Wnt	2	4	-0.425
+3-somite	ZF3S_WT_DS5	signal:Wnt	2	5	-0.527
+3-somite	ZF3S_WT_DS5	signal:Wnt	3	0	-0.718
+3-somite	ZF3S_WT_DS5	signal:Wnt	3	1	-0.708
+3-somite	ZF3S_WT_DS5	signal:Wnt	3	2	-0.763
+3-somite	ZF3S_WT_DS5	signal:Wnt	3	3	-0.320
+3-somite	ZF3S_WT_DS5	signal:Wnt	3	4	-0.532
+3-somite	ZF3S_WT_DS5	signal:Wnt	3	5	-0.647
+3-somite	ZF3S_WT_DS5	signal:BMP	0	0	0.116
+3-somite	ZF3S_WT_DS5	signal:BMP	0	1	0.155
+3-somite	ZF3S_WT_DS5	signal:BMP	0	2	0.094
+3-somite	ZF3S_WT_DS5	signal:BMP	0	3	0.501
+3-somite	ZF3S_WT_DS5	signal:BMP	0	4	0.114
+3-somite	ZF3S_WT_DS5	signal:BMP	0	5	-0.663
+3-somite	ZF3S_WT_DS5	signal:BMP	1	0	0.893
+3-somite	ZF3S_WT_DS5	signal:BMP	1	1	0.170
+3-somite	ZF3S_WT_DS5	signal:BMP	1	2	0.029
+3-somite	ZF3S_WT_DS5	signal:BMP	1	3	-0.460
+3-somite	ZF3S_WT_DS5	signal:BMP	1	4	-0.575
+3-somite	ZF3S_WT_DS5	signal:BMP	1	5	-0.458
+3-somite	ZF3S_WT_DS5	signal:BMP	2	0	0.986
+3-somite	ZF3S_WT_DS5	signal:BMP	2	1	-0.156
+3-somite	ZF3S_WT_DS5	signal:BMP	2	2	0.152
+3-somite	ZF3S_WT_DS5	signal:BMP	2	3	-0.382
+3-somite	ZF3S_WT_DS5	signal:BMP	2	4	-0.415
+3-somite	ZF3S_WT_DS5	signal:BMP	2	5	-0.482
+3-somite	ZF3S_WT_DS5	signal:BMP	3	0	1.245
+3-somite	ZF3S_WT_DS5	signal:BMP	3	1	0.040
+3-somite	ZF3S_WT_DS5	signal:BMP	3	2	0.374
+3-somite	ZF3S_WT_DS5	signal:BMP	3	3	-0.365
+3-somite	ZF3S_WT_DS5	signal:BMP	3	4	-0.293
+3-somite	ZF3S_WT_DS5	signal:BMP	3	5	-0.655
+3-somite	ZF3S_WT_DS5	blocking:BMP	0	0	-0.219
+3-somite	ZF3S_WT_DS5	blocking:BMP	0	1	-0.253
+3-somite	ZF3S_WT_DS5	blocking:BMP	0	2	-0.275
+3-somite	ZF3S_WT_DS5	blocking:BMP	0	3	0.125
+3-somite	ZF3S_WT_DS5	blocking:BMP	0	4	1.080
+3-somite	ZF3S_WT_DS5	blocking:BMP	0	5	0.802
+3-somite	ZF3S_WT_DS5	blocking:BMP	1	0	-0.116
+3-somite	ZF3S_WT_DS5	blocking:BMP	1	1	1.121
+3-somite	ZF3S_WT_DS5	blocking:BMP	1	2	0.178
+3-somite	ZF3S_WT_DS5	blocking:BMP	1	3	0.222
+3-somite	ZF3S_WT_DS5	blocking:BMP	1	4	0.988
+3-somite	ZF3S_WT_DS5	blocking:BMP	1	5	2.352
+3-somite	ZF3S_WT_DS5	blocking:BMP	2	0	-0.185
+3-somite	ZF3S_WT_DS5	blocking:BMP	2	1	1.242
+3-somite	ZF3S_WT_DS5	blocking:BMP	2	2	-0.384
+3-somite	ZF3S_WT_DS5	blocking:BMP	2	3	-0.284
+3-somite	ZF3S_WT_DS5	blocking:BMP	2	4	-0.246
+3-somite	ZF3S_WT_DS5	blocking:BMP	2	5	-0.139
+3-somite	ZF3S_WT_DS5	blocking:BMP	3	0	-0.249
+3-somite	ZF3S_WT_DS5	blocking:BMP	3	1	0.021
+3-somite	ZF3S_WT_DS5	blocking:BMP	3	2	-0.452
+3-somite	ZF3S_WT_DS5	blocking:BMP	3	3	-0.375
+3-somite	ZF3S_WT_DS5	blocking:BMP	3	4	-0.300
+3-somite	ZF3S_WT_DS5	blocking:BMP	3	5	-0.249
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	0	0	-0.219
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	0	1	-0.213
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	0	2	-0.199
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	0	3	-0.132
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	0	4	-0.249
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	0	5	1.042
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	1	0	-0.196
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	1	1	-0.120
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	1	2	-0.059
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	1	3	0.068
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	1	4	0.274
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	1	5	2.101
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	2	0	-0.163
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	2	1	-0.126
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	2	2	-0.210
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	2	3	-0.117
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	2	4	-0.114
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	2	5	-0.103
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	3	0	-0.125
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	3	1	0.045
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	3	2	-0.245
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	3	3	-0.139
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	3	4	-0.174
+3-somite	ZF3S_WT_DS5	sending:Hedgehog	3	5	0.690
+6-somite	ZF6S_WT_DS5	signal:Nodal	0	0	-0.234
+6-somite	ZF6S_WT_DS5	signal:Nodal	0	1	-0.185
+6-somite	ZF6S_WT_DS5	signal:Nodal	0	2	-0.225
+6-somite	ZF6S_WT_DS5	signal:Nodal	0	3	-0.219
+6-somite	ZF6S_WT_DS5	signal:Nodal	0	4	-0.235
+6-somite	ZF6S_WT_DS5	signal:Nodal	0	5	-0.232
+6-somite	ZF6S_WT_DS5	signal:Nodal	1	0	-0.240
+6-somite	ZF6S_WT_DS5	signal:Nodal	1	1	-0.205
+6-somite	ZF6S_WT_DS5	signal:Nodal	1	2	-0.075
+6-somite	ZF6S_WT_DS5	signal:Nodal	1	3	-0.109
+6-somite	ZF6S_WT_DS5	signal:Nodal	1	4	-0.214
+6-somite	ZF6S_WT_DS5	signal:Nodal	1	5	0.108
+6-somite	ZF6S_WT_DS5	signal:Nodal	2	0	-0.149
+6-somite	ZF6S_WT_DS5	signal:Nodal	2	1	0.229
+6-somite	ZF6S_WT_DS5	signal:Nodal	2	2	0.128
+6-somite	ZF6S_WT_DS5	signal:Nodal	2	3	-0.047
+6-somite	ZF6S_WT_DS5	signal:Nodal	2	4	0.163
+6-somite	ZF6S_WT_DS5	signal:Nodal	2	5	0.631
+6-somite	ZF6S_WT_DS5	signal:Nodal	3	0	-0.082
+6-somite	ZF6S_WT_DS5	signal:Nodal	3	1	-0.234
+6-somite	ZF6S_WT_DS5	signal:Nodal	3	2	1.092
+6-somite	ZF6S_WT_DS5	signal:Nodal	3	3	-0.153
+6-somite	ZF6S_WT_DS5	signal:Nodal	3	4	-0.031
+6-somite	ZF6S_WT_DS5	signal:Nodal	3	5	0.682
+6-somite	ZF6S_WT_DS5	signal:FGF	0	0	0.308
+6-somite	ZF6S_WT_DS5	signal:FGF	0	1	0.045
+6-somite	ZF6S_WT_DS5	signal:FGF	0	2	0.604
+6-somite	ZF6S_WT_DS5	signal:FGF	0	3	1.497
+6-somite	ZF6S_WT_DS5	signal:FGF	0	4	3.235
+6-somite	ZF6S_WT_DS5	signal:FGF	0	5	5.666
+6-somite	ZF6S_WT_DS5	signal:FGF	1	0	-0.250
+6-somite	ZF6S_WT_DS5	signal:FGF	1	1	-0.336
+6-somite	ZF6S_WT_DS5	signal:FGF	1	2	-0.229
+6-somite	ZF6S_WT_DS5	signal:FGF	1	3	0.121
+6-somite	ZF6S_WT_DS5	signal:FGF	1	4	0.345
+6-somite	ZF6S_WT_DS5	signal:FGF	1	5	1.477
+6-somite	ZF6S_WT_DS5	signal:FGF	2	0	-0.382
+6-somite	ZF6S_WT_DS5	signal:FGF	2	1	-0.421
+6-somite	ZF6S_WT_DS5	signal:FGF	2	2	-0.310
+6-somite	ZF6S_WT_DS5	signal:FGF	2	3	-0.377
+6-somite	ZF6S_WT_DS5	signal:FGF	2	4	-0.322
+6-somite	ZF6S_WT_DS5	signal:FGF	2	5	-0.074
+6-somite	ZF6S_WT_DS5	signal:FGF	3	0	-0.557
+6-somite	ZF6S_WT_DS5	signal:FGF	3	1	-0.331
+6-somite	ZF6S_WT_DS5	signal:FGF	3	2	0.180
+6-somite	ZF6S_WT_DS5	signal:FGF	3	3	-0.346
+6-somite	ZF6S_WT_DS5	signal:FGF	3	4	-0.475
+6-somite	ZF6S_WT_DS5	signal:FGF	3	5	-0.249
+6-somite	ZF6S_WT_DS5	signal:Wnt	0	0	0.214
+6-somite	ZF6S_WT_DS5	signal:Wnt	0	1	0.277
+6-somite	ZF6S_WT_DS5	signal:Wnt	0	2	0.546
+6-somite	ZF6S_WT_DS5	signal:Wnt	0	3	1.694
+6-somite	ZF6S_WT_DS5	signal:Wnt	0	4	2.808
+6-somite	ZF6S_WT_DS5	signal:Wnt	0	5	3.100
+6-somite	ZF6S_WT_DS5	signal:Wnt	1	0	0.204
+6-somite	ZF6S_WT_DS5	signal:Wnt	1	1	0.023
+6-somite	ZF6S_WT_DS5	signal:Wnt	1	2	-0.040
+6-somite	ZF6S_WT_DS5	signal:Wnt	1	3	0.443
+6-somite	ZF6S_WT_DS5	signal:Wnt	1	4	0.562
+6-somite	ZF6S_WT_DS5	signal:Wnt	1	5	0.477
+6-somite	ZF6S_WT_DS5	signal:Wnt	2	0	-0.384
+6-somite	ZF6S_WT_DS5	signal:Wnt	2	1	-0.259
+6-somite	ZF6S_WT_DS5	signal:Wnt	2	2	-0.317
+6-somite	ZF6S_WT_DS5	signal:Wnt	2	3	-0.319
+6-somite	ZF6S_WT_DS5	signal:Wnt	2	4	-0.331
+6-somite	ZF6S_WT_DS5	signal:Wnt	2	5	-0.505
+6-somite	ZF6S_WT_DS5	signal:Wnt	3	0	-0.659
+6-somite	ZF6S_WT_DS5	signal:Wnt	3	1	-0.612
+6-somite	ZF6S_WT_DS5	signal:Wnt	3	2	-0.312
+6-somite	ZF6S_WT_DS5	signal:Wnt	3	3	-0.370
+6-somite	ZF6S_WT_DS5	signal:Wnt	3	4	-0.465
+6-somite	ZF6S_WT_DS5	signal:Wnt	3	5	-0.652
+6-somite	ZF6S_WT_DS5	signal:BMP	0	0	0.483
+6-somite	ZF6S_WT_DS5	signal:BMP	0	1	-0.070
+6-somite	ZF6S_WT_DS5	signal:BMP	0	2	-0.058
+6-somite	ZF6S_WT_DS5	signal:BMP	0	3	0.147
+6-somite	ZF6S_WT_DS5	signal:BMP	0	4	-0.283
+6-somite	ZF6S_WT_DS5	signal:BMP	0	5	-0.548
+6-somite	ZF6S_WT_DS5	signal:BMP	1	0	0.927
+6-somite	ZF6S_WT_DS5	signal:BMP	1	1	0.141
+6-somite	ZF6S_WT_DS5	signal:BMP	1	2	0.364
+6-somite	ZF6S_WT_DS5	signal:BMP	1	3	-0.124
+6-somite	ZF6S_WT_DS5	signal:BMP	1	4	-0.508
+6-somite	ZF6S_WT_DS5	signal:BMP	1	5	-0.159
+6-somite	ZF6S_WT_DS5	signal:BMP	2	0	0.948
+6-somite	ZF6S_WT_DS5	signal:BMP	2	1	0.254
+6-somite	ZF6S_WT_DS5	signal:BMP	2	2	0.181
+6-somite	ZF6S_WT_DS5	signal:BMP	2	3	-0.316
+6-somite	ZF6S_WT_DS5	signal:BMP	2	4	-0.487
+6-somite	ZF6S_WT_DS5	signal:BMP	2	5	-0.424
+6-somite	ZF6S_WT_DS5	signal:BMP	3	0	1.176
+6-somite	ZF6S_WT_DS5	signal:BMP	3	1	0.079
+6-somite	ZF6S_WT_DS5	signal:BMP	3	2	0.049
+6-somite	ZF6S_WT_DS5	signal:BMP	3	3	-0.482
+6-somite	ZF6S_WT_DS5	signal:BMP	3	4	-0.313
+6-somite	ZF6S_WT_DS5	signal:BMP	3	5	-0.493
+6-somite	ZF6S_WT_DS5	blocking:BMP	0	0	-0.321
+6-somite	ZF6S_WT_DS5	blocking:BMP	0	1	-0.450
+6-somite	ZF6S_WT_DS5	blocking:BMP	0	2	-0.215
+6-somite	ZF6S_WT_DS5	blocking:BMP	0	3	0.072
+6-somite	ZF6S_WT_DS5	blocking:BMP	0	4	0.768
+6-somite	ZF6S_WT_DS5	blocking:BMP	0	5	2.381
+6-somite	ZF6S_WT_DS5	blocking:BMP	1	0	-0.282
+6-somite	ZF6S_WT_DS5	blocking:BMP	1	1	0.141
+6-somite	ZF6S_WT_DS5	blocking:BMP	1	2	0.634
+6-somite	ZF6S_WT_DS5	blocking:BMP	1	3	0.841
+6-somite	ZF6S_WT_DS5	blocking:BMP	1	4	1.261
+6-somite	ZF6S_WT_DS5	blocking:BMP	1	5	2.973
+6-somite	ZF6S_WT_DS5	blocking:BMP	2	0	-0.256
+6-somite	ZF6S_WT_DS5	blocking:BMP	2	1	-0.069
+6-somite	ZF6S_WT_DS5	blocking:BMP	2	2	-0.051
+6-somite	ZF6S_WT_DS5	blocking:BMP	2	3	-0.277
+6-somite	ZF6S_WT_DS5	blocking:BMP	2	4	-0.118
+6-somite	ZF6S_WT_DS5	blocking:BMP	2	5	-0.053
+6-somite	ZF6S_WT_DS5	blocking:BMP	3	0	-0.502
+6-somite	ZF6S_WT_DS5	blocking:BMP	3	1	0.236
+6-somite	ZF6S_WT_DS5	blocking:BMP	3	2	0.218
+6-somite	ZF6S_WT_DS5	blocking:BMP	3	3	-0.341
+6-somite	ZF6S_WT_DS5	blocking:BMP	3	4	-0.377
+6-somite	ZF6S_WT_DS5	blocking:BMP	3	5	-0.109
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	0	0	-0.233
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	0	1	-0.234
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	0	2	-0.225
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	0	3	-0.130
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	0	4	0.255
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	0	5	1.745
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	1	0	-0.226
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	1	1	-0.153
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	1	2	-0.131
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	1	3	-0.150
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	1	4	0.111
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	1	5	2.096
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	2	0	-0.190
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	2	1	-0.156
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	2	2	-0.165
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	2	3	-0.185
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	2	4	0.206
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	2	5	0.499
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	3	0	-0.263
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	3	1	-0.113
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	3	2	-0.172
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	3	3	-0.202
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	3	4	-0.086
+6-somite	ZF6S_WT_DS5	sending:Hedgehog	3	5	0.459
+6-somite	ZF6S_WT_DS5b	signal:Nodal	0	0	-0.220
+6-somite	ZF6S_WT_DS5b	signal:Nodal	0	1	-0.153
+6-somite	ZF6S_WT_DS5b	signal:Nodal	0	2	-0.213
+6-somite	ZF6S_WT_DS5b	signal:Nodal	0	3	-0.253
+6-somite	ZF6S_WT_DS5b	signal:Nodal	0	4	-0.284
+6-somite	ZF6S_WT_DS5b	signal:Nodal	0	5	0.188
+6-somite	ZF6S_WT_DS5b	signal:Nodal	1	0	-0.177
+6-somite	ZF6S_WT_DS5b	signal:Nodal	1	1	-0.228
+6-somite	ZF6S_WT_DS5b	signal:Nodal	1	2	-0.206
+6-somite	ZF6S_WT_DS5b	signal:Nodal	1	3	-0.207
+6-somite	ZF6S_WT_DS5b	signal:Nodal	1	4	-0.144
+6-somite	ZF6S_WT_DS5b	signal:Nodal	1	5	0.511
+6-somite	ZF6S_WT_DS5b	signal:Nodal	2	0	-0.196
+6-somite	ZF6S_WT_DS5b	signal:Nodal	2	1	-0.174
+6-somite	ZF6S_WT_DS5b	signal:Nodal	2	2	-0.139
+6-somite	ZF6S_WT_DS5b	signal:Nodal	2	3	-0.111
+6-somite	ZF6S_WT_DS5b	signal:Nodal	2	4	0.389
+6-somite	ZF6S_WT_DS5b	signal:Nodal	2	5	-0.039
+6-somite	ZF6S_WT_DS5b	signal:Nodal	3	0	-0.187
+6-somite	ZF6S_WT_DS5b	signal:Nodal	3	1	-0.004
+6-somite	ZF6S_WT_DS5b	signal:Nodal	3	2	2.500
+6-somite	ZF6S_WT_DS5b	signal:Nodal	3	3	0.031
+6-somite	ZF6S_WT_DS5b	signal:Nodal	3	4	0.483
+6-somite	ZF6S_WT_DS5b	signal:Nodal	3	5	0.635
+6-somite	ZF6S_WT_DS5b	signal:FGF	0	0	-0.057
+6-somite	ZF6S_WT_DS5b	signal:FGF	0	1	0.228
+6-somite	ZF6S_WT_DS5b	signal:FGF	0	2	0.355
+6-somite	ZF6S_WT_DS5b	signal:FGF	0	3	1.327
+6-somite	ZF6S_WT_DS5b	signal:FGF	0	4	2.552
+6-somite	ZF6S_WT_DS5b	signal:FGF	0	5	6.838
+6-somite	ZF6S_WT_DS5b	signal:FGF	1	0	-0.358
+6-somite	ZF6S_WT_DS5b	signal:FGF	1	1	-0.304
+6-somite	ZF6S_WT_DS5b	signal:FGF	1	2	-0.371
+6-somite	ZF6S_WT_DS5b	signal:FGF	1	3	-0.132
+6-somite	ZF6S_WT_DS5b	signal:FGF	1	4	0.108
+6-somite	ZF6S_WT_DS5b	signal:FGF	1	5	2.411
+6-somite	ZF6S_WT_DS5b	signal:FGF	2	0	-0.458
+6-somite	ZF6S_WT_DS5b	signal:FGF	2	1	-0.240
+6-somite	ZF6S_WT_DS5b	signal:FGF	2	2	-0.584
+6-somite	ZF6S_WT_DS5b	signal:FGF	2	3	-0.470
+6-somite	ZF6S_WT_DS5b	signal:FGF	2	4	-0.165
+6-somite	ZF6S_WT_DS5b	signal:FGF	2	5	0.059
+6-somite	ZF6S_WT_DS5b	signal:FGF	3	0	-0.525
+6-somite	ZF6S_WT_DS5b	signal:FGF	3	1	-0.043
+6-somite	ZF6S_WT_DS5b	signal:FGF	3	2	-0.283
+6-somite	ZF6S_WT_DS5b	signal:FGF	3	3	-0.416
+6-somite	ZF6S_WT_DS5b	signal:FGF	3	4	-0.480
+6-somite	ZF6S_WT_DS5b	signal:FGF	3	5	-0.313
+6-somite	ZF6S_WT_DS5b	signal:Wnt	0	0	0.120
+6-somite	ZF6S_WT_DS5b	signal:Wnt	0	1	0.129
+6-somite	ZF6S_WT_DS5b	signal:Wnt	0	2	0.269
+6-somite	ZF6S_WT_DS5b	signal:Wnt	0	3	1.996
+6-somite	ZF6S_WT_DS5b	signal:Wnt	0	4	3.295
+6-somite	ZF6S_WT_DS5b	signal:Wnt	0	5	2.313
+6-somite	ZF6S_WT_DS5b	signal:Wnt	1	0	-0.190
+6-somite	ZF6S_WT_DS5b	signal:Wnt	1	1	0.049
+6-somite	ZF6S_WT_DS5b	signal:Wnt	1	2	-0.144
+6-somite	ZF6S_WT_DS5b	signal:Wnt	1	3	0.265
+6-somite	ZF6S_WT_DS5b	signal:Wnt	1	4	0.179
+6-somite	ZF6S_WT_DS5b	signal:Wnt	1	5	0.791
+6-somite	ZF6S_WT_DS5b	signal:Wnt	2	0	-0.537
+6-somite	ZF6S_WT_DS5b	signal:Wnt	2	1	-0.291
+6-somite	ZF6S_WT_DS5b	signal:Wnt	2	2	-0.173
+6-somite	ZF6S_WT_DS5b	signal:Wnt	2	3	-0.316
+6-somite	ZF6S_WT_DS5b	signal:Wnt	2	4	-0.332
+6-somite	ZF6S_WT_DS5b	signal:Wnt	2	5	-0.414
+6-somite	ZF6S_WT_DS5b	signal:Wnt	3	0	-0.580
+6-somite	ZF6S_WT_DS5b	signal:Wnt	3	1	-0.555
+6-somite	ZF6S_WT_DS5b	signal:Wnt	3	2	-0.275
+6-somite	ZF6S_WT_DS5b	signal:Wnt	3	3	-0.017
+6-somite	ZF6S_WT_DS5b	signal:Wnt	3	4	-0.405
+6-somite	ZF6S_WT_DS5b	signal:Wnt	3	5	-0.593
+6-somite	ZF6S_WT_DS5b	signal:BMP	0	0	0.433
+6-somite	ZF6S_WT_DS5b	signal:BMP	0	1	-0.053
+6-somite	ZF6S_WT_DS5b	signal:BMP	0	2	-0.075
+6-somite	ZF6S_WT_DS5b	signal:BMP	0	3	0.768
+6-somite	ZF6S_WT_DS5b	signal:BMP	0	4	0.110
+6-somite	ZF6S_WT_DS5b	signal:BMP	0	5	-0.520
+6-somite	ZF6S_WT_DS5b	signal:BMP	1	0	0.735
+6-somite	ZF6S_WT_DS5b	signal:BMP	1	1	0.385
+6-somite	ZF6S_WT_DS5b	signal:BMP	1	2	-0.228
+6-somite	ZF6S_WT_DS5b	signal:BMP	1	3	-0.262
+6-somite	ZF6S_WT_DS5b	signal:BMP	1	4	-0.384
+6-somite	ZF6S_WT_DS5b	signal:BMP	1	5	-0.297
+6-somite	ZF6S_WT_DS5b	signal:BMP	2	0	0.758
+6-somite	ZF6S_WT_DS5b	signal:BMP	2	1	0.219
+6-somite	ZF6S_WT_DS5b	signal:BMP	2	2	0.069
+6-somite	ZF6S_WT_DS5b	signal:BMP	2	3	-0.299
+6-somite	ZF6S_WT_DS5b	signal:BMP	2	4	-0.404
+6-somite	ZF6S_WT_DS5b	signal:BMP	2	5	-0.451
+6-somite	ZF6S_WT_DS5b	signal:BMP	3	0	1.112
+6-somite	ZF6S_WT_DS5b	signal:BMP	3	1	-0.160
+6-somite	ZF6S_WT_DS5b	signal:BMP	3	2	-0.166
+6-somite	ZF6S_WT_DS5b	signal:BMP	3	3	-0.300
+6-somite	ZF6S_WT_DS5b	signal:BMP	3	4	-0.458
+6-somite	ZF6S_WT_DS5b	signal:BMP	3	5	-0.439
+6-somite	ZF6S_WT_DS5b	blocking:BMP	0	0	-0.298
+6-somite	ZF6S_WT_DS5b	blocking:BMP	0	1	-0.229
+6-somite	ZF6S_WT_DS5b	blocking:BMP	0	2	0.032
+6-somite	ZF6S_WT_DS5b	blocking:BMP	0	3	-0.055
+6-somite	ZF6S_WT_DS5b	blocking:BMP	0	4	0.712
+6-somite	ZF6S_WT_DS5b	blocking:BMP	0	5	0.377
+6-somite	ZF6S_WT_DS5b	blocking:BMP	1	0	-0.480
+6-somite	ZF6S_WT_DS5b	blocking:BMP	1	1	0.673
+6-somite	ZF6S_WT_DS5b	blocking:BMP	1	2	0.586
+6-somite	ZF6S_WT_DS5b	blocking:BMP	1	3	0.446
+6-somite	ZF6S_WT_DS5b	blocking:BMP	1	4	0.799
+6-somite	ZF6S_WT_DS5b	blocking:BMP	1	5	2.610
+6-somite	ZF6S_WT_DS5b	blocking:BMP	2	0	-0.471
+6-somite	ZF6S_WT_DS5b	blocking:BMP	2	1	-0.100
+6-somite	ZF6S_WT_DS5b	blocking:BMP	2	2	-0.393
+6-somite	ZF6S_WT_DS5b	blocking:BMP	2	3	-0.316
+6-somite	ZF6S_WT_DS5b	blocking:BMP	2	4	-0.130
+6-somite	ZF6S_WT_DS5b	blocking:BMP	2	5	-0.254
+6-somite	ZF6S_WT_DS5b	blocking:BMP	3	0	-0.263
+6-somite	ZF6S_WT_DS5b	blocking:BMP	3	1	-0.302
+6-somite	ZF6S_WT_DS5b	blocking:BMP	3	2	-0.314
+6-somite	ZF6S_WT_DS5b	blocking:BMP	3	3	-0.261
+6-somite	ZF6S_WT_DS5b	blocking:BMP	3	4	-0.304
+6-somite	ZF6S_WT_DS5b	blocking:BMP	3	5	0.006
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	0	0	-0.260
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	0	1	-0.292
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	0	2	-0.287
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	0	3	-0.264
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	0	4	-0.179
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	0	5	3.940
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	1	0	-0.229
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	1	1	-0.228
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	1	2	-0.237
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	1	3	-0.173
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	1	4	-0.042
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	1	5	2.415
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	2	0	-0.260
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	2	1	-0.102
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	2	2	-0.112
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	2	3	-0.067
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	2	4	0.517
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	2	5	0.106
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	3	0	-0.252
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	3	1	-0.129
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	3	2	-0.118
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	3	3	-0.200
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	3	4	0.158
+6-somite	ZF6S_WT_DS5b	sending:Hedgehog	3	5	0.648

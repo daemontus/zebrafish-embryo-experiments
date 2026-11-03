@@ -1,0 +1,133 @@
+stage	profile	libraries	axes_correlation	rel1	consistent1	expected1	agrees1	rel2	consistent2	expected2	agrees2
+dome	signal:Nodal	1	0.157	-1.892	-1	-1	yes	1.557	1	1	yes
+dome	signal:FGF	1	0.157	-1.293	-1	-1	yes	1.675	1	0	
+dome	signal:Wnt	1	0.157	-1.077	-1	-1	yes	0.659	0	0	
+dome	signal:BMP	1	0.157	-1.399	-1	0		-2.113	-1	-1	yes
+dome	blocking:BMP	1	0.157	-1.198	-1	0		1.227	1	1	yes
+dome	sending:BMP_organizer	1	0.157	-0.103	0	0		-0.335	0	1	no
+dome	blocking:Wnt	1	0.157	-0.692	0	0		0.233	0	1	no
+dome	sending:Wnt/PCP	1	0.157	-1.820	-1	0		1.930	1	0	
+dome	receiving:Notch	1	0.157	-0.125	0	0		-0.048	0	0	
+dome	sending:Notch	1	0.157	-0.723	0	0		0.295	0	0	
+dome	blocking:RA	1	0.157	-0.434	0	0		-0.606	0	0	
+30% epiboly	signal:Nodal	2	0.228	-2.056	-1	-1	yes	0.320	0	1	no
+30% epiboly	signal:FGF	2	0.228	-2.265	-1	-1	yes	0.965	0	0	
+30% epiboly	signal:Wnt	2	0.228	-1.919	-1	-1	yes	0.211	0	0	
+30% epiboly	signal:BMP	2	0.228	-0.793	0	0		-3.295	-1	-1	yes
+30% epiboly	blocking:BMP	2	0.228	-1.284	0	0		1.127	0	1	no
+30% epiboly	sending:BMP_organizer	2	0.228	-0.147	0	0		1.540	1	1	yes
+30% epiboly	blocking:Wnt	2	0.228	-0.833	0	0		0.513	0	1	no
+30% epiboly	sending:Wnt/PCP	2	0.228	-2.773	-1	0		0.184	0	0	
+30% epiboly	receiving:Notch	2	0.228	0.201	0	0		-0.519	0	0	
+30% epiboly	sending:Notch	2	0.228	-1.462	-1	0		-0.025	0	0	
+30% epiboly	sending:RA	2	0.228	-1.432	-1	0		-0.256	0	0	
+30% epiboly	blocking:RA	2	0.228	-1.003	0	0		-1.530	0	0	
+50% epiboly	signal:Nodal	4	0.278	-1.700	-1	-1	yes	-0.187	0	1	no
+50% epiboly	signal:FGF	4	0.278	-1.517	-1	-1	yes	1.039	0	0	
+50% epiboly	signal:Wnt	4	0.278	-1.572	-1	-1	yes	0.259	0	0	
+50% epiboly	signal:BMP	4	0.278	-0.831	0	0		-3.843	-1	-1	yes
+50% epiboly	blocking:BMP	4	0.278	-0.899	0	0		2.497	1	1	yes
+50% epiboly	sending:BMP_organizer	4	0.278	0.436	0	0		2.896	1	1	yes
+50% epiboly	blocking:Wnt	4	0.278	-0.051	0	0		0.460	0	1	no
+50% epiboly	sending:Wnt/PCP	4	0.278	-1.952	-1	0		-0.025	0	0	
+50% epiboly	sending:Hedgehog	4	0.278	-0.620	0	0		0.257	0	1	no
+50% epiboly	receiving:Notch	4	0.278	0.018	0	0		-0.055	0	0	
+50% epiboly	sending:Notch	4	0.278	-0.832	0	0		-0.535	0	0	
+50% epiboly	sending:RA	4	0.278	-1.792	-1	0		-0.357	0	0	
+50% epiboly	blocking:RA	4	0.278	0.005	0	0		-1.147	0	0	
+shield	signal:Nodal	1	0.427	-1.276	-1	-1	yes	-0.351	0	1	no
+shield	signal:FGF	1	0.427	-1.358	-1	-1	yes	-0.152	0	0	
+shield	signal:Wnt	1	0.427	-1.479	-1	-1	yes	-0.857	0	0	
+shield	signal:BMP	1	0.427	-0.768	0	0		-3.749	-1	-1	yes
+shield	blocking:BMP	1	0.427	0.022	0	0		3.026	1	1	yes
+shield	sending:BMP_organizer	1	0.427	0.618	0	0		3.732	1	1	yes
+shield	blocking:Wnt	1	0.427	-0.060	0	0		1.233	1	1	yes
+shield	sending:Wnt/PCP	1	0.427	-1.532	-1	0		-1.191	-1	0	
+shield	sending:Hedgehog	1	0.427	-0.161	0	0		1.108	1	1	yes
+shield	receiving:Notch	1	0.427	-0.069	0	0		0.092	0	0	
+shield	sending:Notch	1	0.427	-0.456	0	0		-1.634	-1	0	
+shield	sending:RA	1	0.427	-1.387	-1	0		-1.374	-1	0	
+shield	blocking:RA	1	0.427	-0.125	0	0		0.302	0	0	
+60% epiboly	signal:Nodal	3	0.431	-1.188	0	-1	no	-0.199	0	1	no
+60% epiboly	signal:FGF	3	0.431	-1.178	0	-1	no	0.059	0	0	
+60% epiboly	signal:Wnt	3	0.431	-1.215	0	-1	no	-0.690	0	0	
+60% epiboly	signal:BMP	3	0.431	-0.236	0	0		-2.362	0	-1	no
+60% epiboly	blocking:BMP	3	0.431	0.151	0	0		1.864	0	1	no
+60% epiboly	sending:BMP_organizer	3	0.431	0.533	0	0		1.994	0	1	no
+60% epiboly	blocking:Wnt	3	0.431	0.316	0	0		1.342	0	1	no
+60% epiboly	sending:Wnt/PCP	3	0.431	-1.281	0	0		-1.111	0	0	
+60% epiboly	sending:Hedgehog	3	0.431	-0.150	0	0		0.465	0	1	no
+60% epiboly	receiving:Notch	3	0.431	-0.352	0	0		-0.485	0	0	
+60% epiboly	sending:Notch	3	0.431	-0.625	0	0		-1.228	0	0	
+60% epiboly	sending:RA	3	0.431	-1.289	0	0		-0.965	0	0	
+60% epiboly	blocking:RA	3	0.431	0.757	0	0		1.194	0	0	
+75% epiboly	signal:Nodal	3	0.566	-0.721	0	-1	no	0.304	0	1	no
+75% epiboly	signal:FGF	3	0.566	-0.976	0	-1	no	0.145	0	0	
+75% epiboly	signal:Wnt	3	0.566	-0.980	0	-1	no	-0.737	0	0	
+75% epiboly	signal:BMP	3	0.566	-0.394	0	0		-2.076	-1	-1	yes
+75% epiboly	blocking:BMP	3	0.566	0.366	0	0		1.702	1	1	yes
+75% epiboly	sending:BMP_organizer	3	0.566	0.626	0	0		1.944	1	1	yes
+75% epiboly	blocking:Wnt	3	0.566	0.342	0	0		1.687	0	1	no
+75% epiboly	sending:Wnt/PCP	3	0.566	-1.300	-1	0		-1.225	-1	0	
+75% epiboly	sending:Hedgehog	3	0.566	-0.089	0	0		0.791	0	1	no
+75% epiboly	receiving:Notch	3	0.566	-0.616	0	0		-0.732	0	0	
+75% epiboly	sending:Notch	3	0.566	-0.709	0	0		-1.541	-1	0	
+75% epiboly	sending:RA	3	0.566	-1.159	-1	0		-0.866	0	0	
+75% epiboly	receiving:RA	3	0.566	0.098	0	0		0.281	0	0	
+75% epiboly	blocking:RA	3	0.566	0.748	0	0		1.188	0	0	
+90% epiboly	signal:Nodal	3	0.620	-0.584	0	-1	no	0.217	0	1	no
+90% epiboly	signal:FGF	3	0.620	-0.650	0	-1	no	0.080	0	0	
+90% epiboly	signal:Wnt	3	0.620	-0.932	0	-1	no	-0.882	0	0	
+90% epiboly	signal:BMP	3	0.620	-0.436	0	0		-1.882	-1	-1	yes
+90% epiboly	blocking:BMP	3	0.620	0.824	0	0		1.852	1	1	yes
+90% epiboly	sending:BMP_organizer	3	0.620	0.963	0	0		1.435	1	1	yes
+90% epiboly	blocking:Wnt	3	0.620	0.799	0	0		1.617	1	1	yes
+90% epiboly	sending:Wnt/PCP	3	0.620	-1.184	-1	0		-1.459	-1	0	
+90% epiboly	sending:Hedgehog	3	0.620	-0.101	0	0		0.644	0	1	no
+90% epiboly	receiving:Notch	3	0.620	-0.799	0	0		-1.096	-1	0	
+90% epiboly	sending:Notch	3	0.620	-0.670	0	0		-1.041	-1	0	
+90% epiboly	sending:RA	3	0.620	-1.088	0	0		-0.854	0	0	
+90% epiboly	receiving:RA	3	0.620	0.453	0	0		0.230	0	0	
+90% epiboly	blocking:RA	3	0.620	1.634	1	0		1.076	1	0	
+bud	signal:Nodal	4	0.545	0.023	0	0		0.322	0	0	
+bud	signal:FGF	4	0.545	-0.660	0	-1	no	0.945	0	0	
+bud	signal:Wnt	4	0.545	-1.543	0	-1	no	-0.170	0	0	
+bud	signal:BMP	4	0.545	-0.605	0	0		-2.085	0	-1	no
+bud	blocking:BMP	4	0.545	0.686	0	0		1.233	0	0	
+bud	sending:BMP_organizer	4	0.545	-0.148	0	0		0.580	0	0	
+bud	blocking:Wnt	4	0.545	-0.244	0	1	no	0.466	0	0	
+bud	sending:Wnt/PCP	4	0.545	-1.490	0	0		-1.151	0	0	
+bud	sending:Hedgehog	4	0.545	0.144	0	0		0.343	0	1	no
+bud	receiving:Notch	4	0.545	-1.488	0	-1	no	-0.554	0	0	
+bud	sending:Notch	4	0.545	-1.255	0	0		0.137	0	0	
+bud	sending:RA	4	0.545	-1.104	0	-1	no	-0.663	0	0	
+bud	receiving:RA	4	0.545	0.124	0	0		0.148	0	0	
+bud	blocking:RA	4	0.545	0.975	0	0		1.093	0	0	
+3-somite	signal:Nodal	1	0.390	0.014	0	0		0.164	0	0	
+3-somite	signal:FGF	1	0.390	-1.235	-1	-1	yes	0.608	0	0	
+3-somite	signal:Wnt	1	0.390	-1.746	-1	-1	yes	-0.126	0	0	
+3-somite	signal:BMP	1	0.390	-0.340	0	0		-1.583	-1	-1	yes
+3-somite	blocking:BMP	1	0.390	0.220	0	0		1.077	1	0	
+3-somite	sending:BMP_organizer	1	0.390	-0.604	0	0		0.119	0	0	
+3-somite	blocking:Wnt	1	0.390	0.086	0	1	no	0.711	0	0	
+3-somite	sending:Wnt/PCP	1	0.390	-1.676	-1	0		-1.022	-1	0	
+3-somite	sending:Hedgehog	1	0.390	-0.058	0	0		0.427	0	1	no
+3-somite	receiving:Notch	1	0.390	-1.265	-1	-1	yes	0.196	0	0	
+3-somite	sending:Notch	1	0.390	-1.236	-1	0		0.242	0	0	
+3-somite	sending:RA	1	0.390	-0.929	0	-1	no	-0.819	0	0	
+3-somite	receiving:RA	1	0.390	-0.353	0	0		-0.240	0	0	
+3-somite	blocking:RA	1	0.390	-0.863	0	0		-0.033	0	0	
+6-somite	signal:Nodal	2	0.358	0.132	0	0		0.415	0	0	
+6-somite	signal:FGF	2	0.358	-1.561	-1	-1	yes	0.779	0	0	
+6-somite	signal:Wnt	2	0.358	-1.835	-1	-1	yes	0.211	0	0	
+6-somite	signal:BMP	2	0.358	-0.215	0	0		-0.975	0	-1	no
+6-somite	blocking:BMP	2	0.358	0.021	0	0		1.417	1	0	
+6-somite	sending:BMP_organizer	2	0.358	-0.712	0	0		0.223	0	0	
+6-somite	blocking:Wnt	2	0.358	-0.294	0	1	no	1.126	0	0	
+6-somite	sending:Wnt/PCP	2	0.358	-2.353	-1	0		-0.882	0	0	
+6-somite	sending:Hedgehog	2	0.358	0.206	0	0		0.770	0	1	no
+6-somite	receiving:Notch	2	0.358	-1.630	-1	-1	yes	0.636	0	0	
+6-somite	sending:Notch	2	0.358	-1.862	-1	0		0.512	0	0	
+6-somite	sending:RA	2	0.358	-0.858	0	-1	no	-0.348	0	0	
+6-somite	receiving:RA	2	0.358	-0.365	0	0		-0.075	0	0	
+6-somite	blocking:RA	2	0.358	-1.681	-1	0		-0.558	0	0	

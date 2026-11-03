@@ -102,6 +102,8 @@ coherence part only); delete the cache directory to start over.
 | `26_cell_programs.py` | per cell: all identity programs (supported or not) against their own permutation null (z, active), random gene sets as chance level, the top program and its margin, split-half reliability, which program wins where one is active but not on top (descendant/ancestor/sibling/unrelated); stress cells excluded (p53, dissociation, heat shock on top with margin >= 2); YSL/yolk and quality checks (nothing excluded); aligned stage UMAPs; per-program UMAPs of its active cells over all stages (`cell_programs_trajectories.pdf`); top programs vs the ZFIN windows (`cell_programs_zfin*.tsv`) | 16, 17 | cold ~30 min; cached runs ~2 min | `plot`; cache `cache/26` |
 | `28_population_heterogeneity.py` | heterogeneous genes (01b's test) within top-program populations (one library, >= 100 cells) vs as many random cells of the library; calls count with >= 10 driver cells (residual > 3); power from the control (recovered share of the library's strong genes detectable at that size; < 5 detectable = inconclusive); ubiquitous genes (>= 1/4 of conclusive populations, >= 4 programs) and their co-varying genes | 01b, 26 | ~30 min cold (8 workers); cached seconds | `plot`; cache `cache/28` |
 | `29_precursors.py` | precursors (cells with a program on top before it is supported): runner-up program and neighbours vs the expected parent, against the same share at supported stages (parent and child share genes); report table of where populations emerge | 26 | ~3 min | `plot` |
+| `30_fate_map.py` | schematic maps of where the programs arise (shield; bud outer and inner layer) with signal profiles, from `data/curated/fate_map_{territories,signals}.tsv`; appendix table of territories, sources and status | curated tables | seconds | |
+| `31_signal_map.py` | signalling profiles on coordinates of identity programs (animal-vegetal and dorsal-ventral up to 90% epiboly; anterior-posterior and medial-lateral from bud), relative to random gene sets, vs the expected directions of Table 2 (`EXPECTED`); grid maps | 26 | ~15 min cold; cached ~1 min | `plot`; cache `cache/31` |
 
 Shared modules:
 - `pipeline_utils.py`: paths, stages and batches, plot style,
@@ -121,10 +123,11 @@ Shared modules:
   (`zfin_records(max_year)`; ZFIN direct submissions get their year from the
   publication id).
 
-Report sections: 3 dataset (01), 4 heterogeneous genes (01b–01d),
+Report sections: 2 expected programs, their places and signals (30; Table of expected
+signalling, tested in 9), 3 dataset (01), 4 heterogeneous genes (01b–01d),
 5 a/b libraries (02, 03), 6 alignment (15), 7 programs: sets, structure,
 pseudobulk (16, 24, 25), 8 programs vs cells: support, prediction, levels
-(17, 22; the coherence map is drawn by 24), 9 programs and signals (21), 10 cells and
+(17, 22; the coherence map is drawn by 24), 9 programs and signals (21, 31), 10 cells and
 populations (26, 28, 29; populations still to come). 19 and 23 are exploration only.
 
 ## Conventions and conclusions that affect downstream work
@@ -288,6 +291,10 @@ can only be seen through their consequences. Sampling is uneven across stages.
   evidence type, strength, curated profile (`program`, `program_note`) and bib keys, references checked against Crossref
   and PubMed on 2026-10-29; read by 16 and 24),
   `gene_overrides.tsv` (manual gene → curated group, read by 16),
+  `fate_map_territories.tsv` and `fate_map_signals.tsv` (read by 30: one row per
+  placement decision of the schematic maps, with source, status verified / partly /
+  unverified and, where not verified, how to verify it; fix positions there, not in
+  the script),
   `archive/` (earlier curated programs and per-gene evidence; only the six
   cell states are still used).
 - `paper/` (local, gitignored): the paper, supplement and Table S2.
